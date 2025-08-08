@@ -1,4 +1,4 @@
-// == Bilibili 弹幕广告跳过插件 ==
+// == Bilibili 广告跳过助手 ==
 
 // === Global State ===
 let SKIP_MODE = 'manual';  // 'auto' | 'manual'
