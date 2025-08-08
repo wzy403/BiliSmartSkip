@@ -66,12 +66,12 @@
 ```
 BiliSmartSkip/
 ├── scr/                    # 源码文件夹
-│   ├── manifest.json       # 插件配置文件
 │   ├── content.js          # 内容脚本，主要逻辑实现
 │   ├── popup.html          # 插件弹窗界面
 │   ├── popup.js            # 弹窗交互逻辑
 │   └── icon.png            # 插件图标
 ├── LICENSE                 # 开源协议
+├── manifest.json           # 插件配置文件
 ├── README.md               # 项目说明文档（中文）
 └── README_EN.md            # 项目说明文档（英文）
 ```

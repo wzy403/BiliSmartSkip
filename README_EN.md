@@ -66,12 +66,12 @@ The extension can recognize various time formats in danmaku:
 ```
 BiliSmartSkip/
 ├── scr/                    # Source files folder
-│   ├── manifest.json       # Extension configuration file
 │   ├── content.js          # Content script with main logic
 │   ├── popup.html          # Extension popup interface
 │   ├── popup.js            # Popup interaction logic
 │   └── icon.png            # Extension icon
 ├── LICENSE                 # Open source license
+├── manifest.json           # Extension configuration file
 ├── README.md               # Project documentation (Chinese)
 └── README_EN.md            # Project documentation (English)
 ```
