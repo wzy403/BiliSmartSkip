@@ -71,9 +71,9 @@ BiliSmartSkip/
 │   ├── popup.js            # Popup interaction logic
 │   └── icon.png            # Extension icon
 ├── LICENSE                 # Open source license
-├── manifest.json           # Extension configuration file
 ├── README.md               # Project documentation (Chinese)
-└── README_EN.md            # Project documentation (English)
+├── README_EN.md            # Project documentation (English)
+└── manifest.json           # Extension configuration file
 ```
 
 ## 🛡️ Permissions Explained

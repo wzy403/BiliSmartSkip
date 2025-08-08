@@ -71,9 +71,9 @@ BiliSmartSkip/
 │   ├── popup.js            # 弹窗交互逻辑
 │   └── icon.png            # 插件图标
 ├── LICENSE                 # 开源协议
-├── manifest.json           # 插件配置文件
 ├── README.md               # 项目说明文档（中文）
-└── README_EN.md            # 项目说明文档（英文）
+├── README_EN.md            # 项目说明文档（英文）
+└── manifest.json           # 插件配置文件
 ```
 
 ## 🛡️ 权限说明
