@@ -8,14 +8,14 @@
   "content_scripts": [
     {
       "matches": ["https://www.bilibili.com/video/*"],
-      "js": ["./scr/content.js"],
+      "js": ["/scr/content.js"],
       "run_at": "document_idle"
     }
   ],
   "action": {
-    "default_popup": "./scr/popup.html"
+    "default_popup": "/scr/popup.html"
   },
   "icons": {
-    "48": "./scr/icon.png"
+    "48": "/scr/icon.png"
   }
 }
