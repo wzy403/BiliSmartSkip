@@ -1,13 +1,13 @@
 // == Bilibili 弹幕广告跳过插件 ==
 
-// === 全局状态 ===
+// === Global State ===
 let SKIP_MODE = 'manual';  // 'auto' | 'manual'
-let skipped = false;       // 标记是否已跳过广告
-let isBtnAdd = false;      // 跳过按钮是否已插入
-let currentVideo = null;   // 当前视频元素
-let currentAdSkipHandler = null;  // 当前绑定的时间监听器
+let skipped = false;       // Flag to indicate whether the ad has been skipped
+let isBtnAdd = false;      // Whether the skip button has been inserted
+let currentVideo = null;   // Current video element
+let currentAdSkipHandler = null;  // Current timeupdate event handler
 
-// === 样式化跳过按钮 ===
+// === Style the skip button ===
 const btn = document.createElement('button');
 Object.assign(btn.style, {
   position: 'absolute',
@@ -34,7 +34,7 @@ btn.addEventListener('mouseleave', () => {
   btn.style.transform = 'scale(1)';
 });
 
-// === 初始化插件 ===
+// === Initialize plugin ===
 function init() {
   console.log("Bilibili 广告跳过助手已启动");
 
@@ -54,7 +54,7 @@ function init() {
   observeURLChange();
 }
 
-// === 主逻辑入口 ===
+// === Main logic entry point ===
 function mainLogic() {
   cleanUp();
   (async () => {
@@ -64,7 +64,7 @@ function mainLogic() {
   })();
 }
 
-// === 清理旧视频状态 ===
+// === Clean up previous video state ===
 function cleanUp() {
   skipped = false;
   isBtnAdd = false;
@@ -80,7 +80,7 @@ function cleanUp() {
   // console.log("清理完成");
 }
 
-// === 监听 URL 变化（SPA 路由） ===
+// === Observe URL changes (for SPA routing) ===
 function observeURLChange() {
   let lastUrl = location.href;
   const observer = new MutationObserver(() => {
@@ -93,7 +93,7 @@ function observeURLChange() {
   observer.observe(document, { subtree: true, childList: true });
 }
 
-// === 等待视频元素加载出来 ===
+// === Wait for video element to load ===
 function waitForVideo(onVideoReady) {
   const videoElement = document.querySelector('video');
   if (videoElement) {
@@ -112,17 +112,16 @@ function waitForVideo(onVideoReady) {
   obs.observe(document.body, { childList: true, subtree: true });
 }
 
-// === 获取广告时间段 ===
+// === Get ad segment timestamps ===
 async function getSkipSegment() {
   const cid = await getCidFromPage();
   if (!cid) return null;
   const xmlDoc = await fetchDanmakuXML(cid);
   const adTimes = findAdTimestamps(xmlDoc);
-  // console.log("获取到的广告时间段:", adTimes);
   return adTimes.length === 2 ? { start: adTimes[0], end: adTimes[1] } : null;
 }
 
-// === 获取弹幕相关 ===
+// === Fetch danmaku-related data ===
 async function getCidFromPage() {
   const bvid = window.location.pathname.split('/')[2];
   const res = await fetch(`https://api.bilibili.com/x/player/pagelist?bvid=${bvid}`);
@@ -137,7 +136,7 @@ async function fetchDanmakuXML(cid) {
   return new DOMParser().parseFromString(text, 'text/xml');
 }
 
-// === 解析广告时间段 ===
+// === Parse ad timestamps from danmaku ===
 function findAdTimestamps(xmlDoc) {
   const danmus = Array.from(xmlDoc.getElementsByTagName("d"));
   const timePairs = [];
@@ -219,7 +218,7 @@ function formatTime(s) {
   return `${m}:${sec.toString().padStart(2, '0')}`;
 }
 
-// === 绑定广告跳过逻辑 ===
+// === Bind ad skipping logic ===
 function attachSkipper({ start, end }) {
   // console.log(`将在 ${formatTime(start)} → ${formatTime(end)} 自动/手动跳过广告`);
   currentAdSkipHandler = () => {
@@ -248,7 +247,7 @@ function skipToEnd(end) {
   // console.log(`跳过广告到 ${formatTime(end)}`);
   currentVideo.currentTime = end + 0.05;
   setTimeout(() => {
-    currentVideo.play().catch(err => console.warn('自动播放失败:', err));
+    currentVideo.play().catch(err => console.warn('Autoplay failed:', err));
   }, 300);
   skipped = true;
   if (isBtnAdd) {
