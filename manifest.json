@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili 广告跳过助手",
+  "version": "1.0",
+  "description": "通过识别弹幕跳过嵌入式广告段",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://www.bilibili.com/*", "https://comment.bilibili.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/video/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
