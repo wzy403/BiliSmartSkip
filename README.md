@@ -1,6 +1,6 @@
 # Bilibili 广告跳过助手
 
-[English](README_EN.md) | 中文
+中文 | [English](README_EN.md)
 
 一款智能的Chrome浏览器插件，通过分析弹幕内容自动识别B站视频中的嵌入式广告段，并提供自动或手动的跳过功能。
 

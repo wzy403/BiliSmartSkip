@@ -1,6 +1,6 @@
 # Bilibili Ad Skip Assistant (BiliSmartSkip)
 
-English | [中文](README.md)
+[中文](README.md) | English
 
 An intelligent Chrome browser extension that automatically identifies embedded ad segments in Bilibili videos by analyzing bullet comments (danmaku) and provides automatic or manual skip functionality.
 
