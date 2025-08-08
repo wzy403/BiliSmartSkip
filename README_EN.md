@@ -127,3 +127,10 @@ This project is licensed under the [GUN License](LICENSE).
 - ✅ Support for auto/manual skip modes
 - ✅ Intelligent danmaku time recognition
 - ✅ Beautiful user interface
+
+## ⚙️ Settings Interface & Ad Skip Functionality
+
+Clean, intuitive settings panel with one-click auto/manual skip toggle.
+When an ad is detected, a sleek "Skip Ad" button appears bottom-right for instant skipping.
+
+![Ad Skip Feature Demo](./img/full_screen.png)
