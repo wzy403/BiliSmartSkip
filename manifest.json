@@ -3,7 +3,7 @@
   "name": "Bilibili 广告跳过助手",
   "version": "1.0",
   "description": "通过识别弹幕跳过嵌入式广告段",
-  "permissions": ["storage", "scripting", "activeTab"],
+  "permissions": ["storage"],
   "host_permissions": ["https://www.bilibili.com/*", "https://comment.bilibili.com/*"],
   "content_scripts": [
     {
