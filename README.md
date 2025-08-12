@@ -26,9 +26,8 @@
 ## 📦 安装方法
 
 ### 方法一：Chrome商店安装（推荐）
-1. 打开 [Chrome Web Store](https://chrome.google.com/webstore)
-2. 搜索 "Bilibili 广告跳过助手"
-3. 点击"添加至Chrome"
+1. 打开 [Bilibili 广告跳过助手 - Chrome Web Store](https://chromewebstore.google.com/detail/bilibili-%E5%B9%BF%E5%91%8A%E8%B7%B3%E8%BF%87%E5%8A%A9%E6%89%8B/ecpppfmdhkopohdmplcafmbfoggijcpe)
+2. 点击"添加至Chrome"
 
 ### 方法二：开发者模式安装
 1. 下载本项目的所有文件

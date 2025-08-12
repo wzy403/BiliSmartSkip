@@ -25,10 +25,9 @@ The extension intelligently identifies ad segments through the following steps:
 
 ## 📦 Installation
 
-### Method 1: Chrome Web Store (Recommended)
-1. Open [Chrome Web Store](https://chrome.google.com/webstore)
-2. Search for "Bilibili Ad Skip Assistant"
-3. Click "Add to Chrome"
+### Method 1: Install from Chrome Web Store (Recommended)
+1. Open [Bilibili 广告跳过助手 - Chrome Web Store](https://chromewebstore.google.com/detail/bilibili-%E5%B9%BF%E5%91%8A%E8%B7%B3%E8%BF%87%E5%8A%A9%E6%89%8B/ecpppfmdhkopohdmplcafmbfoggijcpe)
+2. Click "Add to Chrome"
 
 ### Method 2: Developer Mode Installation
 1. Download all project files
