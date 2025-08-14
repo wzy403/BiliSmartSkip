@@ -77,8 +77,6 @@ BiliSmartSkip/
 ## 🛡️ 权限说明
 
 - `storage`: 保存用户的模式设置
-- `scripting`: 注入内容脚本到B站页面
-- `activeTab`: 获取当前标签页信息
 - `https://www.bilibili.com/*`: 访问B站视频页面
 - `https://comment.bilibili.com/*`: 获取弹幕数据
 

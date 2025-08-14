@@ -77,8 +77,6 @@ BiliSmartSkip/
 ## 🛡️ Permissions Explained
 
 - `storage`: Save user mode settings
-- `scripting`: Inject content scripts into Bilibili pages
-- `activeTab`: Access current tab information
 - `https://www.bilibili.com/*`: Access Bilibili video pages
 - `https://comment.bilibili.com/*`: Retrieve danmaku data
 
