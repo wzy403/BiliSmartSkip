@@ -25,9 +25,12 @@ The extension intelligently identifies ad segments through the following steps:
 
 ## 📦 Installation
 
-### Method 1: Install from Chrome Web Store (Recommended)
-1. Open [Bilibili 广告跳过助手 - Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)
-2. Click "Add to Chrome"
+### Method 1: Install from existing/add-on Store (Recommended)
+| Browser | Installation Steps |
+|--------|----------|
+| **Chrome** | 1. Open [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)<br>2. Click **「Add to Chrome」** |
+| **Firefox** | 1. Open [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)<br>2. Click **「Add to Firefox」** |
+
 
 ### Method 2: Developer Mode Installation
 1. Download all project files
