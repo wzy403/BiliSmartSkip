@@ -6,6 +6,9 @@ let skipped = false;       // Flag to indicate whether the ad has been skipped
 let isBtnAdd = false;      // Whether the skip button has been inserted
 let currentVideo = null;   // Current video element
 let currentAdSkipHandler = null;  // Current timeupdate event handler
+let isSuspiciousAd = false; // Whether the ad was detected using keyword matching (suspicious)
+let countdownTimer = null; // Countdown timer for skipping ads
+const COUNTDOWN = 5; // Countdown duration in seconds
 
 // === Style the skip button ===
 const btn = document.createElement('button');
@@ -24,7 +27,6 @@ Object.assign(btn.style, {
   zIndex: 999999,
   transition: 'background 0.3s, transform 0.2s',
 });
-btn.textContent = '跳过广告';
 btn.addEventListener('mouseenter', () => {
   btn.style.background = 'rgba(0, 0, 0, 0.85)';
   btn.style.transform = 'scale(1.05)';
@@ -75,6 +77,13 @@ function cleanUp() {
     currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
   }
 
+  if (countdownTimer){
+    clearInterval(countdownTimer);
+    countdownTimer = null;
+  }
+
+  isSuspiciousAd = false;
+
   currentVideo = null;
   currentAdSkipHandler = null;
   // console.log("清理完成");
@@ -116,9 +125,79 @@ function waitForVideo(onVideoReady) {
 async function getSkipSegment() {
   const cid = await getCidFromPage();
   if (!cid) return null;
-  const xmlDoc = await fetchDanmakuXML(cid);
-  const adTimes = findAdTimestamps(xmlDoc);
-  return adTimes.length === 2 ? { start: adTimes[0], end: adTimes[1] } : null;
+  const danmaku = await fetchDanmakuWithTime(cid);
+  let adTimes = findAdTimestamps(danmaku);
+  if (!adTimes) {
+    isSuspiciousAd = true;
+    adTimes = getAdTimeByKeywords(danmaku);
+  }
+
+  if (!checkAdSegVaild(adTimes, danmaku)) {
+    // console.log("未检测到广告相关弹幕，放弃跳过");
+    return null;
+  }
+
+  return adTimes;
+}
+
+function checkAdSegVaild(adTimes, danmaku) {
+  if (!adTimes || adTimes.start < 60) return false;
+
+  if (adTimes.end - adTimes.start >= 180 || adTimes.end >= danmaku[danmaku.length - 1].time - 20) {
+    return false;
+  }
+
+  return true;
+}
+
+// === Keyword-based ad time detection (fallback) ===
+function getAdTimeByKeywords(danmaku) {
+  const filterSet = ["已买","购买","购入","接广","广告","广子","欢迎回来","感谢金主","买了","恭喜接广","下单","期待发货","付款"];
+  const startTime = 0, endTime = danmaku[danmaku.length - 1].time;
+  let possibleAdTimes = []
+  danmaku.forEach(d => {
+    const time = d.time;
+    if (time >= startTime && time <= endTime) {
+      const text = d.textContent;
+      for (const f of filterSet) {
+        if (text.includes(f)) {
+          // console.log(`广告相关弹幕：${formatTime(time)}s - "${text}"`);
+          possibleAdTimes.push(time);
+        }
+      }
+    }
+  });
+
+  const AD_MAX_DURATION = 100, AD_MIN_DURATION = 30;
+  let i = 0, j = 1;
+  let adStart, adEnd;
+  while (i < possibleAdTimes.length && j < possibleAdTimes.length) {
+    const start = possibleAdTimes[i];
+    const end = possibleAdTimes[j];
+
+    if (end - start > AD_MAX_DURATION) {
+      if (adStart) {
+        break;
+      }
+      if (j - 1 == i){
+        j++;
+      }
+      i++;
+    }else {
+      if(end - start >= AD_MIN_DURATION) {
+        adStart = start;
+        adEnd = end;
+      }
+      j++;
+    }
+  }
+
+  // console.log("possibleAdTimes:", possibleAdTimes);
+
+  if (adStart) {
+    return { start: adStart - 5, end: adEnd };
+  }
+  return null;
 }
 
 // === Fetch danmaku-related data ===
@@ -129,20 +208,26 @@ async function getCidFromPage() {
   return data.data[0]?.cid || null;
 }
 
-async function fetchDanmakuXML(cid) {
+async function fetchDanmakuWithTime(cid) {
+  // console.log(`Fetching danmaku XML for CID: ${cid}`);
   const url = `https://comment.bilibili.com/${cid}.xml`;
   const res = await fetch(url);
   const text = await res.text();
-  return new DOMParser().parseFromString(text, 'text/xml');
+  const danmakuXML = new DOMParser().parseFromString(text, 'text/xml');
+  const danmaku = Array.from(danmakuXML.getElementsByTagName("d")).map(d => ({
+    time: parseFloat(d.getAttribute("p").split(",")[0]),
+    textContent: d.textContent
+  }));
+  danmaku.sort((a, b) => a.time - b.time);
+  return danmaku;
 }
 
 // === Parse ad timestamps from danmaku ===
-function findAdTimestamps(xmlDoc) {
-  const danmus = Array.from(xmlDoc.getElementsByTagName("d"));
-  const timePairs = [];
+function findAdTimestamps(danmaku) {
+  let timePairs = [];
 
-  danmus.forEach(d => {
-    const start = parseFloat(d.getAttribute("p").split(",")[0]);
+  danmaku.forEach(d => {
+    const start = d.time;
     const text = d.textContent;
     const endInfo = extractTimeFromText(text);
 
@@ -151,12 +236,13 @@ function findAdTimestamps(xmlDoc) {
       timePairs.push({
         start: start,
         end: endInfo.time,
-        confidence: endInfo.confidence
+        confidence: endInfo.confidence,
+        text: text
       });
     }
   });
 
-  if (timePairs.length === 0) return [];
+  if (timePairs.length === 0) return null;
 
   timePairs.sort((a, b) => a.start - b.start);
 
@@ -167,7 +253,7 @@ function findAdTimestamps(xmlDoc) {
   });
 
   const [mostLikelyEnd, totalConfidence] = Object.entries(endTimeCounts).sort((a, b) => b[1] - a[1])[0];
-  if (totalConfidence < 0.9) return [];
+  if (totalConfidence < 0.9) return null;
 
   const PET = parseInt(mostLikelyEnd);
   let startTime = null;
@@ -183,7 +269,7 @@ function findAdTimestamps(xmlDoc) {
   }
 
   // console.log(`最终判定：广告开始于 ${formatTime(startTime)}，结束于 ${formatTime(endTime)}`);
-  return startTime ? [startTime, endTime] : [];
+  return startTime ? { start: startTime, end: endTime } : null;
 }
 
 function extractTimeFromText(text) {
@@ -193,10 +279,10 @@ function extractTimeFromText(text) {
   const match2 = text.match(/([一二三四五六七八九]?十[一二三四五六七八九]?|[一二三四五六七八九]|\d)分([一二三四五六七八九]?十[一二三四五六七八九]?|[一二三四五六七八九]|\d{1,2})秒?/);
   if (match2) return { time: zhNumToInt(match2[1]) * 60 + zhNumToInt(match2[2]), confidence: 1 };
 
-  const match3 = text.match(/(\d+(?:[\.\,，]\d+))\s*(分钟|分|min|m)?/i);
-  if (match3 && parseFloat(match3[1]) < 30) {
-    return { time: Math.floor(parseFloat(match3[1]) * 60), confidence: 0.3 };
-  }
+  // const match3 = text.match(/(\d+(?:[\.\,，]\d+))\s*(分钟|分|min|m)?/i);
+  // if (match3 && parseFloat(match3[1]) < 30) {
+  //   return { time: Math.floor(parseFloat(match3[1]) * 60), confidence: 0.3 };
+  // }
 
   return null;
 }
@@ -223,17 +309,14 @@ function attachSkipper({ start, end }) {
   // console.log(`将在 ${formatTime(start)} → ${formatTime(end)} 自动/手动跳过广告`);
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
-
-    if (SKIP_MODE === 'auto') {
-      if (!skipped && t >= start && t < end) {
+    if (SKIP_MODE === 'auto' && !skipped && !isSuspiciousAd) {
+      if (t >= start && t < end) {
         skipToEnd(end);
-      } else if (skipped && t < start - 0.2) {
-        skipped = false;
       }
     } else {
-      if (!isBtnAdd && t >= start && t < end) {
+      if (!isBtnAdd && isSuspiciousAd && t >= start && t < end) {
         addSkipBtn(end);
-      } else if (btn && (t < start - 0.2 || t > end + 0.2)) {
+      } else if (t < start - 0.2 || t > end + 0.2) {
         btn.remove();
         isBtnAdd = false;
       }
@@ -253,10 +336,34 @@ function skipToEnd(end) {
   if (isBtnAdd) {
     btn.remove();
     isBtnAdd = false;
+    if (countdownTimer){
+      clearInterval(countdownTimer);
+      countdownTimer = null;
+    }
   }
 }
 
 function addSkipBtn(end) {
+  if (!isSuspiciousAd){
+    btn.textContent = '跳过广告';
+  }else {
+    let countdown = COUNTDOWN;
+    btn.textContent = `跳过疑似广告 (${countdown})`;
+    countdownTimer = setInterval(() => {
+      countdown--;
+      if (countdown == -1){
+        clearInterval(countdownTimer);
+        countdownTimer = null;
+        btn.remove();
+
+        return;
+      }else if (countdown > 0){
+        btn.textContent = `跳过疑似广告 (${countdown})`;
+      }
+
+    }, 1000)
+  }
+
   const container = currentVideo.parentElement;
   if (getComputedStyle(container).position === 'static') {
     container.style.position = 'relative';

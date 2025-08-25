@@ -25,9 +25,12 @@ The extension intelligently identifies ad segments through the following steps:
 
 ## 📦 Installation
 
-### Method 1: Install from Chrome Web Store (Recommended)
-1. Open [Bilibili 广告跳过助手 - Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)
-2. Click "Add to Chrome"
+### Method 1: Install from existing/add-on Store (Recommended)
+| Browser | Installation Steps |
+|--------|----------|
+| **Chrome** | 1. Open [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)<br>2. Click **「Add to Chrome」** |
+| **Firefox** | 1. Open [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)<br>2. Click **「Add to Firefox」** |
+
 
 ### Method 2: Developer Mode Installation
 1. Download all project files
@@ -58,6 +61,8 @@ The extension can recognize various time formats in danmaku:
 - **Chinese Numbers**: `五分三十秒` (five minutes thirty seconds), `十分钟` (ten minutes)
 - **Mixed Format**: `5分30秒`, `10.5分钟`
 - **English Format**: `5min30s`, `10m`
+
+If the time format recognition fails, the extension will attempt to use keyword matching for identification.
 
 ## 📁 Project Structure
 
@@ -117,6 +122,10 @@ Issues and Pull Requests are welcome!
 This project is licensed under the [GUN License](LICENSE).
 
 ## 📈 Version History
+
+### v1.1.0
+- 🎉 Added countdown skip feature
+- ✅ Optimized ad segment recognition algorithm
 
 ### v1.0.0
 - 🎉 Initial release

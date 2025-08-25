@@ -25,9 +25,12 @@
 
 ## 📦 安装方法
 
-### 方法一：Chrome商店安装（推荐）
-1. 打开 [Bilibili 广告跳过助手 - Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)
-2. 点击"添加至Chrome"
+### 方法一：商店安装（推荐）
+
+| 浏览器 | 安装步骤 |
+|--------|----------|
+| **Chrome** | 1. 打开 [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)<br>2. 点击 **「添加至Chrome」** |
+| **Firefox** | 1. 打开 [Firefox 附加组件](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)<br>2. 点击 **「添加到Firefox」** |
 
 ### 方法二：开发者模式安装
 1. 下载本项目的所有文件
@@ -58,6 +61,8 @@
 - **中文数字**: `五分三十秒`、`十分钟`
 - **混合格式**: `5分30秒`、`10.5分钟`
 - **英文格式**: `5min30s`、`10m`
+
+若无法通过时间格式识别广告段，插件会尝试使用关键词匹配的方式进行识别。
 
 ## 📁 项目结构
 
@@ -117,6 +122,10 @@ BiliSmartSkip/
 本项目采用 [GUN License](LICENSE) 开源协议。
 
 ## 📈 版本历史
+
+### v1.1.0
+- 🎉 新增倒计时跳过功能
+- ✅ 优化了广告段识别算法
 
 ### v1.0.0
 - 🎉 首次发布
