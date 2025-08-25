@@ -59,6 +59,8 @@ The extension can recognize various time formats in danmaku:
 - **Mixed Format**: `5分30秒`, `10.5分钟`
 - **English Format**: `5min30s`, `10m`
 
+If the time format recognition fails, the extension will attempt to use keyword matching for identification.
+
 ## 📁 Project Structure
 
 ```
@@ -117,6 +119,10 @@ Issues and Pull Requests are welcome!
 This project is licensed under the [GUN License](LICENSE).
 
 ## 📈 Version History
+
+### v1.1.0
+- 🎉 Added countdown skip feature
+- ✅ Optimized ad segment recognition algorithm
 
 ### v1.0.0
 - 🎉 Initial release
