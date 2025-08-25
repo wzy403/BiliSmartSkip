@@ -17,5 +17,11 @@
   },
   "icons": {
     "48": "/scr/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bilismartskip@addon.dev",
+      "strict_min_version": "109.0"
+    }
   }
 }
