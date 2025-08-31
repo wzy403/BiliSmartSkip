@@ -20,7 +20,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "bilismartskip@addon.dev",
+      "id": "bilismartskip@extanstion.dev",
       "strict_min_version": "109.0"
     }
   }
