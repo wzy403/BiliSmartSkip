@@ -273,7 +273,7 @@ function findAdTimestamps(danmaku) {
 }
 
 function extractTimeFromText(text) {
-  const match1 = text.match(/(\d{1,2})[:：](\d{2})/);
+  const match1 = text.match(/(\d{1,2})[:;：；](\d{2})/);
   if (match1) return { time: parseInt(match1[1]) * 60 + parseInt(match1[2]), confidence: 1 };
 
   const match2 = text.match(/([一二三四五六七八九]?十[一二三四五六七八九]?|[一二三四五六七八九]|\d)分([一二三四五六七八九]?十[一二三四五六七八九]?|[一二三四五六七八九]|\d{1,2})秒?/);
@@ -307,6 +307,7 @@ function formatTime(s) {
 // === Bind ad skipping logic ===
 function attachSkipper({ start, end }) {
   // console.log(`将在 ${formatTime(start)} → ${formatTime(end)} 自动/手动跳过广告`);
+  // console.log('is suspicious ad:', isSuspiciousAd);
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
     if (SKIP_MODE === 'auto' && !skipped && !isSuspiciousAd) {
@@ -314,7 +315,7 @@ function attachSkipper({ start, end }) {
         skipToEnd(end);
       }
     } else {
-      if (!isBtnAdd && isSuspiciousAd && t >= start && t < end) {
+      if (!isBtnAdd && t >= start && t < end) {
         addSkipBtn(end);
       } else if (t < start - 0.2 || t > end + 0.2) {
         btn.remove();
