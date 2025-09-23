@@ -160,13 +160,13 @@ function checkAdSegVaild(adTimes, danmaku) {
 
 // === Keyword-based ad time detection (fallback) ===
 function getAdTimeByKeywords(danmaku) {
-  const filterSet = ["已买","购买","购入","接广","广告","广子","欢迎回来","感谢金主","买了","恭喜接广","下单","期待发货","付款"];
+  const filterSet = ["已买","购买","购入","接广","广告","广子","欢迎回来","感谢金主","买了","恭喜接广","下单","期待发货","付款", "商单", "买买买", "恰饭", "恰上饭"];
   const startTime = 0, endTime = danmaku[danmaku.length - 1].time;
   let possibleAdTimes = []
   danmaku.forEach(d => {
     const time = d.time;
     if (time >= startTime && time <= endTime) {
-      const text = d.textContent;
+      const text = d.textContent.trim();
       for (const f of filterSet) {
         if (text.includes(f)) {
           // console.log(`广告相关弹幕：${formatTime(time)}s - "${text}"`);
@@ -343,12 +343,12 @@ function skipToEnd(end) {
   }, 300);
   skipped = true;
   btnCleanUp();
+  isBtnAdd = false;
 }
 
 function btnCleanUp(){
   if (isBtnAdd) {
     btn.remove();
-    isBtnAdd = false;
     if (countdownTimer){
       clearInterval(countdownTimer);
       countdownTimer = null;
@@ -380,8 +380,8 @@ function cleanUpBtnEvents(){
   }
 }
 
-function possibleAdCountdown(countdown){
-  let countdown = COUNTDOWN;
+function possibleAdCountdown(counter){
+  let countdown = counter;
   btn.textContent = `跳过疑似广告 (${countdown})`;
   
   const countdownStart = () => {
@@ -397,33 +397,42 @@ function possibleAdCountdown(countdown){
     }, 1000);
   };
 
-  addEventListener('mouseenter', () => {
+  buttonEventHandlers.mouseenter = () => {
     if (countdownTimer) {
       clearInterval(countdownTimer);
       countdownTimer = null;
     }
-  });
-  addEventListener('mouseleave', () => {
+  };
+  btn.addEventListener('mouseenter', buttonEventHandlers.mouseenter);
+  buttonEventHandlers.mouseleave = () => {
     if (!countdownTimer && countdown > 0) {
       countdownStart();
     }
-  });
+  };
+  btn.addEventListener('mouseleave', buttonEventHandlers.mouseleave);
   currentVideo.addEventListener('play', () => {
     if (!countdownTimer && countdown > 0) {
       countdownStart();
     }
   });
-  currentVideo.addEventListener('pause', () => {
+  buttonEventHandlers.play = () => {
+    if (!countdownTimer && countdown > 0) {
+      countdownStart();
+    }
+  };
+  currentVideo.addEventListener('play', buttonEventHandlers.play);
+  buttonEventHandlers.pause = () => {
     if (countdownTimer) {
       clearInterval(countdownTimer);
       countdownTimer = null;
     }
-  });
+  };
+  currentVideo.addEventListener('pause', buttonEventHandlers.pause);
   countdownStart();
 }
 
 function addSkipBtn(end) {
-  btnCleanUp();
+  cleanUpBtnEvents();
   if (!isSuspiciousAd){
     btn.textContent = '跳过广告';
   }else {
