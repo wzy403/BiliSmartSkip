@@ -10,6 +10,14 @@ let isSuspiciousAd = false; // Whether the ad was detected using keyword matchin
 let countdownTimer = null; // Countdown timer for skipping ads
 const COUNTDOWN = 5; // Countdown duration in seconds
 
+let buttonEventHandlers = {
+  click: null,
+  mouseenter: null,
+  mouseleave: null,
+  play: null,
+  pause: null
+}
+
 // === Style the skip button ===
 const btn = document.createElement('button');
 Object.assign(btn.style, {
@@ -152,13 +160,13 @@ function checkAdSegVaild(adTimes, danmaku) {
 
 // === Keyword-based ad time detection (fallback) ===
 function getAdTimeByKeywords(danmaku) {
-  const filterSet = ["已买","购买","购入","接广","广告","广子","欢迎回来","感谢金主","买了","恭喜接广","下单","期待发货","付款"];
+  const filterSet = ["已买","购买","购入","接广","广告","广子","欢迎回来","感谢金主","买了","恭喜接广","下单","期待发货","付款", "商单", "买买买", "恰饭", "恰上饭"];
   const startTime = 0, endTime = danmaku[danmaku.length - 1].time;
   let possibleAdTimes = []
   danmaku.forEach(d => {
     const time = d.time;
     if (time >= startTime && time <= endTime) {
-      const text = d.textContent;
+      const text = d.textContent.trim();
       for (const f of filterSet) {
         if (text.includes(f)) {
           // console.log(`广告相关弹幕：${formatTime(time)}s - "${text}"`);
@@ -260,6 +268,7 @@ function findAdTimestamps(danmaku) {
   let endTime = PET;
 
   for (const { start, end } of timePairs) {
+    if (end - start < 30) continue;
     if (!startTime && Math.round(end) === PET) {
       startTime = start + 5;
     } else if (Math.round(end) === PET && Math.round(start) - PET > 0) {
@@ -318,7 +327,7 @@ function attachSkipper({ start, end }) {
       if (!isBtnAdd && t >= start && t < end) {
         addSkipBtn(end);
       } else if (t < start - 0.2 || t > end + 0.2) {
-        btn.remove();
+        btnCleanUp();
         isBtnAdd = false;
       }
     }
@@ -334,42 +343,107 @@ function skipToEnd(end) {
     currentVideo.play().catch(err => console.warn('Autoplay failed:', err));
   }, 300);
   skipped = true;
-  if (isBtnAdd) {
-    btn.remove();
-    isBtnAdd = false;
-    if (countdownTimer){
-      clearInterval(countdownTimer);
-      countdownTimer = null;
-    }
+  btnCleanUp();
+  isBtnAdd = false;
+}
+
+function btnCleanUp(){
+  btn.remove();
+  if (countdownTimer){
+    clearInterval(countdownTimer);
+    countdownTimer = null;
+  }
+  cleanUpBtnEvents();
+}
+
+function cleanUpBtnEvents(){
+  if (buttonEventHandlers.click){
+    btn.removeEventListener('click', buttonEventHandlers.click);
+    buttonEventHandlers.click = null;
+  }
+  if (buttonEventHandlers.mouseenter){
+    btn.removeEventListener('mouseenter', buttonEventHandlers.mouseenter);
+    buttonEventHandlers.mouseenter = null;
+  }
+  if (buttonEventHandlers.mouseleave){
+    btn.removeEventListener('mouseleave', buttonEventHandlers.mouseleave);
+    buttonEventHandlers.mouseleave = null;
+  }
+  if (buttonEventHandlers.play){
+    currentVideo.removeEventListener('play', buttonEventHandlers.play);
+    buttonEventHandlers.play = null;
+  }
+  if (buttonEventHandlers.pause){
+    currentVideo.removeEventListener('pause', buttonEventHandlers.pause);
+    buttonEventHandlers.pause = null;
   }
 }
 
-function addSkipBtn(end) {
-  if (!isSuspiciousAd){
-    btn.textContent = '跳过广告';
-  }else {
-    let countdown = COUNTDOWN;
-    btn.textContent = `跳过疑似广告 (${countdown})`;
+function possibleAdCountdown(counter){
+  let countdown = counter;
+  btn.textContent = `跳过疑似广告 (${countdown})`;
+  
+  const countdownStart = () => {
     countdownTimer = setInterval(() => {
       countdown--;
       if (countdown == -1){
-        clearInterval(countdownTimer);
-        countdownTimer = null;
-        btn.remove();
-
+        btnCleanUp();
         return;
       }else if (countdown > 0){
         btn.textContent = `跳过疑似广告 (${countdown})`;
       }
 
-    }, 1000)
+    }, 1000);
+  };
+
+  buttonEventHandlers.mouseenter = () => {
+    if (countdownTimer) {
+      clearInterval(countdownTimer);
+      countdownTimer = null;
+    }
+  };
+  btn.addEventListener('mouseenter', buttonEventHandlers.mouseenter);
+  buttonEventHandlers.mouseleave = () => {
+    if (!countdownTimer && countdown > 0) {
+      countdownStart();
+    }
+  };
+  btn.addEventListener('mouseleave', buttonEventHandlers.mouseleave);
+  currentVideo.addEventListener('play', () => {
+    if (!countdownTimer && countdown > 0) {
+      countdownStart();
+    }
+  });
+  buttonEventHandlers.play = () => {
+    if (!countdownTimer && countdown > 0) {
+      countdownStart();
+    }
+  };
+  currentVideo.addEventListener('play', buttonEventHandlers.play);
+  buttonEventHandlers.pause = () => {
+    if (countdownTimer) {
+      clearInterval(countdownTimer);
+      countdownTimer = null;
+    }
+  };
+  currentVideo.addEventListener('pause', buttonEventHandlers.pause);
+  countdownStart();
+}
+
+function addSkipBtn(end) {
+  cleanUpBtnEvents();
+  if (!isSuspiciousAd){
+    btn.textContent = '跳过广告';
+  }else {
+    possibleAdCountdown(COUNTDOWN);
   }
 
   const container = currentVideo.parentElement;
   if (getComputedStyle(container).position === 'static') {
     container.style.position = 'relative';
   }
-  btn.addEventListener('click', () => skipToEnd(end));
+  buttonEventHandlers.click = () => skipToEnd(end);
+  btn.addEventListener('click', buttonEventHandlers.click);
   container.appendChild(btn);
   isBtnAdd = true;
 }

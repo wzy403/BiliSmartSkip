@@ -4,16 +4,16 @@
 
 An intelligent Chrome browser extension that automatically identifies embedded ad segments in Bilibili videos by analyzing bullet comments (danmaku) and provides automatic or manual skip functionality.
 
-## ✨ Features
+## Features
 
-- 🎯 **Smart Detection**: Precisely identifies ad segments by analyzing time information in bullet comments
-- 🤖 **Auto Skip**: Supports automatic ad segment skipping without manual intervention
-- 👆 **Manual Skip**: Displays skip button during ad segments for user choice
-- 🔄 **Mode Switching**: Freely switch between automatic and manual modes
-- 🚀 **Lightweight & Efficient**: No background processes, no impact on page performance
-- 🎨 **User-Friendly Interface**: Beautiful skip button and settings UI
+- **Smart Detection**: Precisely identifies ad segments by analyzing time information in bullet comments
+- **Auto Skip**: Supports automatic ad segment skipping without manual intervention
+- **Manual Skip**: Displays skip button during ad segments for user choice
+- **Mode Switching**: Freely switch between automatic and manual modes
+- **Lightweight & Efficient**: No background processes, no impact on page performance
+- **User-Friendly Interface**: Beautiful skip button and settings UI
 
-## 🎭 How It Works
+## How It Works
 
 The extension intelligently identifies ad segments through the following steps:
 
@@ -39,7 +39,7 @@ The extension intelligently identifies ad segments through the following steps:
 4. Click "Load unpacked"
 5. Select the folder containing the extension files
 
-## 📖 Usage
+## Usage
 
 ### Basic Usage
 1. After installing the extension, open any Bilibili video page
@@ -53,7 +53,7 @@ The extension intelligently identifies ad segments through the following steps:
 2. Use the toggle switch to change between "Manual" and "Auto" modes
 3. Settings are automatically saved and applied across all tabs
 
-## 🎯 Supported Time Formats
+## Supported Time Formats
 
 The extension can recognize various time formats in danmaku:
 
@@ -64,7 +64,7 @@ The extension can recognize various time formats in danmaku:
 
 If the time format recognition fails, the extension will attempt to use keyword matching for identification.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BiliSmartSkip/
@@ -79,27 +79,18 @@ BiliSmartSkip/
 └── manifest.json           # Extension configuration file
 ```
 
-## 🛡️ Permissions Explained
+## Permissions Explained
 
 - `storage`: Save user mode settings
 - `https://www.bilibili.com/*`: Access Bilibili video pages
 - `https://comment.bilibili.com/*`: Retrieve danmaku data
 
-## 🔒 Privacy Protection
+## Privacy Protection
 
 - This extension does not collect any personal information
 - All data processing is performed locally
 - Only accesses publicly available Bilibili danmaku API
 - No data is sent to third-party servers
-
-## 🐛 Troubleshooting
-
-If you encounter issues while using the extension:
-
-1. Ensure you're using it on Bilibili video pages
-2. Confirm the extension is properly installed and enabled
-3. Try refreshing the page
-4. Check browser console for error messages
 
 ## 🤝 Contributing
 
@@ -117,11 +108,11 @@ Issues and Pull Requests are welcome!
 - Add necessary comments
 - Follow existing code style
 
-## 📄 License
+## License
 
 This project is licensed under the [GUN License](LICENSE).
 
-## 📈 Version History
+## Version History
 
 ### v1.1.0
 - 🎉 Added countdown skip feature
@@ -133,7 +124,7 @@ This project is licensed under the [GUN License](LICENSE).
 - ✅ Intelligent danmaku time recognition
 - ✅ Beautiful user interface
 
-## ⚙️ Settings Interface & Ad Skip Functionality
+## Settings Interface & Ad Skip Functionality
 
 Clean, intuitive settings panel with one-click auto/manual skip toggle.
 When an ad is detected, a sleek "Skip Ad" button appears bottom-right for instant skipping.
