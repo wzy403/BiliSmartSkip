@@ -268,6 +268,7 @@ function findAdTimestamps(danmaku) {
   let endTime = PET;
 
   for (const { start, end } of timePairs) {
+    if (end - start < 30) continue;
     if (!startTime && Math.round(end) === PET) {
       startTime = start + 5;
     } else if (Math.round(end) === PET && Math.round(start) - PET > 0) {
