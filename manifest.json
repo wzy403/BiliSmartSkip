@@ -16,6 +16,7 @@
     "default_popup": "/scr/popup.html"
   },
   "icons": {
+    "48": "/scr/icon.png",
     "512": "/scr/icon.png"
   },
   "browser_specific_settings": {
