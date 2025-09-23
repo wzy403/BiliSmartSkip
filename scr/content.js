@@ -326,7 +326,7 @@ function attachSkipper({ start, end }) {
       if (!isBtnAdd && t >= start && t < end) {
         addSkipBtn(end);
       } else if (t < start - 0.2 || t > end + 0.2) {
-        btn.remove();
+        btnCleanUp();
         isBtnAdd = false;
       }
     }
@@ -347,14 +347,12 @@ function skipToEnd(end) {
 }
 
 function btnCleanUp(){
-  if (isBtnAdd) {
-    btn.remove();
-    if (countdownTimer){
-      clearInterval(countdownTimer);
-      countdownTimer = null;
-    }
-    cleanUpBtnEvents();
+  btn.remove();
+  if (countdownTimer){
+    clearInterval(countdownTimer);
+    countdownTimer = null;
   }
+  cleanUpBtnEvents();
 }
 
 function cleanUpBtnEvents(){
