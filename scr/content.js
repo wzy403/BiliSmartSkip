@@ -10,6 +10,14 @@ let isSuspiciousAd = false; // Whether the ad was detected using keyword matchin
 let countdownTimer = null; // Countdown timer for skipping ads
 const COUNTDOWN = 5; // Countdown duration in seconds
 
+let buttonEventHandlers = {
+  click: null,
+  mouseenter: null,
+  mouseleave: null,
+  play: null,
+  pause: null
+}
+
 // === Style the skip button ===
 const btn = document.createElement('button');
 Object.assign(btn.style, {
@@ -334,6 +342,10 @@ function skipToEnd(end) {
     currentVideo.play().catch(err => console.warn('Autoplay failed:', err));
   }, 300);
   skipped = true;
+  btnCleanUp();
+}
+
+function btnCleanUp(){
   if (isBtnAdd) {
     btn.remove();
     isBtnAdd = false;
@@ -341,35 +353,89 @@ function skipToEnd(end) {
       clearInterval(countdownTimer);
       countdownTimer = null;
     }
+    cleanUpBtnEvents();
   }
 }
 
-function addSkipBtn(end) {
-  if (!isSuspiciousAd){
-    btn.textContent = '跳过广告';
-  }else {
-    let countdown = COUNTDOWN;
-    btn.textContent = `跳过疑似广告 (${countdown})`;
+function cleanUpBtnEvents(){
+  if (buttonEventHandlers.click){
+    btn.removeEventListener('click', buttonEventHandlers.click);
+    buttonEventHandlers.click = null;
+  }
+  if (buttonEventHandlers.mouseenter){
+    btn.removeEventListener('mouseenter', buttonEventHandlers.mouseenter);
+    buttonEventHandlers.mouseenter = null;
+  }
+  if (buttonEventHandlers.mouseleave){
+    btn.removeEventListener('mouseleave', buttonEventHandlers.mouseleave);
+    buttonEventHandlers.mouseleave = null;
+  }
+  if (buttonEventHandlers.play){
+    currentVideo.removeEventListener('play', buttonEventHandlers.play);
+    buttonEventHandlers.play = null;
+  }
+  if (buttonEventHandlers.pause){
+    currentVideo.removeEventListener('pause', buttonEventHandlers.pause);
+    buttonEventHandlers.pause = null;
+  }
+}
+
+function possibleAdCountdown(countdown){
+  let countdown = COUNTDOWN;
+  btn.textContent = `跳过疑似广告 (${countdown})`;
+  
+  const countdownStart = () => {
     countdownTimer = setInterval(() => {
       countdown--;
       if (countdown == -1){
-        clearInterval(countdownTimer);
-        countdownTimer = null;
-        btn.remove();
-
+        btnCleanUp();
         return;
       }else if (countdown > 0){
         btn.textContent = `跳过疑似广告 (${countdown})`;
       }
 
-    }, 1000)
+    }, 1000);
+  };
+
+  addEventListener('mouseenter', () => {
+    if (countdownTimer) {
+      clearInterval(countdownTimer);
+      countdownTimer = null;
+    }
+  });
+  addEventListener('mouseleave', () => {
+    if (!countdownTimer && countdown > 0) {
+      countdownStart();
+    }
+  });
+  currentVideo.addEventListener('play', () => {
+    if (!countdownTimer && countdown > 0) {
+      countdownStart();
+    }
+  });
+  currentVideo.addEventListener('pause', () => {
+    if (countdownTimer) {
+      clearInterval(countdownTimer);
+      countdownTimer = null;
+    }
+  });
+  countdownStart();
+}
+
+function addSkipBtn(end) {
+  btnCleanUp();
+  if (!isSuspiciousAd){
+    btn.textContent = '跳过广告';
+  }else {
+    possibleAdCountdown(COUNTDOWN);
   }
 
   const container = currentVideo.parentElement;
   if (getComputedStyle(container).position === 'static') {
     container.style.position = 'relative';
   }
-  btn.addEventListener('click', () => skipToEnd(end));
+  buttonEventHandlers.click = () => skipToEnd(end);
+  btn.addEventListener('click', buttonEventHandlers.click);
   container.appendChild(btn);
   isBtnAdd = true;
 }
