@@ -71,7 +71,12 @@
 ```
 BiliSmartSkip/
 ├── scr/                    # 源码文件夹
-│   ├── content.js          # 内容脚本，主要逻辑实现
+│   ├── constants.js        # 关键词词库与配置常量
+│   ├── utils.js            # 工具函数（日志、时间格式化、中文数字转换）
+│   ├── api.js              # API 请求与 Protobuf 弹幕解码器
+│   ├── detectors.js        # 5 层广告检测算法
+│   ├── skipper.js          # 跳过按钮 UI 与倒计时逻辑
+│   ├── content.js          # 主入口：初始化、生命周期、检测管道
 │   ├── popup.html          # 插件弹窗界面
 │   ├── popup.js            # 弹窗交互逻辑
 │   └── icon.png            # 插件图标

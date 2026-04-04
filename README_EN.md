@@ -71,7 +71,12 @@ If time format recognition fails, the extension will try subtitle analysis and k
 ```
 BiliSmartSkip/
 ├── scr/                    # Source files folder
-│   ├── content.js          # Content script with main logic
+│   ├── constants.js        # Keyword dictionaries & config constants
+│   ├── utils.js            # Utility functions (logging, time formatting, Chinese numeral parsing)
+│   ├── api.js              # API requests & Protobuf danmaku decoder
+│   ├── detectors.js        # 5-layer ad detection algorithms
+│   ├── skipper.js          # Skip button UI & countdown logic
+│   ├── content.js          # Main entry: init, lifecycle, detection pipeline
 │   ├── popup.html          # Extension popup interface
 │   ├── popup.js            # Popup interaction logic
 │   └── icon.png            # Extension icon
