@@ -12,6 +12,7 @@ let isSuspiciousAd = false;
 let countdownTimer = null;
 let currentAdSegment = null;
 let keydownHandler = null;
+let videoHealthTimer = null;
 
 // === Initialize ===
 function init() {
@@ -75,7 +76,10 @@ function mainLogic() {
     const seg = await getSkipSegment();
     if (!seg) return;
     currentAdSegment = seg;
-    waitForVideo(() => attachSkipper(seg));
+    waitForVideo(() => {
+      attachSkipper(seg);
+      monitorVideoHealth(seg);
+    });
   })();
 }
 
@@ -96,6 +100,11 @@ function cleanUp() {
     countdownTimer = null;
   }
 
+  if (videoHealthTimer) {
+    clearInterval(videoHealthTimer);
+    videoHealthTimer = null;
+  }
+
   isSuspiciousAd = false;
   currentVideo = null;
   currentAdSkipHandler = null;
@@ -113,14 +122,14 @@ function observeURLChange() {
 }
 
 function waitForVideo(onVideoReady) {
-  const videoElement = document.querySelector('video');
+  const videoElement = document.querySelector('video, bwp-video');
   if (videoElement) {
     currentVideo = videoElement;
     return onVideoReady();
   }
 
   const obs = new MutationObserver(() => {
-    const video = document.querySelector('video');
+    const video = document.querySelector('video, bwp-video');
     if (video) {
       obs.disconnect();
       currentVideo = video;
@@ -128,6 +137,40 @@ function waitForVideo(onVideoReady) {
     }
   });
   obs.observe(document.body, { childList: true, subtree: true });
+}
+
+function monitorVideoHealth(seg) {
+  if (videoHealthTimer) {
+    clearInterval(videoHealthTimer);
+    videoHealthTimer = null;
+  }
+
+  videoHealthTimer = setInterval(() => {
+    if (!currentVideo) {
+      clearInterval(videoHealthTimer);
+      videoHealthTimer = null;
+      return;
+    }
+
+    if (!currentVideo.isConnected) {
+      log('videoHealth: video element detached, re-querying');
+      const newVideo = document.querySelector('video, bwp-video');
+      if (newVideo && newVideo !== currentVideo) {
+        if (currentAdSkipHandler) {
+          currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
+        }
+        currentVideo = newVideo;
+        skipped = false;
+        isBtnAdd = false;
+        attachSkipper(seg);
+        log('videoHealth: re-attached to new video element');
+      } else if (!newVideo) {
+        log('videoHealth: no video element found, stopping monitor');
+        clearInterval(videoHealthTimer);
+        videoHealthTimer = null;
+      }
+    }
+  }, 2000);
 }
 
 // === Multi-signal detection pipeline ===

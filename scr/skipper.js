@@ -57,13 +57,64 @@ function attachSkipper({ start, end }) {
 }
 
 function skipToEnd(end) {
-  currentVideo.currentTime = end + 0.05;
-  setTimeout(() => {
-    currentVideo.play().catch(err => console.warn('Autoplay failed:', err));
-  }, 300);
-  skipped = true;
+  // Guard: if video ref is stale, bail out without setting skipped
+  if (!currentVideo || !currentVideo.isConnected) {
+    log('skipToEnd: video element not connected, aborting');
+    return;
+  }
+
+  const wasPlaying = !currentVideo.paused;
+  log(`skipToEnd: seeking to ${formatTime(end)}, wasPlaying=${wasPlaying}`);
+
+  // Clean up UI immediately
   btnCleanUp();
   isBtnAdd = false;
+
+  // Perform the seek
+  currentVideo.currentTime = end + 0.05;
+
+  // Use seeked event to confirm seek, with a timeout fallback
+  let settled = false;
+
+  function onSeeked() {
+    if (settled) return;
+    settled = true;
+    currentVideo.removeEventListener('seeked', onSeeked);
+    clearTimeout(fallbackTimer);
+    skipped = true;
+    ensurePlaying(wasPlaying);
+  }
+
+  currentVideo.addEventListener('seeked', onSeeked, { once: true });
+
+  // Fallback: if seeked never fires within 1 second, proceed anyway
+  const fallbackTimer = setTimeout(() => {
+    if (settled) return;
+    settled = true;
+    currentVideo.removeEventListener('seeked', onSeeked);
+    log('skipToEnd: seeked event timed out, using fallback');
+    skipped = true;
+    ensurePlaying(wasPlaying);
+  }, 1000);
+}
+
+function ensurePlaying(wasPlaying) {
+  if (!currentVideo || !currentVideo.paused) return;
+  if (!wasPlaying) return;
+
+  log('ensurePlaying: video paused after seek, attempting resume');
+  currentVideo.play().catch(() => {
+    // play() rejected (autoplay policy) — click native play button as fallback
+    log('ensurePlaying: play() rejected, clicking native play button');
+    const nativePlayBtn =
+      document.querySelector('.bpx-player-ctrl-play .bpx-player-ctrl-play-icon')
+      || document.querySelector('.bpx-player-ctrl-btn.bpx-player-ctrl-play')
+      || document.querySelector('.squirtle-video-start');
+    if (nativePlayBtn) {
+      nativePlayBtn.click();
+      log('ensurePlaying: clicked native play button');
+    }
+  });
 }
 
 function btnCleanUp() {
@@ -127,11 +178,6 @@ function possibleAdCountdown(counter) {
     }
   };
   btn.addEventListener('mouseleave', buttonEventHandlers.mouseleave);
-  currentVideo.addEventListener('play', () => {
-    if (!countdownTimer && countdown > 0) {
-      countdownStart();
-    }
-  });
   buttonEventHandlers.play = () => {
     if (!countdownTimer && countdown > 0) {
       countdownStart();
