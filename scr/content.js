@@ -1,6 +1,9 @@
 // == Bilibili 广告跳过助手 ==
 
 // === Global State ===
+const DEBUG = false; // Set to false to disable all console logging
+function log(...args) { if (DEBUG) console.log('[BiliSmartSkip]', ...args); }
+
 let SKIP_MODE = 'manual';  // 'auto' | 'manual'
 let skipped = false;       // Flag to indicate whether the ad has been skipped
 let isBtnAdd = false;      // Whether the skip button has been inserted
@@ -152,12 +155,12 @@ function waitForVideo(onVideoReady) {
 // === Get ad segment timestamps (multi-signal pipeline) ===
 async function getSkipSegment() {
   const bvid = getBvidFromPage();
-  console.log('[AdSkip] bvid:', bvid);
+  log('bvid:', bvid);
   if (!bvid) return null;
 
   // Phase 1: Fetch video info (cid, description, duration)
   const videoInfo = await fetchVideoInfo(bvid);
-  console.log('[AdSkip] videoInfo:', videoInfo);
+  log('videoInfo:', videoInfo);
   if (!videoInfo || !videoInfo.cid) return null;
 
   const { cid, desc, duration } = videoInfo;
@@ -169,25 +172,25 @@ async function getSkipSegment() {
   ]);
 
   const { viewPoints, subtitles } = playerInfo;
-  console.log('[AdSkip] viewPoints:', viewPoints);
-  console.log('[AdSkip] subtitles available:', subtitles.length);
-  console.log('[AdSkip] danmaku count:', danmaku.length);
+  log('viewPoints:', viewPoints);
+  log('subtitles available:', subtitles.length);
+  log('danmaku count:', danmaku.length);
   let adTimes = null;
 
   // 1. Chapter markers (highest confidence)
   adTimes = detectFromChapters(viewPoints);
-  console.log('[AdSkip] 1.chapters result:', adTimes);
+  log('1.chapters result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    console.log('[AdSkip] HIT chapters:', adTimes);
+    log('HIT chapters:', adTimes);
     isSuspiciousAd = false;
     return adTimes;
   }
 
   // 2. Description timestamps (high confidence)
   adTimes = detectFromDescription(desc, duration);
-  console.log('[AdSkip] 2.description result:', adTimes);
+  log('2.description result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    console.log('[AdSkip] HIT description:', adTimes);
+    log('HIT description:', adTimes);
     isSuspiciousAd = false;
     return adTimes;
   }
@@ -196,25 +199,25 @@ async function getSkipSegment() {
   if (subtitles.length > 0) {
     const zhSub = subtitles.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh');
     const chosenSub = zhSub || subtitles[0];
-    console.log('[AdSkip] fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
+    log('fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
     const subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
-    console.log('[AdSkip] subtitle lines:', subtitleLines.length);
+    log('subtitle lines:', subtitleLines.length);
     adTimes = detectFromSubtitles(subtitleLines, danmaku);
-    console.log('[AdSkip] 3.subtitles result:', adTimes);
+    log('3.subtitles result:', adTimes);
     if (adTimes && checkAdSegVaild(adTimes, duration)) {
-      console.log('[AdSkip] HIT subtitles:', adTimes);
+      log('HIT subtitles:', adTimes);
       isSuspiciousAd = false;
       return adTimes;
     }
   } else {
-    console.log('[AdSkip] 3.subtitles: none available');
+    log('3.subtitles: none available');
   }
 
   // 4. Danmaku time-format parsing (medium confidence, existing)
   adTimes = findAdTimestamps(danmaku);
-  console.log('[AdSkip] 4.danmaku-time result:', adTimes);
+  log('4.danmaku-time result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    console.log('[AdSkip] HIT danmaku-time:', adTimes);
+    log('HIT danmaku-time:', adTimes);
     isSuspiciousAd = false;
     return adTimes;
   }
@@ -222,13 +225,13 @@ async function getSkipSegment() {
   // 5. Danmaku keyword matching (low confidence, improved)
   isSuspiciousAd = true;
   adTimes = getAdTimeByKeywords(danmaku);
-  console.log('[AdSkip] 5.danmaku-keywords result:', adTimes);
+  log('5.danmaku-keywords result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    console.log('[AdSkip] HIT danmaku-keywords (suspicious):', adTimes);
+    log('HIT danmaku-keywords (suspicious):', adTimes);
     return adTimes;
   }
 
-  console.log('[AdSkip] No ad detected.');
+  log('No ad detected.');
   return null;
 }
 
@@ -454,9 +457,9 @@ function detectFromSubtitles(subtitleLines, danmaku) {
     }
   });
 
-  console.log(`[AdSkip] subtitle: ${hits.length}/${subtitleLines.length} lines hit keywords`);
+  log(`subtitle: ${hits.length}/${subtitleLines.length} lines hit keywords`);
   hits.forEach(h => {
-    console.log(`[AdSkip]   ${formatTime(h.from)} "${h.content}" → [${h.matched.join(', ')}]`);
+    log(`  ${formatTime(h.from)} "${h.content}" → [${h.matched.join(', ')}]`);
   });
 
   if (hits.length < 2) return null;
@@ -475,7 +478,7 @@ function detectFromSubtitles(subtitleLines, danmaku) {
     }
   }
 
-  console.log(`[AdSkip] subtitle cluster: ${bestCount} hits in ${formatTime(bestStart)}~${formatTime(bestEnd)}`);
+  log(`subtitle cluster: ${bestCount} hits in ${formatTime(bestStart)}~${formatTime(bestEnd)}`);
 
   if (bestCount >= 2 && bestEnd > bestStart) {
     return { start: bestStart, end: bestEnd };
@@ -489,7 +492,7 @@ function detectFromSubtitles(subtitleLines, danmaku) {
     const ctaLine = strongHits[0];
     const adEnd = ctaLine.to;
     const adStart = estimateAdStartFromDanmaku(danmaku, adEnd);
-    console.log(`[AdSkip] subtitle CTA anchor: "${ctaLine.content}" at ${formatTime(ctaLine.from)}, combined ad: ${formatTime(adStart)}~${formatTime(adEnd)}`);
+    log(`subtitle CTA anchor: "${ctaLine.content}" at ${formatTime(ctaLine.from)}, combined ad: ${formatTime(adStart)}~${formatTime(adEnd)}`);
     return { start: adStart, end: adEnd };
   }
 
@@ -525,7 +528,7 @@ function estimateAdStartFromDanmaku(danmaku, adEnd) {
     }
 
     if (isAdSignal) {
-      console.log(`[AdSkip]   danmaku start signal: ${formatTime(d.time)} "${text}"`);
+      log(`  danmaku start signal: ${formatTime(d.time)} "${text}"`);
       if (earliestHit === null || d.time < earliestHit) {
         earliestHit = d.time;
       }
@@ -533,11 +536,11 @@ function estimateAdStartFromDanmaku(danmaku, adEnd) {
   }
 
   if (earliestHit !== null) {
-    console.log(`[AdSkip]   danmaku earliest hit: ${formatTime(earliestHit)}`);
+    log(`  danmaku earliest hit: ${formatTime(earliestHit)}`);
     return earliestHit;
   }
 
-  console.log('[AdSkip]   no danmaku signal, fallback to CTA - 60s');
+  log('  no danmaku signal, fallback to CTA - 60s');
   return Math.max(0, adEnd - 60);
 }
 
@@ -628,7 +631,7 @@ function formatTime(s) {
 
 // === Bind ad skipping logic ===
 function attachSkipper({ start, end }) {
-  console.log(`[AdSkip] attachSkipper: ${formatTime(start)} → ${formatTime(end)}, mode=${SKIP_MODE}, suspicious=${isSuspiciousAd}`);
+  log(`attachSkipper: ${formatTime(start)} → ${formatTime(end)}, mode=${SKIP_MODE}, suspicious=${isSuspiciousAd}`);
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
     if (SKIP_MODE === 'auto' && !skipped && !isSuspiciousAd) {
@@ -743,7 +746,7 @@ function possibleAdCountdown(counter){
 }
 
 function addSkipBtn(end) {
-  console.log('[AdSkip] addSkipBtn called, end=', formatTime(end));
+  log('addSkipBtn called, end=', formatTime(end));
   cleanUpBtnEvents();
   if (!isSuspiciousAd){
     btn.textContent = '跳过广告';
