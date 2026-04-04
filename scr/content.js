@@ -3,29 +3,69 @@
 
 // === Global State ===
 let SKIP_MODE = 'manual';
+let SKIP_SHORTCUT = null;
 let skipped = false;
 let isBtnAdd = false;
 let currentVideo = null;
 let currentAdSkipHandler = null;
 let isSuspiciousAd = false;
 let countdownTimer = null;
+let currentAdSegment = null;
+let keydownHandler = null;
 
 // === Initialize ===
 function init() {
   console.log("Bilibili 广告跳过助手已启动");
 
-  chrome.storage.local.get(['skipMode'], result => {
+  chrome.storage.local.get(['skipMode', 'skipShortcut'], result => {
     SKIP_MODE = result.skipMode || 'manual';
+    SKIP_SHORTCUT = result.skipShortcut || null;
+    registerShortcutListener();
     mainLogic();
   });
 
   chrome.storage.onChanged.addListener((changes, areaName) => {
-    if (areaName === 'local' && changes.skipMode) {
-      SKIP_MODE = changes.skipMode.newValue;
+    if (areaName === 'local') {
+      if (changes.skipMode) {
+        SKIP_MODE = changes.skipMode.newValue;
+      }
+      if (changes.skipShortcut) {
+        SKIP_SHORTCUT = changes.skipShortcut.newValue || null;
+        registerShortcutListener();
+      }
     }
   });
 
   observeURLChange();
+}
+
+// === Keyboard shortcut listener ===
+function registerShortcutListener() {
+  if (keydownHandler) {
+    document.removeEventListener('keydown', keydownHandler);
+    keydownHandler = null;
+  }
+
+  if (!SKIP_SHORTCUT) return;
+
+  keydownHandler = (e) => {
+    const tag = e.target.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || e.target.isContentEditable) return;
+
+    if (e.code !== SKIP_SHORTCUT.code) return;
+    if (e.ctrlKey !== !!SKIP_SHORTCUT.ctrlKey) return;
+    if (e.altKey !== !!SKIP_SHORTCUT.altKey) return;
+    if (e.shiftKey !== !!SKIP_SHORTCUT.shiftKey) return;
+    if (e.metaKey !== !!SKIP_SHORTCUT.metaKey) return;
+
+    if (!isBtnAdd || !currentAdSegment || skipped) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+    skipToEnd(currentAdSegment.end);
+  };
+
+  document.addEventListener('keydown', keydownHandler);
 }
 
 // === Main logic ===
@@ -34,6 +74,7 @@ function mainLogic() {
   (async () => {
     const seg = await getSkipSegment();
     if (!seg) return;
+    currentAdSegment = seg;
     waitForVideo(() => attachSkipper(seg));
   })();
 }
@@ -42,6 +83,7 @@ function mainLogic() {
 function cleanUp() {
   skipped = false;
   isBtnAdd = false;
+  currentAdSegment = null;
 
   if (btn.parentElement) btn.remove();
 
