@@ -10,6 +10,12 @@ let isSuspiciousAd = false; // Whether the ad was detected using keyword matchin
 let countdownTimer = null; // Countdown timer for skipping ads
 const COUNTDOWN = 5; // Countdown duration in seconds
 
+// === Ad Keyword Dictionaries ===
+const AD_START_KEYWORDS = ["广告开始", "开始恰饭", "恰饭开始", "广告来了", "开始推广", "金主来了", "广告时间"];
+const AD_END_KEYWORDS = ["广告结束", "欢迎回来", "恰饭结束", "回来了", "广告完了", "正片开始", "回归正片"];
+const AD_GENERAL_KEYWORDS = ["已买", "购买", "购入", "接广", "广告", "广子", "感谢金主", "买了", "恭喜接广", "下单", "期待发货", "付款", "商单", "买买买", "恰饭", "恰上饭"];
+const AD_CONTENT_KEYWORDS = ["优惠", "折扣", "下单", "链接", "购买", "抢购", "限时", "福利", "赞助", "推广", "合作", "优惠码", "专属", "点击下方", "搜索", "下载", "首充", "官方旗舰", "体验装"];
+
 let buttonEventHandlers = {
   click: null,
   mouseenter: null,
@@ -129,52 +135,142 @@ function waitForVideo(onVideoReady) {
   obs.observe(document.body, { childList: true, subtree: true });
 }
 
-// === Get ad segment timestamps ===
+// === Get ad segment timestamps (multi-signal pipeline) ===
 async function getSkipSegment() {
-  const cid = await getCidFromPage();
-  if (!cid) return null;
-  const danmaku = await fetchDanmakuWithTime(cid);
-  let adTimes = findAdTimestamps(danmaku);
-  if (!adTimes) {
-    isSuspiciousAd = true;
-    adTimes = getAdTimeByKeywords(danmaku);
+  const bvid = getBvidFromPage();
+  if (!bvid) return null;
+
+  // Phase 1: Fetch video info (cid, description, duration)
+  const videoInfo = await fetchVideoInfo(bvid);
+  if (!videoInfo || !videoInfo.cid) return null;
+
+  const { cid, desc, duration } = videoInfo;
+
+  // Phase 2: Fetch player info and danmaku in parallel
+  const [playerInfo, danmaku] = await Promise.all([
+    fetchPlayerInfo(bvid, cid),
+    fetchDanmakuWithTime(cid)
+  ]);
+
+  const { viewPoints, subtitles } = playerInfo;
+  let adTimes = null;
+
+  // 1. Chapter markers (highest confidence)
+  adTimes = detectFromChapters(viewPoints);
+  if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    isSuspiciousAd = false;
+    return adTimes;
   }
 
-  if (!checkAdSegVaild(adTimes, danmaku)) {
-    // console.log("未检测到广告相关弹幕，放弃跳过");
-    return null;
+  // 2. Description timestamps (high confidence)
+  adTimes = detectFromDescription(desc, duration);
+  if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    isSuspiciousAd = false;
+    return adTimes;
   }
 
-  return adTimes;
+  // 3. Subtitle content analysis (high confidence, lazy-fetch)
+  if (subtitles.length > 0) {
+    const zhSub = subtitles.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh');
+    const chosenSub = zhSub || subtitles[0];
+    const subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
+    adTimes = detectFromSubtitles(subtitleLines);
+    if (adTimes && checkAdSegVaild(adTimes, duration)) {
+      isSuspiciousAd = false;
+      return adTimes;
+    }
+  }
+
+  // 4. Danmaku time-format parsing (medium confidence, existing)
+  adTimes = findAdTimestamps(danmaku);
+  if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    isSuspiciousAd = false;
+    return adTimes;
+  }
+
+  // 5. Danmaku keyword matching (low confidence, improved)
+  isSuspiciousAd = true;
+  adTimes = getAdTimeByKeywords(danmaku);
+  if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    return adTimes;
+  }
+
+  return null;
 }
 
-function checkAdSegVaild(adTimes, danmaku) {
-  if (!adTimes || adTimes.start < 60) return false;
-
-  if (adTimes.end - adTimes.start >= 180 || adTimes.end >= danmaku[danmaku.length - 1].time - 20) {
-    return false;
-  }
-
+function checkAdSegVaild(adTimes, duration) {
+  if (!adTimes || adTimes.start == null || adTimes.end == null) return false;
+  if (adTimes.start < 60) return false;
+  if (adTimes.end - adTimes.start >= 180) return false;
+  if (adTimes.end - adTimes.start < 10) return false;
+  if (duration > 0 && adTimes.end >= duration - 20) return false;
   return true;
 }
 
-// === Keyword-based ad time detection (fallback) ===
+// === Keyword-based ad time detection (improved with directional keywords) ===
 function getAdTimeByKeywords(danmaku) {
-  const filterSet = ["已买","购买","购入","接广","广告","广子","欢迎回来","感谢金主","买了","恭喜接广","下单","期待发货","付款", "商单", "买买买", "恰饭", "恰上饭"];
-  const startTime = 0, endTime = danmaku[danmaku.length - 1].time;
-  let possibleAdTimes = []
+  const CLUSTER_WINDOW = 15;
+  const MIN_CLUSTER_SIZE = 2;
+
+  const startSignals = [];
+  const endSignals = [];
+  const generalSignals = [];
+
   danmaku.forEach(d => {
+    const text = d.textContent.trim();
     const time = d.time;
-    if (time >= startTime && time <= endTime) {
-      const text = d.textContent.trim();
-      for (const f of filterSet) {
-        if (text.includes(f)) {
-          // console.log(`广告相关弹幕：${formatTime(time)}s - "${text}"`);
-          possibleAdTimes.push(time);
-        }
-      }
+    for (const kw of AD_START_KEYWORDS) {
+      if (text.includes(kw)) { startSignals.push(time); break; }
+    }
+    for (const kw of AD_END_KEYWORDS) {
+      if (text.includes(kw)) { endSignals.push(time); break; }
+    }
+    for (const kw of AD_GENERAL_KEYWORDS) {
+      if (text.includes(kw)) { generalSignals.push(time); break; }
     }
   });
+
+  // Try directional: start-cluster followed by end-cluster
+  const startCluster = findCluster(startSignals, CLUSTER_WINDOW, MIN_CLUSTER_SIZE);
+  const endCluster = findCluster(endSignals, CLUSTER_WINDOW, MIN_CLUSTER_SIZE);
+
+  if (startCluster && endCluster && endCluster.center > startCluster.center) {
+    const adStart = startCluster.start;
+    const adEnd = endCluster.end;
+    if (adEnd - adStart >= 30 && adEnd - adStart <= 180) {
+      return { start: adStart, end: adEnd };
+    }
+  }
+
+  // Fallback: general keywords with sliding window
+  return getAdTimeByGeneralKeywords(generalSignals);
+}
+
+function findCluster(times, windowSec, minSize) {
+  if (times.length < minSize) return null;
+  times.sort((a, b) => a - b);
+
+  let bestCount = 0, bestStart = 0, bestEnd = 0;
+  let i = 0;
+  for (let j = 0; j < times.length; j++) {
+    while (times[j] - times[i] > windowSec) i++;
+    const count = j - i + 1;
+    if (count > bestCount) {
+      bestCount = count;
+      bestStart = times[i];
+      bestEnd = times[j];
+    }
+  }
+
+  if (bestCount >= minSize) {
+    return { center: (bestStart + bestEnd) / 2, start: bestStart, end: bestEnd };
+  }
+  return null;
+}
+
+function getAdTimeByGeneralKeywords(possibleAdTimes) {
+  if (possibleAdTimes.length === 0) return null;
+  possibleAdTimes.sort((a, b) => a - b);
 
   const AD_MAX_DURATION = 100, AD_MIN_DURATION = 30;
   let i = 0, j = 1;
@@ -182,38 +278,72 @@ function getAdTimeByKeywords(danmaku) {
   while (i < possibleAdTimes.length && j < possibleAdTimes.length) {
     const start = possibleAdTimes[i];
     const end = possibleAdTimes[j];
-
     if (end - start > AD_MAX_DURATION) {
-      if (adStart) {
-        break;
-      }
-      if (j - 1 == i){
-        j++;
-      }
+      if (adStart) break;
+      if (j - 1 === i) j++;
       i++;
-    }else {
-      if(end - start >= AD_MIN_DURATION) {
+    } else {
+      if (end - start >= AD_MIN_DURATION) {
         adStart = start;
         adEnd = end;
       }
       j++;
     }
   }
-
-  // console.log("possibleAdTimes:", possibleAdTimes);
-
-  if (adStart) {
-    return { start: adStart - 5, end: adEnd };
-  }
+  if (adStart) return { start: adStart - 5, end: adEnd };
   return null;
 }
 
-// === Fetch danmaku-related data ===
-async function getCidFromPage() {
-  const bvid = window.location.pathname.split('/')[2];
-  const res = await fetch(`https://api.bilibili.com/x/player/pagelist?bvid=${bvid}`);
-  const data = await res.json();
-  return data.data[0]?.cid || null;
+// === Data fetching ===
+function getBvidFromPage() {
+  return window.location.pathname.split('/')[2] || null;
+}
+
+async function fetchVideoInfo(bvid) {
+  try {
+    const res = await fetch(`https://api.bilibili.com/x/web-interface/view?bvid=${bvid}`);
+    const json = await res.json();
+    if (json.code !== 0 || !json.data) return null;
+    const d = json.data;
+    return {
+      cid: d.pages?.[0]?.cid || null,
+      desc: d.desc || '',
+      duration: d.duration || 0
+    };
+  } catch (e) {
+    console.warn('fetchVideoInfo failed:', e);
+    return null;
+  }
+}
+
+async function fetchPlayerInfo(bvid, cid) {
+  try {
+    const res = await fetch(
+      `https://api.bilibili.com/x/player/wbi/v2?bvid=${bvid}&cid=${cid}`,
+      { credentials: 'include' }
+    );
+    const json = await res.json();
+    if (json.code !== 0 || !json.data) return { viewPoints: [], subtitles: [] };
+    return {
+      viewPoints: json.data.view_points || [],
+      subtitles: json.data.subtitle?.subtitles || []
+    };
+  } catch (e) {
+    console.warn('fetchPlayerInfo failed:', e);
+    return { viewPoints: [], subtitles: [] };
+  }
+}
+
+async function fetchSubtitleBody(subtitleUrl) {
+  try {
+    const url = subtitleUrl.startsWith('//') ? 'https:' + subtitleUrl : subtitleUrl;
+    const res = await fetch(url);
+    const json = await res.json();
+    return json.body || [];
+  } catch (e) {
+    console.warn('fetchSubtitleBody failed:', e);
+    return [];
+  }
 }
 
 async function fetchDanmakuWithTime(cid) {
@@ -230,6 +360,87 @@ async function fetchDanmakuWithTime(cid) {
   return danmaku;
 }
 
+// === Detection: Chapter markers ===
+function detectFromChapters(viewPoints) {
+  if (!viewPoints || viewPoints.length === 0) return null;
+  const adKeywords = ["广告", "ad", "sponsor", "赞助", "商单", "恰饭", "推广"];
+
+  for (const chapter of viewPoints) {
+    const label = (chapter.content || '').toLowerCase();
+    if (adKeywords.some(kw => label.includes(kw))) {
+      return { start: chapter.from, end: chapter.to };
+    }
+  }
+  return null;
+}
+
+// === Detection: Description timestamps ===
+function detectFromDescription(desc, duration) {
+  if (!desc) return null;
+
+  const entries = [];
+  const re = /(?:^|\n)\s*(\d{1,2}):(\d{2})\s+(.+)/g;
+  let m;
+  while ((m = re.exec(desc)) !== null) {
+    entries.push({
+      time: parseInt(m[1]) * 60 + parseInt(m[2]),
+      label: m[3].trim()
+    });
+  }
+
+  if (entries.length < 2) return null;
+
+  const adKeywords = ["广告", "ad", "sponsor", "赞助", "商单", "恰饭", "推广"];
+
+  for (let i = 0; i < entries.length; i++) {
+    const label = entries[i].label.toLowerCase();
+    if (adKeywords.some(kw => label.includes(kw))) {
+      const start = entries[i].time;
+      const end = (i + 1 < entries.length) ? entries[i + 1].time : duration;
+      return { start, end };
+    }
+  }
+  return null;
+}
+
+// === Detection: Subtitle content analysis ===
+function detectFromSubtitles(subtitleLines) {
+  if (!subtitleLines || subtitleLines.length < 5) return null;
+
+  const scored = subtitleLines.map(line => {
+    const text = (line.content || '').toLowerCase();
+    let score = 0;
+    for (const kw of AD_CONTENT_KEYWORDS) {
+      if (text.includes(kw)) score++;
+    }
+    return { from: line.from, to: line.to, score };
+  });
+
+  const WINDOW_MIN = 5;
+  const WINDOW_MAX = Math.min(20, scored.length);
+  const DENSITY_THRESHOLD = 0.4;
+
+  let bestStart = -1, bestEnd = -1, bestHits = 0;
+
+  for (let winSize = WINDOW_MIN; winSize <= WINDOW_MAX; winSize++) {
+    for (let i = 0; i <= scored.length - winSize; i++) {
+      const window = scored.slice(i, i + winSize);
+      const hits = window.filter(s => s.score > 0).length;
+      const density = hits / winSize;
+      if (density >= DENSITY_THRESHOLD && hits > bestHits) {
+        bestHits = hits;
+        bestStart = window[0].from;
+        bestEnd = window[window.length - 1].to;
+      }
+    }
+  }
+
+  if (bestStart >= 0 && bestEnd > bestStart) {
+    return { start: bestStart, end: bestEnd };
+  }
+  return null;
+}
+
 // === Parse ad timestamps from danmaku ===
 function findAdTimestamps(danmaku) {
   let timePairs = [];
@@ -240,7 +451,7 @@ function findAdTimestamps(danmaku) {
     const endInfo = extractTimeFromText(text);
 
     if (endInfo && !isNaN(start)) {
-      // console.log(`广告开始：${formatTime(start)}s，结束：${formatTime(endInfo.time)}s，内容：“${text}”`);
+      // console.log(`广告开始：${formatTime(start)}s，结束：${formatTime(endInfo.time)}s，内容："${text}"`);
       timePairs.push({
         start: start,
         end: endInfo.time,
@@ -382,7 +593,7 @@ function cleanUpBtnEvents(){
 function possibleAdCountdown(counter){
   let countdown = counter;
   btn.textContent = `跳过疑似广告 (${countdown})`;
-  
+
   const countdownStart = () => {
     countdownTimer = setInterval(() => {
       countdown--;

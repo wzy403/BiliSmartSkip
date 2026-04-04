@@ -4,7 +4,13 @@
   "version": "1.1.2",
   "description": "通过识别弹幕跳过嵌入式广告段",
   "permissions": ["storage"],
-  "host_permissions": ["https://www.bilibili.com/*", "https://comment.bilibili.com/*"],
+  "host_permissions": [
+    "https://www.bilibili.com/*",
+    "https://comment.bilibili.com/*",
+    "https://api.bilibili.com/*",
+    "https://i0.hdslb.com/*",
+    "https://aisubtitle.hdslb.com/*"
+  ],
   "content_scripts": [
     {
       "matches": ["https://www.bilibili.com/video/*"],
