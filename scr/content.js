@@ -480,6 +480,18 @@ function detectFromSubtitles(subtitleLines) {
   if (bestCount >= 2 && bestEnd > bestStart) {
     return { start: bestStart, end: bestEnd };
   }
+
+  // Fallback: single strong CTA line (>= 2 keywords) as ad-end anchor
+  // In Chinese ads, phrases like "评论区有专属优惠" always come at the END of the ad
+  const strongHits = hits.filter(h => h.matched.length >= 2);
+  if (strongHits.length >= 1) {
+    const ctaLine = strongHits[0];
+    const adEnd = ctaLine.to;
+    const adStart = ctaLine.from - 60; // estimate ~60s ad before CTA
+    console.log(`[AdSkip] subtitle CTA anchor: "${ctaLine.content}" at ${formatTime(ctaLine.from)}, estimated ad: ${formatTime(adStart)}~${formatTime(adEnd)}`);
+    return { start: Math.max(0, adStart), end: adEnd };
+  }
+
   return null;
 }
 
@@ -541,10 +553,12 @@ function extractTimeFromText(text) {
   const match2 = text.match(/([一二三四五六七八九]?十[一二三四五六七八九]?|[一二三四五六七八九]|\d)分([一二三四五六七八九]?十[一二三四五六七八九]?|[一二三四五六七八九]|\d{1,2})秒?/);
   if (match2) return { time: zhNumToInt(match2[1]) * 60 + zhNumToInt(match2[2]), confidence: 1 };
 
-  // const match3 = text.match(/(\d+(?:[\.\,，]\d+))\s*(分钟|分|min|m)?/i);
-  // if (match3 && parseFloat(match3[1]) < 30) {
-  //   return { time: Math.floor(parseFloat(match3[1]) * 60), confidence: 0.3 };
-  // }
+  // "705工程", "0705工程" → 7:05
+  const match3 = text.match(/0?(\d{1,2})(\d{2})工程/);
+  if (match3) {
+    const sec = parseInt(match3[2]);
+    if (sec < 60) return { time: parseInt(match3[1]) * 60 + sec, confidence: 1 };
+  }
 
   return null;
 }
