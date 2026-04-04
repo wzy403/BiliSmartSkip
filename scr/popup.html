@@ -77,6 +77,71 @@
       margin-top: 8px;
     }
 
+    .shortcut-section {
+      margin-top: 20px;
+    }
+
+    .shortcut-display {
+      text-align: center;
+      padding: 8px 12px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #333;
+      background: #f9f9f9;
+      min-height: 18px;
+      line-height: 18px;
+    }
+
+    .shortcut-display.recording {
+      color: #ff6b35;
+      border-color: #ff6b35;
+      background: #fff8f5;
+    }
+
+    .shortcut-buttons {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .shortcut-btn {
+      flex: 1;
+      padding: 6px 0;
+      font-size: 12px;
+      border-radius: 6px;
+      border: 1px solid #e0e0e0;
+      background: #fff;
+      color: #666;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .shortcut-btn:hover {
+      background: #f5f5f5;
+      color: #333;
+      border-color: #ccc;
+    }
+
+    .shortcut-btn.set-btn:hover {
+      background: #4caf50;
+      color: #fff;
+      border-color: #4caf50;
+    }
+
+    .shortcut-btn.reset-btn:hover {
+      background: #ff6b35;
+      color: #fff;
+      border-color: #ff6b35;
+    }
+
+    .shortcut-hint {
+      font-size: 11px;
+      color: #999;
+      text-align: center;
+      margin-top: 6px;
+    }
+
     .github-link {
       display: flex;
       align-items: center;
@@ -145,6 +210,16 @@
     <span class="switch-label">自动</span>
   </div>
   <div class="mode-text" id="modeText">当前：手动跳过</div>
+
+  <div class="shortcut-section">
+    <h4>跳过快捷键</h4>
+    <div class="shortcut-display" id="shortcutDisplay">未设置</div>
+    <div class="shortcut-buttons" id="shortcutButtons">
+      <button class="shortcut-btn set-btn" id="setShortcut">设置</button>
+      <button class="shortcut-btn reset-btn" id="resetShortcut">重置</button>
+    </div>
+    <div class="shortcut-hint">仅在手动模式下生效</div>
+  </div>
 
   <a href="https://github.com/wzy403/BiliSmartSkip" target="_blank" class="github-link">
     <svg class="github-icon" viewBox="0 0 16 16">
