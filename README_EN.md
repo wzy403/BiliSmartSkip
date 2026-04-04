@@ -9,6 +9,7 @@ An intelligent Chrome/Firefox browser extension that automatically identifies em
 - **Multi-Signal Smart Detection**: Combines video chapters, description, subtitles, and danmaku for precise ad identification
 - **Auto Skip**: Supports automatic ad segment skipping without manual intervention
 - **Manual Skip**: Displays skip button during ad segments for user choice
+- **Custom Shortcut Key**: Set a keyboard shortcut to skip ads instantly in manual mode
 - **Mode Switching**: Freely switch between automatic and manual modes
 - **Lightweight & Efficient**: No background processes, no impact on page performance
 - **User-Friendly Interface**: Beautiful skip button and settings UI
@@ -55,6 +56,13 @@ Any layer hit triggers the skip; remaining layers serve as fallback.
 2. Use the toggle switch to change between "Manual" and "Auto" modes
 3. Settings are automatically saved and applied across all tabs
 
+### Setting a Skip Shortcut Key
+1. Click the extension icon in the browser toolbar
+2. Click the "Set" button in the "Skip Shortcut" section
+3. Press your desired key combination (e.g., `Alt + S`)
+4. The shortcut is saved automatically — press it in manual mode to skip ads
+5. To remove the shortcut, click the "Reset" button
+
 ## Supported Time Formats
 
 The extension can recognize various time formats in danmaku:
@@ -88,7 +96,7 @@ BiliSmartSkip/
 
 ## Permissions Explained
 
-- `storage`: Save user mode settings
+- `storage`: Save user mode settings and shortcut key configuration
 - `https://www.bilibili.com/*`: Access Bilibili video pages
 - `https://api.bilibili.com/*`: Fetch video info, chapter markers, and subtitle data
 - `https://comment.bilibili.com/*`: Retrieve danmaku data
@@ -126,6 +134,7 @@ This project is licensed under the [GUN License](LICENSE).
 ### v2.0.0
 - 🎉 Multi-signal detection pipeline: video chapters, description timestamps, subtitle analysis
 - 🎉 Cross-layer subtitle + danmaku joint positioning for better ad boundary accuracy
+- 🎉 Custom skip shortcut key — press a keyboard shortcut to skip ads in manual mode
 - ✅ Support for "705工程" encoded time format
 - ✅ Upgraded danmaku keywords to directional bidirectional anchoring algorithm
 - ✅ Significantly expanded ad keyword dictionary
