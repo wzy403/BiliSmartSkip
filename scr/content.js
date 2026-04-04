@@ -14,7 +14,21 @@ const COUNTDOWN = 5; // Countdown duration in seconds
 const AD_START_KEYWORDS = ["广告开始", "开始恰饭", "恰饭开始", "广告来了", "开始推广", "金主来了", "广告时间"];
 const AD_END_KEYWORDS = ["广告结束", "欢迎回来", "恰饭结束", "回来了", "广告完了", "正片开始", "回归正片"];
 const AD_GENERAL_KEYWORDS = ["已买", "购买", "购入", "接广", "广告", "广子", "感谢金主", "买了", "恭喜接广", "下单", "期待发货", "付款", "商单", "买买买", "恰饭", "恰上饭"];
-const AD_CONTENT_KEYWORDS = ["优惠", "折扣", "下单", "链接", "购买", "抢购", "限时", "福利", "赞助", "推广", "合作", "优惠码", "专属", "点击下方", "搜索", "下载", "首充", "官方旗舰", "体验装"];
+const AD_CONTENT_KEYWORDS = [
+  // Sponsorship signals
+  "赞助", "冠名", "推广", "合作", "商单",
+  // CTA (call-to-action)
+  "评论区", "蓝链", "点击", "链接", "二维码", "口令",
+  "领取", "领券", "优惠券", "优惠码", "兑换码", "折扣码",
+  "下单", "购买", "入手", "抢购",
+  // Promotional language
+  "优惠", "折扣", "限时", "福利", "免费", "首充",
+  "专属", "新用户", "官方旗舰", "性价比",
+  // Product pitch
+  "推荐给大家", "安利", "种草", "体验装",
+  // Platform/download
+  "下载", "注册", "搜索", "应用商店"
+];
 
 let buttonEventHandlers = {
   click: null,
@@ -138,10 +152,12 @@ function waitForVideo(onVideoReady) {
 // === Get ad segment timestamps (multi-signal pipeline) ===
 async function getSkipSegment() {
   const bvid = getBvidFromPage();
+  console.log('[AdSkip] bvid:', bvid);
   if (!bvid) return null;
 
   // Phase 1: Fetch video info (cid, description, duration)
   const videoInfo = await fetchVideoInfo(bvid);
+  console.log('[AdSkip] videoInfo:', videoInfo);
   if (!videoInfo || !videoInfo.cid) return null;
 
   const { cid, desc, duration } = videoInfo;
@@ -153,18 +169,25 @@ async function getSkipSegment() {
   ]);
 
   const { viewPoints, subtitles } = playerInfo;
+  console.log('[AdSkip] viewPoints:', viewPoints);
+  console.log('[AdSkip] subtitles available:', subtitles.length);
+  console.log('[AdSkip] danmaku count:', danmaku.length);
   let adTimes = null;
 
   // 1. Chapter markers (highest confidence)
   adTimes = detectFromChapters(viewPoints);
+  console.log('[AdSkip] 1.chapters result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    console.log('[AdSkip] HIT chapters:', adTimes);
     isSuspiciousAd = false;
     return adTimes;
   }
 
   // 2. Description timestamps (high confidence)
   adTimes = detectFromDescription(desc, duration);
+  console.log('[AdSkip] 2.description result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    console.log('[AdSkip] HIT description:', adTimes);
     isSuspiciousAd = false;
     return adTimes;
   }
@@ -173,17 +196,25 @@ async function getSkipSegment() {
   if (subtitles.length > 0) {
     const zhSub = subtitles.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh');
     const chosenSub = zhSub || subtitles[0];
+    console.log('[AdSkip] fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
     const subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
+    console.log('[AdSkip] subtitle lines:', subtitleLines.length);
     adTimes = detectFromSubtitles(subtitleLines);
+    console.log('[AdSkip] 3.subtitles result:', adTimes);
     if (adTimes && checkAdSegVaild(adTimes, duration)) {
+      console.log('[AdSkip] HIT subtitles:', adTimes);
       isSuspiciousAd = false;
       return adTimes;
     }
+  } else {
+    console.log('[AdSkip] 3.subtitles: none available');
   }
 
   // 4. Danmaku time-format parsing (medium confidence, existing)
   adTimes = findAdTimestamps(danmaku);
+  console.log('[AdSkip] 4.danmaku-time result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    console.log('[AdSkip] HIT danmaku-time:', adTimes);
     isSuspiciousAd = false;
     return adTimes;
   }
@@ -191,10 +222,13 @@ async function getSkipSegment() {
   // 5. Danmaku keyword matching (low confidence, improved)
   isSuspiciousAd = true;
   adTimes = getAdTimeByKeywords(danmaku);
+  console.log('[AdSkip] 5.danmaku-keywords result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
+    console.log('[AdSkip] HIT danmaku-keywords (suspicious):', adTimes);
     return adTimes;
   }
 
+  console.log('[AdSkip] No ad detected.');
   return null;
 }
 
@@ -403,39 +437,47 @@ function detectFromDescription(desc, duration) {
   return null;
 }
 
-// === Detection: Subtitle content analysis ===
+// === Detection: Subtitle content analysis (time-clustering) ===
 function detectFromSubtitles(subtitleLines) {
   if (!subtitleLines || subtitleLines.length < 5) return null;
 
-  const scored = subtitleLines.map(line => {
+  // Score each line and collect hits
+  const hits = [];
+  subtitleLines.forEach(line => {
     const text = (line.content || '').toLowerCase();
-    let score = 0;
+    const matched = [];
     for (const kw of AD_CONTENT_KEYWORDS) {
-      if (text.includes(kw)) score++;
+      if (text.includes(kw)) matched.push(kw);
     }
-    return { from: line.from, to: line.to, score };
+    if (matched.length > 0) {
+      hits.push({ from: line.from, to: line.to, content: line.content, matched });
+    }
   });
 
-  const WINDOW_MIN = 5;
-  const WINDOW_MAX = Math.min(20, scored.length);
-  const DENSITY_THRESHOLD = 0.4;
+  console.log(`[AdSkip] subtitle: ${hits.length}/${subtitleLines.length} lines hit keywords`);
+  hits.forEach(h => {
+    console.log(`[AdSkip]   ${formatTime(h.from)} "${h.content}" → [${h.matched.join(', ')}]`);
+  });
 
-  let bestStart = -1, bestEnd = -1, bestHits = 0;
+  if (hits.length < 2) return null;
 
-  for (let winSize = WINDOW_MIN; winSize <= WINDOW_MAX; winSize++) {
-    for (let i = 0; i <= scored.length - winSize; i++) {
-      const window = scored.slice(i, i + winSize);
-      const hits = window.filter(s => s.score > 0).length;
-      const density = hits / winSize;
-      if (density >= DENSITY_THRESHOLD && hits > bestHits) {
-        bestHits = hits;
-        bestStart = window[0].from;
-        bestEnd = window[window.length - 1].to;
-      }
+  // Find the densest cluster within a 120-second window
+  const MAX_AD_WINDOW = 120;
+  let bestCount = 0, bestStart = -1, bestEnd = -1;
+  let i = 0;
+  for (let j = 0; j < hits.length; j++) {
+    while (hits[j].from - hits[i].from > MAX_AD_WINDOW) i++;
+    const count = j - i + 1;
+    if (count > bestCount) {
+      bestCount = count;
+      bestStart = hits[i].from;
+      bestEnd = hits[j].to;
     }
   }
 
-  if (bestStart >= 0 && bestEnd > bestStart) {
+  console.log(`[AdSkip] subtitle cluster: ${bestCount} hits in ${formatTime(bestStart)}~${formatTime(bestEnd)}`);
+
+  if (bestCount >= 2 && bestEnd > bestStart) {
     return { start: bestStart, end: bestEnd };
   }
   return null;
@@ -526,8 +568,7 @@ function formatTime(s) {
 
 // === Bind ad skipping logic ===
 function attachSkipper({ start, end }) {
-  // console.log(`将在 ${formatTime(start)} → ${formatTime(end)} 自动/手动跳过广告`);
-  // console.log('is suspicious ad:', isSuspiciousAd);
+  console.log(`[AdSkip] attachSkipper: ${formatTime(start)} → ${formatTime(end)}, mode=${SKIP_MODE}, suspicious=${isSuspiciousAd}`);
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
     if (SKIP_MODE === 'auto' && !skipped && !isSuspiciousAd) {
@@ -642,6 +683,7 @@ function possibleAdCountdown(counter){
 }
 
 function addSkipBtn(end) {
+  console.log('[AdSkip] addSkipBtn called, end=', formatTime(end));
   cleanUpBtnEvents();
   if (!isSuspiciousAd){
     btn.textContent = '跳过广告';
