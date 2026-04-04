@@ -1,4 +1,4 @@
-# bilibili 广告跳过助手
+# Bilibili 广告跳过助手
 
 中文 | [English](README_EN.md)
 

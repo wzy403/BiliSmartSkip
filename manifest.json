@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "bilibili 广告跳过助手",
+  "name": "Bilibili 广告跳过助手",
   "version": "2.0.0",
   "description": "通过多信号源分析自动识别并跳过B站视频中的嵌入式广告段",
   "permissions": ["storage"],
