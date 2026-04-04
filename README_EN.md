@@ -1,8 +1,8 @@
-# Bilibili Ad Skip Assistant (BiliSmartSkip)
+# bilibili Ad Skip Assistant (BiliSmartSkip)
 
 [中文](README.md) | English
 
-An intelligent Chrome/Firefox browser extension that automatically identifies embedded ad segments in Bilibili videos using multi-signal analysis and provides automatic or manual skip functionality.
+An intelligent Chrome/Firefox browser extension that automatically identifies embedded ad segments in bilibili videos using multi-signal analysis and provides automatic or manual skip functionality.
 
 ## Features
 
@@ -45,7 +45,7 @@ Any layer hit triggers the skip; remaining layers serve as fallback.
 ## Usage
 
 ### Basic Usage
-1. After installing the extension, open any Bilibili video page
+1. After installing the extension, open any bilibili video page
 2. The extension will automatically analyze danmaku in the background to identify ad segments
 3. Based on the selected mode:
    - **Auto Mode**: Automatically skips when ad segments are detected
@@ -97,7 +97,7 @@ BiliSmartSkip/
 ## Permissions Explained
 
 - `storage`: Save user mode settings and shortcut key configuration
-- `https://www.bilibili.com/*`: Access Bilibili video pages
+- `https://www.bilibili.com/*`: Access bilibili video pages
 - `https://api.bilibili.com/*`: Fetch video info, chapter markers, and subtitle data
 - `https://comment.bilibili.com/*`: Retrieve danmaku data
 - `https://i0.hdslb.com/*` / `https://aisubtitle.hdslb.com/*`: Fetch subtitle files
@@ -106,7 +106,7 @@ BiliSmartSkip/
 
 - This extension does not collect any personal information
 - All data processing is performed locally
-- Only accesses Bilibili's public video info, subtitle, and danmaku APIs
+- Only accesses bilibili's public video info, subtitle, and danmaku APIs
 - No data is sent to third-party servers
 
 ## 🤝 Contributing
