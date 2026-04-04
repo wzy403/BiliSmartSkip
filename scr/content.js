@@ -199,7 +199,7 @@ async function getSkipSegment() {
     console.log('[AdSkip] fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
     const subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
     console.log('[AdSkip] subtitle lines:', subtitleLines.length);
-    adTimes = detectFromSubtitles(subtitleLines);
+    adTimes = detectFromSubtitles(subtitleLines, danmaku);
     console.log('[AdSkip] 3.subtitles result:', adTimes);
     if (adTimes && checkAdSegVaild(adTimes, duration)) {
       console.log('[AdSkip] HIT subtitles:', adTimes);
@@ -438,7 +438,7 @@ function detectFromDescription(desc, duration) {
 }
 
 // === Detection: Subtitle content analysis (time-clustering) ===
-function detectFromSubtitles(subtitleLines) {
+function detectFromSubtitles(subtitleLines, danmaku) {
   if (!subtitleLines || subtitleLines.length < 5) return null;
 
   // Score each line and collect hits
@@ -483,16 +483,62 @@ function detectFromSubtitles(subtitleLines) {
 
   // Fallback: single strong CTA line (>= 2 keywords) as ad-end anchor
   // In Chinese ads, phrases like "评论区有专属优惠" always come at the END of the ad
+  // Use danmaku signals to find a more precise ad-start
   const strongHits = hits.filter(h => h.matched.length >= 2);
   if (strongHits.length >= 1) {
     const ctaLine = strongHits[0];
     const adEnd = ctaLine.to;
-    const adStart = ctaLine.from - 60; // estimate ~60s ad before CTA
-    console.log(`[AdSkip] subtitle CTA anchor: "${ctaLine.content}" at ${formatTime(ctaLine.from)}, estimated ad: ${formatTime(adStart)}~${formatTime(adEnd)}`);
-    return { start: Math.max(0, adStart), end: adEnd };
+    const adStart = estimateAdStartFromDanmaku(danmaku, adEnd);
+    console.log(`[AdSkip] subtitle CTA anchor: "${ctaLine.content}" at ${formatTime(ctaLine.from)}, combined ad: ${formatTime(adStart)}~${formatTime(adEnd)}`);
+    return { start: adStart, end: adEnd };
   }
 
   return null;
+}
+
+// Estimate ad start by scanning danmaku signals near a known ad-end time
+function estimateAdStartFromDanmaku(danmaku, adEnd) {
+  if (!danmaku || danmaku.length === 0) return Math.max(0, adEnd - 60);
+
+  const SEARCH_WINDOW = 120;
+  const searchStart = adEnd - SEARCH_WINDOW;
+  const allAdKeywords = [...AD_START_KEYWORDS, ...AD_GENERAL_KEYWORDS];
+  let earliestHit = null;
+
+  for (const d of danmaku) {
+    if (d.time < searchStart || d.time > adEnd) continue;
+    const text = d.textContent.trim();
+    let isAdSignal = false;
+
+    // Check ad keywords ("广告", "恰饭", etc.)
+    for (const kw of allAdKeywords) {
+      if (text.includes(kw)) { isAdSignal = true; break; }
+    }
+
+    // Check time-format references close to adEnd ("705工程", "7:05", etc.)
+    // People post these DURING the ad → their danmaku time is within the ad segment
+    if (!isAdSignal) {
+      const timeRef = extractTimeFromText(text);
+      if (timeRef && Math.abs(timeRef.time - adEnd) <= 30) {
+        isAdSignal = true;
+      }
+    }
+
+    if (isAdSignal) {
+      console.log(`[AdSkip]   danmaku start signal: ${formatTime(d.time)} "${text}"`);
+      if (earliestHit === null || d.time < earliestHit) {
+        earliestHit = d.time;
+      }
+    }
+  }
+
+  if (earliestHit !== null) {
+    console.log(`[AdSkip]   danmaku earliest hit: ${formatTime(earliestHit)}`);
+    return earliestHit;
+  }
+
+  console.log('[AdSkip]   no danmaku signal, fallback to CTA - 60s');
+  return Math.max(0, adEnd - 60);
 }
 
 // === Parse ad timestamps from danmaku ===
