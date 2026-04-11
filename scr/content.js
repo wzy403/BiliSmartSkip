@@ -160,7 +160,8 @@ function monitorVideoHealth(seg) {
           currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
         }
         currentVideo = newVideo;
-        skipped = false;
+        // 不重置 skipped：同一个视频中广告已跳过就不应再跳
+        // skipped 仅在 cleanUp()（切换视频时）重置
         isBtnAdd = false;
         attachSkipper(seg);
         log('videoHealth: re-attached to new video element');

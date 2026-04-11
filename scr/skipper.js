@@ -63,6 +63,9 @@ function skipToEnd(end) {
     return;
   }
 
+  // 立即设置 skipped，防止 timeupdate 在 seeked 回调前重复触发 skipToEnd
+  skipped = true;
+
   const wasPlaying = !currentVideo.paused;
   log(`skipToEnd: seeking to ${formatTime(end)}, wasPlaying=${wasPlaying}`);
 
@@ -81,7 +84,6 @@ function skipToEnd(end) {
     settled = true;
     currentVideo.removeEventListener('seeked', onSeeked);
     clearTimeout(fallbackTimer);
-    skipped = true;
     ensurePlaying(wasPlaying);
   }
 
@@ -93,7 +95,6 @@ function skipToEnd(end) {
     settled = true;
     currentVideo.removeEventListener('seeked', onSeeked);
     log('skipToEnd: seeked event timed out, using fallback');
-    skipped = true;
     ensurePlaying(wasPlaying);
   }, 1000);
 }
