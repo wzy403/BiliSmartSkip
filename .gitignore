@@ -46,6 +46,8 @@ Thumbs.db
 ####################
 # Node.js #
 node_modules/
+/eval/data/
+/eval/output/
 
 # Python #
 __pycache__/

@@ -1,0 +1,2911 @@
+{
+  "schemaVersion": 1,
+  "kind": "assistant-provisional",
+  "labelSource": "assistant",
+  "records": [
+    {
+      "bvid": "BV1DcXbBfEM1",
+      "cid": 37006216689,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 39.26,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "视频开场叙述人猿实验历史问题，没有商家入口或交易引导；仅标已阅读的正文片段。",
+          "evidence": [
+            {
+              "from": 17.26,
+              "to": 18.16,
+              "text": "那么问题来了"
+            },
+            {
+              "from": 33.64,
+              "to": 39.26,
+              "text": "本期视频咱们就来好好聊聊人类科学史上最荒诞最禁忌的黑历史"
+            }
+          ]
+        },
+        {
+          "start": 42.66,
+          "end": 76.43,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "明确感谢甲方转转，完整展开二手手机价格、验机保障和领券入口；语义广告明确，但前后字幕空档未做画面复核。",
+          "evidence": [
+            {
+              "from": 42.66,
+              "to": 44.58,
+              "text": "感谢一下甲方转转的催更"
+            },
+            {
+              "from": 54.86,
+              "to": 57.66,
+              "text": "关键是转转的二手商品都有专属验机报告"
+            },
+            {
+              "from": 72.4,
+              "to": 76.43,
+              "text": "现在点击评论区蓝链还能领最高千元优惠券"
+            }
+          ]
+        },
+        {
+          "start": 82.12,
+          "end": 109.7,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复人物出生、求学与研究经历，与前述二手平台推广分离。",
+          "evidence": [
+            {
+              "from": 83.76,
+              "to": 87.78,
+              "text": "伊万诺夫1870年出生于俄罗斯西南部库尔斯克省"
+            },
+            {
+              "from": 102.12,
+              "to": 106.88,
+              "text": "毕业后又去了巴黎著名的巴斯德研究所研究生物化学和微生物"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1eN9XBMEj3",
+      "cid": 38045352352,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 49.48,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "围绕低温复苏和人体冷冻争议的导入，不含商品推销。",
+          "evidence": [
+            {
+              "from": 19.78,
+              "to": 20.84,
+              "text": "从那一刻起"
+            },
+            {
+              "from": 42.9,
+              "to": 45.06,
+              "text": "也有人狠狠地批评他是伪科学"
+            }
+          ]
+        },
+        {
+          "start": 49.48,
+          "end": 79.74,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从视频开始前的转场和转转感谢，连续介绍折叠屏补贴、平板与电脑价格，结束于平台推荐；广告后有6秒字幕空档，画面边界待复核。",
+          "evidence": [
+            {
+              "from": 49.48,
+              "to": 50.78,
+              "text": "那在视频开始之前"
+            },
+            {
+              "from": 50.78,
+              "to": 52.02,
+              "text": "感谢一下转转的催更"
+            },
+            {
+              "from": 64.379,
+              "to": 66.279,
+              "text": "而且最近转转的补贴还特别猛"
+            },
+            {
+              "from": 76.36,
+              "to": 79.74,
+              "text": "反正我以后买折叠屏也就认真转转了"
+            }
+          ]
+        },
+        {
+          "start": 85.78,
+          "end": 108.62,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复冷冻人物的出生求学和疾病背景叙述。",
+          "evidence": [
+            {
+              "from": 89.58,
+              "to": 91.34,
+              "text": "他在特鲁曼州大学读书"
+            },
+            {
+              "from": 106.42,
+              "to": 108.62,
+              "text": "然而命运却突然给他重重的一击"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1kxuBzHEdg",
+      "cid": 31032084368,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0,
+          "end": 9.04,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "开场介绍本期泡面品鉴对象，下一句才切入得物冠名；不把商品名称本身当广告。",
+          "evidence": [
+            {
+              "from": 2.54,
+              "to": 4.64,
+              "text": "今天我们吃凉子十大经典战役"
+            },
+            {
+              "from": 6.72,
+              "to": 7.98,
+              "text": "康福龙老板拉面"
+            }
+          ]
+        },
+        {
+          "start": 9.04,
+          "end": 24.24,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "得物独家冠名声明开始，完整介绍优惠商品、首单券与鉴别服务，以评论区入口结束，下一句明确回到泡面。",
+          "evidence": [
+            {
+              "from": 9.04,
+              "to": 10.6,
+              "text": "本期视频由得物独家冠名播出"
+            },
+            {
+              "from": 13.76,
+              "to": 14.76,
+              "text": "因为首次下单有十元"
+            },
+            {
+              "from": 23.18,
+              "to": 24.24,
+              "text": "去评论区看看吧"
+            },
+            {
+              "from": 24.24,
+              "to": 25.36,
+              "text": "这个老板拉面"
+            }
+          ]
+        },
+        {
+          "start": 24.24,
+          "end": 95.88,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "连续计算泡面价格、重量和热量，属于视频题材正文；价格、性价比语境不能独立成为广告标签。",
+          "evidence": [
+            {
+              "from": 27.04,
+              "to": 29.22,
+              "text": "你看总重量的话85克"
+            },
+            {
+              "from": 63.8,
+              "to": 67.62,
+              "text": "然后能量的话100克是一千八百七十八千焦"
+            },
+            {
+              "from": 79.36,
+              "to": 82.52,
+              "text": "所以梁哥这一餐就摄入入了6100大卡"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1ozDpBQEHU",
+      "cid": 37353163764,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 320.27,
+          "end": 408.9,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讲解搜索结果个性化和搜索广告按点击付费的商业模式，广告是讨论对象，没有引导购买广告商品。",
+          "evidence": [
+            {
+              "from": 333.95,
+              "to": 336.43,
+              "text": "他总不能给你推荐个纽约的地儿吧"
+            },
+            {
+              "from": 363.17,
+              "to": 366.679,
+              "text": "结果说白了就是广告旁边都会有小标记"
+            },
+            {
+              "from": 366.679,
+              "to": 368.479,
+              "text": "广告商按点击付费"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1LAAYz3E4g",
+      "cid": 36352954182,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 30.16,
+          "end": 75.28,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "解释鸟类、两栖动物和天气传播鱼卵，属于池塘生态主题。",
+          "evidence": [
+            {
+              "from": 31.54,
+              "to": 34.04,
+              "text": "当一只鸟在别的池塘捕鱼吃的时候"
+            },
+            {
+              "from": 65.8,
+              "to": 68.26,
+              "text": "别的地方的鱼卵就有可能会被卷到天上"
+            }
+          ]
+        },
+        {
+          "start": 75.28,
+          "end": 95.64,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "拍摄奇观的相机话题转到转转回收，连续说明品类、价格与推荐；起点含桥接句，需人工确认是否纳入广告。",
+          "evidence": [
+            {
+              "from": 75.28,
+              "to": 77.02,
+              "text": "当然如果我遇到这种场景"
+            },
+            {
+              "from": 79.9,
+              "to": 81.74,
+              "text": "我第一时间找转转上门回收"
+            },
+            {
+              "from": 91.5,
+              "to": 93.36,
+              "text": "所以有闲置的数码产品"
+            }
+          ]
+        },
+        {
+          "start": 95.64,
+          "end": 120.04,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确回到干涸湖泊鱼卵休眠和池塘环境条件。",
+          "evidence": [
+            {
+              "from": 96.88,
+              "to": 99.06,
+              "text": "那就是鱼就是从地里长出来的"
+            },
+            {
+              "from": 109.1,
+              "to": 110.04,
+              "text": "跟三体人一样"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Yz5k62E3y",
+      "cid": 38301469922,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 35.54,
+          "end": 64.92,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "连续叙述警方调动及案件背景，不是对观众的销售建议。",
+          "evidence": [
+            {
+              "from": 43.26,
+              "to": 45.16,
+              "text": "然而此时警方不知道的是"
+            },
+            {
+              "from": 59.92,
+              "to": 61.6,
+              "text": "来到了镇上的魔门教教会"
+            }
+          ]
+        },
+        {
+          "start": 67.78,
+          "end": 150.56,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "个人睡眠问题铺垫后完整推销棉同学枕头，涵盖体验、结构、售价、售后和限时优惠；开头与案件评论桥接，精确切点待审核。",
+          "evidence": [
+            {
+              "from": 79.76,
+              "to": 81.94,
+              "text": "直到最近换了棉同学深睡枕"
+            },
+            {
+              "from": 105.96,
+              "to": 107.26,
+              "text": "后来我跟品牌方一聊"
+            },
+            {
+              "from": 145.249,
+              "to": 147.149,
+              "text": "嘿嘿评论区有限时优惠"
+            }
+          ]
+        },
+        {
+          "start": 150.56,
+          "end": 166.66,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "回到教堂案发时序和警员支援正文。",
+          "evidence": [
+            {
+              "from": 150.56,
+              "to": 152.9,
+              "text": "此时教堂正在举行周日的礼拜"
+            },
+            {
+              "from": 158.08,
+              "to": 161.44,
+              "text": "此时大部分警察都在赶往之前虚假报案的地点"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1uT421S7qi",
+      "cid": 1555997267,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 38.08,
+          "end": 85.52,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "分析哈利波特画像情报网络的同人理论并评价其可信度，巧克力蛙在这里是剧情物品。",
+          "evidence": [
+            {
+              "from": 38.08,
+              "to": 39.76,
+              "text": "外网哈迷们有一个理论啊"
+            },
+            {
+              "from": 81.36,
+              "to": 84.12,
+              "text": "官方并没有对这个说法有任何回应或是背书"
+            }
+          ]
+        },
+        {
+          "start": 85.52,
+          "end": 111.41,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "从说到巧克力蛙转入拼多多零食福袋活动，完整说明商品、免费抽取与评论区参与链接，之后明确进入第二个剧情条目。",
+          "evidence": [
+            {
+              "from": 86.52,
+              "to": 89.04,
+              "text": "最近拼多多官方正在开展临时福袋活动"
+            },
+            {
+              "from": 101.72,
+              "to": 102.48,
+              "text": "手气好的话"
+            },
+            {
+              "from": 108.32,
+              "to": 110.52,
+              "text": "大家快点开视频下方和评论区置顶链接"
+            },
+            {
+              "from": 111.41,
+              "to": 114.03,
+              "text": "2DOMINDO的开学致辞"
+            }
+          ]
+        },
+        {
+          "start": 111.41,
+          "end": 130.18,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "第二个哈利波特传言条目，解释开学致辞文字。",
+          "evidence": [
+            {
+              "from": 114.03,
+              "to": 115.57,
+              "text": "哈利波特与魔法石中"
+            },
+            {
+              "from": 121.15,
+              "to": 125.51,
+              "text": "原文是nitwit blubber automate twick"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV18Z421s7bn",
+      "cid": 1550006126,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 149.51,
+          "end": 179.68,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "解释火星冰盖气体和尘土形成蜘蛛地貌。",
+          "evidence": [
+            {
+              "from": 150.89,
+              "to": 154.06,
+              "text": "于是气体便从裂口处向外喷涌"
+            },
+            {
+              "from": 173.07,
+              "to": 176.37,
+              "text": "于是慢慢形成了各种各样的侵蚀地形"
+            }
+          ]
+        },
+        {
+          "start": 180.16,
+          "end": 334.36,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从火星黑斑桥接牙齿问题，完整铺垫牙菌斑和治疗费用，再声明与萌牙家合作、比较产品价格售后并引导领券；铺垫属于广告叙事但准确视觉切点未知。",
+          "evidence": [
+            {
+              "from": 182.7,
+              "to": 185.18,
+              "text": "我们牙齿上的黑斑是被什么侵蚀的呢"
+            },
+            {
+              "from": 257.78,
+              "to": 260.66,
+              "text": "其实我在B站恰的第一顿饭就是萌牙家"
+            },
+            {
+              "from": 330.46,
+              "to": 334.36,
+              "text": "大家买之前一定要记得来评论区领优惠券"
+            }
+          ]
+        },
+        {
+          "start": 337.62,
+          "end": 373.1,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复伽马射线暴观测及磁星假说，牙刷推广已经结束。",
+          "evidence": [
+            {
+              "from": 337.62,
+              "to": 339.54,
+              "text": "2023年11月15日"
+            },
+            {
+              "from": 366.22,
+              "to": 367.64,
+              "text": "于是天文学家推测"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1kT421Y7oY",
+      "cid": 1574177309,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 139.029,
+          "end": 229.01,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讨论防晒分级、市场SPF配方和旧科普误区；打开淘宝用于观察市场，并没有指向某款商品或销售入口。",
+          "evidence": [
+            {
+              "from": 169.72,
+              "to": 170.829,
+              "text": "那么重点来了"
+            },
+            {
+              "from": 192.59,
+              "to": 194.2,
+              "text": "那现在咱们打开淘宝"
+            },
+            {
+              "from": 215.42,
+              "to": 218.62,
+              "text": "但现在的物理防晒成分都做的可小的了"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV14zhuziEUW",
+      "cid": 31454858189,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 130.06,
+          "end": 163.34,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "分析开门杀事故和骑车安全，转发视频是内容互动而非商品促销。",
+          "evidence": [
+            {
+              "from": 130.06,
+              "to": 133.68,
+              "text": "你看这就凸显出头盔的重要性了"
+            },
+            {
+              "from": 148.72,
+              "to": 151.66,
+              "text": "一定要把这条视频转发给你"
+            }
+          ]
+        },
+        {
+          "start": 163.34,
+          "end": 215.39,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "面向想变帅的观众转入海洋至尊洁面，完整介绍成分、使用体验、专利和券后价格，以不要错过结束。",
+          "evidence": [
+            {
+              "from": 163.34,
+              "to": 165.04,
+              "text": "又懒又想变帅的兄弟们"
+            },
+            {
+              "from": 171.84,
+              "to": 174.76,
+              "text": "我最近一直在用的海洋至尊三棱镜洁面"
+            },
+            {
+              "from": 207.43,
+              "to": 210.15,
+              "text": "现在这点评论就给大家准备了大额优惠券"
+            },
+            {
+              "from": 215.39,
+              "to": 218.31,
+              "text": "咱们继续来看接下来这位小哥的遭遇"
+            }
+          ]
+        },
+        {
+          "start": 215.39,
+          "end": 244.57,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确说继续看小哥遭遇，恢复交通事故解说。",
+          "evidence": [
+            {
+              "from": 215.39,
+              "to": 218.31,
+              "text": "咱们继续来看接下来这位小哥的遭遇"
+            },
+            {
+              "from": 223.78,
+              "to": 225.7,
+              "text": "谁能想到车上还坐了人"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1gy411i7Yx",
+      "cid": 1608726911,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 75.45,
+          "end": 110.38,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "军事科普动画中的引信作用与场景叙事，不面向观众出售商品。",
+          "evidence": [
+            {
+              "from": 80.46,
+              "to": 82.46,
+              "text": "没有射中目标的炮弹"
+            },
+            {
+              "from": 106.98,
+              "to": 110.38,
+              "text": "敌军飞机和防空炮同归于尽了"
+            }
+          ]
+        },
+        {
+          "start": 110.38,
+          "end": 229.34,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "从推荐好东西开始，完整展示肩颈按摩仪用途、体验、档位价格、质量检测、售后和领券价；祝福后立即回到动画叙事。",
+          "evidence": [
+            {
+              "from": 111.06,
+              "to": 113.84,
+              "text": "必须给你们推荐一个非常非常非常好用"
+            },
+            {
+              "from": 118.88,
+              "to": 121.26,
+              "text": "就是这台望舒心肩颈按摩仪"
+            },
+            {
+              "from": 220.41,
+              "to": 223.09,
+              "text": "想买的别忘了去评论区领张优惠券"
+            },
+            {
+              "from": 229.34,
+              "to": 231.19,
+              "text": "你还没缓过来呢"
+            }
+          ]
+        },
+        {
+          "start": 229.34,
+          "end": 257.3,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复防空动画中的引信类型讲解。",
+          "evidence": [
+            {
+              "from": 231.19,
+              "to": 234.87,
+              "text": "漫天遍野的轰炸机从飞了过来"
+            },
+            {
+              "from": 253.459,
+              "to": 257.3,
+              "text": "于是你赶紧从箱子里拿出了一枚近炸引信"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1oq421c7ZN",
+      "cid": 1490912515,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 319.01,
+          "end": 365.47,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "游戏内坦克科技、生产效率和性价比分析，没有商品促销；性价比是游戏数值评价。",
+          "evidence": [
+            {
+              "from": 335.49,
+              "to": 339.95,
+              "text": "看样子这个德国人的科技还是有一点吓人啊"
+            },
+            {
+              "from": 357.45,
+              "to": 360.27,
+              "text": "不过这个性价比实在低的离谱"
+            }
+          ]
+        },
+        {
+          "start": 365.47,
+          "end": 425.45,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "用休息和放松肩颈引出按摩仪，完整讲述功能、操作、价格、领券和质保，随后回到坦克设计。",
+          "evidence": [
+            {
+              "from": 365.47,
+              "to": 366.37,
+              "text": "视频到这"
+            },
+            {
+              "from": 370.78,
+              "to": 372.34,
+              "text": "六界肩颈按摩仪"
+            },
+            {
+              "from": 414.35,
+              "to": 416.39,
+              "text": "在我评论区领券下单"
+            },
+            {
+              "from": 425.45,
+              "to": 426.47,
+              "text": "设计坦克前"
+            }
+          ]
+        },
+        {
+          "start": 425.45,
+          "end": 447.59,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复游戏底盘、装甲和生产线操作讲解。",
+          "evidence": [
+            {
+              "from": 425.45,
+              "to": 426.47,
+              "text": "设计坦克前"
+            },
+            {
+              "from": 436.58,
+              "to": 440.81,
+              "text": "属性几乎和我们这个黑豹没差别啊"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV15zSWBUE6X",
+      "cid": 34434319501,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 13.52,
+          "end": 44.72,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "描述头部移植实验及意识议题，是本片科学史主题。",
+          "evidence": [
+            {
+              "from": 31.24,
+              "to": 32.76,
+              "text": "这是人类历史上第一次"
+            },
+            {
+              "from": 39.14,
+              "to": 40.1,
+              "text": "那就是意识"
+            }
+          ]
+        },
+        {
+          "start": 50.94,
+          "end": 90.81,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "显式赫恩赞助，完整讲洗发水问题、功效、成分、香型、礼盒和大额优惠；赞助前有较长字幕空档，视觉切点未核实。",
+          "evidence": [
+            {
+              "from": 50.94,
+              "to": 52.74,
+              "text": "本视频由赫恩赞助播出"
+            },
+            {
+              "from": 61.2,
+              "to": 62.88,
+              "text": "他还做了去屑加控油报告"
+            },
+            {
+              "from": 87.66,
+              "to": 89.34,
+              "text": "评论区可以领取我的大额优惠"
+            }
+          ]
+        },
+        {
+          "start": 90.81,
+          "end": 124.8,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复头部移植概念与实验历史。",
+          "evidence": [
+            {
+              "from": 90.81,
+              "to": 93.55,
+              "text": "其实头部移植的概念并非源自于20世纪"
+            },
+            {
+              "from": 102.8,
+              "to": 105.34,
+              "text": "而现代的头部移植实验始于1908年"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1CnH5zDEMu",
+      "cid": 32821544196,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 25.32,
+          "end": 55.35,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "交代评测系列的目标是验证模糊商品描述、辨别宝藏与垃圾，没有推销本段商品。",
+          "evidence": [
+            {
+              "from": 29.1,
+              "to": 32.51,
+              "text": "而且大多数评论不可信"
+            },
+            {
+              "from": 48.26,
+              "to": 52.31,
+              "text": "最终告诉你是否值得尝试或远离"
+            }
+          ]
+        },
+        {
+          "start": 62.94,
+          "end": 131.16,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "Boot.dev明确赞助，完整展示编程课程、游戏化设计、免费体验和付费折扣链接；前有字幕空档，开始的画面边界待审。",
+          "evidence": [
+            {
+              "from": 62.94,
+              "to": 65.86,
+              "text": "这个视频由Boot.dev赞助"
+            },
+            {
+              "from": 83.74,
+              "to": 85.34,
+              "text": "这里可以学习Python"
+            },
+            {
+              "from": 123.87,
+              "to": 131.16,
+              "text": "或视频描述中的链接，现在享受首年全年五折"
+            }
+          ]
+        },
+        {
+          "start": 131.16,
+          "end": 169.57,
+          "label": "normal",
+          "confidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "回到本期电动气泵产品评测，但涉及购买价与正面外观评价，未看画面或验证商业关系，不作为确定负例。",
+          "evidence": [
+            {
+              "from": 131.16,
+              "to": 136.06,
+              "text": "让我们从夏季常遇到的问题开始"
+            },
+            {
+              "from": 142.49,
+              "to": 147,
+              "text": "这就是我从速卖通买的电动气泵"
+            },
+            {
+              "from": 154.48,
+              "to": 160.4,
+              "text": "根据描述它应该能完成我设想的任务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "cid": 32939511456,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 479.98,
+          "end": 534.55,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "用Cursor和聊天浏览器举例解释UI趋势，没有面向观众的购买/注册入口。",
+          "evidence": [
+            {
+              "from": 482.48,
+              "to": 484.66,
+              "text": "Cursor在编码领域也做到了同样事"
+            },
+            {
+              "from": 524.429,
+              "to": 526.91,
+              "text": "仍感觉像聊天机器人"
+            }
+          ]
+        },
+        {
+          "start": 534.55,
+          "end": 600.17,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "转到本片赞助商，连续演示Bolt建应用能力并引导免费试用官网；品牌ASR不清、前句兼具主题桥接，边界需人工审核。",
+          "evidence": [
+            {
+              "from": 538.51,
+              "to": 540.2,
+              "text": "本视频赞助商见"
+            },
+            {
+              "from": 547.07,
+              "to": 550.93,
+              "text": "我可以构建一个具备用户认证的完整费用追踪应用"
+            },
+            {
+              "from": 594.68,
+              "to": 596.68,
+              "text": "今天可免费试用"
+            },
+            {
+              "from": 596.68,
+              "to": 600.17,
+              "text": "前往bolt官网开始构建真实项目"
+            }
+          ]
+        },
+        {
+          "start": 600.17,
+          "end": 640.2,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "转回Todoist实验功能与图形界面设计论点，语义不再推销Bolt。",
+          "evidence": [
+            {
+              "from": 601.1,
+              "to": 602.16,
+              "text": "这是Todoist"
+            },
+            {
+              "from": 621.08,
+              "to": 622.61,
+              "text": "提供实时反馈与输出"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1TnVb6bEwG",
+      "cid": 38691997000,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 2.4,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "独立赞助声明，正文前有无字幕空档；单句声明单列，不能与中部广告跨正文合并。",
+          "evidence": [
+            {
+              "from": 0.08,
+              "to": 2.4,
+              "text": "本视频由Brilliant赞助"
+            }
+          ]
+        },
+        {
+          "start": 431.27,
+          "end": 495.97,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "显式说明Brilliant广告，完整介绍互动课程、手机端、小课、试用与年费折扣，结束在链接入口。",
+          "evidence": [
+            {
+              "from": 431.27,
+              "to": 433.89,
+              "text": "稍后我会通过Brilliant的广告说明"
+            },
+            {
+              "from": 462.22,
+              "to": 466.71,
+              "text": "因为Brilliant通过每日小课助你学习"
+            },
+            {
+              "from": 482.72,
+              "to": 486.82,
+              "text": "可免费体验全部内容30天"
+            },
+            {
+              "from": 493.85,
+              "to": 495.97,
+              "text": "或使用下方链接"
+            }
+          ]
+        },
+        {
+          "start": 497.17,
+          "end": 554.58,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确回到视频，解释帧缓冲研究应用和交通录像，不是课程广告。",
+          "evidence": [
+            {
+              "from": 497.17,
+              "to": 499.08,
+              "text": "现在回到视频"
+            },
+            {
+              "from": 504.9,
+              "to": 507.84,
+              "text": "此类帧缓冲提供第二次机会"
+            },
+            {
+              "from": 512.27,
+              "to": 516.23,
+              "text": "尽管我在开发大学研究项目的原型应用"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1JM411v74G",
+      "cid": 996559990,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 55.02,
+          "end": 151.32,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "完整解释搜索引擎爬虫、索引、排序，广告只是排名机制的一句说明，不是广告插播。",
+          "evidence": [
+            {
+              "from": 55.02,
+              "to": 57.54,
+              "text": "我们再来讲一下搜索引擎的原理"
+            },
+            {
+              "from": 99.039,
+              "to": 103.65,
+              "text": "当然一些搜索引擎偶尔也会在排名中穿插广告"
+            },
+            {
+              "from": 110.41,
+              "to": 115.27,
+              "text": "搜索引擎会派出一个爬取网页文件的代码程序"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1qha9zCEyC",
+      "cid": 32241093979,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.82,
+          "end": 130.16,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "搜索引擎与爬虫遍历的教学实例，多次出现搜索、链接、官网但没有商业导流。",
+          "evidence": [
+            {
+              "from": 0.82,
+              "to": 2.94,
+              "text": "搜索引擎是一种使用特定算法"
+            },
+            {
+              "from": 25.03,
+              "to": 26.71,
+              "text": "第一个阶段是信息抓取"
+            },
+            {
+              "from": 95.56,
+              "to": 98.46,
+              "text": "于是网络爬虫就会打开这两个大学的官网"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1F44izREmT",
+      "cid": 33092207130,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 14.22,
+          "end": 347.4,
+          "label": "normal",
+          "confidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "整段是课程大纲与答疑系统介绍，可能是课程前言，也可能是自我营销；没有付费说明，不能凭免费教程标题判断无广告，交人工审核。",
+          "evidence": [
+            {
+              "from": 15.38,
+              "to": 19.6,
+              "text": "我们计划录制python400集零基础全系列课程"
+            },
+            {
+              "from": 53.73,
+              "to": 57.89,
+              "text": "本套课程呢还配套了人工的实时答疑系统"
+            },
+            {
+              "from": 260.659,
+              "to": 263.25,
+              "text": "本套课程配套配套了实时答疑系统"
+            },
+            {
+              "from": 342,
+              "to": 344.82,
+              "text": "这是我们本套课程所包含的全部内容"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1ProjYuEqQ",
+      "cid": 29405807273,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 4.939,
+          "end": 150.2,
+          "label": "normal",
+          "confidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "Python课程自我介绍、夸赞和评论666领取素材混合，可能是公开课导入也可能是营销获客；免费并不能证明非推广，暂不训练。",
+          "evidence": [
+            {
+              "from": 75.62,
+              "to": 78,
+              "text": "我们这套课程呢会从基础篇"
+            },
+            {
+              "from": 127.9,
+              "to": 130.1,
+              "text": "最后呢会给大家一个小福利"
+            },
+            {
+              "from": 142.34,
+              "to": 144.48,
+              "text": "666即可全部免费打包带走"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1DxsYehEcU",
+      "cid": 26146508426,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.22,
+          "end": 162.9,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "完整CS地图点位历史讲解，提及游戏公司和评论区互动都服务于正文，没有销售推广。",
+          "evidence": [
+            {
+              "from": 16.42,
+              "to": 18.68,
+              "text": "今天就来说说小镇点位名字的故事"
+            },
+            {
+              "from": 75,
+              "to": 76.12,
+              "text": "书房也是有书的"
+            },
+            {
+              "from": 143.26,
+              "to": 144.6,
+              "text": "留给评论区的老玩家吧"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV15GyYB8ESg",
+      "cid": 33532150348,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 35.899,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "爷孙讨论光伏板免费用电、网购与预算的剧情铺垫；没有对观众给出购买入口或品牌服务推荐，仅标这段。",
+          "evidence": [
+            {
+              "from": 2.34,
+              "to": 3.95,
+              "text": "能免费用电"
+            },
+            {
+              "from": 24.1,
+              "to": 26.6,
+              "text": "哎呀你刷视频刷魔怔了吧"
+            },
+            {
+              "from": 31.259,
+              "to": 32.219,
+              "text": "我怕买贵了"
+            }
+          ]
+        },
+        {
+          "start": 35.899,
+          "end": 57.55,
+          "label": "ad",
+          "confidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "夸克AI参与比较光伏商品，可能是植入铺垫，也可能是普通工具使用；后面有更长推荐演示，两个分散段的边界交人工确认。",
+          "evidence": [
+            {
+              "from": 35.899,
+              "to": 37.279,
+              "text": "问问夸克AI哪个好"
+            },
+            {
+              "from": 44.449,
+              "to": 46.469,
+              "text": "但夸克说第四款性价比高点"
+            },
+            {
+              "from": 50.789,
+              "to": 51.909,
+              "text": "还不快点下单"
+            }
+          ]
+        },
+        {
+          "start": 118.35,
+          "end": 166.38,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "连续建议用夸克、示范入口和助手能力，明显对该服务作正面推广；嵌入生活剧情，开始和终点需视频复核。",
+          "evidence": [
+            {
+              "from": 120.009,
+              "to": 121.189,
+              "text": "先问问夸克AI"
+            },
+            {
+              "from": 127.38,
+              "to": 131.02,
+              "text": "你打开夸克输入或者直接语音问就行了"
+            },
+            {
+              "from": 154.17,
+              "to": 155.49,
+              "text": "继续问夸克哈"
+            }
+          ]
+        },
+        {
+          "start": 170.3,
+          "end": 187.839,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "回到光伏安装与回本的家庭对话，免费用电是主题，不是夸克功能推荐。",
+          "evidence": [
+            {
+              "from": 170.3,
+              "to": 172.36,
+              "text": "回本的话应该能回本的"
+            },
+            {
+              "from": 173.72,
+              "to": 175.86,
+              "text": "这么多东西的又要装到房顶"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1JucQzwEiP",
+      "cid": 36666410802,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 117.3,
+          "label": "normal",
+          "confidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "盲盒里真假品牌的搞笑试吃，后文明确提到麻辣王子甲方；无法从字幕确定前面的品牌露出是否已属植入，不训练为确定负例。",
+          "evidence": [
+            {
+              "from": 15.86,
+              "to": 20.36,
+              "text": "又是个人风味牛肉辣椒真的是牛肉吗"
+            },
+            {
+              "from": 73.16,
+              "to": 75.84,
+              "text": "大哥味儿不对啊"
+            },
+            {
+              "from": 119.18,
+              "to": 120.42,
+              "text": "说到这个麻辣王子啊"
+            }
+          ]
+        },
+        {
+          "start": 119.18,
+          "end": 160.46,
+          "label": "ad",
+          "confidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "提到甲方联络后连续夸赞麻辣王子口味和研发销量，疑似软性植入；无交易入口且开箱正文本来就在试吃商品，完整商业边界须人审。",
+          "evidence": [
+            {
+              "from": 121.96,
+              "to": 123.72,
+              "text": "拿麻辣王子的甲方第一时间找到我啊"
+            },
+            {
+              "from": 133.13,
+              "to": 136.01,
+              "text": "你别说这麻辣王子确实好吃啊"
+            },
+            {
+              "from": 146.3,
+              "to": 148.14,
+              "text": "长辈人和辣条发明人共同研发"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1a5N4zxEQe",
+      "cid": 30584078525,
+      "split": "legacy-development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 150.12,
+          "end": 179.829,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讲述汉堡发明史与老店传统，不是当前得物商品推荐。",
+          "evidence": [
+            {
+              "from": 157.24,
+              "to": 160.1,
+              "text": "也仍是那道妙手偶得的初代汉堡包"
+            },
+            {
+              "from": 174.1,
+              "to": 176.48,
+              "text": "搁这儿你要敢往里加什么番茄酱"
+            }
+          ]
+        },
+        {
+          "start": 179.829,
+          "end": 249.24,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "完整得物广告包含桥接口播、鉴别保障、多个商品优惠和现金抽奖；起始押韵过渡与末尾空档导致画面精确边界仍不确定。",
+          "evidence": [
+            {
+              "from": 184.249,
+              "to": 185.189,
+              "text": "入得物好"
+            },
+            {
+              "from": 197.96,
+              "to": 200.58,
+              "text": "加上现在得物准备的超高新客福利"
+            },
+            {
+              "from": 232.8,
+              "to": 234.4,
+              "text": "快来点击置顶评论区链接"
+            },
+            {
+              "from": 246.74,
+              "to": 249.24,
+              "text": "神价好物等你来抢"
+            }
+          ]
+        },
+        {
+          "start": 252.42,
+          "end": 317.56,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复德国移民、热狗词源与历史小贩叫卖叙事；购买香肠描述历史人物行为，不是当前销售CTA。",
+          "evidence": [
+            {
+              "from": 252.42,
+              "to": 253.72,
+              "text": "在汉堡包以外"
+            },
+            {
+              "from": 293.5,
+              "to": 297.18,
+              "text": "纽约洋基体育场内有个小贩大声的叫卖吆喝"
+            },
+            {
+              "from": 297.18,
+              "to": 300.32,
+              "text": "鼓动观众趁热购买自家的腊肠犬香肠"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV13ptjzSETZ",
+      "cid": 31493721117,
+      "split": "legacy-development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 132.72,
+          "end": 163.74,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "锻刀节目比赛和人物解说，后面才切换到作者旧相机处理。",
+          "evidence": [
+            {
+              "from": 135.5,
+              "to": 137.22,
+              "text": "这个温度啊对冲压很有帮助"
+            },
+            {
+              "from": 156.56,
+              "to": 158.28,
+              "text": "但在坚定的唯物主义者看来"
+            }
+          ]
+        },
+        {
+          "start": 163.74,
+          "end": 203.899,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "从作者收拾旧设备转入转转上门回收，完整包含相机价格、服务范围、品类、下单和推荐，后句明确回比赛。",
+          "evidence": [
+            {
+              "from": 163.74,
+              "to": 165.76,
+              "text": "都哇最近在更新视频的同时"
+            },
+            {
+              "from": 172.38,
+              "to": 174.74,
+              "text": "就找转转上门回收了2600多"
+            },
+            {
+              "from": 196.6,
+              "to": 198.88,
+              "text": "一键下单就能通通打包带走"
+            },
+            {
+              "from": 201.62,
+              "to": 203.899,
+              "text": "找转转这种大平台准没错"
+            }
+          ]
+        },
+        {
+          "start": 203.899,
+          "end": 235.21,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复锻刀选手加工材料与节目解说。",
+          "evidence": [
+            {
+              "from": 203.899,
+              "to": 205.379,
+              "text": "这边是通灵尼克"
+            },
+            {
+              "from": 228.13,
+              "to": 229.61,
+              "text": "本来用球杆头的话"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Entn6tEps",
+      "cid": 41515551691,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 234.98,
+          "end": 278.85,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讨论古网化石的六角结构与海绵假说，是已阅读的古生物正文，尚未向观众推荐营养产品。",
+          "evidence": [
+            {
+              "from": 234.98,
+              "to": 236.52,
+              "text": "覆盖相同面积时"
+            },
+            {
+              "from": 275.699,
+              "to": 278.85,
+              "text": "都没有发现海绵独有的古筝结构"
+            }
+          ]
+        },
+        {
+          "start": 278.85,
+          "end": 423.56,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "由海绵长寿桥接到 NMN，完整展开营养工厂补剂的功效宣称、品质价格及置顶领券入口。广告类别明确；桥接句和结尾字幕空档使起止仍需人工复核。这里只记录营销话段，不验证或认可其健康功效宣称。",
+          "evidence": [
+            {
+              "from": 284.95,
+              "to": 286.91,
+              "text": "那一定不要错过NMN"
+            },
+            {
+              "from": 329.23,
+              "to": 330.67,
+              "text": "就是这个营养工厂"
+            },
+            {
+              "from": 406.69,
+              "to": 409.71,
+              "text": "现在点击置顶链接就能领100元券包"
+            },
+            {
+              "from": 420.48,
+              "to": 423.56,
+              "text": "买营养补剂就选营养工厂"
+            }
+          ]
+        },
+        {
+          "start": 425.32,
+          "end": 446.09,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确恢复古网成因的多种假说，并引出节肢动物说，与补剂销售话段分离。",
+          "evidence": [
+            {
+              "from": 425.32,
+              "to": 427.4,
+              "text": "除前面介绍的三大假说外"
+            },
+            {
+              "from": 437.68,
+              "to": 440.57,
+              "text": "而节肢动物说便是其中之一"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1NXenzME9n",
+      "cid": 31916032793,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 328.48,
+          "end": 362.18,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "叙述二战军队伙食与营养缺乏的历史背景，营养话题本身并非牙刷销售。",
+          "evidence": [
+            {
+              "from": 328.48,
+              "to": 330.43,
+              "text": "欧洲士兵的主食是面包"
+            },
+            {
+              "from": 359.54,
+              "to": 362.18,
+              "text": "那对士气和战斗力都是致命打击"
+            }
+          ]
+        },
+        {
+          "start": 362.18,
+          "end": 466.679,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从古今营养对比桥接到现代口腔护理，随后明确推荐 usmile Y30S 并持续介绍专利、功能、续航及评论区福利；保留完整产品叙事，桥接起点尚非画面确认。",
+          "evidence": [
+            {
+              "from": 362.18,
+              "to": 365.56,
+              "text": "我们现代人虽然不必像他们一样忍受营养缺乏"
+            },
+            {
+              "from": 373.59,
+              "to": 375.59,
+              "text": "u smile y30S素净刷"
+            },
+            {
+              "from": 442.59,
+              "to": 445.31,
+              "text": "Y30S充一次能撑120天"
+            },
+            {
+              "from": 461.919,
+              "to": 464.839,
+              "text": "感兴趣的小伙伴看看评论区有超大额福利"
+            }
+          ]
+        },
+        {
+          "start": 466.679,
+          "end": 490.89,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "重新比较日本陆军与海军的伙食水平，是历史正文而非口腔产品推荐。",
+          "evidence": [
+            {
+              "from": 466.679,
+              "to": 469.359,
+              "text": "日本陆军的伙食只能说还算可以"
+            },
+            {
+              "from": 470.699,
+              "to": 474.23,
+              "text": "日本海军的伙食那真是相当豪华了"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Ps421P7eF",
+      "cid": 1548253074,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 454.72,
+          "end": 499.28,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讨论金钱态度与有计划的消费，是理财心理叙述；不把后续洗衣机铺垫段自动归为正常。",
+          "evidence": [
+            {
+              "from": 454.72,
+              "to": 455.6,
+              "text": "这几年呢"
+            },
+            {
+              "from": 496.14,
+              "to": 499.28,
+              "text": "有规划的去体验和享受金钱的美好"
+            }
+          ]
+        },
+        {
+          "start": 534.65,
+          "end": 664.96,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确说要推荐改变生活的洗地机并承认这是广告，完整介绍追觅 H20pro 的使用体验、功能和评论区购买链接，直到显式回到正题。边界为字幕语义切换，不是逐帧切点。",
+          "evidence": [
+            {
+              "from": 535.53,
+              "to": 538.05,
+              "text": "我就不得不要推荐近半年来"
+            },
+            {
+              "from": 544.88,
+              "to": 546.14,
+              "text": "虽然这是一个广告"
+            },
+            {
+              "from": 636.889,
+              "to": 639.229,
+              "text": "这款H20pro助力版"
+            },
+            {
+              "from": 655.7,
+              "to": 659.2,
+              "text": "有需要的兄弟姐妹们可以在评论区点击链接"
+            }
+          ]
+        },
+        {
+          "start": 664.96,
+          "end": 696.15,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "显式回到正题，总结消费观并解释叙事疗法；其中买四赠一是四条总结加一条建议的比喻，不是商品优惠。",
+          "evidence": [
+            {
+              "from": 664.96,
+              "to": 666.65,
+              "text": "那我们回到正题"
+            },
+            {
+              "from": 685.24,
+              "to": 686.599,
+              "text": "买四赠一"
+            },
+            {
+              "from": 689.639,
+              "to": 692.639,
+              "text": "在叙事疗法中还有一个非常重要的概念"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1HVCfYHEef",
+      "cid": 26367295842,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 12.7,
+          "end": 48.08,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "预告 Linux 和浏览器新闻，讨论广告拦截扩展失效及上网体验；出现广告一词并不构成赞助商推销。",
+          "evidence": [
+            {
+              "from": 33.96,
+              "to": 41.38,
+              "text": "而且我们终于看到谷歌在Chrome中杀死旧的广告拦截器和跟踪拦截器"
+            },
+            {
+              "from": 42.96,
+              "to": 48.08,
+              "text": "你在网络上的广告体验将会比之前更糟糕"
+            }
+          ]
+        },
+        {
+          "start": 48.08,
+          "end": 155.55,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确引入赞助商，完整介绍企业 Linux 安全与生命周期结束后的补丁支持服务，结尾引导点击描述链接。品牌 ASR 有误，赞助关系和服务推广语义仍明确；起止仅按字幕叙事。",
+          "evidence": [
+            {
+              "from": 48.08,
+              "to": 50.93,
+              "text": "我们还有来自赞助商的这条消息"
+            },
+            {
+              "from": 53.45,
+              "to": 58.28,
+              "text": "他们提供解决方案，使保持Linux舰队安全并更新变得更加容易"
+            },
+            {
+              "from": 117.2,
+              "to": 121.9,
+              "text": "无需系统重启即可开始使用的生命周期结束补丁仓库"
+            },
+            {
+              "from": 152.07,
+              "to": 155.55,
+              "text": "显然，你所需要做的就是点击描述中的链接"
+            }
+          ]
+        },
+        {
+          "start": 156.23,
+          "end": 172.989,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "赞助结束后恢复 Google Chrome 老扩展政策的新闻解释。",
+          "evidence": [
+            {
+              "from": 156.23,
+              "to": 158.35,
+              "text": "墙上的字迹已经清晰可见"
+            },
+            {
+              "from": 158.35,
+              "to": 164.98,
+              "text": "谷歌已经明确表示，对于谷歌 chrome 的老款全功能扩展，未来的发展方向将是明确的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1SA66YeEN5",
+      "cid": 27665894334,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 174.8,
+          "end": 214.6,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "分析维基百科的筹款历史与资金需求，属于视频调查主题；不是为钟表饰品商家导流。",
+          "evidence": [
+            {
+              "from": 200.94,
+              "to": 202.56,
+              "text": "在过去的十年里"
+            },
+            {
+              "from": 202.56,
+              "to": 206.8,
+              "text": "维基百科仍在全球频繁寻求资金"
+            }
+          ]
+        },
+        {
+          "start": 214.6,
+          "end": 269.71,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "同一句由原话题问题切入今日赞助商，连续介绍自然材料手表、珠宝、太阳镜和手提包，并给出折扣码。首句混合正文和赞助、ASR 品牌模糊，保留边界不确定。",
+          "evidence": [
+            {
+              "from": 214.6,
+              "to": 219.62,
+              "text": "但这是真的吗？haltken是今天视频的赞助商"
+            },
+            {
+              "from": 230.08,
+              "to": 233.14,
+              "text": "他们最初制作由自然元素制成的独特手表"
+            },
+            {
+              "from": 240.26,
+              "to": 242.72,
+              "text": "从珠宝到太阳镜和手提包"
+            },
+            {
+              "from": 267.39,
+              "to": 269.71,
+              "text": "并使用nhk的代码，享受所有哈尔扫描产品10%的折扣"
+            }
+          ]
+        },
+        {
+          "start": 269.71,
+          "end": 315.27,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确转回印度地区维基百科筹款分析；捐款要求、遗嘱服务及直接链接是在批评性转述筹款邮件，不是本视频对观众的购买号召。",
+          "evidence": [
+            {
+              "from": 269.71,
+              "to": 272.59,
+              "text": "让我们看看印度一秒钟"
+            },
+            {
+              "from": 281.07,
+              "to": 281.53,
+              "text": "维基百科的筹款活动要求每人捐赠150印度卢比"
+            },
+            {
+              "from": 311.39,
+              "to": 315.27,
+              "text": "邮件甚至包含了一个直接链接，可以让你起草遗嘱的服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV12H4y1N7Tp",
+      "cid": 1511947697,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 347.84,
+          "end": 395.59,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讲述上海租房与搬家生活，提到旧电脑属于生活叙事；只标购买硬盘铺垫之前的已读段落。",
+          "evidence": [
+            {
+              "from": 361.54,
+              "to": 364.21,
+              "text": "狗哥呢也算正式在上海落脚了"
+            },
+            {
+              "from": 393.28,
+              "to": 395.59,
+              "text": "杭州带过来的古董电脑"
+            }
+          ]
+        },
+        {
+          "start": 396.19,
+          "end": 505.2,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "以电脑容量不足和赠送硬盘的生活对话切入，连续推介多个固态硬盘与外置存储产品，最终引导京东搜索手机直连存储并宣传全品类折扣。完整保留长产品介绍，剧情桥接起点待复核。",
+          "evidence": [
+            {
+              "from": 396.19,
+              "to": 398.74,
+              "text": "你不是说那个古董电脑没有内存了吗"
+            },
+            {
+              "from": 404.62,
+              "to": 406.78,
+              "text": "然后我在京东上给你买了几个硬盘"
+            },
+            {
+              "from": 495.72,
+              "to": 498.39,
+              "text": "逛京东搜索手机直连存储"
+            },
+            {
+              "from": 501.38,
+              "to": 503.78,
+              "text": "外置存储全品类真五折"
+            }
+          ]
+        },
+        {
+          "start": 505.72,
+          "end": 540.839,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "回到找到房子、开始搬家及长期分离的情绪叙事，没有继续存储产品权益或购买入口。",
+          "evidence": [
+            {
+              "from": 505.72,
+              "to": 507.78,
+              "text": "之前狗哥住酒店的时候"
+            },
+            {
+              "from": 510.07,
+              "to": 512.47,
+              "text": "但找到房子开始搬家的时候"
+            },
+            {
+              "from": 512.47,
+              "to": 515.59,
+              "text": "我才意识到他是真的要很长一段时间"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1he5KzsEXy",
+      "cid": 29856958486,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 154.95,
+          "end": 235.38,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "解释逻辑帧、渲染帧和生成帧的通用原理及意义；限定在这段技术正文，不把前面的具体电脑品牌演示或整片商业关系判为无广告。",
+          "evidence": [
+            {
+              "from": 154.95,
+              "to": 156.93,
+              "text": "在真正认识帧生成技术之前"
+            },
+            {
+              "from": 159.75,
+              "to": 161.75,
+              "text": "首先是最底层的逻辑帧"
+            },
+            {
+              "from": 194.05,
+              "to": 196.05,
+              "text": "GPU会根据前后逻辑帧的数据"
+            },
+            {
+              "from": 228.1,
+              "to": 231.14,
+              "text": "其实就是在正常的原生帧之外生成虚拟帧"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1zf421v7BC",
+      "cid": 1620470009,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 34.18,
+          "end": 82.96,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讨论航母相关新闻与是否遭到打击，是军事新闻正文，尚未进入人体工学椅推介。",
+          "evidence": [
+            {
+              "from": 34.18,
+              "to": 35.82,
+              "text": "一是自越战以来"
+            },
+            {
+              "from": 79.68,
+              "to": 82.96,
+              "text": "不由又增加了大家对爱豆豆号中弹的怀疑"
+            }
+          ]
+        },
+        {
+          "start": 82.96,
+          "end": 181.76,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从航母新闻接梗到接到大品牌合作，完整推介 C300 人体工学椅的腰靠、脚托等功能并给出评论区置顶入口；新闻桥接句起点存在正文混合，故边界不确定。",
+          "evidence": [
+            {
+              "from": 86.9,
+              "to": 88.54,
+              "text": "咱恰到大品牌的饭了"
+            },
+            {
+              "from": 88.54,
+              "to": 90.54,
+              "text": "新号C300人体工学椅"
+            },
+            {
+              "from": 98.34,
+              "to": 101.96,
+              "text": "首先C300的多米诺腰靠可以滑动撑腰"
+            },
+            {
+              "from": 176.48,
+              "to": 178.76,
+              "text": "喜欢的兄弟可以看看评论区置顶链接"
+            }
+          ]
+        },
+        {
+          "start": 181.76,
+          "end": 210.98,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确回到航母飞行甲板，解释起落架接触位置等军事内容，与座椅推广分离。",
+          "evidence": [
+            {
+              "from": 181.76,
+              "to": 183.74,
+              "text": "我们回到爱豆豆号的飞行甲板"
+            },
+            {
+              "from": 190.5,
+              "to": 193.84,
+              "text": "因为这一段是舰载机起落架刚接触甲板的地方"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1UuYt61EZc",
+      "cid": 41732670590,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 234.81,
+          "end": 269.3,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "描述游戏角色升级、击杀与操作，数值和装备语境属于游戏过程。",
+          "evidence": [
+            {
+              "from": 243.6,
+              "to": 245.329,
+              "text": "我们马上升到11级"
+            },
+            {
+              "from": 267.34,
+              "to": 268.68,
+              "text": "这波击杀完属实"
+            }
+          ]
+        },
+        {
+          "start": 269.3,
+          "end": 324.16,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "以操作帅转入外形打理，完整推荐海洋至尊双态发力喷雾及造型效果，最后给出置顶优惠券；随后立即恢复对局讲解。字幕语义起止明确但未经画面逐帧核验。",
+          "evidence": [
+            {
+              "from": 269.3,
+              "to": 270.96,
+              "text": "不过帅不光要看操作"
+            },
+            {
+              "from": 277.32,
+              "to": 279.58,
+              "text": "最近我包里就放着一瓶双态发力喷雾"
+            },
+            {
+              "from": 279.58,
+              "to": 282.38,
+              "text": "这是知名男士护理品牌海洋至尊首创的"
+            },
+            {
+              "from": 322.12,
+              "to": 323.56,
+              "text": "优惠券放置顶链接了"
+            }
+          ]
+        },
+        {
+          "start": 324.16,
+          "end": 352.28,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复拆塔、下路击杀和小地图判断的游戏讲解。",
+          "evidence": [
+            {
+              "from": 324.16,
+              "to": 325.4,
+              "text": "也是拆掉上一塔"
+            },
+            {
+              "from": 326.08,
+              "to": 328.22,
+              "text": "这里看到我们下路直接被双杀了"
+            },
+            {
+              "from": 329.82,
+              "to": 330.56,
+              "text": "看小地图"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1pAec6fEnZ",
+      "cid": 41933407697,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 78.22,
+          "end": 105.5,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讲述电影片场制造脏污效果的冷知识，属于电影制作主题。",
+          "evidence": [
+            {
+              "from": 78.22,
+              "to": 80.08,
+              "text": "里面大肠杆菌严重超标啊"
+            },
+            {
+              "from": 102.44,
+              "to": 103.6,
+              "text": "为了健康没问题"
+            }
+          ]
+        },
+        {
+          "start": 105.5,
+          "end": 166.66,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从电影里的脏转到家居螨虫问题，明确推荐除螨仪并连续解释功能、试用和退货权益。完整收录主题桥接与产品介绍，桥接句是否属于广告开头仍需人工复核。",
+          "evidence": [
+            {
+              "from": 105.5,
+              "to": 107.14,
+              "text": "这世上最防不胜防的脏"
+            },
+            {
+              "from": 116.42,
+              "to": 118.82,
+              "text": "今天给兄弟们推荐有望大白ultra除螨仪"
+            },
+            {
+              "from": 139.3,
+              "to": 141.1,
+              "text": "紫外线加超声波双重除菌"
+            },
+            {
+              "from": 163.76,
+              "to": 165.32,
+              "text": "七天免费试用加运费险"
+            }
+          ]
+        },
+        {
+          "start": 166.66,
+          "end": 200.1,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "重新讲述恐怖电影拍摄场景及木质布景箱体，属于电影冷知识正文。",
+          "evidence": [
+            {
+              "from": 166.66,
+              "to": 169.42,
+              "text": "在2013年的恐怖片下水道英雄中"
+            },
+            {
+              "from": 169.42,
+              "to": 172.1,
+              "text": "导演倒是没丧心病狂的真把演员领下水道里"
+            },
+            {
+              "from": 172.1,
+              "to": 174.98,
+              "text": "而是在户外搭建了一个巨型密闭的木质箱体"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1GzNgeRESK",
+      "cid": 28273475764,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 203.67,
+          "end": 227.38,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "讨论动画叙事与观众期待，是作品评论正文。",
+          "evidence": [
+            {
+              "from": 214.63,
+              "to": 216.89,
+              "text": "这种行为用他们动画里边的话讲"
+            },
+            {
+              "from": 216.89,
+              "to": 219.06,
+              "text": "你真的了解观众想看什么吗"
+            }
+          ]
+        },
+        {
+          "start": 227.38,
+          "end": 282.98,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "以情人节送礼开场，明确推荐山茶花信封包并连续介绍设计、材质、赠品暗号及置顶活动价；结尾立即回到动画评论。按完整礼品推销叙事标注，不只取领券句。",
+          "evidence": [
+            {
+              "from": 227.9,
+              "to": 229.22,
+              "text": "2月14号就是情人节了"
+            },
+            {
+              "from": 230.52,
+              "to": 232.94,
+              "text": "我推荐你送V是山茶花信封包"
+            },
+            {
+              "from": 250.06,
+              "to": 252.72,
+              "text": "奢侈品同级别定制PVC经久耐用"
+            },
+            {
+              "from": 273.28,
+              "to": 275.62,
+              "text": "需要备注东方硕果才能享受赠品哦"
+            }
+          ]
+        },
+        {
+          "start": 282.98,
+          "end": 319.81,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "回到动画集数口碑、角色戏份与剧情评价，停止包袋推广。",
+          "evidence": [
+            {
+              "from": 282.98,
+              "to": 285.94,
+              "text": "口碑最好的这两集也就是买狗的戏份最多"
+            },
+            {
+              "from": 290.7,
+              "to": 292.85,
+              "text": "这几集的剧情完全没有什么意义"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1B241epEZC",
+      "cid": 25958616635,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 158.66,
+          "end": 189.74,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "以拟人解说叙述豹子觅食被抢和贫穷处境，属于动物故事。",
+          "evidence": [
+            {
+              "from": 179.27,
+              "to": 182.09,
+              "text": "食物就被鬣狗抢了"
+            },
+            {
+              "from": 185.13,
+              "to": 186.98,
+              "text": "极贫穷一直追赶着我"
+            }
+          ]
+        },
+        {
+          "start": 189.74,
+          "end": 227.08,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "用动物角色决定办卡的剧情切入，连续宣传广电流量卡月租、流量、会员与包邮办理，最后号召评论区领取。类别明确，拟人故事桥接和结束后的字幕空档使边界保留不确定。",
+          "evidence": [
+            {
+              "from": 189.74,
+              "to": 191.94,
+              "text": "他决定去办一个广电大流量卡"
+            },
+            {
+              "from": 191.94,
+              "to": 193.2,
+              "text": "月租仅需19元"
+            },
+            {
+              "from": 219.4,
+              "to": 221.76,
+              "text": "反正是免费申请包邮到家不玩虚的"
+            },
+            {
+              "from": 224.56,
+              "to": 227.08,
+              "text": "兄弟们抓紧进评论区领一张吧"
+            }
+          ]
+        },
+        {
+          "start": 228.339,
+          "end": 266.33,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复安慰豹子和动物经历的故事叙述，没有继续套餐权益或办卡入口。",
+          "evidence": [
+            {
+              "from": 228.339,
+              "to": 229.939,
+              "text": "为安慰难受的抱抱"
+            },
+            {
+              "from": 238.73,
+              "to": 240.93,
+              "text": "豹豹发现在漫长的岁月中"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Z6421Z7kV",
+      "cid": 1611704090,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 79.09,
+          "end": 106.79,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "引入何塞·曼努埃尔·马丁内斯的案件，是纪实故事正文。",
+          "evidence": [
+            {
+              "from": 97.289,
+              "to": 102.11,
+              "text": "这是何塞·曼努埃尔·马丁内斯的故事"
+            }
+          ]
+        },
+        {
+          "start": 106.79,
+          "end": 180.48,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从频道动画与研究成本切入赞助，完整介绍 Brilliant 学习服务、免费试用及订阅折扣。起止附近存在字幕空档，保持边界不确定；没有把中间介绍缩成优惠句。",
+          "evidence": [
+            {
+              "from": 106.79,
+              "to": 108.18,
+              "text": "我们热爱动画和深入研究"
+            },
+            {
+              "from": 117.74,
+              "to": 120.24,
+              "text": "这就是为什么我们频道上有赞助商"
+            },
+            {
+              "from": 123.46,
+              "to": 124.5,
+              "text": "Brilliant支持我们"
+            },
+            {
+              "from": 150.95,
+              "to": 154.23,
+              "text": "Brilliant提供免费试用30天"
+            },
+            {
+              "from": 155.55,
+              "to": 158.46,
+              "text": "前200名可享受20%的折扣"
+            }
+          ]
+        },
+        {
+          "start": 187.24,
+          "end": 219.61,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "恢复案件调查并介绍记者与作者身份，书籍及作者作为纪实来源出现，不构成此段对观众的课程购买号召。",
+          "evidence": [
+            {
+              "from": 205.63,
+              "to": 207.27,
+              "text": "这是杰西卡·加里森"
+            },
+            {
+              "from": 207.27,
+              "to": 209.94,
+              "text": "一位记者和作家，在2017年"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1rqP3zhEJe",
+      "cid": 36383494140,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 470.639,
+          "end": 532.81,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "解释传送门模拟、场景编辑器与编程问题解决；此处推荐思考方法属于技术叙述，尚未进入赞助介绍。",
+          "evidence": [
+            {
+              "from": 489.71,
+              "to": 494.27,
+              "text": "而且我们不受任何表面限制也不需要编程它们"
+            },
+            {
+              "from": 517.319,
+              "to": 520.459,
+              "text": "秘诀在于这个视觉场景编辑器"
+            },
+            {
+              "from": 528.23,
+              "to": 532.81,
+              "text": "这就是解决问题和理解主题的好方法"
+            }
+          ]
+        },
+        {
+          "start": 532.81,
+          "end": 600.089,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确引入本期赞助商 Brilliant，连续介绍课程、练习体验、免费试用与年度折扣，以感谢赞助收尾；紧接着明确回到门户主题。片头另一个声明没有跨正文合并到本段。",
+          "evidence": [
+            {
+              "from": 532.81,
+              "to": 537.37,
+              "text": "这就是我乐意向大家介绍本期视频赞助商的原因"
+            },
+            {
+              "from": 537.37,
+              "to": 542.19,
+              "text": "Brilliant能帮助你成为更好的思考者和问题解决者"
+            },
+            {
+              "from": 552.339,
+              "to": 556.45,
+              "text": "我强烈推荐他们的向量和编程课程"
+            },
+            {
+              "from": 593.41,
+              "to": 595.27,
+              "text": "你将获得30天免费试用"
+            },
+            {
+              "from": 598.569,
+              "to": 600.089,
+              "text": "感谢Brilliant的赞助"
+            }
+          ]
+        },
+        {
+          "start": 600.089,
+          "end": 634.71,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "显式回到门户主题并继续实验框架，赞助话段已结束。",
+          "evidence": [
+            {
+              "from": 600.089,
+              "to": 602.71,
+              "text": "现在回到门户主题"
+            },
+            {
+              "from": 602.95,
+              "to": 605.21,
+              "text": "让我们实验这个框架"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1BT421k7r8",
+      "cid": 1605570568,
+      "split": "development",
+      "labelSource": "assistant",
+      "segments": [
+        {
+          "start": 418.14,
+          "end": 493.68,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "叙述瓜岛战局与天气对空袭的影响，闷热话题仍属于历史环境。",
+          "evidence": [
+            {
+              "from": 485.42,
+              "to": 488.72,
+              "text": "之前提到影响空袭的一个重要因素是天气"
+            },
+            {
+              "from": 491.28,
+              "to": 492.48,
+              "text": "什么闷热蚊虫"
+            }
+          ]
+        },
+        {
+          "start": 493.68,
+          "end": 567.48,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "uncertain",
+          "labelSource": "assistant",
+          "reason": "从战场天气转到上海炎热，完整介绍小小冰被的价格、材料、使用体验、领券和售后，再显式回到战局；天气到个人体验的桥接起点保留边界不确定。",
+          "evidence": [
+            {
+              "from": 493.68,
+              "to": 495.22,
+              "text": "最近的上海也是这鸟样"
+            },
+            {
+              "from": 504.82,
+              "to": 507.48,
+              "text": "小路的小小冰被到手168起"
+            },
+            {
+              "from": 555.74,
+              "to": 557.6,
+              "text": "新品推广优惠力度很大"
+            },
+            {
+              "from": 560.28,
+              "to": 562.88,
+              "text": "还承诺两年内质量问题免费换新"
+            }
+          ]
+        },
+        {
+          "start": 567.48,
+          "end": 608.66,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "labelSource": "assistant",
+          "reason": "明确回到战局，继续叙述航空力量和舰船航速，是二战历史正文。",
+          "evidence": [
+            {
+              "from": 567.48,
+              "to": 568.52,
+              "text": "我们回到战局"
+            },
+            {
+              "from": 568.52,
+              "to": 571.04,
+              "text": "在加强当地航空力量的同时"
+            },
+            {
+              "from": 599.1,
+              "to": 603.06,
+              "text": "他们在凭借着高航速离开机场飞机的打击范围"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

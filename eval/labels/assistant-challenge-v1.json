@@ -1,0 +1,912 @@
+{
+  "schemaVersion": 1,
+  "kind": "assistant-provisional",
+  "labelSource": "assistant",
+  "status": "frozen-challenge-v1",
+  "purpose": "Independent subtitle-based development challenge for overbroad skipping and complete-insertion coverage; not human gold, not training data, not formal holdout.",
+  "selection": {
+    "manifest": "challenge-candidates.json",
+    "manifestSha256": "b01f303316067b1016a47bf703bc8e7c12a6fd59968e66d61cb9bb233625cde3",
+    "videos": 10,
+    "uniqueCreators": 10,
+    "existingAssistantOrHumanLabelVideoOverlap": 0,
+    "existingAssistantOrHumanLabelCreatorOverlap": 0,
+    "split": "development",
+    "selectionUses": "metadata strata, raw subtitles, existing chapter metadata",
+    "selectionDoesNotUse": [
+      "community segment labels",
+      "new segment-detector outputs",
+      "current model predictions"
+    ],
+    "exposureCaveat": "The 351-video corpus has previously been replayed automatically. These videos/creators were excluded from prior assistant/human labels; this is a reserved development challenge, not globally unseen or a formal blind holdout."
+  },
+  "scope": {
+    "partial": true,
+    "unlabeled": "unknown",
+    "visualReview": false,
+    "boundaryMeaning": "The selected skip/keep range. High is subtitle narrative precision, not verified visual frame timing. Uncertain boundaries are retained and must be reported separately.",
+    "policy": "Commercial content and skipping are separate axes. Product-topic content may be keep; unresolved native integrations are skipDecision uncertain.",
+    "sourceLimitations": [
+      "ASR errors and mixed-language subtitles may obscure exact wording.",
+      "No complete-video no-ad claims are made.",
+      "Subtitle gaps are not filled by extending inferred visual boundaries.",
+      "Narrative continuity is used to include neutral sentences inside clearly independent ads, not to auto-label other unreviewed time."
+    ]
+  },
+  "counts": {
+    "records": 10,
+    "segments": 21,
+    "skipDecision": {
+      "keep": 16,
+      "skip": 3,
+      "uncertain": 2
+    },
+    "contentType": {
+      "non_ad": 12,
+      "ad": 5,
+      "uncertain": 4
+    },
+    "skipSeconds": 210.11,
+    "keepSeconds": 804.7090000000001,
+    "uncertainSeconds": 98.79000000000003
+  },
+  "records": [
+    {
+      "bvid": "BV1HX5i6CEam",
+      "cid": 38359073035,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "10bit的信息，\"注意力瓶颈\"如何卡住你的大脑？-【冷却报告】",
+      "creator": {
+        "mid": 511148568,
+        "name": "冷却报告"
+      },
+      "segments": [
+        {
+          "start": 11.92,
+          "end": 88.34,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "注意力与信息熵的科学解释；检索、下载文章和开头卖瓜情景属于论证。这里只审核这段正文；后文工具章节未审核。",
+          "evidence": [
+            {
+              "from": 11.92,
+              "to": 12.88,
+              "text": "正在卖瓜的"
+            },
+            {
+              "from": 47.7,
+              "to": 50.38,
+              "text": "检索结果把我们领向了这篇顶刊文章"
+            },
+            {
+              "from": 57.42,
+              "to": 60.32,
+              "text": "研究者用香农信息熵衡量总信息量"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "1fe23a796d8f7d3ff54a4fb0d934e3ee91e00564dc5aa5a64d7153b6fdb564f5",
+        "subtitleOnly": true,
+        "chapterCount": 7,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1wt421N72T",
+      "cid": 1513172691,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "美国媳妇试穿中式婚服！美国岳父岳母激动到落泪：太漂亮了",
+      "creator": {
+        "mid": 552024939,
+        "name": "田纳西Jay和Ari"
+      },
+      "segments": [
+        {
+          "start": 12.48,
+          "end": 47.17,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "家庭介绍和婚服出行准备，结束于租借特定朝代婚服的解释；后续护肤是独立主题转换。",
+          "evidence": [
+            {
+              "from": 21.729,
+              "to": 24.759,
+              "text": "这段时间呢我们也是在准备婚礼"
+            },
+            {
+              "from": 43.69,
+              "to": 47.17,
+              "text": "我们想要的那个朝代的婚服"
+            }
+          ]
+        },
+        {
+          "start": 48.96,
+          "end": 179.66,
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "ad",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "从出门前护肤切入品牌水乳，持续展示早晚产品、效果和旅行使用；英文与日常互动都在同一护肤推介内。179.66开始到访园林，才回到婚服行程。范围保留完整约131秒推介，未按促销句裁短；high边界仅指字幕叙事切换。",
+          "evidence": [
+            {
+              "from": 48.96,
+              "to": 50.96,
+              "text": "现在我出门前都是要护肤一下"
+            },
+            {
+              "from": 54.21,
+              "to": 56.55,
+              "text": "这一套真的是备婚必备"
+            },
+            {
+              "from": 156,
+              "to": 158.32,
+              "text": "我都会用这个双A醇精华乳2.0"
+            },
+            {
+              "from": 175.94,
+              "to": 177.08,
+              "text": "然后白白嫩嫩的"
+            }
+          ]
+        },
+        {
+          "start": 179.66,
+          "end": 190.2,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "地点切换到宁国府大观园并讨论建筑；这是已读到的正文恢复，不把返回句并入护肤广告。",
+          "evidence": [
+            {
+              "from": 179.66,
+              "to": 181.22,
+              "text": "我们现在来到了这边"
+            },
+            {
+              "from": 181.22,
+              "to": 183.86,
+              "text": "宁国府大观园的一个建筑"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "cf1efca4725fda71941a563191a65632ac1349c824a069b9515bed7aba73ea2f",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV13o3T6qEx1",
+      "cid": 40283407270,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "新品游戏本涨价太疯狂？! 二手游戏本选购指南",
+      "creator": {
+        "mid": 367877,
+        "name": "笔吧评测室"
+      },
+      "segments": [
+        {
+          "start": 2,
+          "end": 66.86,
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "已知整期获得平台支持；这一范围讲新品涨价和二手选购内容安排。即使节目存在商业合作，核心购买指南仍应保留；不能仅凭商业背景给正文广告性质下确定结论。",
+          "evidence": [
+            {
+              "from": 11.29,
+              "to": 14.62,
+              "text": "我也是第一次看到笔记本的价格逆势狂涨"
+            },
+            {
+              "from": 56.75,
+              "to": 59.19,
+              "text": "所以这期视频我根据过去的选购经验"
+            }
+          ]
+        },
+        {
+          "start": 67.42,
+          "end": 127.12,
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "uncertain",
+          "skipConfidence": "uncertain",
+          "boundaryConfidence": "high",
+          "label": "uncertain",
+          "confidence": "uncertain",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "明确合作身份后连续介绍平台验机、退货和售后，广告内容性质清楚；但节目本题就是二手选购，独立植入与可保留购机指南的用户偏好边界无法仅凭字幕确定，交人工决定skip/keep。",
+          "evidence": [
+            {
+              "from": 70.56,
+              "to": 72.1,
+              "text": "这次我们跟转转一拍即合"
+            },
+            {
+              "from": 74,
+              "to": 76.53,
+              "text": "转转主营原装正品二手数码产品"
+            },
+            {
+              "from": 114.72,
+              "to": 116.38,
+              "text": "转转还提供了七天无理由退货"
+            }
+          ]
+        },
+        {
+          "start": 127.28,
+          "end": 199.91,
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "转入显卡、CPU、内存、散热与机型通病等可复用技术选购原则，没有要求转入某平台。题材本身是购买指南，价格/推荐/型号词不能把这段吞入推广。商业制作背景已知，因此内容性质保留不确定，保留决定为高置信。",
+          "evidence": [
+            {
+              "from": 139.41,
+              "to": 141.67,
+              "text": "显卡优先依然是最重要的原则"
+            },
+            {
+              "from": 147.5,
+              "to": 150.36,
+              "text": "而且呢现在的游戏本显卡基本无法升级"
+            },
+            {
+              "from": 185.51,
+              "to": 187.7,
+              "text": "散热和性能释放可能完全不同"
+            }
+          ]
+        },
+        {
+          "start": 808.4,
+          "end": 831.6,
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "总结新机价格与二手机实际价值受使用、维修历史影响；属于节目主论点，不能因后接平台总结就前向吞入。",
+          "evidence": [
+            {
+              "from": 808.4,
+              "to": 811.66,
+              "text": "最后我们来总结一下今年新机的价格上涨之后"
+            },
+            {
+              "from": 829.36,
+              "to": 830.46,
+              "text": "不同的使用历史"
+            },
+            {
+              "from": 830.46,
+              "to": 831.6,
+              "text": "不同的维修情况"
+            }
+          ]
+        },
+        {
+          "start": 831.6,
+          "end": 870.69,
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "uncertain",
+          "skipConfidence": "uncertain",
+          "boundaryConfidence": "uncertain",
+          "label": "uncertain",
+          "confidence": "uncertain",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "平台专业性总结、支持鸣谢与购机引导构成商业推介；与本题购买指南重合，明确标广告但不替用户决定是否跳过。边界含从实际价值转入平台的同一字幕行，起点不确定。",
+          "evidence": [
+            {
+              "from": 834.3,
+              "to": 835.5,
+              "text": "作为一家专业二手平台"
+            },
+            {
+              "from": 859.72,
+              "to": 862.42,
+              "text": "最后感谢转转对本期节目的大力支持"
+            },
+            {
+              "from": 865.319,
+              "to": 866.799,
+              "text": "如果你近期有购机需求"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "de09989a753363552c065724404beb88d225b20e80fcea1f2fb01e5f54678751",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1dH4y1A7FL",
+      "cid": 1519848915,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "【宏观推演-4月】15分钟看懂，4月最新全球宏观经济大势",
+      "creator": {
+        "mid": 1575688490,
+        "name": "CLS同学"
+      },
+      "segments": [
+        {
+          "start": 16.64,
+          "end": 91.42,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "CPI、居民消费与旅游业的宏观数据解释；消费、增长、交易等词不是独立产品推销。仅选已经完整阅读的局部正文。",
+          "evidence": [
+            {
+              "from": 56.06,
+              "to": 58.34,
+              "text": "我国居民消费出现了K型分化"
+            },
+            {
+              "from": 74.72,
+              "to": 76.37,
+              "text": "可能有比较大的参考价值"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "7ebfdc0b06f132474a97441898935375c62fa13ede617311126043f091ed6219",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV14x3CzyEzz",
+      "cid": 30894653657,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "归义军最大谜案是什么？【小约翰】",
+      "creator": {
+        "mid": 23947287,
+        "name": "小约翰可汗"
+      },
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 86.99,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "归义军与唐代政权变迁的历史叙述。开场故事、正史来源和时间顺序延续同一主题，没有产品、商业角色或购买引导。",
+          "evidence": [
+            {
+              "from": 0.04,
+              "to": 1.54,
+              "text": "公元890年"
+            },
+            {
+              "from": 37.55,
+              "to": 41.13,
+              "text": "实际上这场巨变没有记载在任何正史之中"
+            },
+            {
+              "from": 53.96,
+              "to": 55.7,
+              "text": "归义军"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "9f8744da7a682e9c59283f200e3e5d1befdf934ec2f642be4d3f3bb628ae5b9b",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1QLj9zfEFL",
+      "cid": 30176971557,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "日本早餐自助！多国文化形成的早餐，到底啥样的？",
+      "creator": {
+        "mid": 405279279,
+        "name": "平平出击"
+      },
+      "segments": [
+        {
+          "start": 34.2,
+          "end": 64.32,
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "酒店早餐自助价格和日中西菜品分类是本期探店的主题正文。现有字幕无法排除整期合作，故不强断内容非广告；价格和店铺介绍本身不构成应跳过的独立插入。",
+          "evidence": [
+            {
+              "from": 38.82,
+              "to": 40.24,
+              "text": "It costs 1600 yen per person!"
+            },
+            {
+              "from": 40.24,
+              "to": 41.94,
+              "text": "Actually, this price is quite high."
+            },
+            {
+              "from": 61.8,
+              "to": 64.32,
+              "text": "These are basically the main types of Japanese breakfast."
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "24edb10150131c7f8849c1a1aa6219feabb2d773cffe6483db1e793d6081153e",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1uZu46DE2K",
+      "cid": 40670135783,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "极限射程7亿格的珍珠炮？全图超光速抵达！",
+      "creator": {
+        "mid": 5836069,
+        "name": "脏小豆"
+      },
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 42.62,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "Minecraft珍珠炮原理、地狱边界及服务器技术发展，属于游戏工程主体；42.62后稳定性类比转入手机。",
+          "evidence": [
+            {
+              "from": 14.93,
+              "to": 16.99,
+              "text": "这就是珍珠炮的魅力"
+            },
+            {
+              "from": 39.66,
+              "to": 42.62,
+              "text": "所以偏袒符的地狱珍珠炮又提上了日程"
+            }
+          ]
+        },
+        {
+          "start": 42.62,
+          "end": 76.009,
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "boundaryConfidence": "uncertain",
+          "label": "ad",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "从造炮稳定性桥接到二手手机平台，连续讲价格、验机、退货、代言活动和优惠；76.009恢复接力炮方案。完整保留平台介绍，未只取优惠CTA。桥接首句同时贴近游戏正文，起点需人工视觉/偏好复核。",
+          "evidence": [
+            {
+              "from": 42.62,
+              "to": 43.86,
+              "text": "这造炮追求稳定"
+            },
+            {
+              "from": 46.3,
+              "to": 48.22,
+              "text": "爱回收严选的二手机真是划算"
+            },
+            {
+              "from": 63.12,
+              "to": 64.44,
+              "text": "还支持七天无理由退货"
+            },
+            {
+              "from": 74.7,
+              "to": 76.009,
+              "text": "这时候买最划算"
+            }
+          ]
+        },
+        {
+          "start": 76.009,
+          "end": 88.289,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "手机广告后立即恢复接力炮概念和装置设计；下一个音乐段落未审核。",
+          "evidence": [
+            {
+              "from": 76.009,
+              "to": 79.65,
+              "text": "而这一次我们继续沿用接力炮的概念"
+            },
+            {
+              "from": 86.21,
+              "to": 88.289,
+              "text": "防小天才增程珍珠炮"
+            }
+          ]
+        },
+        {
+          "start": 139.36,
+          "end": 180.48,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "继续介绍主力珍珠炮的位置、组成和操作；不因更早的同题桥接广告吞掉后续工程正文。",
+          "evidence": [
+            {
+              "from": 152.56,
+              "to": 153.6,
+              "text": "那回到炮本身"
+            },
+            {
+              "from": 174.54,
+              "to": 175.86,
+              "text": "操作也是极度的简化了"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "b25ec16dcd4f45860612846e9fed74af786c0c9304f8de48a0fb72a4f118ca4a",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1ti421a7Cp",
+      "cid": 1646068343,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "飞机的空调，设计的有多精妙？",
+      "creator": {
+        "mid": 489535836,
+        "name": "机坪夜话"
+      },
+      "segments": [
+        {
+          "start": 0.07,
+          "end": 91.65,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "航空空调的压缩、换热、膨胀过程；737等机型是解释案例，温度和性能并非购买推介。",
+          "evidence": [
+            {
+              "from": 1.68,
+              "to": 4.08,
+              "text": "空调系统算是最重要的功能之一"
+            },
+            {
+              "from": 59.77,
+              "to": 60.95,
+              "text": "以737为例"
+            },
+            {
+              "from": 88.1,
+              "to": 91.65,
+              "text": "这次膨胀可将气流的温度降低至0度以下"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "59f23e5fc4300b21f3ae1e595810889378670cf105917353fa0161ae350fb316",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1L7tye7ECP",
+      "cid": 25949046209,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "「中字」为什么现在的游戏看起来都那么\"糊\"？🤔",
+      "creator": {
+        "mid": 35453927,
+        "name": "Aki1ah"
+      },
+      "segments": [
+        {
+          "start": 0.04,
+          "end": 91.48,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "游戏抗锯齿、采样及后处理技术解释。性能与画质内容构成视频本题，没有品牌赞助角色或销售路径。",
+          "evidence": [
+            {
+              "from": 9.52,
+              "to": 11.08,
+              "text": "当将对象渲染到屏幕上时"
+            },
+            {
+              "from": 26.24,
+              "to": 28.36,
+              "text": "抗锯齿是解决这个问题的方案"
+            },
+            {
+              "from": 58.08,
+              "to": 61.69,
+              "text": "这个技术的名称是多采样于msa"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "c07b787e3b60ee7d71d2998e29552fe850e00334c6302e75f9edc4df656b5d9b",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    },
+    {
+      "bvid": "BV1E2DzYkEwL",
+      "cid": 26682461594,
+      "split": "development",
+      "labelSource": "assistant",
+      "title": "【真·永不过期！】品鉴1962年产 辐射避难所永久生存饼干",
+      "creator": {
+        "mid": 244100385,
+        "name": "小B的中间世界"
+      },
+      "segments": [
+        {
+          "start": 44.48,
+          "end": 66.399,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "解释生存饼干的保存和量产以及收藏罐运输成本，是开罐视频本题；不能因购买价格与性价比桥接把此前正文并入服装推广。",
+          "evidence": [
+            {
+              "from": 54.16,
+              "to": 56.94,
+              "text": "于是这款传说中的万能生存饼干就诞生了"
+            },
+            {
+              "from": 60.159,
+              "to": 61.119,
+              "text": "也就几百块钱"
+            }
+          ]
+        },
+        {
+          "start": 66.399,
+          "end": 112.42,
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "boundaryConfidence": "uncertain",
+          "label": "ad",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "从消费性价比转入独立服装店及秋冬穿搭，介绍夹克/猎装并以活动和置顶链接结束。产品介绍与中间评论都属于同一完整推广，不截成末尾链接句；首句仍是题材桥接，边界保留不确定。",
+          "evidence": [
+            {
+              "from": 66.399,
+              "to": 68.02,
+              "text": "因为我平时消费啊还是挺在意性价比"
+            },
+            {
+              "from": 68.02,
+              "to": 69.5,
+              "text": "比如说经常去马登工装"
+            },
+            {
+              "from": 76.06,
+              "to": 77.7,
+              "text": "首先是重磅帆布底特律夹克"
+            },
+            {
+              "from": 110.5,
+              "to": 112.42,
+              "text": "快点击视频下方置顶链接去看看吧"
+            }
+          ]
+        },
+        {
+          "start": 112.42,
+          "end": 142.02,
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "boundaryConfidence": "high",
+          "label": "normal",
+          "confidence": "high",
+          "labelSource": "assistant",
+          "contentTypeSource": "assistant-subtitle-semantics",
+          "skipDecisionSource": "assistant-subtitle-semantics",
+          "reason": "恢复1962年生存饼干罐外观、包装日期、防腐剂与开罐准备；广告后正常产品本题不应继续扩张。",
+          "evidence": [
+            {
+              "from": 112.42,
+              "to": 114.26,
+              "text": "这罐子上布满了岁月的痕迹啊"
+            },
+            {
+              "from": 118.78,
+              "to": 120.9,
+              "text": "包装日期1962年7月至12月啊"
+            },
+            {
+              "from": 139.58,
+              "to": 140.66,
+              "text": "咱从屁股上给他开吧"
+            }
+          ]
+        }
+      ],
+      "unlabeledPolicy": "unknown; no inference outside explicitly selected ranges",
+      "source": {
+        "corpusSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+        "transcriptSha256": "94c8ce977fa6873ea1d60de2b893cf35394f81fa1f65d2a91f64135ec5eb822c",
+        "subtitleOnly": true,
+        "chapterCount": 0,
+        "boundaryMeaning": "Selected skip/keep range inferred from subtitle narrative; no frame-accurate visual verification."
+      }
+    }
+  ]
+}

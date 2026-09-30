@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>BiliSmartSkip · 本地审核</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><h1>BiliSmartSkip <span>本地审核</span></h1><p>预标注是建议。只有你点击确认的范围才会成为人工反馈。</p></div>
+    <div class="actions"><label class="button secondary">导入审核数据<input id="bundle-file" type="file" accept=".json" hidden></label>
+      <label class="button secondary">导入人工反馈<input id="feedback-file" type="file" accept=".json" hidden></label>
+      <button id="export-feedback" disabled>导出人工反馈</button></div>
+  </header>
+  <div id="message" class="message" role="status" aria-live="polite">加载审核数据后开始；所有内容与进度留在本机。</div>
+  <details id="feedback-preview" class="feedback-preview" hidden><summary>查看 / 复制本次生成的人工反馈 JSON</summary>
+    <p class="small muted">这是点击导出时的快照。后续审核后请再次导出；若浏览器未下载文件，可复制并保存为 .json。</p>
+    <button id="copy-feedback" class="secondary">复制 JSON</button><textarea id="feedback-json" rows="12" readonly aria-label="人工反馈 JSON"></textarea>
+  </details>
+  <div class="workspace">
+    <aside class="sidebar">
+      <div id="dataset-info" class="muted">尚未加载数据</div>
+      <label>搜索<input id="search" type="search" placeholder="标题、BV 号或 UP 主"></label>
+      <div class="filter-row"><label>队列<select id="filter"><option value="all">全部 · 优先级排序</option><option value="pending">本条尚未完成</option><option value="completed">本条核对完成</option><option value="assistant-uncertain">预标注待确认</option><option value="assistant-any">已有预标注</option><option value="unreviewed">尚无确定人工范围</option><option value="reviewed">已有确定人工范围</option><option value="conflict">模型 / 规则冲突</option><option value="boundaries">边界变化</option><option value="near">接近阈值</option></select></label>
+        <label>分组<select id="split-filter"><option value="all">全部</option><option value="train">train</option><option value="holdout">holdout</option></select></label></div>
+      <div id="queue-summary" class="muted"></div><nav id="queue" aria-label="视频审核队列"></nav>
+      <label class="checkbox small"><input id="allow-cross-version" type="checkbox">允许导入同 BV/CID/时长的旧版本人工反馈</label>
+      <p class="small muted">快捷键：J / K 下一条 / 上一条，N 下一条待核对，Alt + Enter 确认跳过当前范围。编辑文字时不截获 J / K / N。</p>
+    </aside>
+    <main id="main" hidden>
+      <section class="video-heading"><div><div id="video-meta" class="muted"></div><h2 id="video-title"></h2><div id="priority-reasons" class="badges"></div></div>
+        <div class="actions"><button id="previous" class="secondary">上一条</button><button id="next" class="secondary">下一条</button><button id="next-unreviewed" class="secondary">下一条待核对</button></div></section>
+      <section class="card"><div class="section-heading"><h3>区间对照</h3><span class="muted small">模型分数未经校准，不是广告概率；各来源均可点击载入编辑。</span></div><div id="timeline"></div><div id="proposals" class="proposal-grid"></div></section>
+      <section class="card"><div class="section-heading"><h3>助手预标注草稿</h3><button id="confirm-batch" class="secondary" disabled>确认勾选范围应跳过</button></div>
+        <p class="small muted">点击区间，在下方分别核对内容性质与跳过决定。批量确认保留建议里的内容性质，只确认勾选范围应跳过。选择框不代表保存状态。</p><div id="assistant-drafts"></div></section>
+      <div class="detail-grid"><section class="card editor"><h3>核对当前范围</h3><div id="draft-source" class="muted small"></div>
+        <div class="time-inputs"><label>起点（分:秒）<input id="start-time" type="text" value="0:00.00"></label><label>终点（分:秒）<input id="end-time" type="text" value="0:10.00"></label></div>
+        <div class="actions"><a id="open-start" class="button secondary" target="_blank" rel="noopener noreferrer">去 B 站看起点</a><a id="open-end" class="button secondary" target="_blank" rel="noopener noreferrer">看终点附近</a></div>
+        <fieldset class="semantic-axis"><legend>内容性质</legend><div class="axis-inputs">
+          <label>这段内容是什么<select id="content-type"><option value="ad">广告</option><option value="non_ad">非广告</option><option value="uncertain">不确定</option></select></label>
+          <label>内容判断把握<select id="content-confidence"><option value="high">确定</option><option value="uncertain">待核实</option></select></label>
+        </div><p class="small muted">广告也可以保留，例如作为视频主题的商品介绍或简短赞助声明。旧“正常”记录会保留原决定，内容性质显示为不确定。</p></fieldset>
+        <label>审核备注<textarea id="reason" rows="3" placeholder="例如：广告已结束，下一句回到正文；或边界仍不确定"></textarea></label>
+        <label id="full-range-note" class="checkbox warning" hidden><input id="full-range-ack" type="checkbox">范围覆盖几乎全片，我已完整检查该范围；允许确认保留</label>
+        <fieldset class="semantic-axis decision-axis"><legend>跳过决定</legend><p id="draft-skip-state" class="small muted"></p>
+          <p class="small muted">起止表示此次跳过 / 保留的完整范围。这里只确认所选范围，范围外始终未知。</p>
+          <div class="decision-buttons"><button id="confirm-ad">确认跳过</button><button id="confirm-normal" class="normal">确认保留</button><button id="confirm-uncertain" class="secondary">留为待定</button></div>
+        </fieldset>
+        <div class="section-heading"><h3>已保存的人工范围</h3><button id="undo" class="text-button" disabled>撤销上一步</button></div><p id="coverage" class="muted small"></p><div id="human-segments"></div>
+        <div class="review-completion"><p id="review-status" role="status"></p><button id="complete-review" disabled>本条核对完成</button><p class="small muted">完成后可继续下一条，无需标满整部视频。此按钮只记录审核进度，不会新增广告或正常标签。修改已保存范围后，需要重新标记完成。</p></div>
+      </section>
+      <section class="card subtitles"><div class="section-heading"><h3>字幕时间轴</h3><label class="checkbox small"><input id="all-subtitles" type="checkbox">全部字幕</label></div>
+        <p class="small muted">默认显示当前范围前后 15 秒。点击一行设起点，Shift + 点击设终点；也可使用行末按钮。</p><div id="subtitle-list"></div></section></div>
+    </main>
+    <section id="empty-state" class="empty-state"><h2>把待审核区间变成可用反馈</h2><p>导入审核 JSON，或用 build.cjs 生成已嵌入数据的独立页面。</p><p>内容性质与跳过决定分别保存。不会自动把助手建议变成人工标签，也不会把未查看的整部视频标为保留。</p></section>
+  </div>
+  <script id="embedded-bundle" type="application/json">null</script>
+  <script src="../labels/semantics.js"></script>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

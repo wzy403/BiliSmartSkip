@@ -1,0 +1,2328 @@
+{
+  "schemaVersion": 1,
+  "kind": "human-review",
+  "datasetSha256": "3d91180e70ca67596945640422a889a59f6bfea69f7da08db97ec7ca244f2604",
+  "modelSha256": "0aaca72632409c7f0f89bc392e0a7f1552d3e066bc7c2a9afd1564a08dae851a",
+  "exportedAt": "2026-09-30T20:34:55.501Z",
+  "records": [
+    {
+      "bvid": "BV18Z421s7bn",
+      "cid": 1550006126,
+      "duration": 568,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:06:09.218Z",
+      "reviewedRanges": [
+        {
+          "start": 149.51,
+          "end": 179.68
+        },
+        {
+          "start": 182.7,
+          "end": 334.36
+        },
+        {
+          "start": 337.62,
+          "end": 373.1
+        }
+      ],
+      "segments": [
+        {
+          "start": 149.51,
+          "end": 179.68,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "解释火星冰盖气体和尘土形成蜘蛛地貌。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T19:56:08.413Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 149.51,
+              "to": 150.89,
+              "text": "冰盖开始破裂"
+            },
+            {
+              "from": 150.89,
+              "to": 154.06,
+              "text": "于是气体便从裂口处向外喷涌"
+            },
+            {
+              "from": 154.06,
+              "to": 155.72,
+              "text": "在气体喷出的同时"
+            },
+            {
+              "from": 155.72,
+              "to": 159.4,
+              "text": "地上的深色尘土也一并给带了出来"
+            },
+            {
+              "from": 159.4,
+              "to": 161.86,
+              "text": "通常这些尘土会直接落下"
+            },
+            {
+              "from": 161.86,
+              "to": 162.97,
+              "text": "形成斑点"
+            },
+            {
+              "from": 162.97,
+              "to": 165.69,
+              "text": "但是如果此时恰巧有风吹过的话"
+            },
+            {
+              "from": 165.69,
+              "to": 167.47,
+              "text": "这些尘土就会被吹走"
+            },
+            {
+              "from": 167.47,
+              "to": 168.81,
+              "text": "散落在周围"
+            },
+            {
+              "from": 168.81,
+              "to": 170.53,
+              "text": "随着后续温度的升高"
+            },
+            {
+              "from": 170.53,
+              "to": 173.07,
+              "text": "这些尘土逐渐向下融入冰层"
+            },
+            {
+              "from": 173.07,
+              "to": 176.37,
+              "text": "于是慢慢形成了各种各样的侵蚀地形"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 182.7,
+          "end": 334.36,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "从火星黑斑桥接牙齿问题，完整铺垫牙菌斑和治疗费用，再声明与萌牙家合作、比较产品价格售后并引导领券；铺垫属于广告叙事但准确视觉切点未知。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T19:56:24.646Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 182.7,
+              "to": 185.18,
+              "text": "我们牙齿上的黑斑是被什么侵蚀的呢"
+            },
+            {
+              "from": 185.18,
+              "to": 186.32,
+              "text": "是牙虫吗"
+            },
+            {
+              "from": 186.32,
+              "to": 188.3,
+              "text": "其实和火星上的蜘蛛一样"
+            },
+            {
+              "from": 188.3,
+              "to": 190.32,
+              "text": "牙虫只是个形象的说法"
+            },
+            {
+              "from": 190.32,
+              "to": 192.78,
+              "text": "真正侵蚀牙齿的是无色无味"
+            },
+            {
+              "from": 192.78,
+              "to": 194.62,
+              "text": "又粘又酸的牙菌斑"
+            },
+            {
+              "from": 194.62,
+              "to": 195.94,
+              "text": "牙菌斑一旦形成"
+            },
+            {
+              "from": 195.94,
+              "to": 197.42,
+              "text": "便会以酸为武器"
+            },
+            {
+              "from": 197.42,
+              "to": 199.26,
+              "text": "一点点腐蚀我们的牙齿"
+            },
+            {
+              "from": 199.26,
+              "to": 201.48,
+              "text": "它先是在牙齿上这儿挖个黑点"
+            },
+            {
+              "from": 201.48,
+              "to": 202.58,
+              "text": "那儿画条黑线"
+            },
+            {
+              "from": 202.58,
+              "to": 204.48,
+              "text": "然后小黑点变成小黑洞"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 337.62,
+          "end": 373.1,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "恢复伽马射线暴观测及磁星假说，牙刷推广已经结束。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T19:56:33.613Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 337.62,
+              "to": 339.54,
+              "text": "2023年11月15日"
+            },
+            {
+              "from": 339.54,
+              "to": 341.24,
+              "text": "欧航局的伽马射线卫星"
+            },
+            {
+              "from": 341.24,
+              "to": 343.78,
+              "text": "发现了一个非常短暂的伽马射线暴"
+            },
+            {
+              "from": 343.78,
+              "to": 346.15,
+              "text": "时间只持续了1/10秒"
+            },
+            {
+              "from": 346.15,
+              "to": 347.73,
+              "text": "起初研究团队认为"
+            },
+            {
+              "from": 347.73,
+              "to": 351.34,
+              "text": "该伽马暴可能是由于两颗中子星碰撞引起的"
+            },
+            {
+              "from": 351.34,
+              "to": 353.5,
+              "text": "马上我们就会收到对应的引力波"
+            },
+            {
+              "from": 353.5,
+              "to": 355.96,
+              "text": "以及X射线和可见光信号"
+            },
+            {
+              "from": 355.96,
+              "to": 358.28,
+              "text": "然而无论是牛顿太空望远镜"
+            },
+            {
+              "from": 358.28,
+              "to": 360.2,
+              "text": "还是地面的各个天文台"
+            },
+            {
+              "from": 360.2,
+              "to": 362.88,
+              "text": "包括LEGOVERO那些引力波探测器"
+            },
+            {
+              "from": 362.88,
+              "to": 366.22,
+              "text": "它们始终没有捕捉到任何对应的后续信号"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:06:09.218Z"
+    },
+    {
+      "bvid": "BV15GyYB8ESg",
+      "cid": 33532150348,
+      "duration": 382,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:11:48.136Z",
+      "reviewedRanges": [
+        {
+          "start": 0.08,
+          "end": 57.55
+        },
+        {
+          "start": 118.35,
+          "end": 166.38
+        },
+        {
+          "start": 170.3,
+          "end": 187.839
+        }
+      ],
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 35.899,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "爷孙讨论光伏板免费用电、网购与预算的剧情铺垫；没有对观众给出购买入口或品牌服务推荐，仅标这段。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:08:45.968Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 0.08,
+              "to": 2.34,
+              "text": "塔吉说想在房顶装个太阳能板"
+            },
+            {
+              "from": 2.34,
+              "to": 3.95,
+              "text": "能免费用电"
+            },
+            {
+              "from": 3.95,
+              "to": 6.05,
+              "text": "光伏公司是怎么赚钱的"
+            },
+            {
+              "from": 6.05,
+              "to": 7.11,
+              "text": "现在的光伏呀"
+            },
+            {
+              "from": 7.11,
+              "to": 10.11,
+              "text": "真正的就是保利这个光伏业务员"
+            },
+            {
+              "from": 10.11,
+              "to": 11.52,
+              "text": "一个月挣了一辆车"
+            },
+            {
+              "from": 11.52,
+              "to": 12.84,
+              "text": "三个月再买一套房"
+            },
+            {
+              "from": 12.84,
+              "to": 13.88,
+              "text": "用力过光伏啊"
+            },
+            {
+              "from": 13.88,
+              "to": 16.43,
+              "text": "免费用电还能卖电赚钱"
+            },
+            {
+              "from": 16.43,
+              "to": 17.93,
+              "text": "我想搞一套啊"
+            },
+            {
+              "from": 17.93,
+              "to": 19.79,
+              "text": "你那套东西才发多少电呢"
+            },
+            {
+              "from": 19.79,
+              "to": 20.69,
+              "text": "还卖电赚钱"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 35.899,
+          "end": 57.55,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "夸克AI参与比较光伏商品，可能是植入铺垫，也可能是普通工具使用；后面有更长推荐演示，两个分散段的边界交人工确认。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:11:23.137Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 35.899,
+              "to": 37.279,
+              "text": "问问夸克AI哪个好"
+            },
+            {
+              "from": 37.279,
+              "to": 38.019,
+              "text": "快点呐"
+            },
+            {
+              "from": 38.019,
+              "to": 39.61,
+              "text": "我是新闻原来的吗"
+            },
+            {
+              "from": 39.61,
+              "to": 40.53,
+              "text": "不要逼我吗"
+            },
+            {
+              "from": 42.85,
+              "to": 44.129,
+              "text": "买这套"
+            },
+            {
+              "from": 44.449,
+              "to": 46.469,
+              "text": "但夸克说第四款性价比高点"
+            },
+            {
+              "from": 46.469,
+              "to": 47.889,
+              "text": "还适用于多种场景哦"
+            },
+            {
+              "from": 47.889,
+              "to": 49.509,
+              "text": "可能第四款更适合你啊"
+            },
+            {
+              "from": 49.509,
+              "to": 50.789,
+              "text": "那就买第四款哦"
+            },
+            {
+              "from": 50.789,
+              "to": 51.909,
+              "text": "还不快点下单"
+            },
+            {
+              "from": 51.909,
+              "to": 52.95,
+              "text": "给我买两套"
+            },
+            {
+              "from": 52.95,
+              "to": 54.23,
+              "text": "我哪有那么多钱啊"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 118.35,
+          "end": 166.38,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "连续建议用夸克、示范入口和助手能力，明显对该服务作正面推广；嵌入生活剧情，开始和终点需视频复核。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:10:47.769Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 118.35,
+              "to": 120.009,
+              "text": "阿基以后买东西啊"
+            },
+            {
+              "from": 120.009,
+              "to": 121.189,
+              "text": "先问问夸克AI"
+            },
+            {
+              "from": 121.189,
+              "to": 123.82,
+              "text": "他能分析出哪款适合你性价比高的"
+            },
+            {
+              "from": 123.82,
+              "to": 126.32,
+              "text": "说的夸夸AI听起来挺好用的"
+            },
+            {
+              "from": 126.32,
+              "to": 127.38,
+              "text": "怎么样操作的"
+            },
+            {
+              "from": 127.38,
+              "to": 131.02,
+              "text": "你打开夸克输入或者直接语音问就行了"
+            },
+            {
+              "from": 131.02,
+              "to": 132.8,
+              "text": "这是夸克新出的语音助手"
+            },
+            {
+              "from": 132.8,
+              "to": 133.48,
+              "text": "能搜索"
+            },
+            {
+              "from": 133.48,
+              "to": 134.16,
+              "text": "能对话"
+            },
+            {
+              "from": 134.16,
+              "to": 135.14,
+              "text": "答案还专业"
+            },
+            {
+              "from": 135.14,
+              "to": 137.58,
+              "text": "阿基你不是说要买抽油烟机吗"
+            },
+            {
+              "from": 137.58,
+              "to": 140.2,
+              "text": "对啊双11便宜语音问他"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 170.3,
+          "end": 187.839,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "回到光伏安装与回本的家庭对话，免费用电是主题，不是夸克功能推荐。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:11:45.103Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 170.3,
+              "to": 172.36,
+              "text": "回本的话应该能回本的"
+            },
+            {
+              "from": 172.36,
+              "to": 173.72,
+              "text": "这不废话吗"
+            },
+            {
+              "from": 173.72,
+              "to": 175.86,
+              "text": "这么多东西的又要装到房顶"
+            },
+            {
+              "from": 175.86,
+              "to": 176.96,
+              "text": "感觉很难装啊"
+            },
+            {
+              "from": 176.96,
+              "to": 177.96,
+              "text": "要不退回去了"
+            },
+            {
+              "from": 177.96,
+              "to": 179.48,
+              "text": "有没有一点出息呀"
+            },
+            {
+              "from": 179.48,
+              "to": 180.82,
+              "text": "买都买回来了"
+            },
+            {
+              "from": 180.82,
+              "to": 182.84,
+              "text": "我觉得你很擅长一种乐器"
+            },
+            {
+              "from": 182.84,
+              "to": 183.56,
+              "text": "什么乐器啊"
+            },
+            {
+              "from": 183.56,
+              "to": 184.42,
+              "text": "退堂鼓咯"
+            },
+            {
+              "from": 184.42,
+              "to": 185.8,
+              "text": "快点动手了"
+            },
+            {
+              "from": 185.8,
+              "to": 187.839,
+              "text": "装好就能免费用电了"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:11:48.136Z"
+    },
+    {
+      "bvid": "BV15zSWBUE6X",
+      "cid": 34434319501,
+      "duration": 656,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:13:12.737Z",
+      "reviewedRanges": [
+        {
+          "start": 13.52,
+          "end": 44.72
+        },
+        {
+          "start": 50.94,
+          "end": 124.8
+        }
+      ],
+      "segments": [
+        {
+          "start": 13.52,
+          "end": 44.72,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "描述头部移植实验及意识议题，是本片科学史主题。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:12:17.320Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 13.52,
+              "to": 16.059,
+              "text": "能嗅出护士递来的香蕉泥的气味"
+            },
+            {
+              "from": 16.059,
+              "to": 18.479,
+              "text": "甚至还会因为针头的刺痛皱起眉头"
+            },
+            {
+              "from": 18.479,
+              "to": 19.659,
+              "text": "但从脖子往下"
+            },
+            {
+              "from": 19.659,
+              "to": 21.659,
+              "text": "她的四肢像被无形的锁链困住"
+            },
+            {
+              "from": 21.659,
+              "to": 23.66,
+              "text": "连微微抬下肢体都做不到"
+            },
+            {
+              "from": 23.66,
+              "to": 25.4,
+              "text": "这颗能够感知世界的头颅"
+            },
+            {
+              "from": 25.4,
+              "to": 27.84,
+              "text": "刚刚被移植到另外一只猴子的躯干上"
+            },
+            {
+              "from": 27.84,
+              "to": 29.4,
+              "text": "而原本属于他的身体"
+            },
+            {
+              "from": 29.4,
+              "to": 31.24,
+              "text": "却早已被丢进了医疗废物桶"
+            },
+            {
+              "from": 31.24,
+              "to": 32.76,
+              "text": "这是人类历史上第一次"
+            },
+            {
+              "from": 32.76,
+              "to": 35.12,
+              "text": "在灵长类动物身上实现了头部移植"
+            },
+            {
+              "from": 35.12,
+              "to": 37,
+              "text": "也是第一次让我们敢触碰"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 50.94,
+          "end": 90.81,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "显式赫恩赞助，完整讲洗发水问题、功效、成分、香型、礼盒和大额优惠；赞助前有较长字幕空档，视觉切点未核实。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:12:52.971Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 50.94,
+              "to": 52.74,
+              "text": "本视频由赫恩赞助播出"
+            },
+            {
+              "from": 52.74,
+              "to": 54.2,
+              "text": "如果你头发出油严重"
+            },
+            {
+              "from": 54.2,
+              "to": 54.88,
+              "text": "头屑多"
+            },
+            {
+              "from": 54.88,
+              "to": 56.02,
+              "text": "头痘又痒又痛"
+            },
+            {
+              "from": 56.02,
+              "to": 57.26,
+              "text": "用手一挠衣领"
+            },
+            {
+              "from": 57.26,
+              "to": 58.66,
+              "text": "肩膀都是白血不"
+            },
+            {
+              "from": 58.66,
+              "to": 61.2,
+              "text": "当时是我最近正在用的这款和发力洗发水"
+            },
+            {
+              "from": 61.2,
+              "to": 62.88,
+              "text": "他还做了去屑加控油报告"
+            },
+            {
+              "from": 62.88,
+              "to": 64.42,
+              "text": "去屑率高达99%"
+            },
+            {
+              "from": 64.42,
+              "to": 65.98,
+              "text": "搭配oc ct去屑成分"
+            },
+            {
+              "from": 65.98,
+              "to": 67.42,
+              "text": "像是头屑吸尘器一样"
+            },
+            {
+              "from": 67.42,
+              "to": 69.32,
+              "text": "把头屑头油打扫的干干净净"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 90.81,
+          "end": 124.8,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "恢复头部移植概念与实验历史。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:13:11.351Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 90.81,
+              "to": 93.55,
+              "text": "其实头部移植的概念并非源自于20世纪"
+            },
+            {
+              "from": 93.55,
+              "to": 94.89,
+              "text": "早在古埃及神话中"
+            },
+            {
+              "from": 94.89,
+              "to": 97.64,
+              "text": "荷鲁斯神就通过移植恢复失去的眼睛"
+            },
+            {
+              "from": 97.64,
+              "to": 99.68,
+              "text": "在玛丽雪莱的弗兰肯斯坦中"
+            },
+            {
+              "from": 99.68,
+              "to": 102.8,
+              "text": "尸体拼凑的怪物也预示着移植相关的伦理争议"
+            },
+            {
+              "from": 102.8,
+              "to": 105.34,
+              "text": "而现代的头部移植实验始于1908年"
+            },
+            {
+              "from": 105.34,
+              "to": 106.98,
+              "text": "美国科学家查尔斯古斯里"
+            },
+            {
+              "from": 106.98,
+              "to": 109.94,
+              "text": "尝试将一只狗的头部移植到另外一只狗的颈部"
+            },
+            {
+              "from": 109.94,
+              "to": 112.74,
+              "text": "但因缺乏有效的血管连接和免疫抑制技术"
+            },
+            {
+              "from": 112.74,
+              "to": 114.24,
+              "text": "移植头很快就死亡"
+            },
+            {
+              "from": 114.24,
+              "to": 115.6,
+              "text": "到了20世纪50年代"
+            },
+            {
+              "from": 115.6,
+              "to": 117.64,
+              "text": "苏联科学家弗拉基米尔德米沃夫"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:13:12.737Z"
+    },
+    {
+      "bvid": "BV1CnH5zDEMu",
+      "cid": 32821544196,
+      "duration": 847,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:14:37.971Z",
+      "reviewedRanges": [
+        {
+          "start": 62.94,
+          "end": 169.57
+        }
+      ],
+      "segments": [
+        {
+          "start": 62.94,
+          "end": 131.16,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "Boot.dev明确赞助，完整展示编程课程、游戏化设计、免费体验和付费折扣链接；前有字幕空档，开始的画面边界待审。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:14:01.887Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 62.94,
+              "to": 65.86,
+              "text": "这个视频由Boot.dev赞助"
+            },
+            {
+              "from": 65.86,
+              "to": 69.8,
+              "text": "现在学习编程最有趣的方式"
+            },
+            {
+              "from": 69.8,
+              "to": 70.74,
+              "text": "如你所知"
+            },
+            {
+              "from": 70.74,
+              "to": 75.25,
+              "text": "我可以做一些Arduino项目的初级C编程"
+            },
+            {
+              "from": 75.25,
+              "to": 78.289,
+              "text": "但我绝对不是专家"
+            },
+            {
+              "from": 78.289,
+              "to": 83.74,
+              "text": "最近发现Boot.dev存在时我非常高兴"
+            },
+            {
+              "from": 83.74,
+              "to": 85.34,
+              "text": "这里可以学习Python"
+            },
+            {
+              "from": 85.34,
+              "to": 86.12,
+              "text": "Linux"
+            },
+            {
+              "from": 86.12,
+              "to": 88.6,
+              "text": "Git和更多内容"
+            },
+            {
+              "from": 88.6,
+              "to": 91.8,
+              "text": "这些都涉及后端编程"
+            },
+            {
+              "from": 91.8,
+              "to": 93.54,
+              "text": "课程从简单开始"
+            },
+            {
+              "from": 93.54,
+              "to": 95.64,
+              "text": "但很快变得有挑战性"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 131.16,
+          "end": 169.57,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "回到本期电动气泵产品评测，但涉及购买价与正面外观评价，未看画面或验证商业关系，不作为确定负例。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:14:35.586Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 131.16,
+              "to": 136.06,
+              "text": "让我们从夏季常遇到的问题开始"
+            },
+            {
+              "from": 136.06,
+              "to": 138.42,
+              "text": "看到充气泳池在膨胀"
+            },
+            {
+              "from": 138.42,
+              "to": 140.38,
+              "text": "或类似的手动泵"
+            },
+            {
+              "from": 140.38,
+              "to": 142.49,
+              "text": "简直太麻烦了"
+            },
+            {
+              "from": 142.49,
+              "to": 147,
+              "text": "这就是我从速卖通买的电动气泵"
+            },
+            {
+              "from": 147,
+              "to": 150.34,
+              "text": "现在只需五欧元四欧"
+            },
+            {
+              "from": 150.34,
+              "to": 154.48,
+              "text": "但之前我以更低价格购入"
+            },
+            {
+              "from": 154.48,
+              "to": 160.4,
+              "text": "根据描述它应该能完成我设想的任务"
+            },
+            {
+              "from": 160.4,
+              "to": 161.96,
+              "text": "拆箱后"
+            },
+            {
+              "from": 161.96,
+              "to": 164.56,
+              "text": "不仅有主泵"
+            },
+            {
+              "from": 164.56,
+              "to": 167.08,
+              "text": "还有不同尺寸的喷嘴"
+            },
+            {
+              "from": 167.08,
+              "to": 169.57,
+              "text": "以及一个携带包"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:14:37.971Z"
+    },
+    {
+      "bvid": "BV1Yz5k62E3y",
+      "cid": 38301469922,
+      "duration": 946,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:15:39.705Z",
+      "reviewedRanges": [
+        {
+          "start": 70.92,
+          "end": 166.66
+        }
+      ],
+      "segments": [
+        {
+          "start": 70.92,
+          "end": 150.56,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "个人睡眠问题铺垫后完整推销棉同学枕头，涵盖体验、结构、售价、售后和限时优惠；开头与案件评论桥接，精确切点待审核。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:15:31.237Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 70.92,
+              "to": 73.34,
+              "text": "就像大鹏这种叫比较轻的睡眠不好"
+            },
+            {
+              "from": 73.34,
+              "to": 74.52,
+              "text": "第二天又累又困"
+            },
+            {
+              "from": 74.52,
+              "to": 75.7,
+              "text": "干啥都提不起劲"
+            },
+            {
+              "from": 75.7,
+              "to": 77.04,
+              "text": "那千万要注意了"
+            },
+            {
+              "from": 77.04,
+              "to": 78.84,
+              "text": "很可能是你枕头没选对"
+            },
+            {
+              "from": 78.84,
+              "to": 79.76,
+              "text": "我以前也这样"
+            },
+            {
+              "from": 79.76,
+              "to": 81.94,
+              "text": "直到最近换了棉同学深睡枕"
+            },
+            {
+              "from": 81.94,
+              "to": 83.78,
+              "text": "睡眠质量提升了好几个level"
+            },
+            {
+              "from": 83.78,
+              "to": 85.72,
+              "text": "现在一觉睡到天亮醒了"
+            },
+            {
+              "from": 85.72,
+              "to": 86.92,
+              "text": "肩颈都是放松的"
+            },
+            {
+              "from": 86.92,
+              "to": 87.62,
+              "text": "精力拉满"
+            },
+            {
+              "from": 87.62,
+              "to": 89.66,
+              "text": "就连工作效率都跟着翻倍了"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 150.56,
+          "end": 166.66,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "回到教堂案发时序和警员支援正文。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:15:38.070Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 150.56,
+              "to": 152.9,
+              "text": "此时教堂正在举行周日的礼拜"
+            },
+            {
+              "from": 152.9,
+              "to": 154.86,
+              "text": "桑福德直接驾驶着皮卡车"
+            },
+            {
+              "from": 154.86,
+              "to": 156.44,
+              "text": "一脚油门撞进了教会"
+            },
+            {
+              "from": 156.44,
+              "to": 158.08,
+              "text": "随后开始疯狂的屠杀"
+            },
+            {
+              "from": 158.08,
+              "to": 161.44,
+              "text": "此时大部分警察都在赶往之前虚假报案的地点"
+            },
+            {
+              "from": 161.44,
+              "to": 163.66,
+              "text": "教堂附近是警察的真空地带"
+            },
+            {
+              "from": 163.66,
+              "to": 166.66,
+              "text": "只有刚好路过这附近的杰森卡彭蒂尔警员"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:15:39.705Z"
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "cid": 32939511456,
+      "duration": 874,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:16:21.372Z",
+      "reviewedRanges": [
+        {
+          "start": 538.51,
+          "end": 600.17
+        }
+      ],
+      "segments": [
+        {
+          "start": 538.51,
+          "end": 600.17,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "转到本片赞助商，连续演示Bolt建应用能力并引导免费试用官网；品牌ASR不清、前句兼具主题桥接，边界需人工审核。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:16:19.388Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 538.51,
+              "to": 540.2,
+              "text": "本视频赞助商见"
+            },
+            {
+              "from": 540.2,
+              "to": 542.98,
+              "text": "我从未找到能追踪财务的应用"
+            },
+            {
+              "from": 542.98,
+              "to": 544.42,
+              "text": "正是我想要的"
+            },
+            {
+              "from": 544.42,
+              "to": 547.07,
+              "text": "所以我打算用两者一起构建"
+            },
+            {
+              "from": 547.07,
+              "to": 550.93,
+              "text": "我可以构建一个具备用户认证的完整费用追踪应用"
+            },
+            {
+              "from": 550.93,
+              "to": 555.82,
+              "text": "真实的数据库，仅用两分钟就完成了，这不是模拟版本"
+            },
+            {
+              "from": 555.82,
+              "to": 557.08,
+              "text": "这是一个真正可用的应用"
+            },
+            {
+              "from": 557.08,
+              "to": 558.42,
+              "text": "已上线互联网"
+            },
+            {
+              "from": 558.42,
+              "to": 560.82,
+              "text": "这不仅适用于应用开发"
+            },
+            {
+              "from": 560.82,
+              "to": 564.16,
+              "text": "迭代用户界面或尝试不同布局与设计"
+            },
+            {
+              "from": 564.16,
+              "to": 567.52,
+              "text": "因为只需几分钟就能完成"
+            },
+            {
+              "from": 567.52,
+              "to": 568.62,
+              "text": "甚至不需要设计"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:16:21.372Z"
+    },
+    {
+      "bvid": "BV1DcXbBfEM1",
+      "cid": 37006216689,
+      "duration": 724,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:16:35.204Z",
+      "reviewedRanges": [
+        {
+          "start": 42.66,
+          "end": 76.43
+        }
+      ],
+      "segments": [
+        {
+          "start": 42.66,
+          "end": 76.43,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "明确感谢甲方转转，完整展开二手手机价格、验机保障和领券入口；语义广告明确，但前后字幕空档未做画面复核。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:16:32.322Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 42.66,
+              "to": 44.58,
+              "text": "感谢一下甲方转转的催更"
+            },
+            {
+              "from": 44.58,
+              "to": 47.48,
+              "text": "最近在转转上买了一台二手IPHONE15pro max"
+            },
+            {
+              "from": 47.48,
+              "to": 48.36,
+              "text": "体验还挺好的"
+            },
+            {
+              "from": 48.36,
+              "to": 49.72,
+              "text": "其实我也就4000多的预算"
+            },
+            {
+              "from": 49.72,
+              "to": 51.18,
+              "text": "与其买个普通入门机"
+            },
+            {
+              "from": 51.18,
+              "to": 52.76,
+              "text": "不如买个二手旗舰款啊"
+            },
+            {
+              "from": 52.76,
+              "to": 54.18,
+              "text": "质感和体验都有提升"
+            },
+            {
+              "from": 54.18,
+              "to": 54.86,
+              "text": "更有性价比"
+            },
+            {
+              "from": 54.86,
+              "to": 57.66,
+              "text": "关键是转转的二手商品都有专属验机报告"
+            },
+            {
+              "from": 57.66,
+              "to": 59.86,
+              "text": "平台上就能看见几十项检验结果"
+            },
+            {
+              "from": 59.86,
+              "to": 60.92,
+              "text": "还有高清大图"
+            },
+            {
+              "from": 60.92,
+              "to": 61.98,
+              "text": "感觉特别靠谱"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:16:35.204Z"
+    },
+    {
+      "bvid": "BV1a5N4zxEQe",
+      "cid": 30584078525,
+      "duration": 640,
+      "split": "legacy-development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:17:37.921Z",
+      "reviewedRanges": [
+        {
+          "start": 184.249,
+          "end": 249.24
+        }
+      ],
+      "segments": [
+        {
+          "start": 184.249,
+          "end": 249.24,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "完整得物广告包含桥接口播、鉴别保障、多个商品优惠和现金抽奖；起始押韵过渡与末尾空档导致画面精确边界仍不确定。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:17:35.753Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 184.249,
+              "to": 185.189,
+              "text": "入得物好"
+            },
+            {
+              "from": 185.189,
+              "to": 185.729,
+              "text": "物不贵"
+            },
+            {
+              "from": 185.729,
+              "to": 187.469,
+              "text": "关键得买对在得物"
+            },
+            {
+              "from": 187.469,
+              "to": 189.06,
+              "text": "买正品不再靠运气"
+            },
+            {
+              "from": 189.06,
+              "to": 192.28,
+              "text": "专业鉴别正品保障大牌潮流款式多"
+            },
+            {
+              "from": 192.28,
+              "to": 195.14,
+              "text": "同款商品多个商家实时竞价比价"
+            },
+            {
+              "from": 195.14,
+              "to": 196.78,
+              "text": "无需自己东找西比"
+            },
+            {
+              "from": 196.78,
+              "to": 197.96,
+              "text": "省心又省钱"
+            },
+            {
+              "from": 197.96,
+              "to": 200.58,
+              "text": "加上现在得物准备的超高新客福利"
+            },
+            {
+              "from": 200.58,
+              "to": 203.62,
+              "text": "注册就能领最高520元无门槛优惠券"
+            },
+            {
+              "from": 203.62,
+              "to": 205.7,
+              "text": "超多百元价位的大牌好物"
+            },
+            {
+              "from": 205.7,
+              "to": 207.86,
+              "text": "券后到手只要个位数价格"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:17:37.921Z"
+    },
+    {
+      "bvid": "BV1ProjYuEqQ",
+      "cid": 29405807273,
+      "duration": 164,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:18:01.056Z",
+      "reviewedRanges": [
+        {
+          "start": 24.82,
+          "end": 33.73
+        }
+      ],
+      "segments": [
+        {
+          "start": 24.82,
+          "end": 33.73,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:17:58.988Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 24.82,
+              "to": 26.5,
+              "text": "为了制作这套课程"
+            },
+            {
+              "from": 26.5,
+              "to": 29.38,
+              "text": "我翻遍了B站几乎所有的课程"
+            },
+            {
+              "from": 29.38,
+              "to": 33.73,
+              "text": "甚至还去优酷观看国外老师做的Python教学视频"
+            }
+          ],
+          "contentType": "uncertain",
+          "contentConfidence": "uncertain",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:18:01.056Z"
+    },
+    {
+      "bvid": "BV1F44izREmT",
+      "cid": 33092207130,
+      "duration": 353,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:18:58.339Z",
+      "reviewedRanges": [
+        {
+          "start": 0.4,
+          "end": 44.09
+        }
+      ],
+      "segments": [
+        {
+          "start": 0.4,
+          "end": 44.09,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "该视频不是广告只是一个课程的第一个视频介绍这个教学课程",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:18:57.292Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 0.4,
+              "to": 2.6,
+              "text": "一个酒"
+            },
+            {
+              "from": 7.62,
+              "to": 9.46,
+              "text": "啊这落幕"
+            },
+            {
+              "from": 9.46,
+              "to": 13.66,
+              "text": "原来山河好就满能杀"
+            },
+            {
+              "from": 14.22,
+              "to": 15.38,
+              "text": "小伙伴们大家好"
+            },
+            {
+              "from": 15.38,
+              "to": 19.6,
+              "text": "我们计划录制python400集零基础全系列课程"
+            },
+            {
+              "from": 19.6,
+              "to": 22.24,
+              "text": "希望这套课程呢能够帮助到大家"
+            },
+            {
+              "from": 22.24,
+              "to": 25.42,
+              "text": "大多数的课程啊都是让你从入门到放弃"
+            },
+            {
+              "from": 25.42,
+              "to": 27.24,
+              "text": "因为这些课程呢都有一些共性"
+            },
+            {
+              "from": 27.24,
+              "to": 28.82,
+              "text": "比如说枯燥的语法"
+            },
+            {
+              "from": 28.82,
+              "to": 29.9,
+              "text": "抽象的概念"
+            },
+            {
+              "from": 29.9,
+              "to": 31.16,
+              "text": "脱离实战等等"
+            },
+            {
+              "from": 31.16,
+              "to": 33.75,
+              "text": "而对于我们这套课程却不是这样的"
+            }
+          ],
+          "contentType": "non_ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "User explicitly says this is an introduction to the course itself, not an advertisement.",
+            "userNote": "该视频不是广告只是一个课程的第一个视频介绍这个教学课程",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:18:58.339Z"
+    },
+    {
+      "bvid": "BV1JucQzwEiP",
+      "cid": 36666410802,
+      "duration": 249,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:21:18.157Z",
+      "reviewedRanges": [
+        {
+          "start": 0.08,
+          "end": 117.3
+        },
+        {
+          "start": 119.18,
+          "end": 160.46
+        }
+      ],
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 117.3,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "盲盒里真假品牌的搞笑试吃，后文明确提到麻辣王子甲方；无法从字幕确定前面的品牌露出是否已属植入，不训练为确定负例。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:19:59.307Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 0.08,
+              "to": 3.82,
+              "text": "超市盲盒开箱开箱哟"
+            },
+            {
+              "from": 3.82,
+              "to": 5.42,
+              "text": "什么哦"
+            },
+            {
+              "from": 5.42,
+              "to": 6.42,
+              "text": "辣椒酱啊"
+            },
+            {
+              "from": 6.42,
+              "to": 7.6,
+              "text": "老干妈是吧"
+            },
+            {
+              "from": 7.6,
+              "to": 9.32,
+              "text": "哎呀从小吃到大啊"
+            },
+            {
+              "from": 9.32,
+              "to": 11.19,
+              "text": "特别的经典啊"
+            },
+            {
+              "from": 12.98,
+              "to": 15.86,
+              "text": "哟老干拔呃"
+            },
+            {
+              "from": 15.86,
+              "to": 20.36,
+              "text": "又是个人风味牛肉辣椒真的是牛肉吗"
+            },
+            {
+              "from": 20.36,
+              "to": 24.489,
+              "text": "你啊哈我不吃牛肉啊"
+            },
+            {
+              "from": 24.489,
+              "to": 26.809,
+              "text": "哎我吃素的啊"
+            },
+            {
+              "from": 26.809,
+              "to": 29.119,
+              "text": "哈哈哎呀"
+            },
+            {
+              "from": 30.239,
+              "to": 32.49,
+              "text": "还有不同口味的嗯"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "User explicitly identified a product-theme soft advertisement that should be kept; applies only to existing reviewed ranges.",
+            "userNote": "这是软广整个视频都是在介绍商品这种算正常不算需要跳过的广告",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        },
+        {
+          "start": 119.18,
+          "end": 160.46,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "提到甲方联络后连续夸赞麻辣王子口味和研发销量，疑似软性植入；无交易入口且开箱正文本来就在试吃商品，完整商业边界须人审。这是软广整个视频都是在介绍商品这种算正常不算需要跳过的广告",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:21:13.307Z",
+          "proposalSource": "已保存的人工范围",
+          "evidence": [
+            {
+              "from": 119.18,
+              "to": 120.42,
+              "text": "说到这个麻辣王子啊"
+            },
+            {
+              "from": 120.42,
+              "to": 121.96,
+              "text": "前阵子我不是开了个麻辣王八吗"
+            },
+            {
+              "from": 121.96,
+              "to": 123.72,
+              "text": "拿麻辣王子的甲方第一时间找到我啊"
+            },
+            {
+              "from": 123.72,
+              "to": 125.24,
+              "text": "说他们领导发现了这么个玩意儿"
+            },
+            {
+              "from": 125.24,
+              "to": 126.32,
+              "text": "还真以为有人做山寨呢"
+            },
+            {
+              "from": 126.32,
+              "to": 127.68,
+              "text": "说他们同事监管不到位啊"
+            },
+            {
+              "from": 127.68,
+              "to": 128.6,
+              "text": "差点工作都丢了"
+            },
+            {
+              "from": 128.6,
+              "to": 130.6,
+              "text": "哎呀那麻辣王八肯定是网友搞来弄我的呀"
+            },
+            {
+              "from": 130.6,
+              "to": 131.22,
+              "text": "哪能呢"
+            },
+            {
+              "from": 131.22,
+              "to": 133.13,
+              "text": "哎呀尝一下嗯"
+            },
+            {
+              "from": 133.13,
+              "to": 136.01,
+              "text": "你别说这麻辣王子确实好吃啊"
+            },
+            {
+              "from": 136.01,
+              "to": 137.05,
+              "text": "吃起来又麻又辣"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "User explicitly identified a product-theme soft advertisement that should be kept; applies only to existing reviewed ranges.",
+            "userNote": "这是软广整个视频都是在介绍商品这种算正常不算需要跳过的广告",
+            "original": {
+              "label": "normal",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:21:18.157Z"
+    },
+    {
+      "bvid": "BV1LAAYz3E4g",
+      "cid": 36352954182,
+      "duration": 174,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:21:46.958Z",
+      "reviewedRanges": [
+        {
+          "start": 79.06,
+          "end": 95.64
+        }
+      ],
+      "segments": [
+        {
+          "start": 79.06,
+          "end": 95.64,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "拍摄奇观的相机话题转到转转回收，连续说明品类、价格与推荐；起点含桥接句，需人工确认是否纳入广告。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:21:42.239Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 79.06,
+              "to": 79.9,
+              "text": "旧的那台相机"
+            },
+            {
+              "from": 79.9,
+              "to": 81.74,
+              "text": "我第一时间找转转上门回收"
+            },
+            {
+              "from": 81.74,
+              "to": 82.76,
+              "text": "卖了3100多"
+            },
+            {
+              "from": 82.76,
+              "to": 83.38,
+              "text": "转转回收"
+            },
+            {
+              "from": 83.38,
+              "to": 84,
+              "text": "这点特好"
+            },
+            {
+              "from": 84,
+              "to": 84.96,
+              "text": "他不挑品类"
+            },
+            {
+              "from": 84.96,
+              "to": 85.84,
+              "text": "变现特别快"
+            },
+            {
+              "from": 85.84,
+              "to": 87.92,
+              "text": "像那种不好卖的微单运动相机"
+            },
+            {
+              "from": 87.92,
+              "to": 90.1,
+              "text": "无人机在他那儿也能随时换成钱"
+            },
+            {
+              "from": 90.1,
+              "to": 91.5,
+              "text": "价格还比外面公道"
+            },
+            {
+              "from": 91.5,
+              "to": 93.36,
+              "text": "所以有闲置的数码产品"
+            },
+            {
+              "from": 93.36,
+              "to": 94.32,
+              "text": "我推荐转转"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:21:46.958Z"
+    },
+    {
+      "bvid": "BV1TnVb6bEwG",
+      "cid": 38691997000,
+      "duration": 617,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:23:43.309Z",
+      "reviewedRanges": [
+        {
+          "start": 0.08,
+          "end": 2.4
+        },
+        {
+          "start": 431.27,
+          "end": 495.97
+        }
+      ],
+      "segments": [
+        {
+          "start": 0.08,
+          "end": 2.4,
+          "label": "normal",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "独立赞助声明，正文前有无字幕空档；单句声明单列，可不用跳过",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:23:19.907Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 0.08,
+              "to": 2.4,
+              "text": "本视频由Brilliant赞助"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "keep",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "User says this isolated sponsorship statement may be kept. The selected 0.08–2.40 s range is explicitly kept; this does not assert verification of the complete visual advertisement boundary.",
+            "userNote": "独立赞助声明，正文前有无字幕空档；单句声明单列，可不用跳过",
+            "original": {
+              "label": "uncertain",
+              "confidence": "uncertain",
+              "boundaryConfidence": "uncertain"
+            }
+          }
+        },
+        {
+          "start": 431.27,
+          "end": 495.97,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "显式说明Brilliant广告，完整介绍互动课程、手机端、小课、试用与年费折扣，结束在链接入口。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:23:39.192Z",
+          "proposalSource": "助手预标注",
+          "evidence": [
+            {
+              "from": 431.27,
+              "to": 433.89,
+              "text": "稍后我会通过Brilliant的广告说明"
+            },
+            {
+              "from": 433.89,
+              "to": 435.77,
+              "text": "有一件事我们都知道"
+            },
+            {
+              "from": 435.77,
+              "to": 440.18,
+              "text": "传统学习方式如读书未必最有效"
+            },
+            {
+              "from": 440.18,
+              "to": 441.14,
+              "text": "但幸运的是"
+            },
+            {
+              "from": 441.14,
+              "to": 443.63,
+              "text": "Brilliant来帮忙了"
+            },
+            {
+              "from": 443.63,
+              "to": 448.68,
+              "text": "你可以访问由专业人士设计的数十门课程"
+            },
+            {
+              "from": 448.68,
+              "to": 453.76,
+              "text": "通过互动示例提升问题解决能力"
+            },
+            {
+              "from": 454.12,
+              "to": 459.78,
+              "text": "记住优秀开发者最重要的能力之一是解决问题"
+            },
+            {
+              "from": 459.86,
+              "to": 462.22,
+              "text": "最好的部分是无需花费数小时"
+            },
+            {
+              "from": 462.22,
+              "to": 466.71,
+              "text": "因为Brilliant通过每日小课助你学习"
+            },
+            {
+              "from": 466.71,
+              "to": 469.11,
+              "text": "更棒的是随时随地可访问"
+            },
+            {
+              "from": 469.11,
+              "to": 471.75,
+              "text": "由于Brilliant支持手机端"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:23:43.309Z"
+    },
+    {
+      "bvid": "BV1eN9XBMEj3",
+      "cid": 38045352352,
+      "duration": 799,
+      "split": "development",
+      "status": "partial",
+      "reviewComplete": true,
+      "reviewCompletedAt": "2026-09-30T20:24:06.941Z",
+      "reviewedRanges": [
+        {
+          "start": 50.78,
+          "end": 79.74
+        }
+      ],
+      "segments": [
+        {
+          "start": 50.78,
+          "end": 79.74,
+          "label": "ad",
+          "confidence": "high",
+          "boundaryConfidence": "high",
+          "reason": "从视频开始前的转场和转转感谢，连续介绍折叠屏补贴、平板与电脑价格，结束于平台推荐；广告后有6秒字幕空档，画面边界待复核。",
+          "origin": "human",
+          "reviewedAt": "2026-09-30T20:24:03.875Z",
+          "proposalSource": "预标注草稿",
+          "evidence": [
+            {
+              "from": 50.78,
+              "to": 52.02,
+              "text": "感谢一下转转的催更"
+            },
+            {
+              "from": 52.02,
+              "to": 53.7,
+              "text": "最近突然想感受一下折叠屏"
+            },
+            {
+              "from": 53.7,
+              "to": 54.7,
+              "text": "所以我又发现"
+            },
+            {
+              "from": 54.7,
+              "to": 56.86,
+              "text": "转转上的折叠屏其实是非常划算的"
+            },
+            {
+              "from": 56.86,
+              "to": 59.44,
+              "text": "像华为扩折叠P2X只要4000多"
+            },
+            {
+              "from": 59.44,
+              "to": 61.2,
+              "text": "放以前最少也得8000多吧"
+            },
+            {
+              "from": 61.2,
+              "to": 63.04,
+              "text": "同样的价格买全新大折叠"
+            },
+            {
+              "from": 63.04,
+              "to": 64.379,
+              "text": "根本就选不到这么好的"
+            },
+            {
+              "from": 64.379,
+              "to": 66.279,
+              "text": "而且最近转转的补贴还特别猛"
+            },
+            {
+              "from": 66.279,
+              "to": 67.639,
+              "text": "大家去搜一下就知道了"
+            },
+            {
+              "from": 67.639,
+              "to": 69.88,
+              "text": "很多高端手机现在都跌成白菜价了"
+            },
+            {
+              "from": 69.88,
+              "to": 72.36,
+              "text": "而且转台上的其他电子产品也挺划算的"
+            }
+          ],
+          "contentType": "ad",
+          "contentConfidence": "high",
+          "skipDecision": "skip",
+          "skipConfidence": "high",
+          "semanticMigration": {
+            "interpreter": "assistant",
+            "basis": "Existing human button confirmation establishes skip/keep only; legacy normal does not prove non-commercial content.",
+            "original": {
+              "label": "ad",
+              "confidence": "high",
+              "boundaryConfidence": "high"
+            }
+          }
+        }
+      ],
+      "updatedAt": "2026-09-30T20:24:06.941Z"
+    }
+  ],
+  "labelSemantics": "content-and-skip-v2",
+  "semanticMigration": {
+    "source": "review-2026-09-30-v1.json",
+    "sourceBytesSha256": "781ba87a6e8328873ce68467778d224389e4844a9faf1f44856938cfbb064ba9",
+    "interpreter": "assistant",
+    "authorization": "User requested separate content type and skip decision using their saved notes.",
+    "scope": "Existing reviewed ranges only; no whole-video or unreviewed-range expansion.",
+    "boundaryMeaning": "Confidence in the selected skip/keep decision range, not verification of the full visual commercial boundary.",
+    "policy": "An advertisement may be kept. Training and skip evaluation use skipDecision; notes are not parsed at runtime."
+  }
+}
