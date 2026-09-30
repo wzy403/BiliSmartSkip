@@ -26,7 +26,7 @@ The extension uses a multi-signal detection pipeline, trying each method by conf
 
 Any layer hit triggers the skip; remaining layers serve as fallback.
 
-## 📦 Installation
+## Installation
 
 ### Method 1: Install from existing/add-on Store (Recommended)
 | Browser | Installation Steps |
@@ -109,7 +109,7 @@ BiliSmartSkip/
 - Only accesses Bilibili's public video info, subtitle, and danmaku APIs
 - No data is sent to third-party servers
 
-## 🤝 Contributing
+## Contributing
 
 Issues and Pull Requests are welcome!
 
