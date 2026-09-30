@@ -19,6 +19,7 @@
         "/scr/utils.js",
         "/scr/api.js",
         "/scr/detectors.js",
+        "/scr/segment-detector.js",
         "/scr/skipper.js",
         "/scr/content.js"
       ],

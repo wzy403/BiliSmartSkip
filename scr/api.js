@@ -12,6 +12,7 @@ async function fetchVideoInfo(bvid) {
     const d = json.data;
     return {
       cid: d.pages?.[0]?.cid || null,
+      title: d.title || '',
       desc: d.desc || '',
       duration: d.duration || 0
     };
