@@ -2,13 +2,17 @@
 
 [中文](README.md) | English
 
-A Chrome / Firefox extension for skipping ad breaks in Bilibili videos.
+An intelligent Chrome/Firefox browser extension that automatically identifies embedded ad segments in Bilibili videos using multi-signal analysis and provides automatic or manual skip functionality.
 
 ## Features
 
-- Choose automatic skipping or click a button to skip manually.
-- Set a custom skip shortcut.
-- Skip multiple ad breaks in the same video.
+- **Multi-Signal Smart Detection**: Combines video chapters, description, subtitles, and danmaku for precise ad identification
+- **Auto Skip**: Supports automatic ad segment skipping without manual intervention
+- **Manual Skip**: Displays skip button during ad segments for user choice
+- **Custom Shortcut Key**: Set a keyboard shortcut to skip ads instantly in manual mode
+- **Mode Switching**: Freely switch between automatic and manual modes
+- **Lightweight & Efficient**: No background processes, no impact on page performance
+- **User-Friendly Interface**: Beautiful skip button and settings UI
 
 ## How It Works
 
@@ -20,16 +24,19 @@ Each ad break is skipped automatically only once. If you seek back into it, you 
 
 ## Installation
 
-### From the browser store
+### Method 1: Install from existing/add-on Store (Recommended)
+| Browser | Installation Steps |
+|--------|----------|
+| **Chrome** | 1. Open [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)<br>2. Click **「Add to Chrome」** |
+| **Firefox** | 1. Open [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)<br>2. Click **「Add to Firefox」** |
 
-- [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)
-- [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)
 
-### Load the source in Chrome
-
-1. Download and extract the source.
-2. Open `chrome://extensions/` and enable **Developer mode**.
-3. Click **Load unpacked** and select the directory containing `manifest.json`.
+### Method 2: Developer Mode Installation
+1. Download all project files
+2. Open Chrome browser and navigate to `chrome://extensions/`
+3. Enable "Developer mode" in the top right corner
+4. Click "Load unpacked"
+5. Select the folder containing the extension files
 
 After updating the source, click **Reload** on the extensions page and refresh the video page.
 
