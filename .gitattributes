@@ -1,0 +1,5 @@
+# Evaluation and regression tooling is maintained on test-branch.
+# Keep release archives free of it even when archiving that branch.
+/eval export-ignore
+/tests export-ignore
+/.github export-ignore

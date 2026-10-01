@@ -2,91 +2,64 @@
 
 [中文](README.md) | English
 
-An intelligent Chrome/Firefox browser extension that automatically identifies embedded ad segments in Bilibili videos using multi-signal analysis and provides automatic or manual skip functionality.
+A Chrome / Firefox extension for skipping ad breaks in Bilibili videos.
 
 ## Features
 
-- **Multi-Signal Smart Detection**: Combines video chapters, description, subtitles, and danmaku for precise ad identification
-- **Auto Skip**: Supports automatic ad segment skipping without manual intervention
-- **Manual Skip**: Displays skip button during ad segments for user choice
-- **Custom Shortcut Key**: Set a keyboard shortcut to skip ads instantly in manual mode
-- **Mode Switching**: Freely switch between automatic and manual modes
-- **Lightweight & Efficient**: No background processes, no impact on page performance
-- **User-Friendly Interface**: Beautiful skip button and settings UI
+- Choose automatic skipping or click a button to skip manually.
+- Set a custom skip shortcut.
+- Skip multiple ad breaks in the same video.
 
 ## How It Works
 
-The extension uses a multi-signal detection pipeline, trying each method by confidence level (highest first):
+The extension uses local rules to estimate where ads start and end, based on chapters, descriptions, subtitles, and danmaku. It looks for clues such as chapters marked as ads, viewer comments like “空降 5:30” (skip to 5:30), and sponsorship or promotional content in subtitles.
 
-1. **Video Chapter Markers**: Reads chapter segments set by uploaders, matches ad-related labels
-2. **Description Timestamps**: Parses timestamp lists in video descriptions to find ad-labeled segments
-3. **Subtitle Content Analysis**: Fetches AI/manual subtitles, detects ad segments via keyword clustering; supports cross-layer subtitle + danmaku joint positioning
-4. **Danmaku Time-Format Parsing**: Analyzes time markers in bullet comments (e.g., "5:30", "705工程")
-5. **Danmaku Keyword Matching**: Uses directional keywords (start/end signals) for bidirectional anchoring
+If it finds a possible ad but cannot establish its boundaries, or the sources disagree on the timing, it asks you to click the skip button even in automatic mode. It can still miss ads or mistake other content for an ad.
 
-Any layer hit triggers the skip; remaining layers serve as fallback.
+Each ad break is skipped automatically only once. If you seek back into it, you can click the button to skip it again.
 
 ## Installation
 
-### Method 1: Install from existing/add-on Store (Recommended)
-| Browser | Installation Steps |
-|--------|----------|
-| **Chrome** | 1. Open [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)<br>2. Click **「Add to Chrome」** |
-| **Firefox** | 1. Open [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)<br>2. Click **「Add to Firefox」** |
+### From the browser store
 
+- [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)
+- [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)
 
-### Method 2: Developer Mode Installation
-1. Download all project files
-2. Open Chrome browser and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked"
-5. Select the folder containing the extension files
+### Load the source in Chrome
+
+1. Download and extract the source.
+2. Open `chrome://extensions/` and enable **Developer mode**.
+3. Click **Load unpacked** and select the directory containing `manifest.json`.
+
+After updating the source, click **Reload** on the extensions page and refresh the video page.
 
 ## Usage
 
-### Basic Usage
-1. After installing the extension, open any Bilibili video page
-2. The extension will automatically analyze danmaku in the background to identify ad segments
-3. Based on the selected mode:
-   - **Auto Mode**: Automatically skips when ad segments are detected
-   - **Manual Mode**: Shows "Skip Ad" button, click to skip
+Open a Bilibili video after installing the extension. Manual mode is the default: a button appears when it detects an ad. Click the extension icon in the browser toolbar to switch to automatic mode; the setting is saved automatically. Possible ads that need confirmation still require a click in automatic mode.
 
-### Mode Switching
-1. Click the extension icon in the browser toolbar
-2. Use the toggle switch to change between "Manual" and "Auto" modes
-3. Settings are automatically saved and applied across all tabs
+To set a shortcut, open the extension popup, click **设置** (Set) under **跳过快捷键** (Skip shortcut), and press a key combination such as `Alt + S`. Click **重置** (Reset) to clear it.
 
-### Setting a Skip Shortcut Key
-1. Click the extension icon in the browser toolbar
-2. Click the "Set" button in the "Skip Shortcut" section
-3. Press your desired key combination (e.g., `Alt + S`)
-4. The shortcut is saved automatically — press it in manual mode to skip ads
-5. To remove the shortcut, click the "Reset" button
+## Danmaku time formats
 
-## Supported Time Formats
+Supported examples include `5:30`, `五分三十秒` (five minutes thirty seconds), `5分30秒`, and `10.5分钟`. The extension also understands `705工程` and `0705工程` as 7 minutes 5 seconds.
 
-The extension can recognize various time formats in danmaku:
-
-- **Numeric Format**: `5:30`, `10:45`
-- **Chinese Numbers**: `五分三十秒` (five minutes thirty seconds), `十分钟` (ten minutes)
-- **Mixed Format**: `5分30秒`, `10.5分钟`
-- **Encoded Format**: `705工程`, `0705工程` (viewer-used time encoding)
-
-If time format recognition fails, the extension will try subtitle analysis and keyword matching as fallbacks.
+A time can appear in an ordinary comment too, so the extension also checks for nearby skip instructions such as “空降” or “跳过广告”.
 
 ## Project Structure
 
 ```
 BiliSmartSkip/
-├── scr/                    # Source files folder
-│   ├── constants.js        # Keyword dictionaries & config constants
-│   ├── utils.js            # Utility functions (logging, time formatting, Chinese numeral parsing)
-│   ├── api.js              # API requests & Protobuf danmaku decoder
-│   ├── detectors.js        # 5-layer ad detection algorithms
-│   ├── skipper.js          # Skip button UI & countdown logic
-│   ├── content.js          # Main entry: init, lifecycle, detection pipeline
-│   ├── popup.html          # Extension popup interface
-│   ├── popup.js            # Popup interaction logic
+├── scr/                    # Extension source
+│   ├── constants.js        # Keywords and configuration
+│   ├── utils.js            # Logging and time parsing
+│   ├── api.js              # Fetch video info, subtitles, and danmaku
+│   ├── page-data.js        # Read public video metadata already loaded by the page
+│   ├── detectors.js        # Detection rules for each source
+│   ├── segment-detector.js # Find ad start and end times
+│   ├── skipper.js          # Skip button, countdown, and player seeking
+│   ├── content.js          # Setup and page navigation
+│   ├── popup.html          # Settings popup
+│   ├── popup.js            # Save mode and shortcut settings
 │   └── icon.png            # Extension icon
 ├── LICENSE                 # Open source license
 ├── README.md               # Project documentation (Chinese)
@@ -94,64 +67,58 @@ BiliSmartSkip/
 └── manifest.json           # Extension configuration file
 ```
 
-## Permissions Explained
+## Permissions and data
 
-- `storage`: Save user mode settings and shortcut key configuration
-- `https://www.bilibili.com/*`: Access Bilibili video pages
-- `https://api.bilibili.com/*`: Fetch video info, chapter markers, and subtitle data
-- `https://comment.bilibili.com/*`: Retrieve danmaku data
-- `https://i0.hdslb.com/*` / `https://aisubtitle.hdslb.com/*`: Fetch subtitle files
+- `storage`: Save mode and shortcut settings locally.
+- `www.bilibili.com`: Run the extension on video pages.
+- `api.bilibili.com`: Fetch video information, chapters, and subtitle URLs.
+- `comment.bilibili.com`: Fetch danmaku.
+- `i0.hdslb.com`, `aisubtitle.hdslb.com`: Download subtitle files.
 
-## Privacy Protection
+## Development checks
 
-- This extension does not collect any personal information
-- All data processing is performed locally
-- Only accesses Bilibili's public video info, subtitle, and danmaku APIs
-- No data is sent to third-party servers
+Test files are kept on `test-branch`. Run data fetching and fallback tests with Node.js:
 
-## Contributing
+```sh
+git checkout test-branch
+node --test tests/*.test.cjs
+```
 
-Issues and Pull Requests are welcome!
+## Feedback and contributions
 
-### Development Setup
-1. Fork this project
-2. Clone to local machine
-3. Load the development version in Chrome
-4. Modify code and test
-5. Submit Pull Request
-
-### Code Standards
-- Use ES6+ syntax
-- Add necessary comments
-- Follow existing code style
+Issues and pull requests are welcome. To report an incorrect or missed skip, include the video link, the relevant timestamp, and whether you used automatic or manual mode so the issue can be reproduced.
 
 ## License
 
-This project is licensed under the [GUN License](LICENSE).
+[GNU GPL v2](LICENSE).
 
-## Version History
+## Changelog
+
+### v2.1.0
+
+- Added support for skipping multiple ad segments in one video.
+- Improved ad boundaries using subtitle context, chapters, and danmaku timestamps.
+- Prevented ordinary keyword matches from triggering automatic skips; conflicting boundaries require manual confirmation.
+- Fixed video metadata fetching failures and incorrect part selection in multi-part videos.
+- Made detection and skip logs respect the DEBUG setting and removed duplicate logs.
 
 ### v2.0.0
-- 🎉 Multi-signal detection pipeline: video chapters, description timestamps, subtitle analysis
-- 🎉 Cross-layer subtitle + danmaku joint positioning for better ad boundary accuracy
-- 🎉 Custom skip shortcut key — press a keyboard shortcut to skip ads in manual mode
-- ✅ Support for "705工程" encoded time format
-- ✅ Upgraded danmaku keywords to directional bidirectional anchoring algorithm
-- ✅ Significantly expanded ad keyword dictionary
+
+- Added chapter, description timestamp, and subtitle detection.
+- Combined subtitles and danmaku to locate ad start and end times.
+- Added a skip shortcut.
+- Added support for time formats such as `705工程`.
+- Expanded keywords and distinguished comments marking ad starts from those marking ad ends.
 
 ### v1.1.0
-- 🎉 Added countdown skip feature
-- ✅ Optimized ad segment recognition algorithm
+
+- Added a countdown prompt.
+- Adjusted ad detection rules.
 
 ### v1.0.0
-- 🎉 Initial release
-- ✅ Support for auto/manual skip modes
-- ✅ Intelligent danmaku time recognition
-- ✅ Beautiful user interface
 
-## Settings Interface & Ad Skip Functionality
+Initial release with automatic and manual skipping based on danmaku timestamps.
 
-Clean, intuitive settings panel with one-click auto/manual skip toggle.
-When an ad is detected, a sleek "Skip Ad" button appears bottom-right for instant skipping.
+## Screenshot
 
-![Ad Skip Feature Demo](./img/full_screen.png)
+![Skip ad button](./img/full_screen.png)

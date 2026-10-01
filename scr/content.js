@@ -5,6 +5,7 @@
 let SKIP_MODE = 'manual';
 let SKIP_SHORTCUT = null;
 let skipped = false;
+const skippedSegments = new Set();
 let isBtnAdd = false;
 let currentVideo = null;
 let currentAdSkipHandler = null;
@@ -13,6 +14,7 @@ let countdownTimer = null;
 let currentAdSegment = null;
 let keydownHandler = null;
 let videoHealthTimer = null;
+let detectionGeneration = 0;
 
 // === Initialize ===
 function init() {
@@ -72,20 +74,23 @@ function registerShortcutListener() {
 // === Main logic ===
 function mainLogic() {
   cleanUp();
+  const generation = detectionGeneration;
   (async () => {
-    const seg = await getSkipSegment();
-    if (!seg) return;
-    currentAdSegment = seg;
+    const segments = await getSkipSegments();
+    if (!segments.length || generation !== detectionGeneration) return;
     waitForVideo(() => {
-      attachSkipper(seg);
-      monitorVideoHealth(seg);
+      if (generation !== detectionGeneration) return;
+      attachSkipper(segments);
+      monitorVideoHealth(segments);
     });
-  })();
+  })().catch(error => console.warn('[BiliSmartSkip] detection failed:', error));
 }
 
 // === Lifecycle ===
 function cleanUp() {
+  detectionGeneration++;
   skipped = false;
+  skippedSegments.clear();
   isBtnAdd = false;
   currentAdSegment = null;
 
@@ -111,10 +116,12 @@ function cleanUp() {
 }
 
 function observeURLChange() {
-  let lastUrl = location.href;
+  const videoKey = () => `${getBvidFromPage()}:${getVideoPage()}`;
+  let lastVideo = videoKey();
   const observer = new MutationObserver(() => {
-    if (location.href !== lastUrl) {
-      lastUrl = location.href;
+    const current = videoKey();
+    if (current !== lastVideo) {
+      lastVideo = current;
       mainLogic();
     }
   });
@@ -159,9 +166,9 @@ function monitorVideoHealth(seg) {
         if (currentAdSkipHandler) {
           currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
         }
+        btnCleanUp();
         currentVideo = newVideo;
-        // 不重置 skipped：同一个视频中广告已跳过就不应再跳
-        // skipped 仅在 cleanUp()（切换视频时）重置
+        // Keep the per-interval skip history when the player replaces its element.
         isBtnAdd = false;
         attachSkipper(seg);
         log('videoHealth: re-attached to new video element');
@@ -175,7 +182,7 @@ function monitorVideoHealth(seg) {
 }
 
 // === Multi-signal detection pipeline ===
-async function getSkipSegment() {
+async function getSkipSegment(inputs = null) {
   const bvid = getBvidFromPage();
   log('bvid:', bvid);
   if (!bvid) return null;
@@ -185,6 +192,15 @@ async function getSkipSegment() {
   if (!videoInfo || !videoInfo.cid) return null;
 
   const { cid, desc, duration } = videoInfo;
+  const selectSegment = (segment, source, requiresConfirmation = segment.requiresConfirmation !== false) => {
+    const result = {
+      ...segment, source, requiresConfirmation,
+      confidence: requiresConfirmation ? 'low' : 'high'
+    };
+    isSuspiciousAd = requiresConfirmation;
+    log('detection:', { bvid, cid, ...result });
+    return result;
+  };
 
   const [playerInfo, danmaku] = await Promise.all([
     fetchPlayerInfo(bvid, cid),
@@ -192,67 +208,146 @@ async function getSkipSegment() {
   ]);
 
   const { viewPoints, subtitles } = playerInfo;
+  if (inputs) Object.assign(inputs, { bvid, cid, duration, title: videoInfo.title || '',
+    chapters: viewPoints, danmaku, subtitleTracks: subtitles });
   log('viewPoints:', viewPoints);
   log('subtitles available:', subtitles.length);
   log('danmaku count:', danmaku.length);
   let adTimes = null;
+  let labelCandidate = null;
 
   // 1. Chapter markers (highest confidence)
   adTimes = detectFromChapters(viewPoints);
   log('1.chapters result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT chapters:', adTimes);
-    isSuspiciousAd = false;
-    return adTimes;
+    if (!adTimes.requiresConfirmation) return selectSegment(adTimes, 'chapters');
+    labelCandidate = { segment: adTimes, source: 'chapters' };
   }
 
   // 2. Description timestamps (high confidence)
   adTimes = detectFromDescription(desc, duration);
   log('2.description result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT description:', adTimes);
-    isSuspiciousAd = false;
-    return adTimes;
+    if (!adTimes.requiresConfirmation) return selectSegment(adTimes, 'description');
+    labelCandidate ||= { segment: adTimes, source: 'description' };
   }
 
-  // 3. Subtitle content analysis (high confidence, lazy-fetch)
+  // 3. User-provided skip destinations take priority over inferred subtitle bounds.
+  const timestamp = findAdTimestamps(danmaku, duration);
+  log('3.danmaku-time result:', timestamp);
+  if (timestamp && !timestamp.requiresConfirmation) {
+    return selectSegment(timestamp, 'danmaku-time');
+  }
+  if (labelCandidate) return selectSegment(labelCandidate.segment, labelCandidate.source);
+
+  // 4. Subtitle keywords locate candidates, but cannot establish safe seek boundaries.
+  let subtitleCandidate = null;
   if (subtitles.length > 0) {
     const zhSub = subtitles.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh');
     const chosenSub = zhSub || subtitles[0];
     log('fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
     const subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
+    if (inputs) inputs.subtitles = subtitleLines;
     log('subtitle lines:', subtitleLines.length);
     adTimes = detectFromSubtitles(subtitleLines, danmaku);
-    log('3.subtitles result:', adTimes);
+    log('4.subtitles result:', adTimes);
     if (adTimes && checkAdSegVaild(adTimes, duration)) {
-      log('HIT subtitles:', adTimes);
-      isSuspiciousAd = false;
-      return adTimes;
+      subtitleCandidate = adTimes;
     }
   } else {
-    log('3.subtitles: none available');
+    log('4.subtitles: none available');
   }
 
-  // 4. Danmaku time-format parsing (medium confidence)
-  adTimes = findAdTimestamps(danmaku);
-  log('4.danmaku-time result:', adTimes);
-  if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT danmaku-time:', adTimes);
-    isSuspiciousAd = false;
-    return adTimes;
+  if (timestamp && subtitleCandidate) {
+    // Agreement is useful for diagnostics, but two weak signals must not authorize a seek.
+    log('cross-check:', {
+      bvid, cid, timestamp, subtitles: subtitleCandidate,
+      overlap: Math.max(timestamp.start, subtitleCandidate.start) < Math.min(timestamp.end, subtitleCandidate.end),
+      endDelta: Math.abs(timestamp.end - subtitleCandidate.end),
+      requiresConfirmation: true
+    });
   }
+  if (timestamp) return selectSegment(timestamp, 'danmaku-time', true);
+  if (subtitleCandidate) return selectSegment(subtitleCandidate, 'subtitles', true);
 
   // 5. Danmaku keyword matching (low confidence)
   isSuspiciousAd = true;
   adTimes = getAdTimeByKeywords(danmaku);
   log('5.danmaku-keywords result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT danmaku-keywords (suspicious):', adTimes);
-    return adTimes;
+    return selectSegment(adTimes, 'danmaku-keywords', true);
   }
 
   log('No ad detected.');
   return null;
+}
+
+// Preserve the primary-source fallback while adding complete, independent breaks.
+// The callback-free input object is local to this request, so navigation cannot
+// mix evidence from different videos.
+async function getSkipSegments() {
+  const inputs = {};
+  const primary = await getSkipSegment(inputs);
+  const fallback = primary ? [primary] : [];
+  if (!inputs.cid || typeof BiliSegmentDetector === 'undefined') return fallback;
+  try {
+    if (!inputs.subtitles) {
+      const tracks = inputs.subtitleTracks || [];
+      const chosen = tracks.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh') || tracks[0];
+      inputs.subtitles = chosen ? await fetchSubtitleBody(chosen.subtitle_url) : [];
+    }
+    const proposals = BiliSegmentDetector.detectSegments(inputs, {
+      getSubtitleEvidence, extractTimeFromText, getTimestampSkipCues, getAdLabelEvidence
+    });
+    const segments = combineSkipSegments(primary, proposals);
+    log('segments:', { bvid: inputs.bvid, cid: inputs.cid,
+      segments, retainedContent: proposals.filter(segment => segment.skipDecision === 'keep') });
+    return segments;
+  } catch (error) {
+    console.warn('[BiliSmartSkip] complete-segment detection failed; primary fallback:', String(error));
+    return fallback;
+  }
+}
+
+function combineSkipSegments(primary, proposals) {
+  const valid = proposals.filter(segment => segment.skipDecision !== 'keep'
+    && Number.isFinite(segment.start) && Number.isFinite(segment.end)
+    && segment.start >= 0 && segment.end > segment.start);
+  const overlap = (a, b) => Math.max(a.start, b.start) < Math.min(a.end, b.end);
+  let retained = primary;
+  let conflict = null;
+  if (retained?.source === 'danmaku-time' && retained.requiresConfirmation === false) {
+    const contradiction = valid.find(segment => overlap(segment, retained)
+      && (segment.reviewReasons?.includes('conflicting-time-destinations')
+        || segment.boundaryEvidence?.end?.kind === 'commercial-continuation-after-timestamp'
+        || (Math.abs(segment.end - retained.end) > 3
+          && (segment.boundaryEvidence?.end?.kind === 'explicit-return'
+            || (segment.requiresConfirmation === false && segment.boundaryEvidence?.end?.kind === 'chapter-end')))));
+    if (contradiction) {
+      conflict = { ...contradiction, requiresConfirmation: true, autoEligible: false,
+        confidence: 'low', boundaryConfidence: 'uncertain', reason: 'cross-source-boundary-conflict',
+        conflictingTimestamp: { start: retained.start, end: retained.end, matchedKeywords: retained.matchedKeywords },
+        reviewReasons: [...(contradiction.reviewReasons || []), 'trusted-destination-conflicts-with-observed-boundary'] };
+      retained = null;
+    }
+  }
+  if (retained) {
+    // A source with explicit boundaries remains authoritative. A structural
+    // candidate can refine a community start only when its end agrees closely.
+    const replacement = valid.find(segment => overlap(segment, retained)
+      && (retained.requiresConfirmation !== false
+        ? (segment.requiresConfirmation === false || (segment.start <= retained.start + (retained.boundaryPaddingSeconds || 0)
+          && segment.end >= retained.end - (retained.boundaryPaddingSeconds || 0)))
+        : retained.source === 'danmaku-time' && segment.requiresConfirmation === false
+          && Math.abs(segment.end - retained.end) <= 3 && segment.start <= retained.start));
+    if (replacement) retained = null;
+  }
+  const selected = conflict ? [conflict] : retained ? [retained] : [];
+  for (const proposal of valid.slice().sort((a, b) => Number(a.requiresConfirmation !== false) - Number(b.requiresConfirmation !== false)
+    || a.start - b.start)) {
+    if (!selected.some(segment => overlap(segment, proposal))) selected.push(proposal);
+  }
+  return selected.sort((a, b) => a.start - b.start);
 }
 
 init();
