@@ -2,94 +2,64 @@
 
 [中文](README.md) | English
 
-An intelligent Chrome/Firefox browser extension that automatically identifies embedded ad segments in Bilibili videos using multi-signal analysis and provides automatic or manual skip functionality.
+A Chrome / Firefox extension for skipping ad breaks in Bilibili videos.
 
 ## Features
 
-- **Multi-Signal Detection**: Cross-checks chapters, descriptions, subtitles, and danmaku for commercial evidence and segment boundaries
-- **Confidence-Aware Skipping**: High-confidence segments can skip automatically; uncertain or conflicting results require a manual click
-- **Multiple Segments**: Handles separate breaks without skipping the main content between them, with at most one automatic skip per interval
-- **Manual Skip**: Displays skip button during ad segments for user choice
-- **Custom Shortcut Key**: Set a keyboard shortcut to skip ads instantly in manual mode
-- **Mode Switching**: Freely switch between automatic and manual modes
-- **Lightweight & Efficient**: No background processes, no impact on page performance
-- **User-Friendly Interface**: Beautiful skip button and settings UI
+- Choose automatic skipping or click a button to skip manually.
+- Set a custom skip shortcut.
+- Skip multiple ad breaks in the same video.
 
 ## How It Works
 
-The extension finds candidate intervals locally, then checks their content and boundary evidence before allowing automatic skipping:
+The extension uses local rules to estimate where ads start and end, based on chapters, descriptions, subtitles, and danmaku. It looks for clues such as chapters marked as ads, viewer comments like “空降 5:30” (skip to 5:30), and sponsorship or promotional content in subtitles.
 
-1. **Explicit Chapter and Description Labels**: Uses creator-marked ad intervals. Ordinary discussion of advertising and negated labels do not directly authorize automatic skipping.
-2. **Viewer-Written Skip Destinations**: Parses times next to explicit instructions such as “跳过广告”, “空降”, or “跳伞”. Ordinary time references and repeated bare timestamps remain suggestions requiring confirmation.
-3. **Subtitles and Complete Breaks**: Combines sponsorship openings, continued promotion, a return to the main topic, chapter boundaries, and danmaku destinations to identify one or more complete intervals. Generic words such as “free”, “search”, or “purchase” alone do not establish an ad.
-4. **Cross-Source Checks**: Explicit skip destinations take priority over scattered subtitle keyword estimates. Conflicts with a return to the main topic, continuing promotion, or other explicit destinations require manual confirmation.
+If it finds a possible ad but cannot establish its boundaries, or the sources disagree on the timing, it asks you to click the skip button even in automatic mode. It can still miss ads or mistake other content for an ad.
 
-Keyword matches alone, uncertain boundaries, and other low-confidence results do not silently trigger automatic skips. A brief sponsorship credit or a video about a product is not automatically a separate ad break. Console logs include detection sources, matched evidence, confirmation requirements, and actual seeks.
+Each ad break is skipped automatically only once. If you seek back into it, you can click the button to skip it again.
 
 ## Installation
 
-### Method 1: Install from existing/add-on Store (Recommended)
-| Browser | Installation Steps |
-|--------|----------|
-| **Chrome** | 1. Open [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)<br>2. Click **「Add to Chrome」** |
-| **Firefox** | 1. Open [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)<br>2. Click **「Add to Firefox」** |
+### From the browser store
 
+- [Chrome Web Store](https://chromewebstore.google.com/detail/ecpppfmdhkopohdmplcafmbfoggijcpe)
+- [Firefox Add-ons](https://addons.mozilla.org/en-CA/firefox/addon/bilismartskip/)
 
-### Method 2: Developer Mode Installation
-1. Download the source from the production `master` branch, or unpack a release extension ZIP. Do not use `test-branch` as the production download.
-2. Open Chrome browser and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked"
-5. Select the directory directly containing `manifest.json` and `scr/`. These are the only runtime files required; tests, evaluation, and collection tools belong to the test branch and are not part of installation.
+### Load the source in Chrome
 
-The store links install the published version. Local source fixes do not update an extension already installed from a store. After updating local files, click “Reload” on the extensions page and refresh the video page.
+1. Download and extract the source.
+2. Open `chrome://extensions/` and enable **Developer mode**.
+3. Click **Load unpacked** and select the directory containing `manifest.json`.
+
+After updating the source, click **Reload** on the extensions page and refresh the video page.
 
 ## Usage
 
-### Basic Usage
-1. After installing the extension, open any Bilibili video page
-2. The extension reads available chapters, descriptions, subtitles, and danmaku to identify candidate intervals locally
-3. Based on the selected mode:
-   - **Auto Mode**: Automatically skips only high-confidence intervals; uncertain candidates still need a click
-   - **Manual Mode**: Shows a skip button during candidate intervals; click to skip
+Open a Bilibili video after installing the extension. Manual mode is the default: a button appears when it detects an ad. Click the extension icon in the browser toolbar to switch to automatic mode; the setting is saved automatically. Possible ads that need confirmation still require a click in automatic mode.
 
-### Mode Switching
-1. Click the extension icon in the browser toolbar
-2. Use the toggle switch to change between "Manual" and "Auto" modes
-3. Settings are automatically saved and applied across all tabs
+To set a shortcut, open the extension popup, click **设置** (Set) under **跳过快捷键** (Skip shortcut), and press a key combination such as `Alt + S`. Click **重置** (Reset) to clear it.
 
-### Setting a Skip Shortcut Key
-1. Click the extension icon in the browser toolbar
-2. Click the "Set" button in the "Skip Shortcut" section
-3. Press your desired key combination (e.g., `Alt + S`)
-4. The shortcut is saved automatically — press it in manual mode to skip ads
-5. To remove the shortcut, click the "Reset" button
+## Danmaku time formats
 
-## Supported Time Formats
+Supported examples include `5:30`, `五分三十秒` (five minutes thirty seconds), `5分30秒`, and `10.5分钟`. The extension also understands `705工程` and `0705工程` as 7 minutes 5 seconds.
 
-The extension can recognize various time formats in danmaku:
-
-- **Numeric Format**: `5:30`, `10:45`
-- **Chinese Numbers**: `五分三十秒` (five minutes thirty seconds), `十分钟` (ten minutes)
-- **Mixed Format**: `5分30秒`, `10.5分钟`
-- **Encoded Format**: `705工程`, `0705工程` (viewer-used time encoding)
-
-Parsing a time does not itself authorize a skip. The extension also checks nearby skip intent, interval validity, and boundary evidence from other sources.
+A time can appear in an ordinary comment too, so the extension also checks for nearby skip instructions such as “空降” or “跳过广告”.
 
 ## Project Structure
 
 ```
 BiliSmartSkip/
-├── scr/                    # Source files folder
-│   ├── constants.js        # Keyword dictionaries & config constants
-│   ├── utils.js            # Utility functions (logging, time formatting, Chinese numeral parsing)
-│   ├── api.js              # API requests & Protobuf danmaku decoder
-│   ├── detectors.js        # Source detectors and confidence checks
-│   ├── segment-detector.js # Complete intervals and cross-source boundary checks
-│   ├── skipper.js          # Skip button UI & countdown logic
-│   ├── content.js          # Main entry: init, lifecycle, detection pipeline
-│   ├── popup.html          # Extension popup interface
-│   ├── popup.js            # Popup interaction logic
+├── scr/                    # Extension source
+│   ├── constants.js        # Keywords and configuration
+│   ├── utils.js            # Logging and time parsing
+│   ├── api.js              # Fetch video info, subtitles, and danmaku
+│   ├── page-data.js        # Read public video metadata already loaded by the page
+│   ├── detectors.js        # Detection rules for each source
+│   ├── segment-detector.js # Find ad start and end times
+│   ├── skipper.js          # Skip button, countdown, and player seeking
+│   ├── content.js          # Setup and page navigation
+│   ├── popup.html          # Settings popup
+│   ├── popup.js            # Save mode and shortcut settings
 │   └── icon.png            # Extension icon
 ├── LICENSE                 # Open source license
 ├── README.md               # Project documentation (Chinese)
@@ -97,64 +67,50 @@ BiliSmartSkip/
 └── manifest.json           # Extension configuration file
 ```
 
-## Permissions Explained
+## Permissions and data
 
-- `storage`: Save user mode settings and shortcut key configuration
-- `https://www.bilibili.com/*`: Access Bilibili video pages
-- `https://api.bilibili.com/*`: Fetch video info, chapter markers, and subtitle data
-- `https://comment.bilibili.com/*`: Retrieve danmaku data
-- `https://i0.hdslb.com/*` / `https://aisubtitle.hdslb.com/*`: Fetch subtitle files
+- `storage`: Save mode and shortcut settings locally.
+- `www.bilibili.com`: Run the extension on video pages.
+- `api.bilibili.com`: Fetch video information, chapters, and subtitle URLs.
+- `comment.bilibili.com`: Fetch danmaku.
+- `i0.hdslb.com`, `aisubtitle.hdslb.com`: Download subtitle files.
 
-## Privacy Protection
+## Development checks
 
-- This extension does not collect any personal information
-- All data processing is performed locally
-- Only accesses Bilibili's public video info, subtitle, and danmaku APIs
-- No data is sent to third-party servers
+Test files are kept on `test-branch`. Run data fetching and fallback tests with Node.js:
 
-## Contributing
+```sh
+git checkout test-branch
+node --test tests/*.test.cjs
+```
 
-Issues and Pull Requests are welcome!
+## Feedback and contributions
 
-### Development Setup
-1. Fork this project
-2. Clone to local machine
-3. Load the production code directory in Chrome
-4. Run `node --test tests/*.test.cjs` on `test-branch`, which retains regression fixtures and offline evaluation tools
-5. Submit Pull Request
-
-### Code Standards
-- Use ES6+ syntax
-- Add necessary comments
-- Follow existing code style
+Issues and pull requests are welcome. To report an incorrect or missed skip, include the video link, the relevant timestamp, and whether you used automatic or manual mode so the issue can be reproduced.
 
 ## License
 
-This project is licensed under the [GUN License](LICENSE).
+[GNU GPL v2](LICENSE).
 
-## Version History
+## Changelog
 
 ### v2.0.0
-- 🎉 Multi-signal detection pipeline: video chapters, description timestamps, subtitle analysis
-- 🎉 Cross-layer subtitle + danmaku joint positioning for better ad boundary accuracy
-- 🎉 Custom skip shortcut key — press a keyboard shortcut to skip ads in manual mode
-- ✅ Support for "705工程" encoded time format
-- ✅ Upgraded danmaku keywords to directional bidirectional anchoring algorithm
-- ✅ Significantly expanded ad keyword dictionary
+
+- Added chapter, description timestamp, and subtitle detection.
+- Combined subtitles and danmaku to locate ad start and end times.
+- Added a skip shortcut.
+- Added support for time formats such as `705工程`.
+- Expanded keywords and distinguished comments marking ad starts from those marking ad ends.
 
 ### v1.1.0
-- 🎉 Added countdown skip feature
-- ✅ Optimized ad segment recognition algorithm
+
+- Added a countdown prompt.
+- Adjusted ad detection rules.
 
 ### v1.0.0
-- 🎉 Initial release
-- ✅ Support for auto/manual skip modes
-- ✅ Intelligent danmaku time recognition
-- ✅ Beautiful user interface
 
-## Settings Interface & Ad Skip Functionality
+Initial release with automatic and manual skipping based on danmaku timestamps.
 
-Clean, intuitive settings panel with one-click auto/manual skip toggle.
-When an ad is detected, a sleek "Skip Ad" button appears bottom-right for instant skipping.
+## Screenshot
 
-![Ad Skip Feature Demo](./img/full_screen.png)
+![Skip ad button](./img/full_screen.png)

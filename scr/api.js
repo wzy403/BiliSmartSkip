@@ -1,21 +1,89 @@
 // == BiliSmartSkip: API & Data Fetching ==
 
 function getBvidFromPage() {
-  return window.location.pathname.split('/')[2] || null;
+  return window.location.pathname.match(/^\/video\/(BV[\da-zA-Z]+)(?:\/|$)/)?.[1] || null;
 }
 
-async function fetchVideoInfo(bvid) {
-  try {
-    const res = await fetch(`https://api.bilibili.com/x/web-interface/view?bvid=${bvid}`);
-    const json = await res.json();
-    if (json.code !== 0 || !json.data) return null;
-    const d = json.data;
-    return {
-      cid: d.pages?.[0]?.cid || null,
-      title: d.title || '',
-      desc: d.desc || '',
-      duration: d.duration || 0
+function getVideoPage() {
+  const page = Number(new URLSearchParams(window.location.search).get('p') || 1);
+  return Number.isSafeInteger(page) && page > 0 ? page : 1;
+}
+
+// Read only public video metadata through a packaged page script. Content scripts
+// cannot access the site's JS globals, and Bilibili may remove its hydration script.
+function readPageVideoInfo(bvid) {
+  return new Promise(resolve => {
+    const script = document.createElement('script');
+    let timer;
+    const finish = data => {
+      clearTimeout(timer);
+      script.remove();
+      resolve(data);
     };
+    script.dataset.bvid = bvid;
+    script.onload = () => {
+      try {
+        finish(JSON.parse(script.dataset.videoInfo || 'null'));
+      } catch (_) {
+        finish(null);
+      }
+    };
+    script.onerror = () => finish(null);
+    timer = setTimeout(() => finish(null), 1500);
+    try {
+      script.src = chrome.runtime.getURL('scr/page-data.js');
+      (document.head || document.documentElement).appendChild(script);
+    } catch (_) {
+      finish(null);
+    }
+  });
+}
+
+function normalizeVideoInfo(data, bvid, pageNumber) {
+  if (!data || data.bvid !== bvid) return null;
+  const pages = Array.isArray(data.pages) ? data.pages : [];
+  const page = pages.find(item => Number(item.page) === pageNumber);
+  // Never reuse P1's CID or the total duration for another part.
+  if (!page && (pages.length || pageNumber !== 1)) return null;
+  const cid = Number(page ? page.cid : data.cid);
+  if (!Number.isSafeInteger(cid) || cid <= 0) return null;
+  const duration = Number(page ? page.duration : data.duration);
+  return {
+    cid,
+    title: typeof data.title === 'string' ? data.title : '',
+    desc: typeof data.desc === 'string' ? data.desc : '',
+    duration: Number.isFinite(duration) && duration > 0 ? duration : 0
+  };
+}
+
+// Time out both the request and its body. Report HTTP errors before trying to
+// parse a risk-control HTML response as JSON/protobuf/XML; do not retry 412s.
+async function fetchBiliData(url, bodyType = 'json', credentials = 'include') {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 10000);
+  try {
+    const res = await fetch(url, { credentials, signal: controller.signal });
+    if (!res.ok) {
+      const error = new Error(`HTTP ${res.status} (${new URL(url).pathname})`);
+      error.status = res.status;
+      throw error;
+    }
+    return await res[bodyType]();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchVideoInfo(bvid, pageNumber = getVideoPage()) {
+  const pageInfo = normalizeVideoInfo(await readPageVideoInfo(bvid), bvid, pageNumber);
+  if (pageInfo) {
+    console.info('[BiliSmartSkip] video metadata: page', { bvid, page: pageNumber, cid: pageInfo.cid });
+    return pageInfo;
+  }
+  try {
+    const json = await fetchBiliData(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(bvid)}`);
+    if (json.code !== 0) throw new Error(`Video API code ${json.code}`);
+    return normalizeVideoInfo(json.data, bvid, pageNumber);
   } catch (e) {
     console.warn('fetchVideoInfo failed:', e);
     return null;
@@ -24,15 +92,13 @@ async function fetchVideoInfo(bvid) {
 
 async function fetchPlayerInfo(bvid, cid) {
   try {
-    const res = await fetch(
-      `https://api.bilibili.com/x/player/wbi/v2?bvid=${bvid}&cid=${cid}`,
-      { credentials: 'include' }
+    const json = await fetchBiliData(
+      `https://api.bilibili.com/x/player/wbi/v2?bvid=${encodeURIComponent(bvid)}&cid=${cid}`
     );
-    const json = await res.json();
-    if (json.code !== 0 || !json.data) return { viewPoints: [], subtitles: [] };
+    if (json.code !== 0 || !json.data) throw new Error(`Player API code ${json.code}`);
     return {
-      viewPoints: json.data.view_points || [],
-      subtitles: json.data.subtitle?.subtitles || []
+      viewPoints: Array.isArray(json.data.view_points) ? json.data.view_points : [],
+      subtitles: Array.isArray(json.data.subtitle?.subtitles) ? json.data.subtitle.subtitles : []
     };
   } catch (e) {
     console.warn('fetchPlayerInfo failed:', e);
@@ -43,9 +109,8 @@ async function fetchPlayerInfo(bvid, cid) {
 async function fetchSubtitleBody(subtitleUrl) {
   try {
     const url = subtitleUrl.startsWith('//') ? 'https:' + subtitleUrl : subtitleUrl;
-    const res = await fetch(url);
-    const json = await res.json();
-    return json.body || [];
+    const json = await fetchBiliData(url, 'json', 'omit');
+    return Array.isArray(json.body) ? json.body : [];
   } catch (e) {
     console.warn('fetchSubtitleBody failed:', e);
     return [];
@@ -151,39 +216,51 @@ function decodeDanmakuProto(buffer) {
 
 async function fetchDanmakuSegment(cid, segmentIndex) {
   const url = `https://api.bilibili.com/x/v2/dm/web/seg.so?type=1&oid=${cid}&segment_index=${segmentIndex}`;
-  const res = await fetch(url);
-  if (!res.ok) return [];
-  const buffer = await res.arrayBuffer();
+  const buffer = await fetchBiliData(url, 'arrayBuffer');
   return decodeDanmakuProto(buffer);
 }
 
 async function fetchDanmakuWithTime(cid, duration) {
-  try {
-    const segmentCount = Math.ceil((duration || 600) / 360);
-    const promises = [];
-    for (let i = 1; i <= segmentCount; i++) {
-      promises.push(fetchDanmakuSegment(cid, i));
+  const segmentCount = Math.ceil((Number.isFinite(duration) && duration > 0 ? duration : 600) / 360);
+  const danmaku = [];
+  let nextSegment = 1;
+  let blocked = false;
+  async function worker() {
+    while (!blocked && nextSegment <= segmentCount) {
+      const index = nextSegment++;
+      try {
+        danmaku.push(...await fetchDanmakuSegment(cid, index));
+      } catch (e) {
+        // Keep successful segments, cap concurrency, and stop scheduling requests
+        // when the server asks us to stop. XML remains an independent fallback.
+        if ([401, 403, 412, 429].includes(e.status)) blocked = true;
+        console.warn(`[BiliSmartSkip] danmaku segment ${index} failed:`, e);
+      }
     }
-    const segments = await Promise.all(promises);
-    const danmaku = segments.flat();
-    if (danmaku.length > 0) {
-      danmaku.sort((a, b) => a.time - b.time);
-      log(`danmaku fetched via protobuf: ${danmaku.length} (${segmentCount} segments)`);
-      return danmaku;
-    }
-  } catch (e) {
-    console.warn('Protobuf danmaku failed, falling back to XML:', e);
+  }
+  await Promise.all(Array.from({ length: Math.min(2, segmentCount) }, worker));
+  if (danmaku.length > 0) {
+    danmaku.sort((a, b) => a.time - b.time);
+    log(`danmaku fetched via protobuf: ${danmaku.length} (${segmentCount} segments)`);
+    return danmaku;
   }
 
-  const url = `https://comment.bilibili.com/${cid}.xml`;
-  const res = await fetch(url);
-  const text = await res.text();
-  const danmakuXML = new DOMParser().parseFromString(text, 'text/xml');
-  const danmaku = Array.from(danmakuXML.getElementsByTagName("d")).map(d => ({
-    time: parseFloat(d.getAttribute("p").split(",")[0]),
-    textContent: d.textContent
-  }));
-  danmaku.sort((a, b) => a.time - b.time);
-  log(`danmaku fetched via XML fallback: ${danmaku.length}`);
-  return danmaku;
+  try {
+    // The public XML CDN does not need a login and may use wildcard CORS.
+    const text = await fetchBiliData(`https://comment.bilibili.com/${cid}.xml`, 'text', 'omit');
+    const danmakuXML = new DOMParser().parseFromString(text, 'text/xml');
+    if (danmakuXML.querySelector('parsererror') || danmakuXML.documentElement?.tagName !== 'i') {
+      throw new Error('Invalid danmaku XML');
+    }
+    const fallback = Array.from(danmakuXML.getElementsByTagName('d')).map(d => ({
+      time: parseFloat((d.getAttribute('p') || '').split(',')[0]),
+      textContent: d.textContent
+    })).filter(d => Number.isFinite(d.time) && d.time >= 0 && d.textContent);
+    fallback.sort((a, b) => a.time - b.time);
+    log(`danmaku fetched via XML fallback: ${fallback.length}`);
+    return fallback;
+  } catch (e) {
+    console.warn('[BiliSmartSkip] danmaku unavailable; continuing with other sources:', e);
+    return [];
+  }
 }

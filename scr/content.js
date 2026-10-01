@@ -83,7 +83,7 @@ function mainLogic() {
       attachSkipper(segments);
       monitorVideoHealth(segments);
     });
-  })();
+  })().catch(error => console.warn('[BiliSmartSkip] detection failed:', error));
 }
 
 // === Lifecycle ===
@@ -116,10 +116,12 @@ function cleanUp() {
 }
 
 function observeURLChange() {
-  let lastUrl = location.href;
+  const videoKey = () => `${getBvidFromPage()}:${getVideoPage()}`;
+  let lastVideo = videoKey();
   const observer = new MutationObserver(() => {
-    if (location.href !== lastUrl) {
-      lastUrl = location.href;
+    const current = videoKey();
+    if (current !== lastVideo) {
+      lastVideo = current;
       mainLogic();
     }
   });

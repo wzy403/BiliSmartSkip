@@ -26,6 +26,12 @@
       "run_at": "document_idle"
     }
   ],
+  "web_accessible_resources": [
+    {
+      "resources": ["scr/page-data.js"],
+      "matches": ["https://www.bilibili.com/*"]
+    }
+  ],
   "action": {
     "default_popup": "/scr/popup.html"
   },
