@@ -74,6 +74,7 @@ function createHarness(fixture = {}) {
     clearTimeout: id => timers.delete(id),
     clearInterval: id => timers.delete(id),
     getBvidFromPage: () => 'BV_fixture',
+    getVideoPage: () => 1,
     fetchVideoInfo: async () => ({ cid: 14, desc: '', duration: 600, ...fixture.videoInfo }),
     fetchPlayerInfo: async () => ({
       viewPoints: fixture.chapters || [],

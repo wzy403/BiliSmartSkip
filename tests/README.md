@@ -1,4 +1,4 @@
-# Issue #14 与多段跳过回归
+# 数据获取、Issue #14 与多段跳过回归
 
 在 `test-branch` 的仓库根目录运行全套生产回归，不需要 npm install 或 package.json：
 
@@ -10,8 +10,11 @@ node --test tests/*.test.cjs
 
 Node 内置 `node:test` / `node:vm` 加载真实的 `constants.js`、`utils.js`、`detectors.js`、`segment-detector.js`、`skipper.js` 和 `content.js`。DOM、视频元素、Chrome storage、时钟和网络响应由最小夹具替代；真实检测、模式切换、`timeupdate`、按钮点击和 seek 代码都会执行。
 
+`api.test.cjs` 和 `page-data.test.cjs` 另外加载真实的 `api.js` 与页面数据脚本，使用模拟响应测试获取流程，不请求真实 B 站接口。
+
 覆盖包括：
 
+- 页面元数据读取、跨域会话、412 回退、分 P 选择与旧 BV 拒绝、弹幕并发和部分失败，以及弹幕全失败时章节／简介检测继续工作。
 - Issue #14 的真实字幕缩减夹具，以及 79 秒“免费／搜索”宽词误跳路径。
 - 局部字幕商业证据、普通教程链接、否定表述、章节置信度和早期广告时轴。
 - 明确跳过指令、中文时间、普通或重复时间引用，以及缺失字幕或弹幕。
