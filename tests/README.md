@@ -1,5 +1,7 @@
 # 数据获取、Issue #14 与多段跳过回归
 
+`test-branch` 长期保持 `scr/constants.js` 中的 `DEBUG = true`，合并 `master` 更新时保留此分支设置。测试默认使用该设置，并单独验证显式关闭 DEBUG 时不输出检测与跳过日志。
+
 在 `test-branch` 的仓库根目录运行全套生产回归，不需要 npm install 或 package.json：
 
 ```sh

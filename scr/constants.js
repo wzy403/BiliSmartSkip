@@ -1,6 +1,7 @@
 // == BiliSmartSkip: Constants & Configuration ==
 
-const DEBUG = false;
+// Keep diagnostics enabled on test-branch when merging updates from master.
+const DEBUG = true;
 const COUNTDOWN = 5;
 
 // === Ad Keyword Dictionaries ===

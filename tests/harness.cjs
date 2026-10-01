@@ -29,7 +29,7 @@ class Element {
   click() { this.dispatch('click'); }
 }
 
-function createHarness(fixture = {}, { debug = false } = {}) {
+function createHarness(fixture = {}, { debug } = {}) {
   const video = new Element();
   video.parentElement = new Element();
   video.isConnected = true;
@@ -89,8 +89,10 @@ function createHarness(fixture = {}, { debug = false } = {}) {
   for (const file of scripts) {
     const filename = path.join(__dirname, '..', 'scr', `${file}.js`);
     let source = fs.readFileSync(filename, 'utf8');
-    // Opt in to the extension's diagnostic configuration only for logging tests.
-    if (file === 'constants' && debug) source = source.replace(/^const DEBUG = false;$/m, 'const DEBUG = true;');
+    // Inherit the branch default unless a test explicitly selects a logging mode.
+    if (file === 'constants' && typeof debug === 'boolean') {
+      source = source.replace(/^const DEBUG = (?:true|false);$/m, `const DEBUG = ${debug};`);
+    }
     vm.runInContext(source, context, { filename });
   }
   const evaluate = code => vm.runInContext(code, context);

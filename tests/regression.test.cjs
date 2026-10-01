@@ -380,8 +380,8 @@ test('疑似广告倒计时结束不会触发 seek', async () => {
   assert.equal(h.button.parentElement, null);
 });
 
-test('DEBUG 默认关闭时检测与跳过不输出诊断日志', async () => {
-  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] });
+test('DEBUG 显式关闭时检测与跳过不输出诊断日志', async () => {
+  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] }, { debug: false });
   assert.equal(h.evaluate('DEBUG'), false);
   const startupLogCount = h.logs.length;
   const segments = await h.detectAllAndAttach();
@@ -392,8 +392,8 @@ test('DEBUG 默认关闭时检测与跳过不输出诊断日志', async () => {
   assert.deepEqual(h.logs.slice(startupLogCount), []);
 });
 
-test('DEBUG 开启时检测日志包含来源、置信度和命中关键词', async () => {
-  const h = createHarness({ subtitles: strongSubtitles }, { debug: true });
+test('test-branch 默认开启 DEBUG，检测日志包含来源、置信度和命中关键词', async () => {
+  const h = createHarness({ subtitles: strongSubtitles });
   assert.equal(h.evaluate('DEBUG'), true);
   await h.detectAndAttach();
   const detail = diagnostic(h, 'detection:');
