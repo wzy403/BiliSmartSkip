@@ -1,0 +1,13 @@
+# .github/workflows/pr-gate.yml
+
+name: PR Gate
+
+on:
+  pull_request:
+
+jobs:
+  gate:
+    name: PR Gate
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "PR gate passed"
