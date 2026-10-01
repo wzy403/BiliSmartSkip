@@ -53,6 +53,7 @@ BiliSmartSkip/
 │   ├── constants.js        # Keywords and configuration
 │   ├── utils.js            # Logging and time parsing
 │   ├── api.js              # Fetch video info, subtitles, and danmaku
+│   ├── page-data.js        # Read public video metadata already loaded by the page
 │   ├── detectors.js        # Detection rules for each source
 │   ├── segment-detector.js # Find ad start and end times
 │   ├── skipper.js          # Skip button, countdown, and player seeking
@@ -74,7 +75,14 @@ BiliSmartSkip/
 - `comment.bilibili.com`: Fetch danmaku.
 - `i0.hdslb.com`, `aisubtitle.hdslb.com`: Download subtitle files.
 
-Ad detection runs locally in the browser. The extension does not upload subtitles, danmaku, or detection results to other services. Some subtitles require a Bilibili login; those requests use your existing browser session.
+## Development checks
+
+Test files are kept on `test-branch`. Run data fetching and fallback tests with Node.js:
+
+```sh
+git checkout test-branch
+node --test tests/*.test.cjs
+```
 
 ## Feedback and contributions
 

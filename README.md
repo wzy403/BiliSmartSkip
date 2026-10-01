@@ -69,6 +69,7 @@ BiliSmartSkip/
 │   ├── constants.js        # 关键词和配置
 │   ├── utils.js            # 日志、时间解析等工具
 │   ├── api.js              # 获取视频信息、字幕和弹幕
+│   ├── page-data.js        # 读取页面已有的公开视频信息
 │   ├── detectors.js        # 各来源的广告判断规则
 │   ├── segment-detector.js # 广告段落的起止判断
 │   ├── skipper.js          # 跳过按钮、倒计时和播放器跳转
@@ -90,7 +91,14 @@ BiliSmartSkip/
 - `comment.bilibili.com`：获取弹幕。
 - `i0.hdslb.com`、`aisubtitle.hdslb.com`：下载字幕文件。
 
-广告判断在浏览器本地完成。插件不会把字幕、弹幕或检测结果上传到其他服务。部分字幕需要登录 B 站才能获取，相关请求会使用浏览器已有的登录状态。
+## 开发验证
+
+测试文件保存在 `test-branch` 分支。使用 Node.js 运行数据获取与故障回退测试：
+
+```sh
+git checkout test-branch
+node --test tests/*.test.cjs
+```
 
 ## 反馈与贡献
 
