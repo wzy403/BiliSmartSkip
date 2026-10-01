@@ -77,7 +77,7 @@ async function fetchBiliData(url, bodyType = 'json', credentials = 'include') {
 async function fetchVideoInfo(bvid, pageNumber = getVideoPage()) {
   const pageInfo = normalizeVideoInfo(await readPageVideoInfo(bvid), bvid, pageNumber);
   if (pageInfo) {
-    console.info('[BiliSmartSkip] video metadata: page', { bvid, page: pageNumber, cid: pageInfo.cid });
+    log('video metadata: page', { bvid, page: pageNumber, cid: pageInfo.cid });
     return pageInfo;
   }
   try {
