@@ -94,6 +94,14 @@ Issues and pull requests are welcome. To report an incorrect or missed skip, inc
 
 ## Changelog
 
+### v2.1.0
+
+- Added support for skipping multiple ad segments in one video.
+- Improved ad boundaries using subtitle context, chapters, and danmaku timestamps.
+- Prevented ordinary keyword matches from triggering automatic skips; conflicting boundaries require manual confirmation.
+- Fixed video metadata fetching failures and incorrect part selection in multi-part videos.
+- Made detection and skip logs respect the DEBUG setting and removed duplicate logs.
+
 ### v2.0.0
 
 - Added chapter, description timestamp, and subtitle detection.

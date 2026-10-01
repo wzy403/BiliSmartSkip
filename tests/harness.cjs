@@ -1,4 +1,4 @@
-// Minimal browser fixture: production scripts run unchanged, with deterministic APIs/events.
+// Minimal browser fixture: production scripts run with deterministic APIs/events.
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
@@ -29,7 +29,7 @@ class Element {
   click() { this.dispatch('click'); }
 }
 
-function createHarness(fixture = {}) {
+function createHarness(fixture = {}, { debug = false } = {}) {
   const video = new Element();
   video.parentElement = new Element();
   video.isConnected = true;
@@ -88,7 +88,10 @@ function createHarness(fixture = {}) {
   if (fs.existsSync(path.join(__dirname, '..', 'scr', 'segment-detector.js'))) scripts.splice(3, 0, 'segment-detector');
   for (const file of scripts) {
     const filename = path.join(__dirname, '..', 'scr', `${file}.js`);
-    vm.runInContext(fs.readFileSync(filename, 'utf8'), context, { filename });
+    let source = fs.readFileSync(filename, 'utf8');
+    // Opt in to the extension's diagnostic configuration only for logging tests.
+    if (file === 'constants' && debug) source = source.replace(/^const DEBUG = false;$/m, 'const DEBUG = true;');
+    vm.runInContext(source, context, { filename });
   }
   const evaluate = code => vm.runInContext(code, context);
   return {

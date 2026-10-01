@@ -198,8 +198,7 @@ async function getSkipSegment(inputs = null) {
       confidence: requiresConfirmation ? 'low' : 'high'
     };
     isSuspiciousAd = requiresConfirmation;
-    // Keep one concise decision visible even when verbose DEBUG logging is disabled.
-    console.info('[BiliSmartSkip] detection:', { bvid, cid, ...result });
+    log('detection:', { bvid, cid, ...result });
     return result;
   };
 
@@ -221,7 +220,6 @@ async function getSkipSegment(inputs = null) {
   adTimes = detectFromChapters(viewPoints);
   log('1.chapters result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT chapters:', adTimes);
     if (!adTimes.requiresConfirmation) return selectSegment(adTimes, 'chapters');
     labelCandidate = { segment: adTimes, source: 'chapters' };
   }
@@ -230,7 +228,6 @@ async function getSkipSegment(inputs = null) {
   adTimes = detectFromDescription(desc, duration);
   log('2.description result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT description:', adTimes);
     if (!adTimes.requiresConfirmation) return selectSegment(adTimes, 'description');
     labelCandidate ||= { segment: adTimes, source: 'description' };
   }
@@ -263,7 +260,7 @@ async function getSkipSegment(inputs = null) {
 
   if (timestamp && subtitleCandidate) {
     // Agreement is useful for diagnostics, but two weak signals must not authorize a seek.
-    console.info('[BiliSmartSkip] cross-check:', {
+    log('cross-check:', {
       bvid, cid, timestamp, subtitles: subtitleCandidate,
       overlap: Math.max(timestamp.start, subtitleCandidate.start) < Math.min(timestamp.end, subtitleCandidate.end),
       endDelta: Math.abs(timestamp.end - subtitleCandidate.end),
@@ -278,7 +275,6 @@ async function getSkipSegment(inputs = null) {
   adTimes = getAdTimeByKeywords(danmaku);
   log('5.danmaku-keywords result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    log('HIT danmaku-keywords (suspicious):', adTimes);
     return selectSegment(adTimes, 'danmaku-keywords', true);
   }
 
@@ -304,7 +300,7 @@ async function getSkipSegments() {
       getSubtitleEvidence, extractTimeFromText, getTimestampSkipCues, getAdLabelEvidence
     });
     const segments = combineSkipSegments(primary, proposals);
-    console.info('[BiliSmartSkip] segments:', { bvid: inputs.bvid, cid: inputs.cid,
+    log('segments:', { bvid: inputs.bvid, cid: inputs.cid,
       segments, retainedContent: proposals.filter(segment => segment.skipDecision === 'keep') });
     return segments;
   } catch (error) {

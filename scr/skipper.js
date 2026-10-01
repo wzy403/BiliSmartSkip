@@ -38,7 +38,7 @@ btn.addEventListener('mouseleave', () => {
 function attachSkipper(segment) {
   const segments = (Array.isArray(segment) ? segment : [segment]).slice().sort((a, b) => a.start - b.start);
   if (currentAdSkipHandler) currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
-  log('attachSkipper:', segments);
+  log('attachSkipper:', { segmentCount: segments.length });
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
     const active = segments.find(item => t >= item.start && t < item.end);
@@ -82,12 +82,11 @@ function skipToEnd(end, trigger = 'manual') {
   if (currentAdSegment) skippedSegments.add(`${currentAdSegment.start}:${currentAdSegment.end}`);
 
   const wasPlaying = !currentVideo.paused;
-  console.info('[BiliSmartSkip] skip:', {
+  log('skip:', {
     trigger, source: currentAdSegment?.source,
     from: currentVideo.currentTime, to: end,
-    confidence: currentAdSegment?.confidence
+    confidence: currentAdSegment?.confidence, wasPlaying
   });
-  log(`skipToEnd: seeking to ${formatTime(end)}, wasPlaying=${wasPlaying}`);
 
   // Clean up UI immediately
   btnCleanUp();

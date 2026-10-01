@@ -3,6 +3,11 @@ const assert = require('node:assert/strict');
 const { createHarness } = require('./harness.cjs');
 const { transcript, weakSubtitles, strongSubtitles, timestamp } = require('./fixtures.cjs');
 
+function diagnostic(harness, message) {
+  return harness.logs.find(log => log.level === 'log' &&
+    log.args[0] === '[BiliSmartSkip]' && log.args[1] === message)?.args[2];
+}
+
 test('真实字幕回归：历史叙事中的购买不能把广告自动延长到 300 秒', async () => {
   // BV1a5N4zxEQe, logged-in AI subtitles collected 2026-09-30.
   // Reduced to actual commercial evidence/times, not a copy of the full transcript:
@@ -75,7 +80,7 @@ test('79 秒宽泛字幕且没有弹幕：自动模式不 seek', async () => {
 });
 
 test('明显广告字幕保留候选，只有点击才跳过', async () => {
-  const h = createHarness({ subtitles: strongSubtitles });
+  const h = createHarness({ subtitles: strongSubtitles }, { debug: true });
   const segment = await h.detectAndAttach();
   assert.ok(segment, '明显赞助/CTA 应保留手动召回');
   assert.equal(segment.source, 'subtitles');
@@ -85,9 +90,10 @@ test('明显广告字幕保留候选，只有点击才跳过', async () => {
   assert.match(h.button.textContent, /疑似广告/);
   h.button.click();
   assert.deepEqual(h.video.seeks, [segment.end + 0.05]);
-  const skip = h.logs.find(log => log.args[0] === '[BiliSmartSkip] skip:');
-  assert.equal(skip.args[1].trigger, 'manual');
-  assert.equal(skip.args[1].source, 'subtitles');
+  const skip = diagnostic(h, 'skip:');
+  assert.ok(skip);
+  assert.equal(skip.trigger, 'manual');
+  assert.equal(skip.source, 'subtitles');
 });
 
 test('普通教程链接不再回退猜测广告起点', async () => {
@@ -110,7 +116,7 @@ test('字幕的低置信度标记不因全局状态被重置而允许 auto', asy
 });
 
 test('明确弹幕时轴优先于宽泛字幕并使用用户填写的终点', async () => {
-  const h = createHarness({ subtitles: weakSubtitles, danmaku: [timestamp()] });
+  const h = createHarness({ subtitles: weakSubtitles, danmaku: [timestamp()] }, { debug: true });
   const segment = await h.detectAndAttach();
   assert.ok(segment);
   assert.equal(segment.source, 'danmaku-time');
@@ -119,9 +125,10 @@ test('明确弹幕时轴优先于宽泛字幕并使用用户填写的终点', as
   assert.equal(segment.end, 120);
   h.tick(79);
   assert.deepEqual(h.video.seeks, [120.05]);
-  const skip = h.logs.find(log => log.args[0] === '[BiliSmartSkip] skip:');
-  assert.equal(skip.args[1].trigger, 'auto');
-  assert.equal(skip.args[1].source, 'danmaku-time');
+  const skip = diagnostic(h, 'skip:');
+  assert.ok(skip);
+  assert.equal(skip.trigger, 'auto');
+  assert.equal(skip.source, 'danmaku-time');
 });
 
 test('普通孤立时间引用只能手动确认', async () => {
@@ -135,7 +142,7 @@ test('普通孤立时间引用只能手动确认', async () => {
 });
 
 test('弱时轴与字幕冲突时记录差异且不合并成更大区间', async () => {
-  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 5:00', 235)] });
+  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 5:00', 235)] }, { debug: true });
   const segment = await h.detectAndAttach();
   assert.equal(segment.start, 240);
   assert.equal(segment.end, 300);
@@ -143,10 +150,10 @@ test('弱时轴与字幕冲突时记录差异且不合并成更大区间', async
   h.tick(79);
   h.tick(240);
   assert.equal(h.video.seeks.length, 0);
-  const crossCheck = h.logs.find(log => log.args[0] === '[BiliSmartSkip] cross-check:');
+  const crossCheck = diagnostic(h, 'cross-check:');
   assert.ok(crossCheck);
-  assert.equal(crossCheck.args[1].overlap, false);
-  assert.ok(crossCheck.args[1].endDelta > 150);
+  assert.equal(crossCheck.overlap, false);
+  assert.ok(crossCheck.endDelta > 150);
 });
 
 test('重复裸时间引用不能冒充独立投票升级 auto', async () => {
@@ -159,16 +166,16 @@ test('重复裸时间引用不能冒充独立投票升级 auto', async () => {
 });
 
 test('商业字幕和普通时间引用重合也不能升级 auto', async () => {
-  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] });
+  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] }, { debug: true });
   const segment = await h.detectAndAttach();
   assert.ok(segment);
   assert.equal(segment.requiresConfirmation, true);
   h.tick(79);
   assert.equal(h.video.seeks.length, 0);
-  const crossCheck = h.logs.find(log => log.args[0] === '[BiliSmartSkip] cross-check:');
+  const crossCheck = diagnostic(h, 'cross-check:');
   assert.ok(crossCheck);
-  assert.equal(crossCheck.args[1].overlap, true);
-  assert.equal(crossCheck.args[1].requiresConfirmation, true);
+  assert.equal(crossCheck.overlap, true);
+  assert.equal(crossCheck.requiresConfirmation, true);
 });
 
 test('否定跳过指令不允许自动跳过', async () => {
@@ -373,12 +380,24 @@ test('疑似广告倒计时结束不会触发 seek', async () => {
   assert.equal(h.button.parentElement, null);
 });
 
-test('默认可见的检测日志包含来源、置信度和命中关键词', async () => {
-  const h = createHarness({ subtitles: strongSubtitles });
+test('DEBUG 默认关闭时检测与跳过不输出诊断日志', async () => {
+  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] });
+  assert.equal(h.evaluate('DEBUG'), false);
+  const startupLogCount = h.logs.length;
+  const segments = await h.detectAllAndAttach();
+  assert.ok(segments.length);
+  h.tick(segments[0].start);
+  h.button.click();
+  assert.equal(h.video.seeks.length, 1);
+  assert.deepEqual(h.logs.slice(startupLogCount), []);
+});
+
+test('DEBUG 开启时检测日志包含来源、置信度和命中关键词', async () => {
+  const h = createHarness({ subtitles: strongSubtitles }, { debug: true });
+  assert.equal(h.evaluate('DEBUG'), true);
   await h.detectAndAttach();
-  const entry = h.logs.find(log => log.level === 'info' && log.args[0] === '[BiliSmartSkip] detection:');
-  assert.ok(entry, 'DEBUG=false 时也需有可诊断日志');
-  const detail = entry.args[1];
+  const detail = diagnostic(h, 'detection:');
+  assert.ok(detail, 'DEBUG=true 时需有可诊断日志');
   assert.equal(detail.bvid, 'BV_fixture');
   assert.equal(detail.cid, 14);
   assert.equal(detail.source, 'subtitles');
