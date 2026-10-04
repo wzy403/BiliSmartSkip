@@ -1,0 +1,119 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Lb421E7zH",
+    "cid": 1658467833,
+    "duration": 891,
+    "fullTranscriptRead": true,
+    "videoSummary": "俄乌战线沙盘与库尔斯克等地部队行动评论，中插黑白调人体工学椅及片尾优惠链接。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 348.12,
+        "end": 481.88,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "查资料久坐导致腰颈不适为完整广告铺垫，至E3功能、购买建议与安装服务；254回库尔斯克人事。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.8,
+            "text": "上期提到卡德罗夫声称"
+          },
+          {
+            "from": 348.12,
+            "to": 350.4,
+            "text": "为了给粉丝朋友他们贡献高质量的视频"
+          },
+          {
+            "from": 372.84,
+            "to": 374.82,
+            "text": "这把黑白调E3人体工学椅"
+          },
+          {
+            "from": 477.56,
+            "to": 479.66,
+            "text": "现在点击杰森评论区下方链接"
+          },
+          {
+            "from": 481.88,
+            "to": 483.86,
+            "text": "然后本周在库尔斯克地区"
+          }
+        ],
+        "startUncertainty": [
+          348.12,
+          348.12
+        ],
+        "endUncertainty": [
+          481.88,
+          481.88
+        ]
+      },
+      {
+        "start": 883.4,
+        "end": 886.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "结束正文后再次提示人体工学椅优惠链接，489回感谢。",
+        "evidence": [
+          {
+            "from": 882.28,
+            "to": 882.64,
+            "text": "好了"
+          },
+          {
+            "from": 883.4,
+            "to": 883.88,
+            "text": "评论区"
+          },
+          {
+            "from": 883.88,
+            "to": 886.24,
+            "text": "还有黑白调人体工学椅的优惠链接"
+          },
+          {
+            "from": 886.24,
+            "to": 887.16,
+            "text": "感谢大家的收看"
+          }
+        ],
+        "startUncertainty": [
+          883.4,
+          883.4
+        ],
+        "endUncertainty": [
+          886.24,
+          886.24
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 348.12,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 481.88,
+        "end": 883.4,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 886.24,
+        "end": 890.74,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

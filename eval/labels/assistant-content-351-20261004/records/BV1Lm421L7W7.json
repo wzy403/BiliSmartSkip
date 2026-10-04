@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1Lm421L7W7",
+    "cid": 1574103183,
+    "duration": 933,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲印度维克拉玛蒂亚号的苏联前身、印俄谈判、拖延加价、技术改装、交付及作用；以让印度躺好等待改装的笑话插入躺岛枕头推广。航母价格、军购与合同是主题叙事。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 568.92,
+        "end": 678.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从“好好躺好”和送枕头的剧情笑话开始进入独立广告，再讲作者熬夜睡眠、全睡姿设计、手机使用场景和面料，直到视频下方链接优惠券及夏天买枕头号召，保留完整铺垫。",
+        "evidence": [
+          {
+            "from": 568.92,
+            "to": 581.66,
+            "text": "你们那就好好躺好 来送你们一个隔壁东方大国的枕头 看我们表演就行 唐岛2023CHEEX全睡姿枕 从我听到这款产品名字的时候 就感觉很有灵性"
+          },
+          {
+            "from": 670.44,
+            "to": 678.5,
+            "text": "我很推荐大家试一试啊 点击视频下方的链接 可以领取粉丝专属优惠券 心动不如行动 这个夏天给自己准备一个好枕头吧"
+          },
+          {
+            "from": 678.5,
+            "to": 687.82,
+            "text": "书接上文 在俄罗斯向印度充分阐述了技术的重要性后 印度最终接受现状 接着打 而随着时间逐渐逼近2008年的交付日期"
+          }
+        ],
+        "startUncertainty": [
+          568.92,
+          570.82
+        ],
+        "endUncertainty": [
+          678.5,
+          678.5
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.32,
+        "end": 568.92,
+        "reason": "航母沿革、购舰谈判和改装进度问题；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 678.5,
+        "end": 930.42,
+        "reason": "航母追加费用、改装工程、服役与印度后续规划；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

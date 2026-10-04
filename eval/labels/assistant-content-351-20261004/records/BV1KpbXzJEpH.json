@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1KpbXzJEpH",
+    "cid": 31271290332,
+    "duration": 1450,
+    "fullTranscriptRead": true,
+    "videoSummary": "按时间线复盘2000年玉珠峰两支队伍山难、救援争议及后续事故，中插转转回收服务。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 179.92,
+        "end": 223.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从普通设备闲置的需求铺垫到转转上门回收种类、体验与推荐，109恢复事故时间线。",
+        "evidence": [
+          {
+            "from": 0.3,
+            "to": 3.54,
+            "text": "来自广东的一支登山队正在攀登一座雪山"
+          },
+          {
+            "from": 179.92,
+            "to": 181.7,
+            "text": "但对于我们普通人来说"
+          },
+          {
+            "from": 185.74,
+            "to": 187.59,
+            "text": "这时候我推荐找转转"
+          },
+          {
+            "from": 219.66,
+            "to": 221.82,
+            "text": "找转转这种大平台准没错"
+          },
+          {
+            "from": 223.06,
+            "to": 224.9,
+            "text": "我们正式开始今天的故事"
+          }
+        ],
+        "startUncertainty": [
+          179.92,
+          179.92
+        ],
+        "endUncertainty": [
+          223.06,
+          223.06
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.3,
+        "end": 179.92,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 223.06,
+        "end": 1446.74,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

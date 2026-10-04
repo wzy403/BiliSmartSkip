@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ZBLFznER1",
+    "cid": 29517024695,
+    "duration": 275,
+    "fullTranscriptRead": true,
+    "videoSummary": "东北街头体验12元鸭货辣卤装盒自助，讨论夹菜方法、品类和性价比并试吃；中段有拼多多美食津贴抽奖推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 100.24,
+        "end": 133.639,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从经常吃饭花钱心疼铺垫中奖经历，完整说明拼多多现金津贴、链接、机会与邀请尝试，下一句回到夹猪肉。",
+        "evidence": [
+          {
+            "to": 0.74,
+            "text": "兄弟们",
+            "from": 0.04
+          },
+          {
+            "to": 109.1,
+            "text": "前几天在拼多多上",
+            "from": 107.8
+          },
+          {
+            "to": 134.84,
+            "text": "这个是猪肉吗",
+            "from": 133.639
+          }
+        ],
+        "startUncertainty": [
+          90.98,
+          100.24
+        ],
+        "endUncertainty": [
+          133.639,
+          133.639
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 100.24,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 133.639,
+        "end": 274.3,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

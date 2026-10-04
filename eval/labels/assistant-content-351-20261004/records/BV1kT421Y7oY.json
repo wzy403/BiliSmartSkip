@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1kT421Y7oY",
+    "cid": 1574177309,
+    "duration": 532,
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕紫外线指数、物理与化学防晒及SPF/PA解释防晒选择，并以科岸防晒霜和洁面做肤感、防晒与清洁示范。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 349.62,
+        "end": 480.6,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "从物理防晒假白与配方铺垫进入科岸产品体验、户外测量及清洁实演，末尾带组合购买链接。宣传明确，但承担本期防晒和卸除问题的主题示范，整体自动跳会丢失重要内容，应保留。",
+        "startUncertainty": [
+          349.62,
+          358.66
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          480.6,
+          480.6
+        ],
+        "evidence": [
+          {
+            "from": 28.36,
+            "to": 31.44,
+            "text": "今天咱们聊有关防晒的问题"
+          },
+          {
+            "from": 349.62,
+            "to": 352.38,
+            "text": "但是呢由于物理防晒的这两个成分呢"
+          },
+          {
+            "from": 358.66,
+            "to": 361.3,
+            "text": "那我最近用的这个科爱小银伞防晒"
+          },
+          {
+            "from": 437.89,
+            "to": 441.34,
+            "text": "说明柯岸的小银伞防晒霜是可以不用卸妆产品"
+          },
+          {
+            "from": 473.08,
+            "to": 474.36,
+            "text": "那如果你想买防晒"
+          },
+          {
+            "from": 478.54,
+            "to": 480.6,
+            "text": "成套买肯定更划算的"
+          },
+          {
+            "from": 481.86,
+            "to": 483.92,
+            "text": "其他有关防晒清洁的注意事项"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.3,
+        "end": 531.36,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

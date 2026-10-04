@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1qFDZYoEdH",
+    "cid": 26667714800,
+    "duration": 901,
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾《电击小子》三季的人设、反派、打斗和断更，讨论童年观看体验与玩具商业化，中段淘宝数码促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 245.86,
+        "end": 295.44,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由五十年未来科技的联想和手机翻译器需求铺垫转到淘宝，连续介绍OPPO、联想和讯飞价格优惠，至评论区链接邀请后恢复动画季间比较。",
+        "startUncertainty": [
+          243.52,
+          253.18
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          295.44,
+          295.44
+        ],
+        "evidence": [
+          {
+            "from": 121,
+            "to": 122.66,
+            "text": "所以这期我就来带大家看一下"
+          },
+          {
+            "from": 245.86,
+            "to": 247.26,
+            "text": "可能是蓝狐动画片看多了"
+          },
+          {
+            "from": 258.68,
+            "to": 260.04,
+            "text": "没想到现在淘宝里就有"
+          },
+          {
+            "from": 280.28,
+            "to": 282.76,
+            "text": "优惠后叠加各种券只需5179"
+          },
+          {
+            "from": 294.12,
+            "to": 295.44,
+            "text": "感兴趣的观众可以了解一下"
+          },
+          {
+            "from": 295.44,
+            "to": 297.32,
+            "text": "而S1S2还有很大的区别"
+          }
+        ]
+      },
+      {
+        "start": 895.5,
+        "end": 900.52,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "节目道别后的五秒淘宝活动提醒，短收尾保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          895.5,
+          895.5
+        ],
+        "endUncertainty": [
+          900.52,
+          900.52
+        ],
+        "evidence": [
+          {
+            "from": 894.66,
+            "to": 895.5,
+            "text": "下期再见"
+          },
+          {
+            "from": 895.5,
+            "to": 897.32,
+            "text": "记得到淘宝搜索疯狂抄作业"
+          },
+          {
+            "from": 898.78,
+            "to": 900.1,
+            "text": "趁双11最后一波折扣"
+          },
+          {
+            "from": 900.1,
+            "to": 900.52,
+            "text": "赶紧出"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 245.86,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 295.44,
+        "end": 900.52,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

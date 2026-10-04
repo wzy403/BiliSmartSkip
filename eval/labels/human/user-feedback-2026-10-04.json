@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "kind": "user-chat-feedback",
+  "reportedOn": "2026-10-04",
+  "source": "user-chat",
+  "bvid": "BV1r1421r7am",
+  "cid": 1583131909,
+  "title": "流 浪 皇 叔 计 划",
+  "duration": 407,
+  "visualReviewPerformedByAssistant": false,
+  "rangeStatus": "corrected-partial-ranges",
+  "messages": [
+    {
+      "id": "initial-report",
+      "status": "superseded",
+      "verbatim": "`BV1r1421r7am`\n这个视频是严重的误判。。。这里不存在广告",
+      "supersededBy": "correction",
+      "interpretation": "The initial absence-of-advertising statement was corrected by the user; it must not become a full-video non-ad label."
+    },
+    {
+      "id": "correction",
+      "status": "active",
+      "verbatim": "不好意思我说错了，这个视频的广告是在 5:51~6:12秒 左右。。。。",
+      "interpretation": "The first detected jump remains erroneous. The user places the real advertisement approximately at 351–372 seconds; exact audiovisual boundaries were not reviewed by the assistant."
+    }
+  ],
+  "labelFile": "eval/labels/human/review-2026-10-04-v3.json"
+}

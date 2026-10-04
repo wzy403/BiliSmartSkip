@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1iH4y1w7i2",
+    "cid": 1605770561,
+    "duration": 291,
+    "fullTranscriptRead": true,
+    "videoSummary": "科普湖面雨天模糊斑块，由观察现象讨论朗缪尔环流、对流扩散、雷诺数和湍流扰动；在提问后插入小鹿小冰被推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 34.569,
+        "end": 91.1,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从思考问题让失眠网友睡香的玩笑作为睡眠铺垫，完整转入夏季闷热和空调着凉痛点、小鹿被子材质、双面设计、价格、优惠与换新，最后清凉觉推荐后恢复湖面问题。",
+        "evidence": [
+          {
+            "from": 34.569,
+            "to": 43.14,
+            "text": "据经常失眠的网友反映 晚上思考这个问题就会睡得很香 但夏季盖被子睡觉感觉太闷 可开了空调又怕着凉"
+          },
+          {
+            "from": 80.76,
+            "to": 86.32,
+            "text": "现在新品推广到手168起 评论区领专属优惠保价还送运费险"
+          },
+          {
+            "from": 91.1,
+            "to": 96.2,
+            "text": "对这种奇怪的水面现象 一些家住海边的同学认为是朗缪尔环流"
+          }
+        ],
+        "startUncertainty": [
+          34.569,
+          34.569
+        ],
+        "endUncertainty": [
+          91.1,
+          91.1
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 34.569,
+        "reason": "网友湖面观察和待解释的问题。"
+      },
+      {
+        "start": 91.1,
+        "end": 288.88,
+        "reason": "恢复水流原理和雨滴涟漪形成漫反射区的解释。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

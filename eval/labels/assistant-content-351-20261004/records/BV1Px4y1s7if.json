@@ -1,0 +1,115 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Px4y1s7if",
+    "cid": 1629797696,
+    "duration": 514,
+    "fullTranscriptRead": true,
+    "videoSummary": "以屎壳郎导航、演化、生态与繁殖科普为主，展示为剑与远征启程提供行为设计的合作及公测宣传。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 20.9,
+        "end": 33.56,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "游戏合作说明构成本次科普问题的来源，短且承接主题，保留。",
+        "evidence": [
+          {
+            "from": 0.4,
+            "to": 2.26,
+            "text": "想象你是一只屎壳郎"
+          },
+          {
+            "from": 20.9,
+            "to": 24.02,
+            "text": "这个问题是鉴于远征启程这款游戏抛给我的"
+          },
+          {
+            "from": 27.54,
+            "to": 29.56,
+            "text": "游戏生态里甚至会潜心考虑"
+          },
+          {
+            "from": 33.56,
+            "to": 37.24,
+            "text": "那么今天就让我们一起踏上屎壳郎的征途吧"
+          }
+        ],
+        "startUncertainty": [
+          20.7,
+          20.9
+        ],
+        "endUncertainty": [
+          33.56,
+          33.56
+        ]
+      },
+      {
+        "start": 367.73,
+        "end": 508.3,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由屎壳郎在游戏中的再现引入合作设计过程，后续自然扩展至生态世界与公测招募；科学动作示范与推广连续交织，完整保留避免割裂主题。",
+        "evidence": [
+          {
+            "from": 367.73,
+            "to": 370.09,
+            "text": "不过屎壳郎这么幸福的生物"
+          },
+          {
+            "from": 383.49,
+            "to": 386.79,
+            "text": "你能不能让我们游戏里的屎壳郎更逼真一点呢"
+          },
+          {
+            "from": 403.48,
+            "to": 405.72,
+            "text": "还有屎壳郎跳舞导航的场面"
+          },
+          {
+            "from": 438.92,
+            "to": 442.1,
+            "text": "剑与远征启程做了一个无缝游览的俯视角"
+          },
+          {
+            "from": 487.91,
+            "to": 489.75,
+            "text": "鉴于远征启程就要公测了"
+          },
+          {
+            "from": 502.71,
+            "to": 505.95,
+            "text": "也许有一天你会在这里看见屎壳郎跳舞"
+          }
+        ],
+        "startUncertainty": [
+          367.73,
+          367.73
+        ],
+        "endUncertainty": [
+          508.3,
+          508.3
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.4,
+        "end": 508.3,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "结尾未再返回独立正文，最后一段边界为末条字幕。"
+    ]
+  }
+}

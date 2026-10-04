@@ -1,0 +1,168 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1wt421N72T",
+    "cid": 1513172691,
+    "duration": 1034,
+    "fullTranscriptRead": true,
+    "videoSummary": "跨国家庭回乡准备中式婚礼、参观园林、试唐明婚服和妆容，穿插HBN护肤使用与赠礼。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 48.96,
+        "end": 179.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从出门护肤进入备婚皮肤状态铺垫与完整早C晚A产品介绍，至外出园林场景恢复前；夫妻短互动仍在产品展示内。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 2.52,
+            "text": "Can't believe how fast is coming together in america"
+          },
+          {
+            "from": 48.96,
+            "to": 50.96,
+            "text": "现在我出门前都是要护肤一下"
+          },
+          {
+            "from": 50.96,
+            "to": 54.21,
+            "text": "最近我和ARI在用这个HPN的早C晚A水乳"
+          },
+          {
+            "from": 75.76,
+            "to": 79.0,
+            "text": "阿瑞就拉着我做早C晚A的护肤"
+          },
+          {
+            "from": 116.46,
+            "to": 119.23,
+            "text": "但是用了这个HB的发光水之后"
+          },
+          {
+            "from": 179.66,
+            "to": 181.22,
+            "text": "我们现在来到了这边"
+          }
+        ],
+        "startUncertainty": [
+          47.17,
+          48.96
+        ],
+        "endUncertainty": [
+          179.66,
+          179.66
+        ]
+      },
+      {
+        "start": 968.255,
+        "end": 1017.99,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "品牌赞助伴手礼与远道而来伴娘的赠礼、感谢互动交织，属于婚礼准备的实际情节，保留。",
+        "evidence": [
+          {
+            "from": 968.255,
+            "to": 971.17,
+            "text": "I'm so thankful to hbn for being"
+          },
+          {
+            "from": 973.09,
+            "to": 975.86,
+            "text": "Bridal gifts for everyone in the wedding party"
+          },
+          {
+            "from": 989.029,
+            "to": 991.369,
+            "text": "Its tradition to give your bridesmaids a gift"
+          },
+          {
+            "from": 1006.47,
+            "to": 1009.47,
+            "text": "So much again for coming all the way to china for our wedding"
+          },
+          {
+            "from": 1017.99,
+            "to": 1020.39,
+            "text": "We've been using in loving hbn for a"
+          }
+        ],
+        "startUncertainty": [
+          967.09,
+          968.255
+        ],
+        "endUncertainty": [
+          1017.99,
+          1017.99
+        ]
+      },
+      {
+        "start": 1017.99,
+        "end": 1028.499,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "独立结尾再次产品背书和点击链接推荐，完整覆盖最终商业邀请。",
+        "evidence": [
+          {
+            "from": 1017.99,
+            "to": 1020.39,
+            "text": "We've been using in loving hbn for a"
+          },
+          {
+            "from": 1020.96,
+            "to": 1025.139,
+            "text": "And we're so thankful to have them a part of our special wedding day"
+          },
+          {
+            "from": 1025.139,
+            "to": 1027.179,
+            "text": "If you guys want to check them out for yourself"
+          },
+          {
+            "from": 1028.499,
+            "to": 1028.859,
+            "text": "Thank you"
+          }
+        ],
+        "startUncertainty": [
+          1017.99,
+          1017.99
+        ],
+        "endUncertainty": [
+          1028.499,
+          1028.499
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 48.96,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 179.66,
+        "end": 1017.99,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 1028.499,
+        "end": 1031.8,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

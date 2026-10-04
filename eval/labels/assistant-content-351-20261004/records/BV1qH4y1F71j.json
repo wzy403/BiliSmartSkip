@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1qH4y1F71j",
+    "cid": 1659892368,
+    "duration": 1314,
+    "fullTranscriptRead": true,
+    "videoSummary": "通过旋转圆盘与电梯思想实验介绍广义相对论、时空弯曲，进而讨论黑洞、虫洞、曲速与时间旅行的负能量限制；中段插入倍轻松头皮按摩梳广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 591.9,
+        "end": 716.435,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从感谢赞助商引出忙碌、脱发和头皮护理需求，完整介绍按摩梳功能、使用步骤与体验，直到置顶链接购买推荐；随后明确返回黑洞正文。",
+        "evidence": [
+          {
+            "to": 2.12,
+            "text": "爱因斯坦的相对论有bug吗",
+            "from": 0.08
+          },
+          {
+            "to": 627.16,
+            "text": "轻松二代头皮按摩梳",
+            "from": 625.3
+          },
+          {
+            "to": 718.31,
+            "text": "正片真的开始了",
+            "from": 716.77
+          }
+        ],
+        "startUncertainty": [
+          591.1,
+          591.9
+        ],
+        "endUncertainty": [
+          716.435,
+          716.77
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 591.9,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 716.435,
+        "end": 1297.64,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

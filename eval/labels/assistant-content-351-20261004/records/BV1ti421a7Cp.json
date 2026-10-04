@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ti421a7Cp",
+    "cid": 1646068343,
+    "duration": 613,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释飞机引气空调的降温、除湿与增压循环，对比787电动方案的复杂性、可靠性和收益，末尾推荐航空文创。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 581.33,
+        "end": 594.6,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "技术讲解结束后独立例行推荐飞驰航空文创，介绍F16叶片新品和备注赠品，整段可跳；正文制造商名称是工程案例。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          581.33,
+          581.33
+        ],
+        "endUncertainty": [
+          594.6,
+          594.6
+        ],
+        "evidence": [
+          {
+            "from": 1.68,
+            "to": 4.08,
+            "text": "空调系统算是最重要的功能之一"
+          },
+          {
+            "from": 578.17,
+            "to": 581.33,
+            "text": "内心的火力也不用全向飞机制造商输出"
+          },
+          {
+            "from": 581.33,
+            "to": 583.92,
+            "text": "最后例行推荐一下飞驰航空文创"
+          },
+          {
+            "from": 583.92,
+            "to": 587.55,
+            "text": "最近上了一批f16发动机的次级风扇叶片"
+          },
+          {
+            "from": 591.88,
+            "to": 592.95,
+            "text": "备注机坪夜话"
+          },
+          {
+            "from": 592.95,
+            "to": 594.6,
+            "text": "赠送飞机徽章一枚"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.07,
+        "end": 581.33,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1qb421J77u",
+    "cid": 1644795840,
+    "duration": 610,
+    "fullTranscriptRead": true,
+    "videoSummary": "情侣回顾四年间收到的礼物，吐槽假包、拍立得和首饰，也讨论实用礼物、手写信与心意，包含倍轻松按摩梳介绍。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 338.09,
+        "end": 427.54,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "从染发损伤、护发需求铺垫进入倍轻松头皮按摩梳功能与功效推荐，宣传色彩明显；但这也是整期礼物回顾中的满意礼物及两人互动，直接跳过会丢失产品主题内容，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          338.09,
+          338.09
+        ],
+        "endUncertainty": [
+          427.54,
+          427.54
+        ],
+        "evidence": [
+          {
+            "from": 34.88,
+            "to": 37.14,
+            "text": "你送我的第一款包"
+          },
+          {
+            "from": 338.09,
+            "to": 342.31,
+            "text": "然后还有我们前段时间不是漂了头发吗"
+          },
+          {
+            "from": 365,
+            "to": 369.02,
+            "text": "然后最后买了一个这个倍轻松的头皮按摩梳"
+          },
+          {
+            "from": 387.58,
+            "to": 389.78,
+            "text": "它这里是有双红外光养护的"
+          },
+          {
+            "from": 423.32,
+            "to": 424.94,
+            "text": "因为头皮健康了"
+          },
+          {
+            "from": 427.54,
+            "to": 428.93,
+            "text": "现在轮到我了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 606.58,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

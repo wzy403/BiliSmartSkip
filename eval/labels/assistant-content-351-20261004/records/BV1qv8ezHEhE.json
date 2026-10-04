@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1qv8ezHEhE",
+    "cid": 31307206631,
+    "duration": 1084,
+    "fullTranscriptRead": true,
+    "videoSummary": "译制纪录片讲述乔纳森詹姆斯的成长、入侵NASA与国防机构、被拘禁、信用卡盗窃案牵连与死亡，及后续案件结局。叙述间插入Merlin AI优惠推广；片中其他商店、软件、金额和机构名均服务案件叙事。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 472.18,
+        "end": 534.309,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从观众怀疑动画由AI制作、人工艺术家失望的制作幕后铺垫开始，转而介绍Merlin AI整合模型、研究总结、价格与折扣码，直到链接和扫码行动邀请。",
+        "evidence": [
+          {
+            "from": 472.18,
+            "to": 482.3,
+            "text": "有些观众认为我们的动画是AI制作的 那些无数小时手工打造这些镜头的三位D艺术家 并不生气 只是感到失望"
+          },
+          {
+            "from": 524.92,
+            "to": 534.309,
+            "text": "Merlin AI每月5美元即可访问所有主流模型 点击描述中的链接并使用代码fern checkout 或扫描二维码"
+          },
+          {
+            "from": 542.96,
+            "to": 547.73,
+            "text": "这是阿尔伯特·冈萨雷斯 他和乔纳森·詹姆斯有几处相似"
+          }
+        ],
+        "startUncertainty": [
+          470.659,
+          472.18
+        ],
+        "endUncertainty": [
+          534.309,
+          542.96
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.46,
+        "end": 470.659,
+        "reason": "少年黑客成长、入侵、判决与转折。"
+      },
+      {
+        "start": 542.96,
+        "end": 1079.76,
+        "reason": "恢复冈萨雷斯及盗卡案叙述、詹姆斯遭遇和后续评述。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "推广收束534.309秒到下一正文542.96秒间无字幕，不能确定扫码画面持续到何时。"
+    ]
+  }
+}

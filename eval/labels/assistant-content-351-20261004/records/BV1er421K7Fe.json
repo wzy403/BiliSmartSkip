@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1er421K7Fe",
+    "cid": 1634738023,
+    "duration": 710,
+    "fullTranscriptRead": true,
+    "videoSummary": "夫妻带狗江西自驾，体验服务区、酒店和车内床垫，到景德镇买陶瓷并用价格整蛊；出门挑连衣裙桥段嵌入淘宝服饰会场推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 271.13,
+        "end": 337.93,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从当天穿搭、挑裙和裙型面料展示完整铺垫，转入梅子熟了旗舰店与淘宝服饰会场链接口播，至最后好看评价；穿鞋及开车出门后回到旅行。其他伴手礼和陶瓷是实际旅行体验，无足够独立广告证据。",
+        "evidence": [
+          {
+            "to": 0.84,
+            "text": "大家好",
+            "from": 0.12
+          },
+          {
+            "to": 323.91,
+            "text": "这两件连衣裙都是在梅子熟了旗舰店买的",
+            "from": 320.43
+          },
+          {
+            "to": 339.59,
+            "text": "我穿个鞋嗯",
+            "from": 337.93
+          }
+        ],
+        "startUncertainty": [
+          271.13,
+          271.13
+        ],
+        "endUncertainty": [
+          337.93,
+          337.93
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 271.13,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 337.93,
+        "end": 708.92,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

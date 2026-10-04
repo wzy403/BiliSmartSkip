@@ -1,0 +1,213 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1otHpeBEhq",
+    "cid": 25716000341,
+    "duration": 901,
+    "fullTranscriptRead": true,
+    "videoSummary": "探访视觉工程和美食特拍公司，解释机械联动、食物造型、微缩模型与商业模式，云鲸J5作为合作品牌出现。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 31.7,
+        "end": 40.67,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "开头简短合作背景与品牌理念说明，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          31.7,
+          31.7
+        ],
+        "endUncertainty": [
+          40.67,
+          40.67
+        ],
+        "evidence": [
+          {
+            "from": 0.16,
+            "to": 1.56,
+            "text": "在各类产品广告中"
+          },
+          {
+            "from": 31.7,
+            "to": 34.86,
+            "text": "那这一次云鲸J5扫地机器人和我们一拍即合"
+          },
+          {
+            "from": 38.66,
+            "to": 40.67,
+            "text": "以此解决清洁的根本问题"
+          },
+          {
+            "from": 40.67,
+            "to": 42.75,
+            "text": "那么接下来我将和你一起"
+          }
+        ]
+      },
+      {
+        "start": 252.14,
+        "end": 270.82,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "云鲸产品是机械联动英雄镜头的实拍对象，展示直接解释本片特拍技术主题，不应跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          252.14,
+          252.14
+        ],
+        "endUncertainty": [
+          270.82,
+          270.82
+        ],
+        "evidence": [
+          {
+            "from": 252.14,
+            "to": 254.1,
+            "text": "那比如你看他们现场给我们演示"
+          },
+          {
+            "from": 254.1,
+            "to": 255.36,
+            "text": "用这个云鲸J5"
+          },
+          {
+            "from": 255.36,
+            "to": 257.459,
+            "text": "扫地机器人来拍的这个英雄镜头"
+          },
+          {
+            "from": 263.919,
+            "to": 267.909,
+            "text": "你确实能看到他们拍到一些不一样的结果"
+          },
+          {
+            "from": 280.98,
+            "to": 284.2,
+            "text": "这是一套联动的系统"
+          }
+        ]
+      },
+      {
+        "start": 634.09,
+        "end": 699.17,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "以拍摄现场一片狼藉和人工清理开场，转成扫地机器人清洁、拖布压力与毛发吸取卖点，赠送机器后恢复微缩作品探访；可独立移除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          634.09,
+          634.09
+        ],
+        "endUncertainty": [
+          699.17,
+          699.17
+        ],
+        "evidence": [
+          {
+            "from": 634.09,
+            "to": 637.86,
+            "text": "可能这个唯一的缺点就是一片狼藉"
+          },
+          {
+            "from": 639.98,
+            "to": 641.98,
+            "text": "然后以前都是人工清扫"
+          },
+          {
+            "from": 645.39,
+            "to": 649.84,
+            "text": "这次我们带来了这个云鲸的最新的这个机器人"
+          },
+          {
+            "from": 669.08,
+            "to": 671.34,
+            "text": "在外扩的同时仍然有八牛的下压力"
+          },
+          {
+            "from": 697.51,
+            "to": 699.17,
+            "text": "所以这个就留在你们这里了"
+          },
+          {
+            "from": 699.17,
+            "to": 703.2,
+            "text": "然后其实的话可以再展示一些你们的作品"
+          }
+        ]
+      },
+      {
+        "start": 836.16,
+        "end": 878.01,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "正文结束后完整品牌致谢延伸为吸尘、毛发处理、尘袋等功能广告及京东预售抽奖，直到最终观众致谢。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          836.16,
+          836.16
+        ],
+        "endUncertainty": [
+          878.01,
+          878.01
+        ],
+        "evidence": [
+          {
+            "from": 834.56,
+            "to": 836.16,
+            "text": "所以这就是本期节目的全部内容"
+          },
+          {
+            "from": 836.16,
+            "to": 837.94,
+            "text": "再次感谢云鲸J5的支持"
+          },
+          {
+            "from": 872,
+            "to": 874.08,
+            "text": "那云鲸J5最近也在京东预售之中"
+          },
+          {
+            "from": 876.32,
+            "to": 878.01,
+            "text": "价值2万元的阿勒泰之旅"
+          },
+          {
+            "from": 878.01,
+            "to": 880.31,
+            "text": "那最后也感谢你的观看与支持"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.16,
+        "end": 634.09,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 699.17,
+        "end": 836.16,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 878.01,
+        "end": 884.42,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1QfbnzeEbJ",
+    "cid": 31711693112,
+    "duration": 1251,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论浪浪山电影请傅首尔、苏敏参与宣发的争议，讨论受众定位、公关回应和圈层传播；中途更换口吻做妙界按摩仪推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 291.94,
+        "end": 433.08,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从重新问候、自称被叫醒上班的广告小剧场开始，点明推广位，先提护眼仪再完整展示R6按摩功能、场景、优惠与售后，明确回内容结束；其余讨论电影宣发是主题评论，不是推广。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          291.94,
+          291.94
+        ],
+        "endUncertainty": [
+          433.08,
+          433.08
+        ],
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 0.9,
+            "text": "8月初啊"
+          },
+          {
+            "from": 291.94,
+            "to": 292.78,
+            "text": "哈喽大家好"
+          },
+          {
+            "from": 299.76,
+            "to": 302.62,
+            "text": "那本期的推广位呢还是我们的妙界啊"
+          },
+          {
+            "from": 332.409,
+            "to": 334.849,
+            "text": "就是这款R6仿生五指按摩仪"
+          },
+          {
+            "from": 419.02,
+            "to": 420.94,
+            "text": "然后现在妙界刚好有新品优惠嘛"
+          },
+          {
+            "from": 427.12,
+            "to": 428.38,
+            "text": "退差还送运费险"
+          },
+          {
+            "from": 431.94,
+            "to": 432.74,
+            "text": "都挺合适的"
+          },
+          {
+            "from": 433.08,
+            "to": 434.34,
+            "text": "我们回到内容"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 291.94,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 433.08,
+        "end": 1249.72,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

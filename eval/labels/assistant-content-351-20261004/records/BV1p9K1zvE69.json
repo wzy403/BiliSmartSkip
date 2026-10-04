@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1p9K1zvE69",
+    "cid": 30741630070,
+    "duration": 554,
+    "fullTranscriptRead": true,
+    "videoSummary": "梳理青海火星公路附近六名摩托骑手及一对父女走错荒漠道路的经历和迷路原因，插入二手数码平台推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 155.81,
+        "end": 195.68,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由户外装备花费及省钱的完整铺垫引出转转，包含机型价格、检验保修及优惠口令，结束于回探险叙述前。",
+        "evidence": [
+          {
+            "from": 0.14,
+            "to": 2.58,
+            "text": "上期我们讲了一家八口在青海"
+          },
+          {
+            "from": 155.81,
+            "to": 157.23,
+            "text": "所以在这种环境下"
+          },
+          {
+            "from": 161.51,
+            "to": 163.43,
+            "text": "而要说省钱还得看转转"
+          },
+          {
+            "from": 186.68,
+            "to": 188.2,
+            "text": "现在去转转搜索口令"
+          },
+          {
+            "from": 195.68,
+            "to": 199.019,
+            "text": "我们继续跟随六名骑手的脚步到荒漠探险"
+          }
+        ],
+        "startUncertainty": [
+          155.81,
+          155.81
+        ],
+        "endUncertainty": [
+          195.68,
+          195.68
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.14,
+        "end": 155.81,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 195.68,
+        "end": 549.88,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

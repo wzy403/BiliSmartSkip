@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV13KT96sEfH",
+    "cid": 39709245891,
+    "duration": 251,
+    "fullTranscriptRead": true,
+    "videoSummary": "按核爆距离讲述死亡速度、痛觉、冲击波与辐射病，借气温上升插入小鹿凉席凉被促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 114.98,
+        "end": 178.12,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由说到气温升高转入夏季睡眠困扰，完整介绍凉席凉被结构、凉感及优惠售后，最后催购后回到核爆距离讨论。",
+        "evidence": [
+          {
+            "to": 1.3,
+            "text": "如果被原子弹炸死",
+            "from": 0
+          },
+          {
+            "to": 123.44,
+            "text": "小鹿小冰席了",
+            "from": 122.5
+          },
+          {
+            "to": 179.64,
+            "text": "当然如果不在爆炸中心",
+            "from": 178.12
+          }
+        ],
+        "startUncertainty": [
+          114.98,
+          114.98
+        ],
+        "endUncertainty": [
+          178.12,
+          178.12
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 114.98,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 178.12,
+        "end": 250.78,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

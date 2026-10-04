@@ -1,0 +1,62 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Hr421F7Bb",
+    "cid": 1589922839,
+    "duration": 1530,
+    "fullTranscriptRead": true,
+    "videoSummary": "多人组队驾驶丘吉尔AVRE的战争雷霆实况，围绕短射程、近战、掩体、飞机炸弹及队友互动展开多局战斗。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 14.999,
+        "end": 1503.659,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从开头到结尾均为游戏内战术喊话、闲聊及载具性能吐槽，没有字幕可识别的独立赞助或商业推广。",
+        "evidence": [
+          {
+            "from": 14.999,
+            "to": 17.959,
+            "text": "我现在就把他推到墙上去"
+          },
+          {
+            "from": 756.27,
+            "to": 756.93,
+            "text": "美国生活"
+          },
+          {
+            "from": 1502.08,
+            "to": 1503.659,
+            "text": "他躲在这后面"
+          }
+        ],
+        "startUncertainty": [
+          14.999,
+          14.999
+        ],
+        "endUncertainty": [
+          1503.659,
+          1503.659
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 14.999,
+        "end": 1503.659,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。",
+      "机翻字幕有大量短句和错译，但完整口述范围内未见清晰商业段。"
+    ]
+  }
+}

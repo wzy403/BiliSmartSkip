@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1LAAYz3E4g",
+    "cid": 36352954182,
+    "duration": 174,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释人工山塘的鱼可能由鸟、两栖类、风雨或休眠鱼卵带来，并讨论长白山天池和赛里木湖等限制条件；中间借拍摄鱼雨转入转转数码回收。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 75.28,
+        "end": 95.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从遇到鱼雨会用新相机记录的情境铺垫开始，叙述旧相机上门回收金额、各类数码回收便利与价格，最后明确推荐转转；随后回到鱼卵来源科普。",
+        "evidence": [
+          {
+            "from": 75.28,
+            "to": 82.76,
+            "text": "当然如果我遇到这种场景 就肯定会用我新买的相机记录下来 旧的那台相机 我第一时间找转转上门回收 卖了3100多"
+          },
+          {
+            "from": 91.5,
+            "to": 95.64,
+            "text": "所以有闲置的数码产品 我推荐转转 钱到手才是硬道理"
+          },
+          {
+            "from": 95.64,
+            "to": 105.86,
+            "text": "当然还有一种情况 那就是鱼就是从地里长出来的 如果你挖池塘 那地方本来就是一片已经干涸的湖泊 那之前的鱼卵埋进泥土里 就有可能会进入休眠状态"
+          }
+        ],
+        "startUncertainty": [
+          75.28,
+          77.02
+        ],
+        "endUncertainty": [
+          95.64,
+          95.64
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 75.28,
+        "reason": "山塘生态及动物、风雨传播鱼卵；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 95.64,
+        "end": 173.92,
+        "reason": "休眠鱼卵与高山湖泊鱼类限制因素；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

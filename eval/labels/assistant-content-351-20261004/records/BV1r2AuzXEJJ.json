@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1r2AuzXEJJ",
+    "cid": 36887988111,
+    "duration": 933,
+    "fullTranscriptRead": true,
+    "videoSummary": "整篇评论美伊冲突背景下发电站、海水淡化和海湾国家供水风险，讨论报复、盟友利益、战争规则与加沙饮水处境；中间由睡眠话题引入神奇小鹿可水洗深睡枕。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 419.28,
+        "end": 526.02,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从睡觉重要、人在床上度过三分之一时间开始转向消费者需求，随后明确感谢枕头赞助商，介绍清洗、卫生、承托、材质、价格售后和下单邀请；保留全部铺垫至最后看一下吧。此前海湾国家睡不好觉仍是政治后果的完整结句，属于正文。",
+        "evidence": [
+          {
+            "from": 419.28,
+            "to": 430.12,
+            "text": "睡觉问题对人是非常重要的 因为人的一天啊1/3时间都在床上度过 但话虽如此 我们就很少将目光投向这辈子 陪伴我们1/3时间还是肌肤之亲的枕头"
+          },
+          {
+            "from": 518.14,
+            "to": 526.02,
+            "text": "现在平均线连接下单就是抄底价 保价一年买贵退差 售后质保也齐全 还有两种高度可以选择 有需要的朋友们赶紧看一下吧"
+          },
+          {
+            "from": 526.02,
+            "to": 536.76,
+            "text": "那讲到这里 一些观众朋友可能会问 做视伊朗对自己的核心命脉还是动化设施 这样的威胁 海洋国家一个声儿都不吭 一点防备都没有 这还不支持美国吗"
+          }
+        ],
+        "startUncertainty": [
+          419.28,
+          419.28
+        ],
+        "endUncertainty": [
+          526.02,
+          526.02
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.48,
+        "end": 419.28,
+        "reason": "战争威胁、海水淡化系统、供水风险及海湾国家忧虑的主文。"
+      },
+      {
+        "start": 526.02,
+        "end": 931.8,
+        "reason": "恢复国家立场、冲突后果、国际规则与平民供水问题的评论。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "仅作内容分类，不核实口述时政、健康或法律陈述；广告后的再次睡不着觉是观众对加沙报道反应的引用，没有重新推销枕头。"
+    ]
+  }
+}

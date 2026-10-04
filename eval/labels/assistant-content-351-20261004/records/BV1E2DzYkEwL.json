@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1E2DzYkEwL",
+    "cid": 26682461594,
+    "duration": 367,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍并开罐试吃1962年核避难所生存饼干，包含马登工装秋冬服饰推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 65.099,
+        "end": 112.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "运输费肉疼转入日常消费性价比并引出马登服装，涵盖搭配、品牌与双十一置顶链接；81回到旧罐文字。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 2.96,
+            "text": "接下来品鉴一下1962年生产的辐射避难所"
+          },
+          {
+            "from": 65.099,
+            "to": 66.039,
+            "text": "确实挺肉疼呀"
+          },
+          {
+            "from": 68.02,
+            "to": 69.5,
+            "text": "比如说经常去马登工装"
+          },
+          {
+            "from": 107.42,
+            "to": 109.02,
+            "text": "现在正干活动加购凑满减"
+          },
+          {
+            "from": 112.42,
+            "to": 114.26,
+            "text": "这罐子上布满了岁月的痕迹啊"
+          }
+        ],
+        "startUncertainty": [
+          65.099,
+          65.099
+        ],
+        "endUncertainty": [
+          112.42,
+          112.42
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 65.099,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 112.42,
+        "end": 363.3,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

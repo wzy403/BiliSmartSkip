@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1JucQzwEiP",
+    "cid": 36666410802,
+    "duration": 249,
+    "fullTranscriptRead": true,
+    "videoSummary": "搞笑开箱恶搞超市盲盒，围绕山寨牛肉酱、除臭球和雪茄展开，穿插麻辣王子甲方故事与试吃宣传。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 46.14,
+        "end": 54.26,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "短暂亮相麻辣王子并夸品牌，嵌入盲盒发现物品的连续剧情，保留。",
+        "evidence": [
+          {
+            "to": 3.82,
+            "text": "超市盲盒开箱开箱哟",
+            "from": 0.08
+          },
+          {
+            "to": 49.24,
+            "text": "哇塞麻辣王子是正品啊",
+            "from": 46.14
+          },
+          {
+            "to": 59.09,
+            "text": "哇哟这么大一颗糖呢",
+            "from": 54.26
+          }
+        ],
+        "startUncertainty": [
+          46.14,
+          46.14
+        ],
+        "endUncertainty": [
+          54.26,
+          54.26
+        ]
+      },
+      {
+        "start": 119.18,
+        "end": 160.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从说到麻辣王子起完整讲甲方发现恶搞山寨的铺垫，继而试吃、口味和销量宣传，最后好评结束后打开下一件雪茄；可独立跳过。",
+        "evidence": [
+          {
+            "to": 3.82,
+            "text": "超市盲盒开箱开箱哟",
+            "from": 0.08
+          },
+          {
+            "to": 123.72,
+            "text": "拿麻辣王子的甲方第一时间找到我啊",
+            "from": 121.96
+          },
+          {
+            "to": 164.4,
+            "text": "高希霸呀",
+            "from": 162.74
+          }
+        ],
+        "startUncertainty": [
+          119.18,
+          119.18
+        ],
+        "endUncertainty": [
+          160.46,
+          162.74
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 119.18,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 160.46,
+        "end": 238.16,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

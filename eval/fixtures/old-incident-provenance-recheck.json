@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "kind": "old-incident-raw-protobuf-provenance-recheck",
+  "generatedAt": "2026-10-01T16:17:37.853Z",
+  "scope": "Only files currently saved on disk; read-only decoding with actual current scr/api.js decodeDanmakuProto; no network or browser request.",
+  "decoder": {
+    "path": "scr/api.js",
+    "fileSha256": "d322c3bc88009d2d1a04db7d853a7f21b4b15f78aea271277beacdfe752c9360",
+    "functionName": "decodeDanmakuProto",
+    "line": 122,
+    "gitHead": "a11969f939142cf497f94b3f074d86afd1fc4494",
+    "headApiSha256": "d322c3bc88009d2d1a04db7d853a7f21b4b15f78aea271277beacdfe752c9360",
+    "masterApiSha256": "d322c3bc88009d2d1a04db7d853a7f21b4b15f78aea271277beacdfe752c9360"
+  },
+  "segments": [
+    {
+      "segment": 1,
+      "rawFile": {
+        "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/danmaku-1.bin",
+        "bytes": 23890,
+        "sha256": "0a262004bca6e93cc661c5f32b7051574a3d3128549d6b34e6f88af219d795eb",
+        "mtimeUtc": "2026-10-01T03:47:48.811Z",
+        "mtimeToronto": "Wednesday, September 30, 2026 at 11:47:48 p.m. EDT",
+        "birthtimeUtc": "2026-10-01T03:47:48.811Z",
+        "ctimeUtc": "2026-10-01T03:47:48.811Z"
+      },
+      "savedJsonFile": {
+        "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/danmaku-1.json",
+        "bytes": 15425,
+        "sha256": "8afb1b155772bb464d52d4ba6af9cd26d14c24d996415ef32cba24455814fb31",
+        "mtimeUtc": "2026-10-01T03:47:48.814Z",
+        "mtimeToronto": "Wednesday, September 30, 2026 at 11:47:48 p.m. EDT",
+        "birthtimeUtc": "2026-10-01T03:47:48.814Z",
+        "ctimeUtc": "2026-10-01T03:47:48.814Z"
+      },
+      "decodedRows": 201,
+      "savedRows": 201,
+      "orderedSemanticEquality": true,
+      "decodedCanonicalSha256": "9c51d0cd68977ff7e4d35c3831ed7aebe9897bbc9b62a45c314fc5a9bf8b958b",
+      "savedCanonicalSha256": "9c51d0cd68977ff7e4d35c3831ed7aebe9897bbc9b62a45c314fc5a9bf8b958b",
+      "targets": [
+        {
+          "text": "310认证成功",
+          "rawUtf8ByteOffset": 1939,
+          "decodedMatches": [
+            {
+              "time": 144.551,
+              "textContent": "310认证成功",
+              "index": 17
+            }
+          ],
+          "savedMatches": [
+            {
+              "time": 144.551,
+              "textContent": "310认证成功",
+              "index": 17
+            }
+          ]
+        },
+        {
+          "text": "3.10工程",
+          "rawUtf8ByteOffset": 807,
+          "decodedMatches": [
+            {
+              "time": 145.462,
+              "textContent": "3.10工程",
+              "index": 7
+            }
+          ],
+          "savedMatches": [
+            {
+              "time": 145.462,
+              "textContent": "3.10工程",
+              "index": 7
+            }
+          ]
+        },
+        {
+          "text": "感谢310工程",
+          "rawUtf8ByteOffset": -1,
+          "decodedMatches": [],
+          "savedMatches": []
+        }
+      ]
+    },
+    {
+      "segment": 2,
+      "rawFile": {
+        "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/danmaku-2.bin",
+        "bytes": 10047,
+        "sha256": "d758eb45706e5ce1a15f79d60ca66738d1b59b86eeec8c56dee9719454de4021",
+        "mtimeUtc": "2026-10-01T03:47:49.265Z",
+        "mtimeToronto": "Wednesday, September 30, 2026 at 11:47:49 p.m. EDT",
+        "birthtimeUtc": "2026-10-01T03:47:49.265Z",
+        "ctimeUtc": "2026-10-01T03:47:49.265Z"
+      },
+      "savedJsonFile": {
+        "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/danmaku-2.json",
+        "bytes": 6405,
+        "sha256": "ab7839b08ccf13b3f3ce6fb0b4d7b926385f1029ff4955ca01a074e465748634",
+        "mtimeUtc": "2026-10-01T03:47:49.267Z",
+        "mtimeToronto": "Wednesday, September 30, 2026 at 11:47:49 p.m. EDT",
+        "birthtimeUtc": "2026-10-01T03:47:49.266Z",
+        "ctimeUtc": "2026-10-01T03:47:49.267Z"
+      },
+      "decodedRows": 84,
+      "savedRows": 84,
+      "orderedSemanticEquality": true,
+      "decodedCanonicalSha256": "1143553610c0aa801a8d948843c4cb5e11aa960956d3f8d4fdf4e68a315f8407",
+      "savedCanonicalSha256": "1143553610c0aa801a8d948843c4cb5e11aa960956d3f8d4fdf4e68a315f8407",
+      "targets": [
+        {
+          "text": "310认证成功",
+          "rawUtf8ByteOffset": -1,
+          "decodedMatches": [],
+          "savedMatches": []
+        },
+        {
+          "text": "3.10工程",
+          "rawUtf8ByteOffset": -1,
+          "decodedMatches": [],
+          "savedMatches": []
+        },
+        {
+          "text": "感谢310工程",
+          "rawUtf8ByteOffset": -1,
+          "decodedMatches": [],
+          "savedMatches": []
+        }
+      ]
+    }
+  ],
+  "combined": {
+    "file": {
+      "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/danmaku-all.json",
+      "bytes": 21828,
+      "sha256": "6250587606ec8e1c9dc3fe52f8adc59e969ed2322462f5789e69f0ce8f7a63ab",
+      "mtimeUtc": "2026-10-01T03:48:00.665Z",
+      "mtimeToronto": "Wednesday, September 30, 2026 at 11:48:00 p.m. EDT",
+      "birthtimeUtc": "2026-10-01T03:48:00.665Z",
+      "ctimeUtc": "2026-10-01T03:48:00.665Z"
+    },
+    "decodedCount": 285,
+    "savedCount": 285,
+    "orderedEqualityAfterProductionTimeSort": true,
+    "multisetEquality": true,
+    "decodedSortedCanonicalSha256": "b21dfb70edea4c5c34929f2b7b5dcacdc7746fa9eb03345e5f8e8e42a053c631",
+    "savedCanonicalSha256": "b21dfb70edea4c5c34929f2b7b5dcacdc7746fa9eb03345e5f8e8e42a053c631",
+    "targets": [
+      {
+        "text": "310认证成功",
+        "decodedMatches": [
+          {
+            "time": 144.551,
+            "textContent": "310认证成功"
+          }
+        ],
+        "savedMatches": [
+          {
+            "time": 144.551,
+            "textContent": "310认证成功"
+          }
+        ]
+      },
+      {
+        "text": "3.10工程",
+        "decodedMatches": [
+          {
+            "time": 145.462,
+            "textContent": "3.10工程"
+          }
+        ],
+        "savedMatches": [
+          {
+            "time": 145.462,
+            "textContent": "3.10工程"
+          }
+        ]
+      },
+      {
+        "text": "感谢310工程",
+        "decodedMatches": [],
+        "savedMatches": []
+      }
+    ]
+  },
+  "oldSummary": {
+    "file": {
+      "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/summary.json",
+      "bytes": 1613,
+      "sha256": "45b8425e256b114c1b9950e0b064d73256b8912463056dc1eb9a64ee97e48f8d",
+      "mtimeUtc": "2026-10-01T03:48:20.254Z",
+      "mtimeToronto": "Wednesday, September 30, 2026 at 11:48:20 p.m. EDT",
+      "birthtimeUtc": "2026-10-01T03:48:20.254Z",
+      "ctimeUtc": "2026-10-01T03:48:20.254Z"
+    },
+    "reportedDanmakuCount": 285,
+    "explicitAdOrTimestampMentions": [],
+    "accessClaim": "Unauthenticated public fetch, no cookies or tokens"
+  },
+  "devSummary": {
+    "file": {
+      "path": "/private/tmp/bilismartskip-BV1Kra36oEr3-wOBPPP/dev-danmaku-summary.json",
+      "bytes": 184,
+      "sha256": "e9c0c4089df6bebf37fdd82a80c4626082c0ec01598c6eb2d3f028b7939b5479",
+      "mtimeUtc": "2026-10-01T03:59:22.386Z",
+      "mtimeToronto": "Wednesday, September 30, 2026 at 11:59:22 p.m. EDT",
+      "birthtimeUtc": "2026-10-01T03:59:22.386Z",
+      "ctimeUtc": "2026-10-01T03:59:22.386Z"
+    },
+    "count": 675,
+    "timeCues": [
+      {
+        "time": 144.551,
+        "textContent": "310认证成功"
+      },
+      {
+        "time": 145.462,
+        "textContent": "3.10工程"
+      },
+      {
+        "time": 193.538,
+        "textContent": "感谢310工程"
+      }
+    ],
+    "detected": null
+  },
+  "conclusions": [
+    {
+      "confidence": "verified-current-files",
+      "statement": "目前保存的第一段原始protobuf二进制中确实含有144.551秒的310认证成功和145.462秒的3.10工程；不是仅由登录后675条摘要才首次出现。"
+    },
+    {
+      "confidence": "verified-current-files",
+      "statement": "两段原始bin用实际生产decoder重解，与各自保存JSON逐条一致；合并按时间排序后与285条danmaku-all.json逐条一致。"
+    },
+    {
+      "confidence": "verified-current-files",
+      "statement": "summary.json仍保存explicitAdOrTimestampMentions为空数组，这个摘要与当前原始bin和分段JSON中上述文字直接矛盾。"
+    },
+    {
+      "confidence": "unproven-cause",
+      "statement": "摘要生成时的筛选脚本/正则未在本次检查中取得；格式过滤遗漏是可能解释，不能断言具体实现或修改者。"
+    },
+    {
+      "confidence": "historical-limitation",
+      "statement": "文件mtime及内部一致性支持这些文件属于同批保存资料，但不是不可篡改的历史证明。结论仅针对当前保存文件，不推断是谁改动过，也不声称证明当时运行全流程的每一步。"
+    },
+    {
+      "confidence": "scope-limit",
+      "statement": "285条匿名样本仍不能代表登录后的675条完整返回；数量差异与上述两条其实已存在可以同时成立。"
+    }
+  ]
+}

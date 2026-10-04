@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1ow4m1S7en",
+    "cid": 1548629472,
+    "duration": 814,
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕英国伊丽莎白女王级航母的出售可能性，分析F35B限制、采购阵营、交付、体系兼容、舰艇故障及英国海军财政。中间从没营养的话题转为海力生蛋白粉长段推广；其他军售和价格讨论属正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 201.49,
+        "end": 323.9,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "用没营养的话题与有营养产品作完整插播铺垫，随后以蛋白不足和长辈饮食故事制造需求，介绍海力生蛋白粉含量、吸收、历史、礼盒与优惠，直到好身体不亏结束。",
+        "evidence": [
+          {
+            "from": 201.49,
+            "to": 205.89,
+            "text": "当然在进行这个没啥营养的话题前 我想给大家推荐一款有营养的产品"
+          },
+          {
+            "from": 316.04,
+            "to": 323.9,
+            "text": "现在在评论区领券 还能叠加我的专属满减 真的很划算 每天早上来一杯换健康 好身体绝对不亏好"
+          },
+          {
+            "from": 323.9,
+            "to": 329.54,
+            "text": "回到刚才的话题 如果现在真的出现了一个冤大头 他要买伊丽莎白女王级航母"
+          }
+        ],
+        "startUncertainty": [
+          201.49,
+          201.49
+        ],
+        "endUncertainty": [
+          323.9,
+          323.9
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.48,
+        "end": 201.49,
+        "reason": "航母新闻引子、英国舰队现状与出售问题。"
+      },
+      {
+        "start": 323.9,
+        "end": 808.16,
+        "reason": "恢复航母出售的技术、采购、维护与财政分析及结尾。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "推广段有多处漏字幕间隙，品牌首次完整口播可能位于间隙；根据前后连续语义把完整蛋白粉推介作为一段，不按缺失片段拆短。"
+    ]
+  }
+}

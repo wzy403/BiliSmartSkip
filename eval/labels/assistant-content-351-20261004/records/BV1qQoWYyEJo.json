@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1qQoWYyEJo",
+    "cid": 29055845167,
+    "duration": 561,
+    "fullTranscriptRead": true,
+    "videoSummary": "以往开水里尿尿的夸张问题演示液体飞溅和逆流，介绍实验装置、马黛茶与胡须颗粒、马兰戈尼效应，结尾是实验道具玩笑；中段插入追觅S50pro扫地机器人推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 152.71,
+        "end": 205.67,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从开水烫脚受不了、换思路杀菌的押韵转折开始，完整转入追觅扫地机器人高温洗拖布、保温、越障、识别物体等功能，直到把实验善后交给它的背书结束。后续恢复开水飞溅实验问题。",
+        "evidence": [
+          {
+            "from": 152.71,
+            "to": 160.02,
+            "text": "开水烫脚 你受不了 换个思路 开水也能杀菌呢 追命就把它运用在了S50pro扫地机器人当中"
+          },
+          {
+            "from": 200.59,
+            "to": 205.67,
+            "text": "现在他就是我的实验搭子了 善后打扫我可以完全放心交给他"
+          },
+          {
+            "from": 205.67,
+            "to": 210.53,
+            "text": "有的同学可能会说 开水飞溅厉害 那么不要站那么高不就行了"
+          }
+        ],
+        "startUncertainty": [
+          152.71,
+          154.35
+        ],
+        "endUncertainty": [
+          205.67,
+          205.67
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.089,
+        "end": 152.71,
+        "reason": "问题引子、飞溅实验及结果分析。"
+      },
+      {
+        "start": 205.67,
+        "end": 560.7,
+        "reason": "恢复逆流实验和表面张力原理，片尾发福利、电饭煲马桶是实验道具玩笑，没有独立商品推介。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

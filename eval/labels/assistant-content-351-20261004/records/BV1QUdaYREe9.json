@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1QUdaYREe9",
+    "cid": 29375138404,
+    "duration": 277,
+    "fullTranscriptRead": true,
+    "videoSummary": "吐槽短视频名媛贵族及白手起家人设的模板化故事，并揭露电商招学员套路；中间插入旅行规划应用推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 108.2,
+        "end": 166.04,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从公主随意旅游转到普通人做攻略的痛点，演示旅行应用的AI行程、共享和记账并推荐下载使用；以“好我们回来”回归人设吐槽。正文中引述致富广告是批评对象。",
+        "evidence": [
+          {
+            "to": 1.32,
+            "text": "曾经背叛我的前男友",
+            "from": 0
+          },
+          {
+            "to": 122.56,
+            "text": "用了这款购旅机app",
+            "from": 120.9
+          },
+          {
+            "to": 166.92,
+            "text": "好我们回来",
+            "from": 166.04
+          }
+        ],
+        "startUncertainty": [
+          108.2,
+          108.2
+        ],
+        "endUncertainty": [
+          166.04,
+          166.04
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 108.2,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 166.04,
+        "end": 276.9,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

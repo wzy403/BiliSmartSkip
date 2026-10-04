@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Q7jdzKEFM",
+    "cid": 30180379679,
+    "duration": 959,
+    "fullTranscriptRead": true,
+    "videoSummary": "两人在北京二环体验79元牛肋条自助，持续烤肉、试小菜甜品和闲聊；借现烤口感插入水一方鱿鱼粒推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 125.17,
+        "end": 191,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从现烤联想到过去吃的鱿鱼头开始铺垫，完整推出水一方新品、口味、配料与场景，领券下单推荐结束后回到第二盘牛肋条。后续油烟机招广告的玩笑无实际品牌推销。",
+        "evidence": [
+          {
+            "to": 2.62,
+            "text": "挑战北京二环79元烤牛肋条自助",
+            "from": 0
+          },
+          {
+            "to": 141.02,
+            "text": "最近这个大连特色新上了这个水一方鱿鱼粒",
+            "from": 137.77
+          },
+          {
+            "to": 192.16,
+            "text": "第二盘已经下了啊",
+            "from": 191
+          }
+        ],
+        "startUncertainty": [
+          125.17,
+          125.17
+        ],
+        "endUncertainty": [
+          191,
+          191
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 125.17,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 191,
+        "end": 955.28,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

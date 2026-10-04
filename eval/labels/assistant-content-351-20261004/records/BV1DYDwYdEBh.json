@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1DYDwYdEBh",
+    "cid": 26573866343,
+    "duration": 884,
+    "fullTranscriptRead": true,
+    "videoSummary": "以调侃口吻解说利雅得胜利与新月1:1比赛，回顾进球犯规和球员发挥，结尾配乐抒情；中间插入神奇小鹿冬被促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 307.49,
+        "end": 384.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从球员躺地上和地凉需要盖被铺垫，展开暖绒被价格、保暖材料、规格、评论区优惠与售后，结束后恢复球场解说；独立可移除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          307.49,
+          307.49
+        ],
+        "endUncertainty": [
+          384.06,
+          384.06
+        ],
+        "evidence": [
+          {
+            "from": 8.21,
+            "to": 12.61,
+            "text": "第九轮阿先生主场对阵利亚德新月"
+          },
+          {
+            "from": 307.49,
+            "to": 309.83,
+            "text": "嗯嗯诶怎么躺地上了"
+          },
+          {
+            "from": 310.93,
+            "to": 314.69,
+            "text": "神奇小鹿的泡芙暖绒被板盖着和羽毛似的"
+          },
+          {
+            "from": 374.02,
+            "to": 376.08,
+            "text": "评论区领取我的专属优惠"
+          },
+          {
+            "from": 380.54,
+            "to": 383.22,
+            "text": "喜欢的兄弟买回去试试体验一下"
+          },
+          {
+            "from": 384.97,
+            "to": 387.49,
+            "text": "扼住了阿先生的咽喉啊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 307.49,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 384.06,
+        "end": 880.54,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1bHXjBoE1h",
+    "cid": 37051498541,
+    "duration": 1094,
+    "fullTranscriptRead": true,
+    "videoSummary": "分析罗技争议广告和声优段子语境差别，推演雷蛇应对策略；中插神气小鹿枕头。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 320.56,
+        "end": 449.63,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "独立重新问好后明确推广位，完整包含样品闲谈、双面枕性能和优惠售后，234回雷蛇公关问题。",
+        "evidence": [
+          {
+            "from": 0.12,
+            "to": 4.08,
+            "text": "最近看得出来这个逻辑对营销还是比较有独到的见解啊"
+          },
+          {
+            "from": 323.48,
+            "to": 326.26,
+            "text": "本期的推广位呢是我的振涛啊"
+          },
+          {
+            "from": 371.17,
+            "to": 374.09,
+            "text": "那像我平时呢这个睡前会看新闻啦"
+          },
+          {
+            "from": 445.6,
+            "to": 447.91,
+            "text": "评论区可以呃领券带回去试一试"
+          },
+          {
+            "from": 449.63,
+            "to": 451.31,
+            "text": "其实各位可以好好想一下"
+          }
+        ],
+        "startUncertainty": [
+          320.56,
+          320.56
+        ],
+        "endUncertainty": [
+          449.63,
+          449.63
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 320.56,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 449.63,
+        "end": 1092.86,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "罗技广告引用及假设雷蛇文案均为公关分析材料，不视为本片推销。"
+    ]
+  }
+}

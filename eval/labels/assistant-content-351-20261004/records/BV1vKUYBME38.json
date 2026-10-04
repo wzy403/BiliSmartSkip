@@ -1,0 +1,60 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vKUYBME38",
+    "cid": 34264648507,
+    "duration": 707,
+    "fullTranscriptRead": true,
+    "videoSummary": "学问猫历史动画讲商汤识伊尹、网开一面以及被夏桀囚禁的故事，前后附主题歌。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 4.3,
+        "end": 700.0,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 4.3,
+            "to": 7.88,
+            "text": "书不光是用来念的"
+          },
+          {
+            "from": 344.58,
+            "to": 346.76,
+            "text": "以后还会再有鸟吗"
+          },
+          {
+            "from": 698.239,
+            "to": 700.0,
+            "text": "中华成巨龙"
+          }
+        ],
+        "startUncertainty": [
+          4.3,
+          4.3
+        ],
+        "endUncertainty": [
+          700.0,
+          700.0
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 4.3,
+        "end": 700.0,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

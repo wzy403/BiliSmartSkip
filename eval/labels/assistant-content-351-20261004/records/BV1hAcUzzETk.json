@@ -1,0 +1,198 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1hAcUzzETk",
+    "cid": 36664446148,
+    "duration": 699,
+    "fullTranscriptRead": true,
+    "videoSummary": "实地探访宁波舟山港桥吊、引航员、船底清洗和智能运输，中插方太洗碗机合作宣传。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 20.89,
+        "end": 23.23,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "简短合作声明紧接探访介绍，保留。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 1.72,
+            "text": "我们只有2分钟的时间来拍这个镜头"
+          },
+          {
+            "from": 20.89,
+            "to": 23.23,
+            "text": "那这一次我们和智慧厨房专家方太一拍即合"
+          },
+          {
+            "from": 23.23,
+            "to": 24.75,
+            "text": "我们将和你一起深入这里"
+          }
+        ],
+        "startUncertainty": [
+          20.89,
+          20.89
+        ],
+        "endUncertainty": [
+          23.23,
+          23.23
+        ]
+      },
+      {
+        "start": 463.02,
+        "end": 492.49,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "船底空化清洗原理说完后转家用洗碗机，完整讲方太系统及餐盘测试，229回夜间港口。",
+        "evidence": [
+          {
+            "from": 456.37,
+            "to": 458.35,
+            "text": "那面对藤壶这类顽固污渍"
+          },
+          {
+            "from": 463.02,
+            "to": 465.98,
+            "text": "那正好方太从这种清洁技术中找到了灵感"
+          },
+          {
+            "from": 478.08,
+            "to": 480.84,
+            "text": "冲击力比传统水洗提高了27%"
+          },
+          {
+            "from": 488.68,
+            "to": 492.49,
+            "text": "方太V18max洗碗机都能够轻松搞定"
+          },
+          {
+            "from": 492.65,
+            "to": 494.29,
+            "text": "那看完了白天的港口"
+          }
+        ],
+        "startUncertainty": [
+          463.02,
+          463.02
+        ],
+        "endUncertainty": [
+          492.49,
+          492.65
+        ]
+      },
+      {
+        "start": 645.38,
+        "end": 648.64,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "两句赞助致谢，与港口拍摄致谢相邻，保留。",
+        "evidence": [
+          {
+            "from": 626.589,
+            "to": 628.469,
+            "text": "整个商业世界"
+          },
+          {
+            "from": 645.38,
+            "to": 647.38,
+            "text": "那最后非常感谢方太对我们"
+          },
+          {
+            "from": 647.38,
+            "to": 648.64,
+            "text": "本次节目的大力支持"
+          },
+          {
+            "from": 648.64,
+            "to": 650.18,
+            "text": "也非常感谢宁波舟山港"
+          }
+        ],
+        "startUncertainty": [
+          628.469,
+          645.38
+        ],
+        "endUncertainty": [
+          648.64,
+          648.64
+        ]
+      },
+      {
+        "start": 656.38,
+        "end": 679.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾独立讲方太品牌增长、V18max功能和推荐购买，307常规结束语。",
+        "evidence": [
+          {
+            "from": 648.64,
+            "to": 650.18,
+            "text": "也非常感谢宁波舟山港"
+          },
+          {
+            "from": 656.38,
+            "to": 658.7,
+            "text": "方太作为同在宁波的全球头部符号"
+          },
+          {
+            "from": 668.8,
+            "to": 670.92,
+            "text": "全新方太熊猫洗碗机V18max"
+          },
+          {
+            "from": 677.38,
+            "to": 679.46,
+            "text": "我真的非常推荐你去试一试"
+          },
+          {
+            "from": 679.46,
+            "to": 680.94,
+            "text": "那如果你也喜欢本期节目的话"
+          }
+        ],
+        "startUncertainty": [
+          656.38,
+          656.38
+        ],
+        "endUncertainty": [
+          679.46,
+          679.46
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 463.02,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 492.49,
+        "end": 656.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 679.46,
+        "end": 685.48,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "内裤生产量是集装箱容量的实例，无价格或购买引流，保留正文。"
+    ]
+  }
+}

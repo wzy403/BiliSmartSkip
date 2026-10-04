@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1f2421d7AB",
+    "cid": 25684283301,
+    "duration": 1503,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述432至436年北魏攻燕、刘宋益州叛乱及汉中战事、谢灵运被杀和北燕最终灭亡；谢灵运安逸生活引入小鹿记忆枕推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 824.7,
+        "end": 904.18,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从生活安逸吃好睡好铺垫，完整介绍小鹿记忆枕承托、材质、按摩、送礼、价格及推荐；最后一条混合字幕另列边界不确定。",
+        "evidence": [
+          {
+            "to": 2.28,
+            "text": "上一集我们说到公元431年",
+            "from": 0.08
+          },
+          {
+            "to": 834.989,
+            "text": "小鹿双面承托记忆枕",
+            "from": 833.209
+          },
+          {
+            "to": 907.86,
+            "text": "就被有关部门检举了",
+            "from": 906.2
+          }
+        ],
+        "startUncertainty": [
+          824.7,
+          824.7
+        ],
+        "endUncertainty": [
+          904.18,
+          904.18
+        ]
+      },
+      {
+        "start": 904.18,
+        "end": 906.2,
+        "contentType": "uncertain",
+        "skipDecision": "uncertain",
+        "confidence": "uncertain",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "同一句字幕合并广告末句“不要错过”和历史正文“他的这种懒政行为”，仅凭字幕无法可靠定位内部切点，避免把回正文半句直接跳过。",
+        "evidence": [
+          {
+            "to": 904.18,
+            "text": "诸位谋士",
+            "from": 903.5
+          },
+          {
+            "to": 906.2,
+            "text": "不要错过他的这种懒政行为",
+            "from": 904.18
+          },
+          {
+            "to": 907.86,
+            "text": "就被有关部门检举了",
+            "from": 906.2
+          }
+        ],
+        "startUncertainty": [
+          904.18,
+          904.18
+        ],
+        "endUncertainty": [
+          906.2,
+          906.2
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 824.7,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 906.2,
+        "end": 1502.08,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

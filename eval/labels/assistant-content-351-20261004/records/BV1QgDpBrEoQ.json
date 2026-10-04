@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1QgDpBrEoQ",
+    "cid": 37355261901,
+    "duration": 202,
+    "fullTranscriptRead": true,
+    "videoSummary": "用蓝牙耳机连接、CPU故障和鼠标双击三个客户故事吐槽电脑使用误区；中间以被气得半夜躁动为由推销神奇小鹿凉被。诊断费用和硬件价格为故事细节，CT团购是讽刺，不是医院推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 87.22,
+        "end": 149.02,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从被客户气得半夜躁动的睡眠铺垫开始，连续讲小鹿被子的触感、家人使用、换季价格、双面设计和面料，末尾评论区券和“闭眼冲”，随后回到鼠标案例。",
+        "evidence": [
+          {
+            "from": 87.22,
+            "to": 93.9,
+            "text": "这帮大聪明给我气的半夜都在躁动 直到盖上了神奇小鹿 小兵被才把火气压下来 说实话 我第一每次摸着被子就被惊艳了"
+          },
+          {
+            "from": 143.72,
+            "to": 149.02,
+            "text": "现在评论区领券入手 抄底价有三个颜色 两种尺寸选质保 售后靠谱 闭眼冲"
+          },
+          {
+            "from": 149.02,
+            "to": 158.56,
+            "text": "还有这哥们的鼠标最近老是双击 他自己跟人判断 很有可能是系统有病毒导致的 因为这个双击触发条件是时有时无的 我说应该不是系统的问题 是你鼠标微动坏了"
+          }
+        ],
+        "startUncertainty": [
+          86.46,
+          87.22
+        ],
+        "endUncertainty": [
+          149.02,
+          149.02
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 87.22,
+        "reason": "蓝牙单向连接误解与CPU诊断争执；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 149.02,
+        "end": 197.36,
+        "reason": "鼠标微动故障争论及结语；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

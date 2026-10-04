@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1EE4m1R7TZ",
+    "cid": 1605299477,
+    "duration": 632,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲英国咸牛肉、罐头工艺、富兰克林探险、帕勒索普及弗莱本托斯品牌的军需兴衰。历史中的商标、订单和价格均为史事叙述；中间另有明确美团神会员促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 183.04,
+        "end": 231.76,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以说到这里等我一下打断罐头史，连续宣传神券、咖啡和酒店优惠至搜索口令及评论区购买链接，235.22才恢复罐头史。",
+        "evidence": [
+          {
+            "from": 183.04,
+            "to": 187.98,
+            "text": "说到这里 等我一下 现在上美团 花两元就能抢到六张五元无门槛神券"
+          },
+          {
+            "from": 224.72,
+            "to": 231.76,
+            "text": "现在上美团搜索专属口令 神会员008 或者赶紧戳评论区链接 来美团购买神会员一起省钱吧"
+          },
+          {
+            "from": 235.22,
+            "to": 247.74,
+            "text": "通常来讲我们常见的罐头品种左不过鱼肉 水果三大类别 但唯独英国偏就旁逸斜出了 开发出了一个格色的品种 并深刻影响了西方的罐头产业 那就是香肠罐头"
+          }
+        ],
+        "startUncertainty": [
+          183.04,
+          183.04
+        ],
+        "endUncertainty": [
+          231.76,
+          235.22
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 183.04,
+        "reason": "英国罐头发明、军需及探险史正文。"
+      },
+      {
+        "start": 235.22,
+        "end": 621.96,
+        "reason": "香肠与牛肉罐头企业历史、军需和食品安全事件，不是商品导购。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面；边界在无字幕过场内的具体切点未知。",
+      "正文范围仅覆盖实际字幕，不推断无字幕间隙。"
+    ]
+  }
+}

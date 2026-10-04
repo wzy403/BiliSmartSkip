@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1JLDoYoE6m",
+    "cid": 26697730465,
+    "duration": 164,
+    "fullTranscriptRead": true,
+    "videoSummary": "吐槽电脑求助者的硬件误解、散热和沟通问题，后半独立介绍贝锐蒲公英双11路由器及异地组网方案。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 66.96,
+        "end": 155.88,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从双11购买需求与秒杀时间开始铺垫，明确广告主后介绍X1、X5 Pro、穿透转发和网络方案，直到联系作者向厂家要折扣结束；余下是告别。",
+        "evidence": [
+          {
+            "to": 3.62,
+            "text": "你懂电脑这个系列台上今第一位重量级",
+            "from": 0.72
+          },
+          {
+            "to": 80.5,
+            "text": "孜孜不倦的催更专业户贝瑞蒲公英了",
+            "from": 77.82
+          },
+          {
+            "to": 156.2,
+            "text": "哈哈喽",
+            "from": 155.88
+          }
+        ],
+        "startUncertainty": [
+          66.96,
+          66.96
+        ],
+        "endUncertainty": [
+          155.88,
+          155.88
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 66.96,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 155.88,
+        "end": 162.1,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

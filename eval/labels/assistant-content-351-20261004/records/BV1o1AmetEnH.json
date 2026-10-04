@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1o1AmetEnH",
+    "cid": 28538636880,
+    "duration": 963,
+    "fullTranscriptRead": true,
+    "videoSummary": "通过两个程序交替执行的例子讲进程、CPU状态保存恢复、上下文切换和进程控制块，最后提及Linux任务结构与多核；开场及中段Brilliant赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0.08,
+        "end": 1.48,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "开场仅一句赞助披露，简短且有透明度价值，保留。",
+        "evidence": [
+          {
+            "to": 1.48,
+            "text": "这个视频由Brilliant赞助",
+            "from": 0.08
+          },
+          {
+            "to": 1.48,
+            "text": "这个视频由Brilliant赞助",
+            "from": 0.08
+          },
+          {
+            "to": 6.07,
+            "text": "在前一集中我们讨论了并发",
+            "from": 3.4
+          }
+        ],
+        "startUncertainty": [
+          0.08,
+          0.08
+        ],
+        "endUncertainty": [
+          1.48,
+          3.4
+        ]
+      },
+      {
+        "start": 449.35,
+        "end": 511.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确在答案揭晓前插播赞助，从传统学习乏味的痛点到Brilliant互动课程、免费试用、优惠及专属链接，最后说回到视频；随后恢复上下文切换讲解。",
+        "evidence": [
+          {
+            "to": 6.07,
+            "text": "在前一集中我们讨论了并发",
+            "from": 3.4
+          },
+          {
+            "to": 466.72,
+            "text": "Brilliant旨在提供你可以参与的小课程",
+            "from": 463.52
+          },
+          {
+            "to": 519.4,
+            "text": "它免费提供，以确保安全和避免冲突",
+            "from": 515.46
+          }
+        ],
+        "startUncertainty": [
+          449.35,
+          449.35
+        ],
+        "endUncertainty": [
+          511.94,
+          513.06
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 449.35,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 511.94,
+        "end": 962.86,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

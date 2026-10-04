@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1q2qMBCEwz",
+    "cid": 35238251845,
+    "duration": 612,
+    "fullTranscriptRead": true,
+    "videoSummary": "叙述英国在澳大利亚核试验对原住民造成的伤害及后续补偿，插入肩颈按摩仪推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 184.18,
+        "end": 249.53,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "直接邀请边按摩边听进入独立产品介绍，包含功能、使用场景和领券送礼推荐，至恢复1956年叙事。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.22,
+            "text": "那不是太阳"
+          },
+          {
+            "from": 184.18,
+            "to": 186.58,
+            "text": "那么接下来的内容有肌肉酸痛的小伙伴"
+          },
+          {
+            "from": 187.42,
+            "to": 189.62,
+            "text": "用妙姐家的R9柔锤肩颈按摩仪"
+          },
+          {
+            "from": 239.88,
+            "to": 242.18,
+            "text": "那感兴趣的话可以直接点击我评论区链接"
+          },
+          {
+            "from": 249.53,
+            "to": 251.53,
+            "text": "1956年9月27日"
+          }
+        ],
+        "startUncertainty": [
+          178.06,
+          184.18
+        ],
+        "endUncertainty": [
+          249.53,
+          249.53
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 184.18,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 249.53,
+        "end": 611.54,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV15GyYB8ESg",
+    "cid": 33532150348,
+    "duration": 382,
+    "fullTranscriptRead": true,
+    "videoSummary": "祖孙网购并安装光伏发电设备，测试功率并核算回本；购物剧情植入夸克AI，另有独立语音选购演示。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 31.259,
+        "end": 56.51,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从担心买贵到问夸克AI并决定第四款，品牌植入与选购光伏的剧情因果混在一起，保留以免丢失购买过程。",
+        "evidence": [
+          {
+            "to": 2.34,
+            "text": "塔吉说想在房顶装个太阳能板",
+            "from": 0.08
+          },
+          {
+            "to": 37.279,
+            "text": "问问夸克AI哪个好",
+            "from": 35.899
+          },
+          {
+            "to": 58.55,
+            "text": "阿杰买好了",
+            "from": 57.55
+          }
+        ],
+        "startUncertainty": [
+          31.259,
+          31.259
+        ],
+        "endUncertainty": [
+          56.51,
+          57.55
+        ]
+      },
+      {
+        "start": 118.35,
+        "end": 166.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从以后购物先问AI的推荐起，完整转入语音助手和抽油烟机选购避坑演示，玩笑收尾后恢复光伏回本与安装正文。",
+        "evidence": [
+          {
+            "to": 2.34,
+            "text": "塔吉说想在房顶装个太阳能板",
+            "from": 0.08
+          },
+          {
+            "to": 131.02,
+            "text": "你打开夸克输入或者直接语音问就行了",
+            "from": 127.38
+          },
+          {
+            "to": 170.3,
+            "text": "哦这套东西啊用到报废都不知道能不能回本哦",
+            "from": 166.38
+          }
+        ],
+        "startUncertainty": [
+          118.35,
+          118.35
+        ],
+        "endUncertainty": [
+          166.38,
+          166.38
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 118.35,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 166.38,
+        "end": 375.6,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

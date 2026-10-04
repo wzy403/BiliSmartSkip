@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1oewVzWEia",
+    "cid": 36731291895,
+    "duration": 1252,
+    "fullTranscriptRead": true,
+    "videoSummary": "以时事评论和戏谑口吻讲述美伊冲突、伊朗去中心化防御、石油与和谈局势，中间推广神奇小鹿护颈枕。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 428.72,
+        "end": 496.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由战略方向转成普通人躺着的铺垫，完整介绍夜猫护颈枕价格、功能、面料与优惠售后，直到送礼推荐后回到战争评论。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          428.72,
+          428.72
+        ],
+        "endUncertainty": [
+          496.24,
+          496.24
+        ],
+        "evidence": [
+          {
+            "from": 0.56,
+            "to": 3.04,
+            "text": "咱们今天讲讲美国和伊朗这边的情况啊"
+          },
+          {
+            "from": 428.72,
+            "to": 430.18,
+            "text": "对于咱们普通人来说"
+          },
+          {
+            "from": 434.44,
+            "to": 436.54,
+            "text": "夜猫护颈枕pro闪亮登场"
+          },
+          {
+            "from": 486.94,
+            "to": 487.92,
+            "text": "评论区上方"
+          },
+          {
+            "from": 494.14,
+            "to": 496.24,
+            "text": "送礼也漂亮"
+          },
+          {
+            "from": 497.25,
+            "to": 498.79,
+            "text": "好了我们再回到正题"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 428.72,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 496.24,
+        "end": 1251.52,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

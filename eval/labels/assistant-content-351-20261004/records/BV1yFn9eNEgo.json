@@ -1,0 +1,31 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1yFn9eNEgo",
+    "cid": 25664356748,
+    "duration": 244,
+    "fullTranscriptRead": true,
+    "videoSummary": "歌手自我介绍、介绍合奏成员和现场演唱，结尾感谢；字幕未见独立商业口播。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [],
+    "normalSpeechRanges": [
+      {
+        "start": 8.86,
+        "end": 59.309,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 226.68,
+        "end": 238.36,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "大量字幕仅为音乐占位，演唱中的画面信息未核验。"
+    ]
+  }
+}

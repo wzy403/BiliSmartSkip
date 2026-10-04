@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1sUjEznENn",
+    "cid": 30104225400,
+    "duration": 522,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍肠道供氧、纸张割伤、鼓掌声学、撤稿案例与奥利奥流变学等趣味科研，夹入薇姿洗发水推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 357.04,
+        "end": 394.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从男性虽无子宫肌瘤却受头油困扰的过渡开始，转入头屑痛点、薇姿配方和新品功效，直到使用频率与形象推荐结束；之后回到奥利奥科研。",
+        "evidence": [
+          {
+            "to": 1.72,
+            "text": "别以为科学家很厉害",
+            "from": 0.08
+          },
+          {
+            "to": 369.86,
+            "text": "我推荐薇姿绿标洗发水",
+            "from": 367.82
+          },
+          {
+            "to": 400.22,
+            "text": "你肯定吃过奥利奥",
+            "from": 397.94
+          }
+        ],
+        "startUncertainty": [
+          357.04,
+          357.04
+        ],
+        "endUncertainty": [
+          394.94,
+          397.94
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 357.04,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 394.94,
+        "end": 520.559,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

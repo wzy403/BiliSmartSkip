@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1QLj9zfEFL",
+    "cid": 30176971557,
+    "duration": 491,
+    "fullTranscriptRead": true,
+    "videoSummary": "日本酒店早餐自助体验，对比各国早餐、试吃纳豆和主食；中途从夜班疲劳转入飞利浦肩颈按摩器推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 201.58,
+        "end": 289.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以吃早饭舒服及夜班疲劳铺垫，完整介绍飞利浦按摩器功能、送礼场景、618价格和评论区链接，随后回到日本早餐。",
+        "evidence": [
+          {
+            "to": 1.28,
+            "text": "Hello dear viewers! Welcome to Ping Ping's Adventure!",
+            "from": 0
+          },
+          {
+            "to": 210,
+            "text": "My latest addition, the Philips neck and shoulder massager!",
+            "from": 207.62
+          },
+          {
+            "to": 293.33,
+            "text": "Look at the Japanese eating this stuff",
+            "from": 291.89
+          }
+        ],
+        "startUncertainty": [
+          201.58,
+          201.58
+        ],
+        "endUncertainty": [
+          289.94,
+          291.89
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 201.58,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 289.94,
+        "end": 490.18,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1LQwaeLEvr",
+    "cid": 27999012942,
+    "duration": 386,
+    "fullTranscriptRead": true,
+    "videoSummary": "分析大寒偏暖干燥后全国寒潮的路径、强度和四个潜在降雪中心及春运影响；温湿差转场处插入男士洗护套装推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 57.7,
+        "end": 130.199,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从春节出游温差、熬夜聚餐导致油干皮肤铺垫，连续推荐洁面乳、沐浴露、洗发水套装优惠及售后，至寒潮位置问题恢复正文，独立可跳。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          57.7,
+          57.7
+        ],
+        "endUncertainty": [
+          130.199,
+          130.199
+        ],
+        "evidence": [
+          {
+            "from": 1.64,
+            "to": 4.34,
+            "text": "我们刚刚度过了这几年最暖的大寒节气"
+          },
+          {
+            "from": 57.7,
+            "to": 59.44,
+            "text": "春节回家和出游跨越大温差"
+          },
+          {
+            "from": 67,
+            "to": 68.14,
+            "text": "新入园男士洁面乳"
+          },
+          {
+            "from": 120.18,
+            "to": 121.76,
+            "text": "现在置顶领大额优惠券"
+          },
+          {
+            "from": 129.3,
+            "to": 130.199,
+            "text": "千万不要错过了"
+          },
+          {
+            "from": 130.199,
+            "to": 132.359,
+            "text": "那么1月21日寒潮在哪里"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 57.7,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 130.199,
+        "end": 377.26,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1vpxkzZEeQ",
+    "cid": 32939511456,
+    "duration": 874,
+    "fullTranscriptRead": true,
+    "videoSummary": "讨论图形界面与AI交互的变化，回顾GUI历史并用PostHog、Cursor、浏览器、Todoist、自动驾驶和作者自己的工具演示三个阶段，讨论生成界面对设计的影响；中间有明确Bolt赞助应用搭建演示。多个商业产品名与购买指令片段是被分析/批评的UI例子，不能当成一连串广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 534.55,
+        "end": 600.17,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从某些产品新颖有魔力的转折开始，紧接明确本视频赞助商，展示费用追踪和项目管理应用搭建、收款数据库功能，宣称省时间并引导免费试用和Bolt官网；600.17开始转回Todoist案例。广告整体与主题有关，但赞助展示和官网号召构成可分离的连续插段。",
+        "evidence": [
+          {
+            "from": 534.55,
+            "to": 555.82,
+            "text": "但某些产品使用时 既新颖又充满魔力 本视频赞助商见 我从未找到能追踪财务的应用 正是我想要的 所以我打算用两者一起构建 我可以构建一个具备用户认证的完整费用追踪应用 真实的数据库，仅用两分钟就完成了，这不是模拟版本"
+          },
+          {
+            "from": 579.96,
+            "to": 600.17,
+            "text": "我们都有过开发应用或产品的想法 现在无需说 我该从哪里开始 你可以立即开始构建当 几年前我们曾组建十人团队 现在只需几个月 几分钟就能完成 今天可免费试用 前往bolt官网开始构建真实项目"
+          },
+          {
+            "from": 600.17,
+            "to": 614.16,
+            "text": "看看这个 这是Todoist 是一款流行的待办事项应用 他们正在开发名为Ramble的实验功能 这里有Ramble按钮 点击后 可开始输入自然语言指令 不是给聊天机器人"
+          }
+        ],
+        "startUncertainty": [
+          534.55,
+          538.51
+        ],
+        "endUncertainty": [
+          600.17,
+          600.17
+        ]
+      },
+      {
+        "start": 703.22,
+        "end": 732.78,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "作者提到自己创业产品用于解释熟悉UI如何改造成单按钮交互，随后自然进入生成式UI阶段；没有试用、购买或访问号召，按主题演示保留，不能仅因作者拥有产品就当插播。",
+        "evidence": [
+          {
+            "from": 703.22,
+            "to": 708.38,
+            "text": "我正在开发自己的产品 我的旧创业公司 名为Flask 这是一个视频反馈与协作工具"
+          },
+          {
+            "from": 708.38,
+            "to": 732.78,
+            "text": "但看到这种新类型按钮的潜力 我始终在思考一个问题 这真的很酷 但我仍在为旧式UI开发 这就是我开始实验项目的原因 将所有UI替换为单个按钮 只需分享反馈自由表达 然后苹果 执行所有操作并更新应用 实时生成UI并精准定位"
+          },
+          {
+            "from": 732.78,
+            "to": 746.88,
+            "text": "而在我们看到的新S型技术曲线中 L3级自动驾驶已现雏形 看看这个演示 我们正在询问某事 系统返回给我们 可交互的用户界面"
+          }
+        ],
+        "startUncertainty": [
+          703.22,
+          703.22
+        ],
+        "endUncertainty": [
+          732.78,
+          732.78
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 534.55,
+        "reason": "UI历史、输入输出问题及第一阶段产品例子；产品及购买语句是评论分析素材；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 600.17,
+        "end": 871.54,
+        "reason": "第二三阶段UI案例、作者实验、设计角色与局限及片尾推荐其他视频；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

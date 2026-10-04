@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1YV4y1z7eP",
+    "cid": 1146350620,
+    "duration": 803,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释航空发动机采购、时寿件更换、性能恢复及二手拆解价值，讨论航司节省维护成本的策略；以报废叶片引入自营航空摆件销售。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 498.04,
+        "end": 547.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "发动机报废机制讲完后转入手中叶片摆件的珍贵性、材质、底座设计及其他航空部件商品，明确欢迎选购；“言归正传”后继续时寿件分析，商业段包含商品历史铺垫。",
+        "evidence": [
+          {
+            "to": 3.44,
+            "text": "按照波音2008年公布的飞机目录价格",
+            "from": 0.36
+          },
+          {
+            "to": 520.549,
+            "text": "飞驰航空专门定制的六枚道具",
+            "from": 518.419
+          },
+          {
+            "to": 548.8,
+            "text": "言归正传",
+            "from": 547.48
+          }
+        ],
+        "startUncertainty": [
+          498.04,
+          498.04
+        ],
+        "endUncertainty": [
+          547.48,
+          547.48
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.36,
+        "end": 498.04,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 547.48,
+        "end": 793.96,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

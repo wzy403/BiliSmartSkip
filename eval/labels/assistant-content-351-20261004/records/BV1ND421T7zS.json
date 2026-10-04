@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ND421T7zS",
+    "cid": 1520996407,
+    "duration": 1040,
+    "fullTranscriptRead": true,
+    "videoSummary": "从巴斯德出发系统介绍七种食品灭菌方法、机理和限制，最后介绍赞助商美的电解水集成洗碗机并总结生活科技意义。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 850.829,
+        "end": 981.6,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "技术综述完成后，从成熟度成本比较及想用起来的商业引导起，明确赞助商并完整推介型号、水槽净化、洗碗消毒性能和品牌致谢；此前各技术原理作为主题知识保留，之后科技意义总结保留。",
+        "evidence": [
+          {
+            "to": 1.56,
+            "text": "如果要在科学家中找一位",
+            "from": 0.06
+          },
+          {
+            "to": 885.37,
+            "text": "美的双喜集成洗碗机XH09P中",
+            "from": 882.22
+          },
+          {
+            "to": 983.63,
+            "text": "科技不仅仅是星辰大海",
+            "from": 981.6
+          }
+        ],
+        "startUncertainty": [
+          850.829,
+          850.829
+        ],
+        "endUncertainty": [
+          981.6,
+          981.6
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.06,
+        "end": 850.829,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 981.6,
+        "end": 1023.04,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

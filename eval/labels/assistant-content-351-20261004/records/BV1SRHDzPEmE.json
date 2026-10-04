@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1SRHDzPEmE",
+    "cid": 32284216377,
+    "duration": 927,
+    "fullTranscriptRead": true,
+    "videoSummary": "拆解并比较GTX1080Ti与RTX5090的外观、架构、十款游戏帧率、功耗和八年提升，并批评新卡显存与定价；测试平台中的梵想固态介绍带推广语气。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 298.28,
+        "end": 313.06,
+        "contentType": "uncertain",
+        "skipDecision": "keep",
+        "confidence": "uncertain",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "平台配置说明中对梵想S910Pro单独展开主控、缓存、读速和适用场景，存在推广可能，但未明示赞助或购买引导且承载测试平台信息，保留。两张显卡的长篇优缺点评测属于主题正文。",
+        "evidence": [
+          {
+            "to": 2.28,
+            "text": "这是一张GTX1080ti",
+            "from": 0
+          },
+          {
+            "to": 309.04,
+            "text": "顺序读取能达到1万4",
+            "from": 307.46
+          },
+          {
+            "to": 317.66,
+            "text": "下面正式进入上机实测环节",
+            "from": 315.98
+          }
+        ],
+        "startUncertainty": [
+          298.28,
+          298.28
+        ],
+        "endUncertainty": [
+          313.06,
+          313.06
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 298.28,
+        "reason": "完整读过的显卡评测正文；争议推广区间不计正常语料。"
+      },
+      {
+        "start": 313.06,
+        "end": 926.68,
+        "reason": "完整读过的显卡评测正文；争议推广区间不计正常语料。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

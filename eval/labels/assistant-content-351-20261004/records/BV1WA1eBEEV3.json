@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1WA1eBEEV3",
+    "cid": 33653329863,
+    "duration": 1168,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论印度外资流出、营商环境、周边外交和印美关税争议，中插溪木源男士护肤礼盒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 358.08,
+        "end": 440.379,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从生气爆痘出油的桥段进入常驻金主护肤套装，至航海王联名优惠券、赠品与推荐，246回正题。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 0.52,
+            "text": "同志们"
+          },
+          {
+            "from": 358.08,
+            "to": 360.26,
+            "text": "下一步估计得被气的爆痘出油"
+          },
+          {
+            "from": 363.8,
+            "to": 366.38,
+            "text": "这里就给大家推荐我们的常驻金主"
+          },
+          {
+            "from": 423.22,
+            "to": 426.54,
+            "text": "现在下单还能获得草帽团成员的角色透卡"
+          },
+          {
+            "from": 440.379,
+            "to": 441.439,
+            "text": "我们再回到正题"
+          }
+        ],
+        "startUncertainty": [
+          358.08,
+          358.08
+        ],
+        "endUncertainty": [
+          440.379,
+          440.379
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 358.08,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 440.379,
+        "end": 1167.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

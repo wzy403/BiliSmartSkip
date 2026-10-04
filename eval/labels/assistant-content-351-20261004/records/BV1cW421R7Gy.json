@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1cW421R7Gy",
+    "cid": 1658362856,
+    "duration": 144,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲解川渝秋老虎及南方高温趋势，与2022年比较并解释三大高压作用，中间推荐尊蓝沐浴露。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 41.38,
+        "end": 82.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从热天出汗与后背小疙瘩的需求铺垫开始，接沐浴露功效、香味、容量与优惠券，结束后回到秋老虎成因。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          41.38,
+          41.38
+        ],
+        "endUncertainty": [
+          82.98,
+          82.98
+        ],
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 1.6,
+            "text": "重庆高温43度啊"
+          },
+          {
+            "from": 41.38,
+            "to": 44.08,
+            "text": "这么热的天稍微冻一下就出汗有味了"
+          },
+          {
+            "from": 46.82,
+            "to": 49.12,
+            "text": "这款热销全旺的尊兰微精沐浴露"
+          },
+          {
+            "from": 79.98,
+            "to": 82.98,
+            "text": "评论区领专属优惠券组合购买更划算"
+          },
+          {
+            "from": 82.98,
+            "to": 85.04,
+            "text": "那么为什么今年秋老虎会那么凶猛"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 41.38,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 82.98,
+        "end": 143.2,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

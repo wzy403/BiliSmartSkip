@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1seFHeFE8L",
+    "cid": 28125168470,
+    "duration": 533,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述美国魔鬼洞的洞穴结构、1965年潜水失踪与搜救，插入转转数码产品促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 211.64,
+        "end": 255.6,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "现代手机查地图的对照是换手机广告铺垫；接续完整平台价格、质检、春节活动及下单语，下一句返回探险。",
+        "evidence": [
+          {
+            "from": 0.1,
+            "to": 3.2,
+            "text": "四名好友进入沙漠中的一个水下洞穴探险"
+          },
+          {
+            "from": 211.64,
+            "to": 214.32,
+            "text": "哪像现在用手机在网上一搜就能找到"
+          },
+          {
+            "from": 215.66,
+            "to": 217.82,
+            "text": "这里建议您看看转转新年大促"
+          },
+          {
+            "from": 245.78,
+            "to": 247.22,
+            "text": "现在去转转搜索口令"
+          },
+          {
+            "from": 255.6,
+            "to": 257.39,
+            "text": "我们继续前往魔鬼洞探险"
+          }
+        ],
+        "startUncertainty": [
+          211.64,
+          211.64
+        ],
+        "endUncertainty": [
+          255.6,
+          255.6
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 211.64,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 255.6,
+        "end": 525.28,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

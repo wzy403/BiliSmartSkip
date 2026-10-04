@@ -1,0 +1,188 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1fVySYpEtH",
+    "cid": 26453804472,
+    "duration": 1243,
+    "fullTranscriptRead": true,
+    "videoSummary": "影视飓风与OPPO合作拍摄机场运作、航空爱好者追机、C919交付与雅典空对空伴飞，穿插手机抓拍展示。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0.2,
+        "end": 65.64,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "开场梦幻伴飞引子和OPPO合作说明共同建立拍飞机项目，含关键叙事前提，应保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.2,
+          0.2
+        ],
+        "endUncertainty": [
+          65.64,
+          65.64
+        ],
+        "evidence": [
+          {
+            "from": 1.48,
+            "to": 4.89,
+            "text": "有一天我会在雅典的一架飞机上"
+          },
+          {
+            "from": 7.39,
+            "to": 9.21,
+            "text": "我拿着一台OPPO手机"
+          },
+          {
+            "from": 55.5,
+            "to": 58.22,
+            "text": "正好OPPO对我们的这个想法非常感兴趣"
+          },
+          {
+            "from": 60.14,
+            "to": 65.64,
+            "text": "用oppo find x8pro来捕捉人和钢铁巨兽的故事"
+          },
+          {
+            "from": 101.68,
+            "to": 103.52,
+            "text": "这是一架空客A350客机"
+          }
+        ]
+      },
+      {
+        "start": 383.26,
+        "end": 396.68,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "机场抓拍瞬间与手机快门优先功能一并展示，短促且与本片拍摄过程相连。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          383.26,
+          383.26
+        ],
+        "endUncertainty": [
+          396.68,
+          396.68
+        ],
+        "evidence": [
+          {
+            "from": 383.26,
+            "to": 385.9,
+            "text": "机场的忙碌并不会因为我们的追逐而停下来"
+          },
+          {
+            "from": 388.34,
+            "to": 391.32,
+            "text": "oppo find x8pro识别到大幅度高速运动时"
+          },
+          {
+            "from": 393.18,
+            "to": 396.68,
+            "text": "让我以最为迅猛的方式抓住了这一瞬间"
+          },
+          {
+            "from": 406.76,
+            "to": 408.84,
+            "text": "这并不是我们第一次拍摄飞机"
+          }
+        ]
+      },
+      {
+        "start": 942.3,
+        "end": 964.03,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "临上飞机的器材约束和手机按键抓拍实演属于伴飞准备故事，虽明显展示赞助产品仍应保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          942.3,
+          942.3
+        ],
+        "endUncertainty": [
+          964.03,
+          964.03
+        ],
+        "evidence": [
+          {
+            "from": 943.38,
+            "to": 944.66,
+            "text": "然后高速摄影机我确实带了"
+          },
+          {
+            "from": 951.28,
+            "to": 953.72,
+            "text": "我就带着这一台加大可以进行无影抓拍"
+          },
+          {
+            "from": 961.89,
+            "to": 963.19,
+            "text": "就是抬手就能出片"
+          },
+          {
+            "from": 964.03,
+            "to": 966.25,
+            "text": "虽然我想尽量让自己显得轻松一点"
+          }
+        ]
+      },
+      {
+        "start": 1182.88,
+        "end": 1189.159,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "收尾短赞助致谢，保留即可。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          1182.88,
+          1182.88
+        ],
+        "endUncertainty": [
+          1189.159,
+          1189.159
+        ],
+        "evidence": [
+          {
+            "from": 1180,
+            "to": 1182.88,
+            "text": "也非常感谢你和我们一起度过了这一次旅程"
+          },
+          {
+            "from": 1182.88,
+            "to": 1185.98,
+            "text": "那同时也感谢oppo find x8pro作为国产领军者"
+          },
+          {
+            "from": 1186.98,
+            "to": 1189.159,
+            "text": "帮助我们留住了这些震撼的影像"
+          },
+          {
+            "from": 1189.159,
+            "to": 1190.479,
+            "text": "所以本期节目就是这样"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 1200.8,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

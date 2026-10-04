@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1dw4m1i7kD",
+    "cid": 1573339659,
+    "duration": 713,
+    "fullTranscriptRead": true,
+    "videoSummary": "沙盘分析俄乌多个方向的一周攻防、地形与部队调动，讨论哈尔科夫反攻和俄军推进；中段推广赫恩男士洗护礼盒，末尾提醒优惠券。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 249.76,
+        "end": 348.22,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从暑假约会的清爽形象要求完整铺垫洗护需求，推介赫恩沐浴露、洗发水、洗面奶功效、品牌和领券；随后切回巴赫穆特战线。",
+        "evidence": [
+          {
+            "to": 1.2,
+            "text": "上期我的台湾沙盘",
+            "from": 0
+          },
+          {
+            "to": 266.52,
+            "text": "这款礼盒包含了赫恩的冷水沐浴露",
+            "from": 264.2
+          },
+          {
+            "to": 349.44,
+            "text": "巴赫穆特战线",
+            "from": 348.22
+          }
+        ],
+        "startUncertainty": [
+          249.76,
+          249.76
+        ],
+        "endUncertainty": [
+          348.22,
+          348.22
+        ]
+      },
+      {
+        "start": 705.48,
+        "end": 707.84,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "节目收尾约两秒的优惠券提醒，属于明确商业内容但短小，保留。",
+        "evidence": [
+          {
+            "to": 1.2,
+            "text": "上期我的台湾沙盘",
+            "from": 0
+          },
+          {
+            "to": 706.84,
+            "text": "评论区还有赫恩的优惠券",
+            "from": 705.48
+          },
+          {
+            "to": 708.84,
+            "text": "感谢大家的收看",
+            "from": 707.84
+          }
+        ],
+        "startUncertainty": [
+          705.48,
+          705.48
+        ],
+        "endUncertainty": [
+          707.84,
+          707.84
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 249.76,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 348.22,
+        "end": 712.46,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

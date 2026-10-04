@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1rCLJzUEZZ",
+    "cid": 29604512505,
+    "duration": 1126,
+    "fullTranscriptRead": true,
+    "videoSummary": "二战策略游戏罗马尼亚流程解说，利用兵力门槛、战争与外交规则改变历史割地困境，依次处理匈牙利等邻国、德国、英法和苏联；扩编策略之后插入转转数码二手推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 267.07,
+        "end": 300.6,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从刚才策略省产能的回顾铺垫起，接省钱看转转，介绍iPhone、iPad、大疆报价、验机和保修，以及口令补贴券，直至更新数码产品邀请结束。",
+        "evidence": [
+          {
+            "from": 267.07,
+            "to": 273.71,
+            "text": "刚才这个妙招让我们省了不少的产能 而要说省钱还得看转转 这时候去他们家买手机非常划算"
+          },
+          {
+            "from": 292.26,
+            "to": 300.6,
+            "text": "现在去转转搜索口令 大牌补贴还能领最高千元优惠券 趁着平台有活动 大家快去转转 更新一波数码产品吧"
+          },
+          {
+            "from": 304.06,
+            "to": 309.38,
+            "text": "1936年10月7日 我们向匈牙利发出最后通牒 要求匈牙利臣服于我们"
+          }
+        ],
+        "startUncertainty": [
+          266.31,
+          267.07
+        ],
+        "endUncertainty": [
+          300.6,
+          304.06
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 266.31,
+        "reason": "游戏挑战背景、罗马尼亚开局与提前扩编策略。"
+      },
+      {
+        "start": 304.06,
+        "end": 1121.8,
+        "reason": "恢复游戏时间线、作战外交机制与胜利结局。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

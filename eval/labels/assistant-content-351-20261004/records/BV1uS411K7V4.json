@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1uS411K7V4",
+    "cid": 1573263389,
+    "duration": 773,
+    "fullTranscriptRead": true,
+    "videoSummary": "情侣从红门徒步爬泰山至南天门，沿途休息、祈福、互动并按计划赶车回家；途中展示韶音开放式耳机。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 233.39,
+        "end": 302.72,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从爬山想听动感音乐的需求铺垫开始，经能否听清说话的互动进入耳机展示，集中讲开放设计、音质、不漏音、佩戴轻稳与防水，直到舒适感推荐结束。该段没有推进登山关键节点，随后继续前往中天门。",
+        "evidence": [
+          {
+            "to": 2.78,
+            "text": "家人们啊来爬泰山了",
+            "from": 0
+          },
+          {
+            "to": 265.24,
+            "text": "这个是哨音的",
+            "from": 263.84
+          },
+          {
+            "to": 303.04,
+            "text": "走吧",
+            "from": 302.72
+          }
+        ],
+        "startUncertainty": [
+          233.39,
+          233.39
+        ],
+        "endUncertainty": [
+          302.72,
+          302.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 233.39,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 302.72,
+        "end": 769.93,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

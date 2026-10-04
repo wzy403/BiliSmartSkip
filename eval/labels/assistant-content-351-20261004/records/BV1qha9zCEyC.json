@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1qha9zCEyC",
+    "cid": 32241093979,
+    "duration": 609,
+    "fullTranscriptRead": true,
+    "videoSummary": "用九个示例网页逐步解释搜索引擎的信息抓取、倒排索引、中文分词、查询交集及结果排序，并说明竞价排名。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.82,
+        "end": 608.92,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为搜索引擎工作原理教学，所涉网站、品牌和付费排名是说明实例或下期预告，没有口述赞助或商品购买推介。",
+        "evidence": [
+          {
+            "from": 0.82,
+            "to": 2.94,
+            "text": "搜索引擎是一种使用特定算法"
+          },
+          {
+            "from": 306.83,
+            "to": 308.41,
+            "text": "就能得到一个搜索结果"
+          },
+          {
+            "from": 607.62,
+            "to": 608.92,
+            "text": "那我们就下期见"
+          }
+        ],
+        "startUncertainty": [
+          0.82,
+          0.82
+        ],
+        "endUncertainty": [
+          608.92,
+          608.92
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.82,
+        "end": 608.92,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

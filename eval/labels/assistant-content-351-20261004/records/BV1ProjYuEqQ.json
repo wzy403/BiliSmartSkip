@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ProjYuEqQ",
+    "cid": 29405807273,
+    "duration": 164,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍Python基础、进阶和实战课程的制作思路、知识结构及配套资料，末尾邀请评论666免费领取素材。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 127.9,
+        "end": 150.2,
+        "contentType": "uncertain",
+        "skipDecision": "keep",
+        "confidence": "uncertain",
+        "reason": "配套资料免费领取的评论引导有获客宣传形式，但字幕不能判断是否商业培训导流；它与课程导学直接相关，保留并不断言付费广告。",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          127.9,
+          127.9
+        ],
+        "endUncertainty": [
+          150.2,
+          150.2
+        ],
+        "evidence": [
+          {
+            "from": 6.959,
+            "to": 9.55,
+            "text": "全新制作的Python系统教程"
+          },
+          {
+            "from": 75.62,
+            "to": 78,
+            "text": "我们这套课程呢会从基础篇"
+          },
+          {
+            "from": 127.9,
+            "to": 130.1,
+            "text": "最后呢会给大家一个小福利"
+          },
+          {
+            "from": 142.34,
+            "to": 144.48,
+            "text": "666即可全部免费打包带走"
+          },
+          {
+            "from": 144.48,
+            "to": 148.28,
+            "text": "相信我这套Python系统教程将会是全网最全"
+          },
+          {
+            "from": 150.2,
+            "to": 152.38,
+            "text": "如果看到这里对你有所帮助的话"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 127.9,
+        "reason": "全文已读的课程导学正文。"
+      },
+      {
+        "start": 150.2,
+        "end": 158.12,
+        "reason": "资料领取待定段之后的普通收尾。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

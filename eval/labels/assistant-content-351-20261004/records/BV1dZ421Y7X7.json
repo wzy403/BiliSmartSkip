@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1dZ421Y7X7",
+    "cid": 1514796034,
+    "duration": 597,
+    "fullTranscriptRead": true,
+    "videoSummary": "用单机与网游资源产出、交易损耗和最优刷怪路线解释游戏经济如何影响关卡利用与后期重复性。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.02,
+        "end": 586.96,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "全文为游戏经济机制解释；巫师三、帕鲁和冒险岛都是论证案例，结尾为下期预告，无口述商业植入。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.02,
+          0.02
+        ],
+        "endUncertainty": [
+          586.96,
+          586.96
+        ],
+        "evidence": [
+          {
+            "from": 0.02,
+            "to": 2.63,
+            "text": "什么游戏还有经济学这个说法"
+          },
+          {
+            "from": 285.39,
+            "to": 287.99,
+            "text": "我们就可以来展开聊聊网游的交易问题了"
+          },
+          {
+            "from": 533.699,
+            "to": 536.81,
+            "text": "如果任何材料都可以无损替换成其他材料"
+          },
+          {
+            "from": 585.49,
+            "to": 586.96,
+            "text": "这边立马安排"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 586.96,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

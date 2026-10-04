@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1iQpEe8EA7",
+    "cid": 25637822197,
+    "duration": 1266,
+    "fullTranscriptRead": true,
+    "videoSummary": "电竞周报评论LPL夏季赛、沙特杯中国战队成绩、CF爆冷、三国杀电竞化及黑神话悟空争议；中途插入欧莱雅男士精华广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 406.07,
+        "end": 464.78,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确切入护肤环节，从熬夜看比赛导致出油痘印的痛点开始，完整介绍欧莱雅精华成分、美白效果和优惠券，并以颜值笑话收束，之后回赛事汇总。赛事中的奔驰与广告赞助议题均为报道对象。",
+        "evidence": [
+          {
+            "to": 1.92,
+            "text": "各位撸狗刀斯林反恐精英",
+            "from": 0.08
+          },
+          {
+            "to": 422.7,
+            "text": "为此哥们儿为兄弟们准备了欧莱雅男士药",
+            "from": 420.18
+          },
+          {
+            "to": 465.94,
+            "text": "讲完洛洛啊",
+            "from": 465.02
+          }
+        ],
+        "startUncertainty": [
+          406.07,
+          406.07
+        ],
+        "endUncertainty": [
+          464.78,
+          465.02
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 406.07,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 464.78,
+        "end": 1261.389,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

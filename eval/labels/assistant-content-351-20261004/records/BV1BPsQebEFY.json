@@ -1,0 +1,129 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1BPsQebEFY",
+    "cid": 25683956072,
+    "duration": 699,
+    "fullTranscriptRead": true,
+    "videoSummary": "分析网红餐饮倒闭，以脆皮五花肉、泡面食堂、竹筒奶茶等说明噱头、加盟商模式和复购率问题；中间及片尾插入淘宝家电换新补贴推广。正文里的品牌、价格和广告术语是行业批评案例，不能因此整段判广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 229.58,
+        "end": 233.08,
+        "contentType": "uncertain",
+        "skipDecision": "uncertain",
+        "confidence": "uncertain",
+        "boundaryConfidence": "uncertain",
+        "reason": "消费者理性务实这句话既总结泡面食堂失败，又承担转入省钱购物推广的桥接；无法仅凭字幕确定应整体归入广告，因此单列保留不确定性。",
+        "evidence": [
+          {
+            "from": 229.58,
+            "to": 234.22,
+            "text": "这背后和消费者越来越理性和务实也有关系 大家更加讲究"
+          }
+        ],
+        "startUncertainty": [
+          229.58,
+          229.58
+        ],
+        "endUncertainty": [
+          233.08,
+          233.08
+        ]
+      },
+      {
+        "start": 233.08,
+        "end": 372.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从每分钱花在刀刃上、线上团购和闲置变现铺垫开始，转入淘宝换新活动，逐一推广空调、冰箱、电视的性能和到手价，至再次要求搜索领券结束；完整包含前置购物铺垫及末尾号召。",
+        "evidence": [
+          {
+            "from": 234.22,
+            "to": 250.22,
+            "text": "每一分钱都要花在刀刃上 主打一个该省省该花花吃饭 线上团购网购货比三家 就连闲啊也要想办法变现 这不淘宝就推出了家电以旧换新活动 直接上淘宝搜值换新补贴就可以看到补贴券了"
+          },
+          {
+            "from": 359,
+            "to": 372.66,
+            "text": "如果你最近正好有换家店的打算 可以点评论区链接去get同款网购新比价 淘宝真的香 还有啊 一定要去淘宝搜超值换新补贴 去活动会场逛一逛 领券 想补贴省到就是赚到好的收"
+          },
+          {
+            "from": 372.66,
+            "to": 381.8,
+            "text": "我们回归主题啊 时间又来到了2023年年初 网红餐饮青黄不接之际 又杀出来一位重量级选手 他就是竹筒奶茶"
+          }
+        ],
+        "startUncertainty": [
+          229.58,
+          233.08
+        ],
+        "endUncertainty": [
+          372.66,
+          373.82
+        ]
+      },
+      {
+        "start": 684.62,
+        "end": 694.86,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾再次以赚钱省钱铺垫，提醒更换家电者上淘宝搜索补贴并夸赞优惠与品类，是独立的推广回扣。",
+        "evidence": [
+          {
+            "from": 684.62,
+            "to": 688.36,
+            "text": "赚钱呢也要把钱花在刀刃上 近期有更换家电的想法"
+          },
+          {
+            "from": 688.36,
+            "to": 694.86,
+            "text": "记得上淘宝逛逛 搜索超值换新补贴就能直达活动会场 优惠多 补贴多 种类还齐全"
+          },
+          {
+            "from": 694.86,
+            "to": 698.14,
+            "text": "我是沙大象 以上就是本期视频全内容 记得点赞关注我们 下期见"
+          }
+        ],
+        "startUncertainty": [
+          684.62,
+          686.82
+        ],
+        "endUncertainty": [
+          694.86,
+          694.86
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 229.58,
+        "reason": "餐饮倒闭趋势、五花肉及泡面食堂案例评论；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 372.66,
+        "end": 684.62,
+        "reason": "竹筒奶茶等网红餐饮、招商营销模式与复购分析；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 694.86,
+        "end": 698.14,
+        "reason": "频道结语和点赞关注；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

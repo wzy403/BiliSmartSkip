@@ -1,0 +1,77 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1oq421c7ZN",
+    "cid": 1490912515,
+    "duration": 1268,
+    "fullTranscriptRead": true,
+    "videoSummary": "钢铁雄心4救德国存档实况，检查玩家描述、科技和部队问题，重设坦克、编制、资源和防线，完成基尔反击并讨论后续计划；中间插入肩颈按摩仪推销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 365.47,
+        "end": 425.45,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从看累了休息放松肩颈的铺垫开始，到按摩头、热敷、使用便利、健康/游戏表现、评论区领券、价格和质保号召结束；425.45无缝回坦克设计。",
+        "evidence": [
+          {
+            "from": 365.47,
+            "to": 372.34,
+            "text": "视频到这 想必大家已经看的很累了 我们简短休息一下 是时候放松肩颈 六界肩颈按摩仪"
+          },
+          {
+            "from": 410.54,
+            "to": 425.45,
+            "text": "咱高K妙界比那些普通的按摩仪就是强一点 在我评论区领券下单 价格还只要同类按摩仪的一半 保价大促送运费险可享两年质保 今年有问题免费换新 大家可不要错过了"
+          },
+          {
+            "from": 425.45,
+            "to": 428.69,
+            "text": "设计坦克前 先给他把这个偷工减料点一下吧"
+          }
+        ],
+        "startUncertainty": [
+          365.47,
+          365.47
+        ],
+        "endUncertainty": [
+          425.45,
+          425.45
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.38,
+        "end": 365.47,
+        "reason": "存档分析、游戏策略及科技装备检查。"
+      },
+      {
+        "start": 425.45,
+        "end": 923.444,
+        "reason": "坦克、编制、后勤和防线操作解说；采购、资源价格和经费属于游戏机制。"
+      },
+      {
+        "start": 974.22,
+        "end": 995.54,
+        "reason": "夺回斯德丁及罗马尼亚外交。"
+      },
+      {
+        "start": 1151.36,
+        "end": 1267.5,
+        "reason": "基尔反击结果、战略和下集互动；投币是站内视频互动。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面；923.444–974.22与995.54–1151.36等无字幕片段未知。",
+      "正常范围仅实际字幕覆盖，未把大段游戏画面间隙当负例。"
+    ]
+  }
+}

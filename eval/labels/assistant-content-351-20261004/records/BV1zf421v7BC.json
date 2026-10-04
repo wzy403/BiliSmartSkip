@@ -1,0 +1,80 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1zf421v7BC",
+    "cid": 1620470009,
+    "duration": 353,
+    "fullTranscriptRead": true,
+    "videoSummary": "分析艾森豪威尔号回港甲板画面与红海部署武器使用情况，中途明确介绍人体工学椅赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 82.96,
+        "end": 181.76,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从不管航母是否被击中的转场及恰饭声明进入西昊C300体验，覆盖各项功能、脚托购买建议及置顶链接，结束于回到甲板分析前。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.08,
+            "text": "我真是服了"
+          },
+          {
+            "from": 82.96,
+            "to": 84.96,
+            "text": "不管爱豆豆号有没有被击中"
+          },
+          {
+            "from": 86.9,
+            "to": 88.54,
+            "text": "咱恰到大品牌的饭了"
+          },
+          {
+            "from": 88.54,
+            "to": 90.54,
+            "text": "新号C300人体工学椅"
+          },
+          {
+            "from": 176.48,
+            "to": 178.76,
+            "text": "喜欢的兄弟可以看看评论区置顶链接"
+          },
+          {
+            "from": 181.76,
+            "to": 183.74,
+            "text": "我们回到爱豆豆号的飞行甲板"
+          }
+        ],
+        "startUncertainty": [
+          82.96,
+          82.96
+        ],
+        "endUncertainty": [
+          181.76,
+          181.76
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 82.96,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 181.76,
+        "end": 342.66,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

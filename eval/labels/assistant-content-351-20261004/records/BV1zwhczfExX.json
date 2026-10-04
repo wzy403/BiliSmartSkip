@@ -1,0 +1,115 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1zwhczfExX",
+    "cid": 31372870597,
+    "duration": 292,
+    "fullTranscriptRead": true,
+    "videoSummary": "探店69.9元泡面烤肉自助，逐项试吃并指出宣传牛肉缺失，中途介绍得物新人补贴活动。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.68,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "开头短句提及得物到货，是后面推广的简短露出，保留。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 0.96,
+            "text": "在得物买的东西"
+          },
+          {
+            "from": 0.96,
+            "to": 1.68,
+            "text": "终于到了"
+          },
+          {
+            "from": 2.36,
+            "to": 4.08,
+            "text": "今天来吃一个69块钱的泡面"
+          }
+        ],
+        "startUncertainty": [
+          0.0,
+          0.0
+        ],
+        "endUncertainty": [
+          1.68,
+          1.68
+        ]
+      },
+      {
+        "start": 58.399,
+        "end": 106.86,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从探店走路出汗及查看步数的完整铺垫引出手环耳机，再推广得物首单优惠和抽现金，至恢复乳酸菌烤肉前。",
+        "evidence": [
+          {
+            "from": 2.36,
+            "to": 4.08,
+            "text": "今天来吃一个69块钱的泡面"
+          },
+          {
+            "from": 58.399,
+            "to": 59.559,
+            "text": "今天出来探店"
+          },
+          {
+            "from": 61.939,
+            "to": 64.64,
+            "text": "没想到得物买的这一元的手环还挺好使"
+          },
+          {
+            "from": 73.76,
+            "to": 75.08,
+            "text": "还真不是得物"
+          },
+          {
+            "from": 90.2,
+            "to": 91.74,
+            "text": "现在点我评论区链接"
+          },
+          {
+            "from": 106.86,
+            "to": 109.0,
+            "text": "这个是乳酸菌拌肉啊"
+          }
+        ],
+        "startUncertainty": [
+          57.1,
+          58.399
+        ],
+        "endUncertainty": [
+          106.86,
+          106.86
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 58.399,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 106.86,
+        "end": 290.98,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "餐厅、泡面与肉类口感评价属于探店主题，未自动当作广告。"
+    ]
+  }
+}

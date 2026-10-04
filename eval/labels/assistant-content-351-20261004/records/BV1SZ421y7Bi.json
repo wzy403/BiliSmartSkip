@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1SZ421y7Bi",
+    "cid": 1460605396,
+    "duration": 559,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆联机欢乐剪辑，包含载具作战、队友玩笑及生活闲聊；开头有频道周边衣服商店推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 13.099,
+        "end": 26.92,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "开场笑料后独立介绍新的周边商店、衣服价格和支持频道的购买入口，结束后转回游戏片段，整段可分离。",
+        "evidence": [
+          {
+            "to": 3.2,
+            "text": "哦不不不就像美好的爱情",
+            "from": 0.04
+          },
+          {
+            "to": 20.16,
+            "text": "但是如果你想支持这个频道",
+            "from": 18.42
+          },
+          {
+            "to": 31.82,
+            "text": "什么鬼",
+            "from": 30.8
+          }
+        ],
+        "startUncertainty": [
+          10.52,
+          13.099
+        ],
+        "endUncertainty": [
+          26.92,
+          30.8
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 13.099,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 26.92,
+        "end": 557.06,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

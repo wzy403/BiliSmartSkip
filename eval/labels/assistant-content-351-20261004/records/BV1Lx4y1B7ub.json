@@ -1,0 +1,106 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1Lx4y1B7ub",
+    "cid": 1538043200,
+    "duration": 1722,
+    "fullTranscriptRead": true,
+    "videoSummary": "全文是可可的植物特性、驯化、美洲文明、殖民贸易、巧克力工艺与当代供应危机的长篇科普。历史叙述中插入智谱清言AI助手的功能推广，结尾再次推荐注册；可可商业史和巧克力品牌出现属于历史正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 411.61,
+        "end": 537.93,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从玛雅神话俗套、古人信息与想象有限的比较铺垫转向现代AI，再介绍智谱清言文献整理、查资料、自建智能体、广告策划等功能，明称本段广告并邀请注册。铺垫起点同时承接神话正文，起始边界存在语义重叠，仍完整保留此铺垫。",
+        "evidence": [
+          {
+            "from": 411.61,
+            "to": 421.94,
+            "text": "不得不说 玛雅人的神话故事对我们来说确实有些俗套 但没办法嘛 毕竟古人能接受信息有限 更何况人脑力有穷 想象也就有了边界"
+          },
+          {
+            "from": 513.96,
+            "to": 518.62,
+            "text": "你现在看到这段广告植物 就经过了质朴精盐的草拟和润色啊"
+          },
+          {
+            "from": 537.93,
+            "to": 544.89,
+            "text": "言归正传 反正可可攀上了玉米神高枝以后 就顺利抬起进了玛雅人的信仰体系之中"
+          }
+        ],
+        "startUncertainty": [
+          411.61,
+          421.94
+        ],
+        "endUncertainty": [
+          537.93,
+          537.93
+        ]
+      },
+      {
+        "start": 1674.15,
+        "end": 1687.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "可可危机总结后，再次推荐智谱清言并指引网址注册，最后关于广告稿由其改写的玩笑仍强调产品用途，之后才是频道告别。",
+        "evidence": [
+          {
+            "from": 1674.15,
+            "to": 1678.23,
+            "text": "最后再给大家推荐一下质朴青年 你的智能体创作伙伴"
+          },
+          {
+            "from": 1678.23,
+            "to": 1681.77,
+            "text": "只需到这个网址注册 即可让质朴青年助您一臂之力"
+          },
+          {
+            "from": 1687.64,
+            "to": 1690.64,
+            "text": "这里是方法服 我们下期再见"
+          }
+        ],
+        "startUncertainty": [
+          1674.15,
+          1674.15
+        ],
+        "endUncertainty": [
+          1687.64,
+          1687.64
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.469,
+        "end": 411.61,
+        "reason": "可可植物驯化、美洲贸易和玛雅神话正文。"
+      },
+      {
+        "start": 537.93,
+        "end": 1674.15,
+        "reason": "恢复可可文化、货币、殖民种植、巧克力工艺营销史及供应危机。"
+      },
+      {
+        "start": 1687.64,
+        "end": 1690.64,
+        "reason": "频道正常告别。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "字幕中的产品名多处同音错写，按上下文识别为智谱清言；未据字面错误改变边界。1690.64至1722秒未有字幕。"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Bw41177PQ",
+    "cid": 1410549209,
+    "duration": 895,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆古斯塔夫巨炮用户模组实况，测试巨炮移动、远距射击和地形卡住；开头有国家冲突游戏赞助推广，末尾再次致谢。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 38.6,
+        "end": 123.7,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助声明开始，完整介绍另一款战略游戏的单位、经济物流玩法、跨平台下载和新手奖励，随后重新欢迎观众并进入巨炮模组。",
+        "evidence": [
+          {
+            "to": 6.979,
+            "text": "纾困",
+            "from": 6.08
+          },
+          {
+            "to": 43.04,
+            "text": "糟糕的是，今天我们被国家冲突所驱动和赞助",
+            "from": 38.6
+          },
+          {
+            "to": 124.4,
+            "text": "哈喽",
+            "from": 123.7
+          }
+        ],
+        "startUncertainty": [
+          35.04,
+          38.6
+        ],
+        "endUncertainty": [
+          123.7,
+          123.7
+        ]
+      },
+      {
+        "start": 886.31,
+        "end": 893.54,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾几秒赞助致谢，无新功能推销且不值得独立跳转，保留。",
+        "evidence": [
+          {
+            "to": 872.88,
+            "text": "希望大家喜欢今天的视频",
+            "from": 871.52
+          },
+          {
+            "to": 890.43,
+            "text": "感谢各国的持续支持和冲突",
+            "from": 887.03
+          },
+          {
+            "to": 893.54,
+            "text": "感谢您为今天的视频提供动力和赞助",
+            "from": 890.43
+          }
+        ],
+        "startUncertainty": [
+          886.31,
+          886.31
+        ],
+        "endUncertainty": [
+          893.54,
+          893.54
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 6.08,
+        "end": 38.6,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 123.7,
+        "end": 893.54,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

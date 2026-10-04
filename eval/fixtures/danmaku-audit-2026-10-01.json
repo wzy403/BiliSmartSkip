@@ -1,0 +1,1207 @@
+{
+  "schemaVersion": 1,
+  "kind": "diagnostic-evidence-not-regression-expectations",
+  "auditDate": "2026-10-01",
+  "production": {
+    "commit": "a11969f939142cf497f94b3f074d86afd1fc4494",
+    "sourceSha256": "7d0c189cfa9fbd3a0b73740ff2abc2bf398e6995f732f91efd5efd164822e3fa"
+  },
+  "provenance": {
+    "eval/data/combined-351.jsonl": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+    "eval/data/danmaku-audit-20261001/new-checkpoint.jsonl": "f93274ebfc95b5972d5499dbca30fb5b63d00de29240878bc29cd5a5b229d223",
+    "eval/labels/human/review-2026-09-30-v2.json": "b2705d80cbdef33519821137d5c8a24d0eafd46f0766f7d86306c79942897e34"
+  },
+  "inspection": "Assistant individually read the selected raw comment/subtitle evidence and independently replayed the saved full video inputs. This inspection does not create human labels.",
+  "purpose": "Small Git-trackable diagnostic evidence. Values are copied from raw records and current runner outputs; no full corpus, author IDs or commenter IDs are retained.",
+  "limitations": [
+    "Captured anonymous XML is a subset source, not equivalent to logged-in Chrome segmented protobuf responses.",
+    "Community references and comment interpretation are not should-skip gold.",
+    "Holdout-author examples are explicitly observation-only; do not use them to tune this iteration.",
+    "New-source examples are from the fixed initial checkpoint, not the final 300-video corpus.",
+    "A comment-level parser gap does not imply a video-level miss when another source already produced a candidate."
+  ],
+  "cases": [
+    {
+      "id": "decorated-engineering-human-miss",
+      "bvid": "BV1LAAYz3E4g",
+      "cid": 36352954182,
+      "title": "如果在山上挖一个池塘不放鱼，再过10年的时间，里面会慢慢有鱼吗？",
+      "duration": 174,
+      "source": {
+        "recordFile": "eval/data/combined-351.jsonl",
+        "capturedAt": "2026-09-30T18:35:51.068Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": "2026-09-30T18:50:51.698Z",
+        "commentRows": 1200,
+        "subtitleRows": 109,
+        "checkpoint": false
+      },
+      "evidenceStatus": "existing-human-should-skip",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": {
+        "source": "eval/labels/human/review-2026-09-30-v2.json",
+        "existingOnly": true,
+        "segments": [
+          {
+            "start": 79.06,
+            "end": 95.64,
+            "contentType": "ad",
+            "skipDecision": "skip",
+            "skipConfidence": "high",
+            "boundaryConfidence": "high"
+          }
+        ]
+      },
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 76.546,
+            "end": 96.159,
+            "category": "sponsor",
+            "votes": 3,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 79.72,
+          "textContent": "░░░░░░░░░░136工程░░░░░░░░░░",
+          "currentParsed": {
+            "time": 96,
+            "confidence": 1,
+            "reference": "136工程"
+          },
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 79.077,
+          "textContent": "0137",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 80.364,
+          "textContent": "恭喜接广！",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [
+        {
+          "from": 79.06,
+          "to": 79.9,
+          "content": "旧的那台相机"
+        },
+        {
+          "from": 79.9,
+          "to": 81.74,
+          "content": "我第一时间找转转上门回收"
+        },
+        {
+          "from": 81.74,
+          "to": 82.76,
+          "content": "卖了3100多"
+        },
+        {
+          "from": 93.36,
+          "to": 94.32,
+          "content": "我推荐转转"
+        },
+        {
+          "from": 94.32,
+          "to": 95.64,
+          "content": "钱到手才是硬道理"
+        }
+      ],
+      "actualReplay": {
+        "candidates": [],
+        "automaticSegments": [],
+        "seekDestinations": []
+      },
+      "interpretation": "装饰框中的工程时轴能解析时间，但未被识别为明确指令；短裸时间被过滤，整片无候选。已有人工应跳区间，属于确认的现有标签漏检。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "hours-format-partial-match",
+      "bvid": "BV16whv62Ed2",
+      "cid": 42068279556,
+      "title": "蠢笔TV P39",
+      "duration": 194,
+      "source": {
+        "recordFile": "eval/data/combined-351.jsonl",
+        "capturedAt": "2026-09-30T15:40:06.525Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": "2026-09-30T18:05:55.157Z",
+        "commentRows": 213,
+        "subtitleRows": 0,
+        "checkpoint": false
+      },
+      "evidenceStatus": "community-and-comment-diagnostic",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 93.382,
+            "end": 113.5,
+            "category": "sponsor",
+            "votes": 3,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 95.266,
+          "textContent": "跳伞00:03:13",
+          "currentParsed": {
+            "time": 3,
+            "confidence": 1,
+            "reference": "00:03"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 94.989,
+          "textContent": "跳伞3:13",
+          "currentParsed": {
+            "time": 193,
+            "confidence": 1,
+            "reference": "3:13"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 89.837,
+          "textContent": "准备跳伞，01:54",
+          "currentParsed": {
+            "time": 114,
+            "confidence": 1,
+            "reference": "01:54"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": {
+            "start": 94.837,
+            "end": 114,
+            "requiresConfirmation": false,
+            "matchedKeywords": [
+              "跳伞"
+            ],
+            "reason": "explicit-danmaku-skip",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 1,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 100.669,
+          "textContent": "不会还有人信古德范的跳伞吧",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 94.837,
+            "end": 114,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": [
+              {
+                "end": 113,
+                "explicitCount": 1
+              },
+              {
+                "end": 120,
+                "explicitCount": 1
+              }
+            ]
+          }
+        ],
+        "automaticSegments": [
+          {
+            "start": 94.837,
+            "end": 114,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": [
+              {
+                "end": 113,
+                "explicitCount": 1
+              },
+              {
+                "end": 120,
+                "explicitCount": 1
+              }
+            ]
+          }
+        ],
+        "seekDestinations": [
+          114.05
+        ]
+      },
+      "interpretation": "小时格式被部分匹配为前两个字段，随后作为向后目的地过滤。邻近指令互相冲突，修格式不等于应信任该目的地。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "disjoint-destinations-single-selection",
+      "bvid": "BV1r1421r7am",
+      "cid": 1583131909,
+      "title": "流 浪 皇 叔 计 划",
+      "duration": 407,
+      "source": {
+        "recordFile": "eval/data/combined-351.jsonl",
+        "capturedAt": "2026-09-30T18:34:46.539Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": "2026-09-30T18:49:52.643Z",
+        "commentRows": 1200,
+        "subtitleRows": 0,
+        "checkpoint": false
+      },
+      "evidenceStatus": "community-and-comment-diagnostic",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 341.529,
+            "end": 370.988,
+            "category": "sponsor",
+            "votes": 0,
+            "locked": true
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 289.089,
+          "textContent": "空降05:26",
+          "currentParsed": {
+            "time": 326,
+            "confidence": 1,
+            "reference": "05:26"
+          },
+          "currentCues": [
+            "空降"
+          ],
+          "currentSingletonCandidate": {
+            "start": 294.089,
+            "end": 326,
+            "requiresConfirmation": false,
+            "matchedKeywords": [
+              "空降"
+            ],
+            "reason": "explicit-danmaku-skip",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 1,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 349.262,
+          "textContent": "跳伞 06:10",
+          "currentParsed": {
+            "time": 370,
+            "confidence": 1,
+            "reference": "06:10"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": {
+            "start": 354.262,
+            "end": 370,
+            "requiresConfirmation": false,
+            "matchedKeywords": [
+              "跳伞"
+            ],
+            "reason": "explicit-danmaku-skip",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 1,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 361.156,
+          "textContent": "唯一一个不讨厌广告的，广告是鞭策啊，是动力，是灵感，是离谱的剧情融洽",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 294.089,
+            "end": 326,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "automaticSegments": [
+          {
+            "start": 294.089,
+            "end": 326,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "seekDestinations": [
+          326.05
+        ]
+      },
+      "interpretation": "两条分别可用且不相交的跳转候选，完整输入只保留一条。只能确认单候选选择损失，不能确认两处都应跳过。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "gameplay-wait-auto-jump",
+      "bvid": "BV1k44y1W7w6",
+      "cid": 487124795,
+      "title": "当《超阈限空间》的开发人员观看速通 Superliminal Developers React to 23 Minute Speedrun",
+      "duration": 1617,
+      "source": {
+        "recordFile": "eval/data/danmaku-audit-20261001/new-checkpoint.jsonl",
+        "capturedAt": "2026-10-01T16:04:31.924Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": null,
+        "commentRows": 213,
+        "subtitleRows": 0,
+        "checkpoint": true
+      },
+      "evidenceStatus": "suspected-false-positive-not-human-gold",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 0,
+            "end": 6.209922,
+            "category": "intro",
+            "votes": 12,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 949.962,
+          "textContent": "跳伞16:53",
+          "currentParsed": {
+            "time": 1013,
+            "confidence": 1,
+            "reference": "16:53"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": {
+            "start": 954.962,
+            "end": 1013,
+            "requiresConfirmation": false,
+            "matchedKeywords": [
+              "跳伞"
+            ],
+            "reason": "explicit-danmaku-skip",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 1,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 946.387,
+          "textContent": "这里可以跳到16:54",
+          "currentParsed": {
+            "time": 1014,
+            "confidence": 1,
+            "reference": "16:54"
+          },
+          "currentCues": [],
+          "currentSingletonCandidate": {
+            "start": 951.387,
+            "end": 1014,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 931.994,
+          "textContent": "这一段并没有解密内容，必须要白白等着剧情语音过了才能继续",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 944.249,
+          "textContent": "这里是因为当你到了那个触发点后走剧情，一段时间后把你传送，所以这段时间干什么都行",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 966.877,
+          "textContent": "强制剧情，自闭中",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 973.955,
+          "textContent": "并非，这个地方剧情就是这样，自动跳转，所以干啥都行，大佬面壁等语音结束呢",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 954.962,
+            "end": 1013,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "automaticSegments": [
+          {
+            "start": 954.962,
+            "end": 1013,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "seekDestinations": [
+          1013.05
+        ]
+      },
+      "interpretation": "泛化的跳伞指令触发自动跳转，但周边弹幕描述等待游戏剧情；疑似正文误跳，需人工视频核验。社区片头intro不证明其他位置无广告。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "jump-synonym-and-mixed-numerals",
+      "bvid": "BV122YAzWE2E",
+      "cid": 32260359739,
+      "title": "日本是真废了",
+      "duration": 1151,
+      "source": {
+        "recordFile": "eval/data/danmaku-audit-20261001/new-checkpoint.jsonl",
+        "capturedAt": "2026-10-01T16:04:43.292Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": null,
+        "commentRows": 3600,
+        "subtitleRows": 0,
+        "checkpoint": true
+      },
+      "evidenceStatus": "community-and-comment-diagnostic",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 361.334,
+            "end": 428.493,
+            "category": "sponsor",
+            "votes": 3,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 372.027,
+          "textContent": "跳转7：08",
+          "currentParsed": {
+            "time": 428,
+            "confidence": 1,
+            "reference": "7：08"
+          },
+          "currentCues": [],
+          "currentSingletonCandidate": {
+            "start": 377.027,
+            "end": 428,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 356.496,
+          "textContent": "七分09 求点赞",
+          "currentParsed": {
+            "time": 429,
+            "confidence": 1,
+            "reference": "七分09"
+          },
+          "currentCues": [],
+          "currentSingletonCandidate": {
+            "start": 361.496,
+            "end": 429,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 363.286,
+          "textContent": "7分零8",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 363.53,
+          "textContent": "7.10大军启动",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 364.806,
+          "textContent": "这颈椎仪真大",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 386.53,
+          "textContent": "？天天接广子",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 361.496,
+            "end": 429,
+            "source": "danmaku-time",
+            "requiresConfirmation": true,
+            "reason": "unconfirmed-time-reference",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "automaticSegments": [],
+        "seekDestinations": []
+      },
+      "interpretation": "跳转措辞的时间能解析但不认指令；混合中文零和阿拉伯数字及小数措辞未解析。片中存在手动候选，不能称完全漏检。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "traditional-parachute-observation",
+      "bvid": "BV1b1421t7pt",
+      "cid": 1651554752,
+      "title": "速度快又省油，桨扇发动机为啥一直在PPT阶段",
+      "duration": 544,
+      "source": {
+        "recordFile": "eval/data/combined-351.jsonl",
+        "capturedAt": "2026-09-30T18:36:31.097Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": "2026-09-30T18:51:31.525Z",
+        "commentRows": 1200,
+        "subtitleRows": 267,
+        "checkpoint": false
+      },
+      "evidenceStatus": "holdout-observation-only",
+      "holdoutAuthor": true,
+      "eligibleForRuleTuning": false,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 289.619,
+            "end": 388.833,
+            "category": "sponsor",
+            "votes": 0,
+            "locked": true
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 329.862,
+          "textContent": "跳傘06:29",
+          "currentParsed": {
+            "time": 389,
+            "confidence": 1,
+            "reference": "06:29"
+          },
+          "currentCues": [],
+          "currentSingletonCandidate": {
+            "start": 334.862,
+            "end": 389,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 321.986,
+          "textContent": "广告",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 315.888,
+          "textContent": "这个广告也太硬了。。。不好买啊",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [
+        {
+          "from": 328.54,
+          "to": 330.62,
+          "content": "AI pod这类自动优化软件"
+        },
+        {
+          "from": 332.68,
+          "to": 336.3,
+          "content": "它可以自动调用cad软件以及CAAE软件"
+        },
+        {
+          "from": 336.3,
+          "to": 337.85,
+          "content": "帮你建模和仿真"
+        }
+      ],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 295.26,
+            "end": 390,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "automaticSegments": [
+          {
+            "start": 295.26,
+            "end": 390,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "seekDestinations": [
+          390.05
+        ]
+      },
+      "interpretation": "繁体跳傘的时间可解析但不认指令。本作者在旧holdout中，仅保留观察，不据此调参。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "decimal-instruction-covered-elsewhere",
+      "bvid": "BV13ptjzSETZ",
+      "cid": 31493721117,
+      "title": "《锻刀大赛》惊现中国神器 子午鸳鸯钺！狗哥爱不释手 刀刀暴击",
+      "duration": 909,
+      "source": {
+        "recordFile": "eval/data/combined-351.jsonl",
+        "capturedAt": "2026-09-30T15:39:53.038Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": "2026-09-30T18:05:41.853Z",
+        "commentRows": 3600,
+        "subtitleRows": 479,
+        "checkpoint": false
+      },
+      "evidenceStatus": "community-and-comment-diagnostic",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 163.964,
+            "end": 203.968,
+            "category": "sponsor",
+            "votes": 5,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 166.525,
+          "textContent": "空降3.25",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 162.311,
+          "textContent": "跳伞03：25",
+          "currentParsed": {
+            "time": 205,
+            "confidence": 1,
+            "reference": "03：25"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": {
+            "start": 167.311,
+            "end": 205,
+            "requiresConfirmation": false,
+            "matchedKeywords": [
+              "跳伞"
+            ],
+            "reason": "explicit-danmaku-skip",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 1,
+            "alternativeDestinations": []
+          }
+        },
+        {
+          "rawTime": 168.261,
+          "textContent": "我是三分二十三秒郎",
+          "currentParsed": {
+            "time": 203,
+            "confidence": 1,
+            "reference": "三分二十三秒"
+          },
+          "currentCues": [],
+          "currentSingletonCandidate": {
+            "start": 173.261,
+            "end": 203,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          }
+        }
+      ],
+      "subtitleEvidence": [
+        {
+          "from": 172.38,
+          "to": 174.74,
+          "content": "就找转转上门回收了2600多"
+        },
+        {
+          "from": 201.62,
+          "to": 203.899,
+          "content": "找转转这种大平台准没错"
+        }
+      ],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 167.311,
+            "end": 205,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": [
+              {
+                "end": 204,
+                "explicitCount": 1
+              }
+            ]
+          }
+        ],
+        "automaticSegments": [
+          {
+            "start": 167.311,
+            "end": 205,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": [
+              {
+                "end": 204,
+                "explicitCount": 1
+              }
+            ]
+          }
+        ],
+        "seekDestinations": [
+          205.05
+        ]
+      },
+      "interpretation": "小数点形式空降未解析，中文分秒可解析但角色式后缀不认指令。其他标准指令已提供自动候选，格式遗漏不等于整段完全漏检。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "chinese-digit-engineering",
+      "bvid": "BV1gnPFzCE9f",
+      "cid": 36424257001,
+      "title": "霍尔木兹一关，欧洲先断气：美以打伊朗打到哪了？",
+      "duration": 978,
+      "source": {
+        "recordFile": "eval/data/danmaku-audit-20261001/new-checkpoint.jsonl",
+        "capturedAt": "2026-10-01T16:05:11.394Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": null,
+        "commentRows": 1918,
+        "subtitleRows": 0,
+        "checkpoint": true
+      },
+      "evidenceStatus": "low-vote-community-and-comment-diagnostic",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 257.033,
+            "end": 339.433,
+            "category": "sponsor",
+            "votes": 0,
+            "locked": false,
+            "excludedFromHighVoteReference": true
+          },
+          {
+            "start": 960.033,
+            "end": 977.933,
+            "category": "sponsor",
+            "votes": 0,
+            "locked": false,
+            "excludedFromHighVoteReference": true
+          },
+          {
+            "start": 257.032,
+            "end": 339.885,
+            "category": "sponsor",
+            "votes": 0,
+            "locked": false,
+            "excludedFromHighVoteReference": true
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 256.993,
+          "textContent": "五四零工程",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 256.993,
+          "textContent": "一共540元",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 340.7,
+          "textContent": "540是个好工程啊",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 344.73,
+          "textContent": "540元多谢",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [],
+        "automaticSegments": [],
+        "seekDestinations": []
+      },
+      "interpretation": "中文逐字数字工程未解析；金额和事后致谢不能直接转成时间真值。seed中仅有低票社区参考，不是人工应跳标签。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "opening-guard-and-colon-space",
+      "bvid": "BV1gGb8zZEme",
+      "cid": 31661817876,
+      "title": "既防超速又防龟速，简直天才设计",
+      "duration": 377,
+      "source": {
+        "recordFile": "eval/data/danmaku-audit-20261001/new-checkpoint.jsonl",
+        "capturedAt": "2026-10-01T16:06:01.594Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": null,
+        "commentRows": 1200,
+        "subtitleRows": 0,
+        "checkpoint": true
+      },
+      "evidenceStatus": "community-and-comment-diagnostic",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 7,
+            "end": 47,
+            "category": "sponsor",
+            "votes": 3,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 2.743,
+          "textContent": "空降00：48",
+          "currentParsed": {
+            "time": 48,
+            "confidence": 1,
+            "reference": "00：48"
+          },
+          "currentCues": [
+            "空降"
+          ],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 3.491,
+          "textContent": "空降00:48",
+          "currentParsed": {
+            "time": 48,
+            "confidence": 1,
+            "reference": "00:48"
+          },
+          "currentCues": [
+            "空降"
+          ],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 4.515,
+          "textContent": "空降00: 49",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 8.874,
+          "textContent": "跳伞00:49",
+          "currentParsed": {
+            "time": 49,
+            "confidence": 1,
+            "reference": "00:49"
+          },
+          "currentCues": [
+            "跳伞"
+          ],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 4.344,
+          "textContent": "开局广告，老冯飞天",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 12.151,
+          "textContent": "广告放开头挺好的，不会扫兴",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 18.705,
+          "textContent": "好家伙，开局先看50秒广告是吧？",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [],
+        "automaticSegments": [],
+        "seekDestinations": []
+      },
+      "interpretation": "多数时轴已识别，但开场保护仍拒绝；另有冒号内空格格式缺口。不能把整片无候选全部归因于格式。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    },
+    {
+      "id": "decimal-measurement-negative-parse",
+      "bvid": "BV1DAdrY7EfP",
+      "cid": 29390211980,
+      "title": "事故率最高的五代机是谁?【军事榨菜27】",
+      "duration": 976,
+      "source": {
+        "recordFile": "eval/data/danmaku-audit-20261001/new-checkpoint.jsonl",
+        "capturedAt": "2026-10-01T16:06:11.598Z",
+        "method": "anonymous-public-page-and-xml",
+        "subtitleFetchedAt": null,
+        "commentRows": 3600,
+        "subtitleRows": 0,
+        "checkpoint": true
+      },
+      "evidenceStatus": "ordinary-text-counterexample-not-human-gold",
+      "holdoutAuthor": false,
+      "eligibleForRuleTuning": true,
+      "humanGroundTruth": null,
+      "communityReferences": {
+        "humanGroundTruth": false,
+        "segments": [
+          {
+            "start": 378.463,
+            "end": 465.893,
+            "category": "sponsor",
+            "votes": 4,
+            "locked": false
+          }
+        ]
+      },
+      "comments": [
+        {
+          "rawTime": 186.917,
+          "textContent": "1磅=0.454千克，8.5磅大概是3.8公斤。",
+          "currentParsed": null,
+          "currentCues": [],
+          "currentSingletonCandidate": null
+        },
+        {
+          "rawTime": 382.431,
+          "textContent": "空降07:45",
+          "currentParsed": {
+            "time": 465,
+            "confidence": 1,
+            "reference": "07:45"
+          },
+          "currentCues": [
+            "空降"
+          ],
+          "currentSingletonCandidate": {
+            "start": 387.431,
+            "end": 465,
+            "requiresConfirmation": false,
+            "matchedKeywords": [
+              "空降"
+            ],
+            "reason": "explicit-danmaku-skip",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 1,
+            "alternativeDestinations": []
+          }
+        }
+      ],
+      "subtitleEvidence": [],
+      "actualReplay": {
+        "candidates": [
+          {
+            "start": 387.431,
+            "end": 465,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "automaticSegments": [
+          {
+            "start": 387.431,
+            "end": 465,
+            "source": "danmaku-time",
+            "requiresConfirmation": false,
+            "reason": "explicit-danmaku-skip",
+            "reviewReasons": [],
+            "alternativeDestinations": []
+          }
+        ],
+        "seekDestinations": [
+          465.05
+        ]
+      },
+      "interpretation": "质量换算中的小数不是时间指令，是扩充小数时轴规则应保留的反例。该视频其他位置存在跳转，不代表本句是广告。",
+      "newHumanLabel": false,
+      "visualBoundaryVerified": false
+    }
+  ]
+}

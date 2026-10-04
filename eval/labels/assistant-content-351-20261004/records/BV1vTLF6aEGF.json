@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vTLF6aEGF",
+    "cid": 38378603148,
+    "duration": 212,
+    "fullTranscriptRead": true,
+    "videoSummary": "以人与狗甩水实验解释动物甩水频率、体重和皮肤松弛的关系，结尾转为方太L10油烟机自清洁功能广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 148.88,
+        "end": 211.36,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以高效旋转保持狗狗干燥清洁作衔接，转入方太油烟机，完整演示加水、自清洁、蒸汽水流及甩干过程并介绍吸烟功能，直到最后试用推荐；之后没有返回科普正文。",
+        "evidence": [
+          {
+            "to": 1.24,
+            "text": "每次给狗洗澡",
+            "from": 0
+          },
+          {
+            "to": 155.24,
+            "text": "而这款方太智慧型油烟机L10",
+            "from": 152.64
+          },
+          {
+            "to": 211.36,
+            "text": "L10吧",
+            "from": 210.31
+          }
+        ],
+        "startUncertainty": [
+          148.88,
+          148.88
+        ],
+        "endUncertainty": [
+          211.36,
+          211.36
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 148.88,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

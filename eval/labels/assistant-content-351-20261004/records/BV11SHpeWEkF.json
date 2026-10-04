@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV11SHpeWEkF",
+    "cid": 25715279235,
+    "duration": 1000,
+    "fullTranscriptRead": true,
+    "videoSummary": "逐杯试喝网红奶茶加料配方并评价价格、口感；中间插入漫步者耳机及服饰促销，结尾再次提醒耳机领券。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 205.32,
+        "end": 315.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从转场种草耳机开始，经参数、独家价格、售后和链接，接续服装价格与评论区购买，至奶茶测评恢复；两段连续可独立移除的促销。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          205.32,
+          205.32
+        ],
+        "endUncertainty": [
+          315.66,
+          315.66
+        ],
+        "evidence": [
+          {
+            "from": 56.88,
+            "to": 57.8,
+            "text": "今天这些奶茶"
+          },
+          {
+            "from": 206.8,
+            "to": 209.56,
+            "text": "一款全网爆火的国货大牌耳机"
+          },
+          {
+            "from": 287.84,
+            "to": 290.56,
+            "text": "我把正品耳机购买链接放在视频下方评论区"
+          },
+          {
+            "from": 312.98,
+            "to": 315.66,
+            "text": "想要小伙伴赶紧的去评论区抢一波吧"
+          },
+          {
+            "from": 315.66,
+            "to": 318.92,
+            "text": "来下一个是摸酸奶的一个网红喝法哈"
+          }
+        ]
+      },
+      {
+        "start": 985.34,
+        "end": 990.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "测评结束后独立重复耳机领券福利提示，后接关注告别。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          985.34,
+          985.34
+        ],
+        "endUncertainty": [
+          990.94,
+          990.94
+        ],
+        "evidence": [
+          {
+            "from": 981.38,
+            "to": 982.98,
+            "text": "好了各位上测评就结束了"
+          },
+          {
+            "from": 985.34,
+            "to": 987.24,
+            "text": "另外想要视频同款耳机的小伙伴"
+          },
+          {
+            "from": 987.24,
+            "to": 989.16,
+            "text": "不要忘了去评论区领券购买"
+          },
+          {
+            "from": 990.94,
+            "to": 992.4,
+            "text": "电视的小伙伴帮我点击注哦"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 5.91,
+        "end": 205.32,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 315.66,
+        "end": 985.34,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 990.94,
+        "end": 995.08,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

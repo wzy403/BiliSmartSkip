@@ -1,0 +1,60 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Si42117FA",
+    "cid": 1524907356,
+    "duration": 380,
+    "fullTranscriptRead": true,
+    "videoSummary": "批评逃离塔科夫高价蓝边版本、付费优势、黑边承诺和运营争议；竞品及价格均为评论语境。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.04,
+        "end": 371.58,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 0.94,
+            "text": "嗯大家好"
+          },
+          {
+            "from": 182.4,
+            "to": 184.19,
+            "text": "空缺的地方的弥补"
+          },
+          {
+            "from": 370.29,
+            "to": 371.58,
+            "text": "收工"
+          }
+        ],
+        "startUncertainty": [
+          0.04,
+          0.04
+        ],
+        "endUncertainty": [
+          371.58,
+          371.58
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 371.58,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

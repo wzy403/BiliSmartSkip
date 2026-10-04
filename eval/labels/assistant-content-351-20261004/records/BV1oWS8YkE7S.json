@@ -1,0 +1,71 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1oWS8YkE7S",
+    "cid": 26520518972,
+    "duration": 1400,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆联机战斗中利用炸弹把敌方坦克抛向空中，交流侦察、投弹配合、战斗回放以及汉堡物价闲聊。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.08,
+        "end": 1385.42,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "全文为游戏实况和队友闲聊；牛排馆、汉堡价格与麦当劳回忆没有赞助、购买导流或独立推荐结构。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.08,
+          0.08
+        ],
+        "endUncertainty": [
+          1385.42,
+          1385.42
+        ],
+        "evidence": [
+          {
+            "from": 11.23,
+            "to": 12.09,
+            "text": "看看炸弹"
+          },
+          {
+            "from": 443.14,
+            "to": 445.38,
+            "text": "我一直在从牛排店叫外卖"
+          },
+          {
+            "from": 521.74,
+            "to": 525.04,
+            "text": "只要给我我的我的致癌食品便宜"
+          },
+          {
+            "from": 1301.969,
+            "to": 1305.34,
+            "text": "我必须说那个双炸弹可能改变了战斗的进程"
+          },
+          {
+            "from": 1383.78,
+            "to": 1384.28,
+            "text": "好射击"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 1385.42,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

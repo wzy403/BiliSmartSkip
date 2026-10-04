@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Ux411D7MB",
+    "cid": 15595638,
+    "duration": 212,
+    "fullTranscriptRead": true,
+    "videoSummary": "我的歌声里音乐MV歌词，未见口述商业推介。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 20.34,
+        "end": 202.82,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 20.34,
+            "to": 21.99,
+            "text": "没有一点点防备"
+          },
+          {
+            "from": 113.49,
+            "to": 115.32,
+            "text": "我的梦里"
+          },
+          {
+            "from": 199.679,
+            "to": 202.82,
+            "text": "哎哎哎"
+          }
+        ],
+        "startUncertainty": [
+          20.34,
+          20.34
+        ],
+        "endUncertainty": [
+          202.82,
+          202.82
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 20.34,
+        "end": 202.82,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "全为歌词字幕，正常覆盖指节目正文而非交谈；不推断画面植入。"
+    ]
+  }
+}

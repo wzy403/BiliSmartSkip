@@ -1,0 +1,71 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1L7tye7ECP",
+    "cid": 25949046209,
+    "duration": 207,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释现代游戏模糊与时间抗锯齿的关系，比较MSAA成本和画质，并以作者自研游戏介绍alpha-to-coverage植被边缘处理。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.04,
+        "end": 206.62,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "自研游戏名称作为图形技术方案的实例，末尾推荐相关技术视频；全文未出现独立商业促销或付费导流，保留主题讲解。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.04,
+          0.04
+        ],
+        "endUncertainty": [
+          206.62,
+          206.62
+        ],
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.8,
+            "text": "你可能已经注意到，这些年来"
+          },
+          {
+            "from": 91.48,
+            "to": 92.98,
+            "text": "时间反列表"
+          },
+          {
+            "from": 134.26,
+            "to": 136.68,
+            "text": "我决定对我的自己游戏裂谷分裂"
+          },
+          {
+            "from": 182.26,
+            "to": 185.94,
+            "text": "这种技术被称为alpha to coverage，似乎并不广泛使用"
+          },
+          {
+            "from": 200.88,
+            "to": 204.82,
+            "text": "在那里，我解释了制作多人第一人称射击游戏所需的概念"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 206.62,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

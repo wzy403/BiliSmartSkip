@@ -1,0 +1,202 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1KR8E6VEXM",
+    "cid": 41053980039,
+    "duration": 803,
+    "fullTranscriptRead": true,
+    "videoSummary": "安顺探访早餐、裹卷、冰浆、炸猪脚、烤小肠与夺夺粉，再去山野景点；全程多处以旅行场景植入理想L6空间、冰箱、充电和驾驶配置。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 187.62,
+        "end": 198.39,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "买完市场物品放后备箱并夸空间，属于旅行过渡中的短植入，保留行程。",
+        "evidence": [
+          {
+            "to": 6.38,
+            "text": "你吃过猪脚爆米花吗",
+            "from": 3.74
+          },
+          {
+            "to": 194.15,
+            "text": "正好一起放进新一代理想L6的后备箱",
+            "from": 191.53
+          },
+          {
+            "to": 200.33,
+            "text": "离开市场的热闹",
+            "from": 198.93
+          }
+        ],
+        "startUncertainty": [
+          187.62,
+          187.62
+        ],
+        "endUncertainty": [
+          198.39,
+          198.93
+        ]
+      },
+      {
+        "start": 326.04,
+        "end": 337.64,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "多买裹卷与车载冰箱储存连续发生，短品牌展示与食物主线衔接，保留。",
+        "evidence": [
+          {
+            "to": 6.38,
+            "text": "你吃过猪脚爆米花吗",
+            "from": 3.74
+          },
+          {
+            "to": 335.02,
+            "text": "整齐放进理想L6的8.8L冷暖冰箱里",
+            "from": 332.1
+          },
+          {
+            "to": 343.08,
+            "text": "安顺人的凉粉居然是热着吃",
+            "from": 340.32
+          }
+        ],
+        "startUncertainty": [
+          326.04,
+          326.04
+        ],
+        "endUncertainty": [
+          337.64,
+          340.32
+        ]
+      },
+      {
+        "start": 447.42,
+        "end": 453.66,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "等餐时短述充电性能，广告明确但仅数秒，保留。",
+        "evidence": [
+          {
+            "to": 443.32,
+            "text": "安顺人真的会把碳水玩出花来",
+            "from": 439.68
+          },
+          {
+            "to": 450.56,
+            "text": "门外的理想L6",
+            "from": 449.38
+          },
+          {
+            "to": 458.12,
+            "text": "这是我第一次这样吃猪脚",
+            "from": 456.28
+          }
+        ],
+        "startUncertainty": [
+          443.32,
+          447.42
+        ],
+        "endUncertainty": [
+          453.66,
+          456.28
+        ]
+      },
+      {
+        "start": 566.04,
+        "end": 584.2,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "完整操作零重力座椅并以吃饱休息的需求夸舒适空间，独立车内体验后回到烤小肠。",
+        "evidence": [
+          {
+            "to": 6.38,
+            "text": "你吃过猪脚爆米花吗",
+            "from": 3.74
+          },
+          {
+            "to": 581.5,
+            "text": "好在理想L6拥有舒适大空间",
+            "from": 579.32
+          },
+          {
+            "to": 589.86,
+            "text": "要命差点把我们炸了",
+            "from": 587.7
+          }
+        ],
+        "startUncertainty": [
+          563.82,
+          566.04
+        ],
+        "endUncertainty": [
+          584.2,
+          587.7
+        ]
+      },
+      {
+        "start": 726.58,
+        "end": 778.979,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "山野行程混入品牌、导航、辅助驾驶和电池续航宣传，同时交代十二茅坡、峡谷大桥与目的地路线，整段跳过会丢失旅行正文，保留。",
+        "evidence": [
+          {
+            "to": 6.38,
+            "text": "你吃过猪脚爆米花吗",
+            "from": 3.74
+          },
+          {
+            "to": 770.03,
+            "text": "理想L6搭载51千瓦时电池",
+            "from": 767.33
+          },
+          {
+            "to": 784.74,
+            "text": "铜鼓荡黑色石山从草甸里一块一块冒出来",
+            "from": 780.72
+          }
+        ],
+        "startUncertainty": [
+          723.27,
+          726.58
+        ],
+        "endUncertainty": [
+          778.979,
+          780.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.74,
+        "end": 566.04,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 584.2,
+        "end": 802.08,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1we411p7q8",
+    "cid": 1410174300,
+    "duration": 1219,
+    "fullTranscriptRead": true,
+    "videoSummary": "装甲巡洋舰历史科普，开头简短赞助声明，后段中断海军史介绍香氛沐浴露再回到华盛顿条约后的舰种发展。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 0,
+        "end": 5.96,
+        "reason": "开头两句赞助和品牌口号为简短鸣谢，随后直接进入舰船内容；保留。",
+        "startUncertainty": [
+          0,
+          0
+        ],
+        "endUncertainty": [
+          5.96,
+          5.96
+        ],
+        "evidence": [
+          {
+            "from": 0,
+            "to": 2.43,
+            "content": "本节目由秋木耳且由赞助播出"
+          },
+          {
+            "from": 2.43,
+            "to": 5.96,
+            "content": "秋木耳让生活闻起来从未如此轻松"
+          },
+          {
+            "from": 5.96,
+            "to": 9.2,
+            "content": "你现在看见的视频既不是什么电影cg"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 401.16,
+        "end": 419.84,
+        "reason": "引用历史造船厂营销话语用于说明军备发展背景，是海军史资料，不能作为本视频广告跳过。",
+        "startUncertainty": [
+          401.16,
+          401.16
+        ],
+        "endUncertainty": [
+          419.84,
+          419.84
+        ],
+        "evidence": [
+          {
+            "from": 401.16,
+            "to": 404.03,
+            "content": "其生产厂商为了营销还这样写道"
+          },
+          {
+            "from": 404.03,
+            "to": 406.01,
+            "content": "幸好他交给了一个"
+          },
+          {
+            "from": 413.89,
+            "to": 416.71,
+            "content": "英国海军中没有任何一艘巡洋舰"
+          },
+          {
+            "from": 418.15,
+            "to": 419.84,
+            "content": "强到足够打败他"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 999.66,
+        "end": 1104.68,
+        "reason": "以观众看累了缓口气为插播开场，转入本视频赞助沐浴露，连续介绍成分、香型、礼盒和领券下单，1107.32秒恢复条约后的历史。",
+        "startUncertainty": [
+          999.66,
+          1005.2
+        ],
+        "endUncertainty": [
+          1104.68,
+          1107.32
+        ],
+        "evidence": [
+          {
+            "from": 999.66,
+            "to": 1001.46,
+            "content": "经历了这么多图表文字"
+          },
+          {
+            "from": 1003.08,
+            "to": 1004.37,
+            "content": "那么我们来缓口气啊"
+          },
+          {
+            "from": 1005.2,
+            "to": 1009.26,
+            "content": "我最近入手了这款秋木铁油氨基酸香氛沐浴露"
+          },
+          {
+            "from": 1097.36,
+            "to": 1098.92,
+            "content": "感兴趣的兄弟们别犹豫"
+          },
+          {
+            "from": 1098.92,
+            "to": 1100.54,
+            "content": "评论区领取优惠"
+          },
+          {
+            "from": 1101.5,
+            "to": 1104.68,
+            "content": "男人也要对自己好一点"
+          },
+          {
+            "from": 1107.32,
+            "to": 1110.04,
+            "content": "自1922年华盛顿海军条约签订后"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 5.96,
+        "end": 999.66,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 1107.32,
+        "end": 1210.46,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "历史舰船的造价、外销营销和性价比比较属于正文。广告末尾到回归正文间有字幕空隙，未当作精确视觉切点。"
+    ]
+  }
+}

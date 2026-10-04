@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1wLwrz3E4C",
+    "cid": 36804167896,
+    "duration": 156,
+    "fullTranscriptRead": true,
+    "videoSummary": "电脑维修趣闻中插入妙界眼部按摩仪推介，随后回到电脑断电与压力测试。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 38,
+        "end": 78.94,
+        "reason": "从眼睛不舒服引入眼部按摩仪，连续介绍产品卖点、评论区领券与售后，78.94秒回到电脑维修。",
+        "startUncertainty": [
+          36.72,
+          38.64
+        ],
+        "endUncertainty": [
+          78.94,
+          78.94
+        ],
+        "evidence": [
+          {
+            "from": 38,
+            "to": 38.64,
+            "content": "眼睛不舒服"
+          },
+          {
+            "from": 38.64,
+            "to": 40.88,
+            "content": "试了试妙界蒸汽雾化眼部按摩仪"
+          },
+          {
+            "from": 72.7,
+            "to": 74.9,
+            "content": "大家现在来我评论区领券就能抄底价"
+          },
+          {
+            "from": 77.76,
+            "to": 78.94,
+            "content": "保价一年送运险"
+          },
+          {
+            "from": 78.94,
+            "to": 80.88,
+            "content": "这大哥说自己定了经常容易关机"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 36.72,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 78.94,
+        "end": 151.519,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。"
+    ]
+  }
+}

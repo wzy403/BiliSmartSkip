@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1HRYdzfExw",
+    "cid": 31853972594,
+    "duration": 105,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍Python学习的基础、进阶、技能训练路径和本套教程大纲，邀请留言领取配套资料并点赞。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 2.82,
+        "end": 104.86,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "课程导览和配套免费资料说明构成本片主题；字幕没有独立商业赞助、收费报名或外部销售证据，不能因领取资料与课程自述自动跳过。",
+        "evidence": [
+          {
+            "from": 2.82,
+            "to": 4.58,
+            "text": "在本期视频开始之前"
+          },
+          {
+            "from": 39.96,
+            "to": 42.08,
+            "text": "让你可以把所学的知识进行变现"
+          },
+          {
+            "from": 99.92,
+            "to": 104.86,
+            "text": "我希望许过的愿望一"
+          }
+        ],
+        "startUncertainty": [
+          2.82,
+          2.82
+        ],
+        "endUncertainty": [
+          104.86,
+          104.86
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.82,
+        "end": 104.86,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

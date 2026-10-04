@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1KLtMzpErv",
+    "cid": 31474319563,
+    "duration": 977,
+    "fullTranscriptRead": true,
+    "videoSummary": "从传播与公关角度分析理想i8和乘龙卡车对撞争议；中间为水月雨耳机推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 269.16,
+        "end": 404.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确推广位开场，包含样品笑谈、药丸耳机全部卖点及置顶下单，217直接回公关分析；216为广告收束。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.44,
+            "text": "我想大家应该都看到了"
+          },
+          {
+            "from": 271.42,
+            "to": 274.36,
+            "text": "本期的推广位呢还是我们卖耳机的大哥水月雨"
+          },
+          {
+            "from": 316.52,
+            "to": 319.04,
+            "text": "那水与药丸的这个开放式的设计呢"
+          },
+          {
+            "from": 400.02,
+            "to": 401.66,
+            "text": "那么我们就可以评论区置顶链接"
+          },
+          {
+            "from": 404.58,
+            "to": 407.05,
+            "text": "我们回到内容这件事情发生之后"
+          }
+        ],
+        "startUncertainty": [
+          265.71,
+          269.16
+        ],
+        "endUncertainty": [
+          404.58,
+          404.58
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 269.16,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 404.58,
+        "end": 975.4,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "品牌海报和车企回应是被评论的新闻材料，不另作可跳广告。"
+    ]
+  }
+}

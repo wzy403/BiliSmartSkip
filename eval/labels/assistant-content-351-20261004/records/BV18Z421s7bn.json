@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV18Z421s7bn",
+    "cid": 1550006126,
+    "duration": 568,
+    "fullTranscriptRead": true,
+    "videoSummary": "三则天文科普：超新星伽马射线缺失、火星蜘蛛地形和M82磁星耀斑；火星话题结束后以牙齿黑斑作桥接，插入萌牙家牙刷推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 180.16,
+        "end": 334.36,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从火星黑斑转问牙齿黑斑起即构成牙刷推广的连续铺垫，继而渲染蛀牙治疗成本、论证电动牙刷、明确品牌合作，介绍多型号价格售后并推荐牙膏漱口水和领券。不能只从品牌出现处开始。",
+        "evidence": [
+          {
+            "from": 180.16,
+            "to": 190.32,
+            "text": "火星上的黑斑是被蜘蛛侵蚀的 我们牙齿上的黑斑是被什么侵蚀的呢 是牙虫吗 其实和火星上的蜘蛛一样 牙虫只是个形象的说法"
+          },
+          {
+            "from": 256.38,
+            "to": 269.22,
+            "text": "萌牙家是老朋友了 其实我在B站恰的第一顿饭就是萌牙家 为什么能合作4年 因为他家电动牙刷性能好 清洁力强 而且质量售后超靠谱 如果你想先入门 可以选萌牙家的星光款"
+          },
+          {
+            "from": 330.46,
+            "to": 343.78,
+            "text": "大家买之前一定要记得来评论区领优惠券 2023年11月15日 欧航局的伽马射线卫星 发现了一个非常短暂的伽马射线暴"
+          }
+        ],
+        "startUncertainty": [
+          179.68,
+          182.7
+        ],
+        "endUncertainty": [
+          334.36,
+          337.62
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.58,
+        "end": 179.68,
+        "reason": "超新星伽马射线及火星蜘蛛地形科普；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 337.62,
+        "end": 555.48,
+        "reason": "磁星耀斑观测、磁场来源与星爆星系解释；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1iw4m1v7PT",
+    "cid": 1576251524,
+    "duration": 859,
+    "fullTranscriptRead": true,
+    "videoSummary": "以荣格英雄之旅讲解心理动力、接受使命和主动想象，贯穿使用茶饮瓶身插画作为解释材料。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 32.42,
+        "end": 58.89,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确品牌赞助与新品引入；插画随后作为全篇解释材料，保留以理解正文。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 3.1,
+            "text": "心力匮乏是因为你没有唤醒潜意识的能量"
+          },
+          {
+            "from": 32.42,
+            "to": 34.94,
+            "text": "非常感谢茶派对这期视频的催更"
+          },
+          {
+            "from": 52.75,
+            "to": 55.73,
+            "text": "今天就用一瓶大家在哪里都能买到的茶派"
+          },
+          {
+            "from": 58.89,
+            "to": 60.73,
+            "text": "英雄之旅具体是什么呢"
+          }
+        ],
+        "startUncertainty": [
+          32.42,
+          32.42
+        ],
+        "endUncertainty": [
+          58.89,
+          58.89
+        ]
+      },
+      {
+        "start": 749.13,
+        "end": 783.46,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "重回瓶身插画并评价产品设计，商业称赞与核心投射练习交织，整体保留。",
+        "evidence": [
+          {
+            "from": 749.13,
+            "to": 751.69,
+            "text": "最后让我们重新看一下这幅画"
+          },
+          {
+            "from": 762.37,
+            "to": 763.57,
+            "text": "当时拿到新品的时候"
+          },
+          {
+            "from": 767.74,
+            "to": 769.98,
+            "text": "你很少能在其他饮品上看到"
+          },
+          {
+            "from": 783.46,
+            "to": 784.84,
+            "text": "英雄之旅的大框架"
+          }
+        ],
+        "startUncertainty": [
+          749.13,
+          749.13
+        ],
+        "endUncertainty": [
+          783.46,
+          783.46
+        ]
+      },
+      {
+        "start": 838.42,
+        "end": 843.92,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "独立而短的结尾赞助致谢，保留。",
+        "evidence": [
+          {
+            "from": 835.85,
+            "to": 838.42,
+            "text": "这就是英雄之旅的本质内涵"
+          },
+          {
+            "from": 839.24,
+            "to": 840.78,
+            "text": "再次感谢茶派"
+          },
+          {
+            "from": 843.92,
+            "to": 846.15,
+            "text": "你有接收到这份审理吗"
+          }
+        ],
+        "startUncertainty": [
+          838.42,
+          838.42
+        ],
+        "endUncertainty": [
+          843.92,
+          843.92
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 852.08,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "品牌插画贯穿课程示例，不能仅按品牌出现把解释正文划为可跳广告。"
+    ]
+  }
+}

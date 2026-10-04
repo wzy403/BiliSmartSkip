@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1CkxEe7Ekk",
+    "cid": 26016546878,
+    "duration": 295,
+    "fullTranscriptRead": true,
+    "videoSummary": "饲养羊和狗的日常，观察绝育后护食、配饲料和训犬，中插记账应用推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 158.48,
+        "end": 187.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从花钱超预算和养动物开支不清开始引出苗苗记账，含自动记账、存钱计划及下载推荐；63回喂狗。",
+        "evidence": [
+          {
+            "from": 17.38,
+            "to": 17.98,
+            "text": "去拿"
+          },
+          {
+            "from": 158.48,
+            "to": 160.24,
+            "text": "我这花钱也是大手大脚的"
+          },
+          {
+            "from": 165.5,
+            "to": 167.66,
+            "text": "幸好我有了这款苗苗记账app"
+          },
+          {
+            "from": 185.82,
+            "to": 187.3,
+            "text": "赶紧下载一个试试吧"
+          },
+          {
+            "from": 187.3,
+            "to": 188.85,
+            "text": "妞妞是不是等不及了"
+          }
+        ],
+        "startUncertainty": [
+          158.48,
+          158.48
+        ],
+        "endUncertainty": [
+          187.3,
+          187.3
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 17.38,
+        "end": 158.48,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 187.3,
+        "end": 293.16,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

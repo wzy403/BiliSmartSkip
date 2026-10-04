@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1HQk4BDE28",
+    "cid": 35467037916,
+    "duration": 1310,
+    "fullTranscriptRead": true,
+    "videoSummary": "借西贝关闭门店及创始人朋友圈回应，介绍公关学派并逐段批评其沟通策略，比较胖东来案例；中间独立推广妙界膝盖按摩仪。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 430.08,
+        "end": 573.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确宣布推广位，包含甲方催更笑话和天气冷关节不适的铺垫，至按摩仪卖点、送礼、领券质保及最后推荐完整结束；随后明确回到内容。",
+        "evidence": [
+          {
+            "to": 2.04,
+            "text": "上一期呢算番外啊",
+            "from": 0.08
+          },
+          {
+            "to": 436.14,
+            "text": "那本期的推广位是我们的妙界",
+            "from": 434.2
+          },
+          {
+            "to": 574.62,
+            "text": "我们回到内容",
+            "from": 573.58
+          }
+        ],
+        "startUncertainty": [
+          430.08,
+          430.08
+        ],
+        "endUncertainty": [
+          573.58,
+          573.58
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 430.08,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 573.58,
+        "end": 1309.56,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

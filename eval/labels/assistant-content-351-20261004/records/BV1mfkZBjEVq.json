@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1mfkZBjEVq",
+    "cid": 33873658410,
+    "duration": 1167,
+    "fullTranscriptRead": true,
+    "videoSummary": "解说德爷与孙灵野在合欢山的荒野求生竞赛，中途从腿脚疲劳转入泡脚桶促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 250.34,
+        "end": 335.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "承接爬山腿脚疲劳的铺垫即开始独立泡脚桶推荐，覆盖按摩功能、养生宣称、领券和售后，至比赛解说恢复前。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 0.96,
+            "text": "各位观众们大家好啊"
+          },
+          {
+            "from": 250.34,
+            "to": 252.42,
+            "text": "得得他们在山上爬的这么狠"
+          },
+          {
+            "from": 253.94,
+            "to": 257.12,
+            "text": "赶紧用老朋友妙借Z6软硅胶按摩泡脚桶"
+          },
+          {
+            "from": 326.5,
+            "to": 327.36,
+            "text": "领券到手"
+          },
+          {
+            "from": 335.46,
+            "to": 337.32,
+            "text": "得知这一宿啊睡得并不安稳"
+          }
+        ],
+        "startUncertainty": [
+          250.34,
+          250.34
+        ],
+        "endUncertainty": [
+          335.46,
+          335.46
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 250.34,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 335.46,
+        "end": 1166.44,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

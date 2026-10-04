@@ -1,0 +1,134 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1HX5i6CEam",
+    "cid": 38359073035,
+    "duration": 466,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释意识每秒十比特、视觉压缩及注意网络的单任务瓶颈，借腾讯智能体调研过程展示工具，并讨论专注与元认知。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 184.42,
+        "end": 204.35,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "腾讯工具的创建智能体演示带有品牌植入，同时建立稍后图解来源的叙述，关联研究流程，保留。",
+        "evidence": [
+          {
+            "to": 7.86,
+            "text": "生意行吗",
+            "from": 7.06
+          },
+          {
+            "to": 188.58,
+            "text": "我们用腾讯的q cloud创建一个文献研究",
+            "from": 186.14
+          },
+          {
+            "to": 205.66,
+            "text": "我们看看另一边",
+            "from": 204.35
+          }
+        ],
+        "startUncertainty": [
+          184.24,
+          184.42
+        ],
+        "endUncertainty": [
+          204.35,
+          204.35
+        ]
+      },
+      {
+        "start": 264.52,
+        "end": 268.94,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "微信检查智能体结果的两句植入直接承接脑区图解与知识解释，短且混入主线，保留。",
+        "evidence": [
+          {
+            "to": 260.68,
+            "text": "他们是干什么的",
+            "from": 259.48
+          },
+          {
+            "to": 266.56,
+            "text": "用微信检查7号的工作成果",
+            "from": 264.52
+          },
+          {
+            "to": 272.02,
+            "text": "这两个脑区恰好与多需求网络重合",
+            "from": 268.94
+          }
+        ],
+        "startUncertainty": [
+          263.04,
+          264.52
+        ],
+        "endUncertainty": [
+          268.94,
+          268.94
+        ]
+      },
+      {
+        "start": 341.71,
+        "end": 378.62,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从本期调研案例起完整转向腾讯工具的封装、部署、积分、微信、多智能体与skill便利性宣传，最后成果评价结束后回到注意网络单线程总结。",
+        "evidence": [
+          {
+            "to": 7.86,
+            "text": "生意行吗",
+            "from": 7.06
+          },
+          {
+            "to": 347.34,
+            "text": "尝试用腾讯的qq love帮助探索很多分支知识",
+            "from": 344.37
+          },
+          {
+            "to": 381.14,
+            "text": "当我们承认自己的CPU是单核的",
+            "from": 378.62
+          }
+        ],
+        "startUncertainty": [
+          341.71,
+          341.71
+        ],
+        "endUncertainty": [
+          378.62,
+          378.62
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 7.06,
+        "end": 341.71,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 378.62,
+        "end": 464.18,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

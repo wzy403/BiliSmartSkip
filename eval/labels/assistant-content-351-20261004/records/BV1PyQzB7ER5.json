@@ -1,0 +1,192 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1PyQzB7ER5",
+    "cid": 36938122023,
+    "duration": 786,
+    "fullTranscriptRead": true,
+    "videoSummary": "用AI可视化影视飓风同事梦境，探讨共性、身体刺激和群体环境；含慕思鸿蒙智能床合作、实测及片尾介绍。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 23.22,
+        "end": 26.12,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "一句合作声明，紧接研究问题，保留。",
+        "evidence": [
+          {
+            "from": 0.16,
+            "to": 1.68,
+            "text": "在我们公司每天有100多个人"
+          },
+          {
+            "from": 23.22,
+            "to": 26.12,
+            "text": "这怎么和慕斯鸿蒙智能床pro hd1拍即合"
+          },
+          {
+            "from": 26.12,
+            "to": 29.84,
+            "text": "我们一起来看看影视飓风的人在做什么样的梦"
+          }
+        ],
+        "startUncertainty": [
+          23.22,
+          23.22
+        ],
+        "endUncertainty": [
+          26.12,
+          26.12
+        ]
+      },
+      {
+        "start": 281.92,
+        "end": 294.12,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "品牌功能介绍同时说明睡眠数据测量来源，保留研究语境。",
+        "evidence": [
+          {
+            "from": 278.48,
+            "to": 280.84,
+            "text": "那梦到底是怎么形成的"
+          },
+          {
+            "from": 281.92,
+            "to": 284.24,
+            "text": "我们在慕斯鸿蒙智能床pro hd上"
+          },
+          {
+            "from": 291.3,
+            "to": 294.12,
+            "text": "我们精准地捕捉到了一次全周期的睡眠数据"
+          },
+          {
+            "from": 294.12,
+            "to": 295.8,
+            "text": "入睡大约90分钟之后"
+          }
+        ],
+        "startUncertainty": [
+          281.92,
+          281.92
+        ],
+        "endUncertainty": [
+          294.12,
+          294.12
+        ]
+      },
+      {
+        "start": 537.64,
+        "end": 572.19,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "体型与床垫需求实验、身体刺激解释和产品分区功能混合，保留主题内容。",
+        "evidence": [
+          {
+            "from": 534.5,
+            "to": 537.64,
+            "text": "那鬼压床睡眠瘫痪也是类似的道理"
+          },
+          {
+            "from": 537.64,
+            "to": 538.32,
+            "text": "我们试了一下"
+          },
+          {
+            "from": 547.2,
+            "to": 550.04,
+            "text": "导致背部不适或者被厚重的被子压住的时候"
+          },
+          {
+            "from": 553.56,
+            "to": 556.1,
+            "text": "那这次我们给大家体验的慕斯鸿蒙pro hd"
+          },
+          {
+            "from": 572.19,
+            "to": 575.63,
+            "text": "那如果说同一个空间生活的100个人"
+          }
+        ],
+        "startUncertainty": [
+          537.64,
+          537.64
+        ],
+        "endUncertainty": [
+          572.19,
+          572.19
+        ]
+      },
+      {
+        "start": 731.44,
+        "end": 760.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文总结后以不想被闹钟打断为铺垫，独立介绍智能床唤醒与全屋功能，314进入结束语。",
+        "evidence": [
+          {
+            "from": 720.41,
+            "to": 721.65,
+            "text": "所以这就是我们这次收集到的"
+          },
+          {
+            "from": 731.44,
+            "to": 733.48,
+            "text": "我们当然都非常不希望做着美梦"
+          },
+          {
+            "from": 734.78,
+            "to": 737.8,
+            "text": "那慕斯鸿蒙PHD可以通过床垫轻柔的律动"
+          },
+          {
+            "from": 747.61,
+            "to": 749.85,
+            "text": "慕斯首创拍拍扣连接全屋"
+          },
+          {
+            "from": 760.34,
+            "to": 761.58,
+            "text": "那本期视频就是这样"
+          }
+        ],
+        "startUncertainty": [
+          731.44,
+          731.44
+        ],
+        "endUncertainty": [
+          760.34,
+          760.34
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.16,
+        "end": 731.44,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 760.34,
+        "end": 770.56,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

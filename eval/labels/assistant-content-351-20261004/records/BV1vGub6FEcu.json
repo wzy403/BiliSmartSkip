@@ -1,0 +1,125 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vGub6FEcu",
+    "cid": 40681144545,
+    "duration": 285,
+    "fullTranscriptRead": true,
+    "videoSummary": "改造废弃大巴为同事午睡空间，安装躺椅、运动平台和投影营造旅途感，使用理想座椅并在结尾推广整车。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 69.29,
+        "end": 98.22,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "明确以广告视频进入理想座椅卖点，但座椅是午睡大巴的核心设计，功能解释直接支撑改造主题，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          69.29,
+          69.29
+        ],
+        "endUncertainty": [
+          98.22,
+          98.22
+        ],
+        "evidence": [
+          {
+            "from": 0,
+            "to": 1.44,
+            "text": "为了让同事睡个好觉"
+          },
+          {
+            "from": 69.29,
+            "to": 71.13,
+            "text": "你可以先看60秒广告视频"
+          },
+          {
+            "from": 78.189,
+            "to": 80.22,
+            "text": "我们选择了理想L8的零重力座椅"
+          },
+          {
+            "from": 97.12,
+            "to": 98.22,
+            "text": "真的非常舒服"
+          },
+          {
+            "from": 98.22,
+            "to": 99.56,
+            "text": "这椅子是挺舒服的"
+          },
+          {
+            "from": 99.56,
+            "to": 101.02,
+            "text": "但这么亮我睡不着啊"
+          }
+        ]
+      },
+      {
+        "start": 246.04,
+        "end": 284.44,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "改造故事结束后从大巴舒适引向理想整车，介绍芯片、语音助手、主动悬架并以演示笑料收尾；可独立跳过。首句含前一笑声，按完整字幕给边界。",
+        "startUncertainty": [
+          246.04,
+          248.98
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          284.44,
+          284.44
+        ],
+        "evidence": [
+          {
+            "from": 241.8,
+            "to": 243.92,
+            "text": "再麻烦也值了呀"
+          },
+          {
+            "from": 246.04,
+            "to": 248.98,
+            "text": "哦哟哦哦哦我们这个大坝自然不错"
+          },
+          {
+            "from": 248.98,
+            "to": 251.75,
+            "text": "但如果你想在路上也有同样舒适的体验"
+          },
+          {
+            "from": 251.75,
+            "to": 253.41,
+            "text": "不妨看看理想L8"
+          },
+          {
+            "from": 267.11,
+            "to": 270.01,
+            "text": "它神奇的800伏主动悬架搭配全线控底盘"
+          },
+          {
+            "from": 282.59,
+            "to": 284.44,
+            "text": "活动活动筋骨吧"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 246.04,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1mm411S7Lj",
+    "cid": 1455112737,
+    "duration": 1450,
+    "fullTranscriptRead": true,
+    "videoSummary": "叙述414至415年北魏、南凉、西秦、后秦与东晋政局，重点讲南凉覆灭及后秦夺嫡，中间推荐护颈枕。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 184.71,
+        "end": 250.72,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从躺床读经典影响睡眠的铺垫开始，转入神奇小鹿枕的价格、功能和赠礼售后，结束后接回秃发傉檀故事。",
+        "evidence": [
+          {
+            "from": 0.14,
+            "to": 2.42,
+            "text": "上一集我们说到公元413年"
+          },
+          {
+            "from": 184.71,
+            "to": 187.709,
+            "text": "这些经典文献值得躺在床上细细品味"
+          },
+          {
+            "from": 191.729,
+            "to": 192.929,
+            "text": "咱们有神奇小鹿"
+          },
+          {
+            "from": 241.28,
+            "to": 242.69,
+            "text": "三八妇女节快到了"
+          },
+          {
+            "from": 250.72,
+            "to": 251.68,
+            "text": "但是突发怒谈"
+          }
+        ],
+        "startUncertainty": [
+          184.71,
+          184.71
+        ],
+        "endUncertainty": [
+          250.72,
+          250.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.14,
+        "end": 184.71,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 250.72,
+        "end": 1431.54,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

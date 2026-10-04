@@ -1,0 +1,139 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1pc41127hu",
+    "cid": 1366805004,
+    "duration": 1037,
+    "fullTranscriptRead": true,
+    "videoSummary": "梳理战列巡洋舰的概念、费舍尔构想、一战海战、殉爆原因及向高速战列舰的演化；片尾分两次推广战舰世界版本与舰船。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 908.25,
+        "end": 969.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "用历史无如果而游戏有作完整铺垫，转入战舰世界圣诞箱、北上战舰及投稿赛事奖品和行动号召，随后短暂回到舰种历史总结。",
+        "evidence": [
+          {
+            "to": 1.92,
+            "text": "我想问大家一个问题",
+            "from": 0.12
+          },
+          {
+            "to": 920.119,
+            "text": "正好战舰世界12.11版本已经上线",
+            "from": 917.359
+          },
+          {
+            "to": 972.22,
+            "text": "战列巡洋舰的历史就这么落幕了",
+            "from": 969.46
+          }
+        ],
+        "startUncertainty": [
+          908.25,
+          908.25
+        ],
+        "endUncertainty": [
+          969.46,
+          969.46
+        ]
+      },
+      {
+        "start": 985.8,
+        "end": 1028.08,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "重新以感受战巡为由推荐战舰世界英国路线，宣传模型精度、性能、鱼雷及升级游玩，直至防火门笑话收尾；历史正文已结束。",
+        "evidence": [
+          {
+            "to": 1.92,
+            "text": "我想问大家一个问题",
+            "from": 0.12
+          },
+          {
+            "to": 991.64,
+            "text": "我非常推荐游玩战舰世界里的英国战巡路线",
+            "from": 988.2
+          },
+          {
+            "to": 1028.62,
+            "text": "好了",
+            "from": 1028.08
+          }
+        ],
+        "startUncertainty": [
+          985.8,
+          985.8
+        ],
+        "endUncertainty": [
+          1028.08,
+          1028.08
+        ]
+      },
+      {
+        "start": 1030.66,
+        "end": 1032.72,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "一句独立赞助致谢，短小且交代合作，保留。",
+        "evidence": [
+          {
+            "to": 1.92,
+            "text": "我想问大家一个问题",
+            "from": 0.12
+          },
+          {
+            "to": 1032.72,
+            "text": "感谢战舰世界对本期视频的支持",
+            "from": 1030.66
+          },
+          {
+            "to": 1035.12,
+            "text": "我们下期节目再见",
+            "from": 1032.72
+          }
+        ],
+        "startUncertainty": [
+          1030.66,
+          1030.66
+        ],
+        "endUncertainty": [
+          1032.72,
+          1032.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 908.25,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 969.46,
+        "end": 985.8,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 1028.08,
+        "end": 1035.12,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

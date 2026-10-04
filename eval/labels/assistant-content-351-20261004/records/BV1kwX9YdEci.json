@@ -1,0 +1,91 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1kwX9YdEci",
+    "cid": 28636352169,
+    "duration": 858,
+    "fullTranscriptRead": true,
+    "videoSummary": "解说锻刀大赛冠军特辑，四名选手从夹钢锻造到长剑对决，包含热到离场、成品测试及大力本胜出；利用给妈妈买礼物的话题转入VH包包三八节推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 205.54,
+        "end": 210.66,
+        "contentType": "uncertain",
+        "skipDecision": "uncertain",
+        "confidence": "uncertain",
+        "boundaryConfidence": "uncertain",
+        "reason": "选手原本想用奖金给妈妈买礼物可能是节目情节，也直接铺垫随后的礼物广告；单列桥接而不把它当确定正常或为求精度丢掉铺垫。",
+        "evidence": [
+          {
+            "from": 205.54,
+            "to": 210.66,
+            "text": "你这本来想拿到这笔奖金之后给妈妈买礼物的 完这回看来是费劲了啊"
+          }
+        ],
+        "startUncertainty": [
+          205.54,
+          210.66
+        ],
+        "endUncertainty": [
+          210.66,
+          210.66
+        ]
+      },
+      {
+        "start": 210.66,
+        "end": 307.86,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "uncertain",
+        "reason": "以此言差矣、礼物用不了那么多钱承接前面桥接，推两款VH包、材质容量、送礼礼盒、备注赠品、质保与领券活动价；307.86明确回到赛场。完整铺垫可能从205.54开始，未把这部分隐去。",
+        "evidence": [
+          {
+            "from": 205.54,
+            "to": 221.24,
+            "text": "你这本来想拿到这笔奖金之后给妈妈买礼物的 完这回看来是费劲了啊 哈此言差矣 三八节的礼物可用不了那么些钱 这周六就是三八节了 我推荐两款送对象和妈妈的礼物 VH山茶花信封包和深海信封包"
+          },
+          {
+            "from": 298.68,
+            "to": 307.86,
+            "text": "这两款包包在全网的好评率非常高 商家还有运费险和90天质保 点评论区置顶链接 领专属优惠券 现在下单就是活动价"
+          },
+          {
+            "from": 307.86,
+            "to": 313.8,
+            "text": "趁着马特挂机的空档 其他三位选手猛猛提质量 尤其是伯特最先完成了淬火附魔"
+          }
+        ],
+        "startUncertainty": [
+          205.54,
+          210.66
+        ],
+        "endUncertainty": [
+          307.86,
+          307.86
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 205.54,
+        "reason": "参赛者、技艺和高温退场情节。"
+      },
+      {
+        "start": 307.86,
+        "end": 857.26,
+        "reason": "比赛过程及测试、结果和结尾；刀具售价与观众愿付多少为节目互动，不是商家购买导流。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面；205.54–210.66桥接归属不能只靠字幕确定。",
+      "实际字幕覆盖之外的比赛镜头不标正常或广告。"
+    ]
+  }
+}

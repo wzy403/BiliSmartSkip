@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV14ttA6fE4c",
+    "cid": 41359510928,
+    "duration": 475,
+    "fullTranscriptRead": true,
+    "videoSummary": "成都五人份卤肉饭限时挑战和奖金结果，中途插入护颈枕推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 105.04,
+        "end": 185.28,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从奔波睡不好开始枕头广告，涵盖使用体验、材质、售后与领券；87恢复称重挑战。",
+        "evidence": [
+          {
+            "from": 0.14,
+            "to": 2.46,
+            "text": "一分钟之内吃完这一锅卤肉饭"
+          },
+          {
+            "from": 105.04,
+            "to": 107.41,
+            "text": "最近一直全国各地到处奔波呀"
+          },
+          {
+            "from": 111.98,
+            "to": 116.039,
+            "text": "这是我睡了3年的神气小鹿双面承托护颈枕"
+          },
+          {
+            "from": 173.5,
+            "to": 176.07,
+            "text": "现在有活动领券抄底入手"
+          },
+          {
+            "from": 185.28,
+            "to": 187.08,
+            "text": "咱们现在称个重哈"
+          }
+        ],
+        "startUncertainty": [
+          105.04,
+          105.04
+        ],
+        "endUncertainty": [
+          185.28,
+          185.28
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.14,
+        "end": 105.04,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 185.28,
+        "end": 474.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

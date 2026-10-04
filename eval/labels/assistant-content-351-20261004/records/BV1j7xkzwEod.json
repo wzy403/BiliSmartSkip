@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1j7xkzwEod",
+    "cid": 32939706995,
+    "duration": 1149,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论日本自民党总裁选举、高市早苗政策及执政联盟局势，中途插入电竞椅推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 433.02,
+        "end": 550.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从政治人物难受转为久坐场景引出傲风椅，连续介绍配置、售后和双十一购买，至明确回到主题前结束。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 0.48,
+            "text": "同志们"
+          },
+          {
+            "from": 433.02,
+            "to": 434.46,
+            "text": "燕三遇到这种情况"
+          },
+          {
+            "from": 443.7,
+            "to": 446.38,
+            "text": "看到这把妮蔻同款傲风M6pro"
+          },
+          {
+            "from": 544.46,
+            "to": 547.94,
+            "text": "马上双11全年底价和傲风免费上门安装"
+          },
+          {
+            "from": 550.58,
+            "to": 552.02,
+            "text": "好了我们再回到主题"
+          }
+        ],
+        "startUncertainty": [
+          433.02,
+          433.02
+        ],
+        "endUncertainty": [
+          550.42,
+          550.58
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 433.02,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 550.42,
+        "end": 1148.88,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

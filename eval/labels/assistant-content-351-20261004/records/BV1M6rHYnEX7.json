@@ -1,0 +1,130 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1M6rHYnEX7",
+    "cid": 27695582301,
+    "duration": 627,
+    "fullTranscriptRead": true,
+    "videoSummary": "探访酒泉卫星发射中心和东风航天城，介绍参观限制、生活设施、旧发射工位及航天历史；文心一言邀约在片头揭示，片尾详述会员活动和使用体验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 38.51,
+        "end": 50.93,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "感叹接触航天意外由文心一言促成，短篇幅说明探访来源并承接主线，保留赞助披露及叙事。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          38.51,
+          38.51
+        ],
+        "endUncertainty": [
+          50.93,
+          50.93
+        ],
+        "evidence": [
+          {
+            "from": 35.97,
+            "to": 38.51,
+            "text": "他就是酒泉卫星发射中心"
+          },
+          {
+            "from": 38.51,
+            "to": 41.31,
+            "text": "我曾经认为中国航天这么宏大的概念"
+          },
+          {
+            "from": 45.56,
+            "to": 47.66,
+            "text": "人生第一次近距离接触火箭"
+          },
+          {
+            "from": 47.66,
+            "to": 50.93,
+            "text": "居然是文心一言带我们来的"
+          },
+          {
+            "from": 51.53,
+            "to": 52.51,
+            "text": "众所周知"
+          }
+        ]
+      },
+      {
+        "start": 529.98,
+        "end": 615.45,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "参观与历史感想正文结束后，以为何赴酒泉引出会员活动、品牌会场、产品旅行用途及用户导向称赞，至明确宣布回归系列；完整独立品牌推广尾段可跳。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          529.98,
+          529.98
+        ],
+        "endUncertainty": [
+          615.45,
+          615.45
+        ],
+        "evidence": [
+          {
+            "from": 529.98,
+            "to": 530.9,
+            "text": "等一下各位"
+          },
+          {
+            "from": 537.2,
+            "to": 539.54,
+            "text": "就是我们一直是文心爷的大会员"
+          },
+          {
+            "from": 559.46,
+            "to": 561.66,
+            "text": "这是一个关于文心一言的一个演讲会"
+          },
+          {
+            "from": 570,
+            "to": 572.52,
+            "text": "比如说我们经常会拿它来做一些资料的整合"
+          },
+          {
+            "from": 602.72,
+            "to": 605.36,
+            "text": "我们肯定是希望像文心妍这样的AI大模型"
+          },
+          {
+            "from": 613.09,
+            "to": 615.45,
+            "text": "这个是确实是用户的心声"
+          },
+          {
+            "from": 615.45,
+            "to": 618.34,
+            "text": "O接下来真的要跟还中国系列了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 529.98,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 615.45,
+        "end": 622.9,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

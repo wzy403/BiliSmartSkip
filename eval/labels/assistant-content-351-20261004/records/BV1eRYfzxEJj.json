@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1eRYfzxEJj",
+    "cid": 31859672029,
+    "duration": 334,
+    "fullTranscriptRead": true,
+    "videoSummary": "吐槽长辈转发的催婚、催生和婆媳关系营销内容，中插若叶防脱洗发液。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 110.74,
+        "end": 179.02,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确打广告后以催婚焦虑掉发起，完整包含防脱产品机理、功效宣称及置顶购买；116返回营销号引用。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 1.28,
+            "text": "不结婚的五大坏处"
+          },
+          {
+            "from": 110.74,
+            "to": 112.53,
+            "text": "我那个打个广告"
+          },
+          {
+            "from": 115.07,
+            "to": 118.04,
+            "text": "我推荐若叶凝翠密发防脱洗发耶"
+          },
+          {
+            "from": 172.86,
+            "to": 174.84,
+            "text": "评论区置顶链接有大额优惠券"
+          },
+          {
+            "from": 179.02,
+            "to": 181.36,
+            "text": "当你父母转发下面这些话的时候"
+          }
+        ],
+        "startUncertainty": [
+          110.74,
+          110.74
+        ],
+        "endUncertainty": [
+          179.02,
+          179.02
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 110.74,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 179.02,
+        "end": 333.66,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

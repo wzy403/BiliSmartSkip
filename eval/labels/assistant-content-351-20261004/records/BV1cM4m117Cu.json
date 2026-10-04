@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1cM4m117Cu",
+    "cid": 1632588465,
+    "duration": 1460,
+    "fullTranscriptRead": true,
+    "videoSummary": "梳理《混血王子》小说中魔药书、伏地魔家族记忆、魁地奇选拔、凯蒂项链事件与孤儿院等未充分改编的细节。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 156.36,
+        "end": 232.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "在邓布利多爱甜食的剧情说明后转向青年糖分、压力和肤质铺垫，完整推广珀莱雅双抗精华至粉丝福利推荐；之后回到哈利上课剧情。",
+        "startUncertainty": [
+          152.62,
+          156.36
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          232.42,
+          232.42
+        ],
+        "evidence": [
+          {
+            "from": 6.42,
+            "to": 8.74,
+            "text": "哈利波特与混血王子到底讲了个什么故事"
+          },
+          {
+            "from": 156.36,
+            "to": 159,
+            "text": "但我们这些二三十岁的青年朋友就不一样了"
+          },
+          {
+            "from": 168.5,
+            "to": 171.06,
+            "text": "就要给大家推荐老朋友珀莱雅家的经典产品"
+          },
+          {
+            "from": 230.36,
+            "to": 232.42,
+            "text": "想入手精华的朋友们真的可以去看看哦"
+          },
+          {
+            "from": 232.42,
+            "to": 234.06,
+            "text": "在上节黑魔法防御术课上"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 156.36,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 232.42,
+        "end": 1458.76,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

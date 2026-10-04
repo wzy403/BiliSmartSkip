@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1gy411i7Yx",
+    "cid": 1608726911,
+    "duration": 398,
+    "fullTranscriptRead": true,
+    "videoSummary": "用虚构防空交战场景讲碰炸、时间、近炸和可编程引信；中部大段介绍肩颈按摩仪及售价优惠售后，与军事科普完全分离。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 110.38,
+        "end": 229.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从讲到这必须推荐好东西开始，个人及家人肩颈酸痛作为铺垫，完整包含按摩手法、两型号价格、品控质保、送礼及领券退差价，直到健康祝福结束；229.34回防空故事。",
+        "evidence": [
+          {
+            "from": 110.38,
+            "to": 121.26,
+            "text": "讲到这 必须给你们推荐一个非常非常非常好用 非常有用的好东西 up以及我爸妈都非常喜欢用 是什么东西呢 就是这台望舒心肩颈按摩仪"
+          },
+          {
+            "from": 220.41,
+            "to": 229.34,
+            "text": "想买的别忘了去评论区领张优惠券 券后价保证全年最低 买贵随时退差价 最后祝你们都有一副健康的肩颈和脖子"
+          },
+          {
+            "from": 229.34,
+            "to": 234.87,
+            "text": "你还没缓过来呢 漫天遍野的轰炸机从飞了过来"
+          }
+        ],
+        "startUncertainty": [
+          110.38,
+          110.38
+        ],
+        "endUncertainty": [
+          229.34,
+          229.34
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 110.38,
+        "reason": "两种炮弹/引信的防空原理场景。"
+      },
+      {
+        "start": 229.34,
+        "end": 397.38,
+        "reason": "时间、近炸和可编程引信机制与防空故事；武器品牌是知识主题。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面或音频；未验证按摩宣传功效。",
+      "normalSpeechRanges仅使用实际字幕覆盖。"
+    ]
+  }
+}

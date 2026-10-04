@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1bch3zgEUQ",
+    "cid": 31460819758,
+    "duration": 969,
+    "fullTranscriptRead": true,
+    "videoSummary": "从公关角度分析爱康国宾CEO体检言论争议，讨论领导决策与公众情绪并示范回应稿，中间推广护颈枕。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 325.28,
+        "end": 440.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "独立重新问候即进入推广位，含文案笑话、熬夜场景、枕头功能和价格、评论区链接，直到明确回到内容。后续爱康声明和示范稿是评论主题中的引述，不是推广。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          325.28,
+          325.28
+        ],
+        "endUncertainty": [
+          440.5,
+          440.5
+        ],
+        "evidence": [
+          {
+            "from": 36,
+            "to": 38.56,
+            "text": "他在爱康国宾体检管理公司"
+          },
+          {
+            "from": 325.28,
+            "to": 325.54,
+            "text": "大家好"
+          },
+          {
+            "from": 329.54,
+            "to": 330.58,
+            "text": "就是这个神器"
+          },
+          {
+            "from": 437.68,
+            "to": 439.08,
+            "text": "找到这个商品的链接"
+          },
+          {
+            "from": 440.5,
+            "to": 441.86,
+            "text": "那么我们回到内容"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 325.28,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 440.5,
+        "end": 968.6,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

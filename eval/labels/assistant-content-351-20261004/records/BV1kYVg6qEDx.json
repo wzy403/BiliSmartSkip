@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1kYVg6qEDx",
+    "cid": 38713232483,
+    "duration": 1033,
+    "fullTranscriptRead": true,
+    "videoSummary": "讽刺特朗普生日与美国建国纪念相关庆典、肖像货币、护照及建筑项目，并讨论抗议和支持者反应；中途推荐蓝盒子床垫。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 290.6,
+        "end": 413.21,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从自称提供生活妙招转入蓝盒子床垫，完整介绍试睡体验、支撑弹簧分区、面料、上门取旧和退款政策直到评论区购买号召；随后明确话说回来重返政治话题。特朗普商品带货是报道讽刺对象。",
+        "evidence": [
+          {
+            "to": 2.68,
+            "text": "叶子熟了千万次总统大寿",
+            "from": 0.04
+          },
+          {
+            "to": 298.6,
+            "text": "蓝盒子经典款Z1小石头床垫",
+            "from": 296.04
+          },
+          {
+            "to": 414.73,
+            "text": "好了话说回来啊",
+            "from": 413.41
+          }
+        ],
+        "startUncertainty": [
+          290.6,
+          290.6
+        ],
+        "endUncertainty": [
+          413.21,
+          413.41
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 290.6,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 413.21,
+        "end": 1031.74,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,2719 @@
+{
+  "provenance": {
+    "videoUrl": "https://www.bilibili.com/video/BV1Kra36oEr3/",
+    "subtitleSource": "336 AI Chinese subtitle rows captured in the signed-in Chrome session; the complete saved track is retained without editing.",
+    "danmakuSource": "Only three timestamp comments retained by dev-danmaku-summary.json from a 675-comment development-extension response. This is a summary subset, not the full signed-in response and not the 285-comment anonymous response.",
+    "boundaryStatus": "The user estimated the advertisement at about 145–190 seconds. Subtitle evidence shows the transition at 141.12, product introduction at 146.54, promotion at 148.24 and return to ramen at 189.80. Precise visual boundaries have not been verified; these are regression candidate bounds, not new human labels."
+  },
+  "video": {
+    "bvid": "BV1Kra36oEr3",
+    "cid": 42273998753,
+    "duration": 633,
+    "title": "日本百强拉面！真实评分店铺，到底好吃吗？？"
+  },
+  "chapters": [],
+  "danmakuSample": [
+    {
+      "time": 144.551,
+      "textContent": "310认证成功"
+    },
+    {
+      "time": 145.462,
+      "textContent": "3.10工程"
+    },
+    {
+      "time": 193.538,
+      "textContent": "感谢310工程"
+    }
+  ],
+  "subtitles": [
+    {
+      "from": 0,
+      "to": 1.28,
+      "sid": 1,
+      "location": 2,
+      "content": "不往回收会频频出击",
+      "music": 0
+    },
+    {
+      "from": 1.28,
+      "to": 2.32,
+      "sid": 2,
+      "location": 2,
+      "content": "带你去拼夕夕界",
+      "music": 0
+    },
+    {
+      "from": 2.32,
+      "to": 6.16,
+      "sid": 3,
+      "location": 2,
+      "content": "又到了我们每月一次的拉面大探索环节",
+      "music": 0
+    },
+    {
+      "from": 6.76,
+      "to": 8.88,
+      "sid": 4,
+      "location": 2,
+      "content": "那么为了探索今天的这家拉面店",
+      "music": 0
+    },
+    {
+      "from": 8.88,
+      "to": 10.76,
+      "sid": 5,
+      "location": 2,
+      "content": "我们都已经翻了三次车了",
+      "music": 0
+    },
+    {
+      "from": 10.76,
+      "to": 12.52,
+      "sid": 6,
+      "location": 2,
+      "content": "因为他们家实在是太人气了",
+      "music": 0
+    },
+    {
+      "from": 12.52,
+      "to": 13.28,
+      "sid": 7,
+      "location": 2,
+      "content": "根本排不上队",
+      "music": 0
+    },
+    {
+      "from": 13.28,
+      "to": 14.3,
+      "sid": 8,
+      "location": 2,
+      "content": "为了必须吃上它",
+      "music": 0
+    },
+    {
+      "from": 14.3,
+      "to": 15.46,
+      "sid": 9,
+      "location": 2,
+      "content": "我这起了个大早",
+      "music": 0
+    },
+    {
+      "from": 15.46,
+      "to": 16.64,
+      "sid": 10,
+      "location": 2,
+      "content": "提前两个小时来排",
+      "music": 0
+    },
+    {
+      "from": 16.64,
+      "to": 17.64,
+      "sid": 11,
+      "location": 2,
+      "content": "我还不信吃不上了",
+      "music": 0
+    },
+    {
+      "from": 17.64,
+      "to": 17.88,
+      "sid": 12,
+      "location": 2,
+      "content": "对不对",
+      "music": 0
+    },
+    {
+      "from": 17.88,
+      "to": 18.64,
+      "sid": 13,
+      "location": 2,
+      "content": "我连头都没洗",
+      "music": 0
+    },
+    {
+      "from": 18.64,
+      "to": 20.16,
+      "sid": 14,
+      "location": 2,
+      "content": "你看我这造型有点狼狈了",
+      "music": 0
+    },
+    {
+      "from": 20.16,
+      "to": 20.64,
+      "sid": 15,
+      "location": 2,
+      "content": "说实话",
+      "music": 0
+    },
+    {
+      "from": 20.64,
+      "to": 22,
+      "sid": 16,
+      "location": 2,
+      "content": "别在这拍开头了",
+      "music": 0
+    },
+    {
+      "from": 22,
+      "to": 23.28,
+      "sid": 17,
+      "location": 2,
+      "content": "给我来了三四个人拍剧了",
+      "music": 0
+    },
+    {
+      "from": 23.28,
+      "to": 24.96,
+      "sid": 18,
+      "location": 2,
+      "content": "都是说是快快去排一排吧",
+      "music": 0
+    },
+    {
+      "from": 24.96,
+      "to": 25.68,
+      "sid": 19,
+      "location": 2,
+      "content": "走诶不对啊",
+      "music": 0
+    },
+    {
+      "from": 25.68,
+      "to": 27.54,
+      "sid": 20,
+      "location": 2,
+      "content": "通哥你不应该先上这块干活去吗",
+      "music": 0
+    },
+    {
+      "from": 27.54,
+      "to": 28.24,
+      "sid": 21,
+      "location": 2,
+      "content": "都休息了",
+      "music": 0
+    },
+    {
+      "from": 28.24,
+      "to": 29.83,
+      "sid": 22,
+      "location": 2,
+      "content": "你没看机器都放下来了吗",
+      "music": 0
+    },
+    {
+      "from": 29.83,
+      "to": 30.89,
+      "sid": 23,
+      "location": 2,
+      "content": "就是这么火啊",
+      "music": 0
+    },
+    {
+      "from": 30.89,
+      "to": 32.63,
+      "sid": 24,
+      "location": 2,
+      "content": "距离营业还有一个小时时间",
+      "music": 0
+    },
+    {
+      "from": 32.63,
+      "to": 34.66,
+      "sid": 25,
+      "location": 2,
+      "content": "门口就已经排了将近十个人了",
+      "music": 0
+    },
+    {
+      "from": 34.66,
+      "to": 36.88,
+      "sid": 26,
+      "location": 2,
+      "content": "前两次来的时候都排到那头了",
+      "music": 0
+    },
+    {
+      "from": 36.88,
+      "to": 37.86,
+      "sid": 27,
+      "location": 2,
+      "content": "终于快到我俩了",
+      "music": 0
+    },
+    {
+      "from": 37.86,
+      "to": 40.32,
+      "sid": 28,
+      "location": 2,
+      "content": "看现在这后边又排了十几个人",
+      "music": 0
+    },
+    {
+      "from": 40.32,
+      "to": 43.34,
+      "sid": 29,
+      "location": 2,
+      "content": "来来来来来来呼吁路人们",
+      "music": 0
+    },
+    {
+      "from": 43.34,
+      "to": 45.74,
+      "sid": 30,
+      "location": 2,
+      "content": "现在我跟同事去兰州自家超人气拉面店了",
+      "music": 0
+    },
+    {
+      "from": 45.74,
+      "to": 47.02,
+      "sid": 31,
+      "location": 2,
+      "content": "首先我们来到店里以后",
+      "music": 0
+    },
+    {
+      "from": 47.02,
+      "to": 48.68,
+      "sid": 32,
+      "location": 2,
+      "content": "你就可以看到屋里边非常的素",
+      "music": 0
+    },
+    {
+      "from": 48.68,
+      "to": 50.62,
+      "sid": 33,
+      "location": 2,
+      "content": "根本就没有什么任何华丽的装饰",
+      "music": 0
+    },
+    {
+      "from": 50.62,
+      "to": 53.08,
+      "sid": 34,
+      "location": 2,
+      "content": "但是这家店就只能给他做到这么出名",
+      "music": 0
+    },
+    {
+      "from": 53.08,
+      "to": 54.56,
+      "sid": 35,
+      "location": 2,
+      "content": "现在我们这个面就已经上来了",
+      "music": 0
+    },
+    {
+      "from": 54.56,
+      "to": 56.72,
+      "sid": 36,
+      "location": 2,
+      "content": "大家可以看到我这就是他们家特色的鸭肉面",
+      "music": 0
+    },
+    {
+      "from": 56.72,
+      "to": 57.68,
+      "sid": 37,
+      "location": 2,
+      "content": "内容还是挺多的",
+      "music": 0
+    },
+    {
+      "from": 57.68,
+      "to": 58.52,
+      "sid": 38,
+      "location": 2,
+      "content": "有一片鸭肉",
+      "music": 0
+    },
+    {
+      "from": 58.52,
+      "to": 59.74,
+      "sid": 39,
+      "location": 2,
+      "content": "两片竹成叉烧",
+      "music": 0
+    },
+    {
+      "from": 59.74,
+      "to": 61.9,
+      "sid": 40,
+      "location": 2,
+      "content": "下面呢就是他们家摆的非常整齐的拉面",
+      "music": 0
+    },
+    {
+      "from": 61.9,
+      "to": 64.18,
+      "sid": 41,
+      "location": 2,
+      "content": "这一份是1650日元",
+      "music": 0
+    },
+    {
+      "from": 64.18,
+      "to": 65.98,
+      "sid": 42,
+      "location": 2,
+      "content": "这个价格其实不是很平民的价格吧",
+      "music": 0
+    },
+    {
+      "from": 65.98,
+      "to": 68.38,
+      "sid": 43,
+      "location": 2,
+      "content": "我这个拉面金色贝的杂面",
+      "music": 0
+    },
+    {
+      "from": 68.38,
+      "to": 69.7,
+      "sid": 44,
+      "location": 2,
+      "content": "肺子的味道特别重",
+      "music": 0
+    },
+    {
+      "from": 69.7,
+      "to": 71.3,
+      "sid": 45,
+      "location": 2,
+      "content": "这汤的颜色就没有那个深",
+      "music": 0
+    },
+    {
+      "from": 71.3,
+      "to": 72.56,
+      "sid": 46,
+      "location": 2,
+      "content": "这里面就没有鸭肉",
+      "music": 0
+    },
+    {
+      "from": 72.56,
+      "to": 74.28,
+      "sid": 47,
+      "location": 2,
+      "content": "但是有普通的薄叉烧",
+      "music": 0
+    },
+    {
+      "from": 74.28,
+      "to": 74.92,
+      "sid": 48,
+      "location": 2,
+      "content": "厚叉烧",
+      "music": 0
+    },
+    {
+      "from": 74.92,
+      "to": 75.88,
+      "sid": 49,
+      "location": 2,
+      "content": "没有鸭肉的同时",
+      "music": 0
+    },
+    {
+      "from": 75.88,
+      "to": 77.18,
+      "sid": 50,
+      "location": 2,
+      "content": "我那会多了一个备注",
+      "music": 0
+    },
+    {
+      "from": 77.18,
+      "to": 79.08,
+      "sid": 51,
+      "location": 2,
+      "content": "我这晚上价格是1540",
+      "music": 0
+    },
+    {
+      "from": 79.08,
+      "to": 80.04,
+      "sid": 52,
+      "location": 2,
+      "content": "那咱还是吃面",
+      "music": 0
+    },
+    {
+      "from": 80.04,
+      "to": 83.02,
+      "sid": 53,
+      "location": 2,
+      "content": "先喝汤啊",
+      "music": 0
+    },
+    {
+      "from": 83.02,
+      "to": 86.08,
+      "sid": 54,
+      "location": 2,
+      "content": "很浓就是很焦香的那种酱油口味",
+      "music": 0
+    },
+    {
+      "from": 86.08,
+      "to": 87.76,
+      "sid": 55,
+      "location": 2,
+      "content": "不过这个是贝类的味道很浓",
+      "music": 0
+    },
+    {
+      "from": 87.76,
+      "to": 90.02,
+      "sid": 56,
+      "location": 2,
+      "content": "甚至到喉咙那块有点发紫",
+      "music": 0
+    },
+    {
+      "from": 90.02,
+      "to": 90.72,
+      "sid": 57,
+      "location": 2,
+      "content": "有点涩",
+      "music": 0
+    },
+    {
+      "from": 90.72,
+      "to": 91.02,
+      "sid": 58,
+      "location": 2,
+      "content": "作",
+      "music": 0
+    },
+    {
+      "from": 91.02,
+      "to": 91.68,
+      "sid": 59,
+      "location": 2,
+      "content": "来吧",
+      "music": 0
+    },
+    {
+      "from": 91.68,
+      "to": 92.92,
+      "sid": 60,
+      "location": 2,
+      "content": "品尝一下这个面条",
+      "music": 0
+    },
+    {
+      "from": 92.92,
+      "to": 94.16,
+      "sid": 61,
+      "location": 2,
+      "content": "嘶嘶",
+      "music": 0
+    },
+    {
+      "from": 97.66,
+      "to": 99.02,
+      "sid": 62,
+      "location": 2,
+      "content": "泡面的感觉啊",
+      "music": 0
+    },
+    {
+      "from": 99.02,
+      "to": 99.8,
+      "sid": 63,
+      "location": 2,
+      "content": "有这感觉",
+      "music": 0
+    },
+    {
+      "from": 99.8,
+      "to": 101.08,
+      "sid": 64,
+      "location": 2,
+      "content": "筋道的感觉比较弱",
+      "music": 0
+    },
+    {
+      "from": 101.08,
+      "to": 104.22,
+      "sid": 65,
+      "location": 2,
+      "content": "应该是切面都是小方块形状",
+      "music": 0
+    },
+    {
+      "from": 109.95,
+      "to": 110.77,
+      "sid": 66,
+      "location": 2,
+      "content": "聪哥啊",
+      "music": 0
+    },
+    {
+      "from": 110.77,
+      "to": 111.71,
+      "sid": 67,
+      "location": 2,
+      "content": "咋还没开始呢",
+      "music": 0
+    },
+    {
+      "from": 111.71,
+      "to": 112.31,
+      "sid": 68,
+      "location": 2,
+      "content": "就结束了",
+      "music": 0
+    },
+    {
+      "from": 112.31,
+      "to": 114.65,
+      "sid": 69,
+      "location": 2,
+      "content": "我吃面就一口哈",
+      "music": 0
+    },
+    {
+      "from": 114.65,
+      "to": 115.91,
+      "sid": 70,
+      "location": 2,
+      "content": "我来一个这个叉烧面",
+      "music": 0
+    },
+    {
+      "from": 115.91,
+      "to": 116.91,
+      "sid": 71,
+      "location": 2,
+      "content": "你可以看到这个叉烧",
+      "music": 0
+    },
+    {
+      "from": 116.91,
+      "to": 119.255,
+      "sid": 72,
+      "location": 2,
+      "content": "你也可以给他裹到面里面吃",
+      "music": 0
+    },
+    {
+      "from": 122.5,
+      "to": 123.46,
+      "sid": 73,
+      "location": 2,
+      "content": "到目前为止",
+      "music": 0
+    },
+    {
+      "from": 123.46,
+      "to": 125.02,
+      "sid": 74,
+      "location": 2,
+      "content": "我觉得那肉其实很薄",
+      "music": 0
+    },
+    {
+      "from": 125.02,
+      "to": 127.84,
+      "sid": 75,
+      "location": 2,
+      "content": "我这种薄肉其实感觉就是在我的印象当中",
+      "music": 0
+    },
+    {
+      "from": 127.84,
+      "to": 129.1,
+      "sid": 76,
+      "location": 2,
+      "content": "我觉得叉烧就是要厚",
+      "music": 0
+    },
+    {
+      "from": 129.1,
+      "to": 130.3,
+      "sid": 77,
+      "location": 2,
+      "content": "我都开始下饭了",
+      "music": 0
+    },
+    {
+      "from": 130.3,
+      "to": 132.56,
+      "sid": 78,
+      "location": 2,
+      "content": "我吃拉面必须得配米饭",
+      "music": 0
+    },
+    {
+      "from": 132.56,
+      "to": 134.43,
+      "sid": 79,
+      "location": 2,
+      "content": "而且还得吃叉烧饭",
+      "music": 0
+    },
+    {
+      "from": 134.43,
+      "to": 135.77,
+      "sid": 80,
+      "location": 2,
+      "content": "这个叉烧是喷香",
+      "music": 0
+    },
+    {
+      "from": 135.77,
+      "to": 136.51,
+      "sid": 81,
+      "location": 2,
+      "content": "炒过焦",
+      "music": 0
+    },
+    {
+      "from": 136.51,
+      "to": 137.49,
+      "sid": 82,
+      "location": 2,
+      "content": "香味十足",
+      "music": 0
+    },
+    {
+      "from": 137.49,
+      "to": 139.31,
+      "sid": 83,
+      "location": 2,
+      "content": "因为你速度实在太怪了",
+      "music": 0
+    },
+    {
+      "from": 139.31,
+      "to": 141.12,
+      "sid": 84,
+      "location": 2,
+      "content": "我走了爽",
+      "music": 0
+    },
+    {
+      "from": 141.12,
+      "to": 142.18,
+      "sid": 85,
+      "location": 2,
+      "content": "其实在日本待久了",
+      "music": 0
+    },
+    {
+      "from": 142.18,
+      "to": 143.92,
+      "sid": 86,
+      "location": 2,
+      "content": "你会发现拉面再好吃",
+      "music": 0
+    },
+    {
+      "from": 143.92,
+      "to": 145.5,
+      "sid": 87,
+      "location": 2,
+      "content": "偶尔还是会想念中国味",
+      "music": 0
+    },
+    {
+      "from": 145.5,
+      "to": 146.54,
+      "sid": 88,
+      "location": 2,
+      "content": "熟悉的味道",
+      "music": 0
+    },
+    {
+      "from": 146.54,
+      "to": 148.24,
+      "sid": 89,
+      "location": 2,
+      "content": "海底捞出了新品的鸳鸯锅",
+      "music": 0
+    },
+    {
+      "from": 148.24,
+      "to": 151.4,
+      "sid": 90,
+      "location": 2,
+      "content": "现在拼多多官方11周年预叠加国庆节大促",
+      "music": 0
+    },
+    {
+      "from": 151.4,
+      "to": 152.08,
+      "sid": 91,
+      "location": 2,
+      "content": "为了赚流量",
+      "music": 0
+    },
+    {
+      "from": 152.08,
+      "to": 153.4,
+      "sid": 92,
+      "location": 2,
+      "content": "推出一元秒杀专场",
+      "music": 0
+    },
+    {
+      "from": 153.4,
+      "to": 155.6,
+      "sid": 93,
+      "location": 2,
+      "content": "听说这次抽中概率足足翻了三倍啊",
+      "music": 0
+    },
+    {
+      "from": 155.6,
+      "to": 157.62,
+      "sid": 94,
+      "location": 2,
+      "content": "里面正好就有这个脸盆大的鸳鸯锅",
+      "music": 0
+    },
+    {
+      "from": 157.62,
+      "to": 159.6,
+      "sid": 95,
+      "location": 2,
+      "content": "我试了一下就抢到了这整整八盒",
+      "music": 0
+    },
+    {
+      "from": 159.6,
+      "to": 162.14,
+      "sid": 96,
+      "location": 2,
+      "content": "你看这川香牛肉加东北麻辣烫的双拼",
+      "music": 0
+    },
+    {
+      "from": 162.14,
+      "to": 164.2,
+      "sid": 97,
+      "location": 2,
+      "content": "和我在海底捞门店吃的那是一个味儿",
+      "music": 0
+    },
+    {
+      "from": 164.2,
+      "to": 164.84,
+      "sid": 98,
+      "location": 2,
+      "content": "特别正宗",
+      "music": 0
+    },
+    {
+      "from": 164.84,
+      "to": 167.36,
+      "sid": 99,
+      "location": 2,
+      "content": "还有渣渣牛肉加辣条双拼两个口味",
+      "music": 0
+    },
+    {
+      "from": 167.36,
+      "to": 168.84,
+      "sid": 100,
+      "location": 2,
+      "content": "你爱不爱吃辣的都能满足",
+      "music": 0
+    },
+    {
+      "from": 168.84,
+      "to": 170.64,
+      "sid": 101,
+      "location": 2,
+      "content": "还有这个麻辣加番茄双拼锅",
+      "music": 0
+    },
+    {
+      "from": 170.64,
+      "to": 172.08,
+      "sid": 102,
+      "location": 2,
+      "content": "这是海底捞的经典口味啊",
+      "music": 0
+    },
+    {
+      "from": 172.08,
+      "to": 173.36,
+      "sid": 103,
+      "location": 2,
+      "content": "番茄汤简直绝了",
+      "music": 0
+    },
+    {
+      "from": 173.36,
+      "to": 174.48,
+      "sid": 104,
+      "location": 2,
+      "content": "无论在家还是学生党",
+      "music": 0
+    },
+    {
+      "from": 174.48,
+      "to": 175.16,
+      "sid": 105,
+      "location": 2,
+      "content": "在寝室吃",
+      "music": 0
+    },
+    {
+      "from": 175.16,
+      "to": 176.24,
+      "sid": 106,
+      "location": 2,
+      "content": "或者出去户外露营",
+      "music": 0
+    },
+    {
+      "from": 176.24,
+      "to": 177.4,
+      "sid": 107,
+      "location": 2,
+      "content": "带一盒都特别方便",
+      "music": 0
+    },
+    {
+      "from": 177.4,
+      "to": 179.5,
+      "sid": 108,
+      "location": 2,
+      "content": "这大分量平常买下来都得好几十块了",
+      "music": 0
+    },
+    {
+      "from": 179.5,
+      "to": 180.26,
+      "sid": 109,
+      "location": 2,
+      "content": "现在赶上活动",
+      "music": 0
+    },
+    {
+      "from": 180.26,
+      "to": 181.78,
+      "sid": 110,
+      "location": 2,
+      "content": "一块钱就有机会抢八盒啊",
+      "music": 0
+    },
+    {
+      "from": 181.78,
+      "to": 183.32,
+      "sid": 111,
+      "location": 2,
+      "content": "我特地让品牌方给我的链接",
+      "music": 0
+    },
+    {
+      "from": 183.32,
+      "to": 184.84,
+      "sid": 112,
+      "location": 2,
+      "content": "配置了8000个中奖名额",
+      "music": 0
+    },
+    {
+      "from": 184.84,
+      "to": 186.32,
+      "sid": 113,
+      "location": 2,
+      "content": "现在点击我视频下方的链接",
+      "music": 0
+    },
+    {
+      "from": 186.32,
+      "to": 188.8,
+      "sid": 114,
+      "location": 2,
+      "content": "或者评论区置顶的蓝色链接就可以进去抢了",
+      "music": 0
+    },
+    {
+      "from": 188.8,
+      "to": 189.8,
+      "sid": 115,
+      "location": 2,
+      "content": "大家快去试试吧",
+      "music": 0
+    },
+    {
+      "from": 189.8,
+      "to": 194.28,
+      "sid": 116,
+      "location": 2,
+      "content": "你看现在我终于要品尝他的鸭肉了哦",
+      "music": 0
+    },
+    {
+      "from": 194.28,
+      "to": 196.76,
+      "sid": 117,
+      "location": 2,
+      "content": "这个鸭肉给我的感觉普通",
+      "music": 0
+    },
+    {
+      "from": 196.76,
+      "to": 198.24,
+      "sid": 118,
+      "location": 2,
+      "content": "你说他鸭肉火爆",
+      "music": 0
+    },
+    {
+      "from": 198.24,
+      "to": 199.8,
+      "sid": 119,
+      "location": 2,
+      "content": "那我必须要尝试一下了",
+      "music": 0
+    },
+    {
+      "from": 199.8,
+      "to": 201.64,
+      "sid": 120,
+      "location": 2,
+      "content": "我这个虽然不是鸭肉拉面",
+      "music": 0
+    },
+    {
+      "from": 201.64,
+      "to": 203.8,
+      "sid": 121,
+      "location": 2,
+      "content": "但是我追加了两份鸭肉",
+      "music": 0
+    },
+    {
+      "from": 203.8,
+      "to": 205.269,
+      "sid": 122,
+      "location": 2,
+      "content": "总共四片",
+      "music": 0
+    },
+    {
+      "from": 208.77,
+      "to": 210.709,
+      "sid": 123,
+      "location": 2,
+      "content": "在我的评价能达到普通级别",
+      "music": 0
+    },
+    {
+      "from": 210.709,
+      "to": 211.889,
+      "sid": 124,
+      "location": 2,
+      "content": "就你看这个鸭肉",
+      "music": 0
+    },
+    {
+      "from": 211.889,
+      "to": 213.749,
+      "sid": 125,
+      "location": 2,
+      "content": "我感觉好像他是腌过的",
+      "music": 0
+    },
+    {
+      "from": 213.749,
+      "to": 214.789,
+      "sid": 126,
+      "location": 2,
+      "content": "你能吃到它里边",
+      "music": 0
+    },
+    {
+      "from": 214.789,
+      "to": 217.349,
+      "sid": 127,
+      "location": 2,
+      "content": "其实有一种发酵出酒精的味道了",
+      "music": 0
+    },
+    {
+      "from": 217.349,
+      "to": 220.214,
+      "sid": 128,
+      "location": 2,
+      "content": "原来这个鸭子的高端吃法是这么吃的",
+      "music": 0
+    },
+    {
+      "from": 222.3,
+      "to": 224.9,
+      "sid": 129,
+      "location": 2,
+      "content": "嗯哎你吃这时候可能没感觉到",
+      "music": 0
+    },
+    {
+      "from": 224.9,
+      "to": 226.3,
+      "sid": 130,
+      "location": 2,
+      "content": "但是你吃完这个鸭肉以后",
+      "music": 0
+    },
+    {
+      "from": 226.3,
+      "to": 227.3,
+      "sid": 131,
+      "location": 2,
+      "content": "你再喝一口水",
+      "music": 0
+    },
+    {
+      "from": 227.3,
+      "to": 228.74,
+      "sid": 132,
+      "location": 2,
+      "content": "有点血腥味的感觉",
+      "music": 0
+    },
+    {
+      "from": 228.74,
+      "to": 230.98,
+      "sid": 133,
+      "location": 2,
+      "content": "我刚刚喝一口水就有点血腥味往上",
+      "music": 0
+    },
+    {
+      "from": 230.98,
+      "to": 232.74,
+      "sid": 134,
+      "location": 2,
+      "content": "其实我觉得还是因为这个国家",
+      "music": 0
+    },
+    {
+      "from": 232.74,
+      "to": 234.92,
+      "sid": 135,
+      "location": 2,
+      "content": "他对于吃鸭子的这个研究不够透彻",
+      "music": 0
+    },
+    {
+      "from": 234.92,
+      "to": 237.64,
+      "sid": 136,
+      "location": 2,
+      "content": "甚至我认为湖南小时候给我买的20块钱一只",
+      "music": 0
+    },
+    {
+      "from": 237.64,
+      "to": 238.78,
+      "sid": 137,
+      "location": 2,
+      "content": "爆烤鸭都比这好吃",
+      "music": 0
+    },
+    {
+      "from": 238.78,
+      "to": 241.16,
+      "sid": 138,
+      "location": 2,
+      "content": "但是最后他家这个汤底是非常不错的",
+      "music": 0
+    },
+    {
+      "from": 241.16,
+      "to": 243.76,
+      "sid": 139,
+      "location": 2,
+      "content": "很鲜又很油亮",
+      "music": 0
+    },
+    {
+      "from": 244.66,
+      "to": 246.98,
+      "sid": 140,
+      "location": 2,
+      "content": "嗯快撤吧",
+      "music": 0
+    },
+    {
+      "from": 246.98,
+      "to": 249,
+      "sid": 141,
+      "location": 2,
+      "content": "老板我现在有点如芒刺背",
+      "music": 0
+    },
+    {
+      "from": 249,
+      "to": 250.32,
+      "sid": 142,
+      "location": 2,
+      "content": "有点如坐针毡",
+      "music": 0
+    },
+    {
+      "from": 250.32,
+      "to": 252.32,
+      "sid": 143,
+      "location": 2,
+      "content": "我感觉坐着不舒服",
+      "music": 0
+    },
+    {
+      "from": 252.32,
+      "to": 255.08,
+      "sid": 144,
+      "location": 2,
+      "content": "现在很多双眼睛在看着咱俩怎么还不走",
+      "music": 0
+    },
+    {
+      "from": 255.08,
+      "to": 256.72,
+      "sid": 145,
+      "location": 2,
+      "content": "我们出去说先走先走走走走",
+      "music": 0
+    },
+    {
+      "from": 256.72,
+      "to": 258.28,
+      "sid": 146,
+      "location": 2,
+      "content": "这店你非常注重翻台率",
+      "music": 0
+    },
+    {
+      "from": 258.28,
+      "to": 259.4,
+      "sid": 147,
+      "location": 2,
+      "content": "背后站着食客",
+      "music": 0
+    },
+    {
+      "from": 259.4,
+      "to": 260.839,
+      "sid": 148,
+      "location": 2,
+      "content": "这给你的感觉很紧张",
+      "music": 0
+    },
+    {
+      "from": 260.839,
+      "to": 261.239,
+      "sid": 149,
+      "location": 2,
+      "content": "你知道吧",
+      "music": 0
+    },
+    {
+      "from": 261.239,
+      "to": 262.679,
+      "sid": 150,
+      "location": 2,
+      "content": "就是你吃完的那一刻",
+      "music": 0
+    },
+    {
+      "from": 262.679,
+      "to": 264.199,
+      "sid": 151,
+      "location": 2,
+      "content": "就感觉你泡好再逗留了",
+      "music": 0
+    },
+    {
+      "from": 264.199,
+      "to": 265.079,
+      "sid": 152,
+      "location": 2,
+      "content": "连喝杯水的功夫",
+      "music": 0
+    },
+    {
+      "from": 265.079,
+      "to": 267.36,
+      "sid": 153,
+      "location": 2,
+      "content": "我都觉得就是在耽误其他食客的时间",
+      "music": 0
+    },
+    {
+      "from": 267.36,
+      "to": 269.76,
+      "sid": 154,
+      "location": 2,
+      "content": "这是一种日本这个社会这种紧张感",
+      "music": 0
+    },
+    {
+      "from": 269.76,
+      "to": 271.44,
+      "sid": 155,
+      "location": 2,
+      "content": "然后你可以看到现在这个店门口啊",
+      "music": 0
+    },
+    {
+      "from": 271.44,
+      "to": 273.04,
+      "sid": 156,
+      "location": 2,
+      "content": "依旧是排着非常长的队",
+      "music": 0
+    },
+    {
+      "from": 273.04,
+      "to": 274.32,
+      "sid": 157,
+      "location": 2,
+      "content": "估计是有40来个人",
+      "music": 0
+    },
+    {
+      "from": 274.32,
+      "to": 275.52,
+      "sid": 158,
+      "location": 2,
+      "content": "百强拉面也品尝完了",
+      "music": 0
+    },
+    {
+      "from": 275.52,
+      "to": 277.12,
+      "sid": 159,
+      "location": 2,
+      "content": "接下来到了我们的评分环节了",
+      "music": 0
+    },
+    {
+      "from": 277.12,
+      "to": 279.76,
+      "sid": 160,
+      "location": 2,
+      "content": "首先我们这碗鸭肉拉面整体搭配上来讲的话",
+      "music": 0
+    },
+    {
+      "from": 279.76,
+      "to": 280.82,
+      "sid": 161,
+      "location": 2,
+      "content": "还是比较美观的",
+      "music": 0
+    },
+    {
+      "from": 280.82,
+      "to": 281.78,
+      "sid": 162,
+      "location": 2,
+      "content": "是有情绪价值的",
+      "music": 0
+    },
+    {
+      "from": 281.78,
+      "to": 283.58,
+      "sid": 163,
+      "location": 2,
+      "content": "但是我们吃到这个味的时候",
+      "music": 0
+    },
+    {
+      "from": 283.58,
+      "to": 286.46,
+      "sid": 164,
+      "location": 2,
+      "content": "我会觉得这个鸭肉的味道并没有我期待中的高",
+      "music": 0
+    },
+    {
+      "from": 286.46,
+      "to": 289,
+      "sid": 165,
+      "location": 2,
+      "content": "整体来讲我能给一个03:07分吧",
+      "music": 0
+    },
+    {
+      "from": 289,
+      "to": 291.36,
+      "sid": 166,
+      "location": 2,
+      "content": "我的是一碗金色贝拉面汤",
+      "music": 0
+    },
+    {
+      "from": 291.36,
+      "to": 292.48,
+      "sid": 167,
+      "location": 2,
+      "content": "那个汤喝着是什么感觉",
+      "music": 0
+    },
+    {
+      "from": 292.48,
+      "to": 292.88,
+      "sid": 168,
+      "location": 2,
+      "content": "你知道吗",
+      "music": 0
+    },
+    {
+      "from": 292.88,
+      "to": 294.24,
+      "sid": 169,
+      "location": 2,
+      "content": "像我第一次吃槟榔啊",
+      "music": 0
+    },
+    {
+      "from": 294.24,
+      "to": 295.68,
+      "sid": 170,
+      "location": 2,
+      "content": "哈哈有点锁嗓子眼",
+      "music": 0
+    },
+    {
+      "from": 295.68,
+      "to": 296.96,
+      "sid": 171,
+      "location": 2,
+      "content": "可以自己在家尝试一下",
+      "music": 0
+    },
+    {
+      "from": 296.96,
+      "to": 297.94,
+      "sid": 172,
+      "location": 2,
+      "content": "买一斤蛤蜊",
+      "music": 0
+    },
+    {
+      "from": 297.94,
+      "to": 299.24,
+      "sid": 173,
+      "location": 2,
+      "content": "三碗水煲成一碗水",
+      "music": 0
+    },
+    {
+      "from": 299.24,
+      "to": 300.24,
+      "sid": 174,
+      "location": 2,
+      "content": "把那碗水喝了",
+      "music": 0
+    },
+    {
+      "from": 300.24,
+      "to": 302.48,
+      "sid": 175,
+      "location": 2,
+      "content": "整体的环境可以说是很日式",
+      "music": 0
+    },
+    {
+      "from": 302.48,
+      "to": 304.62,
+      "sid": 176,
+      "location": 2,
+      "content": "但是这个就餐体验真的是拉满",
+      "music": 0
+    },
+    {
+      "from": 304.62,
+      "to": 306.5,
+      "sid": 177,
+      "location": 2,
+      "content": "前期排队排那么长时间哎",
+      "music": 0
+    },
+    {
+      "from": 306.5,
+      "to": 307.92,
+      "sid": 178,
+      "location": 2,
+      "content": "期待感特别高",
+      "music": 0
+    },
+    {
+      "from": 307.92,
+      "to": 309.34,
+      "sid": 179,
+      "location": 2,
+      "content": "进店一吃一泡面",
+      "music": 0
+    },
+    {
+      "from": 309.34,
+      "to": 311.24,
+      "sid": 180,
+      "location": 2,
+      "content": "觉得咔嚓一下子掉到底",
+      "music": 0
+    },
+    {
+      "from": 311.24,
+      "to": 314.42,
+      "sid": 181,
+      "location": 2,
+      "content": "所以我这碗面我给的综合打分哎",
+      "music": 0
+    },
+    {
+      "from": 314.42,
+      "to": 316.34,
+      "sid": 182,
+      "location": 2,
+      "content": "那你说咱俩都感觉他这味道这么普通",
+      "music": 0
+    },
+    {
+      "from": 316.34,
+      "to": 318.76,
+      "sid": 183,
+      "location": 2,
+      "content": "那你说他怎么就在日本这么人气呢",
+      "music": 0
+    },
+    {
+      "from": 318.76,
+      "to": 319.94,
+      "sid": 184,
+      "location": 2,
+      "content": "一是排队效应",
+      "music": 0
+    },
+    {
+      "from": 319.94,
+      "to": 323.38,
+      "sid": 185,
+      "location": 2,
+      "content": "二是日本一个特色故事加匠人精神",
+      "music": 0
+    },
+    {
+      "from": 323.38,
+      "to": 324.74,
+      "sid": 186,
+      "location": 2,
+      "content": "这是我觉得的啊",
+      "music": 0
+    },
+    {
+      "from": 324.74,
+      "to": 326.16,
+      "sid": 187,
+      "location": 2,
+      "content": "而且还有一个重要的原因",
+      "music": 0
+    },
+    {
+      "from": 326.16,
+      "to": 328.62,
+      "sid": 188,
+      "location": 2,
+      "content": "就是日本吃鸭肉的店特别少",
+      "music": 0
+    },
+    {
+      "from": 328.62,
+      "to": 330.5,
+      "sid": 189,
+      "location": 2,
+      "content": "所以说鸭肉本身就成为一种噱头",
+      "music": 0
+    },
+    {
+      "from": 330.5,
+      "to": 331.06,
+      "sid": 190,
+      "location": 2,
+      "content": "一种期待",
+      "music": 0
+    },
+    {
+      "from": 331.06,
+      "to": 332.78,
+      "sid": 191,
+      "location": 2,
+      "content": "你知道他为啥能进入前百吗",
+      "music": 0
+    },
+    {
+      "from": 332.78,
+      "to": 335.94,
+      "sid": 192,
+      "location": 2,
+      "content": "因为做鸭肉的店估计都不到100啊",
+      "music": 0
+    },
+    {
+      "from": 335.94,
+      "to": 336.62,
+      "sid": 193,
+      "location": 2,
+      "content": "对好朋友",
+      "music": 0
+    },
+    {
+      "from": 336.62,
+      "to": 339.34,
+      "sid": 194,
+      "location": 2,
+      "content": "那么经过了中午这一趟糟糕的体验以后",
+      "music": 0
+    },
+    {
+      "from": 339.34,
+      "to": 342.22,
+      "sid": 195,
+      "location": 2,
+      "content": "晚上我们又找到了一家大碗的百家拉面店",
+      "music": 0
+    },
+    {
+      "from": 342.22,
+      "to": 344.94,
+      "sid": 196,
+      "location": 2,
+      "content": "叫做劣质翘鱼油面香坊",
+      "music": 0
+    },
+    {
+      "from": 344.94,
+      "to": 345.9,
+      "sid": 197,
+      "location": 2,
+      "content": "三一个拐弯",
+      "music": 0
+    },
+    {
+      "from": 345.9,
+      "to": 346.78,
+      "sid": 198,
+      "location": 2,
+      "content": "这个店还可以啊",
+      "music": 0
+    },
+    {
+      "from": 346.78,
+      "to": 347.96,
+      "sid": 199,
+      "location": 2,
+      "content": "不需要排那么大长的队",
+      "music": 0
+    },
+    {
+      "from": 347.96,
+      "to": 348.62,
+      "sid": 200,
+      "location": 2,
+      "content": "废话不多说",
+      "music": 0
+    },
+    {
+      "from": 348.62,
+      "to": 349.66,
+      "sid": 201,
+      "location": 2,
+      "content": "直接进去吃面了",
+      "music": 0
+    },
+    {
+      "from": 349.66,
+      "to": 350.72,
+      "sid": 202,
+      "location": 2,
+      "content": "走哎呦喂我",
+      "music": 0
+    },
+    {
+      "from": 350.72,
+      "to": 353.9,
+      "sid": 203,
+      "location": 2,
+      "content": "那么现在我和通哥就来到了百家店的第二家店",
+      "music": 0
+    },
+    {
+      "from": 353.9,
+      "to": 355.06,
+      "sid": 204,
+      "location": 2,
+      "content": "刚进屋的时候",
+      "music": 0
+    },
+    {
+      "from": 355.06,
+      "to": 358.68,
+      "sid": 205,
+      "location": 2,
+      "content": "就可以看到他贩卖机上沾了9年的百家店贴纸",
+      "music": 0
+    },
+    {
+      "from": 358.68,
+      "to": 359.98,
+      "sid": 206,
+      "location": 2,
+      "content": "还是很有实力的啊",
+      "music": 0
+    },
+    {
+      "from": 359.98,
+      "to": 362.78,
+      "sid": 207,
+      "location": 2,
+      "content": "这个东西一进来你就闻到那股腥味",
+      "music": 0
+    },
+    {
+      "from": 362.78,
+      "to": 364.74,
+      "sid": 208,
+      "location": 2,
+      "content": "它身上是一种鱼肠那个味儿",
+      "music": 0
+    },
+    {
+      "from": 364.74,
+      "to": 368.08,
+      "sid": 209,
+      "location": 2,
+      "content": "他这个在拉面店里是传统的鱼芥汤的味道",
+      "music": 0
+    },
+    {
+      "from": 368.08,
+      "to": 368.64,
+      "sid": 210,
+      "location": 2,
+      "content": "OK你看",
+      "music": 0
+    },
+    {
+      "from": 368.64,
+      "to": 369.88,
+      "sid": 211,
+      "location": 2,
+      "content": "那么现在他们家的服务员",
+      "music": 0
+    },
+    {
+      "from": 369.88,
+      "to": 371.6,
+      "sid": 212,
+      "location": 2,
+      "content": "就把我们点的拉面端上来了",
+      "music": 0
+    },
+    {
+      "from": 371.6,
+      "to": 374.44,
+      "sid": 213,
+      "location": 2,
+      "content": "这款面就是他们家的招牌鱼粉汤",
+      "music": 0
+    },
+    {
+      "from": 374.44,
+      "to": 376.36,
+      "sid": 214,
+      "location": 2,
+      "content": "拉面上面有一个小鱼干",
+      "music": 0
+    },
+    {
+      "from": 376.36,
+      "to": 379.58,
+      "sid": 215,
+      "location": 2,
+      "content": "也就是告诉你它是一块鱼肉干制作成的拉面",
+      "music": 0
+    },
+    {
+      "from": 379.58,
+      "to": 380.78,
+      "sid": 216,
+      "location": 2,
+      "content": "具体制作在哪呢",
+      "music": 0
+    },
+    {
+      "from": 380.78,
+      "to": 381.54,
+      "sid": 217,
+      "location": 2,
+      "content": "把汤盛起来",
+      "music": 0
+    },
+    {
+      "from": 381.54,
+      "to": 383.24,
+      "sid": 218,
+      "location": 2,
+      "content": "你就会看到上面飘一层鱼粉",
+      "music": 0
+    },
+    {
+      "from": 383.24,
+      "to": 386.24,
+      "sid": 219,
+      "location": 2,
+      "content": "这个鱼粉就是由刚才这个小鱼干制作而成",
+      "music": 0
+    },
+    {
+      "from": 386.24,
+      "to": 389,
+      "sid": 220,
+      "location": 2,
+      "content": "我跟同桌每次点拉面的时候都会把肉给它加满",
+      "music": 0
+    },
+    {
+      "from": 389,
+      "to": 391.9,
+      "sid": 221,
+      "location": 2,
+      "content": "所以说你看里面的肉的含量还是非常多的啊",
+      "music": 0
+    },
+    {
+      "from": 391.9,
+      "to": 393.56,
+      "sid": 222,
+      "location": 2,
+      "content": "那么咱经典吃面先喝汤",
+      "music": 0
+    },
+    {
+      "from": 393.56,
+      "to": 395.06,
+      "sid": 223,
+      "location": 2,
+      "content": "先尝一口汤",
+      "music": 0
+    },
+    {
+      "from": 395.78,
+      "to": 397.24,
+      "sid": 224,
+      "location": 2,
+      "content": "是不是买来吃吗",
+      "music": 0
+    },
+    {
+      "from": 397.24,
+      "to": 400.87,
+      "sid": 225,
+      "location": 2,
+      "content": "嗯这个味道绝对是最纯正的鱼蟹汤底",
+      "music": 0
+    },
+    {
+      "from": 400.87,
+      "to": 402.67,
+      "sid": 226,
+      "location": 2,
+      "content": "它没有丝毫的杂味",
+      "music": 0
+    },
+    {
+      "from": 402.67,
+      "to": 404.61,
+      "sid": 227,
+      "location": 2,
+      "content": "不是说那种炖熟的鱼汤",
+      "music": 0
+    },
+    {
+      "from": 404.61,
+      "to": 406.72,
+      "sid": 228,
+      "location": 2,
+      "content": "是鱼干那种汤汁",
+      "music": 0
+    },
+    {
+      "from": 406.72,
+      "to": 408.36,
+      "sid": 229,
+      "location": 2,
+      "content": "把这个鱼干给它碾成粉面",
+      "music": 0
+    },
+    {
+      "from": 408.36,
+      "to": 409.2,
+      "sid": 230,
+      "location": 2,
+      "content": "它是一种鱼干",
+      "music": 0
+    },
+    {
+      "from": 409.2,
+      "to": 410.64,
+      "sid": 231,
+      "location": 2,
+      "content": "带有烤制的味儿在里边",
+      "music": 0
+    },
+    {
+      "from": 410.64,
+      "to": 413.24,
+      "sid": 232,
+      "location": 2,
+      "content": "哎我确实看到了他们家这个拉面制作的时候",
+      "music": 0
+    },
+    {
+      "from": 413.24,
+      "to": 414.8,
+      "sid": 233,
+      "location": 2,
+      "content": "加入这个鱼粉精华",
+      "music": 0
+    },
+    {
+      "from": 414.8,
+      "to": 416.62,
+      "sid": 234,
+      "location": 2,
+      "content": "那咱喝完汤的第二步吃肉",
+      "music": 0
+    },
+    {
+      "from": 416.62,
+      "to": 419.32,
+      "sid": 235,
+      "location": 2,
+      "content": "你看我跟聪哥也是在里面加了大量的肉啊",
+      "music": 0
+    },
+    {
+      "from": 419.32,
+      "to": 420.98,
+      "sid": 236,
+      "location": 2,
+      "content": "我来这么一摞",
+      "music": 0
+    },
+    {
+      "from": 425.92,
+      "to": 427.72,
+      "sid": 237,
+      "location": 2,
+      "content": "卤汁叉烧很软糯",
+      "music": 0
+    },
+    {
+      "from": 427.72,
+      "to": 430.18,
+      "sid": 238,
+      "location": 2,
+      "content": "但是它有一个很明显也很致命的缺点",
+      "music": 0
+    },
+    {
+      "from": 430.18,
+      "to": 431.36,
+      "sid": 239,
+      "location": 2,
+      "content": "没经过二次烤制",
+      "music": 0
+    },
+    {
+      "from": 431.36,
+      "to": 432.08,
+      "sid": 240,
+      "location": 2,
+      "content": "直接卤完",
+      "music": 0
+    },
+    {
+      "from": 432.08,
+      "to": 433.64,
+      "sid": 241,
+      "location": 2,
+      "content": "切好放上来的主要是凉的",
+      "music": 0
+    },
+    {
+      "from": 433.64,
+      "to": 435.06,
+      "sid": 242,
+      "location": 2,
+      "content": "他那个肥油部分有点发腻",
+      "music": 0
+    },
+    {
+      "from": 435.06,
+      "to": 435.66,
+      "sid": 243,
+      "location": 2,
+      "content": "也确实啊",
+      "music": 0
+    },
+    {
+      "from": 435.66,
+      "to": 436.74,
+      "sid": 244,
+      "location": 2,
+      "content": "你可以看到这个叉烧肉",
+      "music": 0
+    },
+    {
+      "from": 436.74,
+      "to": 438.14,
+      "sid": 245,
+      "location": 2,
+      "content": "其实没有什么特别多的功底",
+      "music": 0
+    },
+    {
+      "from": 438.14,
+      "to": 440.62,
+      "sid": 246,
+      "location": 2,
+      "content": "感觉就是像是用高汤卤制过的纯肉片",
+      "music": 0
+    },
+    {
+      "from": 440.62,
+      "to": 442.42,
+      "sid": 247,
+      "location": 2,
+      "content": "反而有点像二郎拉面里面那种肉",
+      "music": 0
+    },
+    {
+      "from": 442.42,
+      "to": 443.14,
+      "sid": 248,
+      "location": 2,
+      "content": "对来吧",
+      "music": 0
+    },
+    {
+      "from": 443.14,
+      "to": 444.4,
+      "sid": 249,
+      "location": 2,
+      "content": "那么接下来就是第三步",
+      "music": 0
+    },
+    {
+      "from": 444.4,
+      "to": 445.46,
+      "sid": 250,
+      "location": 2,
+      "content": "品尝面的关键词",
+      "music": 0
+    },
+    {
+      "from": 445.46,
+      "to": 446.2,
+      "sid": 251,
+      "location": 2,
+      "content": "像泡面",
+      "music": 0
+    },
+    {
+      "from": 446.2,
+      "to": 447.6,
+      "sid": 252,
+      "location": 2,
+      "content": "他烫头发呢",
+      "music": 0
+    },
+    {
+      "from": 447.6,
+      "to": 448.76,
+      "sid": 253,
+      "location": 2,
+      "content": "这",
+      "music": 0
+    },
+    {
+      "from": 453.14,
+      "to": 454.74,
+      "sid": 254,
+      "location": 2,
+      "content": "他这个口感也很泡面",
+      "music": 0
+    },
+    {
+      "from": 454.74,
+      "to": 455.98,
+      "sid": 255,
+      "location": 2,
+      "content": "那是不是就是做泡面的",
+      "music": 0
+    },
+    {
+      "from": 455.98,
+      "to": 456.86,
+      "sid": 256,
+      "location": 2,
+      "content": "哎你还真没说",
+      "music": 0
+    },
+    {
+      "from": 456.86,
+      "to": 458.18,
+      "sid": 257,
+      "location": 2,
+      "content": "因为我刚才注意到一个细节",
+      "music": 0
+    },
+    {
+      "from": 458.18,
+      "to": 461,
+      "sid": 258,
+      "location": 2,
+      "content": "他们家这个面也有泡面意制面的版本",
+      "music": 0
+    },
+    {
+      "from": 461,
+      "to": 462.94,
+      "sid": 259,
+      "location": 2,
+      "content": "日本把店铺里的味道变成商品化",
+      "music": 0
+    },
+    {
+      "from": 462.94,
+      "to": 463.86,
+      "sid": 260,
+      "location": 2,
+      "content": "这个流程很成熟",
+      "music": 0
+    },
+    {
+      "from": 463.86,
+      "to": 468.94,
+      "sid": 261,
+      "location": 2,
+      "content": "咱总能吃到那些知名拉面店的泡面行嘶",
+      "music": 0
+    },
+    {
+      "from": 468.94,
+      "to": 470.42,
+      "sid": 262,
+      "location": 2,
+      "content": "虽说你看这个面啊",
+      "music": 0
+    },
+    {
+      "from": 470.42,
+      "to": 472.08,
+      "sid": 263,
+      "location": 2,
+      "content": "表面上飘的全是鱼粉",
+      "music": 0
+    },
+    {
+      "from": 472.08,
+      "to": 473.84,
+      "sid": 264,
+      "location": 2,
+      "content": "但是他的油的含量也挺高的",
+      "music": 0
+    },
+    {
+      "from": 473.84,
+      "to": 476.72,
+      "sid": 265,
+      "location": 2,
+      "content": "鱼油鱼油没听说过啊",
+      "music": 0
+    },
+    {
+      "from": 481.92,
+      "to": 484.84,
+      "sid": 266,
+      "location": 2,
+      "content": "嗯来尝一口小鱼丸",
+      "music": 0
+    },
+    {
+      "from": 486.31,
+      "to": 487.11,
+      "sid": 267,
+      "location": 2,
+      "content": "没有味道了",
+      "music": 0
+    },
+    {
+      "from": 487.11,
+      "to": 488.59,
+      "sid": 268,
+      "location": 2,
+      "content": "我认为它的作用就是告诉你",
+      "music": 0
+    },
+    {
+      "from": 488.59,
+      "to": 491.27,
+      "sid": 269,
+      "location": 2,
+      "content": "这碗汤是用这个鱼竿制作的什么的",
+      "music": 0
+    },
+    {
+      "from": 491.27,
+      "to": 491.61,
+      "sid": 270,
+      "location": 2,
+      "content": "商标",
+      "music": 0
+    },
+    {
+      "from": 491.61,
+      "to": 492.53,
+      "sid": 271,
+      "location": 2,
+      "content": "还是说是商标",
+      "music": 0
+    },
+    {
+      "from": 492.53,
+      "to": 492.87,
+      "sid": 272,
+      "location": 2,
+      "content": "你知道吗",
+      "music": 0
+    },
+    {
+      "from": 492.87,
+      "to": 494.615,
+      "sid": 273,
+      "location": 2,
+      "content": "他是logo",
+      "music": 0
+    },
+    {
+      "from": 496.6,
+      "to": 500.9,
+      "sid": 274,
+      "location": 2,
+      "content": "嗯嗯我这碗汤依旧来到了最精华的部分",
+      "music": 0
+    },
+    {
+      "from": 500.9,
+      "to": 503.76,
+      "sid": 275,
+      "location": 2,
+      "content": "深捞一筷子全是肉",
+      "music": 0
+    },
+    {
+      "from": 503.76,
+      "to": 506.53,
+      "sid": 276,
+      "location": 2,
+      "content": "哈哈咱俩吃的不是拉面",
+      "music": 0
+    },
+    {
+      "from": 506.53,
+      "to": 507.17,
+      "sid": 277,
+      "location": 2,
+      "content": "是肉面",
+      "music": 0
+    },
+    {
+      "from": 507.17,
+      "to": 509.93,
+      "sid": 278,
+      "location": 2,
+      "content": "痛完一口",
+      "music": 0
+    },
+    {
+      "from": 511.7,
+      "to": 514.95,
+      "sid": 279,
+      "location": 2,
+      "content": "痛吗哈哈又吃眯眼了",
+      "music": 0
+    },
+    {
+      "from": 514.95,
+      "to": 517.45,
+      "sid": 280,
+      "location": 2,
+      "content": "同志你什么时候能改掉这一口吃很多肉的习惯",
+      "music": 0
+    },
+    {
+      "from": 517.45,
+      "to": 519.37,
+      "sid": 281,
+      "location": 2,
+      "content": "这就是炖熟了",
+      "music": 0
+    },
+    {
+      "from": 519.37,
+      "to": 521.01,
+      "sid": 282,
+      "location": 2,
+      "content": "根本改不掉",
+      "music": 0
+    },
+    {
+      "from": 521.01,
+      "to": 522.53,
+      "sid": 283,
+      "location": 2,
+      "content": "太爽了",
+      "music": 0
+    },
+    {
+      "from": 522.53,
+      "to": 524.01,
+      "sid": 284,
+      "location": 2,
+      "content": "这玩意谁研究的呢",
+      "music": 0
+    },
+    {
+      "from": 524.01,
+      "to": 524.77,
+      "sid": 285,
+      "location": 2,
+      "content": "谁研究的",
+      "music": 0
+    },
+    {
+      "from": 524.77,
+      "to": 525.81,
+      "sid": 286,
+      "location": 2,
+      "content": "这玩意挺败家啊",
+      "music": 0
+    },
+    {
+      "from": 525.81,
+      "to": 527.53,
+      "sid": 287,
+      "location": 2,
+      "content": "说实话",
+      "music": 0
+    },
+    {
+      "from": 529.76,
+      "to": 533.84,
+      "sid": 288,
+      "location": 2,
+      "content": "嗯我也要吃下纯肉",
+      "music": 0
+    },
+    {
+      "from": 539.99,
+      "to": 541.35,
+      "sid": 289,
+      "location": 2,
+      "content": "卤肉饭来了",
+      "music": 0
+    },
+    {
+      "from": 541.35,
+      "to": 543.63,
+      "sid": 290,
+      "location": 2,
+      "content": "我之前出的卤肉饭都是卤肉沫饭",
+      "music": 0
+    },
+    {
+      "from": 543.63,
+      "to": 545.37,
+      "sid": 291,
+      "location": 2,
+      "content": "这卤大肉块饭",
+      "music": 0
+    },
+    {
+      "from": 545.37,
+      "to": 548.54,
+      "sid": 292,
+      "location": 2,
+      "content": "你看这一夹肉汁全部冒出来了",
+      "music": 0
+    },
+    {
+      "from": 548.54,
+      "to": 549.32,
+      "sid": 293,
+      "location": 2,
+      "content": "渗到米饭里",
+      "music": 0
+    },
+    {
+      "from": 549.32,
+      "to": 550.68,
+      "sid": 294,
+      "location": 2,
+      "content": "这一口的老绝了",
+      "music": 0
+    },
+    {
+      "from": 550.68,
+      "to": 551.94,
+      "sid": 295,
+      "location": 2,
+      "content": "看着这哎呦",
+      "music": 0
+    },
+    {
+      "from": 551.94,
+      "to": 553.46,
+      "sid": 296,
+      "location": 2,
+      "content": "我天呐哇",
+      "music": 0
+    },
+    {
+      "from": 553.46,
+      "to": 557.1,
+      "sid": 297,
+      "location": 2,
+      "content": "这一口将会是极致体验",
+      "music": 0
+    },
+    {
+      "from": 561.68,
+      "to": 565.9,
+      "sid": 298,
+      "location": 2,
+      "content": "剩的这碗米饭直接倒到这个鱼干高汤里",
+      "music": 0
+    },
+    {
+      "from": 565.9,
+      "to": 568.04,
+      "sid": 299,
+      "location": 2,
+      "content": "没有不好吃的道理",
+      "music": 0
+    },
+    {
+      "from": 571.78,
+      "to": 576.88,
+      "sid": 300,
+      "location": 2,
+      "content": "别喝了又吃美了",
+      "music": 0
+    },
+    {
+      "from": 576.88,
+      "to": 580.16,
+      "sid": 301,
+      "location": 2,
+      "content": "啊爽这个晚上的拉面吃完了",
+      "music": 0
+    },
+    {
+      "from": 580.16,
+      "to": 581.16,
+      "sid": 302,
+      "location": 2,
+      "content": "这一顿还是挺好",
+      "music": 0
+    },
+    {
+      "from": 581.16,
+      "to": 581.48,
+      "sid": 303,
+      "location": 2,
+      "content": "怎么说",
+      "music": 0
+    },
+    {
+      "from": 581.48,
+      "to": 583.66,
+      "sid": 304,
+      "location": 2,
+      "content": "佟哥能给出怎样的权威打分呢",
+      "music": 0
+    },
+    {
+      "from": 583.66,
+      "to": 585.42,
+      "sid": 305,
+      "location": 2,
+      "content": "呃这家面吃的挺满足",
+      "music": 0
+    },
+    {
+      "from": 585.42,
+      "to": 587.34,
+      "sid": 306,
+      "location": 2,
+      "content": "所以我打算给个3.8分",
+      "music": 0
+    },
+    {
+      "from": 587.34,
+      "to": 587.98,
+      "sid": 307,
+      "location": 2,
+      "content": "何以来德",
+      "music": 0
+    },
+    {
+      "from": 587.98,
+      "to": 589.34,
+      "sid": 308,
+      "location": 2,
+      "content": "主要是冲他这个汤",
+      "music": 0
+    },
+    {
+      "from": 589.34,
+      "to": 590.9,
+      "sid": 309,
+      "location": 2,
+      "content": "他这个汤底很纯正",
+      "music": 0
+    },
+    {
+      "from": 590.9,
+      "to": 591.5,
+      "sid": 310,
+      "location": 2,
+      "content": "很鲜亮",
+      "music": 0
+    },
+    {
+      "from": 591.5,
+      "to": 592.36,
+      "sid": 311,
+      "location": 2,
+      "content": "为什么达不到四",
+      "music": 0
+    },
+    {
+      "from": 592.36,
+      "to": 595.12,
+      "sid": 312,
+      "location": 2,
+      "content": "是他这个叉烧跟他那个面其实很一般",
+      "music": 0
+    },
+    {
+      "from": 595.12,
+      "to": 596.08,
+      "sid": 313,
+      "location": 2,
+      "content": "差在肉上了",
+      "music": 0
+    },
+    {
+      "from": 596.08,
+      "to": 597.28,
+      "sid": 314,
+      "location": 2,
+      "content": "海里的肉整对了",
+      "music": 0
+    },
+    {
+      "from": 597.28,
+      "to": 598.44,
+      "sid": 315,
+      "location": 2,
+      "content": "地上跑的肉没整对",
+      "music": 0
+    },
+    {
+      "from": 598.44,
+      "to": 599.96,
+      "sid": 316,
+      "location": 2,
+      "content": "确实有他自己的一些小想法",
+      "music": 0
+    },
+    {
+      "from": 599.96,
+      "to": 600.56,
+      "sid": 317,
+      "location": 2,
+      "content": "很遗憾",
+      "music": 0
+    },
+    {
+      "from": 600.56,
+      "to": 602.4,
+      "sid": 318,
+      "location": 2,
+      "content": "咱吃过更好吃的叉烧哎",
+      "music": 0
+    },
+    {
+      "from": 602.4,
+      "to": 603.2,
+      "sid": 319,
+      "location": 2,
+      "content": "而且刚才出来以后",
+      "music": 0
+    },
+    {
+      "from": 603.2,
+      "to": 604.08,
+      "sid": 320,
+      "location": 2,
+      "content": "我又一次看了一下",
+      "music": 0
+    },
+    {
+      "from": 604.08,
+      "to": 606.18,
+      "sid": 321,
+      "location": 2,
+      "content": "之所以他是用的鱼粉还那么油",
+      "music": 0
+    },
+    {
+      "from": 606.18,
+      "to": 608.5,
+      "sid": 322,
+      "location": 2,
+      "content": "是因为它加入了劣质效鱼油",
+      "music": 0
+    },
+    {
+      "from": 608.5,
+      "to": 609.56,
+      "sid": 323,
+      "location": 2,
+      "content": "这个好像是一个产品",
+      "music": 0
+    },
+    {
+      "from": 609.56,
+      "to": 610.4,
+      "sid": 324,
+      "location": 2,
+      "content": "还挺保健呗",
+      "music": 0
+    },
+    {
+      "from": 610.4,
+      "to": 612.5,
+      "sid": 325,
+      "location": 2,
+      "content": "唉所以说吃起来吧特别的润",
+      "music": 0
+    },
+    {
+      "from": 612.5,
+      "to": 613.82,
+      "sid": 326,
+      "location": 2,
+      "content": "味道也特别纯正",
+      "music": 0
+    },
+    {
+      "from": 613.82,
+      "to": 616.94,
+      "sid": 327,
+      "location": 2,
+      "content": "我发现日本那个鱼粉它反而不是一种轻的材料",
+      "music": 0
+    },
+    {
+      "from": 616.94,
+      "to": 618.1,
+      "sid": 328,
+      "location": 2,
+      "content": "它是那种香料",
+      "music": 0
+    },
+    {
+      "from": 618.1,
+      "to": 620.16,
+      "sid": 329,
+      "location": 2,
+      "content": "肯定是炒制之后再打磨的",
+      "music": 0
+    },
+    {
+      "from": 620.16,
+      "to": 622.5,
+      "sid": 330,
+      "location": 2,
+      "content": "哎所以说他这个磨出来的这个粉特别的香",
+      "music": 0
+    },
+    {
+      "from": 622.5,
+      "to": 623.76,
+      "sid": 331,
+      "location": 2,
+      "content": "是香喷喷的感觉",
+      "music": 0
+    },
+    {
+      "from": 623.76,
+      "to": 625.62,
+      "sid": 332,
+      "location": 2,
+      "content": "OK那么我们的大本百家拉面店",
+      "music": 0
+    },
+    {
+      "from": 625.62,
+      "to": 627.1,
+      "sid": 333,
+      "location": 2,
+      "content": "还在持续探索当中",
+      "music": 0
+    },
+    {
+      "from": 627.1,
+      "to": 628.34,
+      "sid": 334,
+      "location": 2,
+      "content": "如果你也喜欢吃面的话",
+      "music": 0
+    },
+    {
+      "from": 628.34,
+      "to": 630,
+      "sid": 335,
+      "location": 2,
+      "content": "可千万别错过了我们这个系列",
+      "music": 0
+    },
+    {
+      "from": 630,
+      "to": 631.319,
+      "sid": 336,
+      "location": 2,
+      "content": "我们下次再见",
+      "music": 0
+    }
+  ]
+}

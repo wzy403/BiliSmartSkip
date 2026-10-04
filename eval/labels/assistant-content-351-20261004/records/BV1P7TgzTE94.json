@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1P7TgzTE94",
+    "cid": 30359291976,
+    "duration": 761,
+    "fullTranscriptRead": true,
+    "videoSummary": "解说红警坐牢一块地地图的团队战和混战，展示拆墙、矿场收入、海军偷袭及制海权思路；中途独立转转数码产品促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 168.25,
+        "end": 202.44,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从说省钱开始转离游戏，完整宣传转转二手手机价格、质检保修和口令优惠，号召更新数码产品后返回地图围墙和驱逐舰策略。",
+        "evidence": [
+          {
+            "to": 11.66,
+            "text": "好今天给大家带来一个新地图啊",
+            "from": 9.2
+          },
+          {
+            "to": 176.08,
+            "text": "这台九五星的IPHONE14pro只要3728元",
+            "from": 172.61
+          },
+          {
+            "to": 204.88,
+            "text": "所以说这个地图嘞",
+            "from": 203.88
+          }
+        ],
+        "startUncertainty": [
+          168.25,
+          168.25
+        ],
+        "endUncertainty": [
+          202.44,
+          203.88
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 9.2,
+        "end": 168.25,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 202.44,
+        "end": 758.84,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

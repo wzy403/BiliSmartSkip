@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1PfRFBLESa",
+    "cid": 38070124948,
+    "duration": 845,
+    "fullTranscriptRead": true,
+    "videoSummary": "红警海啸四人混战实况，讨论经济、海军配合与航母包围，中插转转数码优惠。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 165.38,
+        "end": 190.0,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "独立转转平板补贴与其他二手数码价格推荐，93至94恢复造船厂。",
+        "evidence": [
+          {
+            "from": 8.94,
+            "to": 13.02,
+            "text": "好今天给大家带来一个海啸混战啊"
+          },
+          {
+            "from": 165.38,
+            "to": 168.46,
+            "text": "最近我发现转转上的平板补贴特别猛"
+          },
+          {
+            "from": 171.02,
+            "to": 173.46,
+            "text": "现在转转只要3200多"
+          },
+          {
+            "from": 186.8,
+            "to": 189.14,
+            "text": "以后我买平板直接上转转"
+          },
+          {
+            "from": 190.44,
+            "to": 192.06,
+            "text": "先造三四个船长"
+          }
+        ],
+        "startUncertainty": [
+          165.38,
+          165.38
+        ],
+        "endUncertainty": [
+          190.0,
+          190.0
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 8.94,
+        "end": 165.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 190.0,
+        "end": 843.5,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1Km42177kz",
+    "cid": 1499456602,
+    "duration": 294,
+    "fullTranscriptRead": true,
+    "videoSummary": "科普所谓悬空接水视频，解释层流、逆压梯度、边界层与透明管导致的湍流证据；分析中插入文石彩墨平板推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 75.7,
+        "end": 133,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从分析之前、揉眼睛的读者痛点切入，介绍文石tab8C屏幕、护眼、刷新、笔记等功能，最终引导评论区优惠；之后直接恢复湍流问题。",
+        "evidence": [
+          {
+            "from": 75.7,
+            "to": 81.29,
+            "text": "分析之前向正在看手机 揉眼睛的同学推荐这款文石tab8C彩墨平板"
+          },
+          {
+            "from": 128.699,
+            "to": 133,
+            "text": "正在揉眼睛的同学可别错过 评论区置顶链接的专属优惠"
+          },
+          {
+            "from": 133,
+            "to": 138.62,
+            "text": "那为什么清澈透明的层流水柱里会出现湍流呢 我们需要通过一个实验说明"
+          }
+        ],
+        "startUncertainty": [
+          75.7,
+          75.7
+        ],
+        "endUncertainty": [
+          133,
+          133
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 75.7,
+        "reason": "悬空水流争议与层流水柱的条件。"
+      },
+      {
+        "start": 133,
+        "end": 293,
+        "reason": "恢复逆压梯度实验和透明管证据分析。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

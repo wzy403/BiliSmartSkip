@@ -1,0 +1,62 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1tKUAYjEu5",
+    "cid": 26737377864,
+    "duration": 1715,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆瑞典步兵战车多人对局，包含战术协同、核弹投放、队友互动，以及香肠、优惠券和心理治疗的闲聊笑话。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.04,
+        "end": 1701.88,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "已读完整对局字幕，提到游戏载具、食品及购物只是战局或闲聊内容，没有独立赞助声明、商品推荐或购买引导。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.6,
+            "text": "那么我能请你站一会儿吗"
+          },
+          {
+            "from": 840.71,
+            "to": 841.78,
+            "text": "好的"
+          },
+          {
+            "from": 1700.66,
+            "to": 1701.88,
+            "text": "我会很好"
+          }
+        ],
+        "startUncertainty": [
+          0.04,
+          0.04
+        ],
+        "endUncertainty": [
+          1701.88,
+          1701.88
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 1701.88,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。",
+      "译制字幕多处语句失真，判断限于可辨认的口述内容。"
+    ]
+  }
+}

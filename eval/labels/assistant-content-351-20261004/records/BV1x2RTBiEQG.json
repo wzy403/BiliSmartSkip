@@ -1,0 +1,80 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1x2RTBiEQG",
+    "cid": 38004195603,
+    "duration": 494,
+    "fullTranscriptRead": true,
+    "videoSummary": "贡嘎两起徒步事故分析，中间由购买装备转入转转数码商品补贴推广，随后明确开始事故故事。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 98.85,
+        "end": 127,
+        "reason": "说到买东西后开始二手购物推介，反复介绍转转具体报价和省钱利益，127秒声明过完这段并恢复事故叙述。",
+        "startUncertainty": [
+          97.69,
+          100.27
+        ],
+        "endUncertainty": [
+          127,
+          127.72
+        ],
+        "evidence": [
+          {
+            "from": 98.85,
+            "to": 100.27,
+            "content": "哎说到这买东西了"
+          },
+          {
+            "from": 104.98,
+            "to": 107.9,
+            "content": "最近我发现转转上的平板补贴特别猛"
+          },
+          {
+            "from": 110.18,
+            "to": 112.16,
+            "content": "现在转转只要3700多"
+          },
+          {
+            "from": 124.2,
+            "to": 126.16,
+            "content": "以后我买平板直接上转转"
+          },
+          {
+            "from": 127,
+            "to": 127.72,
+            "content": "过完这段"
+          },
+          {
+            "from": 127.72,
+            "to": 129.18,
+            "content": "我们开始今天的故事"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 97.69,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 127,
+        "end": 492.26,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。"
+    ]
+  }
+}

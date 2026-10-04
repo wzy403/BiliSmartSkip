@@ -1,0 +1,68 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1Z6421Z7kV",
+    "cid": 1611704090,
+    "duration": 1295,
+    "fullTranscriptRead": true,
+    "videoSummary": "真实犯罪纪录片，讲马丁内斯从妹妹被杀、替毒贩杀人到多州调查、供认及受害者处境；其中穿插Brilliant学习平台推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 106.79,
+        "end": 180.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从动画与研究成本引出赞助，连续介绍Brilliant的学习内容、免费试用、折扣、移动端及最后试用邀请；187.24恢复记者讲凶手。保留了折扣以后持续到180.48的完整推销。",
+        "evidence": [
+          {
+            "from": 106.79,
+            "to": 124.5,
+            "text": "我们热爱动画和深入研究 但这是昂贵的 这就是为什么我们频道上有赞助商 我们感激 真正了不起的平台 Brilliant支持我们"
+          },
+          {
+            "from": 150.95,
+            "to": 161.2,
+            "text": "Brilliant提供免费试用30天 访问brilliant.org Slash fern或点击描述中的链接 前200名可享受20%的折扣 Brilliant年度高级订阅"
+          },
+          {
+            "from": 178.38,
+            "to": 200.459,
+            "text": "为什么不试试呢 你知道 在我遇到他之前 我和很多警察谈过 你知道，凶杀侦探 谋杀侦探，他们处理过他 他们都说了同样的话"
+          }
+        ],
+        "startUncertainty": [
+          106.79,
+          106.79
+        ],
+        "endUncertainty": [
+          180.48,
+          187.24
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 4.019,
+        "end": 106.79,
+        "reason": "凶手生平与犯罪故事开场。"
+      },
+      {
+        "start": 187.24,
+        "end": 1281.04,
+        "reason": "家庭背景、犯罪过程、跨州调查与结案及受害者家属观点；玩具反斗城、山露、沃尔玛收据等是案情信息。"
+      }
+    ],
+    "limitations": [
+      "完整读取所给缓存字幕；其中4.019–395.37的字幕序列在文件内重复一次，按同一视频时间只标一次。",
+      "未观看画面或听原音，翻译有明显不完整/不顺处，无字幕片段不作内容断言。",
+      "normalSpeechRanges仅用于其中实际字幕覆盖。"
+    ]
+  }
+}

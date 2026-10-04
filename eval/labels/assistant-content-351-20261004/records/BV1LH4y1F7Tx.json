@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1LH4y1F7Tx",
+    "cid": 25620055434,
+    "duration": 633,
+    "fullTranscriptRead": true,
+    "videoSummary": "实验以沙茶粉熟成牛肉并烤串试吃，讨论盐量、损耗和失败的咸度；等待期间插入自家和牛牛肉酱促销和拌面小剧场。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 196.06,
+        "end": 255.1,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从工作室拍饿、吃腻泡面的小剧场铺垫起，完整介绍牛肉酱用料、优惠和拌面展示，推荐及出差泡面收尾后恢复熟成牛肉观察。",
+        "evidence": [
+          {
+            "to": 18.34,
+            "text": "有小伙伴建议我呢",
+            "from": 16.84
+          },
+          {
+            "to": 216.39,
+            "text": "现在点评论区蓝链接",
+            "from": 214.59
+          },
+          {
+            "to": 270.44,
+            "text": "好大家看啊",
+            "from": 269.48
+          }
+        ],
+        "startUncertainty": [
+          152.09,
+          196.06
+        ],
+        "endUncertainty": [
+          255.1,
+          269.48
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 16.84,
+        "end": 196.06,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 255.1,
+        "end": 631.08,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

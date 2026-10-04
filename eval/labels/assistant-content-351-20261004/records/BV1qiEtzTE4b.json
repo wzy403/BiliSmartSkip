@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1qiEtzTE4b",
+    "cid": 29989210646,
+    "duration": 954,
+    "fullTranscriptRead": true,
+    "videoSummary": "借小明剑魔离家直播及其舆论讨论男性情感表达、关系诉求和进化心理学视角，插入神奇小鹿冰席推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 377.22,
+        "end": 495.87,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "独立问候后明确进入推广位，含床上品牌笑话、夏季出汗铺垫、冰席三层结构和领券售后，最后广告文案笑话结束再回正文。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          377.22,
+          377.22
+        ],
+        "endUncertainty": [
+          495.87,
+          495.87
+        ],
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 3,
+            "text": "上期我们在聊这个小明建模的视频的时候"
+          },
+          {
+            "from": 377.22,
+            "to": 377.74,
+            "text": "好的大家好"
+          },
+          {
+            "from": 379.1,
+            "to": 382.04,
+            "text": "今天的推广位依旧是我们熟悉的神奇小鹿啊"
+          },
+          {
+            "from": 425.62,
+            "to": 427.78,
+            "text": "这个小冰鞋呢是做了三层的结构"
+          },
+          {
+            "from": 488.3,
+            "to": 489.46,
+            "text": "评论区领券下单"
+          },
+          {
+            "from": 493.94,
+            "to": 495.87,
+            "text": "希望我下次秒懂的是数学"
+          },
+          {
+            "from": 495.87,
+            "to": 497.53,
+            "text": "OK我们回到内容啊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 377.22,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 495.87,
+        "end": 952.8,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

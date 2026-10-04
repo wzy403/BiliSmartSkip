@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV156ePz3EXK",
+    "cid": 31809669327,
+    "duration": 501,
+    "fullTranscriptRead": true,
+    "videoSummary": "多人躲藏追逐游戏实况与搞笑剪辑，讨论地图、模型、抓人并穿插唱歌；中间独立插入电动牙刷推广，随后回到找人游戏。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 234.23,
+        "end": 320.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从吃烧烤火锅后牙龈肿痛的个人故事开始，连续介绍USMILY/Y30S牙刷清洁、专利、续航及认证，再引导评论区福利；与前后游戏无关，完整保留推广铺垫至最后购买号召。",
+        "evidence": [
+          {
+            "from": 234.23,
+            "to": 244,
+            "text": "兄弟们 前阵子嘴馋烧烤火锅一顿狂炫 结果第二天牙龈就开始肿痛 疼得我半夜都睡不着 还好我有USMILY30S速净刷"
+          },
+          {
+            "from": 315.5,
+            "to": 320.34,
+            "text": "感兴趣的小伙伴可以看看评论区有超大额福利 咱们一起把健康带回家吧"
+          },
+          {
+            "from": 320.34,
+            "to": 340.78,
+            "text": "哥哥的什么距离你都不在意 ♪ 相互猜疑 ♪ 游戏我怎么不上菜啊 因为藤蔓是静止的方块 学到了吗 学到的双击评论"
+          }
+        ],
+        "startUncertainty": [
+          228.2,
+          234.99
+        ],
+        "endUncertainty": [
+          320.34,
+          320.34
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.64,
+        "end": 228.2,
+        "reason": "游戏抓人、队友对话及音乐剪辑；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 320.34,
+        "end": 500.32,
+        "reason": "返回游戏剪辑、找人对话及结尾笑话；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

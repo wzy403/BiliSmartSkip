@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1DcXbBfEM1",
+    "cid": 37006216689,
+    "duration": 724,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述伊万诺夫的人猿杂交实验构想、非洲捕猿、苏联资助和失败结局；片头单独推广转转二手数码交易。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 42.66,
+        "end": 76.43,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "明确甲方致谢引出二手iPhone预算体验、验机售后、多款报价及评论区优惠券，结束后才进入人物生平，赞助块独立。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          42.66,
+          42.66
+        ],
+        "endUncertainty": [
+          76.43,
+          76.43
+        ],
+        "evidence": [
+          {
+            "from": 33.64,
+            "to": 39.26,
+            "text": "本期视频咱们就来好好聊聊人类科学史上最荒诞最禁忌的黑历史"
+          },
+          {
+            "from": 42.66,
+            "to": 44.58,
+            "text": "感谢一下甲方转转的催更"
+          },
+          {
+            "from": 54.86,
+            "to": 57.66,
+            "text": "关键是转转的二手商品都有专属验机报告"
+          },
+          {
+            "from": 72.4,
+            "to": 76.43,
+            "text": "现在点击评论区蓝链还能领最高千元优惠券"
+          },
+          {
+            "from": 82.12,
+            "to": 83.76,
+            "text": "伊利亚伊万诺维奇"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 42.66,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 76.43,
+        "end": 723.82,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

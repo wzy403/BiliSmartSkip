@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1eH4y1F77a",
+    "cid": 25600590842,
+    "duration": 674,
+    "fullTranscriptRead": true,
+    "videoSummary": "以西游脑洞讨论唐僧肉可持续生产、法术和细胞培养，穿插京东图书促销推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 338.1,
+        "end": 415.0,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从去哪了解西游设定及脑洞的问句起，推广图书品类日、满减、版本和购书赠品，至评论链接推荐；217回方案漏洞与科学路线。",
+        "evidence": [
+          {
+            "from": 0.18,
+            "to": 1.68,
+            "text": "我从小就疑惑啊"
+          },
+          {
+            "from": 338.1,
+            "to": 339.62,
+            "text": "这时候可能有小伙伴要问了"
+          },
+          {
+            "from": 348.71,
+            "to": 352.14,
+            "text": "京东图书超级品类日自营百万图书直降好价"
+          },
+          {
+            "from": 384.1,
+            "to": 387.53,
+            "text": "点此链接购买前500位还送西游帆布包"
+          },
+          {
+            "from": 412.96,
+            "to": 415.0,
+            "text": "赶紧点击评论区链接冲一波哟"
+          },
+          {
+            "from": 415.0,
+            "to": 416.28,
+            "text": "但是话说回来"
+          }
+        ],
+        "startUncertainty": [
+          338.1,
+          338.1
+        ],
+        "endUncertainty": [
+          415.0,
+          415.0
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.18,
+        "end": 338.1,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 415.0,
+        "end": 670.14,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "广告内包含太白金星有点烦是部分脑洞参考来源的简短说明，整体仍是独立书单促销段。"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vAjP6yE9J",
+    "cid": 39215826349,
+    "duration": 1035,
+    "fullTranscriptRead": true,
+    "videoSummary": "以瑜伽品牌两场争议活动讨论宏大叙事、公关和圈层营销，中间明确插入生发泡沫推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 324.44,
+        "end": 465.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从重新自我介绍和推广位声明开始，发型及游戏熬夜闲谈均服务于脱发铺垫，覆盖产品优势、使用及618链接推荐，至回到内容前。",
+        "evidence": [
+          {
+            "from": 0.12,
+            "to": 2.34,
+            "text": "啊我最近快被AI慢剧气死"
+          },
+          {
+            "from": 326.4,
+            "to": 328.36,
+            "text": "本期的推广位呢啊老朋友了"
+          },
+          {
+            "from": 346.34,
+            "to": 348.86,
+            "text": "但是呢曼迪说看着我熬夜赶稿啊"
+          },
+          {
+            "from": 393.24,
+            "to": 394.16,
+            "text": "曼迪泡沫剂"
+          },
+          {
+            "from": 457.1,
+            "to": 459.69,
+            "text": "你可以看一下评论区置顶链接啊"
+          },
+          {
+            "from": 465.48,
+            "to": 466.98,
+            "text": "好的我们回到内容"
+          }
+        ],
+        "startUncertainty": [
+          324.44,
+          324.44
+        ],
+        "endUncertainty": [
+          465.48,
+          465.48
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 324.44,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 465.48,
+        "end": 1034.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "观夏、始祖鸟和瑜伽服品牌广告案例属于正文分析；企业培训自述用于解释公关职能，没有另划跳过段。"
+    ]
+  }
+}

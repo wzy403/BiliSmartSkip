@@ -1,0 +1,139 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1SgTWzEEmF",
+    "cid": 30330389396,
+    "duration": 1538,
+    "fullTranscriptRead": true,
+    "videoSummary": "百万支票系列赴巴厘岛采访数字游民，体验住宿冲浪并讨论远程工作、自律、收入风险和当地居民承受的成本；未来智能耳机赞助贯穿片头、中段及片尾。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 65.88,
+        "end": 77.86,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片头简短交代合作缘由及耳机录音摘要功能，承接节目发起背景，保留赞助披露。",
+        "evidence": [
+          {
+            "to": 2.4,
+            "text": "这是一张我刚刚从银行领取的支票",
+            "from": 0.12
+          },
+          {
+            "to": 70.3,
+            "text": "未来智能全新推出了轻若无物的AI会议耳机",
+            "from": 66.68
+          },
+          {
+            "to": 80.74,
+            "text": "那么欢迎收看百万支票系列的第一期节目",
+            "from": 77.86
+          }
+        ],
+        "startUncertainty": [
+          65.88,
+          65.88
+        ],
+        "endUncertainty": [
+          77.86,
+          77.86
+        ]
+      },
+      {
+        "start": 821.28,
+        "end": 848.96,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "采访结束后转入耳机记录采访的铺垫，由TIM独立展示AI摘要、待办、脑图并引导京东购买，随后明确回到数字游民主题。",
+        "evidence": [
+          {
+            "to": 2.4,
+            "text": "这是一张我刚刚从银行领取的支票",
+            "from": 0.12
+          },
+          {
+            "to": 832.99,
+            "text": "未来智能AF拉buz air two AI会议耳机",
+            "from": 830.37
+          },
+          {
+            "to": 849.52,
+            "text": "回到主题",
+            "from": 848.96
+          }
+        ],
+        "startUncertainty": [
+          821.28,
+          821.28
+        ],
+        "endUncertainty": [
+          848.96,
+          848.96
+        ]
+      },
+      {
+        "start": 1488.69,
+        "end": 1508.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "总结旅行花费后独立感谢赞助并推介两款耳机、调音和AI功能，完整保留至最后职场帮手推荐作为商业段边界。",
+        "evidence": [
+          {
+            "to": 2.4,
+            "text": "这是一张我刚刚从银行领取的支票",
+            "from": 0.12
+          },
+          {
+            "to": 1491.71,
+            "text": "最后非常感谢未来智能对本期节目的大力支持",
+            "from": 1488.69
+          },
+          {
+            "to": 1510.84,
+            "text": "那么以上就是本期节目的全部内容",
+            "from": 1508.5
+          }
+        ],
+        "startUncertainty": [
+          1488.69,
+          1488.69
+        ],
+        "endUncertainty": [
+          1508.5,
+          1508.5
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 821.28,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 848.96,
+        "end": 1488.69,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 1508.5,
+        "end": 1517.92,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

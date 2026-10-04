@@ -1,0 +1,159 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1jyx2eSE5R",
+    "cid": 26285835410,
+    "duration": 1148,
+    "fullTranscriptRead": true,
+    "videoSummary": "逐段质疑学霸自律、海外留学与鸡娃日常视频中的时间和服饰连续性，劝观众勿因摆拍焦虑，中途推广番茄英语。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 37.94,
+        "end": 51.72,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "这里是被评论视频的学习软件口播引用，是后续识别摆拍的证据，不能当作本片独立广告跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          37.94,
+          37.94
+        ],
+        "endUncertainty": [
+          51.72,
+          51.72
+        ],
+        "evidence": [
+          {
+            "from": 10.34,
+            "to": 13.18,
+            "text": "那么既然老邪将对这一系列视频进行一个赏析"
+          },
+          {
+            "from": 37.94,
+            "to": 40.3,
+            "text": "一般早上吃饭的时候都会听这个"
+          },
+          {
+            "from": 47.52,
+            "to": 49.2,
+            "text": "我就会把这个实时字幕给它打开"
+          },
+          {
+            "from": 51.72,
+            "to": 54.12,
+            "text": "姐妹就你别跟哈弗学霸学了"
+          }
+        ]
+      },
+      {
+        "start": 244.69,
+        "end": 265.21,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "引用对象宣传背词APP以及一天结束的段落用于分析时间造假，应保留评论证据。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          244.69,
+          244.69
+        ],
+        "endUncertainty": [
+          265.21,
+          265.21
+        ],
+        "evidence": [
+          {
+            "from": 244.69,
+            "to": 247.53,
+            "text": "睡前最后一件事情就是背100个单词"
+          },
+          {
+            "from": 247.53,
+            "to": 249.61,
+            "text": "这app真的是好玩又好用的"
+          },
+          {
+            "from": 267.17,
+            "to": 268.61,
+            "text": "你最后才展示这个app"
+          },
+          {
+            "from": 268.61,
+            "to": 270.82,
+            "text": "那不是写着4号凌晨三点多了吗"
+          }
+        ]
+      },
+      {
+        "start": 578.19,
+        "end": 653.68,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从大声说话的过渡开始转向海外听说能力需求，再明确感谢金主并介绍番茄英语场景、练习与推荐，直到下一位视频案例出现。",
+        "startUncertainty": [
+          578.19,
+          581.22
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          653.68,
+          653.68
+        ],
+        "evidence": [
+          {
+            "from": 578.19,
+            "to": 580.14,
+            "text": "所以老铁直接名侦骑手说实话"
+          },
+          {
+            "from": 581.22,
+            "to": 583.34,
+            "text": "其实在海外相对读写能力轻松能力更重要"
+          },
+          {
+            "from": 591.66,
+            "to": 593.78,
+            "text": "就是咱们百日斩旗下的番茄英语app"
+          },
+          {
+            "from": 596.32,
+            "to": 597.44,
+            "text": "在这里感谢金主爸爸"
+          },
+          {
+            "from": 652.22,
+            "to": 653.68,
+            "text": "推荐大家使用这款番茄app"
+          },
+          {
+            "from": 653.68,
+            "to": 656.32,
+            "text": "接下来这个是给父母制造焦的那种"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 578.19,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 653.68,
+        "end": 1146.08,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

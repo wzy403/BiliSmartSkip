@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1bSz5BXEKm",
+    "cid": 35516123847,
+    "duration": 622,
+    "fullTranscriptRead": true,
+    "videoSummary": "游戏中消耗7000万开启100次总裁会议室，展示开卡过程和最终亏损，中途插入KTC显示器推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 98.88,
+        "end": 155.75,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从顺利开卡归功于显示器的过渡开始，完整介绍KTC参数、服务、暗部功能并推荐购买，随后回到游戏配乐蒙太奇。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          98.88,
+          98.88
+        ],
+        "endUncertainty": [
+          155.75,
+          155.75
+        ],
+        "evidence": [
+          {
+            "from": 2.28,
+            "to": 5.04,
+            "text": "花费7000万在绝密开100次总裁会"
+          },
+          {
+            "from": 98.88,
+            "to": 100.9,
+            "text": "能这么顺利的在绝行开完卡"
+          },
+          {
+            "from": 100.9,
+            "to": 103.8,
+            "text": "多亏了这款KTC大师二七M1pro显示屏"
+          },
+          {
+            "from": 152.4,
+            "to": 155.75,
+            "text": "主包强烈推荐这款大师二七M1pro显示屏"
+          },
+          {
+            "from": 155.75,
+            "to": 157.11,
+            "text": "♪ 秋风吹过 ♪"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.28,
+        "end": 98.88,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 155.75,
+        "end": 621.76,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

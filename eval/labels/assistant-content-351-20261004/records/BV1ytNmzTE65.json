@@ -1,0 +1,164 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ytNmzTE65",
+    "cid": 30625760185,
+    "duration": 1605,
+    "fullTranscriptRead": true,
+    "videoSummary": "从晶体管到逻辑门、标准单元和CPU的科普，包含Brilliant完整课程推广、简短开场鸣谢和结尾贡献者及观众支持说明。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 62.52,
+        "end": 66.06,
+        "reason": "单句赞助声明紧接科学内容开篇，保留简短鸣谢。",
+        "startUncertainty": [
+          62.52,
+          62.52
+        ],
+        "endUncertainty": [
+          66.06,
+          66.06
+        ],
+        "evidence": [
+          {
+            "from": 62.52,
+            "to": 66.06,
+            "content": "本视频由brilliant dot org赞助"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 905.9,
+        "end": 1014.92,
+        "reason": "由逻辑学习的需要自然转入本视频赞助商Brilliant，完整介绍课程用途、免费注册与年度订阅折扣，随后明确回到标准单元。",
+        "startUncertainty": [
+          905.9,
+          912.21
+        ],
+        "endUncertainty": [
+          1014.92,
+          1015.969
+        ],
+        "evidence": [
+          {
+            "from": 905.9,
+            "to": 909.35,
+            "content": "在这段视频中，我们假设你对逻辑门有一个基本的理解"
+          },
+          {
+            "from": 912.21,
+            "to": 915.47,
+            "content": "我们建议你去看看brilliant org"
+          },
+          {
+            "from": 915.47,
+            "to": 917.64,
+            "content": "这个视频的赞助商"
+          },
+          {
+            "from": 997.79,
+            "to": 1003.23,
+            "content": "整整一个月，你将能够完全访问其整个课程目录"
+          },
+          {
+            "from": 1006.36,
+            "to": 1010.92,
+            "content": "链接也会让你在年度订阅上节省20%"
+          },
+          {
+            "from": 1010.92,
+            "to": 1014.92,
+            "content": "你也可以在描述下方找到这个链接"
+          },
+          {
+            "from": 1015.969,
+            "to": 1021.109,
+            "content": "那么我们将回到探索一些更复杂的标准单元"
+          }
+        ]
+      },
+      {
+        "contentType": "uncertain",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 1546.92,
+        "end": 1587.19,
+        "reason": "讲解素材贡献者、其课程频道、制作服务及支持视频的会员鸣谢，与科学制作背景相关；保留结尾致谢，未证明是独立应跳商业插播。",
+        "startUncertainty": [
+          1546.92,
+          1546.92
+        ],
+        "endUncertainty": [
+          1587.19,
+          1587.19
+        ],
+        "evidence": [
+          {
+            "from": 1546.92,
+            "to": 1548.83,
+            "content": "最后，我们要向Matt致敬"
+          },
+          {
+            "from": 1553.08,
+            "to": 1557.72,
+            "content": "谁在我们获取这些准确标准单元布局方面至关重要"
+          },
+          {
+            "from": 1557.72,
+            "to": 1561.42,
+            "content": "他运营着零到asic课程YouTube频道"
+          },
+          {
+            "from": 1574.9,
+            "to": 1579.5,
+            "content": "我们感谢我们所有patreon和YouTube会员赞助商"
+          },
+          {
+            "from": 1584.07,
+            "to": 1587.19,
+            "content": "你可以在描述中找到链接"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.3,
+        "end": 62.52,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 66.06,
+        "end": 905.9,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 1015.969,
+        "end": 1546.92,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 1587.19,
+        "end": 1604.66,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "学习平台广告的最早过渡句有数秒开始边界不确定；未按简介章节直接代替内容判断。"
+    ]
+  }
+}

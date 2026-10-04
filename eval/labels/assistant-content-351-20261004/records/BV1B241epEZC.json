@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1B241epEZC",
+    "cid": 25958616635,
+    "duration": 423,
+    "fullTranscriptRead": true,
+    "videoSummary": "用谐音段子解说翼龙求偶、花豹觅食繁殖、羚羊争斗及龙脑香播种，花豹贫穷笑话转为流量卡推销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 182.09,
+        "end": 227.08,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从花豹感到穷追不舍的贫穷笑话完整铺垫，到广电及电信卡流量套餐、资质和限时领卡推荐结束；之后回归动物故事。",
+        "evidence": [
+          {
+            "to": 4.68,
+            "text": "没毛的鱼真丑丑死了",
+            "from": 0.04
+          },
+          {
+            "to": 191.94,
+            "text": "他决定去办一个广电大流量卡",
+            "from": 189.74
+          },
+          {
+            "to": 229.939,
+            "text": "为安慰难受的抱抱",
+            "from": 228.339
+          }
+        ],
+        "startUncertainty": [
+          182.09,
+          182.09
+        ],
+        "endUncertainty": [
+          227.08,
+          228.339
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 182.09,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 227.08,
+        "end": 420.88,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

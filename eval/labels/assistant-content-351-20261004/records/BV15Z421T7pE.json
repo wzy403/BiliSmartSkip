@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV15Z421T7pE",
+    "cid": 1608524291,
+    "duration": 952,
+    "fullTranscriptRead": true,
+    "videoSummary": "讨论八小时工作制与生产过剩、消费能力、资本家集体利益及就业工资的关系，中途用打工人省钱需求引入喵喵记账。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 607.58,
+        "end": 668.84,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从工资来之不易、开销节约的铺垫开始，完整推荐记账分类、月报和存钱计划，评论区下载号召结束，随后恢复贸易战论述。",
+        "evidence": [
+          {
+            "to": 0.96,
+            "text": "大家好",
+            "from": 0.04
+          },
+          {
+            "to": 618.35,
+            "text": "喵喵记账",
+            "from": 617.49
+          },
+          {
+            "to": 670.82,
+            "text": "所以说美国发动贸易战",
+            "from": 668.84
+          }
+        ],
+        "startUncertainty": [
+          607.58,
+          607.58
+        ],
+        "endUncertainty": [
+          668.84,
+          668.84
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 607.58,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 668.84,
+        "end": 951.28,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ApkmYQEXc",
+    "cid": 27439661498,
+    "duration": 213,
+    "fullTranscriptRead": true,
+    "videoSummary": "把现实生活包装成地球online游戏运营的讽刺短剧，包含职场收益、科研漏洞、恐龙版本和上帝漫展笑料；多人同屏伏笔最终引向诛仙世界的月卡推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 90.43,
+        "end": 212.36,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "从解决名字大战、同屏显示的剧情伏笔，到修仙游戏邀请和颁奖揭示诛仙世界，包含300人同屏及42元月卡宣传；广告与多个剧情笑点及结尾揭晓交织，不能只截CTA或整体跳过。",
+        "startUncertainty": [
+          90.43,
+          94.79
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          212.36,
+          212.36
+        ],
+        "evidence": [
+          {
+            "from": 9.68,
+            "to": 11.3,
+            "text": "欢迎来到地球online的工作室"
+          },
+          {
+            "from": 90.43,
+            "to": 92.71,
+            "text": "哈我们地方了最早的生灵体"
+          },
+          {
+            "from": 103.679,
+            "to": 105.919,
+            "text": "必须能显示所有人"
+          },
+          {
+            "from": 156.5,
+            "to": 158.98,
+            "text": "我做了一款可以同屏显示300人的修仙游戏"
+          },
+          {
+            "from": 196.4,
+            "to": 198.899,
+            "text": "他们就是诛仙世界"
+          },
+          {
+            "from": 204.119,
+            "to": 205.259,
+            "text": "月卡只要42元"
+          },
+          {
+            "from": 210.74,
+            "to": 211.68,
+            "text": "这个结尾不好吗"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 212.36,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

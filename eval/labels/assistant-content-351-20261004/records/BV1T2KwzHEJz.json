@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1T2KwzHEJz",
+    "cid": 30599089138,
+    "duration": 674,
+    "fullTranscriptRead": true,
+    "videoSummary": "复盘2023年广东一家八口在青海冷湖误入废弃公路、陷车徒步及警方救援经过，提出荒漠出行警示；中途推荐转转上门回收。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 166.62,
+        "end": 209.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由遗址航拍适合无人机切入闲置设备痛点，完整介绍转转回收报价、上门速度、城市覆盖和品类直至品牌推荐，随后明确返回探险叙事。",
+        "evidence": [
+          {
+            "to": 2.04,
+            "text": "来自广东的一家八口人",
+            "from": 0.1
+          },
+          {
+            "to": 175.5,
+            "text": "实在用不到",
+            "from": 174.62
+          },
+          {
+            "to": 210.08,
+            "text": "聊完转转",
+            "from": 209.38
+          }
+        ],
+        "startUncertainty": [
+          166.62,
+          166.62
+        ],
+        "endUncertainty": [
+          209.38,
+          209.38
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 166.62,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 209.38,
+        "end": 670.16,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

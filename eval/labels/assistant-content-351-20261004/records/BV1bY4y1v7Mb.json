@@ -1,0 +1,368 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1bY4y1v7Mb",
+    "cid": 564881041,
+    "duration": 679,
+    "fullTranscriptRead": true,
+    "videoSummary": "LTT以荒诞评测和连续赞助转场为核心的喜剧：键盘、线材、维修、RGB、华硕主板、鞋、刀、Nord、爆米花、贴膜、护理品和整机广告串联，末尾虚构加密项目及失控转场笑料。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 15.37,
+        "end": 32.93,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 18.91,
+            "text": "但这个很热",
+            "from": 15.37
+          },
+          {
+            "to": 35.57,
+            "text": "影响CPU性能的主要品质有三个",
+            "from": 32.93
+          }
+        ],
+        "startUncertainty": [
+          15.37,
+          15.37
+        ],
+        "endUncertainty": [
+          32.93,
+          32.93
+        ]
+      },
+      {
+        "start": 61.89,
+        "end": 75.39,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 63.35,
+            "text": "像你一样愚蠢",
+            "from": 61.89
+          },
+          {
+            "to": 76.91,
+            "text": "在你说什么之前",
+            "from": 75.39
+          }
+        ],
+        "startUncertainty": [
+          61.89,
+          61.89
+        ],
+        "endUncertainty": [
+          75.39,
+          75.39
+        ]
+      },
+      {
+        "start": 91.23,
+        "end": 108.1,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 95.7,
+            "text": "让我们打开它，让我们以赞助商的信息开始",
+            "from": 91.23
+          },
+          {
+            "to": 109.42,
+            "text": "来这里大",
+            "from": 108.1
+          }
+        ],
+        "startUncertainty": [
+          91.23,
+          91.23
+        ],
+        "endUncertainty": [
+          108.1,
+          108.1
+        ]
+      },
+      {
+        "start": 118.789,
+        "end": 139.18,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 124.189,
+            "text": "一个端口它们之间的区别会让你大吃一惊",
+            "from": 118.789
+          },
+          {
+            "to": 141.059,
+            "text": "不像其他机器",
+            "from": 139.18
+          }
+        ],
+        "startUncertainty": [
+          118.789,
+          118.789
+        ],
+        "endUncertainty": [
+          139.18,
+          139.18
+        ]
+      },
+      {
+        "start": 158.02,
+        "end": 226.86,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 160.5,
+            "text": "在那之前让我们开始测试",
+            "from": 158.02
+          },
+          {
+            "to": 230.32,
+            "text": "我想告诉你这个视频的赞助商",
+            "from": 226.86
+          }
+        ],
+        "startUncertainty": [
+          156.06,
+          158.02
+        ],
+        "endUncertainty": [
+          226.86,
+          226.86
+        ]
+      },
+      {
+        "start": 226.86,
+        "end": 273.28,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 230.32,
+            "text": "我想告诉你这个视频的赞助商",
+            "from": 226.86
+          },
+          {
+            "to": 276.919,
+            "text": "当莱纳斯打开盒子",
+            "from": 275.279
+          }
+        ],
+        "startUncertainty": [
+          226.86,
+          226.86
+        ],
+        "endUncertainty": [
+          273.28,
+          275.279
+        ]
+      },
+      {
+        "start": 275.279,
+        "end": 324.14,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 276.919,
+            "text": "当莱纳斯打开盒子",
+            "from": 275.279
+          },
+          {
+            "to": 328.46,
+            "text": "有困难",
+            "from": 327.3
+          }
+        ],
+        "startUncertainty": [
+          273.28,
+          275.279
+        ],
+        "endUncertainty": [
+          324.14,
+          327.3
+        ]
+      },
+      {
+        "start": 354.62,
+        "end": 380.68,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 359.28,
+            "text": "就像我们的赞助商咝咝爆米花有六种不同的口味",
+            "from": 354.62
+          },
+          {
+            "to": 383.54,
+            "text": "现在是时候把这只小狗放进烤箱了",
+            "from": 380.68
+          }
+        ],
+        "startUncertainty": [
+          354.62,
+          354.62
+        ],
+        "endUncertainty": [
+          380.68,
+          380.68
+        ]
+      },
+      {
+        "start": 402.28,
+        "end": 487.98,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 406.3,
+            "text": "对你最重要的人应该觉得",
+            "from": 402.28
+          },
+          {
+            "to": 511.82,
+            "text": "个人电脑，这就是它的全部",
+            "from": 509.18
+          }
+        ],
+        "startUncertainty": [
+          386.58,
+          402.28
+        ],
+        "endUncertainty": [
+          487.98,
+          509.18
+        ]
+      },
+      {
+        "start": 509.18,
+        "end": 588.15,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助或商品推销，但本片的主题正是用密集赞助和荒诞转场组成的喜剧，推广表演承载剧情及笑点，整体保留；不能把标题的反讽当成无广告声明。",
+        "evidence": [
+          {
+            "to": 3.3,
+            "text": "我已经好几年没有对一个产品这么兴奋了",
+            "from": 0.2
+          },
+          {
+            "to": 511.82,
+            "text": "个人电脑，这就是它的全部",
+            "from": 509.18
+          },
+          {
+            "to": 591.33,
+            "text": "我想和你谈谈对我来说很重要的事情",
+            "from": 588.15
+          }
+        ],
+        "startUncertainty": [
+          487.98,
+          509.18
+        ],
+        "endUncertainty": [
+          588.15,
+          588.15
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 663.699,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。",
+      "广告与喜剧表演高度重合；保留决定基于节目结构，不表示否认商业内容。自动翻译存在大量错误。"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1DxsYehEcU",
+    "cid": 26146508426,
+    "duration": 164,
+    "fullTranscriptRead": true,
+    "videoSummary": "说明CS炼狱小镇点位名称在多个历史版本中的来源，鼓励老玩家补充资料。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.22,
+        "end": 162.9,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.22,
+            "to": 1.42,
+            "text": "锅炉房没有锅炉"
+          },
+          {
+            "from": 81.28,
+            "to": 82.52,
+            "text": "新版改成了酒窖"
+          },
+          {
+            "from": 160.24,
+            "to": 162.9,
+            "text": "下期咱们看看各版本小镇之间的区别"
+          }
+        ],
+        "startUncertainty": [
+          0.22,
+          0.22
+        ],
+        "endUncertainty": [
+          162.9,
+          162.9
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.22,
+        "end": 162.9,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

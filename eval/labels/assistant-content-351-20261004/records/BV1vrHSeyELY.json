@@ -1,0 +1,310 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vrHSeyELY",
+    "cid": 25759778209,
+    "duration": 790,
+    "fullTranscriptRead": true,
+    "videoSummary": "走访北仑火电、酒泉风电和贵州光伏电站，以给充电宝收集不同来源电能串联发电原理及现场体验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 29.6,
+        "end": 38.8,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "赞助产品引入直接交代收集电能的旅程载体，短且关联主线。",
+        "evidence": [
+          {
+            "from": 0.2,
+            "to": 1.6,
+            "text": "不知道你有没有看到过这样"
+          },
+          {
+            "from": 29.6,
+            "to": 32.28,
+            "text": "那正好这次我去到了安克公司的总部"
+          },
+          {
+            "from": 32.28,
+            "to": 34.72,
+            "text": "拿到了他们最新发布的安克prime充电宝"
+          },
+          {
+            "from": 38.8,
+            "to": 43.46,
+            "text": "欢迎和我们一起来看一看电从哪里来"
+          }
+        ],
+        "startUncertainty": [
+          29.6,
+          29.6
+        ],
+        "endUncertainty": [
+          38.8,
+          38.8
+        ]
+      },
+      {
+        "start": 230.43,
+        "end": 236.83,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "品牌充电进度承接火电与清洁能源行程，保留叙事。",
+        "evidence": [
+          {
+            "from": 230.43,
+            "to": 231.31,
+            "text": "所以在火电站"
+          },
+          {
+            "from": 231.31,
+            "to": 232.15,
+            "text": "我们将安克prime"
+          },
+          {
+            "from": 234.35,
+            "to": 236.83,
+            "text": "我们踏上了清洁能源的搜寻之路"
+          },
+          {
+            "from": 236.83,
+            "to": 238.07,
+            "text": "那说到清洁能源"
+          }
+        ],
+        "startUncertainty": [
+          230.43,
+          230.43
+        ],
+        "endUncertainty": [
+          236.83,
+          236.83
+        ]
+      },
+      {
+        "start": 280.92,
+        "end": 296.06,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "充电宝容量用作风机发电规模的科普比喻，商业提及与解释交织。",
+        "evidence": [
+          {
+            "from": 280.92,
+            "to": 282.36,
+            "text": "就是我日常拿在身上"
+          },
+          {
+            "from": 282.36,
+            "to": 284.32,
+            "text": "我自己用的ank prime大容量充电宝"
+          },
+          {
+            "from": 287.72,
+            "to": 289.84,
+            "text": "能够充满257个"
+          },
+          {
+            "from": 296.06,
+            "to": 297.76,
+            "text": "但这只是一个风机"
+          }
+        ],
+        "startUncertainty": [
+          280.92,
+          280.92
+        ],
+        "endUncertainty": [
+          296.06,
+          296.06
+        ]
+      },
+      {
+        "start": 486.9,
+        "end": 510.289,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "无人机补能引入产品快充优势，但与此次拍摄经历和集电进度连为一段，保留。",
+        "evidence": [
+          {
+            "from": 486.9,
+            "to": 489.14,
+            "text": "其实大风带来最明显的感受就是"
+          },
+          {
+            "from": 492.27,
+            "to": 494.23,
+            "text": "而正好小巧的安克prime充电宝"
+          },
+          {
+            "from": 496.35,
+            "to": 498.44,
+            "text": "不仅可以给我们的无人机快速补电"
+          },
+          {
+            "from": 503.01,
+            "to": 505.13,
+            "text": "在风电站anchor prime充电宝"
+          },
+          {
+            "from": 510.289,
+            "to": 513.389,
+            "text": "那最后一站我们来到了层峦叠翠的贵州"
+          }
+        ],
+        "startUncertainty": [
+          464.64,
+          486.9
+        ],
+        "endUncertainty": [
+          510.289,
+          510.289
+        ]
+      },
+      {
+        "start": 708.3,
+        "end": 714.74,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "光电站充满的节点完成集电主题，保留。",
+        "evidence": [
+          {
+            "from": 708.3,
+            "to": 711.24,
+            "text": "至此三种不同电站也都拍摄完毕"
+          },
+          {
+            "from": 711.24,
+            "to": 714.74,
+            "text": "我们也在光电站将安克prime充电宝充至满电状态"
+          },
+          {
+            "from": 714.74,
+            "to": 717.54,
+            "text": "这些不同电站发的电就像一条条涓涓细流"
+          }
+        ],
+        "startUncertainty": [
+          681.599,
+          708.3
+        ],
+        "endUncertainty": [
+          714.74,
+          714.74
+        ]
+      },
+      {
+        "start": 735.599,
+        "end": 746.02,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "赞助致谢与充电宝收入博物馆的旅程结尾相连。",
+        "evidence": [
+          {
+            "from": 735.599,
+            "to": 738.539,
+            "text": "那最后非常感谢安克对于本期节目的大力支持"
+          },
+          {
+            "from": 738.539,
+            "to": 740.919,
+            "text": "我们也将这个充满了不同电能的anchor prime"
+          },
+          {
+            "from": 744.349,
+            "to": 746.02,
+            "text": "讲述了他去过的地方"
+          },
+          {
+            "from": 746.02,
+            "to": 747.18,
+            "text": "那正如我国的电网"
+          }
+        ],
+        "startUncertainty": [
+          735.599,
+          735.599
+        ],
+        "endUncertainty": [
+          746.02,
+          746.02
+        ]
+      },
+      {
+        "start": 746.02,
+        "end": 766.049,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "借电网转换效率转入独立产品技术、体积与充电速度推荐，已离开发电站叙事，完整保留铺垫作为广告边界。",
+        "evidence": [
+          {
+            "from": 0.2,
+            "to": 1.6,
+            "text": "不知道你有没有看到过这样"
+          },
+          {
+            "from": 746.02,
+            "to": 747.18,
+            "text": "那正如我国的电网"
+          },
+          {
+            "from": 749.1,
+            "to": 750.58,
+            "text": "安克也在积极的研发"
+          },
+          {
+            "from": 756.6,
+            "to": 758.02,
+            "text": "体积缩小60%"
+          },
+          {
+            "from": 766.049,
+            "to": 766.729,
+            "text": "那好了"
+          }
+        ],
+        "startUncertainty": [
+          746.02,
+          746.02
+        ],
+        "endUncertainty": [
+          766.049,
+          766.049
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 746.02,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 766.049,
+        "end": 774.44,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "赞助产品是本片集电主线载体，多个商业露出与主题叙事不可直接拆开。"
+    ]
+  }
+}

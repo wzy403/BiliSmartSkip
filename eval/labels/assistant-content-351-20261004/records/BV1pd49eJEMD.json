@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1pd49eJEMD",
+    "cid": 25878530410,
+    "duration": 115,
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕东风41运输发射车的路权、动力与公路行驶速度作简短解说，中途推荐女友题材小程序游戏。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 43.18,
+        "end": 62.1,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从给大家看好东西开始切入无关游戏体验，列举角色类型、置顶入口和限时点击建议，之后回到东风车速度。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          43.18,
+          43.18
+        ],
+        "endUncertainty": [
+          62.1,
+          62.1
+        ],
+        "evidence": [
+          {
+            "from": 9.7,
+            "to": 11.32,
+            "text": "什么叫最高路权"
+          },
+          {
+            "from": 43.18,
+            "to": 45.18,
+            "text": "看到这里正好给大家看个好东西"
+          },
+          {
+            "from": 47.04,
+            "to": 50.18,
+            "text": "从两分半的游戏带你体验韩系高冷御姐"
+          },
+          {
+            "from": 60.7,
+            "to": 62.1,
+            "text": "喜欢的抓紧点击试试吧"
+          },
+          {
+            "from": 62.1,
+            "to": 62.74,
+            "text": "视频中啊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 9.7,
+        "end": 43.18,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 62.1,
+        "end": 114.34,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

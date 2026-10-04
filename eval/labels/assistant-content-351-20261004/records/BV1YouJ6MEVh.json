@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1YouJ6MEVh",
+    "cid": 40654799608,
+    "duration": 178,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释火影台词梗并用300英雄设定与后来作品的巧合举例，最后求点赞。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.12,
+        "end": 176.59,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.12,
+            "to": 3.68,
+            "text": "Meme Guide, Just how far can those eyes of yours see?"
+          },
+          {
+            "from": 99.727,
+            "to": 101.572,
+            "text": "the fan works character gets made,"
+          },
+          {
+            "from": 174.085,
+            "to": 176.59,
+            "text": "Long press that like button for a surprise!"
+          }
+        ],
+        "startUncertainty": [
+          0.12,
+          0.12
+        ],
+        "endUncertainty": [
+          176.59,
+          176.59
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 176.59,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "大量游戏正面例子属于梗解释正文；字幕没有明确合作、福利或下载引流，无法据此确认商业关系。"
+    ]
+  }
+}

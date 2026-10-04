@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Cqb36mE2s",
+    "cid": 41689024954,
+    "duration": 398,
+    "fullTranscriptRead": true,
+    "videoSummary": "达尔文奖式危险事故叙述，包括烟头引爆、纵火、轮盘赌与触电，中插护颈枕。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 147.8,
+        "end": 208.13,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "个人压力失眠的独立铺垫进入神奇小鹿枕头，至九九大促与自用送人推荐；105返回事故。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 2.42,
+            "text": "玩愚蠢的游戏就会获得愚蠢的奖励"
+          },
+          {
+            "from": 147.8,
+            "to": 148.84,
+            "text": "我平时压力大"
+          },
+          {
+            "from": 151.52,
+            "to": 152.8,
+            "text": "因为我有了神奇小鹿"
+          },
+          {
+            "from": 201.03,
+            "to": 203.25,
+            "text": "趁现在九九大促活动领券到手"
+          },
+          {
+            "from": 208.13,
+            "to": 210.85,
+            "text": "接下来让我们把视角移到巴西的孔沙尔镇"
+          }
+        ],
+        "startUncertainty": [
+          147.8,
+          147.8
+        ],
+        "endUncertainty": [
+          208.13,
+          208.13
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 147.8,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 208.13,
+        "end": 397.86,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

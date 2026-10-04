@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ozDpBQEHU",
+    "cid": 37353163764,
+    "duration": 412,
+    "fullTranscriptRead": true,
+    "videoSummary": "以图书馆比喻讲解搜索引擎抓取、索引、排名、个性化及广告盈利模式。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.16,
+        "end": 408.9,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.16,
+            "to": 0.86,
+            "text": "大家好"
+          },
+          {
+            "from": 197.389,
+            "to": 200.349,
+            "text": "所有搜索引擎不管是谁家的"
+          },
+          {
+            "from": 405.87,
+            "to": 408.9,
+            "text": "它的真正含义到底是什么呢"
+          }
+        ],
+        "startUncertainty": [
+          0.16,
+          0.16
+        ],
+        "endUncertainty": [
+          408.9,
+          408.9
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.16,
+        "end": 408.9,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "对广告、谷歌和Netflix的提及属于搜索机制教学举例，没有口述商业导流。"
+    ]
+  }
+}

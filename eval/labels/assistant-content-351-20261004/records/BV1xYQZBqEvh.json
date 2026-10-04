@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1xYQZBqEvh",
+    "cid": 36909813502,
+    "duration": 722,
+    "fullTranscriptRead": true,
+    "videoSummary": "解说威斯康辛州枪击后警方追车及交火、嫌疑人死亡和双方家属争议，穿插执法记录原声；开场借房东手机录影插入转转二手数码推广。奔驰车型性能与警方器材是案情讲解，不是推销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 53.56,
+        "end": 86.18,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由关键时刻需要备用机的情境铺垫转入个人转转购二手iPhone经历，宣传预算性价比、验机报告、保修及其他设备价格，最后引导评论区蓝链优惠券，随后直接回到首位警员抵达。",
+        "evidence": [
+          {
+            "from": 53.56,
+            "to": 60.96,
+            "text": "看来这关键时刻还得有个备用机啊 最近大萌再转转 买了个二手IPHONE16pro 体验还挺好的 其实我也就4000多预算"
+          },
+          {
+            "from": 74.86,
+            "to": 86.18,
+            "text": "专业上其他数码也挺能打的 4128元就能拿下拯救者R9000P 3208元就能买索尼ZVE10套机 现在点击评论区蓝链还能领最高千元优惠券哦"
+          },
+          {
+            "from": 86.18,
+            "to": 94.58,
+            "text": "这边在案发几分钟后 第一位支援警员就赶到了案发现场 然而还没来得及下车 警员就遭到了格里芬的致命偷袭"
+          }
+        ],
+        "startUncertainty": [
+          53.56,
+          55.66
+        ],
+        "endUncertainty": [
+          86.18,
+          86.18
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 53.56,
+        "reason": "案件起因、房东录影与逃跑车辆；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 86.18,
+        "end": 721.6,
+        "reason": "警方支援追捕交火、结果和家属反应及结语；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1SA66YeEN5",
+    "cid": 27665894334,
+    "duration": 734,
+    "fullTranscriptRead": true,
+    "videoSummary": "调查维基媒体募款语言、财务和社区质疑，引用捐款横幅作为报道材料；中插天然材质配饰品牌赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 214.6,
+        "end": 269.71,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "同条字幕由反问转入明确赞助，后续完整介绍木石手表及环保配饰并给折扣码，88回印度募款案例。",
+        "evidence": [
+          {
+            "from": 2.22,
+            "to": 6.32,
+            "text": "当你试图猜测《怪奇物语》最后一季的发布日期时"
+          },
+          {
+            "from": 214.6,
+            "to": 219.62,
+            "text": "但这是真的吗？haltken是今天视频的赞助商"
+          },
+          {
+            "from": 230.08,
+            "to": 233.14,
+            "text": "他们最初制作由自然元素制成的独特手表"
+          },
+          {
+            "from": 267.39,
+            "to": 269.71,
+            "text": "并使用nhk的代码，享受所有哈尔扫描产品10%的折扣"
+          },
+          {
+            "from": 269.71,
+            "to": 272.59,
+            "text": "让我们看看印度一秒钟"
+          }
+        ],
+        "startUncertainty": [
+          214.6,
+          214.6
+        ],
+        "endUncertainty": [
+          269.71,
+          269.71
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.22,
+        "end": 214.6,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 269.71,
+        "end": 733.06,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "68条含少量正文反问和广告起点，边界限于完整字幕。开头及正文捐款呼吁为被调查对象的引用，不作为推广跳过。"
+    ]
+  }
+}

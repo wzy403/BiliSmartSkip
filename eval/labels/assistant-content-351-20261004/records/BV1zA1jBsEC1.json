@@ -1,0 +1,135 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1zA1jBsEC1",
+    "cid": 33593820952,
+    "duration": 1435,
+    "fullTranscriptRead": true,
+    "videoSummary": "Linux与开源每周新闻，正文讨论Python资助、Unity、AUR和桌面软件等；开头与结尾各有明确赞助商推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 42.97,
+        "end": 110.32,
+        "reason": "明确介绍赞助商TuxCare，连续推介开源维护安全服务和其会议资源，给出描述链接后开始Python新闻。",
+        "startUncertainty": [
+          42.97,
+          42.97
+        ],
+        "endUncertainty": [
+          110.32,
+          110.32
+        ],
+        "evidence": [
+          {
+            "from": 42.97,
+            "to": 45.73,
+            "content": "同时我们还会介绍赞助商Tuck"
+          },
+          {
+            "from": 47.2,
+            "to": 49.52,
+            "content": "提供自动化所需的所有工具"
+          },
+          {
+            "from": 49.52,
+            "to": 52.68,
+            "content": "维护和保障开源堆栈的安全"
+          },
+          {
+            "from": 104,
+            "to": 105.66,
+            "content": "通过描述下方链接"
+          },
+          {
+            "from": 108.82,
+            "to": 110.32,
+            "content": "如果你喜欢的话"
+          },
+          {
+            "from": 110.32,
+            "to": 111.68,
+            "content": "现在让我们从Python开始"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 1329.34,
+        "end": 1378.68,
+        "reason": "从新闻结尾转入赞助商Tuxedo电脑，介绍设备、个人使用体验、全球发货与描述链接，随后结束视频。",
+        "startUncertainty": [
+          1329.34,
+          1329.34
+        ],
+        "endUncertainty": [
+          1378.68,
+          1379.2
+        ],
+        "evidence": [
+          {
+            "from": 1329.34,
+            "to": 1333.36,
+            "content": "但值得参与的是赞助商设备"
+          },
+          {
+            "from": 1333.36,
+            "to": 1334.69,
+            "content": "Tuxedo电脑"
+          },
+          {
+            "from": 1339.23,
+            "to": 1341.53,
+            "content": "但他们向全球大多数国家发货"
+          },
+          {
+            "from": 1357.2,
+            "to": 1361.68,
+            "content": "我所有的游戏活动都在他们的电脑上完成"
+          },
+          {
+            "from": 1374.33,
+            "to": 1378.68,
+            "content": "链接在视频或播客描述中"
+          },
+          {
+            "from": 1379.2,
+            "to": 1380.38,
+            "content": "这将结束本期视频"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 42.97,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 110.32,
+        "end": 1329.34,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 1378.68,
+        "end": 1395.42,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "新闻中的资助、付款、软件推荐和描述讨论帖链接均是新闻正文，不作为广告证据。"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1oK8BzoE7g",
+    "cid": 31381786595,
+    "duration": 980,
+    "fullTranscriptRead": true,
+    "videoSummary": "以强烈贬损语气评论中国赴美非法移民、庇护申请、就业、遣返与佛州拘留设施，并回应肖像投诉；借“牙”转场推荐usmile电动牙刷。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 118.42,
+        "end": 237.09,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从提到牙转入女友牙龈问题和送礼经历，完整宣传usmile Y30清洁技术、功能、续航、家人使用及优惠链接，随后恢复移民叙述。结尾用广告话术讽刺拘留设施属于正文而非商品推广。",
+        "evidence": [
+          {
+            "to": 4.94,
+            "text": "懂王不惜和加州撕破脸也要抓的那些润人到底是群什么样的生物呢",
+            "from": 0.2
+          },
+          {
+            "to": 126.34,
+            "text": "跟着榜单买了全是冠军的USMILEY30",
+            "from": 123.8
+          },
+          {
+            "to": 239.05,
+            "text": "润人们显然顾不上牙齿的护理",
+            "from": 237.09
+          }
+        ],
+        "startUncertainty": [
+          118.42,
+          118.42
+        ],
+        "endUncertainty": [
+          237.09,
+          237.09
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 118.42,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 237.09,
+        "end": 969.4,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

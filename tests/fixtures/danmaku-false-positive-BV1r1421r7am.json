@@ -1,0 +1,4836 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "source": "eval/data/combined-351.jsonl",
+    "sourceLine": 138,
+    "sourceBytesSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+    "originalRecordSha256": "0598f46bb53351d2fdb7707e7bef0f0c40e1c0ca2b8a7302e6f2fb400b36e379",
+    "detectorInputSha256": "7b8ad69f1e206dcf325b4e531773b7bbc016eb204e8eff7b1caa839401ac921c",
+    "acquisition": {
+      "capturedAt": "2026-09-30T18:34:46.539Z",
+      "method": "anonymous-public-page-and-xml",
+      "metadata": "available",
+      "danmaku": "available",
+      "chapters": "empty",
+      "subtitles": "empty",
+      "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+      "chaptersFetchedAt": "2026-09-30T18:49:52.643Z",
+      "subtitleFetchedAt": "2026-09-30T18:49:52.643Z",
+      "subtitleMethod": "cli-legacy-player-api"
+    },
+    "scope": "Complete cached detector input: all 1200 cached anonymous XML comments, not proof of complete platform or logged-in danmaku availability. No subtitle tracks were exposed to the earlier collection; this does not prove subtitles do not exist.",
+    "humanFeedbackFile": "eval/labels/human/user-feedback-2026-10-04.json",
+    "labelsIncludedInRuntimeInput": false
+  },
+  "video": {
+    "bvid": "BV1r1421r7am",
+    "cid": 1583131909,
+    "title": "流 浪 皇 叔 计 划",
+    "duration": 407,
+    "desc": "皇叔流浪事件始末"
+  },
+  "chapters": [],
+  "subtitles": [],
+  "danmaku": [
+    {
+      "time": 0,
+      "textContent": "刘（浪）皇叔:此计划妙～妙啊～～～"
+    },
+    {
+      "time": 0.013,
+      "textContent": "《刘     浪     地     球》"
+    },
+    {
+      "time": 0.235,
+      "textContent": "经典战役"
+    },
+    {
+      "time": 0.585,
+      "textContent": "有种子祥的预感。"
+    },
+    {
+      "time": 0.619,
+      "textContent": "《 流 放 皇 叔 计 划 》"
+    },
+    {
+      "time": 0.802,
+      "textContent": "流皇叔"
+    },
+    {
+      "time": 1.601,
+      "textContent": "曹操打狙南下"
+    },
+    {
+      "time": 1.771,
+      "textContent": "真-流皇叔"
+    },
+    {
+      "time": 1.901,
+      "textContent": "省流：满级小白鼠"
+    },
+    {
+      "time": 2.114,
+      "textContent": "张鹏love丁梦涵"
+    },
+    {
+      "time": 2.171,
+      "textContent": "看到封面已经崩不住了"
+    },
+    {
+      "time": 2.25,
+      "textContent": "害死！"
+    },
+    {
+      "time": 2.94,
+      "textContent": "流皇叔"
+    },
+    {
+      "time": 3.038,
+      "textContent": "。。。"
+    },
+    {
+      "time": 4.176,
+      "textContent": "二刷"
+    },
+    {
+      "time": 5.168,
+      "textContent": "？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？"
+    },
+    {
+      "time": 6.031,
+      "textContent": "流浪三国计划。"
+    },
+    {
+      "time": 6.042,
+      "textContent": "“主”公？"
+    },
+    {
+      "time": 6.389,
+      "textContent": "开头就没绷住"
+    },
+    {
+      "time": 6.881,
+      "textContent": "流皇叔"
+    },
+    {
+      "time": 8.259,
+      "textContent": "《青红造了个孽》"
+    },
+    {
+      "time": 8.669,
+      "textContent": "今夕是何年"
+    },
+    {
+      "time": 10.117,
+      "textContent": "百姓：这把高端局"
+    },
+    {
+      "time": 11.181,
+      "textContent": "呀"
+    },
+    {
+      "time": 11.473,
+      "textContent": "三国演义现代版"
+    },
+    {
+      "time": 11.518,
+      "textContent": "吴京，你礼貌吗？盗我版权"
+    },
+    {
+      "time": 11.603,
+      "textContent": "666666666666666666666666666"
+    },
+    {
+      "time": 12.178,
+      "textContent": "《只恨财力不足》"
+    },
+    {
+      "time": 12.306,
+      "textContent": "血 肉 大 运"
+    },
+    {
+      "time": 12.419,
+      "textContent": "百   万   大   移    民"
+    },
+    {
+      "time": 13.202,
+      "textContent": "《人贩子》"
+    },
+    {
+      "time": 13.315,
+      "textContent": "《湖广填四川》"
+    },
+    {
+      "time": 13.352,
+      "textContent": "。"
+    },
+    {
+      "time": 14.228,
+      "textContent": "大力士？"
+    },
+    {
+      "time": 14.256,
+      "textContent": "一袋人要扛几楼"
+    },
+    {
+      "time": 14.584,
+      "textContent": "关羽：不是哥们"
+    },
+    {
+      "time": 14.623,
+      "textContent": "？"
+    },
+    {
+      "time": 14.774,
+      "textContent": "华强瓜摊摊主来了"
+    },
+    {
+      "time": 15.285,
+      "textContent": "甚至带走了鹅"
+    },
+    {
+      "time": 15.599,
+      "textContent": "你看关羽的脸，一点都不带红的…好像一直是红"
+    },
+    {
+      "time": 16.128,
+      "textContent": "北     人     南     迁"
+    },
+    {
+      "time": 16.18,
+      "textContent": "高能↓"
+    },
+    {
+      "time": 16.318,
+      "textContent": "六啊"
+    },
+    {
+      "time": 16.429,
+      "textContent": "笑哭"
+    },
+    {
+      "time": 16.461,
+      "textContent": "郝哥还混进去了"
+    },
+    {
+      "time": 16.588,
+      "textContent": "哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 16.699,
+      "textContent": "这人有力气"
+    },
+    {
+      "time": 17.169,
+      "textContent": "右上角有个郝哥"
+    },
+    {
+      "time": 17.61,
+      "textContent": "笑死我了"
+    },
+    {
+      "time": 17.708,
+      "textContent": "瓜摊老板"
+    },
+    {
+      "time": 17.898,
+      "textContent": "印度人：摩托车得超载"
+    },
+    {
+      "time": 17.916,
+      "textContent": "世界名画"
+    },
+    {
+      "time": 18.163,
+      "textContent": "郝哥？！"
+    },
+    {
+      "time": 18.324,
+      "textContent": "印度关羽"
+    },
+    {
+      "time": 19.034,
+      "textContent": "细看，有杰哥"
+    },
+    {
+      "time": 19.471,
+      "textContent": "怎么还有卖瓜的？"
+    },
+    {
+      "time": 19.742,
+      "textContent": "三体人进入直播间"
+    },
+    {
+      "time": 20.31,
+      "textContent": "张飞:三哥都不敢这么干，好吧"
+    },
+    {
+      "time": 20.496,
+      "textContent": "不兑，还有瓜老板"
+    },
+    {
+      "time": 20.7,
+      "textContent": "三国谋尽天下"
+    },
+    {
+      "time": 20.7,
+      "textContent": "拖家带口"
+    },
+    {
+      "time": 21.232,
+      "textContent": "十几个人？"
+    },
+    {
+      "time": 21.765,
+      "textContent": "666"
+    },
+    {
+      "time": 21.781,
+      "textContent": "我刚刚看到瓜哥了"
+    },
+    {
+      "time": 22.11,
+      "textContent": "666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+    },
+    {
+      "time": 22.406,
+      "textContent": "那个看视频的7人回复一下。"
+    },
+    {
+      "time": 22.601,
+      "textContent": "！！！"
+    },
+    {
+      "time": 23.5,
+      "textContent": "(╬≖_≖)"
+    },
+    {
+      "time": 23.57,
+      "textContent": "马：我真是谢谢你嗷"
+    },
+    {
+      "time": 23.782,
+      "textContent": "高能↓"
+    },
+    {
+      "time": 23.894,
+      "textContent": "阿三实况"
+    },
+    {
+      "time": 24.171,
+      "textContent": "万 吨 王"
+    },
+    {
+      "time": 24.576,
+      "textContent": "碎 星 将 军"
+    },
+    {
+      "time": 24.66,
+      "textContent": "←弄错了，是郝哥"
+    },
+    {
+      "time": 24.84,
+      "textContent": "真三国"
+    },
+    {
+      "time": 24.911,
+      "textContent": "赵云：你别急你让我想想"
+    },
+    {
+      "time": 25.027,
+      "textContent": "《子龙开屏》"
+    },
+    {
+      "time": 25.03,
+      "textContent": "那马跑得动吗？"
+    },
+    {
+      "time": 25.132,
+      "textContent": "我们可以骑马超"
+    },
+    {
+      "time": 25.56,
+      "textContent": "马的命不是命吗？"
+    },
+    {
+      "time": 25.721,
+      "textContent": "压力给到马是吧"
+    },
+    {
+      "time": 25.908,
+      "textContent": "马：我真的会谢"
+    },
+    {
+      "time": 25.918,
+      "textContent": "马：玄德玄德，你为何妨马"
+    },
+    {
+      "time": 26.019,
+      "textContent": "马：啊米诺斯"
+    },
+    {
+      "time": 26.044,
+      "textContent": "阿斗：我俩真厉害"
+    },
+    {
+      "time": 26.102,
+      "textContent": "6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+    },
+    {
+      "time": 26.284,
+      "textContent": "印度阅兵"
+    },
+    {
+      "time": 26.739,
+      "textContent": "哈哈哈哈哈"
+    },
+    {
+      "time": 26.891,
+      "textContent": "666，骑马扛人都给我家赵云头盔干出血来了"
+    },
+    {
+      "time": 27.132,
+      "textContent": "6"
+    },
+    {
+      "time": 27.247,
+      "textContent": "的卢马：请输入文本"
+    },
+    {
+      "time": 27.369,
+      "textContent": "印度赵云"
+    },
+    {
+      "time": 27.528,
+      "textContent": "大                                                                       运"
+    },
+    {
+      "time": 27.565,
+      "textContent": "刘禅：赵叔，你可别半路把我丢了"
+    },
+    {
+      "time": 27.606,
+      "textContent": "马：你的冯呢？"
+    },
+    {
+      "time": 27.947,
+      "textContent": "卖西瓜的都给抗跑了，不给华强面子啊"
+    },
+    {
+      "time": 27.963,
+      "textContent": "马：6"
+    },
+    {
+      "time": 28.12,
+      "textContent": "马：6"
+    },
+    {
+      "time": 28.152,
+      "textContent": "怎么还好哥"
+    },
+    {
+      "time": 28.186,
+      "textContent": "骑周仓啊！"
+    },
+    {
+      "time": 28.242,
+      "textContent": "马：不如骈死于槽枥之间。"
+    },
+    {
+      "time": 28.371,
+      "textContent": "这马有力气"
+    },
+    {
+      "time": 28.435,
+      "textContent": "我刚看到里面还有卖瓜保熟哥"
+    },
+    {
+      "time": 29.089,
+      "textContent": "阿三技术"
+    },
+    {
+      "time": 29.113,
+      "textContent": "神马：超！"
+    },
+    {
+      "time": 29.348,
+      "textContent": "梅开二度"
+    },
+    {
+      "time": 29.672,
+      "textContent": "这嘴型对的上诶"
+    },
+    {
+      "time": 29.705,
+      "textContent": "有图有真相"
+    },
+    {
+      "time": 30.182,
+      "textContent": "马：请输入文本"
+    },
+    {
+      "time": 30.923,
+      "textContent": "的卢的卢，今日妨吾"
+    },
+    {
+      "time": 31.166,
+      "textContent": "学霸题，数人体"
+    },
+    {
+      "time": 31.627,
+      "textContent": "？"
+    },
+    {
+      "time": 31.86,
+      "textContent": "了嘛"
+    },
+    {
+      "time": 32.371,
+      "textContent": "可以马骑马()"
+    },
+    {
+      "time": 32.717,
+      "textContent": "666"
+    },
+    {
+      "time": 32.83,
+      "textContent": "亮愿效犬马之劳！"
+    },
+    {
+      "time": 33.021,
+      "textContent": "66666666666666666666666666666666666666666666"
+    },
+    {
+      "time": 33.053,
+      "textContent": "ww"
+    },
+    {
+      "time": 33.109,
+      "textContent": "《世界名画＊2》"
+    },
+    {
+      "time": 34.079,
+      "textContent": "马：我没意见"
+    },
+    {
+      "time": 34.253,
+      "textContent": "亮愿效犬马之劳"
+    },
+    {
+      "time": 34.844,
+      "textContent": "马：喂我花生"
+    },
+    {
+      "time": 36.31,
+      "textContent": "马:这把高端局"
+    },
+    {
+      "time": 38.193,
+      "textContent": "移动城市，源石驱动"
+    },
+    {
+      "time": 38.367,
+      "textContent": "黄 埔 课 堂"
+    },
+    {
+      "time": 38.484,
+      "textContent": "“移动城市”"
+    },
+    {
+      "time": 38.808,
+      "textContent": "《明日方舟》"
+    },
+    {
+      "time": 38.865,
+      "textContent": "十万只伊丽莎白鼠"
+    },
+    {
+      "time": 39.327,
+      "textContent": "《大汉重工集团承建 新野，樊城改造工程》"
+    },
+    {
+      "time": 39.542,
+      "textContent": "明日方舟？移动城市？"
+    },
+    {
+      "time": 39.9,
+      "textContent": "小鼠可爱)"
+    },
+    {
+      "time": 40.437,
+      "textContent": "《皇叔的移动城堡》"
+    },
+    {
+      "time": 40.573,
+      "textContent": "好好好，移动城市是吧（舟批探头"
+    },
+    {
+      "time": 40.612,
+      "textContent": "马：我挂机了"
+    },
+    {
+      "time": 41.342,
+      "textContent": "等等，十万？老鼠？那不就是江东士兵吗？"
+    },
+    {
+      "time": 41.531,
+      "textContent": "十万只小约翰"
+    },
+    {
+      "time": 41.657,
+      "textContent": "十万只伊丽莎白鼠"
+    },
+    {
+      "time": 41.913,
+      "textContent": "那小白鼠愿意吗？"
+    },
+    {
+      "time": 41.93,
+      "textContent": "移动城市（小苹果）"
+    },
+    {
+      "time": 42.427,
+      "textContent": "面对天灾，我们并非无能为力"
+    },
+    {
+      "time": 42.672,
+      "textContent": "???"
+    },
+    {
+      "time": 42.724,
+      "textContent": "《皇叔的移动城堡》"
+    },
+    {
+      "time": 42.883,
+      "textContent": "记起来了，以前看过，兜兜转转又回来了"
+    },
+    {
+      "time": 43.373,
+      "textContent": "移动城市("
+    },
+    {
+      "time": 43.67,
+      "textContent": "66666666666666666666666666666666666666666666666666666666666"
+    },
+    {
+      "time": 43.726,
+      "textContent": "伊丽莎白鼠吗？"
+    },
+    {
+      "time": 43.76,
+      "textContent": "诸葛亮这招太狠了"
+    },
+    {
+      "time": 43.777,
+      "textContent": "哈     皇     的   移   动   城   堡"
+    },
+    {
+      "time": 43.894,
+      "textContent": "《掠食城市》"
+    },
+    {
+      "time": 44.102,
+      "textContent": "十万只可汗？！"
+    },
+    {
+      "time": 44.14,
+      "textContent": "朗格的移动城堡"
+    },
+    {
+      "time": 44.351,
+      "textContent": "小白鼠：？"
+    },
+    {
+      "time": 44.37,
+      "textContent": "资本！"
+    },
+    {
+      "time": 44.767,
+      "textContent": "三班倒"
+    },
+    {
+      "time": 45.237,
+      "textContent": "小白鼠这招太狠了"
+    },
+    {
+      "time": 45.273,
+      "textContent": "主公的移动城堡"
+    },
+    {
+      "time": 45.415,
+      "textContent": "《伊丽傻白鼠》"
+    },
+    {
+      "time": 45.568,
+      "textContent": "刘.慈心.备"
+    },
+    {
+      "time": 45.607,
+      "textContent": "移动城市"
+    },
+    {
+      "time": 45.633,
+      "textContent": "这小白鼠有力气"
+    },
+    {
+      "time": 45.664,
+      "textContent": "《三班倒》"
+    },
+    {
+      "time": 45.939,
+      "textContent": "哇，还有移动城市"
+    },
+    {
+      "time": 46.019,
+      "textContent": "小白鼠因语言激烈被踢出直播间"
+    },
+    {
+      "time": 46.056,
+      "textContent": "鼠 式 重 坦"
+    },
+    {
+      "time": 46.084,
+      "textContent": "掠食城市！"
+    },
+    {
+      "time": 46.295,
+      "textContent": "罗德岛陆行舰"
+    },
+    {
+      "time": 46.611,
+      "textContent": "小白鼠TM都是三班倒的"
+    },
+    {
+      "time": 46.975,
+      "textContent": "小白鼠：你觉得我愿意？"
+    },
+    {
+      "time": 46.982,
+      "textContent": "？小作坊下料就是猛"
+    },
+    {
+      "time": 47.512,
+      "textContent": "这要是中国人就是12小时两班倒"
+    },
+    {
+      "time": 47.563,
+      "textContent": "《掠食刘备》"
+    },
+    {
+      "time": 47.713,
+      "textContent": "三班倒！！"
+    },
+    {
+      "time": 47.823,
+      "textContent": "《罗德岛》"
+    },
+    {
+      "time": 47.916,
+      "textContent": "果然还得是孔明啊"
+    },
+    {
+      "time": 48.02,
+      "textContent": "那小白鼠愿意吗？"
+    },
+    {
+      "time": 48.107,
+      "textContent": "好疯啊"
+    },
+    {
+      "time": 48.131,
+      "textContent": "小白鼠：6"
+    },
+    {
+      "time": 48.262,
+      "textContent": "龙  门  市"
+    },
+    {
+      "time": 48.443,
+      "textContent": "蜀汉重工"
+    },
+    {
+      "time": 48.487,
+      "textContent": "小白鼠：？"
+    },
+    {
+      "time": 48.577,
+      "textContent": "《携程旅行》"
+    },
+    {
+      "time": 48.601,
+      "textContent": "那粮食问题"
+    },
+    {
+      "time": 48.627,
+      "textContent": "小白鼠：我谢谢你。"
+    },
+    {
+      "time": 48.702,
+      "textContent": "诸葛的移动城堡"
+    },
+    {
+      "time": 48.913,
+      "textContent": "曹仁，压头阵"
+    },
+    {
+      "time": 49.031,
+      "textContent": "移动城市"
+    },
+    {
+      "time": 49.157,
+      "textContent": "移动城市"
+    },
+    {
+      "time": 49.203,
+      "textContent": "《切尔诺伯格》"
+    },
+    {
+      "time": 49.783,
+      "textContent": "明日方舟打钱！"
+    },
+    {
+      "time": 49.91,
+      "textContent": "《携城旅游》"
+    },
+    {
+      "time": 49.94,
+      "textContent": "小白鼠：嗯，好办法……诶，不对你看我干什么？"
+    },
+    {
+      "time": 50.578,
+      "textContent": "携城逃离"
+    },
+    {
+      "time": 50.881,
+      "textContent": "罗德岛"
+    },
+    {
+      "time": 51.277,
+      "textContent": "流浪荆州计划"
+    },
+    {
+      "time": 51.293,
+      "textContent": "《携  城  旅  行》"
+    },
+    {
+      "time": 51.888,
+      "textContent": "泰拉友情客串"
+    },
+    {
+      "time": 52.742,
+      "textContent": "皇叔的移动城堡"
+    },
+    {
+      "time": 53.042,
+      "textContent": "有人吗？"
+    },
+    {
+      "time": 53.135,
+      "textContent": "移城计划"
+    },
+    {
+      "time": 53.659,
+      "textContent": "《大   汉   重   工》"
+    },
+    {
+      "time": 54.739,
+      "textContent": "伊丽莎白鼠（bushi）"
+    },
+    {
+      "time": 55.021,
+      "textContent": "注：该音乐来源于水浒传"
+    },
+    {
+      "time": 55.485,
+      "textContent": "曹操：不知所措！"
+    },
+    {
+      "time": 55.526,
+      "textContent": "《流浪樊城》"
+    },
+    {
+      "time": 56.12,
+      "textContent": "属于是罗德岛来的"
+    },
+    {
+      "time": 56.214,
+      "textContent": "你这大聪明不会是新三陆诸葛假冒的吧"
+    },
+    {
+      "time": 56.323,
+      "textContent": "《流浪蜀汉》"
+    },
+    {
+      "time": 56.594,
+      "textContent": "《移动马桶》"
+    },
+    {
+      "time": 57.002,
+      "textContent": "是水浒传的BGM"
+    },
+    {
+      "time": 57.091,
+      "textContent": "TO/GO 等等，他没放襟翼"
+    },
+    {
+      "time": 57.213,
+      "textContent": "樊城环游记"
+    },
+    {
+      "time": 57.245,
+      "textContent": "这是飞机的操纵杆吧"
+    },
+    {
+      "time": 57.338,
+      "textContent": "TO/GA 最大推力 襟翼15度"
+    },
+    {
+      "time": 57.885,
+      "textContent": "《机械教》"
+    },
+    {
+      "time": 58.277,
+      "textContent": "噢耶，所有系统全部启动启动启动启动，还有这个"
+    },
+    {
+      "time": 58.386,
+      "textContent": "真.携程旅行"
+    },
+    {
+      "time": 58.562,
+      "textContent": "（浮）空城计"
+    },
+    {
+      "time": 58.589,
+      "textContent": "流浪樊城"
+    },
+    {
+      "time": 58.771,
+      "textContent": "梦回无主之地2避难所"
+    },
+    {
+      "time": 59.366,
+      "textContent": "鼠式坦克！！！！"
+    },
+    {
+      "time": 59.475,
+      "textContent": "《空  城  计》"
+    },
+    {
+      "time": 59.648,
+      "textContent": "备备的移动城堡"
+    },
+    {
+      "time": 59.879,
+      "textContent": "《掠食城市》"
+    },
+    {
+      "time": 60.684,
+      "textContent": "为什么不直接整座城墙撞向敌军"
+    },
+    {
+      "time": 60.771,
+      "textContent": "空城计"
+    },
+    {
+      "time": 61.31,
+      "textContent": "紫禁城飞起来了"
+    },
+    {
+      "time": 61.431,
+      "textContent": "罗德岛（三国典藏款）"
+    },
+    {
+      "time": 61.455,
+      "textContent": "啊？"
+    },
+    {
+      "time": 61.639,
+      "textContent": "这就看出来核动力发动机的重要了"
+    },
+    {
+      "time": 62.122,
+      "textContent": "《浮城》"
+    },
+    {
+      "time": 62.28,
+      "textContent": "德军的重坦"
+    },
+    {
+      "time": 62.32,
+      "textContent": "移城记是吧？"
+    },
+    {
+      "time": 62.399,
+      "textContent": "不像剪辑的"
+    },
+    {
+      "time": 62.451,
+      "textContent": "给曹操一点小小的反重力震撼"
+    },
+    {
+      "time": 62.504,
+      "textContent": "《哈尔的移动城堡》"
+    },
+    {
+      "time": 63.081,
+      "textContent": "真有这技术还跑啥啊，冲过去把曹操创飞就行了（）"
+    },
+    {
+      "time": 63.367,
+      "textContent": "蜀汉联邦（确信）"
+    },
+    {
+      "time": 63.72,
+      "textContent": "罗  德  岛"
+    },
+    {
+      "time": 63.859,
+      "textContent": "孔明的移动城堡"
+    },
+    {
+      "time": 64.043,
+      "textContent": "玄德的移动城堡"
+    },
+    {
+      "time": 64.058,
+      "textContent": "刘备：有这东西，我还需要跑吗？你以为我是谁，给我向曹操靠过去！"
+    },
+    {
+      "time": 64.222,
+      "textContent": "曹操表示，666演都不演了"
+    },
+    {
+      "time": 64.297,
+      "textContent": "备蜀坦克"
+    },
+    {
+      "time": 64.496,
+      "textContent": "移动地块"
+    },
+    {
+      "time": 64.565,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 64.672,
+      "textContent": "东汉工程局承建"
+    },
+    {
+      "time": 64.9,
+      "textContent": "我滴天"
+    },
+    {
+      "time": 64.97,
+      "textContent": "机械化部队"
+    },
+    {
+      "time": 65.208,
+      "textContent": "中国人能飞"
+    },
+    {
+      "time": 65.571,
+      "textContent": "为什么不直接把他碾死。"
+    },
+    {
+      "time": 65.814,
+      "textContent": "快吐绿汁"
+    },
+    {
+      "time": 65.816,
+      "textContent": "《刘备的移动城堡》"
+    },
+    {
+      "time": 65.97,
+      "textContent": "前进四。"
+    },
+    {
+      "time": 66.021,
+      "textContent": "老一套坚持手搓"
+    },
+    {
+      "time": 66.462,
+      "textContent": "眼前一黑再一黑"
+    },
+    {
+      "time": 66.799,
+      "textContent": "逃什么？直接压曹操啊"
+    },
+    {
+      "time": 66.883,
+      "textContent": "为何不碾死曹操大军？"
+    },
+    {
+      "time": 67.445,
+      "textContent": "来    私     够"
+    },
+    {
+      "time": 67.471,
+      "textContent": "哈哈哈哈，笑死我了"
+    },
+    {
+      "time": 67.606,
+      "textContent": "《西学东渐》"
+    },
+    {
+      "time": 67.962,
+      "textContent": "（let｀s go）"
+    },
+    {
+      "time": 68.091,
+      "textContent": "666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+    },
+    {
+      "time": 68.516,
+      "textContent": "《东汉口音》"
+    },
+    {
+      "time": 68.564,
+      "textContent": "空城计这波太狠了"
+    },
+    {
+      "time": 68.571,
+      "textContent": "孔明的移动城堡"
+    },
+    {
+      "time": 68.636,
+      "textContent": "罗德岛"
+    },
+    {
+      "time": 69.09,
+      "textContent": "明日樊城"
+    },
+    {
+      "time": 69.125,
+      "textContent": "这里是三国谁在说英语"
+    },
+    {
+      "time": 69.222,
+      "textContent": "切 尔 诺 伯 格"
+    },
+    {
+      "time": 69.32,
+      "textContent": "没有AI标记，是真的"
+    },
+    {
+      "time": 69.359,
+      "textContent": "樊城号，前进四！"
+    },
+    {
+      "time": 69.491,
+      "textContent": "曹操：六百六十六这个入是个桂"
+    },
+    {
+      "time": 69.699,
+      "textContent": "炎 国 龙 门"
+    },
+    {
+      "time": 69.739,
+      "textContent": "《移 动 城 市》"
+    },
+    {
+      "time": 70.004,
+      "textContent": "666666"
+    },
+    {
+      "time": 70.178,
+      "textContent": "三国版罗德岛，哈哈哈哈"
+    },
+    {
+      "time": 70.395,
+      "textContent": "艾辛格？"
+    },
+    {
+      "time": 70.469,
+      "textContent": "天空之城？？"
+    },
+    {
+      "time": 70.776,
+      "textContent": "移动城市"
+    },
+    {
+      "time": 70.816,
+      "textContent": "有这技术撞过去不就全面了吗？"
+    },
+    {
+      "time": 71.05,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 71.14,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 71.698,
+      "textContent": "《鼠道难》"
+    },
+    {
+      "time": 71.698,
+      "textContent": "2025年来考古。"
+    },
+    {
+      "time": 72.084,
+      "textContent": "亮仔的移动城堡？"
+    },
+    {
+      "time": 72.89,
+      "textContent": "曹操：这对吗？"
+    },
+    {
+      "time": 73.129,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 73.133,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 73.133,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 73.153,
+      "textContent": "有这技术还跑什么"
+    },
+    {
+      "time": 73.296,
+      "textContent": "你这还跑什么，直接撞上呀"
+    },
+    {
+      "time": 73.378,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 73.651,
+      "textContent": "大耳的移动城堡"
+    },
+    {
+      "time": 73.833,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 73.941,
+      "textContent": "明日三国"
+    },
+    {
+      "time": 74.008,
+      "textContent": "曹操：我不明白.........."
+    },
+    {
+      "time": 74.419,
+      "textContent": "《 实 力 》"
+    },
+    {
+      "time": 74.446,
+      "textContent": "实力"
+    },
+    {
+      "time": 74.56,
+      "textContent": "《实力》说是"
+    },
+    {
+      "time": 74.702,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 74.759,
+      "textContent": "东汉英语"
+    },
+    {
+      "time": 74.787,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 74.968,
+      "textContent": "曹操：我不明白"
+    },
+    {
+      "time": 75.06,
+      "textContent": "城跑了"
+    },
+    {
+      "time": 75.102,
+      "textContent": "孩子们，又安排上，掠夺城市了"
+    },
+    {
+      "time": 75.125,
+      "textContent": "移动城市"
+    },
+    {
+      "time": 75.291,
+      "textContent": "[空城计】"
+    },
+    {
+      "time": 75.348,
+      "textContent": "三班倒太人性化了"
+    },
+    {
+      "time": 75.585,
+      "textContent": "实习"
+    },
+    {
+      "time": 75.678,
+      "textContent": "刘备表示，吹牛壁呢，你行吗？"
+    },
+    {
+      "time": 75.799,
+      "textContent": "实力"
+    },
+    {
+      "time": 75.843,
+      "textContent": "?"
+    },
+    {
+      "time": 75.862,
+      "textContent": "罗德岛"
+    },
+    {
+      "time": 75.924,
+      "textContent": "NNAX？？"
+    },
+    {
+      "time": 75.924,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 75.937,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 76.151,
+      "textContent": "666666666666666666666666666666666666666666666666666666666666666666666666666666666666"
+    },
+    {
+      "time": 76.167,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 76.417,
+      "textContent": "物理的运动取决于参照物的选择"
+    },
+    {
+      "time": 76.961,
+      "textContent": "走"
+    },
+    {
+      "time": 76.971,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 77.151,
+      "textContent": "大海航行靠舵手"
+    },
+    {
+      "time": 77.204,
+      "textContent": "实力"
+    },
+    {
+      "time": 77.314,
+      "textContent": "《石粒》"
+    },
+    {
+      "time": 77.431,
+      "textContent": "我不明白"
+    },
+    {
+      "time": 77.888,
+      "textContent": "要是实习更绝哈哈哈"
+    },
+    {
+      "time": 78.075,
+      "textContent": "《玄德岛》"
+    },
+    {
+      "time": 78.075,
+      "textContent": "《移动城市》"
+    },
+    {
+      "time": 78.111,
+      "textContent": "来吃狗"
+    },
+    {
+      "time": 78.4,
+      "textContent": "就这城碾过去刚刚曹军就没了"
+    },
+    {
+      "time": 78.879,
+      "textContent": "《移动城市的起源》"
+    },
+    {
+      "time": 79.126,
+      "textContent": "不是蜀A00001?"
+    },
+    {
+      "time": 79.421,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 79.483,
+      "textContent": "不应该是川A吗？成都"
+    },
+    {
+      "time": 79.508,
+      "textContent": "曹老板：老刘开挂，我不玩了！"
+    },
+    {
+      "time": 79.646,
+      "textContent": "《备A：88888》"
+    },
+    {
+      "time": 79.792,
+      "textContent": "等会你是新能源不上绿牌嘛"
+    },
+    {
+      "time": 80.302,
+      "textContent": "《实力》《备A.88888》《（后视镜）》"
+    },
+    {
+      "time": 80.401,
+      "textContent": "实力"
+    },
+    {
+      "time": 80.424,
+      "textContent": "备B其实更好（doge）"
+    },
+    {
+      "time": 81.002,
+      "textContent": "城池是没有后视镜的"
+    },
+    {
+      "time": 81.149,
+      "textContent": "细节，此（车）还是实习的，有可能撞车哦，亲"
+    },
+    {
+      "time": 81.154,
+      "textContent": "牛逼"
+    },
+    {
+      "time": 81.702,
+      "textContent": "蜀维埃"
+    },
+    {
+      "time": 81.757,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 81.851,
+      "textContent": "我大汉传世四百年，有点黑科技很正常吧"
+    },
+    {
+      "time": 82.135,
+      "textContent": "好一个备A8888"
+    },
+    {
+      "time": 82.41,
+      "textContent": "《哈尔的移动城堡》"
+    },
+    {
+      "time": 82.862,
+      "textContent": "大运来喽"
+    },
+    {
+      "time": 82.871,
+      "textContent": "刘豫州==》豫A8888"
+    },
+    {
+      "time": 83.029,
+      "textContent": "有这实力还跑什么，直接创过去"
+    },
+    {
+      "time": 83.42,
+      "textContent": "曹操：“我起猛了”"
+    },
+    {
+      "time": 83.527,
+      "textContent": "他甚至有后视镜"
+    },
+    {
+      "time": 83.78,
+      "textContent": "曹操：汗流浃背了"
+    },
+    {
+      "time": 83.889,
+      "textContent": "我没发烧吧？"
+    },
+    {
+      "time": 83.993,
+      "textContent": "刘备祖籍徐州不应该是苏C牌照吗？或者按新野当地牌照豫R"
+    },
+    {
+      "time": 84.123,
+      "textContent": "备B.66666"
+    },
+    {
+      "time": 84.223,
+      "textContent": "应该是川A才对吧"
+    },
+    {
+      "time": 84.393,
+      "textContent": "曹操：我发烧了？"
+    },
+    {
+      "time": 84.475,
+      "textContent": "应该是汉A"
+    },
+    {
+      "time": 84.923,
+      "textContent": "刘备A88886"
+    },
+    {
+      "time": 85.167,
+      "textContent": "曹操表示，我还没有睡醒吗？"
+    },
+    {
+      "time": 85.312,
+      "textContent": "666"
+    },
+    {
+      "time": 85.603,
+      "textContent": "怪守规矩的，还上牌了"
+    },
+    {
+      "time": 85.669,
+      "textContent": "携城"
+    },
+    {
+      "time": 85.972,
+      "textContent": "."
+    },
+    {
+      "time": 86.118,
+      "textContent": "城牌号"
+    },
+    {
+      "time": 86.164,
+      "textContent": "曹操汗如雨下"
+    },
+    {
+      "time": 86.9,
+      "textContent": "曹操：这是什么玩意"
+    },
+    {
+      "time": 86.979,
+      "textContent": "单双号限行怎么办？"
+    },
+    {
+      "time": 87.042,
+      "textContent": "新野车牌是豫R"
+    },
+    {
+      "time": 87.143,
+      "textContent": "有这能力还撤什么，直接压过去啊"
+    },
+    {
+      "time": 87.193,
+      "textContent": "汗流浃背了吧老曹"
+    },
+    {
+      "time": 87.286,
+      "textContent": "冷知识那时候刘备不能代替汉，只能代替臣，因为那是赤壁之战之前"
+    },
+    {
+      "time": 87.3,
+      "textContent": "666"
+    },
+    {
+      "time": 88.098,
+      "textContent": "实力"
+    },
+    {
+      "time": 89.18,
+      "textContent": "不 过"
+    },
+    {
+      "time": 89.695,
+      "textContent": "曹丞相：？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？"
+    },
+    {
+      "time": 89.726,
+      "textContent": "掠夺城市"
+    },
+    {
+      "time": 90.004,
+      "textContent": "？吨王"
+    },
+    {
+      "time": 90.194,
+      "textContent": "操：我魏国要完了啊"
+    },
+    {
+      "time": 90.502,
+      "textContent": "跑的还挺快的"
+    },
+    {
+      "time": 90.604,
+      "textContent": "无敌了，掠夺城市"
+    },
+    {
+      "time": 90.727,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 90.838,
+      "textContent": "皇叔的移动城堡"
+    },
+    {
+      "time": 90.899,
+      "textContent": "操：我看见了什么？！"
+    },
+    {
+      "time": 91.421,
+      "textContent": "皇叔的移动城堡"
+    },
+    {
+      "time": 91.52,
+      "textContent": "携程旅行"
+    },
+    {
+      "time": 91.795,
+      "textContent": "有这科技还不去创死曹操"
+    },
+    {
+      "time": 92.193,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 92.445,
+      "textContent": "《 不  过  是 》"
+    },
+    {
+      "time": 92.74,
+      "textContent": "豹子号"
+    },
+    {
+      "time": 92.814,
+      "textContent": "《不过是》"
+    },
+    {
+      "time": 93.097,
+      "textContent": "曹军：我不在意吗？"
+    },
+    {
+      "time": 93.203,
+      "textContent": "笑死我了哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 93.426,
+      "textContent": "竟然有一个人退出了。现在只剩六块了。"
+    },
+    {
+      "time": 93.438,
+      "textContent": "《携程旅行》"
+    },
+    {
+      "time": 93.523,
+      "textContent": "方舟的移动城市？？！"
+    },
+    {
+      "time": 93.812,
+      "textContent": "《刘备大迁徙》"
+    },
+    {
+      "time": 93.88,
+      "textContent": "为什么不直接攻"
+    },
+    {
+      "time": 94.033,
+      "textContent": "《不过》"
+    },
+    {
+      "time": 94.27,
+      "textContent": "流浪皇叔？"
+    },
+    {
+      "time": 94.295,
+      "textContent": "《 流 皇 叔 》"
+    },
+    {
+      "time": 94.491,
+      "textContent": "我以为减速带呐！"
+    },
+    {
+      "time": 94.969,
+      "textContent": "《不过是》"
+    },
+    {
+      "time": 95.631,
+      "textContent": "《不过》"
+    },
+    {
+      "time": 95.727,
+      "textContent": "《没有人在意》"
+    },
+    {
+      "time": 96.263,
+      "textContent": "《不过是一次携城逃离》"
+    },
+    {
+      "time": 96.48,
+      "textContent": "源石天灾要来力"
+    },
+    {
+      "time": 96.699,
+      "textContent": "《不过》《没有人在意》"
+    },
+    {
+      "time": 97.329,
+      "textContent": "基地车"
+    },
+    {
+      "time": 98.03,
+      "textContent": "罗德岛"
+    },
+    {
+      "time": 98.249,
+      "textContent": "流浪皇叔计划"
+    },
+    {
+      "time": 98.663,
+      "textContent": "《实力》"
+    },
+    {
+      "time": 98.873,
+      "textContent": "居然有后视镜"
+    },
+    {
+      "time": 99.117,
+      "textContent": "《不过是一次普通的携城旅行》"
+    },
+    {
+      "time": 100.414,
+      "textContent": "666"
+    },
+    {
+      "time": 100.561,
+      "textContent": "刘浪地球"
+    },
+    {
+      "time": 100.936,
+      "textContent": "666"
+    },
+    {
+      "time": 101.132,
+      "textContent": "《不过》"
+    },
+    {
+      "time": 101.271,
+      "textContent": "流浪地球乱入"
+    },
+    {
+      "time": 101.321,
+      "textContent": "孟德你可以携一座城去追【doge】"
+    },
+    {
+      "time": 101.668,
+      "textContent": "移动城市这一块"
+    },
+    {
+      "time": 102.553,
+      "textContent": "移动城市就是从这里学的吗"
+    },
+    {
+      "time": 102.675,
+      "textContent": "周瑜好帅，开森了"
+    },
+    {
+      "time": 103.34,
+      "textContent": "《流浪蜀汉》"
+    },
+    {
+      "time": 105.885,
+      "textContent": "罗贯中：我不干了"
+    },
+    {
+      "time": 106.567,
+      "textContent": "《同城旅行》"
+    },
+    {
+      "time": 106.64,
+      "textContent": "据野史记载刘备是刘慈欣的祖先"
+    },
+    {
+      "time": 106.708,
+      "textContent": "《活字乱刷术》"
+    },
+    {
+      "time": 108.107,
+      "textContent": "奉孝复活了！"
+    },
+    {
+      "time": 108.282,
+      "textContent": "刘慈欣:6"
+    },
+    {
+      "time": 108.99,
+      "textContent": "需一千万"
+    },
+    {
+      "time": 109.158,
+      "textContent": "蓝色空间号。"
+    },
+    {
+      "time": 109.204,
+      "textContent": "流皇叔"
+    },
+    {
+      "time": 109.331,
+      "textContent": "物理搬家"
+    },
+    {
+      "time": 109.568,
+      "textContent": "大都督！！！"
+    },
+    {
+      "time": 110.917,
+      "textContent": "不去碾曹操吗"
+    },
+    {
+      "time": 111.2,
+      "textContent": "流浪蜀汉，需一千万"
+    },
+    {
+      "time": 111.871,
+      "textContent": "此挖坑是亮剑画面，哈哈哈"
+    },
+    {
+      "time": 114.086,
+      "textContent": "反坦克壕沟"
+    },
+    {
+      "time": 114.68,
+      "textContent": "曹魏特大爆破工程。"
+    },
+    {
+      "time": 116.273,
+      "textContent": "曹操也是个人物"
+    },
+    {
+      "time": 116.492,
+      "textContent": "机械教铸造"
+    },
+    {
+      "time": 117.096,
+      "textContent": "曹魏也不简单"
+    },
+    {
+      "time": 117.357,
+      "textContent": "《就属这种作者没有道德》"
+    },
+    {
+      "time": 117.406,
+      "textContent": "自 我 介 绍（doge"
+    },
+    {
+      "time": 117.602,
+      "textContent": "《头号玩家》"
+    },
+    {
+      "time": 117.699,
+      "textContent": "流浪地球乱入"
+    },
+    {
+      "time": 117.916,
+      "textContent": "反 坦 克 壕 沟"
+    },
+    {
+      "time": 117.964,
+      "textContent": "666"
+    },
+    {
+      "time": 118.043,
+      "textContent": "@江南"
+    },
+    {
+      "time": 118.471,
+      "textContent": "《亮剑乱入》"
+    },
+    {
+      "time": 119.041,
+      "textContent": "《反 坦 克 壕 沟》"
+    },
+    {
+      "time": 119.102,
+      "textContent": "《罪己诏》"
+    },
+    {
+      "time": 119.605,
+      "textContent": "音乐"
+    },
+    {
+      "time": 120.009,
+      "textContent": "@南派三叔吴磊"
+    },
+    {
+      "time": 121.004,
+      "textContent": "是吧江南"
+    },
+    {
+      "time": 121.062,
+      "textContent": "《自   己   骂   自   己》"
+    },
+    {
+      "time": 121.218,
+      "textContent": "@江南"
+    },
+    {
+      "time": 121.236,
+      "textContent": "自知之明"
+    },
+    {
+      "time": 122.372,
+      "textContent": "自我介绍这一块"
+    },
+    {
+      "time": 122.575,
+      "textContent": "细说挑逗"
+    },
+    {
+      "time": 122.657,
+      "textContent": "细说挑逗（doge）"
+    },
+    {
+      "time": 123.945,
+      "textContent": "曹操：我是喝了一吨白酒吗"
+    },
+    {
+      "time": 123.953,
+      "textContent": "物理搬家"
+    },
+    {
+      "time": 124.405,
+      "textContent": "青红造了个孽"
+    },
+    {
+      "time": 124.893,
+      "textContent": "调戏吧，不要挑逗了"
+    },
+    {
+      "time": 125.862,
+      "textContent": "@小约翰可汗"
+    },
+    {
+      "time": 126.251,
+      "textContent": "南派三叔不填坑"
+    },
+    {
+      "time": 127.093,
+      "textContent": "自 我 介 绍"
+    },
+    {
+      "time": 127.127,
+      "textContent": "自己骂自己。"
+    },
+    {
+      "time": 127.499,
+      "textContent": "不会起飞吧"
+    },
+    {
+      "time": 128.37,
+      "textContent": "移动城市"
+    },
+    {
+      "time": 128.427,
+      "textContent": "《鬼》"
+    },
+    {
+      "time": 129.014,
+      "textContent": "移动城堡"
+    },
+    {
+      "time": 129.098,
+      "textContent": "别骂了"
+    },
+    {
+      "time": 130.768,
+      "textContent": "辰东：这么点名道姓，你礼貌吗？"
+    },
+    {
+      "time": 131.047,
+      "textContent": "前情台词：吕布，我誓杀汝"
+    },
+    {
+      "time": 131.476,
+      "textContent": "司马懿差点提前下线"
+    },
+    {
+      "time": 132.4,
+      "textContent": "《我是沙鲁》"
+    },
+    {
+      "time": 132.887,
+      "textContent": "我是沙鲁"
+    },
+    {
+      "time": 133.05,
+      "textContent": "刘备：你誓杀的人还少吗"
+    },
+    {
+      "time": 133.165,
+      "textContent": "我是沙鲁！"
+    },
+    {
+      "time": 133.184,
+      "textContent": "刘备：曹操，俺是逆爹"
+    },
+    {
+      "time": 133.266,
+      "textContent": "《我是沙鲁》"
+    },
+    {
+      "time": 136.253,
+      "textContent": "[前方高能]"
+    },
+    {
+      "time": 136.99,
+      "textContent": "飞 备 环 游 记"
+    },
+    {
+      "time": 137.362,
+      "textContent": "我是沙鲁"
+    },
+    {
+      "time": 137.583,
+      "textContent": "二 阶 段"
+    },
+    {
+      "time": 137.591,
+      "textContent": "《飞城环游记》"
+    },
+    {
+      "time": 138.176,
+      "textContent": "不应该是放孔明灯吗？"
+    },
+    {
+      "time": 138.614,
+      "textContent": "《飞   城  环  游  记》"
+    },
+    {
+      "time": 138.632,
+      "textContent": "飞屋环游记"
+    },
+    {
+      "time": 139.384,
+      "textContent": "<    <    飞    城    环    游    记    >    >"
+    },
+    {
+      "time": 139.65,
+      "textContent": "小白鼠:就是这种作者最没道德。"
+    },
+    {
+      "time": 139.785,
+      "textContent": "《费城环游记》"
+    },
+    {
+      "time": 139.835,
+      "textContent": "飞“城”环游记"
+    },
+    {
+      "time": 139.95,
+      "textContent": "为什么不赶紧射箭？(・◇・)"
+    },
+    {
+      "time": 140.515,
+      "textContent": "成 飞 集 团"
+    },
+    {
+      "time": 140.561,
+      "textContent": "六 代 城"
+    },
+    {
+      "time": 140.688,
+      "textContent": "飞城勿扰"
+    },
+    {
+      "time": 141.136,
+      "textContent": "？"
+    },
+    {
+      "time": 141.246,
+      "textContent": "飞屋环游记？……"
+    },
+    {
+      "time": 141.34,
+      "textContent": "飞城环游记"
+    },
+    {
+      "time": 141.562,
+      "textContent": "《飞城环游记》"
+    },
+    {
+      "time": 142.378,
+      "textContent": "Boss进入第二阶段"
+    },
+    {
+      "time": 142.698,
+      "textContent": "《飞城环游记》"
+    },
+    {
+      "time": 142.748,
+      "textContent": "放箭啊！！！"
+    },
+    {
+      "time": 142.847,
+      "textContent": "孔明灯"
+    },
+    {
+      "time": 142.852,
+      "textContent": "《飞城环游记."
+    },
+    {
+      "time": 143.083,
+      "textContent": "放气球，那曹操放箭啊"
+    },
+    {
+      "time": 143.193,
+      "textContent": "二周目"
+    },
+    {
+      "time": 143.271,
+      "textContent": "可气球并不是放了才飞的啊"
+    },
+    {
+      "time": 143.384,
+      "textContent": "迪士尼打钱"
+    },
+    {
+      "time": 143.606,
+      "textContent": "大      疆     狂     喜"
+    },
+    {
+      "time": 143.685,
+      "textContent": "《飞城环游记》"
+    },
+    {
+      "time": 143.912,
+      "textContent": "飞城环游记"
+    },
+    {
+      "time": 144.669,
+      "textContent": "燃起来了"
+    },
+    {
+      "time": 144.868,
+      "textContent": "中航成飞！！！"
+    },
+    {
+      "time": 145.324,
+      "textContent": "成飞的前身，蜀飞"
+    },
+    {
+      "time": 145.386,
+      "textContent": "木屋飞起来"
+    },
+    {
+      "time": 145.982,
+      "textContent": "飞城环游记？"
+    },
+    {
+      "time": 146.212,
+      "textContent": "问:气球里的氢气怎么来的"
+    },
+    {
+      "time": 146.707,
+      "textContent": "小白鼠:天亮了"
+    },
+    {
+      "time": 147.404,
+      "textContent": "《飞城环游记》"
+    },
+    {
+      "time": 147.416,
+      "textContent": "《刘备会飞的城堡》"
+    },
+    {
+      "time": 147.821,
+      "textContent": "飞机备。"
+    },
+    {
+      "time": 147.967,
+      "textContent": "曹操：放箭，快放箭呐"
+    },
+    {
+      "time": 149.154,
+      "textContent": "牛顿进入直播间"
+    },
+    {
+      "time": 149.393,
+      "textContent": "小白鼠：可尼玛不用三班倒了"
+    },
+    {
+      "time": 149.459,
+      "textContent": "梦幻联动"
+    },
+    {
+      "time": 150.496,
+      "textContent": "成 飞"
+    },
+    {
+      "time": 150.894,
+      "textContent": "飞城环游记"
+    },
+    {
+      "time": 151.21,
+      "textContent": "脑子有点痒"
+    },
+    {
+      "time": 151.422,
+      "textContent": "?"
+    },
+    {
+      "time": 151.619,
+      "textContent": "掠夺城市又换了"
+    },
+    {
+      "time": 151.951,
+      "textContent": "牛顿因为语言过激被踢出直播间"
+    },
+    {
+      "time": 152.304,
+      "textContent": "《飞蜀撤》"
+    },
+    {
+      "time": 153.158,
+      "textContent": "《Air  Baby》"
+    },
+    {
+      "time": 153.437,
+      "textContent": "飞屋环游记"
+    },
+    {
+      "time": 153.458,
+      "textContent": "曹操：我看不懂，但大受震撼"
+    },
+    {
+      "time": 153.765,
+      "textContent": "？？？"
+    },
+    {
+      "time": 154.131,
+      "textContent": "鼠呢"
+    },
+    {
+      "time": 154.627,
+      "textContent": "飞翔的蜀汉人"
+    },
+    {
+      "time": 154.87,
+      "textContent": "飞机备"
+    },
+    {
+      "time": 155.143,
+      "textContent": "备备航空"
+    },
+    {
+      "time": 155.425,
+      "textContent": "@澎湃"
+    },
+    {
+      "time": 155.993,
+      "textContent": "？？"
+    },
+    {
+      "time": 156.869,
+      "textContent": "BGM  加勒比海盗1    巴博萨登场的小曲  "
+    },
+    {
+      "time": 157.384,
+      "textContent": "飞备环游记"
+    },
+    {
+      "time": 158.406,
+      "textContent": "卧槽，蚌埠住了"
+    },
+    {
+      "time": 158.526,
+      "textContent": "刘6666次列车马上就要起飞"
+    },
+    {
+      "time": 158.666,
+      "textContent": "哈哈哈哈哈"
+    },
+    {
+      "time": 159.264,
+      "textContent": "东汉人能飞（"
+    },
+    {
+      "time": 159.293,
+      "textContent": "《让蜀汉飞》"
+    },
+    {
+      "time": 159.327,
+      "textContent": "笑死了"
+    },
+    {
+      "time": 159.346,
+      "textContent": "？？"
+    },
+    {
+      "time": 159.486,
+      "textContent": "《备备航空》"
+    },
+    {
+      "time": 159.558,
+      "textContent": "这个航空能不能保住生命安全的呀 "
+    },
+    {
+      "time": 160.44,
+      "textContent": "《大汉科技》"
+    },
+    {
+      "time": 160.471,
+      "textContent": "空姐改空少了doge"
+    },
+    {
+      "time": 160.949,
+      "textContent": "大制作啊"
+    },
+    {
+      "time": 161.665,
+      "textContent": "我说前面怎么看着像开飞机"
+    },
+    {
+      "time": 161.684,
+      "textContent": "飞行模式"
+    },
+    {
+      "time": 161.91,
+      "textContent": "飞屋环球旅行"
+    },
+    {
+      "time": 161.965,
+      "textContent": "我以为是四川航空"
+    },
+    {
+      "time": 161.97,
+      "textContent": "百姓手机启用飞行模式"
+    },
+    {
+      "time": 162.205,
+      "textContent": "《二哥瓜子》"
+    },
+    {
+      "time": 163.037,
+      "textContent": "为什么不继续做你的绿豆生意？ (doge)"
+    },
+    {
+      "time": 163.156,
+      "textContent": "关羽：重操旧业了兄弟们"
+    },
+    {
+      "time": 163.5,
+      "textContent": "《将自己改为飞行模式》"
+    },
+    {
+      "time": 163.533,
+      "textContent": "哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 163.733,
+      "textContent": "备备航空的火车上的售货员"
+    },
+    {
+      "time": 163.734,
+      "textContent": "快笑死了"
+    },
+    {
+      "time": 163.75,
+      "textContent": "（）"
+    },
+    {
+      "time": 164.311,
+      "textContent": "川航"
+    },
+    {
+      "time": 164.339,
+      "textContent": "我满脸诧异的看完了"
+    },
+    {
+      "time": 164.434,
+      "textContent": "这倒是提醒我了"
+    },
+    {
+      "time": 164.583,
+      "textContent": "真是要血命了"
+    },
+    {
+      "time": 164.689,
+      "textContent": "?笑死我了"
+    },
+    {
+      "time": 165.182,
+      "textContent": "高铁实锤"
+    },
+    {
+      "time": 165.248,
+      "textContent": "癫，太颠了"
+    },
+    {
+      "time": 165.316,
+      "textContent": "小白鼠？？？"
+    },
+    {
+      "time": 165.438,
+      "textContent": "春 秋 航 空"
+    },
+    {
+      "time": 165.923,
+      "textContent": "《将自己切换成飞行模式》"
+    },
+    {
+      "time": 166.014,
+      "textContent": "火坤！"
+    },
+    {
+      "time": 166.124,
+      "textContent": "浮空城"
+    },
+    {
+      "time": 166.446,
+      "textContent": "诸葛亮，诸葛暗，诸葛成像"
+    },
+    {
+      "time": 166.623,
+      "textContent": "[]\\"
+    },
+    {
+      "time": 166.662,
+      "textContent": "备备上天了"
+    },
+    {
+      "time": 166.916,
+      "textContent": "细节火机"
+    },
+    {
+      "time": 166.944,
+      "textContent": "《自己切换飞行模式》"
+    },
+    {
+      "time": 167.054,
+      "textContent": "哈哈哈哈哈"
+    },
+    {
+      "time": 167.166,
+      "textContent": "a?"
+    },
+    {
+      "time": 167.208,
+      "textContent": "《 春 秋 航 空》"
+    },
+    {
+      "time": 167.685,
+      "textContent": "火                               姬"
+    },
+    {
+      "time": 168.133,
+      "textContent": "哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 169.022,
+      "textContent": "火机哈哈哈哈哈哈"
+    },
+    {
+      "time": 170.385,
+      "textContent": "成都航空有限公司"
+    },
+    {
+      "time": 170.521,
+      "textContent": "这对吗"
+    },
+    {
+      "time": 170.618,
+      "textContent": "？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？"
+    },
+    {
+      "time": 171.321,
+      "textContent": "秦弩："
+    },
+    {
+      "time": 171.863,
+      "textContent": "加勒比海盗无缝连接海贼王，，牛B"
+    },
+    {
+      "time": 172.64,
+      "textContent": "《春   秋   航   空》"
+    },
+    {
+      "time": 172.924,
+      "textContent": "布豪！！！"
+    },
+    {
+      "time": 172.934,
+      "textContent": "弓箭手，准备放箭"
+    },
+    {
+      "time": 172.991,
+      "textContent": "合理"
+    },
+    {
+      "time": 173.041,
+      "textContent": "哈哈哈哈"
+    },
+    {
+      "time": 173.955,
+      "textContent": "气球塔防"
+    },
+    {
+      "time": 174.102,
+      "textContent": "《打 火 机》"
+    },
+    {
+      "time": 174.551,
+      "textContent": "小白鼠:help"
+    },
+    {
+      "time": 176.342,
+      "textContent": "666不是弩，是很耗钱的"
+    },
+    {
+      "time": 176.462,
+      "textContent": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 177.142,
+      "textContent": "亚索给个风墙啊"
+    },
+    {
+      "time": 177.32,
+      "textContent": "BGM：One Piece x Pirates of The Caribbean   不谢"
+    },
+    {
+      "time": 177.512,
+      "textContent": "好吃吗"
+    },
+    {
+      "time": 177.804,
+      "textContent": "《备备航空》"
+    },
+    {
+      "time": 177.982,
+      "textContent": "还是海贼配乐"
+    },
+    {
+      "time": 178.089,
+      "textContent": "弓箭手，准备放箭！！！"
+    },
+    {
+      "time": 178.278,
+      "textContent": "太空电梯"
+    },
+    {
+      "time": 178.633,
+      "textContent": "成都航空欢迎您！"
+    },
+    {
+      "time": 179.914,
+      "textContent": "红红火火恍恍惚惚"
+    },
+    {
+      "time": 180.446,
+      "textContent": "hahahahahahahahahahaahhhahahahahahahahahaha"
+    },
+    {
+      "time": 181.679,
+      "textContent": "《天空之城》"
+    },
+    {
+      "time": 181.69,
+      "textContent": "哪来的秦人？秦朝的百姓这么能活呀？"
+    },
+    {
+      "time": 181.993,
+      "textContent": "《海贼王》"
+    },
+    {
+      "time": 182.132,
+      "textContent": "小作坊太生猛了。。哈哈。，，，"
+    },
+    {
+      "time": 182.951,
+      "textContent": "君幸食！"
+    },
+    {
+      "time": 183.581,
+      "textContent": "春秋航空比较好"
+    },
+    {
+      "time": 184.88,
+      "textContent": "飞翔的大汉人"
+    },
+    {
+      "time": 184.88,
+      "textContent": "飞翔的大汗人"
+    },
+    {
+      "time": 185.275,
+      "textContent": "《气球借剑箭》笑死我了"
+    },
+    {
+      "time": 185.33,
+      "textContent": "接飞升撤离了"
+    },
+    {
+      "time": 186.945,
+      "textContent": "袁神，启动！"
+    },
+    {
+      "time": 188.047,
+      "textContent": "？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？、"
+    },
+    {
+      "time": 188.453,
+      "textContent": "前方高能！！！！！！！！！！！！！！！！"
+    },
+    {
+      "time": 189.019,
+      "textContent": "老一辈科学家的从容与自信"
+    },
+    {
+      "time": 189.121,
+      "textContent": "做机动规避"
+    },
+    {
+      "time": 189.125,
+      "textContent": "[前方高能]"
+    },
+    {
+      "time": 189.582,
+      "textContent": "一股强劲的音乐响起！"
+    },
+    {
+      "time": 189.834,
+      "textContent": "前方高能！！！！！！！！！！！！！！！"
+    },
+    {
+      "time": 190.459,
+      "textContent": "海贼王bgm"
+    },
+    {
+      "time": 191.213,
+      "textContent": "一股强劲的节奏响起"
+    },
+    {
+      "time": 192.137,
+      "textContent": "oh！"
+    },
+    {
+      "time": 192.174,
+      "textContent": "《三国-空岛篇》"
+    },
+    {
+      "time": 192.234,
+      "textContent": "BGM变了！"
+    },
+    {
+      "time": 192.348,
+      "textContent": "前方 bgm《太空电梯》"
+    },
+    {
+      "time": 192.692,
+      "textContent": "你猜为什么是火机"
+    },
+    {
+      "time": 192.732,
+      "textContent": "《前方高能》"
+    },
+    {
+      "time": 193.596,
+      "textContent": "前方高能预警"
+    },
+    {
+      "time": 193.619,
+      "textContent": "备备火机，前进四！！！！！"
+    },
+    {
+      "time": 193.658,
+      "textContent": "前 方 高 能"
+    },
+    {
+      "time": 193.731,
+      "textContent": "◣◥◣◥◣◥WARNING 警告 前方核能 非战斗人员做好准备 WARNING◣◥◣◥◣◥ ◣◥◣◥◣◥WARNING 警告 前方核能 非战斗人员做好准备 WARNING◣◥◣◥◣◥◣◥◣◥◣◥WAR"
+    },
+    {
+      "time": 194.15,
+      "textContent": "Three,two,one. Launch！！！"
+    },
+    {
+      "time": 194.644,
+      "textContent": "B GM燃起来了"
+    },
+    {
+      "time": 194.646,
+      "textContent": "老一辈科学家的从容与自信"
+    },
+    {
+      "time": 195.001,
+      "textContent": "火机：火箭发动机"
+    },
+    {
+      "time": 195.106,
+      "textContent": "[前方高能]"
+    },
+    {
+      "time": 195.73,
+      "textContent": "太空城池，启动！"
+    },
+    {
+      "time": 196.106,
+      "textContent": "高边疆号"
+    },
+    {
+      "time": 196.126,
+      "textContent": "太空电梯，准备点火！"
+    },
+    {
+      "time": 196.214,
+      "textContent": "贝贝号，前进四！"
+    },
+    {
+      "time": 196.298,
+      "textContent": "满城百姓，high到不行"
+    },
+    {
+      "time": 196.837,
+      "textContent": "机械教，赞美欧姆弥赛亚！！！！！！！！！！"
+    },
+    {
+      "time": 196.869,
+      "textContent": "哈哈哈哈哈这么丝滑的吗"
+    },
+    {
+      "time": 197.01,
+      "textContent": "进度条感人"
+    },
+    {
+      "time": 197.114,
+      "textContent": "原来气球的作用是远离地面"
+    },
+    {
+      "time": 197.413,
+      "textContent": "◣◥◣◥DRANGR◣◥◣◥紅色警報◣◥◣◥DRANGR◣◥◣◥◣◥◣◥DRANGR◣◥◣◥高能预警◣◥◣◥DRANGR◣◥◣◥◣◥◣◥紅色警報◣◥◣◥高能预警◣◥◣◥DRANGR◣◥◣◥◣◥◣◥"
+    },
+    {
+      "time": 198.071,
+      "textContent": "太空电梯"
+    },
+    {
+      "time": 198.209,
+      "textContent": "有这技术还用跑？"
+    },
+    {
+      "time": 198.693,
+      "textContent": "这是火箭吧 ？"
+    },
+    {
+      "time": 198.786,
+      "textContent": "备备火机，前进四！！！！！"
+    },
+    {
+      "time": 198.85,
+      "textContent": "还原屏幕"
+    },
+    {
+      "time": 198.897,
+      "textContent": "推备感"
+    },
+    {
+      "time": 199.003,
+      "textContent": "推备感"
+    },
+    {
+      "time": 199.206,
+      "textContent": "点火！！！"
+    },
+    {
+      "time": 199.209,
+      "textContent": "《太空电梯》"
+    },
+    {
+      "time": 199.303,
+      "textContent": "备备一号火箭准备完毕，3，2，1，点火！！！"
+    },
+    {
+      "time": 199.481,
+      "textContent": "太空城池"
+    },
+    {
+      "time": 199.495,
+      "textContent": "备备火机，前进四！！！！！"
+    },
+    {
+      "time": 199.579,
+      "textContent": "那3万只小白鼠还好吗？"
+    },
+    {
+      "time": 199.591,
+      "textContent": "《小白鼠》"
+    },
+    {
+      "time": 199.712,
+      "textContent": "原来太空电梯是古代的"
+    },
+    {
+      "time": 199.827,
+      "textContent": "火机变火箭了"
+    },
+    {
+      "time": 200.16,
+      "textContent": "太空电城"
+    },
+    {
+      "time": 200.198,
+      "textContent": "9.5G    超载"
+    },
+    {
+      "time": 200.257,
+      "textContent": "是个人物"
+    },
+    {
+      "time": 200.551,
+      "textContent": "？？？？"
+    },
+    {
+      "time": 200.773,
+      "textContent": "太空电梯"
+    },
+    {
+      "time": 200.969,
+      "textContent": "BGM切换的这么丝滑吗？"
+    },
+    {
+      "time": 201.04,
+      "textContent": "抗荷服呢"
+    },
+    {
+      "time": 201.043,
+      "textContent": "流浪城。"
+    },
+    {
+      "time": 201.558,
+      "textContent": "蜀汉科技！"
+    },
+    {
+      "time": 201.599,
+      "textContent": "太空电梯你来造（doge）"
+    },
+    {
+      "time": 202.019,
+      "textContent": "6666666"
+    },
+    {
+      "time": 202.044,
+      "textContent": "好强的推备感"
+    },
+    {
+      "time": 202.193,
+      "textContent": "火鸡"
+    },
+    {
+      "time": 202.203,
+      "textContent": "我去"
+    },
+    {
+      "time": 202.447,
+      "textContent": "？"
+    },
+    {
+      "time": 202.624,
+      "textContent": "大哥，咱们都有这技术了，还跑啥啊"
+    },
+    {
+      "time": 202.705,
+      "textContent": "卧槽绝了哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 202.84,
+      "textContent": "啊？？？"
+    },
+    {
+      "time": 202.983,
+      "textContent": "飞升了"
+    },
+    {
+      "time": 203.683,
+      "textContent": "流浪城池"
+    },
+    {
+      "time": 203.805,
+      "textContent": "备备火机号，前进四"
+    },
+    {
+      "time": 203.809,
+      "textContent": "《太空电城》"
+    },
+    {
+      "time": 204.227,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 204.6,
+      "textContent": "载城航天"
+    },
+    {
+      "time": 204.803,
+      "textContent": "《推备感》"
+    },
+    {
+      "time": 204.827,
+      "textContent": "刘备：好强的推“备”感"
+    },
+    {
+      "time": 204.919,
+      "textContent": "小白鼠呢"
+    },
+    {
+      "time": 204.967,
+      "textContent": "推 备 感"
+    },
+    {
+      "time": 205.097,
+      "textContent": "推臀感"
+    },
+    {
+      "time": 205.2,
+      "textContent": "啊？"
+    },
+    {
+      "time": 206.1,
+      "textContent": "小白鼠:听我说谢谢你"
+    },
+    {
+      "time": 206.159,
+      "textContent": "推腚感"
+    },
+    {
+      "time": 206.187,
+      "textContent": "质量挺好"
+    },
+    {
+      "time": 206.302,
+      "textContent": "小白鼠：Word发生什么事了，密码！"
+    },
+    {
+      "time": 206.325,
+      "textContent": "听见这bgm就绷不住了"
+    },
+    {
+      "time": 206.551,
+      "textContent": "三体演义"
+    },
+    {
+      "time": 206.658,
+      "textContent": "牛皮"
+    },
+    {
+      "time": 207.06,
+      "textContent": "《樊城电梯》"
+    },
+    {
+      "time": 207.221,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 207.321,
+      "textContent": "推备感"
+    },
+    {
+      "time": 207.735,
+      "textContent": "《星环号》"
+    },
+    {
+      "time": 208.526,
+      "textContent": "《白帝城》"
+    },
+    {
+      "time": 209.171,
+      "textContent": "太空备备火机"
+    },
+    {
+      "time": 209.254,
+      "textContent": "全城缺氧了属于是"
+    },
+    {
+      "time": 209.411,
+      "textContent": "推腚感"
+    },
+    {
+      "time": 209.413,
+      "textContent": "气球的意义在哪？"
+    },
+    {
+      "time": 209.494,
+      "textContent": "这还是我熟悉的三国演义吗？"
+    },
+    {
+      "time": 209.556,
+      "textContent": "流 浪 三 国"
+    },
+    {
+      "time": 209.637,
+      "textContent": "知其燃不知其所以燃。"
+    },
+    {
+      "time": 209.703,
+      "textContent": "你想过曹操在下面的感受吗？"
+    },
+    {
+      "time": 209.759,
+      "textContent": "这技术还用跑？"
+    },
+    {
+      "time": 209.767,
+      "textContent": "大汉科技"
+    },
+    {
+      "time": 209.792,
+      "textContent": "AI可太好了"
+    },
+    {
+      "time": 209.806,
+      "textContent": "我的关羽啊！！！！！！"
+    },
+    {
+      "time": 209.85,
+      "textContent": "我好像在看科幻片？"
+    },
+    {
+      "time": 210.177,
+      "textContent": "不愧是汉室王者座驾！"
+    },
+    {
+      "time": 210.338,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 210.356,
+      "textContent": "可回收吗？"
+    },
+    {
+      "time": 210.523,
+      "textContent": "刘浪球"
+    },
+    {
+      "time": 210.653,
+      "textContent": "我还是没睡醒。。。"
+    },
+    {
+      "time": 210.861,
+      "textContent": "过载9G"
+    },
+    {
+      "time": 210.949,
+      "textContent": "三体演义"
+    },
+    {
+      "time": 211.052,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 211.2,
+      "textContent": "怀疑太空电梯早在三国就已经使用 "
+    },
+    {
+      "time": 211.204,
+      "textContent": "流浪城池"
+    },
+    {
+      "time": 211.37,
+      "textContent": "你给路达哟"
+    },
+    {
+      "time": 211.453,
+      "textContent": "斯塔克: 请问如何解决结冰问题？"
+    },
+    {
+      "time": 211.475,
+      "textContent": "操：我是眼花了吗"
+    },
+    {
+      "time": 211.509,
+      "textContent": "曹操:直接判你赢得了呗"
+    },
+    {
+      "time": 211.509,
+      "textContent": "次哦啊学哦啊"
+    },
+    {
+      "time": 211.622,
+      "textContent": "太颠了"
+    },
+    {
+      "time": 212.017,
+      "textContent": "太空电梯"
+    },
+    {
+      "time": 212.193,
+      "textContent": "此时的曹孟德才知道，自己早已和刘备等人不是一个维度的了"
+    },
+    {
+      "time": 212.23,
+      "textContent": "《太空电城》"
+    },
+    {
+      "time": 212.25,
+      "textContent": "氧气：？"
+    },
+    {
+      "time": 212.414,
+      "textContent": "曹操发现自己跟刘备已经不是一个文明等级了"
+    },
+    {
+      "time": 212.545,
+      "textContent": "这，合理吗？这很河狸"
+    },
+    {
+      "time": 212.641,
+      "textContent": "曹操们的彻底失败"
+    },
+    {
+      "time": 212.771,
+      "textContent": "请计算此时蜀国人承受的重力"
+    },
+    {
+      "time": 213.206,
+      "textContent": "直接变成了流浪演义"
+    },
+    {
+      "time": 213.22,
+      "textContent": "高反了"
+    },
+    {
+      "time": 213.455,
+      "textContent": "可以进行受力分析了"
+    },
+    {
+      "time": 213.59,
+      "textContent": "大汉选择号 前进四！"
+    },
+    {
+      "time": 214.007,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 214.09,
+      "textContent": "6慈欣：刘"
+    },
+    {
+      "time": 214.137,
+      "textContent": "牛逼"
+    },
+    {
+      "time": 214.188,
+      "textContent": "233333"
+    },
+    {
+      "time": 214.355,
+      "textContent": "阿操，这次你服气了吧"
+    },
+    {
+      "time": 215.285,
+      "textContent": "《诸葛亮的三体演义》"
+    },
+    {
+      "time": 215.442,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 215.909,
+      "textContent": "备备火机号！前进4~"
+    },
+    {
+      "time": 216.366,
+      "textContent": "前进四！"
+    },
+    {
+      "time": 216.456,
+      "textContent": "三国演几千亿的科技啊"
+    },
+    {
+      "time": 216.746,
+      "textContent": "不管是三国演义还是三国志，蜀汉势力这帮人确实是最浪漫的团队"
+    },
+    {
+      "time": 217.158,
+      "textContent": "季汉大西征"
+    },
+    {
+      "time": 217.385,
+      "textContent": "自然选择，前进四！"
+    },
+    {
+      "time": 217.4,
+      "textContent": "遇事不决，亮子力学"
+    },
+    {
+      "time": 217.779,
+      "textContent": "前进！前进！不择手段的前进！"
+    },
+    {
+      "time": 218.69,
+      "textContent": "你都能上天了，还打什么地球的江山啊哈哈哈"
+    },
+    {
+      "time": 219.041,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 219.065,
+      "textContent": "星舰地球"
+    },
+    {
+      "time": 219.507,
+      "textContent": "东汉末年最好的公路片（doge"
+    },
+    {
+      "time": 219.647,
+      "textContent": "自然选择，前进四"
+    },
+    {
+      "time": 219.801,
+      "textContent": "刘备号前进四！！！！！！！！"
+    },
+    {
+      "time": 219.822,
+      "textContent": "《罗德岛终将驶向这片大地的尽头》"
+    },
+    {
+      "time": 220.11,
+      "textContent": "6666"
+    },
+    {
+      "time": 220.331,
+      "textContent": "二             说得对                     三体     付费"
+    },
+    {
+      "time": 220.588,
+      "textContent": "廖耀湘：畅通无阻，畅通无阻"
+    },
+    {
+      "time": 220.591,
+      "textContent": "斯塔克:那你怎么解决结冰问题呢？"
+    },
+    {
+      "time": 220.799,
+      "textContent": "不计代价的前进"
+    },
+    {
+      "time": 221.126,
+      "textContent": "前进四！"
+    },
+    {
+      "time": 221.14,
+      "textContent": "前进四"
+    },
+    {
+      "time": 221.303,
+      "textContent": "前进四"
+    },
+    {
+      "time": 221.67,
+      "textContent": "给我干哪儿来了 这还是蜀国吗"
+    },
+    {
+      "time": 222.952,
+      "textContent": "有这技术跑啥啊？"
+    },
+    {
+      "time": 223.165,
+      "textContent": "“道路千万条，安全第一条。行城不规范，备备两行泪。”"
+    },
+    {
+      "time": 223.311,
+      "textContent": "《行城不规范，亲人两行泪》"
+    },
+    {
+      "time": 223.316,
+      "textContent": "此一行，如鸟上青天，鱼入大海，再也不受羁绊啦"
+    },
+    {
+      "time": 224.006,
+      "textContent": "前进四！！！！！"
+    },
+    {
+      "time": 224.137,
+      "textContent": "移动樊城，前进四"
+    },
+    {
+      "time": 224.658,
+      "textContent": "刘备号，前进四!"
+    },
+    {
+      "time": 224.937,
+      "textContent": "行车不规范，亲人两行泪"
+    },
+    {
+      "time": 225.511,
+      "textContent": "福瑞斯特.备"
+    },
+    {
+      "time": 225.57,
+      "textContent": "这进度条不对劲"
+    },
+    {
+      "time": 225.72,
+      "textContent": "流浪三国（流浪三体演义）"
+    },
+    {
+      "time": 225.802,
+      "textContent": "《道路千万条 安全第一条》"
+    },
+    {
+      "time": 227.255,
+      "textContent": "房车吗。？！"
+    },
+    {
+      "time": 227.846,
+      "textContent": "交通委提醒"
+    },
+    {
+      "time": 227.955,
+      "textContent": "妈妈，人生是旷野"
+    },
+    {
+      "time": 228.483,
+      "textContent": "蜀汉王城前进四。"
+    },
+    {
+      "time": 228.699,
+      "textContent": "那些仓鼠应该烤成薯干了"
+    },
+    {
+      "time": 228.864,
+      "textContent": "行车不规范，亲人两行泪"
+    },
+    {
+      "time": 229.097,
+      "textContent": "不如直接杀入许昌"
+    },
+    {
+      "time": 229.366,
+      "textContent": "东汉末年情况还是太复杂了"
+    },
+    {
+      "time": 229.383,
+      "textContent": "《行城不规范，亲人两行泪》"
+    },
+    {
+      "time": 230.625,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 231.32,
+      "textContent": "哎，你说作者那么大个脑袋是怎么想出这招的？"
+    },
+    {
+      "time": 231.379,
+      "textContent": "《行城不规范，亲人两行泪。》"
+    },
+    {
+      "time": 231.643,
+      "textContent": "一路向北哈哈"
+    },
+    {
+      "time": 232.442,
+      "textContent": "《望城莫急》"
+    },
+    {
+      "time": 232.571,
+      "textContent": "直奔洛陽"
+    },
+    {
+      "time": 232.595,
+      "textContent": "这是宇宙演义"
+    },
+    {
+      "time": 233.436,
+      "textContent": "水滴"
+    },
+    {
+      "time": 233.499,
+      "textContent": "二向箔"
+    },
+    {
+      "time": 234.302,
+      "textContent": "鼠：我从未见过有如此厚颜无耻之人"
+    },
+    {
+      "time": 234.631,
+      "textContent": "《阿备正传》"
+    },
+    {
+      "time": 235.048,
+      "textContent": "踏马的甘"
+    },
+    {
+      "time": 235.074,
+      "textContent": "我勒个移动城市啊"
+    },
+    {
+      "time": 236.087,
+      "textContent": "《四渡赤水》"
+    },
+    {
+      "time": 237.234,
+      "textContent": "哈哈哈"
+    },
+    {
+      "time": 237.932,
+      "textContent": "喝城不开酒，开酒不喝城"
+    },
+    {
+      "time": 239.572,
+      "textContent": "阿甘正传"
+    },
+    {
+      "time": 240.482,
+      "textContent": "《大魏TV》"
+    },
+    {
+      "time": 240.639,
+      "textContent": "有谁还记得小白鼠"
+    },
+    {
+      "time": 240.653,
+      "textContent": "那些鼠鼠不会力竭而亡吗？"
+    },
+    {
+      "time": 241.706,
+      "textContent": "早间新闻"
+    },
+    {
+      "time": 243.337,
+      "textContent": "曹操的头疼病又要犯了"
+    },
+    {
+      "time": 243.71,
+      "textContent": "《从此樊城便成了一座海陆空三栖现代城市》"
+    },
+    {
+      "time": 243.745,
+      "textContent": "《  文  远  归  汉  》"
+    },
+    {
+      "time": 244.799,
+      "textContent": "真，阿甘正传"
+    },
+    {
+      "time": 245.683,
+      "textContent": "《天  下  归  心》"
+    },
+    {
+      "time": 245.82,
+      "textContent": "刘备的神奇城堡。"
+    },
+    {
+      "time": 246.805,
+      "textContent": "前面没叫个吕，布〔不〕愿拜为义父"
+    },
+    {
+      "time": 247.788,
+      "textContent": "有毒啊哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 247.827,
+      "textContent": "哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 248.837,
+      "textContent": "核动力城堡"
+    },
+    {
+      "time": 248.932,
+      "textContent": "云飞兄！"
+    },
+    {
+      "time": 249.172,
+      "textContent": "刘备：好！带他去哀牢山野营！"
+    },
+    {
+      "time": 249.726,
+      "textContent": "哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 250.126,
+      "textContent": "hhh"
+    },
+    {
+      "time": 250.127,
+      "textContent": "阿备正传"
+    },
+    {
+      "time": 250.246,
+      "textContent": "《阿备正传》"
+    },
+    {
+      "time": 250.651,
+      "textContent": "备备:丸辣"
+    },
+    {
+      "time": 250.994,
+      "textContent": "四姓家奴"
+    },
+    {
+      "time": 251.365,
+      "textContent": "阿甘"
+    },
+    {
+      "time": 251.548,
+      "textContent": "刘备：好！赐吕布的卢马！"
+    },
+    {
+      "time": 252.094,
+      "textContent": "吕布诈尸了"
+    },
+    {
+      "time": 252.211,
+      "textContent": "变公路片了是吧"
+    },
+    {
+      "time": 252.397,
+      "textContent": "666刘备海与移动城池文明"
+    },
+    {
+      "time": 252.876,
+      "textContent": "不得舍不得舍不得"
+    },
+    {
+      "time": 253.513,
+      "textContent": "《好》"
+    },
+    {
+      "time": 253.663,
+      "textContent": "崩坏：三国列车"
+    },
+    {
+      "time": 254.114,
+      "textContent": "灭爸加入队伍"
+    },
+    {
+      "time": 254.57,
+      "textContent": "《好》"
+    },
+    {
+      "time": 255.455,
+      "textContent": "《三体舰队》"
+    },
+    {
+      "time": 255.85,
+      "textContent": "移动城邦"
+    },
+    {
+      "time": 256.106,
+      "textContent": "大炎的形成过程"
+    },
+    {
+      "time": 257.288,
+      "textContent": "白鼠：为我花生"
+    },
+    {
+      "time": 257.459,
+      "textContent": "疯狂的刘备：远行"
+    },
+    {
+      "time": 257.469,
+      "textContent": "？"
+    },
+    {
+      "time": 257.583,
+      "textContent": "真正的掠夺城市开始了"
+    },
+    {
+      "time": 257.931,
+      "textContent": "《城市洪流》"
+    },
+    {
+      "time": 258.148,
+      "textContent": "《阿刘正传》"
+    },
+    {
+      "time": 258.215,
+      "textContent": "五虎上将只差赵云"
+    },
+    {
+      "time": 258.526,
+      "textContent": "此时我才想起逃跑的小白鼠。"
+    },
+    {
+      "time": 258.572,
+      "textContent": "阿贝正传"
+    },
+    {
+      "time": 258.924,
+      "textContent": "三国版本的奴隶矿场"
+    },
+    {
+      "time": 259.31,
+      "textContent": "盾牌上写的是  刘皇叔"
+    },
+    {
+      "time": 260.419,
+      "textContent": "."
+    },
+    {
+      "time": 260.451,
+      "textContent": "《阿甘演义》"
+    },
+    {
+      "time": 260.48,
+      "textContent": "《阿备正传》"
+    },
+    {
+      "time": 260.978,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 261.091,
+      "textContent": "《狂人日记》"
+    },
+    {
+      "time": 261.267,
+      "textContent": "阿甘正传都没这么热血"
+    },
+    {
+      "time": 261.884,
+      "textContent": "哈哈，你们要认识你的神"
+    },
+    {
+      "time": 262.203,
+      "textContent": "刘浪备"
+    },
+    {
+      "time": 262.519,
+      "textContent": "兔窝镇既视感"
+    },
+    {
+      "time": 264.113,
+      "textContent": "阿贝正传"
+    },
+    {
+      "time": 264.169,
+      "textContent": "吐槽的对"
+    },
+    {
+      "time": 264.19,
+      "textContent": "13题演义了"
+    },
+    {
+      "time": 264.301,
+      "textContent": "复兴大汉"
+    },
+    {
+      "time": 264.301,
+      "textContent": "移动城市是吧"
+    },
+    {
+      "time": 264.344,
+      "textContent": "三国:星穹铁道"
+    },
+    {
+      "time": 265.882,
+      "textContent": "摆的字：迎皇叔"
+    },
+    {
+      "time": 266.147,
+      "textContent": "只恨财力不足(bushi)"
+    },
+    {
+      "time": 266.589,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 267.01,
+      "textContent": "是三体演义"
+    },
+    {
+      "time": 267.01,
+      "textContent": "是"
+    },
+    {
+      "time": 267.024,
+      "textContent": "财力不足"
+    },
+    {
+      "time": 267.245,
+      "textContent": "巧了，阿甘正传也是1994年出的。"
+    },
+    {
+      "time": 267.814,
+      "textContent": "研究所？我咋听到了C之声？"
+    },
+    {
+      "time": 267.857,
+      "textContent": "需一千万人"
+    },
+    {
+      "time": 267.918,
+      "textContent": "华佗：君侯不必多虑，我研究了基因改造疗法"
+    },
+    {
+      "time": 268.948,
+      "textContent": "《力不能及》"
+    },
+    {
+      "time": 271.038,
+      "textContent": "还有人记得三班倒的小白鼠么，，，"
+    },
+    {
+      "time": 271.166,
+      "textContent": "三体正转"
+    },
+    {
+      "time": 271.513,
+      "textContent": "糟糕的台词"
+    },
+    {
+      "time": 272.274,
+      "textContent": "上可九星揽月，下可五洋捉鳖！"
+    },
+    {
+      "time": 273.158,
+      "textContent": "曹老板下海"
+    },
+    {
+      "time": 273.821,
+      "textContent": "《下   海》"
+    },
+    {
+      "time": 273.922,
+      "textContent": "《九幺阿瞒精选人妻》"
+    },
+    {
+      "time": 274.055,
+      "textContent": "曹操是个人物"
+    },
+    {
+      "time": 274.113,
+      "textContent": "曹操自导自演是吧哈哈哈哈哈"
+    },
+    {
+      "time": 276.324,
+      "textContent": "沟子文学来力"
+    },
+    {
+      "time": 276.409,
+      "textContent": "冥场面"
+    },
+    {
+      "time": 276.558,
+      "textContent": "《铜雀TV》"
+    },
+    {
+      "time": 276.99,
+      "textContent": "不忘初心"
+    },
+    {
+      "time": 279.18,
+      "textContent": "？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？"
+    },
+    {
+      "time": 279.699,
+      "textContent": "大魏航母编队？"
+    },
+    {
+      "time": 279.709,
+      "textContent": "水陆空三用"
+    },
+    {
+      "time": 279.856,
+      "textContent": "九一曹先生"
+    },
+    {
+      "time": 279.917,
+      "textContent": "666还有高手"
+    },
+    {
+      "time": 280.053,
+      "textContent": "？？？。"
+    },
+    {
+      "time": 280.22,
+      "textContent": "《阿  戈  尔》"
+    },
+    {
+      "time": 280.476,
+      "textContent": "哈哈哈哈哈哈"
+    },
+    {
+      "time": 281.17,
+      "textContent": "还是奉孝有先见之明"
+    },
+    {
+      "time": 281.442,
+      "textContent": "《军备竞赛》"
+    },
+    {
+      "time": 281.473,
+      "textContent": "我还以为要海岛奇兵了呢。"
+    },
+    {
+      "time": 281.735,
+      "textContent": "..."
+    },
+    {
+      "time": 282.114,
+      "textContent": "丞相所言极是"
+    },
+    {
+      "time": 282.649,
+      "textContent": "大航海时代"
+    },
+    {
+      "time": 282.871,
+      "textContent": "《审      判       备       号》"
+    },
+    {
+      "time": 284.538,
+      "textContent": "还有高手！！！！！！！！！！！"
+    },
+    {
+      "time": 285.133,
+      "textContent": "《罗德岛》《拉特兰》《阿戈尔》"
+    },
+    {
+      "time": 285.692,
+      "textContent": "为军工"
+    },
+    {
+      "time": 285.933,
+      "textContent": "江东杰瑞"
+    },
+    {
+      "time": 286.26,
+      "textContent": "后面是第四气周瑜啊"
+    },
+    {
+      "time": 286.403,
+      "textContent": "？"
+    },
+    {
+      "time": 286.526,
+      "textContent": "赤壁之战的真相揭秘！"
+    },
+    {
+      "time": 286.777,
+      "textContent": "水师军备竞赛"
+    },
+    {
+      "time": 287.472,
+      "textContent": " 伊 比 利 亚 黄 金 舰 队 "
+    },
+    {
+      "time": 289.089,
+      "textContent": "空降05:26"
+    },
+    {
+      "time": 290.378,
+      "textContent": "来个海嗣不炸缸了"
+    },
+    {
+      "time": 290.378,
+      "textContent": "阿戈尔科技，小子"
+    },
+    {
+      "time": 290.378,
+      "textContent": "黄金时代伊比利亚"
+    },
+    {
+      "time": 290.511,
+      "textContent": "备备:笑死歼星舰起动"
+    },
+    {
+      "time": 290.737,
+      "textContent": "三国两万里"
+    },
+    {
+      "time": 291.404,
+      "textContent": "啊！海军！"
+    },
+    {
+      "time": 291.65,
+      "textContent": "亮子力学！法力无边！"
+    },
+    {
+      "time": 294.582,
+      "textContent": "新海城"
+    },
+    {
+      "time": 294.671,
+      "textContent": "大都督！！！"
+    },
+    {
+      "time": 295.306,
+      "textContent": "海陆空三栖（）"
+    },
+    {
+      "time": 295.576,
+      "textContent": "？！海陆空三位一体全面战略布局？！"
+    },
+    {
+      "time": 296.449,
+      "textContent": "亚特兰蒂斯"
+    },
+    {
+      "time": 296.596,
+      "textContent": "还是三栖的"
+    },
+    {
+      "time": 297.158,
+      "textContent": "亮子力学"
+    },
+    {
+      "time": 297.285,
+      "textContent": "阿 戈 尔"
+    },
+    {
+      "time": 297.366,
+      "textContent": "水陆两栖城"
+    },
+    {
+      "time": 297.501,
+      "textContent": "新海城"
+    },
+    {
+      "time": 297.526,
+      "textContent": "周瑜！！！"
+    },
+    {
+      "time": 297.635,
+      "textContent": "东航联合舰队"
+    },
+    {
+      "time": 297.678,
+      "textContent": "？？？？？？？？？"
+    },
+    {
+      "time": 297.913,
+      "textContent": "真 大海航行靠舵手"
+    },
+    {
+      "time": 297.946,
+      "textContent": "三栖坦克"
+    },
+    {
+      "time": 298.198,
+      "textContent": "《下海堡垒》"
+    },
+    {
+      "time": 298.198,
+      "textContent": "《诸葛亮漂游记》"
+    },
+    {
+      "time": 298.198,
+      "textContent": "《新海城》"
+    },
+    {
+      "time": 299.236,
+      "textContent": "学园舰"
+    },
+    {
+      "time": 299.36,
+      "textContent": "小白鼠：我吃柠檬"
+    },
+    {
+      "time": 299.391,
+      "textContent": "移动版的亚特兰蒂斯，是吧？"
+    },
+    {
+      "time": 299.4,
+      "textContent": "亚特兰蒂斯"
+    },
+    {
+      "time": 299.492,
+      "textContent": "自从城堡下了水 所有船舰都多余了"
+    },
+    {
+      "time": 299.69,
+      "textContent": "水陆两栖城市。。。。。。。"
+    },
+    {
+      "time": 299.88,
+      "textContent": "《海市蜃楼》"
+    },
+    {
+      "time": 300.401,
+      "textContent": "F浮=ruo液gV排"
+    },
+    {
+      "time": 300.448,
+      "textContent": "航城母舰是吧"
+    },
+    {
+      "time": 300.697,
+      "textContent": "亮舰"
+    },
+    {
+      "time": 300.727,
+      "textContent": "SHU HAN NAVY"
+    },
+    {
+      "time": 301.11,
+      "textContent": "航 空 母 舰"
+    },
+    {
+      "time": 301.128,
+      "textContent": "《亮剑》《意大利炮》"
+    },
+    {
+      "time": 301.253,
+      "textContent": "李云龙：？？？"
+    },
+    {
+      "time": 301.295,
+      "textContent": "《泰坦刘备号》"
+    },
+    {
+      "time": 301.328,
+      "textContent": "亮舰！！！"
+    },
+    {
+      "time": 301.384,
+      "textContent": "遇事不决，量子力学"
+    },
+    {
+      "time": 301.466,
+      "textContent": "《亮舰》(亮剑)？"
+    },
+    {
+      "time": 301.746,
+      "textContent": "航            空             刘             舰"
+    },
+    {
+      "time": 302.114,
+      "textContent": "《泰坦刘备号》"
+    },
+    {
+      "time": 302.229,
+      "textContent": "小白鼠：？？？！！！"
+    },
+    {
+      "time": 302.475,
+      "textContent": "海上方舟"
+    },
+    {
+      "time": 302.82,
+      "textContent": "《亮舰》"
+    },
+    {
+      "time": 302.842,
+      "textContent": "?"
+    },
+    {
+      "time": 302.854,
+      "textContent": "这城是核动力的吧"
+    },
+    {
+      "time": 302.926,
+      "textContent": "《亮剑》《意大利炮》"
+    },
+    {
+      "time": 303.422,
+      "textContent": "《异大力炮》"
+    },
+    {
+      "time": 303.545,
+      "textContent": "亮剑"
+    },
+    {
+      "time": 303.699,
+      "textContent": "《亮舰》《异大力炮》"
+    },
+    {
+      "time": 303.736,
+      "textContent": "李云龙：？？？"
+    },
+    {
+      "time": 303.828,
+      "textContent": "《亮舰》"
+    },
+    {
+      "time": 303.88,
+      "textContent": "《异大力炮》"
+    },
+    {
+      "time": 303.959,
+      "textContent": "小白鼠：请输入文本"
+    },
+    {
+      "time": 304.276,
+      "textContent": "亮舰哈哈哈哈哈哈哈哈"
+    },
+    {
+      "time": 304.521,
+      "textContent": "水陆空三栖"
+    },
+    {
+      "time": 304.994,
+      "textContent": "我异。大力炮"
+    },
+    {
+      "time": 305.129,
+      "textContent": "《三体演绎》"
+    },
+    {
+      "time": 305.399,
+      "textContent": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈亮剑"
+    },
+    {
+      "time": 305.431,
+      "textContent": "刘备斯派罗"
+    },
+    {
+      "time": 306.511,
+      "textContent": "异大力炮"
+    },
+    {
+      "time": 306.686,
+      "textContent": "变声期"
+    },
+    {
+      "time": 306.739,
+      "textContent": "玄 武 要 塞"
+    },
+    {
+      "time": 306.961,
+      "textContent": "亮证舰"
+    },
+    {
+      "time": 307.08,
+      "textContent": "亮舰哈哈哈哈"
+    },
+    {
+      "time": 307.326,
+      "textContent": "航 母 雏 形"
+    },
+    {
+      "time": 307.649,
+      "textContent": "下雨了，回家收衣服"
+    },
+    {
+      "time": 308.158,
+      "textContent": "小白鼠：我呢"
+    },
+    {
+      "time": 308.598,
+      "textContent": "原作吕布没见过诸葛亮，这个真没办法"
+    },
+    {
+      "time": 308.747,
+      "textContent": "《刘备航母舰队》！！！！！！！！！"
+    },
+    {
+      "time": 309.049,
+      "textContent": "决战中途岛"
+    },
+    {
+      "time": 310.407,
+      "textContent": "《备备下西洋》"
+    },
+    {
+      "time": 310.429,
+      "textContent": "赢不赢我不知道，但他们百姓过得是真好"
+    },
+    {
+      "time": 310.684,
+      "textContent": "《黑云压城城欲摧》"
+    },
+    {
+      "time": 310.772,
+      "textContent": "早期三国航母珍贵影像 "
+    },
+    {
+      "time": 311.187,
+      "textContent": "周瑜：？？？？？"
+    },
+    {
+      "time": 311.192,
+      "textContent": "这还早期航母？这已经是太空堡垒了"
+    },
+    {
+      "time": 311.442,
+      "textContent": "诸葛亮:风起，七星"
+    },
+    {
+      "time": 311.614,
+      "textContent": "大汉太平洋舰队是吗？"
+    },
+    {
+      "time": 312.34,
+      "textContent": "二营长呢？"
+    },
+    {
+      "time": 312.535,
+      "textContent": "《航空母舰》"
+    },
+    {
+      "time": 312.561,
+      "textContent": "学院舰"
+    },
+    {
+      "time": 313.321,
+      "textContent": "粮草何解?"
+    },
+    {
+      "time": 313.51,
+      "textContent": "新海城"
+    },
+    {
+      "time": 314.004,
+      "textContent": "政委，咋们走！"
+    },
+    {
+      "time": 314.82,
+      "textContent": "《龙门》（bush is）"
+    },
+    {
+      "time": 315.488,
+      "textContent": "累死鼠了"
+    },
+    {
+      "time": 315.813,
+      "textContent": "中途岛海战"
+    },
+    {
+      "time": 315.894,
+      "textContent": "“唐”号航空母舰"
+    },
+    {
+      "time": 315.932,
+      "textContent": "《机器岛》"
+    },
+    {
+      "time": 316.169,
+      "textContent": "诸葛方舟"
+    },
+    {
+      "time": 316.171,
+      "textContent": "黑云压城城欲摧，甲光向日金鳞开"
+    },
+    {
+      "time": 318.198,
+      "textContent": "父亲，快看，诸葛亮"
+    },
+    {
+      "time": 318.217,
+      "textContent": "黑云压城城欲摧"
+    },
+    {
+      "time": 318.402,
+      "textContent": "黑云压城城欲摧物理版"
+    },
+    {
+      "time": 318.828,
+      "textContent": "黑 云 压 城 城 欲 摧"
+    },
+    {
+      "time": 319.19,
+      "textContent": "《天气之子》"
+    },
+    {
+      "time": 319.36,
+      "textContent": "加坦杰厄"
+    },
+    {
+      "time": 319.644,
+      "textContent": "[ohh]"
+    },
+    {
+      "time": 319.967,
+      "textContent": "诸葛亮:我以为减速带呢 "
+    },
+    {
+      "time": 320.093,
+      "textContent": "航空母城"
+    },
+    {
+      "time": 320.718,
+      "textContent": "天气控制器"
+    },
+    {
+      "time": 321.278,
+      "textContent": "《亮舰——航空母城》"
+    },
+    {
+      "time": 321.819,
+      "textContent": "刘师航母战斗群"
+    },
+    {
+      "time": 322.853,
+      "textContent": "谁还记得那一万小白鼠"
+    },
+    {
+      "time": 323.312,
+      "textContent": "蜀国2级文明"
+    },
+    {
+      "time": 323.373,
+      "textContent": "山雨欲来风满楼"
+    },
+    {
+      "time": 324.151,
+      "textContent": "快请如来佛祖 （bushi）"
+    },
+    {
+      "time": 324.472,
+      "textContent": "“黑云翻墨未遮山”"
+    },
+    {
+      "time": 326.071,
+      "textContent": "小白鼠还好吗？"
+    },
+    {
+      "time": 326.298,
+      "textContent": "呛死的（确信）"
+    },
+    {
+      "time": 326.749,
+      "textContent": "《泰坦刘备号》"
+    },
+    {
+      "time": 326.909,
+      "textContent": "（闪电风暴）"
+    },
+    {
+      "time": 326.977,
+      "textContent": "加勒比海备"
+    },
+    {
+      "time": 327.002,
+      "textContent": "器械更新了"
+    },
+    {
+      "time": 327.206,
+      "textContent": "备拦航线"
+    },
+    {
+      "time": 327.321,
+      "textContent": "回绿色，是10万万只小白鼠"
+    },
+    {
+      "time": 327.503,
+      "textContent": "大肚肚"
+    },
+    {
+      "time": 327.544,
+      "textContent": "《论后期视频大都督如何得到精神分裂？》"
+    },
+    {
+      "time": 327.979,
+      "textContent": "《急火攻心》"
+    },
+    {
+      "time": 328.404,
+      "textContent": "楼船夜雪瓜洲渡"
+    },
+    {
+      "time": 329.491,
+      "textContent": "至今不知蜀汉为何危亡（）"
+    },
+    {
+      "time": 330.073,
+      "textContent": "加勒备3海盗"
+    },
+    {
+      "time": 330.632,
+      "textContent": "爱看"
+    },
+    {
+      "time": 331.472,
+      "textContent": "刘备吓西洋"
+    },
+    {
+      "time": 331.753,
+      "textContent": "攻打欧洲？"
+    },
+    {
+      "time": 331.791,
+      "textContent": "谁还记得那100万小白鼠？"
+    },
+    {
+      "time": 332.627,
+      "textContent": "郑和：？"
+    },
+    {
+      "time": 332.829,
+      "textContent": "死因：小白鼠试图在海中游泳。"
+    },
+    {
+      "time": 333.077,
+      "textContent": "我一路向西，离开有你的东汉～"
+    },
+    {
+      "time": 333.146,
+      "textContent": "郑和:？"
+    },
+    {
+      "time": 333.321,
+      "textContent": "道路千万条，条条大路通罗马(难绷)"
+    },
+    {
+      "time": 333.634,
+      "textContent": "《这才是真正的条条大路通罗马》"
+    },
+    {
+      "time": 333.634,
+      "textContent": "《刘备下西洋》"
+    },
+    {
+      "time": 334.035,
+      "textContent": "大都督！！！"
+    },
+    {
+      "time": 334.092,
+      "textContent": "刘备吓西洋"
+    },
+    {
+      "time": 334.203,
+      "textContent": "东头一个汉，西头一个汉，迁入伊斯坦，方可无斯难"
+    },
+    {
+      "time": 334.23,
+      "textContent": "郑和：抢我活是吧"
+    },
+    {
+      "time": 334.315,
+      "textContent": "6"
+    },
+    {
+      "time": 334.875,
+      "textContent": "也是远交近攻了"
+    },
+    {
+      "time": 335.271,
+      "textContent": "《刘和》"
+    },
+    {
+      "time": 335.779,
+      "textContent": "郑和：？"
+    },
+    {
+      "time": 336.052,
+      "textContent": "郑和:哎卧廾，年轻人不讲武得"
+    },
+    {
+      "time": 336.085,
+      "textContent": "三国同时期是开始衰弱的罗马帝国"
+    },
+    {
+      "time": 336.157,
+      "textContent": "周瑜提前下线"
+    },
+    {
+      "time": 336.558,
+      "textContent": "郑和:不是，你抢我活是吧"
+    },
+    {
+      "time": 337.135,
+      "textContent": "益州舰"
+    },
+    {
+      "time": 337.987,
+      "textContent": "开访"
+    },
+    {
+      "time": 338.122,
+      "textContent": "公园20年蜀国征服马六甲"
+    },
+    {
+      "time": 338.349,
+      "textContent": "一千八百年前，我率兵西征，所到之处民众竭诚欢迎"
+    },
+    {
+      "time": 338.5,
+      "textContent": "刘备吓西洋"
+    },
+    {
+      "time": 338.651,
+      "textContent": "你从山东来，换我一层雪白~"
+    },
+    {
+      "time": 338.883,
+      "textContent": "郑和:抢我活干。"
+    },
+    {
+      "time": 339.499,
+      "textContent": "蜀汉人最爱看的一集"
+    },
+    {
+      "time": 339.627,
+      "textContent": "给我干哪来了"
+    },
+    {
+      "time": 339.763,
+      "textContent": "《神话版三国》"
+    },
+    {
+      "time": 341.259,
+      "textContent": "罗马帝国这时候是塞维鲁王朝，即将步入三世纪危机，丞相这一去，只怕是有来无回"
+    },
+    {
+      "time": 341.35,
+      "textContent": "《友善的访问罗马这一块》"
+    },
+    {
+      "time": 342.405,
+      "textContent": "《奥古斯备》！！！"
+    },
+    {
+      "time": 343.998,
+      "textContent": "《警觉，触发条件出现》"
+    },
+    {
+      "time": 344.849,
+      "textContent": ">：）"
+    },
+    {
+      "time": 345.341,
+      "textContent": "？？？？？？"
+    },
+    {
+      "time": 345.639,
+      "textContent": "早期大炎拜访叙拉古"
+    },
+    {
+      "time": 345.843,
+      "textContent": "只需十万小白鼠"
+    },
+    {
+      "time": 346.004,
+      "textContent": "工业革命"
+    },
+    {
+      "time": 346.417,
+      "textContent": "科教兴国啊！"
+    },
+    {
+      "time": 347.118,
+      "textContent": "小白鼠"
+    },
+    {
+      "time": 347.238,
+      "textContent": "罗马五贤帝落幕，现在应该是塞维鲁王朝"
+    },
+    {
+      "time": 348.435,
+      "textContent": "触发连招"
+    },
+    {
+      "time": 349.262,
+      "textContent": "跳伞 06:10"
+    },
+    {
+      "time": 349.346,
+      "textContent": "到三国吗？什么的西域兵书马其顿方阵"
+    },
+    {
+      "time": 350.485,
+      "textContent": "乱套公式"
+    },
+    {
+      "time": 350.871,
+      "textContent": "可以造移动城堡吗？"
+    },
+    {
+      "time": 351.333,
+      "textContent": "某人：up主你TM"
+    },
+    {
+      "time": 352.02,
+      "textContent": "罗马根本没有这个文明"
+    },
+    {
+      "time": 352.048,
+      "textContent": "这要素超过"
+    },
+    {
+      "time": 352.465,
+      "textContent": "丝滑连招"
+    },
+    {
+      "time": 353.117,
+      "textContent": "年代差不了多少"
+    },
+    {
+      "time": 353.226,
+      "textContent": "快跑 有埋伏"
+    },
+    {
+      "time": 353.897,
+      "textContent": "《我的奋斗》"
+    },
+    {
+      "time": 354.024,
+      "textContent": "气笑了"
+    },
+    {
+      "time": 354.708,
+      "textContent": "零帧起手"
+    },
+    {
+      "time": 354.725,
+      "textContent": "草"
+    },
+    {
+      "time": 356.087,
+      "textContent": "没有链接呀"
+    },
+    {
+      "time": 356.346,
+      "textContent": "一切的恐惧来源于火力不足"
+    },
+    {
+      "time": 356.562,
+      "textContent": "能玩太空电梯吗？"
+    },
+    {
+      "time": 356.64,
+      "textContent": "；‘"
+    },
+    {
+      "time": 357.109,
+      "textContent": "感谢甲方催更"
+    },
+    {
+      "time": 357.794,
+      "textContent": "请问能乘坐亮舰吗？"
+    },
+    {
+      "time": 358.798,
+      "textContent": "、"
+    },
+    {
+      "time": 359.837,
+      "textContent": "蜀汉提前建立"
+    },
+    {
+      "time": 360.169,
+      "textContent": "这游戏有这种城吗？没有我不玩（doge）"
+    },
+    {
+      "time": 360.854,
+      "textContent": "666丝滑小连招"
+    },
+    {
+      "time": 360.878,
+      "textContent": "能开亮舰吗？"
+    },
+    {
+      "time": 361.156,
+      "textContent": "唯一一个不讨厌广告的，广告是鞭策啊，是动力，是灵感，是离谱的剧情融洽"
+    },
+    {
+      "time": 361.931,
+      "textContent": "冲这质量我要看完广告再给你两币"
+    },
+    {
+      "time": 367.579,
+      "textContent": "毫无违和感"
+    },
+    {
+      "time": 368.155,
+      "textContent": "无耻老贼"
+    },
+    {
+      "time": 368.35,
+      "textContent": "诸葛丞相：我简单说两句"
+    },
+    {
+      "time": 368.598,
+      "textContent": "突然意识到他是在放广告"
+    },
+    {
+      "time": 369.731,
+      "textContent": "王！"
+    },
+    {
+      "time": 370.621,
+      "textContent": "你把他M S了还好意思提他"
+    },
+    {
+      "time": 372.918,
+      "textContent": "和没有一样啊这"
+    },
+    {
+      "time": 373.054,
+      "textContent": "诸葛亮"
+    },
+    {
+      "time": 373.78,
+      "textContent": "new bee"
+    },
+    {
+      "time": 373.929,
+      "textContent": "夜观推断太阳？"
+    },
+    {
+      "time": 375.512,
+      "textContent": "《夜观太阳》"
+    },
+    {
+      "time": 375.708,
+      "textContent": "《夜观太阳》"
+    },
+    {
+      "time": 377.342,
+      "textContent": "进 入 主 线"
+    },
+    {
+      "time": 378.08,
+      "textContent": "ber，我们是怎么活下来的"
+    },
+    {
+      "time": 378.623,
+      "textContent": "那现在我们早死了啊"
+    },
+    {
+      "time": 379.174,
+      "textContent": "2000年后，那不是没几年了么"
+    },
+    {
+      "time": 379.554,
+      "textContent": "那时候的2000年，就是现在再多几百年呗"
+    },
+    {
+      "time": 379.59,
+      "textContent": "全场最佳：小白鼠"
+    },
+    {
+      "time": 379.625,
+      "textContent": "三体人：坏了，冲我来的"
+    },
+    {
+      "time": 379.897,
+      "textContent": "2000年后不就是现在吗？？"
+    },
+    {
+      "time": 380.992,
+      "textContent": "刘浪地球"
+    },
+    {
+      "time": 381.257,
+      "textContent": "《携民过太空》"
+    },
+    {
+      "time": 382.103,
+      "textContent": "流浪城池"
+    },
+    {
+      "time": 384.446,
+      "textContent": "《三体演义》"
+    },
+    {
+      "time": 388.282,
+      "textContent": "甲方这钱出的值呀"
+    },
+    {
+      "time": 389.337,
+      "textContent": "愿此行，终抵群星"
+    },
+    {
+      "time": 391.601,
+      "textContent": "不至于奥"
+    },
+    {
+      "time": 391.602,
+      "textContent": "蜀汉巴比伦是吧，99t极限飞天"
+    },
+    {
+      "time": 392.346,
+      "textContent": "流 浪 大 汉 计 划"
+    },
+    {
+      "time": 393.128,
+      "textContent": "《刘浪地球》￼"
+    },
+    {
+      "time": 393.247,
+      "textContent": "刘慈欣写的三体记录了刘备的流浪皇叔计划"
+    },
+    {
+      "time": 393.653,
+      "textContent": "蜀汉选择，前进四"
+    },
+    {
+      "time": 393.841,
+      "textContent": "是中东那些独狼这个地球和水星都成"
+    },
+    {
+      "time": 395.484,
+      "textContent": "与领导全球，首先要有容人雅量"
+    },
+    {
+      "time": 396.081,
+      "textContent": "战锤1K"
+    },
+    {
+      "time": 396.259,
+      "textContent": "刘皇叔->流皇叔"
+    },
+    {
+      "time": 396.883,
+      "textContent": "流皇叔计划"
+    },
+    {
+      "time": 396.979,
+      "textContent": "艺术"
+    },
+    {
+      "time": 397.72,
+      "textContent": "流浪蜀汉"
+    },
+    {
+      "time": 398.267,
+      "textContent": "愿此行，终抵群星"
+    },
+    {
+      "time": 398.324,
+      "textContent": "总算知道为什么刘备的国家忽然消失了"
+    },
+    {
+      "time": 398.412,
+      "textContent": "谁还记得小白鼠？"
+    },
+    {
+      "time": 398.635,
+      "textContent": "流皇叔计划"
+    },
+    {
+      "time": 400.065,
+      "textContent": "愿此行，终抵群星"
+    },
+    {
+      "time": 400.125,
+      "textContent": "［三体演义］！！！"
+    },
+    {
+      "time": 400.723,
+      "textContent": "星  汉  灿  烂"
+    },
+    {
+      "time": 400.752,
+      "textContent": "《刘备上太空》"
+    },
+    {
+      "time": 402.993,
+      "textContent": "羁绊的正确用法"
+    },
+    {
+      "time": 403.207,
+      "textContent": "《鹏之徙于南冥也》"
+    },
+    {
+      "time": 404.653,
+      "textContent": "愿此行，终抵群星！"
+    },
+    {
+      "time": 405.781,
+      "textContent": "三体？"
+    },
+    {
+      "time": 405.92,
+      "textContent": "不得不三连了"
+    },
+    {
+      "time": 405.973,
+      "textContent": "溜了溜了"
+    }
+  ]
+}

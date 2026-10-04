@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV18Q4y1E7i7",
+    "cid": 1381483446,
+    "duration": 689,
+    "fullTranscriptRead": true,
+    "videoSummary": "用诺顿穹顶讨论牛顿力学与决定论，推导多解并讨论高阶导数；后半由刹车高阶导数、晕车原理转入奔驰EQS SUV能量回收展示。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 434.44,
+        "end": 678.12,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "由生活中的高阶导数与刹车铺垫，接晕车科普、眼镜替代方案，完整导向奔驰多模式回收及试驾推荐。商业段包含对前文高阶导数的实际解释和晕车知识，主题内容与促销交织，保留整段。",
+        "startUncertainty": [
+          434.44,
+          471.54
+        ],
+        "endUncertainty": [
+          678.12,
+          682.28
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 46.22,
+            "to": 48.45,
+            "text": "确定这个呢是一种决定论的思想"
+          },
+          {
+            "from": 434.44,
+            "to": 435.64,
+            "text": "有的观众要说了"
+          },
+          {
+            "from": 477.7,
+            "to": 480.1,
+            "text": "晕车主要是因为你的眼睛看到的"
+          },
+          {
+            "from": 545.93,
+            "to": 549.58,
+            "text": "那还有一个办法就是拥有一辆奔驰EQSSUV"
+          },
+          {
+            "from": 569.95,
+            "to": 572.14,
+            "text": "奔驰的能量回收竟然有四种模式"
+          },
+          {
+            "from": 674.08,
+            "to": 675.52,
+            "text": "奔驰都帮你想到了"
+          },
+          {
+            "from": 682.28,
+            "to": 686.3,
+            "text": "哇哦好帅呀"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.08,
+        "end": 687.6,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

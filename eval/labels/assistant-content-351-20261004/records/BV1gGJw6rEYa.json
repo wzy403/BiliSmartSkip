@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1gGJw6rEYa",
+    "cid": 39112803888,
+    "duration": 691,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述罗布泊失踪者遗骸被发现并重建陷车迷路经过，穿插地理与玄奘法显记载，再讨论户外博主被劝返并附警示片段；中途明确插入转转赞助推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 158.73,
+        "end": 191.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "讲到这里作为插播起点，先感谢赞助商，再以粉丝买苹果手机问题引入二手iPhone、iPad、MacBook报价，最后认准转转和逛完转转收束。",
+        "evidence": [
+          {
+            "from": 158.73,
+            "to": 163.21,
+            "text": "讲到这里啊 我想先感谢下本期视频的赞助商转转app"
+          },
+          {
+            "from": 187.92,
+            "to": 191.24,
+            "text": "反正我以后买苹果就认准转转了 过完转转"
+          },
+          {
+            "from": 191.24,
+            "to": 195.03,
+            "text": "我们回到本期的故事中来 2013年7月28日"
+          }
+        ],
+        "startUncertainty": [
+          158.73,
+          158.73
+        ],
+        "endUncertainty": [
+          191.24,
+          191.24
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 158.73,
+        "reason": "失踪案引子、罗布泊地理与历史记录。"
+      },
+      {
+        "start": 191.24,
+        "end": 689.84,
+        "reason": "重建失踪过程、发现遗骸及非法穿越劝返警示，末尾为相关警示原片。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

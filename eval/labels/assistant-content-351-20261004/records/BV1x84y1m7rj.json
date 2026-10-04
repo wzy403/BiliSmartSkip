@@ -1,0 +1,41 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1x84y1m7rj",
+    "cid": 1289885452,
+    "duration": 1618,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆俯冲轰炸机游戏实况，开场聊近况和感染康复，随后介绍载具、炸弹并连续对局；全文字幕未见独立商业推介。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [],
+    "normalSpeechRanges": [
+      {
+        "start": 11.519,
+        "end": 13.42,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 43.4,
+        "end": 130.1,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 152.14,
+        "end": 1445.2,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 1459.28,
+        "end": 1603.3,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "自动翻译质量较差；1445秒左右起大量重复“是呀”缺乏足够语义，未按已知正文评分。游戏内购买、更换装备、下载/账户词汇不单独作为广告依据。"
+    ]
+  }
+}

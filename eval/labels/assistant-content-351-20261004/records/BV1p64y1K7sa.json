@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1p64y1K7sa",
+    "cid": 1398559360,
+    "duration": 1375,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆米格23ML实战尝试开局向右绕行，讲解利用地形、红外搜索和导弹偷袭的战术得失；片头插入Warpath手游赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 22.74,
+        "end": 122.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确Warpath赞助后介绍即时战略玩法、单位、狙击任务、小游戏现金奖励和注册链接礼包，完整至最后宣传口号，之后欢迎回频道进入米格战术。",
+        "evidence": [
+          {
+            "to": 2.46,
+            "text": "试图找到一个没有完全战斗的人",
+            "from": 0.12
+          },
+          {
+            "to": 35.76,
+            "text": "Warpath是一个掌中实时策略游戏",
+            "from": 31.45
+          },
+          {
+            "to": 125.78,
+            "text": "女士们先生们",
+            "from": 124.16
+          }
+        ],
+        "startUncertainty": [
+          20.32,
+          22.74
+        ],
+        "endUncertainty": [
+          122.46,
+          124.16
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 22.74,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 122.46,
+        "end": 1356.96,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

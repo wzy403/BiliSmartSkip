@@ -1,0 +1,71 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1uL411X7YB",
+    "cid": 1073986122,
+    "duration": 370,
+    "fullTranscriptRead": true,
+    "videoSummary": "概述搜索引擎历史、抓取索引排名、SEO与竞价广告的影响，介绍引号、站点限定、排除和文件类型等搜索技巧。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.266,
+        "end": 359.333,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "全文为搜索机制与操作教学；广告主、SEO平台和搜索产品只是被解释的对象或信息来源，无口述赞助推销。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.266,
+          0.266
+        ],
+        "endUncertainty": [
+          359.333,
+          359.333
+        ],
+        "evidence": [
+          {
+            "from": 13.866,
+            "to": 15.533,
+            "text": "搜索引擎是如何工作的"
+          },
+          {
+            "from": 194.966,
+            "to": 196.4,
+            "text": "这也就是为什么那么多广告主"
+          },
+          {
+            "from": 258.8,
+            "to": 261.066,
+            "text": "你可以在广告后台对目标关键词出价"
+          },
+          {
+            "from": 333.466,
+            "to": 335.333,
+            "text": "可以用来搜索指定格式的文件"
+          },
+          {
+            "from": 357.666,
+            "to": 359.333,
+            "text": "是时候发生一场变革了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.266,
+        "end": 359.333,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

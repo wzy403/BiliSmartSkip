@@ -1,0 +1,62 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1dz4y1p7Jw",
+    "cid": 1225364765,
+    "duration": 1005,
+    "fullTranscriptRead": true,
+    "videoSummary": "完整数学科普配音：从圆环展开近似矩形、求和及三角形面积推导圆面积，推广到曲线下面积，再以x²的面积函数解释导数及微积分基本定理。开头和结尾介绍/感谢3blue1brown并鼓励继续学习；无商品、课程收费、优惠或购买引导。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 1.88,
+        "end": 1004.38,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文持续讲数学与本系列学习；老师名、后续课程和资源的提及是来源致谢和内容预告，并无独立商业推广。",
+        "evidence": [
+          {
+            "from": 20.4,
+            "to": 33.02,
+            "text": "这次带来了3blue1brown老师的微积分系列 尽管微积分是非常博大精深的 但是老师却在一场电影的功夫 把它最精华的核心精彩的展现出来"
+          },
+          {
+            "from": 383.91,
+            "to": 401.32,
+            "text": "因此它的面积1/2乘以底边乘以高度 结果正好是π乘以3² 或者如果原始圆的半径是另一个值R 那么该面积就是π乘以R² 欧耶！这正是圆的面积公式"
+          },
+          {
+            "from": 924.05,
+            "to": 946.66,
+            "text": "导数和积分之间可以来回变换 导函数图像曲线下的面积函数 恰好就以积分方式定义了它的原函数 这就是双龙通会的微积分基本定理 它连通了积分和微分这两个魔法般的世界 并显示出积分和导数彼此化身成对方的反面"
+          }
+        ],
+        "startUncertainty": [
+          1.88,
+          1.88
+        ],
+        "endUncertainty": [
+          1004.38,
+          1004.38
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.88,
+        "end": 1004.38,
+        "reason": "完整微积分课程及来源介绍、学习鼓励，仅实际字幕覆盖。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕，没有看画面；no_ad_in_transcript不是整段视频画面的无广告断言。",
+      "字幕部分数学记号和拟人化对白可能误识别。"
+    ]
+  }
+}

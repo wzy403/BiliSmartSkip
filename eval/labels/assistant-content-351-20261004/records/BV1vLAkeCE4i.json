@@ -1,0 +1,108 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1vLAkeCE4i",
+    "cid": 28474740273,
+    "duration": 882,
+    "fullTranscriptRead": true,
+    "videoSummary": "测评网红边角料零食，逐项比较牛肉干、坚果饼干、微瑕玉米、雨润香肘、芋泥奶酪球的价格、配料、重量及口味，指出玉米缺斤少两。中间明确插入口香糖专属套餐推广，结尾推广自己的商品橱窗。其他品牌、商家原视频和价格均服务于被测零食主题。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 176.64,
+        "end": 242.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "牛肉干点评完毕后突然切换非边角料的口香糖，从清口气需求、产品成分功效及口味连续说到专属59.9套餐与赠品、约会场景和冲一波邀请；242.06再回下一种边角料。",
+        "evidence": [
+          {
+            "from": 174.96,
+            "to": 186.7,
+            "text": "不过吃着略有一丢丢油 来亿美滋椰炭口香糖哇 家人们啊 最近这个口香糖可太牛掰了 每嚼一次就像是新刷了一次牙一样 它里面呀添加了液态成分"
+          },
+          {
+            "from": 228.68,
+            "to": 242.06,
+            "text": "而且我还给大家争取到的专属机制 现在下单只要59.9元四盒 再给你加送四袋口香糖 保证每天让你清新爽口 约会的时候来上那么一颗 张嘴就让你赢麻了 想要小伙伴赶紧的冲一波吧"
+          },
+          {
+            "from": 242.06,
+            "to": 247.54,
+            "text": "来下一个坚果芙饼干边角料 这个是19.5元两斤哇"
+          }
+        ],
+        "startUncertainty": [
+          174.96,
+          176.64
+        ],
+        "endUncertainty": [
+          242.06,
+          242.06
+        ]
+      },
+      {
+        "start": 862.38,
+        "end": 873.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "本期测评已结束，另起主页橱窗的独家机制、划算价格与点击购买号召，是独立自营导流推广，至专属价格结束。",
+        "evidence": [
+          {
+            "from": 859.44,
+            "to": 862.38,
+            "text": "好以上视频就结束了 这本期神之鹅平房"
+          },
+          {
+            "from": 862.38,
+            "to": 873.98,
+            "text": "另外大家呢也可以去我的主页橱窗里看看 里面呢都是拉着给大家精挑细选的的 各种好吃的 很多呢目前在B站都是独家机制 价格都非常划算 想要小伙伴直接点击购买 就能立抢我的专属价格"
+          },
+          {
+            "from": 873.98,
+            "to": 878.38,
+            "text": "另外电视端的小伙伴不要忘了点赞 给我点不到 那么下期再见 拜拜"
+          }
+        ],
+        "startUncertainty": [
+          862.38,
+          862.38
+        ],
+        "endUncertainty": [
+          873.98,
+          873.98
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 176.64,
+        "reason": "选题说明、引用商家牛肉干视频并比较价钱、配料、重量与口感。"
+      },
+      {
+        "start": 242.06,
+        "end": 862.38,
+        "reason": "其余四种边角料的实测；商家短视频是待检验素材，玉米缺重批评、奶酪正品/边料对比及保质期提醒均属主题正文。"
+      },
+      {
+        "start": 873.98,
+        "end": 878.38,
+        "reason": "点赞与再见。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面；无法证明所有商品是否存在未披露合作。",
+      "奶酪球的强烈好评和未打广告声明结合全文测评语境判断为正文，不能单凭夸赞、价格、链接引用或品牌就建议跳过。",
+      "174.96–176.64仍是牛肉干油腻口感评价，也形成口香糖自然桥接；保留为正文且起点不确定范围涵盖该句。",
+      "normalSpeechRanges仅指实际字幕覆盖，空隙及画面未知。"
+    ]
+  }
+}

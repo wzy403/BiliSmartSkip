@@ -1,0 +1,198 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1fmn5zuEcT",
+    "cid": 32657772521,
+    "duration": 983,
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾传呼机、大哥大、功能机和智能机，结合粉丝旧影像与vivo三十周年访谈讨论通讯与记忆。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 58.98,
+        "end": 68.35,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "简短说明vivo三十周年共同制作，解释本期历史回顾的由来。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          58.98,
+          58.98
+        ],
+        "endUncertainty": [
+          68.35,
+          68.35
+        ],
+        "evidence": [
+          {
+            "from": 1.2,
+            "to": 3.78,
+            "text": "正常做节目都是做新的数码产品的评测对吧"
+          },
+          {
+            "from": 58.98,
+            "to": 62.34,
+            "text": "那正好今年也是VIVO30周年的生日"
+          },
+          {
+            "from": 64.05,
+            "to": 68.35,
+            "text": "我们共同来看看这些老的设备有什么高明之处"
+          },
+          {
+            "from": 82.25,
+            "to": 83.65,
+            "text": "这是我第一次见到大哥大"
+          }
+        ]
+      },
+      {
+        "start": 331.32,
+        "end": 374.93,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "通过旧手机讲作者第一次vivo合作与微云台功能，商业品牌回顾同时是旧设备主题的实质内容，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          331.32,
+          331.32
+        ],
+        "endUncertainty": [
+          374.93,
+          374.93
+        ],
+        "evidence": [
+          {
+            "from": 331.32,
+            "to": 336.5,
+            "text": "这台手机我觉得对我有比较重大的意义"
+          },
+          {
+            "from": 348,
+            "to": 350.81,
+            "text": "供应商是我们第一次恰VIVO的饭"
+          },
+          {
+            "from": 361.8,
+            "to": 363.98,
+            "text": "这个东西最大的特点是它里面有个云台"
+          },
+          {
+            "from": 372.26,
+            "to": 373.97,
+            "text": "嗯就你不看到这些设备"
+          }
+        ]
+      },
+      {
+        "start": 439.09,
+        "end": 464.38,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "联合征集活动交代随后7600部手机混剪的来源，是影片重要内容前提。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          439.09,
+          439.09
+        ],
+        "endUncertainty": [
+          464.38,
+          464.38
+        ],
+        "evidence": [
+          {
+            "from": 439.09,
+            "to": 440.15,
+            "text": "那就在上个月"
+          },
+          {
+            "from": 440.15,
+            "to": 442.11,
+            "text": "我们和VIVO发起了一次特别的征集"
+          },
+          {
+            "from": 455.23,
+            "to": 458.26,
+            "text": "7600部手机过去30年都拍到过什么"
+          },
+          {
+            "from": 493.48,
+            "to": 496.96,
+            "text": "喂喂喂谁了"
+          }
+        ]
+      },
+      {
+        "start": 701.62,
+        "end": 949.63,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "vivo高管访谈和品牌致谢明显服务周年宣传，但影像记忆、研发用户反馈及照片故事是本期后半部主要采访内容，不适合整体自动跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          701.62,
+          701.62
+        ],
+        "endUncertainty": [
+          949.63,
+          949.63
+        ],
+        "evidence": [
+          {
+            "from": 701.62,
+            "to": 704.28,
+            "text": "这一次我们也收到了很多来自于VIVO用户的投稿"
+          },
+          {
+            "from": 706.1,
+            "to": 708.14,
+            "text": "想听听VIVO这30年来背后"
+          },
+          {
+            "from": 850.04,
+            "to": 852,
+            "text": "始终还是要以用户为导向"
+          },
+          {
+            "from": 918.92,
+            "to": 922.12,
+            "text": "我们要在未来更要持续打磨好产品和体验"
+          },
+          {
+            "from": 927.87,
+            "to": 930.05,
+            "text": "那这次我们也感谢VIVO在过去30年"
+          },
+          {
+            "from": 946.65,
+            "to": 949.63,
+            "text": "回忆也能变得更加清晰和生动一些"
+          },
+          {
+            "from": 949.63,
+            "to": 950.85,
+            "text": "那么本期节目就是这样"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 956.36,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

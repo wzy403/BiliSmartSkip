@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1PvtKeHEnr",
+    "cid": 25918442929,
+    "duration": 626,
+    "fullTranscriptRead": true,
+    "videoSummary": "作者谈农村青年缺乏交流、婚恋就业代际差异和自媒体选择，回应观众建议；最后以接广告经历引出萌芽家电动牙刷体验和销售推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 507,
+        "end": 624.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从拿本期甲方作例开始，完整讲旧牙刷偏见、寄样、个人牙齿问题，再介绍模式、价格、其他型号和质保，直到领券推荐片尾。之前关于自媒体收益及接广担忧属于个人叙述主线保留。",
+        "evidence": [
+          {
+            "to": 1.22,
+            "text": "哈喽大家好",
+            "from": 0.62
+          },
+          {
+            "to": 509.24,
+            "text": "就拿本期的甲方爸爸萌芽家来说吧",
+            "from": 507
+          },
+          {
+            "to": 622.15,
+            "text": "评论区领券购买更加优惠",
+            "from": 620.85
+          }
+        ],
+        "startUncertainty": [
+          507,
+          507
+        ],
+        "endUncertainty": [
+          624.06,
+          624.06
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.62,
+        "end": 507,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

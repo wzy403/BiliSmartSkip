@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1zQuv6oEYA",
+    "cid": 40798193842,
+    "duration": 838,
+    "fullTranscriptRead": true,
+    "videoSummary": "解说爱达荷枪击事件中市民和警员的应对、受害情况与调查，中途用卫生话题引出洗地机。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 47.5,
+        "end": 111.49,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从犯人不参加卫生服务转为自己懒于打扫的铺垫，连续推荐有望天鹅洗地机功能和置顶链接，至嫌疑人退学叙事恢复。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 3.42,
+            "text": "当美国平民战神持枪大战11杀枪手"
+          },
+          {
+            "from": 47.5,
+            "to": 49.46,
+            "text": "唉其实有时候人拦起来真没招"
+          },
+          {
+            "from": 52.68,
+            "to": 55.04,
+            "text": "我有这台有望天鹅人体工学洗地机"
+          },
+          {
+            "from": 107.84,
+            "to": 109.34,
+            "text": "现在购买还有多重好礼"
+          },
+          {
+            "from": 111.49,
+            "to": 113.07,
+            "text": "2023年12月"
+          }
+        ],
+        "startUncertainty": [
+          47.5,
+          47.5
+        ],
+        "endUncertainty": [
+          111.49,
+          111.49
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 47.5,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 111.49,
+        "end": 837.84,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

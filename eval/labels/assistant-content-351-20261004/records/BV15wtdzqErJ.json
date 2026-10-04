@@ -1,0 +1,153 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV15wtdzqErJ",
+    "cid": 31649563867,
+    "duration": 1688,
+    "fullTranscriptRead": true,
+    "videoSummary": "包裹模拟器搞怪实况：利用摆放与分拣系统漏洞实现退件盈利，包含王国崛起赞助声明、插播及片尾提醒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 10.32,
+        "end": 14.24,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "短独立赞助预告，无完整推介，保留。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 0.88,
+            "text": "嘿，大家好，我是Josh"
+          },
+          {
+            "from": 10.32,
+            "to": 13.0,
+            "text": "哦对了，这个视频由《王国崛起》赞助"
+          },
+          {
+            "from": 16.44,
+            "to": 17.85,
+            "text": "是时候开始新游戏了"
+          }
+        ],
+        "startUncertainty": [
+          10.32,
+          10.32
+        ],
+        "endUncertainty": [
+          14.24,
+          14.24
+        ]
+      },
+      {
+        "start": 203.78,
+        "end": 293.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从处理箱子时玩平板的过渡开始，完整包括王国崛起玩法、下载礼包及感谢；175回包裹问题。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 0.88,
+            "text": "嘿，大家好，我是Josh"
+          },
+          {
+            "from": 204.06,
+            "to": 206.08,
+            "text": "当我们处理这个箱子问题时"
+          },
+          {
+            "from": 221.98,
+            "to": 224.46,
+            "text": "有15种不同文明可选"
+          },
+          {
+            "from": 261.3,
+            "to": 265.32,
+            "text": "你可以通过描述中的链接下载游戏到你选择的PC"
+          },
+          {
+            "from": 293.42,
+            "to": 294.289,
+            "text": "回到这个"
+          }
+        ],
+        "startUncertainty": [
+          203.78,
+          203.78
+        ],
+        "endUncertainty": [
+          293.42,
+          293.42
+        ]
+      },
+      {
+        "start": 1676.2,
+        "end": 1683.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾独立赞助感谢与描述链接引流，1013恢复告别。",
+        "evidence": [
+          {
+            "from": 1667.57,
+            "to": 1671.86,
+            "text": "我想你知道我会继续在这里赚大钱，发送包裹"
+          },
+          {
+            "from": 1676.2,
+            "to": 1678.94,
+            "text": "再次感谢《王国崛起》赞助本视频"
+          },
+          {
+            "from": 1678.94,
+            "to": 1680.1,
+            "text": "描述中附有链接"
+          },
+          {
+            "from": 1683.94,
+            "to": 1685.0,
+            "text": "希望你们玩得开心"
+          }
+        ],
+        "startUncertainty": [
+          1676.2,
+          1676.2
+        ],
+        "endUncertainty": [
+          1683.94,
+          1683.94
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 203.78,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 293.42,
+        "end": 1676.2,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 1683.94,
+        "end": 1687.5,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -48,6 +48,8 @@ Thumbs.db
 node_modules/
 /eval/data/
 /eval/output/
+!/eval/fixtures/content-audit-351-20261004.jsonl.gz
+!/eval/fixtures/content-audit-extra300-20261004.jsonl.gz
 
 # Python #
 __pycache__/

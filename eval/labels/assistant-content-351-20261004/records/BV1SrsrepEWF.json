@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1SrsrepEWF",
+    "cid": 26027624030,
+    "duration": 683,
+    "fullTranscriptRead": true,
+    "videoSummary": "师徒探访北京京兆尹米其林素食餐厅，逐道讨论食材、口味与烹饪；肩膀酸痛桥段引入妙界按摩仪广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 184.07,
+        "end": 252.379,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从突然询问师傅怎么了、酸疼起完整转入按摩仪体验、按摩头力度、老人送礼和领券推荐；下一句重新评价菜品，餐厅试吃本身是主题保留。",
+        "evidence": [
+          {
+            "to": 0.9,
+            "text": "体验感如何",
+            "from": 0
+          },
+          {
+            "to": 192.57,
+            "text": "小的时候我带了妙界的按摩仪哦",
+            "from": 189.99
+          },
+          {
+            "to": 254.73,
+            "text": "这道菜就有点神奇了",
+            "from": 252.379
+          }
+        ],
+        "startUncertainty": [
+          184.07,
+          184.07
+        ],
+        "endUncertainty": [
+          252.379,
+          252.379
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 184.07,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 252.379,
+        "end": 680.92,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vVFnzNE8z",
+    "cid": 35879914065,
+    "duration": 1243,
+    "fullTranscriptRead": true,
+    "videoSummary": "网红泡面试吃评测，引用宣传短片后实际比较与批评；中段连续插入奔腾剃须刀、枸杞原浆广告，片尾再提醒剃须刀优惠。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 0.04,
+        "end": 14.69,
+        "reason": "泡面宣传片引用作为测评引子，随后用实物检验宣传内容，属于视频主题。",
+        "startUncertainty": [
+          0.04,
+          0.04
+        ],
+        "endUncertainty": [
+          14.69,
+          14.69
+        ],
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 2.5,
+            "content": "康师傅这个新品优选梅的研发团队"
+          },
+          {
+            "from": 5.44,
+            "to": 8.1,
+            "content": "他就是把菜包和调料粉都给他放好了"
+          },
+          {
+            "from": 9.36,
+            "to": 11.62,
+            "content": "真的吃的和图片一模一样的泡面啊"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 256.149,
+        "end": 350.28,
+        "reason": "结束螺蛳面点评后明确种草奔腾剃须刀，介绍卖点、专属券、免费试用和购买引导。",
+        "startUncertainty": [
+          256.149,
+          256.149
+        ],
+        "endUncertainty": [
+          350.28,
+          350.28
+        ],
+        "evidence": [
+          {
+            "from": 256.149,
+            "to": 257.909,
+            "content": "来接下来先给大家种草一款"
+          },
+          {
+            "from": 257.909,
+            "to": 260.089,
+            "content": "我一直在用的便携式剃须刀"
+          },
+          {
+            "from": 260.089,
+            "to": 261.369,
+            "content": "奔腾小星锤"
+          },
+          {
+            "from": 335.76,
+            "to": 338.46,
+            "content": "趁着年货节评论区领取拉子专属优惠券"
+          },
+          {
+            "from": 342.96,
+            "to": 345.08,
+            "content": "现在下单想七天免费试用"
+          },
+          {
+            "from": 348.24,
+            "to": 350.28,
+            "content": "想要的小伙伴赶紧的冲一波吧"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 350.28,
+        "end": 443.36,
+        "reason": "紧接推广枸杞原浆，连续产品功效宣传、商务专属机制与报价赠品，443.36秒回到粉面菜蛋试吃。",
+        "startUncertainty": [
+          350.28,
+          350.28
+        ],
+        "endUncertainty": [
+          443.36,
+          443.36
+        ],
+        "evidence": [
+          {
+            "from": 350.28,
+            "to": 353.9,
+            "content": "另外还有这个全网爆火的更枸杞原浆哇"
+          },
+          {
+            "from": 411.96,
+            "to": 414.62,
+            "content": "我还给大家争取到了咱B站的专属机制"
+          },
+          {
+            "from": 418.16,
+            "to": 419.5,
+            "content": "只要49元"
+          },
+          {
+            "from": 438.16,
+            "to": 441.08,
+            "content": "这个我直接让兄弟们免费试喝十包"
+          },
+          {
+            "from": 441.08,
+            "to": 443.36,
+            "content": "有需要的小伙伴赶紧的冲一波吧"
+          },
+          {
+            "from": 443.36,
+            "to": 446.3,
+            "content": "来下一个粉面菜蛋plus哇"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 780.21,
+        "end": 799.9,
+        "reason": "明确说先看宣传视频，引用白象卫龙广告供后面的购买验证和评测，须保留。",
+        "startUncertainty": [
+          780.21,
+          780.21
+        ],
+        "endUncertainty": [
+          799.9,
+          799.9
+        ],
+        "evidence": [
+          {
+            "from": 780.21,
+            "to": 782.27,
+            "content": "来下一个宣传视频"
+          },
+          {
+            "from": 782.27,
+            "to": 784.69,
+            "content": "白象和卫龙居然联手出了这个辣条拌面"
+          },
+          {
+            "from": 798.58,
+            "to": 799.9,
+            "content": "千万不能错过它哇"
+          },
+          {
+            "from": 799.9,
+            "to": 803.37,
+            "content": "哦家人们最近这个面真的是巨火爆哈"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 957.2,
+        "end": 989.5,
+        "reason": "康师傅宣传片为被评测对象的宣传证据，之后质疑并对照真实产品，非独立插播。",
+        "startUncertainty": [
+          957.2,
+          957.2
+        ],
+        "endUncertainty": [
+          989.5,
+          989.5
+        ],
+        "evidence": [
+          {
+            "from": 957.2,
+            "to": 959.12,
+            "content": "来下一个新坑视频"
+          },
+          {
+            "from": 959.12,
+            "to": 961.7,
+            "content": "康师傅这个新品优选梅的研发团队"
+          },
+          {
+            "from": 984.36,
+            "to": 987.64,
+            "content": "关键是你看他这个料给的真的特别的足"
+          },
+          {
+            "from": 996.58,
+            "to": 999.14,
+            "content": "我看着它里面满满都是配料啊"
+          },
+          {
+            "from": 999.14,
+            "to": 1000.32,
+            "content": "真的假的呀"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 1226.48,
+        "end": 1233.56,
+        "reason": "测评结束后再次引导购买奔腾剃须刀并领取专属优惠券。",
+        "startUncertainty": [
+          1226.48,
+          1226.48
+        ],
+        "endUncertainty": [
+          1233.56,
+          1233.56
+        ],
+        "evidence": [
+          {
+            "from": 1226.48,
+            "to": 1229.04,
+            "content": "另外如果有需要奔腾小星锤的小伙伴"
+          },
+          {
+            "from": 1229.04,
+            "to": 1231.14,
+            "content": "点击视频下方评论区置顶蓝色链接"
+          },
+          {
+            "from": 1231.14,
+            "to": 1232.52,
+            "content": "领取我的专属优惠券"
+          },
+          {
+            "from": 1232.52,
+            "to": 1233.56,
+            "content": "购买最划算哦"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 14.69,
+        "end": 256.149,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 443.36,
+        "end": 780.21,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 799.9,
+        "end": 957.2,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 989.5,
+        "end": 1226.48,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 1233.56,
+        "end": 1237.66,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "泡面评测中的报价、推荐和商家宣传引用应保留；不能因有广告词而跳过评论与测试对象。"
+    ]
+  }
+}

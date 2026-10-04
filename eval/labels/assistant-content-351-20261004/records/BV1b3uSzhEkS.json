@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1b3uSzhEkS",
+    "cid": 31177967057,
+    "duration": 397,
+    "fullTranscriptRead": true,
+    "videoSummary": "用五边网格、瓷砖带与黄金比例解释彭罗斯平铺不重复，并展示配套互动网站；片尾推广Brilliant课程订阅。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 348.75,
+        "end": 392.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "通过美丽几何图案转入Brilliant赞助，介绍课程范围、免费体验、折扣和订阅礼物直至致谢；此前自制互动网站是解释图形生成的教学资源，保留。广告持续到字幕结尾，无回正文。",
+        "evidence": [
+          {
+            "to": 5.48,
+            "text": "这些令人惊叹的几何图案是彭罗斯平铺",
+            "from": 1.14
+          },
+          {
+            "to": 356.48,
+            "text": "本视频由brilliant赞助，他们的互动几何课程",
+            "from": 353.13
+          },
+          {
+            "to": 392.64,
+            "text": "访问brilliant.org slash minutephysics，感谢brilliant的支持",
+            "from": 388.85
+          }
+        ],
+        "startUncertainty": [
+          348.75,
+          348.75
+        ],
+        "endUncertainty": [
+          392.64,
+          392.64
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.14,
+        "end": 348.75,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1B37E6bE7x",
+    "cid": 39441468483,
+    "duration": 705,
+    "fullTranscriptRead": true,
+    "videoSummary": "山东多起荒诞盗窃、报假警与违法新闻集锦，中插小冰席销售。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 313.9,
+        "end": 390.81,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以和神气小鹿默契的转场进入夏日凉席需求，介绍凉席凉被与优惠售后，205恢复新闻。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 1.56,
+            "text": "2013年11月"
+          },
+          {
+            "from": 313.9,
+            "to": 315.86,
+            "text": "跟我和神气小鹿一样默契"
+          },
+          {
+            "from": 341.18,
+            "to": 342.98,
+            "text": "顶层是科技凉感层"
+          },
+          {
+            "from": 378.98,
+            "to": 382.11,
+            "text": "喜欢的快到评论区领我的优惠券带回家"
+          },
+          {
+            "from": 393.91,
+            "to": 395.89,
+            "text": "接到一名男子的报警电话"
+          }
+        ],
+        "startUncertainty": [
+          313.9,
+          313.9
+        ],
+        "endUncertainty": [
+          390.81,
+          393.91
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 313.9,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 390.81,
+        "end": 704.24,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

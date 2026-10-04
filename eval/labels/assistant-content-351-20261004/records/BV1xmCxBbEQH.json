@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1xmCxBbEQH",
+    "cid": 33971438866,
+    "duration": 1101,
+    "fullTranscriptRead": true,
+    "videoSummary": "挑战十斤巨型汉堡的实录与失败总结；开吃前插入神气小鹿泡芙被的独立赞助广告。餐厅奖金额、菜单报价与挑战现场应保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 58.34,
+        "end": 146.33,
+        "reason": "从冬天气温和睡被窝铺垫转入被子品牌，介绍材质、保暖、尺寸，最后评论区领券并祝冬夜暖和；随后恢复汉堡现场。",
+        "startUncertainty": [
+          57.3,
+          60.54
+        ],
+        "endUncertainty": [
+          146.33,
+          146.59
+        ],
+        "evidence": [
+          {
+            "from": 58.34,
+            "to": 60.54,
+            "content": "哎现在这个冬天到了"
+          },
+          {
+            "from": 66.75,
+            "to": 68.23,
+            "content": "那必须还得是神气"
+          },
+          {
+            "from": 68.23,
+            "to": 69.93,
+            "content": "小鹿的泡芙被pro"
+          },
+          {
+            "from": 138.69,
+            "to": 140.55,
+            "content": "现在活动已经开始了"
+          },
+          {
+            "from": 140.55,
+            "to": 142.95,
+            "content": "评论区领券到手就是底价"
+          },
+          {
+            "from": 142.95,
+            "to": 146.33,
+            "content": "祝大家都能够有一个暖和的冬夜"
+          },
+          {
+            "from": 146.59,
+            "to": 149.32,
+            "content": "哇塞哇"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 57.3,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 146.59,
+        "end": 1093.94,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "餐厅介绍和互相关注属于挑战正文，未仅因奖金、价格、免单和推荐等词语认作应跳广告。"
+    ]
+  }
+}

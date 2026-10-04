@@ -1,0 +1,226 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1LXb3zmEKb",
+    "cid": 31615026536,
+    "duration": 668,
+    "fullTranscriptRead": true,
+    "videoSummary": "使用坦克世界提供的钨镍合金周边材料进行多种口径射击测试，结合游戏周年徽章活动宣传。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 52.12,
+        "end": 114.88,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "赞助材料及周年徽章来源说明与本期实验设置不可分，保留。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 0.48,
+            "text": "兄弟们"
+          },
+          {
+            "from": 67.72,
+            "to": 69.74,
+            "text": "坦克世界就在最近用一大堆"
+          },
+          {
+            "from": 104.84,
+            "to": 107.54,
+            "text": "而且听说呢咱老李想测这玩意的硬度呢"
+          },
+          {
+            "from": 114.88,
+            "to": 116.04,
+            "text": "那么首先的话呢"
+          }
+        ],
+        "startUncertainty": [
+          52.12,
+          52.12
+        ],
+        "endUncertainty": [
+          114.88,
+          114.88
+        ]
+      },
+      {
+        "start": 149.26,
+        "end": 157.72,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "加工宣传与正在测试的样品特性相连，保留。",
+        "evidence": [
+          {
+            "from": 140.38,
+            "to": 142.22,
+            "text": "但是这个污镍合金心吧"
+          },
+          {
+            "from": 149.26,
+            "to": 150.16,
+            "text": "所以坦克世界"
+          },
+          {
+            "from": 154.28,
+            "to": 157.04,
+            "text": "平均呢切这么一块呢就要两个小时"
+          },
+          {
+            "from": 157.72,
+            "to": 160.83,
+            "text": "所以他面对这个呃点二的话呢"
+          }
+        ],
+        "startUncertainty": [
+          149.26,
+          149.26
+        ],
+        "endUncertainty": [
+          157.72,
+          157.72
+        ]
+      },
+      {
+        "start": 294.0,
+        "end": 310.2,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "品牌提供的方块形样品用于后续实验，说明不能跳过。",
+        "evidence": [
+          {
+            "from": 293.4,
+            "to": 294.0,
+            "text": "就找不到"
+          },
+          {
+            "from": 294.0,
+            "to": 296.83,
+            "text": "所以坦克世界呢还给我了一个面积啊"
+          },
+          {
+            "from": 297.69,
+            "to": 300.62,
+            "text": "但是呢是这种立方体的这个芯儿"
+          },
+          {
+            "from": 310.2,
+            "to": 315.96,
+            "text": "我们可以来试一下321"
+          }
+        ],
+        "startUncertainty": [
+          294.0,
+          294.0
+        ],
+        "endUncertainty": [
+          310.2,
+          310.2
+        ]
+      },
+      {
+        "start": 366.08,
+        "end": 382.3,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "将穿甲材料测试与游戏武器还原关联，连续主题说明，保留。",
+        "evidence": [
+          {
+            "from": 354.7,
+            "to": 356.12,
+            "text": "怪不得这个尾翼稳定"
+          },
+          {
+            "from": 366.08,
+            "to": 367.94,
+            "text": "就如果玩过坦克世界的兄弟们呢"
+          },
+          {
+            "from": 375.54,
+            "to": 378.82,
+            "text": "即便是用这个尾翼稳定脱壳穿甲弹的低配版"
+          },
+          {
+            "from": 382.3,
+            "to": 382.9,
+            "text": "不过兄弟们"
+          }
+        ],
+        "startUncertainty": [
+          366.08,
+          366.08
+        ],
+        "endUncertainty": [
+          382.3,
+          382.3
+        ]
+      },
+      {
+        "start": 611.14,
+        "end": 649.66,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "实验结果转徽章品质、编号及活动招募；与本期被测产品结论融合，保留完整段。",
+        "evidence": [
+          {
+            "from": 597.7,
+            "to": 598.38,
+            "text": "真的兄弟们"
+          },
+          {
+            "from": 612.38,
+            "to": 614.64,
+            "text": "这个坦克世界给咱的这个东西啊"
+          },
+          {
+            "from": 625.36,
+            "to": 628.74,
+            "text": "而且每一枚限定版的这个徽章的弹芯呢"
+          },
+          {
+            "from": 642.62,
+            "to": 644.64,
+            "text": "都可以参加坦克世界国服端游"
+          },
+          {
+            "from": 649.66,
+            "to": 650.66,
+            "text": "那么到视频最后呢"
+          }
+        ],
+        "startUncertainty": [
+          611.14,
+          611.14
+        ],
+        "endUncertainty": [
+          649.66,
+          649.66
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 667.96,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

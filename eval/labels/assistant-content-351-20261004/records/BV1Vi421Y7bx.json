@@ -1,0 +1,71 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Vi421Y7bx",
+    "cid": 1612826055,
+    "duration": 1427,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆多人实况，以坦克交战、烟幕支援、P59空战和队友互相调侃为主，讨论命中伤害、载具表现和返场。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.12,
+        "end": 1413.46,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "全部缓存字幕为战斗现场交流和游戏反应，没有商品推介、付费引导或赞助口播；开头部分时间戳和文字重复，仍已逐条阅读，不把游戏名称及载具提及当广告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.12,
+          0.12
+        ],
+        "endUncertainty": [
+          1413.46,
+          1413.46
+        ],
+        "evidence": [
+          {
+            "from": 5.52,
+            "to": 6.78,
+            "text": "我奶奶看这些视频"
+          },
+          {
+            "from": 514.52,
+            "to": 517.64,
+            "text": "8地面击杀，4空中"
+          },
+          {
+            "from": 768.1,
+            "to": 770.8,
+            "text": "他用炸弹杀了我们所有人"
+          },
+          {
+            "from": 1326.55,
+            "to": 1328.74,
+            "text": "我准备好P59了"
+          },
+          {
+            "from": 1404.689,
+            "to": 1406.349,
+            "text": "这些玩法毁了游戏"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 1413.46,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

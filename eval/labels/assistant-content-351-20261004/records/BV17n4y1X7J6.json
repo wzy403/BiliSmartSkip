@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV17n4y1X7J6",
+    "cid": 1597817375,
+    "duration": 614,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述玛氏糖果、M豆和箭牌口香糖在二战军需与战后营销中的发展史，插入妙界肩颈按摩仪推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 201.209,
+        "end": 250.4,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确宣布中场休息后进入按摩仪体验、揉捏热敷和使用场景的整段推广，含优惠、质保及送礼推荐；随后回到二战品牌故事。糖果与历史广告语属于节目主题。",
+        "evidence": [
+          {
+            "to": 1.2,
+            "text": "本期视频将为您介绍",
+            "from": 0.04
+          },
+          {
+            "to": 204.969,
+            "text": "多次推荐的妙界肩颈按摩仪也有它的奥妙",
+            "from": 202.489
+          },
+          {
+            "to": 255.159,
+            "text": "犹如全游剧中小指头那句",
+            "from": 252.999
+          }
+        ],
+        "startUncertainty": [
+          201.209,
+          201.209
+        ],
+        "endUncertainty": [
+          250.4,
+          252.999
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 201.209,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 250.4,
+        "end": 603.92,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

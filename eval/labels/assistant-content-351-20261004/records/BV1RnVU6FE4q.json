@@ -1,0 +1,105 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1RnVU6FE4q",
+    "cid": 38749340325,
+    "duration": 936,
+    "fullTranscriptRead": true,
+    "videoSummary": "锻刀比赛解说：参赛者制作大马士革刀、装柄及测试，随后制作并测试尼姆查弯剑；中间插入转转回收服务推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 158.2,
+        "end": 198.68,
+        "reason": "从更新快、换电脑过渡到旧设备卖给转转，持续介绍回收品类、变现速度与价格，之后明确回到选手布恩。",
+        "startUncertainty": [
+          158.2,
+          165.22
+        ],
+        "endUncertainty": [
+          198.68,
+          198.68
+        ],
+        "evidence": [
+          {
+            "from": 158.2,
+            "to": 160.48,
+            "content": "有粉丝说我最近怎么更新这么快"
+          },
+          {
+            "from": 160.48,
+            "to": 162.2,
+            "content": "这多亏了我新换的电脑"
+          },
+          {
+            "from": 166.62,
+            "to": 169,
+            "content": "找转转上门回收了3100多"
+          },
+          {
+            "from": 169,
+            "to": 170.48,
+            "content": "转转是一个很好的买家"
+          },
+          {
+            "from": 179.56,
+            "to": 181.56,
+            "content": "在他那都能随时换成钱"
+          },
+          {
+            "from": 185.52,
+            "to": 188.68,
+            "content": "特别适合我这种想快速变现又图省事的人"
+          },
+          {
+            "from": 189.78,
+            "to": 191.3,
+            "content": "他们回收价格也很不错"
+          },
+          {
+            "from": 191.3,
+            "to": 194.2,
+            "content": "我之前那款欧米茄还卖了2万4000多的"
+          },
+          {
+            "from": 195.92,
+            "to": 197.06,
+            "content": "就直接卖给转转"
+          },
+          {
+            "from": 197.06,
+            "to": 198.68,
+            "content": "钱到手才是硬道理"
+          },
+          {
+            "from": 198.68,
+            "to": 199.84,
+            "content": "同样重开的布恩"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 158.2,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 198.68,
+        "end": 935.74,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。"
+    ]
+  }
+}

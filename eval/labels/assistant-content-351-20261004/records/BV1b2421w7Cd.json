@@ -1,0 +1,60 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1b2421w7Cd",
+    "cid": 1426407591,
+    "duration": 352,
+    "fullTranscriptRead": true,
+    "videoSummary": "情侣围绕假想情敌、前任同名等问题互相调侃，穿插点赞互动，未见商业产品推荐。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 7.91,
+        "end": 346.36,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 7.91,
+            "to": 9.67,
+            "text": "问你个问题啊"
+          },
+          {
+            "from": 163.24,
+            "to": 164.4,
+            "text": "他家卖相机"
+          },
+          {
+            "from": 343.779,
+            "to": 346.36,
+            "text": "不刀了不刀了"
+          }
+        ],
+        "startUncertainty": [
+          7.91,
+          7.91
+        ],
+        "endUncertainty": [
+          346.36,
+          346.36
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 7.91,
+        "end": 346.36,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

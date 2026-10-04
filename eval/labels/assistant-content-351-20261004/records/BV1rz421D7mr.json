@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1rz421D7mr",
+    "cid": 1525074214,
+    "duration": 942,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论英国卢旺达移民法案、苏纳克的政治处境与军费，中途插入多功能按摩仪优惠。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 445.38,
+        "end": 529.579,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以不确定与确定作转场，从老朋友优惠开始完整推销按摩仪功能、价格和母亲节礼物，结束后恢复英国政局。",
+        "evidence": [
+          {
+            "from": 0.06,
+            "to": 2.28,
+            "text": "今天又到了咱们每月催一嘴小不列颠"
+          },
+          {
+            "from": 445.38,
+            "to": 447.06,
+            "text": "当然这是小苏不确定"
+          },
+          {
+            "from": 449.04,
+            "to": 452.06,
+            "text": "那就是我们的老朋友妙界又给咱送优惠来了"
+          },
+          {
+            "from": 514.36,
+            "to": 516.72,
+            "text": "朋友们大额优惠券还在评论区领哈"
+          },
+          {
+            "from": 529.859,
+            "to": 531.739,
+            "text": "除了卢旺达那边没搞定以外"
+          }
+        ],
+        "startUncertainty": [
+          445.38,
+          445.38
+        ],
+        "endUncertainty": [
+          529.579,
+          529.859
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.06,
+        "end": 445.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 529.579,
+        "end": 940.7,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

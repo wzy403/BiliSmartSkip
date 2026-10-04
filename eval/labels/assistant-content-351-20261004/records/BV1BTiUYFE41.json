@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1BTiUYFE41",
+    "cid": 27180663032,
+    "duration": 1463,
+    "fullTranscriptRead": true,
+    "videoSummary": "盘点2024中国多个电竞项目国际成绩与玩家梗；战舰世界部分同时介绍海王杯成绩、玩法及新手礼包。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 871.829,
+        "end": 991.91,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "战舰世界由赛事盘点自然导入并发展为新手礼包招募，但480至515含本片所需的真实赛事成绩与背景；商业和产品主题连续交织，完整保留避免丢失盘点信息。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 2.6,
+            "text": "又到了各个电竞赛事转会期的环节了"
+          },
+          {
+            "from": 871.829,
+            "to": 872.909,
+            "text": "下面这款游戏啊"
+          },
+          {
+            "from": 906.44,
+            "to": 908.3,
+            "text": "战舰世界海王杯去年就办过"
+          },
+          {
+            "from": 915.84,
+            "to": 917.28,
+            "text": "非洲最好成绩是提瓦特"
+          },
+          {
+            "from": 974.64,
+            "to": 976.78,
+            "text": "为新手玩家推出非常有成绩的新手礼包"
+          },
+          {
+            "from": 991.91,
+            "to": 994.67,
+            "text": "格斗游戏街霸拳王两个项目要一起说"
+          }
+        ],
+        "startUncertainty": [
+          871.829,
+          871.829
+        ],
+        "endUncertainty": [
+          991.91,
+          991.91
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 1462.9,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1yMQrBSE5H",
+    "cid": 36947034543,
+    "duration": 404,
+    "fullTranscriptRead": true,
+    "videoSummary": "CS2职业比赛击杀与干拉集锦，字幕主要为现场解说、感叹及音乐标记。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.12,
+        "end": 403.68,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.12,
+            "to": 3.36,
+            "text": "朝着你刚刚挥动的方向寻找"
+          },
+          {
+            "from": 189.14,
+            "to": 193.35,
+            "text": "然后跳进那个该死的跳跃"
+          },
+          {
+            "from": 397.16,
+            "to": 403.68,
+            "text": "哦从分界飞轮来的lime，就那个"
+          }
+        ],
+        "startUncertainty": [
+          0.12,
+          0.12
+        ],
+        "endUncertainty": [
+          403.68,
+          403.68
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 403.68,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "字幕译文多处不清且大量音乐时段；简介存在奖励链接，但缓存口述未出现可定位的推广，不能据简介推断广告时间。"
+    ]
+  }
+}

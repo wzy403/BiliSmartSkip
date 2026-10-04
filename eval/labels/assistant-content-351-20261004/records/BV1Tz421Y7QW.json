@@ -1,0 +1,125 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Tz421Y7QW",
+    "cid": 1571798429,
+    "duration": 296,
+    "fullTranscriptRead": true,
+    "videoSummary": "夫妻讲述游戏相识四次见面闪婚，以做饭、家务分工和一起打游戏展示相处日常；米家净烟机在做辣椒油对话和中段专门介绍中出现。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 66.24,
+        "end": 95.56,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "做辣椒油未闻到味道引出净烟机，是后文产品卖点的前置展示，但同时包含夫妻分配洗锅的完整日常笑料，保留剧情。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          66.24,
+          66.24
+        ],
+        "endUncertainty": [
+          95.56,
+          95.56
+        ],
+        "evidence": [
+          {
+            "from": 10.81,
+            "to": 12.17,
+            "text": "见了四面就结婚了"
+          },
+          {
+            "from": 66.24,
+            "to": 68.22,
+            "text": "啊你给自己做的油泼辣子的"
+          },
+          {
+            "from": 73.58,
+            "to": 74.9,
+            "text": "因为我刚开了净烟机"
+          },
+          {
+            "from": 79.72,
+            "to": 80.94,
+            "text": "那个锅就得让你洗"
+          },
+          {
+            "from": 94.54,
+            "to": 95.56,
+            "text": "你就得洗这个锅"
+          }
+        ]
+      },
+      {
+        "start": 185.28,
+        "end": 220.56,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由丈夫鼻炎、做饭油烟困扰铺垫，完整介绍米家吸烟效果、颗粒物显示和免拆洗卖点，随后回收拾厨房打游戏，独立功能口播可跳。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          185.28,
+          185.28
+        ],
+        "endUncertainty": [
+          220.56,
+          220.56
+        ],
+        "evidence": [
+          {
+            "from": 185.28,
+            "to": 186.9,
+            "text": "不过七哥有很严重的鼻炎"
+          },
+          {
+            "from": 192.92,
+            "to": 194.6,
+            "text": "所以我们装了个米家净烟机"
+          },
+          {
+            "from": 201.84,
+            "to": 205.38,
+            "text": "炒菜时产生的pm2.5和刺鼻的味道一并吸出"
+          },
+          {
+            "from": 217.2,
+            "to": 217.92,
+            "text": "免拆洗的"
+          },
+          {
+            "from": 219.6,
+            "to": 220.56,
+            "text": "特别轻松"
+          },
+          {
+            "from": 220.56,
+            "to": 221.4,
+            "text": "收拾完厨房"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 185.28,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 220.56,
+        "end": 294.74,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

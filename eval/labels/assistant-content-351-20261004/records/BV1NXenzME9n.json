@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1NXenzME9n",
+    "cid": 31916032793,
+    "duration": 967,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述二战日本军民资源、陆军口粮、海军伙食与大和号设备，以及战争后期补给崩溃；从士兵营养及牙齿问题过渡到usmile牙刷推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 362.18,
+        "end": 466.679,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从现代人口腔健康、烧烤火锅的痛点铺垫开始，连续推荐usmile Y30S，详述清洁、专利、认证、续航和销量，至评论区福利与把健康带回家结束；前面的日军牙齿营养问题属于军粮正文。",
+        "evidence": [
+          {
+            "from": 362.18,
+            "to": 367.76,
+            "text": "我们现代人虽然不必像他们一样忍受营养缺乏 但口腔健康依然不能忽视"
+          },
+          {
+            "from": 461.919,
+            "to": 466.679,
+            "text": "感兴趣的小伙伴看看评论区有超大额福利 把健康带回家吧"
+          },
+          {
+            "from": 466.679,
+            "to": 474.23,
+            "text": "日本陆军的伙食只能说还算可以 但是相比之下 日本海军的伙食那真是相当豪华了"
+          }
+        ],
+        "startUncertainty": [
+          362.18,
+          362.18
+        ],
+        "endUncertainty": [
+          466.679,
+          466.679
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 362.18,
+        "reason": "军民资源和陆军军粮、营养缺乏及作战影响。"
+      },
+      {
+        "start": 466.679,
+        "end": 958.12,
+        "reason": "恢复海军伙食与战争后期补给衰退分析。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

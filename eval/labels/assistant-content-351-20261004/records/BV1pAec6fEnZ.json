@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1pAec6fEnZ",
+    "cid": 41933407697,
+    "duration": 284,
+    "fullTranscriptRead": true,
+    "videoSummary": "吐槽电影剧集用真实污物或危险场景拍摄的幕后，包括养猪场、池塘、下水道布景及堕入地狱的虫子戏；池塘细菌话题过渡到除螨仪广告后返回电影幕后。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 105.5,
+        "end": 166.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "用看不见的脏作为完整广告铺垫，由池塘大肠杆菌转被窝螨虫，再介绍除螨仪功效参数与适用人群，最后试用运费险及评论区引导；166.66恢复电影布景故事。",
+        "evidence": [
+          {
+            "from": 105.5,
+            "to": 118.82,
+            "text": "这世上最防不胜防的脏 就是你看不见的那种池塘里的大肠杆菌如此 被窝里的螨虫也是如此 他们演戏只能拿腊风 咱们睡觉可咋防呢 倒不如换个思路 不防了 直接杀 今天给兄弟们推荐有望大白ultra除螨仪"
+          },
+          {
+            "from": 158.28,
+            "to": 166.66,
+            "text": "每天3分钟就能换来干爽清新的睡眠环境 现在入手享有极致性价比 去评论区瞅瞅 七天免费试用加运费险 不满意放心退"
+          },
+          {
+            "from": 166.66,
+            "to": 174.98,
+            "text": "在2013年的恐怖片下水道英雄中 导演倒是没丧心病狂的真把演员领下水道里 而是在户外搭建了一个巨型密闭的木质箱体"
+          }
+        ],
+        "startUncertainty": [
+          105.5,
+          109.88
+        ],
+        "endUncertainty": [
+          166.66,
+          166.66
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 105.5,
+        "reason": "影视污物布景与演员经历。"
+      },
+      {
+        "start": 166.66,
+        "end": 266.24,
+        "reason": "下水道和虫子戏的拍摄故事及结尾吐槽。"
+      }
+    ],
+    "limitations": [
+      "仅完整字幕，未观看画面或核验产品功效；品牌及片名有识别误差。",
+      "266.24后的英文音乐字幕未计入主正文正常范围；所有无字幕片段内容未知。"
+    ]
+  }
+}

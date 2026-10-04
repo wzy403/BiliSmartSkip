@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ni421C7So",
+    "cid": 1523094435,
+    "duration": 262,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释炮弹出膛摇摆、陀螺进动及姿态收敛，中途介绍拼多多充电宝活动。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 34.69,
+        "end": 78.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确暂停分析进入薅羊毛活动，完整包含充电宝卖点、价格、名额和链接推荐，至恢复物理分析。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 2.79,
+            "text": "最近有网友转发来一段令人疑惑的视频"
+          },
+          {
+            "from": 35.71,
+            "to": 37.48,
+            "text": "我们先进入薅羊毛时间"
+          },
+          {
+            "from": 37.48,
+            "to": 40.28,
+            "text": "拼多多九块九秒杀苹果磁吸充电宝"
+          },
+          {
+            "from": 72.21,
+            "to": 74.8,
+            "text": "链接就放在视频下方评论区置顶"
+          },
+          {
+            "from": 78.94,
+            "to": 80.44,
+            "text": "炮弹之所以偏斜"
+          }
+        ],
+        "startUncertainty": [
+          34.69,
+          34.69
+        ],
+        "endUncertainty": [
+          78.94,
+          78.94
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 34.69,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 78.94,
+        "end": 259.98,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "assistant-supplementary-original-content-review",
+  "reviewer": "full_content_c",
+  "algorithmPredictionsSeen": false,
+  "primaryBilibiliReviewsModified": false,
+  "records": [
+    {
+      "bvid": "BV153411x7vX",
+      "cid": 463185127,
+      "bilibiliDuration": 245,
+      "sourceVideoId": "Z2Z9V-4DMGw",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z2Z9V-4DMGw",
+      "sourceDuration": 244,
+      "sourceTranscriptPath": "/Users/woshiyingyan/files/project/BiliSmartSkip/eval/output/content-audit-351-20261004/acquisition/BV153411x7vX-original.txt",
+      "fullTranscriptRead": true,
+      "sourceSubtitleEntries": 47,
+      "videoSummary": "三位歌手合唱歌曲，导出字幕为歌词，未见口述商业推荐。",
+      "adPresence": "no_ad_in_transcript",
+      "segments": [],
+      "relatedBvids": [],
+      "bilibiliSameEditVerified": false,
+      "bilibiliTimelineVerified": false,
+      "eligibleAsBilibiliGroundTruth": false,
+      "limitations": [
+        "所有段落时间仅指YouTube原视频；未核实Bili为同剪辑、同时间轴，即使时长相同也不可直接映射。",
+        "已完整阅读导出的字幕；未阅读全文之外的视觉/无字幕声轨。",
+        "导出字幕仅提供秒级起点，边界以相邻字幕起点估计，不能视为帧级精确。",
+        "字幕开始于38秒、末条在205秒，未覆盖的前后时段不能判断画面或非歌词内容。"
+      ]
+    }
+  ]
+}

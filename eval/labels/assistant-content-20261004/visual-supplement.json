@@ -1,0 +1,51 @@
+{
+  "kind": "assistant-source-and-visual-spot-review",
+  "bvid": "BV1QnuH66Ezq",
+  "reviewedAt": "2026-10-04",
+  "algorithmPredictionsSeen": false,
+  "sourceUrl": "https://www.youtube.com/watch?v=-DiK5FDpBTg",
+  "sourceDiscoveredVia": "Bilibili description directly names original video",
+  "sourceTranscriptSha256": "a55d7175407f36b53f7bd948264d204c20a869337ca12da5572f18ca29125158",
+  "fullOriginalTranscriptRead": true,
+  "fullBilibiliVideoWatched": false,
+  "adPresence": "ad",
+  "contentSummary": "将Tiny Core Linux安装在奔腾133旧电脑的完整实验；中间插播Brilliant数学、计算机课程订阅推广。正文对电脑品牌、软件、网站的讲解是实验内容，不应据价格/品牌跳过。",
+  "sourceAdRange": {
+    "start": 212,
+    "end": 311,
+    "boundaryConfidence": "uncertain",
+    "startUncertainty": [
+      212,
+      214
+    ],
+    "endUncertainty": [
+      309,
+      312
+    ],
+    "reason": "从软件技巧转入学习计算机科学的邀请起，到课程特点、学习体验、链接、订阅折扣和赞助感谢结束；311秒恢复拆机。时间来自原视频字幕，仅供B站边界复核。"
+  },
+  "bilibiliVisualObservations": [
+    {
+      "timeApproximately": 220,
+      "observation": "人物仍在旧电脑旁，双语烧录字幕转入计算机科学基础课程邀请，与原视频字幕相符。"
+    },
+    {
+      "time": 297.960531,
+      "observation": "画面有Brilliant标识，双语烧录字幕明确Brilliant给予Action Retro观众优惠；课程推广性质得到视频画面支持。"
+    },
+    {
+      "timeApproximately": 316,
+      "observation": "已转到机箱拆解，与原视频311秒后的恢复正文相符。"
+    },
+    {
+      "timeApproximately": 328,
+      "observation": "讲解PCI和ISA插槽，明确是实验正文。"
+    }
+  ],
+  "limitations": [
+    "B站网页按钮暴露了检测器存在，但审核未查看预测起止或弹幕时轴。",
+    "原视频与B站版本时长相差约1秒，未逐帧对齐；不将原视频时轴直接当B站精确金标准。",
+    "画面仅作抽点复核，不声称完整观看B站23分钟视频。",
+    "此条不加入48条字幕回放的秒数评分；不把审核用英文字幕补进算法输入。"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1G7y3YTE5C",
+    "cid": 26342394109,
+    "duration": 290,
+    "fullTranscriptRead": true,
+    "videoSummary": "邀请观众盲测可乐品牌、包装和温度并解释结果；合作冰箱参与活动，片中介绍其控温与组合功能，结尾补充制冰机。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 23.28,
+        "end": 28.76,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "开场合作设备点名和活动规模同句出现，是简短赞助露出且承载实验介绍，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          23.28,
+          23.28
+        ],
+        "endUncertainty": [
+          28.76,
+          28.76
+        ],
+        "evidence": [
+          {
+            "from": 19.92,
+            "to": 22.38,
+            "text": "市面上这么多可乐哪个最好喝"
+          },
+          {
+            "from": 23.28,
+            "to": 24.42,
+            "text": "我们摆了四个摊"
+          },
+          {
+            "from": 24.42,
+            "to": 26.24,
+            "text": "和十台KO大魔方冰箱"
+          },
+          {
+            "from": 26.24,
+            "to": 28.76,
+            "text": "一起请1000人喝了一次冰可乐"
+          },
+          {
+            "from": 28.76,
+            "to": 30.34,
+            "text": "这里有三种可乐"
+          }
+        ]
+      },
+      {
+        "start": 158.94,
+        "end": 190.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由千瓶可乐收纳困难铺垫，完整介绍冰箱冷藏切换、内胆温控、多台组合与餐饮场景；190.94返回测试结果，可移除独立功能宣传。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          158.94,
+          158.94
+        ],
+        "endUncertainty": [
+          190.94,
+          190.94
+        ],
+        "evidence": [
+          {
+            "from": 156.7,
+            "to": 158.94,
+            "text": "然后在总决赛中1V1单挑"
+          },
+          {
+            "from": 158.94,
+            "to": 159.92,
+            "text": "为了测试"
+          },
+          {
+            "from": 164.3,
+            "to": 167.98,
+            "text": "不过幸好空没冰箱可以一键把冷冻切换成冷藏"
+          },
+          {
+            "from": 176.41,
+            "to": 179.7,
+            "text": "帮助我们把1000多瓶可乐分别精准控制温度"
+          },
+          {
+            "from": 188.48,
+            "to": 190.06,
+            "text": "还可以把十台拼起来"
+          },
+          {
+            "from": 190.94,
+            "to": 193.3,
+            "text": "最终普通的可口可乐和百事可乐"
+          }
+        ]
+      },
+      {
+        "start": 265.56,
+        "end": 281.78,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "测试分析完成后感谢合作冰箱，再以炎热天气和工作室喝可乐需求推荐同品牌制冰机，至点赞留言收尾前完成。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          265.56,
+          265.56
+        ],
+        "endUncertainty": [
+          281.78,
+          281.78
+        ],
+        "evidence": [
+          {
+            "from": 262.499,
+            "to": 265.56,
+            "text": "这个比例也和我们这个活动中的结果交相呼应"
+          },
+          {
+            "from": 267.28,
+            "to": 268.36,
+            "text": "和科莫大魔方冰箱"
+          },
+          {
+            "from": 270.5,
+            "to": 271.48,
+            "text": "虽然已经秋天了"
+          },
+          {
+            "from": 276.22,
+            "to": 279.3,
+            "text": "我们还在工作室楼下安装了一台COMO钻石宾馆"
+          },
+          {
+            "from": 279.82,
+            "to": 281.78,
+            "text": "做出来的冰块就跟钻石一样"
+          },
+          {
+            "from": 281.78,
+            "to": 283.46,
+            "text": "如果你觉得这期视频有意思的话"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 158.94,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 190.94,
+        "end": 265.56,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 281.78,
+        "end": 288.44,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

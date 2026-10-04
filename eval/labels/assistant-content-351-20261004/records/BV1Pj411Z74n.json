@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Pj411Z74n",
+    "cid": 1188895847,
+    "duration": 964,
+    "fullTranscriptRead": true,
+    "videoSummary": "澄清日本海军战舰派与航空派争论并非简单航母对战列舰，分析技术时代背景与山本推动航空工业的角色，中途推荐果壳洗发泡泡。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 382.98,
+        "end": 429.56,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从洗发水也有标签化问题的转场铺垫开始，完整介绍果壳无患子洗发泡泡的成分、控油洗感和购买推荐，结束后恢复历史投票讨论。",
+        "evidence": [
+          {
+            "to": 0.82,
+            "text": "嗨大家好",
+            "from": 0.16
+          },
+          {
+            "to": 399.18,
+            "text": "果壳无患子洗发泡泡",
+            "from": 397.08
+          },
+          {
+            "to": 431,
+            "text": "接下来咱们来投个票",
+            "from": 429.56
+          }
+        ],
+        "startUncertainty": [
+          382.98,
+          382.98
+        ],
+        "endUncertainty": [
+          429.56,
+          429.56
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.16,
+        "end": 382.98,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 429.56,
+        "end": 962.82,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

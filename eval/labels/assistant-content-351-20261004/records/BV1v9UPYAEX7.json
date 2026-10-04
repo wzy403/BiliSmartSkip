@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1v9UPYAEX7",
+    "cid": 26740919063,
+    "duration": 348,
+    "fullTranscriptRead": true,
+    "videoSummary": "从白帝概念机引出火箭喷管效率，解释气塞式发动机压力自适应，结尾推广助眠枕头。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 258.799,
+        "end": 347.32,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "正文结束后以视频催眠、观众睡眠问题铺垫，完整介绍合作枕头、亲测体验、材料和销量，直到双十一赠礼推荐；尾部无返回正文。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          258.799,
+          258.799
+        ],
+        "endUncertainty": [
+          347.32,
+          347.32
+        ],
+        "evidence": [
+          {
+            "from": 1.36,
+            "to": 3.98,
+            "text": "南天门计划中的白帝空天战斗机"
+          },
+          {
+            "from": 258.799,
+            "to": 260.719,
+            "text": "本期视频终于进入尾声"
+          },
+          {
+            "from": 265.36,
+            "to": 268.16,
+            "text": "而且上次分享的助眠枕头也功不可没"
+          },
+          {
+            "from": 274.72,
+            "to": 277.14,
+            "text": "我们9月份刚开始选择跟温明佳合作"
+          },
+          {
+            "from": 341.76,
+            "to": 342.96,
+            "text": "评论区领取优惠券"
+          },
+          {
+            "from": 346.04,
+            "to": 347.32,
+            "text": "效果好更体贴"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 258.799,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

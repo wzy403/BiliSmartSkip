@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV15RxPzpEK7",
+    "cid": 33409470067,
+    "duration": 587,
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾凡人修仙传五年间改编、叙事、动捕与角色建模的演进，后半以观影升级话题推广PICO 4 Ultra并展望沉浸式修仙体验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 406.3,
+        "end": 548.62,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从技术增长转向观众大屏、画质及空间限制的完整需求铺垫，继而推出PICO设备、视听卖点和双11折扣，最后推荐及观影习惯论述结束。后续回到对凡人IP和技术未来的愿景。",
+        "evidence": [
+          {
+            "to": 2.42,
+            "text": "这是2020年的凡人修仙传",
+            "from": 0
+          },
+          {
+            "to": 462.6,
+            "text": "Pico 4ultra",
+            "from": 461.44
+          },
+          {
+            "to": 551.8,
+            "text": "而且M2设备也是我对于凡人的一个幻想吧",
+            "from": 548.62
+          }
+        ],
+        "startUncertainty": [
+          406.3,
+          406.3
+        ],
+        "endUncertainty": [
+          548.62,
+          548.62
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 406.3,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 548.62,
+        "end": 586.8,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

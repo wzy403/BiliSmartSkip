@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1kxuBzHEdg",
+    "cid": 31032084368,
+    "duration": 269,
+    "fullTranscriptRead": true,
+    "videoSummary": "品鉴良子吃播同款方便面，计算16包面的重量和热量，并实测两包泡面与评价咸度；开头有得物优惠活动推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 9.04,
+        "end": 24.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确独家冠名后以夏季风扇优惠铺垫，介绍首次券、服饰零食和拉布布鉴别购买，至评论区引导后回到泡面测评。",
+        "evidence": [
+          {
+            "to": 0.84,
+            "text": "哈喽哈喽大家好",
+            "from": 0
+          },
+          {
+            "to": 10.6,
+            "text": "本期视频由得物独家冠名播出",
+            "from": 9.04
+          },
+          {
+            "to": 25.36,
+            "text": "这个老板拉面",
+            "from": 24.24
+          }
+        ],
+        "startUncertainty": [
+          9.04,
+          9.04
+        ],
+        "endUncertainty": [
+          24.24,
+          24.24
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 9.04,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 24.24,
+        "end": 268.94,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

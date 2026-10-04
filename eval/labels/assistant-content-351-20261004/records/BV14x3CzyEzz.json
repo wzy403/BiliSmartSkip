@@ -1,0 +1,101 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV14x3CzyEzz",
+    "cid": 30894653657,
+    "duration": 1427,
+    "fullTranscriptRead": true,
+    "videoSummary": "全文讲述归义军建立、朝廷削藩、张怀深的地位困境与遇害疑案及后续兴衰。历史论述中有燕云十六声剧情推广，并在结尾再次邀请体验游戏。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 935.56,
+        "end": 1018.27,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确由史书疑团转为游戏体验，持续用第二人称介绍燕云十六声剧情与玩家探索价值；保留全部游戏剧情铺陈，至亲手挖掘故事结束。",
+        "evidence": [
+          {
+            "to": 943.6,
+            "text": "而在游戏燕云16声的节毒之词里 历史不再是枯燥的年表和大事记 你不再是一个冷眼相看的旁观者",
+            "from": 935.56
+          },
+          {
+            "to": 1009.42,
+            "text": "燕云16声 河西剧情中追述了归义军时代动荡的西域时局 探寻大时代下晚唐忠义之士的命运沉浮",
+            "from": 1001.65
+          },
+          {
+            "to": 1024.21,
+            "text": "一般来说 当我们探查一场凶案的凶手时 我们的第一反应往往是谁是受益者",
+            "from": 1018.55
+          }
+        ],
+        "startUncertainty": [
+          935.56,
+          935.56
+        ],
+        "endUncertainty": [
+          1018.27,
+          1018.55
+        ]
+      },
+      {
+        "start": 1395.749,
+        "end": 1421.54,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "历史总结之后以其他时代游戏体验铺垫，再邀请历史爱好者进入燕云十六声；整体为独立片尾游戏推广，不缩短到品牌名才起算。",
+        "evidence": [
+          {
+            "to": 1399.749,
+            "text": "如果你曾醉心于文艺复兴时期 佛罗伦萨的刺杀角逐",
+            "from": 1395.749
+          },
+          {
+            "to": 1412.29,
+            "text": "那么这次特别是喜欢历史的你 请来感受更贴近我们血脉的故事 在燕云16声中",
+            "from": 1406.29
+          },
+          {
+            "to": 1421.54,
+            "text": "他们都在等你 我们不是在玩游戏 而是在打捞沉默的月光",
+            "from": 1417.09
+          }
+        ],
+        "startUncertainty": [
+          1395.469,
+          1395.749
+        ],
+        "endUncertainty": [
+          1421.54,
+          1421.54
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 935.56,
+        "reason": "归义军历史与死亡疑案的史料讨论。"
+      },
+      {
+        "start": 1018.55,
+        "end": 1395.469,
+        "reason": "恢复凶案受益者推理、史料分析与归义军兴衰总结。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "片尾推广后未出现回正文字幕；片尾证据以最终推介收束替代回正文。历史主题与游戏背景相关，但只有显式体验推介段判定可跳，不将整篇历史讲述判广告。"
+    ]
+  }
+}

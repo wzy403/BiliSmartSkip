@@ -1,0 +1,130 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1KoWBzwE7T",
+    "cid": 33133432429,
+    "duration": 642,
+    "fullTranscriptRead": true,
+    "videoSummary": "一个月体验国行iPhone Air，验证机身强度和eSIM办理，重点批评续航、扬声器与部分相机限制，讨论性能和潜在折叠技术；安克充电器赞助融入充电测试。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 298.04,
+        "end": 346.96,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "从建议随时补电铺垫，介绍安克测试设备并给出iPhone Air充电时间和功率，再扩展温控及多款配件推荐；这段同时承载本机实测数据，整体跳过会丢失主题评测，保留。",
+        "startUncertainty": [
+          298.04,
+          303.72
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          346.96,
+          346.96
+        ],
+        "evidence": [
+          {
+            "from": 119.89,
+            "to": 122.99,
+            "text": "就是我们用这个iphone air已经快有一个月的时间了"
+          },
+          {
+            "from": 298.04,
+            "to": 299.48,
+            "text": "所以如果你想买iphone air"
+          },
+          {
+            "from": 303.72,
+            "to": 305.08,
+            "text": "什么你说用什么来给它充电"
+          },
+          {
+            "from": 310.38,
+            "to": 311.62,
+            "text": "air需要花费44分钟"
+          },
+          {
+            "from": 319.5,
+            "to": 321.8,
+            "text": "这也是我们选择安克这款新推出的45瓦"
+          },
+          {
+            "from": 345.02,
+            "to": 346.96,
+            "text": "也是不错的选择哈"
+          },
+          {
+            "from": 346.96,
+            "to": 349.38,
+            "text": "所以iphone air的续航体验下来"
+          }
+        ]
+      },
+      {
+        "start": 607.86,
+        "end": 618.08,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "主题结论之后独立感谢安克，重申充电全家桶好用与产品功率配色，随后为点赞收尾，可跳过完整赞助复述。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          607.86,
+          607.86
+        ],
+        "endUncertainty": [
+          618.08,
+          618.08
+        ],
+        "evidence": [
+          {
+            "from": 604.58,
+            "to": 607.3,
+            "text": "air的底层技术能给我们带来什么样的惊喜"
+          },
+          {
+            "from": 607.86,
+            "to": 610.04,
+            "text": "最后非常感谢安科对于本期节目的全力支持"
+          },
+          {
+            "from": 610.04,
+            "to": 612.52,
+            "text": "这次他们提供的苹果充电全家桶真的非常好用"
+          },
+          {
+            "from": 616.62,
+            "to": 618.08,
+            "text": "各种配色也非常的好看"
+          },
+          {
+            "from": 618.08,
+            "to": 619.26,
+            "text": "所以如果喜欢这个视频的话"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 607.86,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 618.08,
+        "end": 624,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

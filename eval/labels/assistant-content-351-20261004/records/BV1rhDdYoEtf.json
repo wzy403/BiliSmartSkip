@@ -1,0 +1,203 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1rhDdYoEtf",
+    "cid": 26665421737,
+    "duration": 586,
+    "fullTranscriptRead": true,
+    "videoSummary": "演示火焰、水流、克拉尼图形和声学相机的声音可视化，介绍空间声混音，并与奥西桌面音响合作展示效果。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 34.64,
+        "end": 43.84,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "短品牌挑战说明，交代本期声音可视化实验缘起。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          34.64,
+          34.64
+        ],
+        "endUncertainty": [
+          43.84,
+          43.84
+        ],
+        "evidence": [
+          {
+            "from": 8.68,
+            "to": 10.8,
+            "text": "这是一个平面鲁本斯管"
+          },
+          {
+            "from": 34.64,
+            "to": 36.06,
+            "text": "而这一次我们的好朋友奥斯"
+          },
+          {
+            "from": 39.62,
+            "to": 41.02,
+            "text": "向我们发起了一个挑战"
+          },
+          {
+            "from": 41.02,
+            "to": 43.84,
+            "text": "他们希望我们能以更多的方式来可视化声音"
+          },
+          {
+            "from": 43.84,
+            "to": 46.12,
+            "text": "我们确实在今天发现了一些新的"
+          }
+        ]
+      },
+      {
+        "start": 382.62,
+        "end": 416.22,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "空间声行业背景接奥西音响架构和人头麦对比，产品演示与本期声音感知主题直接相关，保留实际试听前提。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          382.62,
+          382.62
+        ],
+        "endUncertainty": [
+          416.22,
+          416.22
+        ],
+        "evidence": [
+          {
+            "from": 382.62,
+            "to": 385.52,
+            "text": "现在越来越多影视剧都使用了空间声录音技术"
+          },
+          {
+            "from": 390.97,
+            "to": 393.55,
+            "text": "而OC首创了桌面专用的分布式空间声"
+          },
+          {
+            "from": 400.25,
+            "to": 402.22,
+            "text": "7.1.2的影院级空间声"
+          },
+          {
+            "from": 406.06,
+            "to": 408.22,
+            "text": "还有奥西桑的pro plus播放的效果"
+          },
+          {
+            "from": 413.32,
+            "to": 416.22,
+            "text": "你也可以来听一听感受一下"
+          },
+          {
+            "from": 442.52,
+            "to": 445.04,
+            "text": "声音是我们感受世界的一个重要维度"
+          }
+        ]
+      },
+      {
+        "start": 536.54,
+        "end": 555.14,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "样片结束后的声音体验过渡引出独立产品卖点重述，从丰富声音铺垫至影院级体验推荐，可完整移除而不影响此前实验。",
+        "startUncertainty": [
+          531.46,
+          540.1
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          555.14,
+          555.14
+        ],
+        "evidence": [
+          {
+            "from": 536.54,
+            "to": 538.1,
+            "text": "一些丰富多元的声音"
+          },
+          {
+            "from": 540.1,
+            "to": 542.26,
+            "text": "而奥西通过技术的积累和沉淀"
+          },
+          {
+            "from": 545.16,
+            "to": 547.5,
+            "text": "桌面上的7.1.2杜比全景声"
+          },
+          {
+            "from": 553.36,
+            "to": 555.14,
+            "text": "获得影院级别的听觉体验"
+          },
+          {
+            "from": 555.14,
+            "to": 555.7,
+            "text": "那好了"
+          }
+        ]
+      },
+      {
+        "start": 564,
+        "end": 566.849,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "结尾一句简短赞助致谢。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          564,
+          564
+        ],
+        "endUncertainty": [
+          566.849,
+          566.849
+        ],
+        "evidence": [
+          {
+            "from": 562.14,
+            "to": 564,
+            "text": "声音也不再仅仅是耳边的回响"
+          },
+          {
+            "from": 564,
+            "to": 566.849,
+            "text": "诶非常感谢奥斯对我们本期节目的大力支持"
+          },
+          {
+            "from": 566.849,
+            "to": 569.769,
+            "text": "那我们下次见"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 8.68,
+        "end": 536.54,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 555.14,
+        "end": 569.769,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

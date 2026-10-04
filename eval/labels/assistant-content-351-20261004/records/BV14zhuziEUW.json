@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV14zhuziEUW",
+    "cid": 31454858189,
+    "duration": 344,
+    "fullTranscriptRead": true,
+    "videoSummary": "以多个开门杀事故讲防御性骑行与头盔安全，中插洁面产品促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 163.34,
+        "end": 215.39,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "变帅与熬夜出油铺垫开启海洋至尊洁面推荐，持续至优惠券与购买提示；97明确返回事故案例。",
+        "evidence": [
+          {
+            "from": 5.19,
+            "to": 6.05,
+            "text": "来了兄弟们"
+          },
+          {
+            "from": 163.34,
+            "to": 165.04,
+            "text": "又懒又想变帅的兄弟们"
+          },
+          {
+            "from": 171.84,
+            "to": 174.76,
+            "text": "我最近一直在用的海洋至尊三棱镜洁面"
+          },
+          {
+            "from": 207.43,
+            "to": 210.15,
+            "text": "现在这点评论就给大家准备了大额优惠券"
+          },
+          {
+            "from": 215.39,
+            "to": 218.31,
+            "text": "咱们继续来看接下来这位小哥的遭遇"
+          }
+        ],
+        "startUncertainty": [
+          163.34,
+          163.34
+        ],
+        "endUncertainty": [
+          215.39,
+          215.39
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 5.19,
+        "end": 163.34,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 215.39,
+        "end": 342.04,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

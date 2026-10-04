@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1JM411v74G",
+    "cid": 996559990,
+    "duration": 536,
+    "fullTranscriptRead": true,
+    "videoSummary": "科普搜索引擎爬虫、robots文件、索引和排序，举例解释倒排索引、内容质量、链接权重及竞价排名。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.24,
+        "end": 534.86,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "品牌和广告竞价均是搜索原理的例子及机制解释，无实际商品赞助或导流推销，全部保留。",
+        "evidence": [
+          {
+            "from": 0.24,
+            "to": 1.71,
+            "text": "当遇到问题的时候"
+          },
+          {
+            "from": 264.039,
+            "to": 267.63,
+            "text": "在百度的页面是没有任何访问商城的消息的"
+          },
+          {
+            "from": 533.28,
+            "to": 534.86,
+            "text": "OK那就先这样了"
+          }
+        ],
+        "startUncertainty": [
+          0.24,
+          0.24
+        ],
+        "endUncertainty": [
+          534.86,
+          534.86
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.24,
+        "end": 534.86,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

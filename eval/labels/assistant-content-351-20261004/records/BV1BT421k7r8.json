@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1BT421k7r8",
+    "cid": 1605570568,
+    "duration": 1356,
+    "fullTranscriptRead": true,
+    "videoSummary": "解读瓜岛战役中日军加强航空力量、驱逐舰鼠式运输与舟艇蚂蚁运输计划及执行后果，末尾说明更新节奏；中段从潮湿天气转入夏凉被推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 485.42,
+        "end": 567.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "回扣空袭天气作铺垫，转入上海潮湿和睡眠困扰，再完整推销小冰被价格材质、体验、领券及售后，明确以回到战局结束，移除不影响军事叙述。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          485.42,
+          485.42
+        ],
+        "endUncertainty": [
+          567.48,
+          567.48
+        ],
+        "evidence": [
+          {
+            "from": 29.6,
+            "to": 32.42,
+            "text": "本期视频我们来为大家继续解读"
+          },
+          {
+            "from": 485.42,
+            "to": 488.72,
+            "text": "之前提到影响空袭的一个重要因素是天气"
+          },
+          {
+            "from": 493.68,
+            "to": 495.22,
+            "text": "最近的上海也是这鸟样"
+          },
+          {
+            "from": 504.82,
+            "to": 507.48,
+            "text": "小路的小小冰被到手168起"
+          },
+          {
+            "from": 557.6,
+            "to": 558.82,
+            "text": "需要的可以领券试试"
+          },
+          {
+            "from": 565.6,
+            "to": 567.48,
+            "text": "可以给家里人也安排上好"
+          },
+          {
+            "from": 567.48,
+            "to": 568.52,
+            "text": "我们回到战局"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 485.42,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 567.48,
+        "end": 1355.6,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1fD421P7uE",
+    "cid": 1540490010,
+    "duration": 295,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释苏27等战斗机倒置卡塞格伦雷达天线的反射、极化与扫描原理和性能限制；用遮挡的比喻转入祛痘药推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 126.97,
+        "end": 171,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从脸上长痘遮挡帅气的比喻开始，介绍七味姜黄搽剂配方、资质、功效、用法及适用人群，结束推荐后恢复天线制作讲解。",
+        "evidence": [
+          {
+            "to": 1.98,
+            "text": "最近有位军迷诉苦说",
+            "from": 0
+          },
+          {
+            "to": 134.01,
+            "text": "因此强烈推荐惠美的七味姜黄茶记",
+            "from": 131.1
+          },
+          {
+            "to": 173.34,
+            "text": "为了研究倒置卡塞格伦天线",
+            "from": 171
+          }
+        ],
+        "startUncertainty": [
+          126.97,
+          126.97
+        ],
+        "endUncertainty": [
+          171,
+          171
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 126.97,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 171,
+        "end": 293.36,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

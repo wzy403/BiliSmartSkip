@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1xdmdYfEdT",
+    "cid": 26774537955,
+    "duration": 884,
+    "fullTranscriptRead": true,
+    "videoSummary": "对小米15与15 Pro性能调度、手感、屏幕和影像作比较评测，批评亮银配色与部分规格，夹有自营配件推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 407.25,
+        "end": 430.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从自营大米精选定制膜推介开始，连续介绍钢化膜及手机壳卖点，结束后恢复手机屏幕评测；前面的超声波挑膜属于评测缺点，保留。",
+        "evidence": [
+          {
+            "from": 2.34,
+            "to": 4.52,
+            "text": "2024年谈到安卓小屏旗舰"
+          },
+          {
+            "from": 407.25,
+            "to": 409.29,
+            "text": "这里呢就不得不说大米精选配件"
+          },
+          {
+            "from": 409.29,
+            "to": 412.22,
+            "text": "推出了小米15系列定制丝滑钢化膜了"
+          },
+          {
+            "from": 423.29,
+            "to": 426.04,
+            "text": "同时呢还有15系列超薄瓦楞手感壳"
+          },
+          {
+            "from": 433.46,
+            "to": 435.6,
+            "text": "15和15pro的屏幕尺寸"
+          }
+        ],
+        "startUncertainty": [
+          407.25,
+          407.25
+        ],
+        "endUncertainty": [
+          430.64,
+          433.46
+        ]
+      },
+      {
+        "start": 874.92,
+        "end": 878.74,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "节目结束后的淘宝店及壳膜购买引导，完整独立商业邀请。",
+        "evidence": [
+          {
+            "from": 868.14,
+            "to": 870.26,
+            "text": "OK那么以上就是本期视频的所有内容"
+          },
+          {
+            "from": 874.92,
+            "to": 877.0,
+            "text": "当然也别忘了去我们淘宝便利店逛一逛"
+          },
+          {
+            "from": 877.42,
+            "to": 878.74,
+            "text": "搜罗更多优质壳膜"
+          },
+          {
+            "from": 878.74,
+            "to": 880.32,
+            "text": "那我们下期视频不见不散"
+          }
+        ],
+        "startUncertainty": [
+          874.92,
+          874.92
+        ],
+        "endUncertainty": [
+          878.74,
+          878.74
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.34,
+        "end": 407.25,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 430.64,
+        "end": 874.92,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 878.74,
+        "end": 881.34,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "手机本体推荐和批评均属于标题所指的产品评测正文，不据产品名或购买建议自动跳过。"
+    ]
+  }
+}

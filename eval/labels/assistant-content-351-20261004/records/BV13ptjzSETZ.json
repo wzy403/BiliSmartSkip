@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV13ptjzSETZ",
+    "cid": 31493721117,
+    "duration": 909,
+    "fullTranscriptRead": true,
+    "videoSummary": "全文解说《锻刀大赛》从高尔夫球杆锻刀初赛到子午鸳鸯钺决赛；中段插入转转上门回收服务推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 163.74,
+        "end": 203.899,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从更新视频、收拾家和旧相机的个人铺垫开始，连续介绍转转上门回收、覆盖城市、品类与便利性，至推荐大平台收束，之后明确回到比赛。",
+        "evidence": [
+          {
+            "to": 168.4,
+            "text": "都哇最近在更新视频的同时 抽空收拾了一下 家里找到了一台旧相机",
+            "from": 163.74
+          },
+          {
+            "to": 174.74,
+            "text": "像我那台佳能M50 就找转转上门回收了2600多",
+            "from": 170.68
+          },
+          {
+            "to": 208.459,
+            "text": "这边是通灵尼克 那边呢是禅意啊 就讲究一个随天意",
+            "from": 203.899
+          }
+        ],
+        "startUncertainty": [
+          163.74,
+          163.74
+        ],
+        "endUncertainty": [
+          203.899,
+          203.899
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 163.74,
+        "reason": "比赛材料、选手与锻造过程正文。"
+      },
+      {
+        "start": 203.899,
+        "end": 908.02,
+        "reason": "恢复比赛解说，后续为测试、决赛、点评与片尾。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

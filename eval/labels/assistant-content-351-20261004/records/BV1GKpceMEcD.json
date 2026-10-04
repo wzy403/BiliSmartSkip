@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1GKpceMEcD",
+    "cid": 25731925681,
+    "duration": 273,
+    "fullTranscriptRead": true,
+    "videoSummary": "Python初学课程演示官网下载解释器、Windows管理员安装、路径和安装目录设置，提到课程系统里的软件资料下载。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 4.84,
+        "end": 271.88,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为安装教学；课程资料入口用于获取本课软件，无独立商业优惠、付费报名或跨主题推荐，保留。标题宣传措辞不作为字幕广告依据。",
+        "evidence": [
+          {
+            "from": 4.84,
+            "to": 5.42,
+            "text": "好了"
+          },
+          {
+            "from": 131.29,
+            "to": 136.09,
+            "text": "然后呢我们在这呢单击右键就这个软件"
+          },
+          {
+            "from": 270.1,
+            "to": 271.88,
+            "text": "把这个呢装好"
+          }
+        ],
+        "startUncertainty": [
+          4.84,
+          4.84
+        ],
+        "endUncertainty": [
+          271.88,
+          271.88
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 4.84,
+        "end": 271.88,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1DQr6BNEjo",
+    "cid": 35425157462,
+    "duration": 785,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释哺乳动物面部肌肉、感官与灵长类表情的演化，中插修丽可抗皱精华推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 529.94,
+        "end": 617.96,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从频繁做表情产生皱纹的铺垫，接肉毒除皱的局限和精华功效推荐，281恢复表情演化主线。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.7,
+            "text": "这是一只手工的头骨"
+          },
+          {
+            "from": 535.28,
+            "to": 537.24,
+            "text": "也让面部肌肉毫不停歇"
+          },
+          {
+            "from": 550.22,
+            "to": 552.06,
+            "text": "一直流行的肉毒毒素注射"
+          },
+          {
+            "from": 572.88,
+            "to": 575.36,
+            "text": "比如这款修丽可抗皱精华了"
+          },
+          {
+            "from": 616.06,
+            "to": 617.96,
+            "text": "推荐有需要的朋友试试"
+          },
+          {
+            "from": 617.96,
+            "to": 621.78,
+            "text": "总之表情从此就永远伴随着灵长类了"
+          }
+        ],
+        "startUncertainty": [
+          529.94,
+          529.94
+        ],
+        "endUncertainty": [
+          617.96,
+          617.96
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 529.94,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 617.96,
+        "end": 771.54,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

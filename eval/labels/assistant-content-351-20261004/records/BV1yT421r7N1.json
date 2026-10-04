@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1yT421r7N1",
+    "cid": 1602808139,
+    "duration": 506,
+    "fullTranscriptRead": true,
+    "videoSummary": "香椿熟成牛肉烤串实验，中途插入妙界U型枕商务推介，之后继续查看熟成肉并烹饪。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 123.64,
+        "end": 178.22,
+        "reason": "趁这会儿功夫转入U型枕；明确提及妙界商务提供产品，连续推介功能、价钱、领券和售后，完整保留整段广告范围。",
+        "startUncertainty": [
+          123.64,
+          124.94
+        ],
+        "endUncertainty": [
+          178.22,
+          180.94
+        ],
+        "evidence": [
+          {
+            "from": 123.64,
+            "to": 124.94,
+            "content": "哎趁着这会儿功夫呢"
+          },
+          {
+            "from": 124.94,
+            "to": 127.36,
+            "content": "给大家介绍一下我脖子上的妙界U型枕"
+          },
+          {
+            "from": 137.04,
+            "to": 137.92,
+            "content": "妙界商务呢"
+          },
+          {
+            "from": 137.92,
+            "to": 140.78,
+            "content": "就让我用用他们家的168送两个眼罩"
+          },
+          {
+            "from": 174.44,
+            "to": 175.5,
+            "content": "大家可以领券试试"
+          },
+          {
+            "from": 176.82,
+            "to": 178.22,
+            "content": "家人朋友呢也不错"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 7.66,
+        "end": 120.42,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 180.94,
+        "end": 491.45,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "178.22–180.94秒的感叹过渡未作为已确认正文评分；尾段英文歌词不据此判断视觉广告。"
+    ]
+  }
+}

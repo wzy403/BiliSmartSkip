@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV18C6EBTER7",
+    "cid": 35665546751,
+    "duration": 611,
+    "fullTranscriptRead": true,
+    "videoSummary": "哈尔滨红专街早市品尝多种热食，聊天感受严寒，回酒店继续吃早餐；途中用找钱玩笑引出按摩热敷靠垫促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 240.79,
+        "end": 300.12,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从新旧手机及找钱对话作广告铺垫，引出四合一按摩热敷产品、功能及年货节领券赠品，至重新吃包子恢复；可独立跳过。",
+        "startUncertainty": [
+          239.23,
+          246.74
+        ],
+        "endUncertainty": [
+          299.02,
+          300.12
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 9.48,
+            "to": 12.22,
+            "text": "我们是干的哈尔滨红专街早市啊"
+          },
+          {
+            "from": 240.79,
+            "to": 243.4,
+            "text": "嗯你觉得我们这手机拍的好吗"
+          },
+          {
+            "from": 246.74,
+            "to": 249.89,
+            "text": "嘿嘿旧的哦哦哦快帮我找找我钱丢了"
+          },
+          {
+            "from": 251.65,
+            "to": 254.24,
+            "text": "是按摩热敷艾灸腰四合一的"
+          },
+          {
+            "from": 292.68,
+            "to": 294.4,
+            "text": "现在领券就能抄底入"
+          },
+          {
+            "from": 297.68,
+            "to": 299.02,
+            "text": "赶紧把钱币带回家吧"
+          },
+          {
+            "from": 300.12,
+            "to": 301.799,
+            "text": "你看这个太亏了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 240.79,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 300.12,
+        "end": 603.4,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

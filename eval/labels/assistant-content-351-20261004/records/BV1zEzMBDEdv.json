@@ -1,0 +1,55 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1zEzMBDEdv",
+    "cid": 35562785305,
+    "duration": 656,
+    "fullTranscriptRead": true,
+    "videoSummary": "官方游戏版本宣传PV，所取得的字幕只有开头约159秒的剧情对白；未见可独立跳过的植入。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 6.98,
+        "end": 158.64,
+        "reason": "游戏宣传本身就是此PV主题，应保留；不能把整部官方宣传片当作插入广告跳过。",
+        "startUncertainty": [
+          6.98,
+          6.98
+        ],
+        "endUncertainty": [
+          158.64,
+          158.64
+        ],
+        "evidence": [
+          {
+            "from": 6.98,
+            "to": 10.86,
+            "content": "该做的事哪都没有"
+          },
+          {
+            "from": 58.98,
+            "to": 61.29,
+            "content": "天空海，然后"
+          },
+          {
+            "from": 145.93,
+            "to": 154.96,
+            "content": "拯救世界，一切如风"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "视频656秒但字幕仅到158.64秒，剩余大部分未获内容证据；不能推断后面没有植入。"
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1HVCfYHEef",
+    "cid": 26367295842,
+    "duration": 1209,
+    "fullTranscriptRead": true,
+    "videoSummary": "Linux开源周报，讨论Chrome扩展、Steam Deck、GPU与x86、Winamp；含TuxCare、Tuxedo及频道付费支持推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 48.08,
+        "end": 155.55,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确赞助转场至生命周期补丁服务与描述链接，50进入Chrome新闻。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 4.32,
+            "text": "大家好，欢迎回来收看Linux和开源新闻节目"
+          },
+          {
+            "from": 48.08,
+            "to": 50.93,
+            "text": "我们还有来自赞助商的这条消息"
+          },
+          {
+            "from": 53.45,
+            "to": 58.28,
+            "text": "他们提供解决方案，使保持Linux舰队安全并更新变得更加容易"
+          },
+          {
+            "from": 152.07,
+            "to": 155.55,
+            "text": "显然，你所需要做的就是点击描述中的链接"
+          },
+          {
+            "from": 155.55,
+            "to": 156.23,
+            "text": "好的"
+          }
+        ],
+        "startUncertainty": [
+          48.08,
+          48.08
+        ],
+        "endUncertainty": [
+          155.55,
+          155.55
+        ]
+      },
+      {
+        "start": 1072.72,
+        "end": 1141.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "承接趣味转场宣传Tuxedo预装Linux电脑、个人使用及购买链接；380转告别。",
+        "evidence": [
+          {
+            "from": 1068.94,
+            "to": 1072.72,
+            "text": "而且看到它展开成一场灾难真的很有趣"
+          },
+          {
+            "from": 1072.72,
+            "to": 1077.66,
+            "text": "就像总是看到我把滑板车滑向赞助商一样有趣"
+          },
+          {
+            "from": 1081.08,
+            "to": 1085.15,
+            "text": "一般来说，他们就是预装Linux的电脑"
+          },
+          {
+            "from": 1136.8,
+            "to": 1141.3,
+            "text": "那么请点击描述下方的链接，同时在此期间检查他们的设备"
+          },
+          {
+            "from": 1141.3,
+            "to": 1143.12,
+            "text": "感谢大家观看视频"
+          }
+        ],
+        "startUncertainty": [
+          1072.72,
+          1072.72
+        ],
+        "endUncertainty": [
+          1141.3,
+          1141.3
+        ]
+      },
+      {
+        "start": 1152.239,
+        "end": 1164.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾按月付费支持频道的链接与价格推荐，392恢复感谢告别。",
+        "evidence": [
+          {
+            "from": 1150.26,
+            "to": 1152.239,
+            "text": "总是看到总是很 nice"
+          },
+          {
+            "from": 1152.239,
+            "to": 1154.999,
+            "text": "如果你想要支持这个频道财务上"
+          },
+          {
+            "from": 1160.7,
+            "to": 1162.82,
+            "text": "如果你想要，开始时是一个月一美元"
+          },
+          {
+            "from": 1164.34,
+            "to": 1165.44,
+            "text": "所以谢谢你们观看"
+          }
+        ],
+        "startUncertainty": [
+          1152.239,
+          1152.239
+        ],
+        "endUncertainty": [
+          1164.34,
+          1164.34
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 48.08,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 155.55,
+        "end": 1072.72,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 1141.3,
+        "end": 1152.239,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 1164.34,
+        "end": 1168.88,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "机器翻译多处失真，品牌按口述上下文识别。"
+    ]
+  }
+}

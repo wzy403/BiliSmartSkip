@@ -1,0 +1,153 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1GJBTBTEyA",
+    "cid": 34930231826,
+    "duration": 854,
+    "fullTranscriptRead": true,
+    "videoSummary": "探访马俐管家复杂房屋清洁团队、工作流程与屋主处境，穿插有望扫地僧吸尘器赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 98.32,
+        "end": 112.46,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "开场赞助声明同时引出探访的问题与动机，短且与叙事设置混合，保留。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 1.96,
+            "text": "我知道很多朋友喜欢看我们的视频下饭"
+          },
+          {
+            "from": 98.32,
+            "to": 99.48,
+            "text": "不过这次我们很幸运"
+          },
+          {
+            "from": 101.2,
+            "to": 103.44,
+            "text": "有望扫地僧吸尘器一拍即合"
+          },
+          {
+            "from": 112.46,
+            "to": 115.38,
+            "text": "我们首先去到了玛丽管家的工作室"
+          }
+        ],
+        "startUncertainty": [
+          98.32,
+          98.32
+        ],
+        "endUncertainty": [
+          112.46,
+          112.46
+        ]
+      },
+      {
+        "start": 434.919,
+        "end": 475.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从观众期待清洁工具广告的过渡开始，完整介绍扫地僧缠发、归位和集尘功能；258恢复家政心理议题。",
+        "evidence": [
+          {
+            "from": 434.919,
+            "to": 436.519,
+            "text": "在玛丽管家的节目里面"
+          },
+          {
+            "from": 447.68,
+            "to": 450.04,
+            "text": "那就像这次我们带来的有望扫地僧吸尘器"
+          },
+          {
+            "from": 462.82,
+            "to": 465.84,
+            "text": "同时内外双光环自集成系统实现了垃圾自己倒"
+          },
+          {
+            "from": 475.48,
+            "to": 477.12,
+            "text": "那除了拍摄清扫之外"
+          }
+        ],
+        "startUncertainty": [
+          434.919,
+          434.919
+        ],
+        "endUncertainty": [
+          475.48,
+          475.48
+        ]
+      },
+      {
+        "start": 797.13,
+        "end": 827.9,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾再次感谢赞助并持续宣传品牌销量、系统及体验；419转常规告别。",
+        "evidence": [
+          {
+            "from": 796.21,
+            "to": 797.13,
+            "text": "再走入低层"
+          },
+          {
+            "from": 799.57,
+            "to": 802.2,
+            "text": "有望扫地僧吸尘器对本期节目的大力支持"
+          },
+          {
+            "from": 809.589,
+            "to": 811.569,
+            "text": "它搭载的仿生网复式扫阵系统"
+          },
+          {
+            "from": 827.9,
+            "to": 829.46,
+            "text": "所以非常感谢你看到这里"
+          }
+        ],
+        "startUncertainty": [
+          797.13,
+          797.13
+        ],
+        "endUncertainty": [
+          827.9,
+          827.9
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 434.919,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 475.48,
+        "end": 797.13,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 827.9,
+        "end": 837.62,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

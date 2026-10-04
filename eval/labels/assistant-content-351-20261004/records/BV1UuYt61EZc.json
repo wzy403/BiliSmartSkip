@@ -1,0 +1,72 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1UuYt61EZc",
+    "cid": 41732670590,
+    "duration": 538,
+    "fullTranscriptRead": true,
+    "videoSummary": "英雄联盟诺手对奎桑提的对线、兵线、装备、团战完整对局解说，末尾感谢观众；中途从操作帅气转入海洋至尊发泥喷雾推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 269.3,
+        "end": 324.16,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从不光操作帅、外形也要跟上的桥接开始，讲述旧造型产品不便并介绍海洋至尊双态发泥喷雾、用法、配方、便携和优惠券，至领券邀请结束后回到推塔。前一句击杀很帅是对局点评，保留正文。",
+        "evidence": [
+          {
+            "from": 269.3,
+            "to": 275.84,
+            "text": "不过帅不光要看操作 外形也得跟得上 兄弟们 以前出门想做个造型 蓬松水发泥发胶得用好几瓶"
+          },
+          {
+            "from": 320,
+            "to": 324.16,
+            "text": "新品上市 品牌方优惠力度非常大 优惠券放置顶链接了 赶紧来领吧"
+          },
+          {
+            "from": 324.16,
+            "to": 329.82,
+            "text": "也是拆掉上一塔 再次出来 这里看到我们下路直接被双杀了 我们先把上路的线处理了"
+          }
+        ],
+        "startUncertainty": [
+          269.3,
+          269.3
+        ],
+        "endUncertainty": [
+          324.16,
+          324.16
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 159.3,
+        "reason": "诺手前期对线和兵线处理。"
+      },
+      {
+        "start": 166.82,
+        "end": 269.3,
+        "reason": "继续对局击杀、装备、兵线与操作评价。"
+      },
+      {
+        "start": 324.16,
+        "end": 537.6,
+        "reason": "恢复推塔、团战与对局结束后的感谢。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "159.86–163.42为英文歌曲字幕，不作为主要正文口述范围。"
+    ]
+  }
+}

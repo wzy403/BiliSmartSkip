@@ -1,0 +1,125 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1zAER6eEme",
+    "cid": 39005586862,
+    "duration": 1014,
+    "fullTranscriptRead": true,
+    "videoSummary": "演示用微控制器、进制编码和MTP协议实时生成任意文件的无限U盘，并讨论实际限制及扩展点子。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 265.27,
+        "end": 374.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从不懂编程需要学基础的铺垫进入boot.dev赞助，包含课程体验、付费计划及折扣码，下一句回到FUSE项目实现。",
+        "evidence": [
+          {
+            "from": 0.1,
+            "to": 5.92,
+            "text": "这个闪存驱动器包含所有曾经和将来会被创建的文件"
+          },
+          {
+            "from": 265.27,
+            "to": 268.73,
+            "text": "但如果你是想理解代码却不懂编程"
+          },
+          {
+            "from": 274.26,
+            "to": 276.409,
+            "text": "去尝试一下boot dev"
+          },
+          {
+            "from": 276.969,
+            "to": 278.269,
+            "text": "这是这个视频的赞助商"
+          },
+          {
+            "from": 370.48,
+            "to": 374.42,
+            "text": "Porter Runner享受首单25%折扣"
+          },
+          {
+            "from": 374.62,
+            "to": 378.44,
+            "text": "在等待从AliExpress寄来的升级闪存盘时"
+          }
+        ],
+        "startUncertainty": [
+          265.27,
+          265.27
+        ],
+        "endUncertainty": [
+          374.42,
+          374.62
+        ]
+      },
+      {
+        "start": 1001.06,
+        "end": 1010.73,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾再次建议前往赞助编程平台免费试用，独立于项目讲解及频道订阅建议。",
+        "evidence": [
+          {
+            "from": 1001.06,
+            "to": 1003.16,
+            "text": "或者如果你想暂时离开YouTube"
+          },
+          {
+            "from": 1004.34,
+            "to": 1005.68,
+            "text": "Boot dev 再次"
+          },
+          {
+            "from": 1005.68,
+            "to": 1010.73,
+            "text": "免费试用，编程无论怎样都是真正有用的技能"
+          },
+          {
+            "from": 1010.73,
+            "to": 1011.85,
+            "text": "我们之后再见"
+          }
+        ],
+        "startUncertainty": [
+          1001.06,
+          1001.06
+        ],
+        "endUncertainty": [
+          1010.73,
+          1010.73
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 265.27,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 374.42,
+        "end": 1001.06,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 1010.73,
+        "end": 1013.25,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "设备来源和GitHub地址是实现本期项目的材料说明，未作为独立广告处理。"
+    ]
+  }
+}

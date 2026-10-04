@@ -1,0 +1,119 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1TD42177i1",
+    "cid": 1470845967,
+    "duration": 868,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论欧美新能源车战略与AI竞争，穿插国产AI助手功能推荐和下载提醒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 539.43,
+        "end": 687.49,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从国产产品缩小差距的过渡进入天空AI搜索、写作、画图及趣味功能，包含免费链接推荐和总结，335回国际竞争论述。",
+        "evidence": [
+          {
+            "from": 0.12,
+            "to": 0.87,
+            "text": "最近啊"
+          },
+          {
+            "from": 539.43,
+            "to": 542.8,
+            "text": "我们国产的许多产品已经在快速缩小差距了"
+          },
+          {
+            "from": 542.8,
+            "to": 544.9,
+            "text": "就比如说这款天空AI智能助手"
+          },
+          {
+            "from": 677.67,
+            "to": 679.74,
+            "text": "大家可以通过评论区链接下载啊"
+          },
+          {
+            "from": 687.49,
+            "to": 688.6,
+            "text": "话说回来啊"
+          }
+        ],
+        "startUncertainty": [
+          539.43,
+          539.43
+        ],
+        "endUncertainty": [
+          687.49,
+          687.49
+        ]
+      },
+      {
+        "start": 834.97,
+        "end": 838.56,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文末尾独立再次引流体验国产AI，414继续结语。",
+        "evidence": [
+          {
+            "from": 831.85,
+            "to": 834.01,
+            "text": "那我们现在能做的就是好好读书"
+          },
+          {
+            "from": 834.97,
+            "to": 836.47,
+            "text": "大家记得去评论区体验一下"
+          },
+          {
+            "from": 836.47,
+            "to": 838.09,
+            "text": "我们国产不收费的天空"
+          },
+          {
+            "from": 838.56,
+            "to": 842.28,
+            "text": "不要忘记历史是由人民群众创造的"
+          }
+        ],
+        "startUncertainty": [
+          834.97,
+          834.97
+        ],
+        "endUncertainty": [
+          838.56,
+          838.56
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 539.43,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 687.49,
+        "end": 834.97,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 838.56,
+        "end": 866.88,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

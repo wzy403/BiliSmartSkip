@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Wm42137Af",
+    "cid": 1620280322,
+    "duration": 1117,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆水翼艇实况，反复尝试脱浅、炮战鱼雷和空袭，最后讨论近岸与蓝水舰艇匹配及地图设计问题。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.38,
+        "end": 1089.59,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "全文是载具操作、战斗反应和游戏机制评价；口述没有商业导流或独立赞助，缓存前150条有重复也已全文阅读。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.38,
+          0.38
+        ],
+        "endUncertainty": [
+          1089.59,
+          1089.59
+        ],
+        "evidence": [
+          {
+            "from": 0.38,
+            "to": 2.82,
+            "text": "今天我将扮演鲸鱼"
+          },
+          {
+            "from": 81.25,
+            "to": 84.35,
+            "text": "可能是最差的鱼雷"
+          },
+          {
+            "from": 348.12,
+            "to": 350.64,
+            "text": "你见过搁浅的鲸鱼吗"
+          },
+          {
+            "from": 502.83,
+            "to": 505.19,
+            "text": "这些鱼雷太他妈弱了"
+          },
+          {
+            "from": 1036.67,
+            "to": 1042.45,
+            "text": "但我觉得海岸和蓝水战斗在同一实验中不起作用"
+          },
+          {
+            "from": 1087.69,
+            "to": 1089.59,
+            "text": "你们觉得怎么样？让我知道"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.38,
+        "end": 1089.59,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

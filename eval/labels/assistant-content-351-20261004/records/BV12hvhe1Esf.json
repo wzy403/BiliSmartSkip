@@ -1,0 +1,60 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV12hvhe1Esf",
+    "cid": 500001634581421,
+    "duration": 352,
+    "fullTranscriptRead": true,
+    "videoSummary": "Jonathan Blow 回答周年版销量、平台表现和游戏宣传问题，讨论工作室资金困难；购买致谢属于访谈语境。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.8,
+        "end": 339.62,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.8,
+            "to": 1.24,
+            "text": "你能问吗"
+          },
+          {
+            "from": 157.11,
+            "to": 158.53,
+            "text": "你买了一份，对吧"
+          },
+          {
+            "from": 338.28,
+            "to": 339.62,
+            "text": "因为销售不好"
+          }
+        ],
+        "startUncertainty": [
+          0.8,
+          0.8
+        ],
+        "endUncertainty": [
+          339.62,
+          339.62
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.8,
+        "end": 339.62,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

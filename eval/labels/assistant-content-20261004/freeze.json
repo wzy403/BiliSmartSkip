@@ -1,0 +1,22 @@
+{
+  "kind": "assistant-content-review-freeze",
+  "date": "2026-10-04",
+  "runtimeBeforeAudit": "4f87e95",
+  "policy": "Reviewers completed labels before comparison. Hashes were recorded after initial scoring and before any runtime experiment. Subsequent corrections must be separate justified errata; original reviews remain preserved. Not independent human ground truth.",
+  "files": [
+    {
+      "path": "eval/labels/assistant-content-20261004/batch-1.json",
+      "sha256": "6760a68d080202474da0145d984a1c553f5a8dc4ae207d07b41da7591aad06dd"
+    },
+    {
+      "path": "eval/labels/assistant-content-20261004/batch-2.json",
+      "sha256": "2a0bce5633032a92918ec2d957bd969c2f1d3626200d1113bdcea69d5b1879b8"
+    },
+    {
+      "path": "eval/labels/assistant-content-20261004/batch-3.json",
+      "sha256": "a4d1de3a670d21f752e8751a1b23be66661179bf74e9eb1e1a2ac4d192426b5d"
+    }
+  ],
+  "sourceSha256": "3be4c326d34d46c846017629ceee7b28dc59b4000807074810cbccf4c7756bfa",
+  "selectionSha256": "1261fba9c74590457f170e6ecc8acf696a56df8d828dbd17636f001315d4072d"
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1aJ4m1H7r9",
+    "cid": 1511183670,
+    "duration": 643,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍墨索里尼饮食偏好、最后一餐以及意大利谷物政策，中插妙界按摩仪。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 415.2,
+        "end": 473.68,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由地道美食体验转向专业按摩体验，完整介绍久坐酸痛、按摩仪功能与售后下单；230回1922年历史。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 2.2,
+            "text": "本期视频将为您介绍摩托里尼的饮食偏好"
+          },
+          {
+            "from": 415.2,
+            "to": 416.8,
+            "text": "正宗的美食令人回味"
+          },
+          {
+            "from": 419.02,
+            "to": 421.06,
+            "text": "肩颈按摩仪堪比按摩师的手法"
+          },
+          {
+            "from": 462.32,
+            "to": 463.64,
+            "text": "不如趁优惠选择妙界"
+          },
+          {
+            "from": 476.08,
+            "to": 477.36,
+            "text": "1922年"
+          }
+        ],
+        "startUncertainty": [
+          415.2,
+          415.2
+        ],
+        "endUncertainty": [
+          473.68,
+          476.08
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 415.2,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 473.68,
+        "end": 632.96,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

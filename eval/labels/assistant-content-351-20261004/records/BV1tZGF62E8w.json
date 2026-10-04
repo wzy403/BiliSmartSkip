@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1tZGF62E8w",
+    "cid": 40464023796,
+    "duration": 589,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述两起严重慢性便秘相关死亡案例，解释粪便保留、焦虑与照护沟通问题；中段推介神奇小鹿凉感被。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 108.22,
+        "end": 166.709,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "回答便秘问题前明确感谢品牌支持，完整介绍小冰被的凉感、透气、清洗、双面和母婴标准，穿插价格优惠并以领券保价推荐结束；后接便秘机制正文。",
+        "evidence": [
+          {
+            "to": 2.2,
+            "text": "各位你上一次便秘是什么时候",
+            "from": 0.04
+          },
+          {
+            "to": 113.64,
+            "text": "这段时间多亏了他家的小冰贝",
+            "from": 111.64
+          },
+          {
+            "to": 168.189,
+            "text": "如果你憋个一两天",
+            "from": 166.709
+          }
+        ],
+        "startUncertainty": [
+          108.22,
+          108.22
+        ],
+        "endUncertainty": [
+          166.709,
+          166.709
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 108.22,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 166.709,
+        "end": 587.3,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

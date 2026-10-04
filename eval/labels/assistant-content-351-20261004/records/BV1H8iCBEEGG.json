@@ -1,0 +1,125 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1H8iCBEEGG",
+    "cid": 35241657121,
+    "duration": 378,
+    "fullTranscriptRead": true,
+    "videoSummary": "追溯你别笑、宿舍笑声、哎呦我滴妈等网络音效和歌曲来源；途中插入得物购物优惠，片尾用彩铃台词作幽默转场预告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 117.73,
+        "end": 148.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由看到这里快递到了引入得物新人券、鞋服价格与平台保障，至现金手机抽奖催促，之后回电影台词，独立广告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          117.73,
+          117.73
+        ],
+        "endUncertainty": [
+          148.48,
+          148.48
+        ],
+        "evidence": [
+          {
+            "from": 26.95,
+            "to": 29.31,
+            "text": "那么你想知道他们都是怎么来的吗"
+          },
+          {
+            "from": 117.73,
+            "to": 118.47,
+            "text": "看到这里"
+          },
+          {
+            "from": 119.88,
+            "to": 122.12,
+            "text": "最近得物为了拉新真是下血本了"
+          },
+          {
+            "from": 126.2,
+            "to": 128.94,
+            "text": "像我手上这款德训鞋包邮到手才54元"
+          },
+          {
+            "from": 143.44,
+            "to": 146.11,
+            "text": "打开得物还能零元抽2888现金"
+          },
+          {
+            "from": 147.15,
+            "to": 148.48,
+            "text": "赶紧充"
+          },
+          {
+            "from": 148.84,
+            "to": 149.56,
+            "text": "遗憾的是"
+          }
+        ]
+      },
+      {
+        "start": 323.42,
+        "end": 338.48,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "下载铃声与拨打口吻接来电笑话和下期预告，属于互联网音效主题梗，未见真实付费服务导流，不因广告式台词跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          323.42,
+          323.42
+        ],
+        "endUncertainty": [
+          338.48,
+          338.48
+        ],
+        "evidence": [
+          {
+            "from": 323.42,
+            "to": 327.08,
+            "text": "你想下载这首歌曲作为你的手机铃声吗"
+          },
+          {
+            "from": 327.08,
+            "to": 329.62,
+            "text": "喜欢的话请拨打"
+          },
+          {
+            "from": 332.82,
+            "to": 333.34,
+            "text": "Hello"
+          },
+          {
+            "from": 335.82,
+            "to": 338.48,
+            "text": "你的下一期视频要讲什么呢"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 117.73,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 148.48,
+        "end": 376.12,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

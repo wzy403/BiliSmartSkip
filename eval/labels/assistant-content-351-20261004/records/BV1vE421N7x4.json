@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vE421N7x4",
+    "cid": 1589017085,
+    "duration": 398,
+    "fullTranscriptRead": true,
+    "videoSummary": "记录夏天在三亚制作并摆摊售卖红烧肉猪蹄大锅菜，中途以做饭出汗引出沐浴露推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 81.02,
+        "end": 148.8,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "以铁棚做饭炎热出汗完整铺垫，引出赫恩沐浴露功效、香味和购买优惠；买两瓶更划算后明确接下来出摊，恢复摆摊记录。实际向顾客卖饭属于视频主题。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          81.02,
+          81.02
+        ],
+        "endUncertainty": [
+          148.8,
+          148.8
+        ],
+        "evidence": [
+          {
+            "from": 0.1,
+            "to": 2.26,
+            "text": "九零后宝妈在工地摆摊卖十元大锅菜"
+          },
+          {
+            "from": 81.02,
+            "to": 83.5,
+            "text": "夏天在这个三亚的铁棚子里面做饭"
+          },
+          {
+            "from": 92.18,
+            "to": 95.02,
+            "text": "我们一直用的呢就是这款赫恩冷水沐浴露"
+          },
+          {
+            "from": 145.26,
+            "to": 147.42,
+            "text": "有需要的朋友可以点评论区领券"
+          },
+          {
+            "from": 147.42,
+            "to": 148.8,
+            "text": "买两瓶的话更划算"
+          },
+          {
+            "from": 148.8,
+            "to": 150.2,
+            "text": "接下来老规矩嘛"
+          },
+          {
+            "from": 150.2,
+            "to": 150.92,
+            "text": "就出摊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 81.02,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 148.8,
+        "end": 396.72,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

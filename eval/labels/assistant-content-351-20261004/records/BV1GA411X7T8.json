@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1GA411X7T8",
+    "cid": 932783501,
+    "duration": 188,
+    "fullTranscriptRead": true,
+    "videoSummary": "航空表演解说A380慢速飞行和展示，缓存字幕非常稀疏且翻译破碎。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 14.56,
+        "end": 93.14,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 14.56,
+            "to": 16.88,
+            "text": "射程超过五万公里"
+          },
+          {
+            "from": 31.04,
+            "to": 33.0,
+            "text": "但这是真的"
+          },
+          {
+            "from": 91.92,
+            "to": 93.14,
+            "text": "哈哈哈"
+          }
+        ],
+        "startUncertainty": [
+          14.56,
+          14.56
+        ],
+        "endUncertainty": [
+          93.14,
+          93.14
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 14.56,
+        "end": 93.14,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "字幕稀疏且译文失真；结论仅限已有口述，不推断整片画面。"
+    ]
+  }
+}

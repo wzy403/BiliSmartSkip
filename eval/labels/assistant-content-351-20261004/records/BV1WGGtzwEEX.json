@@ -1,0 +1,91 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1WGGtzwEEX",
+    "cid": 30930046504,
+    "duration": 1043,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论罗马仕停工、召回退款及员工困境，从公关和品牌资产角度分析重组、贴牌和舆情周期；中途独立介绍天安门酱香酒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 247.84,
+        "end": 372.88,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "重新问候并明示新甲方，从商标历史、厂家背景铺垫到酒款口感、价格、搜索购买和送礼推荐，至回到内容；商业案例分析正文中的品牌名不另判广告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          247.84,
+          247.84
+        ],
+        "endUncertainty": [
+          372.88,
+          372.88
+        ],
+        "evidence": [
+          {
+            "from": 10.29,
+            "to": 12.71,
+            "text": "这期我们来聊点正经的商业内容"
+          },
+          {
+            "from": 247.84,
+            "to": 248.52,
+            "text": "好的大家好"
+          },
+          {
+            "from": 250.2,
+            "to": 252.22,
+            "text": "本期的推广位呢是一位新的甲方"
+          },
+          {
+            "from": 262.89,
+            "to": 265.299,
+            "text": "天安门哈哈哈"
+          },
+          {
+            "from": 341.94,
+            "to": 343.56,
+            "text": "这一瓶大概是300左右"
+          },
+          {
+            "from": 364.22,
+            "to": 366.32,
+            "text": "这个大家可以自己去搜一下"
+          },
+          {
+            "from": 370.68,
+            "to": 372.88,
+            "text": "或者是拿回家里送给家人都还不错"
+          },
+          {
+            "from": 372.88,
+            "to": 374.12,
+            "text": "OK我们回到内容"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 247.84,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 372.88,
+        "end": 1041.46,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

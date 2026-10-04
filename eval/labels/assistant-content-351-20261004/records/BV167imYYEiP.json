@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV167imYYEiP",
+    "cid": 27173913360,
+    "duration": 955,
+    "fullTranscriptRead": true,
+    "videoSummary": "按斤称网红食品称重与试吃，涵盖地瓜干、酸奶、软糖、番茄酱火锅；夹有面包鸡爪专属套餐销售及片尾橱窗引流。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 183.0,
+        "end": 331.3,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "面包与鸡爪段明确有品牌专属机制和购买套餐，但同时持续提供食品试吃与包装体验，和美食主题混合，保留完整段。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 1.56,
+            "text": "餐饮界不会告诉你的信息差"
+          },
+          {
+            "from": 183.96,
+            "to": 185.32,
+            "text": "光合力量面包"
+          },
+          {
+            "from": 226.3,
+            "to": 231.52,
+            "text": "嗯嗯嗯口感是蓬松内软啊"
+          },
+          {
+            "from": 277.64,
+            "to": 281.22,
+            "text": "这次给大家争取到了品牌方的破价专属机制"
+          },
+          {
+            "from": 329.22,
+            "to": 331.3,
+            "text": "你直接拍这个套餐就OK了"
+          },
+          {
+            "from": 331.3,
+            "to": 334.56,
+            "text": "来下一个按斤称酸奶"
+          }
+        ],
+        "startUncertainty": [
+          183.0,
+          183.0
+        ],
+        "endUncertainty": [
+          331.3,
+          331.3
+        ]
+      },
+      {
+        "start": 933.54,
+        "end": 945.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文结束后的橱窗专属价格及购买引流可独立跳过；477恢复关注告别。",
+        "evidence": [
+          {
+            "from": 929.6,
+            "to": 931.22,
+            "text": "好了各位生视频就结束了"
+          },
+          {
+            "from": 933.54,
+            "to": 935.3,
+            "text": "另外我的这个主页橱窗里啊"
+          },
+          {
+            "from": 941.46,
+            "to": 943.5,
+            "text": "想要的小伙伴直接点击购买"
+          },
+          {
+            "from": 945.38,
+            "to": 947.06,
+            "text": "另外点赞的小伙伴帮忙点个关注"
+          }
+        ],
+        "startUncertainty": [
+          933.54,
+          933.54
+        ],
+        "endUncertainty": [
+          945.38,
+          945.38
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 933.54,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 945.38,
+        "end": 949.46,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "开头虚构外星售书是喜剧段子；番茄酱商家视频作为测评素材引用，保留。"
+    ]
+  }
+}

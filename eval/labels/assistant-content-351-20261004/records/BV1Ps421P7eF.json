@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Ps421P7eF",
+    "cid": 1548253074,
+    "duration": 755,
+    "fullTranscriptRead": true,
+    "videoSummary": "用叙事疗法视角讨论金钱羞耻、自我认知和收入关系，分享改写叙事及允许享受消费的经历；由清洁生活体验导入追觅洗地机广告，再返回方法总结。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 509.44,
+        "end": 664.96,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从2000多元洗地机改善生活的第一次举例开始，包含花钱快乐的承接、明确广告披露、清洁痛点、功能体验到评论区链接，之后明确回正题。该具体商品案例可移除且核心金钱方法在前后完整保留。",
+        "startUncertainty": [
+          509.44,
+          534.65
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          664.96,
+          664.96
+        ],
+        "evidence": [
+          {
+            "from": 36.23,
+            "to": 39.23,
+            "text": "今天结合心理学中的叙事疗法"
+          },
+          {
+            "from": 509.44,
+            "to": 512.64,
+            "text": "把调着扫把换成2000多元的洗地机时"
+          },
+          {
+            "from": 544.88,
+            "to": 546.14,
+            "text": "虽然这是一个广告"
+          },
+          {
+            "from": 588.19,
+            "to": 589.53,
+            "text": "追觅的这款洗地机"
+          },
+          {
+            "from": 655.7,
+            "to": 659.2,
+            "text": "有需要的兄弟姐妹们可以在评论区点击链接"
+          },
+          {
+            "from": 661.92,
+            "to": 664.96,
+            "text": "能提供幸福感的花钱好物好的"
+          },
+          {
+            "from": 664.96,
+            "to": 666.65,
+            "text": "那我们回到正题"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 509.44,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 664.96,
+        "end": 732.28,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

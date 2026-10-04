@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1oM4m1m73a",
+    "cid": 1584865395,
+    "duration": 1294,
+    "fullTranscriptRead": true,
+    "videoSummary": "战争雷霆虎王坦克实战及与超级潘兴的表现比较，包含游戏感叹和车辆性能讨论。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 1.6,
+        "end": 1267.28,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 1.6,
+            "to": 2.34,
+            "text": "哦男孩"
+          },
+          {
+            "from": 474.5,
+            "to": 476.48,
+            "text": "不确定是从这边买的"
+          },
+          {
+            "from": 1266.18,
+            "to": 1267.28,
+            "text": "是的男孩"
+          }
+        ],
+        "startUncertainty": [
+          1.6,
+          1.6
+        ],
+        "endUncertainty": [
+          1267.28,
+          1267.28
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.6,
+        "end": 1267.28,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "缓存字幕翻译多处失真且正文覆盖稀疏；口述未识别独立商业推荐，不代表画面无广告。"
+    ]
+  }
+}

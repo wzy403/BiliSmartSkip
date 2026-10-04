@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV15zSWBUE6X",
+    "cid": 34434319501,
+    "duration": 656,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述猴子头部移植历史、罗伯特怀特的生涯、恒河猴实验过程与后果，讨论伦理和后世医学影响；开篇悬念后插入洗发水赞助推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 50.94,
+        "end": 90.81,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确声明赫恩赞助后连续以头油头屑问题切入，介绍洗发水成分、效果、香型、礼盒及评论区优惠；不是单句赞助声明，整个独立推广段应跳。",
+        "evidence": [
+          {
+            "from": 50.94,
+            "to": 61.2,
+            "text": "本视频由赫恩赞助播出 如果你头发出油严重 头屑多 头痘又痒又痛 用手一挠衣领 肩膀都是白血不 当时是我最近正在用的这款和发力洗发水"
+          },
+          {
+            "from": 86,
+            "to": 90.81,
+            "text": "现在品牌方还推出了礼盒装 评论区可以领取我的大额优惠 混搭一套更加的划算哦"
+          },
+          {
+            "from": 90.81,
+            "to": 97.64,
+            "text": "其实头部移植的概念并非源自于20世纪 早在古埃及神话中 荷鲁斯神就通过移植恢复失去的眼睛"
+          }
+        ],
+        "startUncertainty": [
+          44.72,
+          50.94
+        ],
+        "endUncertainty": [
+          90.81,
+          90.81
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 44.72,
+        "reason": "头部移植实验的故事开场；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 90.81,
+        "end": 654.12,
+        "reason": "移植历史、生平、实验步骤与伦理讨论及收尾；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

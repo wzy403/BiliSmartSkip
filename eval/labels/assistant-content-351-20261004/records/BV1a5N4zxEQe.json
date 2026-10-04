@@ -1,0 +1,91 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1a5N4zxEQe",
+    "cid": 30584078525,
+    "duration": 640,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍美国肉食文化中的汉堡、热狗、乡村火腿、白酱烤鸡及法式蘸酱三明治的移民渊源；得物是赞助商并插入独立促销，正文餐馆历史不是导购。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0.04,
+        "end": 2.469,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "开场一句赞助声明，保留。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 2.469,
+            "text": "本期视频由老朋友得物赞助"
+          }
+        ],
+        "startUncertainty": [
+          0,
+          0.04
+        ],
+        "endUncertainty": [
+          2.469,
+          2.469
+        ]
+      },
+      {
+        "start": 179.829,
+        "end": 249.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "用汉堡百年经典串成得物押韵推广，随后连续推正品鉴别、竞价、新人券、多款商品及新老用户抽现金，到最后链接和抢购邀请；252.42回到香肠史。",
+        "evidence": [
+          {
+            "from": 179.829,
+            "to": 189.06,
+            "text": "汉堡烤百年经典如归 镍珍品永守护潮流 入得物好 物不贵 关键得买对在得物 买正品不再靠运气"
+          },
+          {
+            "from": 235.82,
+            "to": 249.24,
+            "text": "新人有礼 老用户也不落空 得物还有零元抽2888元现金 活动不限 新老用户抽中直接到账 买啥都能用 还能直接提现 快来点击置顶评论区链接吧 神价好物等你来抢"
+          },
+          {
+            "from": 252.42,
+            "to": 258.74,
+            "text": "在汉堡包以外 德国移民带给美国的另一件餐桌大礼 其实是各式各样的香肠制品"
+          }
+        ],
+        "startUncertainty": [
+          179.829,
+          182.109
+        ],
+        "endUncertainty": [
+          249.24,
+          252.42
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.469,
+        "end": 179.829,
+        "reason": "美国肉食消费和德国移民、汉堡发明与餐馆传统。"
+      },
+      {
+        "start": 252.42,
+        "end": 629.9,
+        "reason": "热狗、火腿、白酱及三明治的文化和历史，店名与菜单为主题内容。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面；广告开头押韵文案有识别误差。",
+      "normalSpeechRanges只指字幕覆盖，无字幕间隙不作非广告判断。"
+    ]
+  }
+}

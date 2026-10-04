@@ -1,0 +1,80 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1RSY1zHEvr",
+    "cid": 31758094145,
+    "duration": 450,
+    "fullTranscriptRead": true,
+    "videoSummary": "修仙剧情中唐昊赴焚雷谷寻风雷石、救林婉并承接护道委托，中间角色介绍代餐与后生元。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 177.399,
+        "end": 234.05,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "角色肚饿的独立插科开始谷物代餐及菌株产品卖点、领券下单；此小段未推进风雷石或林婉线，142直接进入追杀场面，保留前后真正剧情。",
+        "evidence": [
+          {
+            "from": 2.0,
+            "to": 4.48,
+            "text": "上回说到唐昊成功从狮神教抽身"
+          },
+          {
+            "from": 177.399,
+            "to": 178.619,
+            "text": "前辈怎么了"
+          },
+          {
+            "from": 184.92,
+            "to": 187.5,
+            "text": "这是晚辈一直在和的君君家的多谷物摇摇椅"
+          },
+          {
+            "from": 215.42,
+            "to": 217.0,
+            "text": "君君这款12种菌株的后生"
+          },
+          {
+            "from": 232.31,
+            "to": 234.05,
+            "text": "赶紧领券下单吧"
+          },
+          {
+            "from": 235.12,
+            "to": 237.72,
+            "text": "呼这下你无处可跑了吧"
+          }
+        ],
+        "startUncertainty": [
+          176.87,
+          177.399
+        ],
+        "endUncertainty": [
+          234.05,
+          235.12
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.0,
+        "end": 177.399,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 234.05,
+        "end": 449.14,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

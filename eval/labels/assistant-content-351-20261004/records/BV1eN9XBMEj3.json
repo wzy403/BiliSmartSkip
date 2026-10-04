@@ -1,0 +1,68 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1eN9XBMEj3",
+    "cid": 38045352352,
+    "duration": 799,
+    "fullTranscriptRead": true,
+    "videoSummary": "以冷冻鱼引出人体冷冻争议，讲金·苏奥奇、贝德福德、早期维护事故、玻璃化技术及伦理费用和未来可能；开场后有转转折叠屏和数码平台推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 49.48,
+        "end": 79.74,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "视频开始之前感谢转转后，用个人想体验折叠屏铺垫，完整介绍价格、补贴与其他数码便宜，最后表达以后认准平台；85.78起进入人物故事。",
+        "evidence": [
+          {
+            "from": 49.48,
+            "to": 56.86,
+            "text": "那在视频开始之前 感谢一下转转的催更 最近突然想感受一下折叠屏 所以我又发现 转转上的折叠屏其实是非常划算的"
+          },
+          {
+            "from": 64.379,
+            "to": 79.74,
+            "text": "而且最近转转的补贴还特别猛 大家去搜一下就知道了 很多高端手机现在都跌成白菜价了 而且转台上的其他电子产品也挺划算的 4000左右就能拿下ipad pro 2500多也能买个Macbook air 反正我以后买折叠屏也就认真转转了"
+          },
+          {
+            "from": 85.78,
+            "to": 94.34,
+            "text": "基因 苏奥奇于1989年 出生于密苏里州的哥伦比亚市 他在特鲁曼州大学读书 主修心理学和语言学 还辅修了认知科学"
+          }
+        ],
+        "startUncertainty": [
+          49.48,
+          49.48
+        ],
+        "endUncertainty": [
+          79.74,
+          85.78
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 49.48,
+        "reason": "人体冷冻问题引入。"
+      },
+      {
+        "start": 85.78,
+        "end": 797.22,
+        "reason": "冷冻历史、机构、费用和争议全文；费用和机构属于主题分析而非购买服务号召。"
+      }
+    ],
+    "limitations": [
+      "仅逐条完整缓存AI字幕，未观看画面；没有事实核验医学/历史叙述，本标签只判断广告语义。",
+      "476.12–480.02关于英文词汇量的旁支未出现课程或工具推销，按正文叙述保留。",
+      "normalSpeechRanges仅使用实际字幕覆盖，无字幕过场未知。"
+    ]
+  }
+}

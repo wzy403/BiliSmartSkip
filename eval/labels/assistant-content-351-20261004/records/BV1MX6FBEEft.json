@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1MX6FBEEft",
+    "cid": 35683895210,
+    "duration": 660,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍美国南北战争、一战及苏军在二战的饮酒配给、战术影响与社会代价，中间将酒精风险转为益善复推广，尾声品牌祝福。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 278.68,
+        "end": 344.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从酒精失控不仅影响判断的延伸桥段起，转为今天身体肝脏负担、药物成分及修复宣传，连同生活习惯和战场身体对照的收束完整结束，随后进入一战。",
+        "evidence": [
+          {
+            "to": 3.36,
+            "text": "当战争把活人推到最险恶的极端环境",
+            "from": 0.08
+          },
+          {
+            "to": 305.36,
+            "text": "益善富是一款植物提取的OTC药物",
+            "from": 302.46
+          },
+          {
+            "to": 350.14,
+            "text": "相对于美国内战期间南北双方的兄弟戏墙",
+            "from": 346.68
+          }
+        ],
+        "startUncertainty": [
+          278.68,
+          278.68
+        ],
+        "endUncertainty": [
+          344.58,
+          346.68
+        ]
+      },
+      {
+        "start": 641.52,
+        "end": 648.3,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "结尾品牌结合节日和少饮酒的祝语，短且结束性口播，保留。",
+        "evidence": [
+          {
+            "to": 641.52,
+            "text": "况亦人乎",
+            "from": 640.5
+          },
+          {
+            "to": 645.34,
+            "text": "适量吃喝益善富",
+            "from": 643.94
+          },
+          {
+            "to": 648.3,
+            "text": "干杯不干杯",
+            "from": 647.04
+          }
+        ],
+        "startUncertainty": [
+          641.52,
+          641.52
+        ],
+        "endUncertainty": [
+          648.3,
+          648.3
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 278.68,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 344.58,
+        "end": 648.3,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

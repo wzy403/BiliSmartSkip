@@ -1,0 +1,60 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1gC411b7V4",
+    "cid": 1485010947,
+    "duration": 185,
+    "fullTranscriptRead": true,
+    "videoSummary": "从燃气开通、收纳和油烟三方面批评盲目采用开放式厨房，引用装修博主说法进行反驳。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.06,
+        "end": 184.44,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全文为视频主题正文，口述未见可独立跳过的商业推荐。",
+        "evidence": [
+          {
+            "from": 0.06,
+            "to": 2.28,
+            "text": "你知道装修博主是怎么坑你的吗"
+          },
+          {
+            "from": 98.26,
+            "to": 99.98,
+            "text": "尤其是是真的用厨房做饭的"
+          },
+          {
+            "from": 184.04,
+            "to": 184.44,
+            "text": "拜拜"
+          }
+        ],
+        "startUncertainty": [
+          0.06,
+          0.06
+        ],
+        "endUncertainty": [
+          184.44,
+          184.44
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.06,
+        "end": 184.44,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1Hbs2zjEoN",
+    "cid": 33434698618,
+    "duration": 785,
+    "fullTranscriptRead": true,
+    "videoSummary": "评论王自如限高、负债与职业选择，并以作者经历讨论打工还债；卖手机话题引出转转回收推广，结尾再次顺带推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 165.769,
+        "end": 214.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从资产变卖及起家手机可能出售的过桥铺垫起，转入转转回收价格、上门覆盖、品类与便利性，最终推荐结束后言归正传。",
+        "evidence": [
+          {
+            "to": 1.6,
+            "text": "开篇咱们说一个人",
+            "from": 0.04
+          },
+          {
+            "to": 176.53,
+            "text": "那不得不提到我们老朋友转转了",
+            "from": 174.29
+          },
+          {
+            "to": 216.54,
+            "text": "咱们言归正传哈",
+            "from": 214.94
+          }
+        ],
+        "startUncertainty": [
+          165.769,
+          165.769
+        ],
+        "endUncertainty": [
+          214.94,
+          214.94
+        ]
+      },
+      {
+        "start": 765.25,
+        "end": 770.47,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "批评网贷推广时几句回扣转转，既有品牌推荐又承接个人评论，短且混合正文，保留。",
+        "evidence": [
+          {
+            "to": 765.25,
+            "text": "那几个卖冈本避孕套的还要没底线",
+            "from": 762.41
+          },
+          {
+            "to": 767.05,
+            "text": "就哪怕你推个转转呢",
+            "from": 765.25
+          },
+          {
+            "to": 772.65,
+            "text": "好了今儿就跟各位扯到这了",
+            "from": 770.47
+          }
+        ],
+        "startUncertainty": [
+          765.25,
+          765.25
+        ],
+        "endUncertainty": [
+          770.47,
+          770.47
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 165.769,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 214.94,
+        "end": 777.28,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

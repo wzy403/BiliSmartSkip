@@ -1,0 +1,161 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1eTmNY8Eb7",
+    "cid": 26312441962,
+    "duration": 904,
+    "fullTranscriptRead": true,
+    "videoSummary": "大兴安岭秋季素材采集旅行，包含额尔古纳界河、俄罗斯族文化交流、动物与拍摄花絮、国门、购物、暴雪受阻、俄餐及阿尔山收尾。明确领克Z10是甲方，三段专门介绍赞助车卖点。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 25.3,
+        "end": 50.29,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从本次座驾与甲方介绍开始，夸外形、设计、轴距宽敞，持续解释为甲方拍路跑带来免费素材的合作价值；50.29回到出发邀请，保留完整介绍。",
+        "evidence": [
+          {
+            "from": 25.3,
+            "to": 35.29,
+            "text": "然后这个是我们这次的座驾 也是支持我们来到这里的 我们甲方领克Z10这辆车我觉得真的超级帅 领克的设计在国内应该就是第一梯队"
+          },
+          {
+            "from": 35.29,
+            "to": 50.29,
+            "text": "本身这辆车轴距有3米左右 也很宽敞 很适合我们边拍边开 就一路坐过来 那最好的一点是什么 在给甲方拍路跑素材的时候 我们也可以给你抓很多免费的 优质的超高分辨率的素材 这是我们样片认真的目的"
+          },
+          {
+            "from": 50.29,
+            "to": 59.93,
+            "text": "所以你看一切都准备好了 欢迎和我们一起踏上这一次秋季的大兴安岭 样片采集之旅 来吧家人们走吧"
+          }
+        ],
+        "startUncertainty": [
+          25.3,
+          25.3
+        ],
+        "endUncertainty": [
+          41.35,
+          50.29
+        ]
+      },
+      {
+        "start": 363.22,
+        "end": 401.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "独立介绍车机AMD芯片、流畅交互和互联，之后仍围绕领克作品牌双关玩笑，到405回旅行感受。",
+        "evidence": [
+          {
+            "from": 363.22,
+            "to": 376.33,
+            "text": "这辆领克Z10我们坐下来体验特别的好 我觉得有一点必要体验 就他这个车机就是Z10 他这次用的是一块AAMD的芯片 而不是传统什么高通8295芯片 所以这块芯片比8295还要再快1.8倍"
+          },
+          {
+            "from": 383.14,
+            "to": 401.3,
+            "text": "然后各种app 然后各种界面 还有这个互联都做的特别好 我们现在只开了一台领克啊 如果我们开十台领克 那是什么呢啊你这是原创的吗 是的呀 是什么呢 是LINX"
+          },
+          {
+            "from": 405,
+            "to": 416.55,
+            "text": "我真不在做梦吗 这感觉比AI生成的还要离谱 你能想到有一天我会这样在这坐着吗 主要羞耻感有点足 那边还有人骑马在看我们"
+          }
+        ],
+        "startUncertainty": [
+          357.27,
+          363.22
+        ],
+        "endUncertainty": [
+          401.3,
+          405
+        ]
+      },
+      {
+        "start": 864.68,
+        "end": 878.63,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "赞助致谢连着外形、座舱、算力、智能体验等完整卖点总结，不只是孤立致谢；878.63转点赞互动。",
+        "evidence": [
+          {
+            "from": 864.68,
+            "to": 867.9,
+            "text": "那最后非常感谢领克ZE10 对于本期节目的大力支持"
+          },
+          {
+            "from": 867.9,
+            "to": 878.63,
+            "text": "Z10的原创设计无感丰盈 大而舒享的沉浸感座舱 强大的车机算力 兼具功能 还有情绪价值的智能化体验 都为我们这趟旅途留下了非常深刻的印象"
+          },
+          {
+            "from": 878.63,
+            "to": 884.62,
+            "text": "如果你喜欢我们这期视频的话 也请给我们点赞 投币三连转发 那我们下一站到底该去哪里"
+          }
+        ],
+        "startUncertainty": [
+          864.68,
+          864.68
+        ],
+        "endUncertainty": [
+          878.63,
+          878.63
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.18,
+        "end": 25.3,
+        "reason": "秋季景色、采集时节与器材准备。"
+      },
+      {
+        "start": 50.29,
+        "end": 94,
+        "reason": "旅行出发及金色秋景描述。"
+      },
+      {
+        "start": 130.52,
+        "end": 315.03,
+        "reason": "边境文化交流、民俗、素材版权说明；广告二字是素材使用许可。"
+      },
+      {
+        "start": 405,
+        "end": 534.839,
+        "reason": "旅行拍摄、动物互动、原住民过冬介绍。"
+      },
+      {
+        "start": 584.7,
+        "end": 817.97,
+        "reason": "国门观景、旅行购物及美食体验、暴雪受阻与抵达阿尔山；未具名商品价钱和肉串价格是旅行见闻。"
+      },
+      {
+        "start": 859.62,
+        "end": 864.68,
+        "reason": "样片完成及素材准备。"
+      },
+      {
+        "start": 878.63,
+        "end": 884.62,
+        "reason": "结尾互动。"
+      }
+    ],
+    "limitations": [
+      "仅完整字幕，未观看画面；多段音乐与无旁白样片可能含汽车广告画面，未标为正常负例。",
+      "仅跳过字幕可明确识别的连续产品宣传；全片赞助背景不等于全片旁白都应跳过。",
+      "normalSpeechRanges只指实际字幕，不扩展到无字幕片段。"
+    ]
+  }
+}

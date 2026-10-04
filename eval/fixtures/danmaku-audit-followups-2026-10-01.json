@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "kind": "traceable-unlabelled-danmaku-audit-followups",
+  "sourceProductionSha256": "7d0c189cfa9fbd3a0b73740ff2abc2bf398e6995f732f91efd5efd164822e3fa",
+  "scope": "Two selected real videos from second checkpoint; full-input outcome and subset outcome are separate.",
+  "limitations": [
+    "Do not score these as human FN/FP or infer ad boundaries.",
+    "Current observations are frozen regression leads; no proposed production behavior is encoded."
+  ],
+  "records": [
+    {
+      "id": "BV139gZzZEXa",
+      "bvid": "BV139gZzZEXa",
+      "cid": 30757421642,
+      "title": "笔帽被撞倒，为啥会翻滚倒立？从有趣实验揭秘真假直升机",
+      "duration": 292,
+      "provenance": {
+        "source": "eval/data/danmaku-audit-20261001/new-checkpoint-2.jsonl",
+        "sourceSha256": "af8638c3d7955f7750713c7aa0dfc49d57db5377894ffc689590ba15103933a5",
+        "sourceRecordLine": 9,
+        "sourceCapture": {
+          "capturedAt": "2026-10-01T16:11:23.114Z",
+          "method": "anonymous-public-page-and-xml",
+          "metadata": "available",
+          "danmaku": "available",
+          "chapters": "unavailable",
+          "subtitles": "unavailable",
+          "subtitleReason": "not-exposed-in-public-page"
+        },
+        "originalDanmakuCount": 209,
+        "note": "Only exact selected source comments are included. This is diagnostic evidence, not a human ad/skip label."
+      },
+      "input": {
+        "bvid": "BV139gZzZEXa",
+        "cid": 30757421642,
+        "title": "笔帽被撞倒，为啥会翻滚倒立？从有趣实验揭秘真假直升机",
+        "duration": 292,
+        "desc": "",
+        "subtitles": [],
+        "chapters": [],
+        "danmaku": [
+          {
+            "time": 47.291,
+            "textContent": "我是一分四五郎 猜我为什么在这"
+          },
+          {
+            "time": 52.125,
+            "textContent": "我是一分四十五郎"
+          },
+          {
+            "time": 106.299,
+            "textContent": "谢谢你，一分四十五郎"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "time": 47.291,
+          "textContent": "我是一分四五郎 猜我为什么在这",
+          "parsed": {
+            "time": 64,
+            "confidence": 1,
+            "reference": "一分四"
+          },
+          "recognizedSkipCues": [],
+          "singleton": null,
+          "auditCaseIncluded": true,
+          "auditClassification": "interval-rejected",
+          "auditRejectionReasons": [
+            "opening-60-second-guard-without-explicit-ad-cue",
+            "bare-time-gap-shorter-than-30-seconds"
+          ]
+        },
+        {
+          "time": 52.125,
+          "textContent": "我是一分四十五郎",
+          "parsed": {
+            "time": 105,
+            "confidence": 1,
+            "reference": "一分四十五"
+          },
+          "recognizedSkipCues": [],
+          "singleton": null,
+          "auditCaseIncluded": true,
+          "auditClassification": "interval-rejected",
+          "auditRejectionReasons": [
+            "opening-60-second-guard-without-explicit-ad-cue"
+          ]
+        },
+        {
+          "time": 106.299,
+          "textContent": "谢谢你，一分四十五郎",
+          "parsed": {
+            "time": 105,
+            "confidence": 1,
+            "reference": "一分四十五"
+          },
+          "recognizedSkipCues": [],
+          "singleton": null,
+          "auditCaseIncluded": true,
+          "auditClassification": "at-or-after-destination",
+          "auditRejectionReasons": [
+            "not-forward-from-comment",
+            "not-forward-after-start-offset",
+            "interval-shorter-than-10-seconds",
+            "bare-time-gap-shorter-than-30-seconds"
+          ]
+        }
+      ],
+      "fullInputActualOutcome": {
+        "candidates": [],
+        "automaticSegments": [],
+        "seekDestinations": [],
+        "diagnostics": []
+      },
+      "subsetActualOutcome": {
+        "candidates": [],
+        "automaticSegments": [],
+        "seekDestinations": [],
+        "diagnostics": []
+      },
+      "humanGroundTruth": false,
+      "visualBoundariesVerified": false
+    },
+    {
+      "id": "BV1T997YuE1K",
+      "bvid": "BV1T997YuE1K",
+      "cid": 28682555020,
+      "title": "反击远光狗，真理在大灯的射程之内！",
+      "duration": 288,
+      "provenance": {
+        "source": "eval/data/danmaku-audit-20261001/new-checkpoint-2.jsonl",
+        "sourceSha256": "af8638c3d7955f7750713c7aa0dfc49d57db5377894ffc689590ba15103933a5",
+        "sourceRecordLine": 163,
+        "sourceCapture": {
+          "capturedAt": "2026-10-01T16:07:04.439Z",
+          "method": "anonymous-public-page-and-xml",
+          "metadata": "available",
+          "danmaku": "available",
+          "chapters": "unavailable",
+          "subtitles": "unavailable",
+          "subtitleReason": "not-exposed-in-public-page"
+        },
+        "originalDanmakuCount": 1200,
+        "note": "Only exact selected source comments are included. This is diagnostic evidence, not a human ad/skip label."
+      },
+      "input": {
+        "bvid": "BV1T997YuE1K",
+        "cid": 28682555020,
+        "title": "反击远光狗，真理在大灯的射程之内！",
+        "duration": 288,
+        "desc": "-",
+        "subtitles": [],
+        "chapters": [],
+        "danmaku": [
+          {
+            "time": 114.002,
+            "textContent": "两分四十八"
+          },
+          {
+            "time": 116.749,
+            "textContent": "2：49"
+          },
+          {
+            "time": 117.388,
+            "textContent": "我是2分48秒郎，，你猜我为什么在这里"
+          },
+          {
+            "time": 117.936,
+            "textContent": "2∶49"
+          },
+          {
+            "time": 120.057,
+            "textContent": "跳伞248"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "time": 114.002,
+          "textContent": "两分四十八",
+          "parsed": null,
+          "recognizedSkipCues": [],
+          "singleton": null,
+          "auditCaseIncluded": false,
+          "auditClassification": "no-time-evidence",
+          "auditRejectionReasons": []
+        },
+        {
+          "time": 116.749,
+          "textContent": "2：49",
+          "parsed": {
+            "time": 169,
+            "confidence": 1,
+            "reference": "2：49"
+          },
+          "recognizedSkipCues": [],
+          "singleton": {
+            "start": 121.749,
+            "end": 169,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          },
+          "auditCaseIncluded": true,
+          "auditClassification": "parsed-intent-missing",
+          "auditRejectionReasons": []
+        },
+        {
+          "time": 117.388,
+          "textContent": "我是2分48秒郎，，你猜我为什么在这里",
+          "parsed": {
+            "time": 168,
+            "confidence": 1,
+            "reference": "2分48秒"
+          },
+          "recognizedSkipCues": [],
+          "singleton": {
+            "start": 122.388,
+            "end": 168,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": []
+          },
+          "auditCaseIncluded": true,
+          "auditClassification": "parsed-intent-missing",
+          "auditRejectionReasons": []
+        },
+        {
+          "time": 117.936,
+          "textContent": "2∶49",
+          "parsed": null,
+          "recognizedSkipCues": [],
+          "singleton": null,
+          "auditCaseIncluded": true,
+          "auditClassification": "unparsed-time-like",
+          "auditRejectionReasons": []
+        },
+        {
+          "time": 120.057,
+          "textContent": "跳伞248",
+          "parsed": null,
+          "recognizedSkipCues": [],
+          "singleton": null,
+          "auditCaseIncluded": true,
+          "auditClassification": "unparsed-command-like",
+          "auditRejectionReasons": []
+        }
+      ],
+      "fullInputActualOutcome": {
+        "candidates": [
+          {
+            "start": 121.749,
+            "end": 169,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": [],
+            "source": "danmaku-time",
+            "confidence": "low"
+          }
+        ],
+        "automaticSegments": [],
+        "seekDestinations": [],
+        "diagnostics": []
+      },
+      "subsetActualOutcome": {
+        "candidates": [
+          {
+            "start": 121.749,
+            "end": 169,
+            "requiresConfirmation": true,
+            "matchedKeywords": [],
+            "reason": "unconfirmed-time-reference",
+            "earlyAdEvidence": false,
+            "referenceCount": 1,
+            "explicitCount": 0,
+            "alternativeDestinations": [],
+            "source": "danmaku-time",
+            "confidence": "low"
+          }
+        ],
+        "automaticSegments": [],
+        "seekDestinations": [],
+        "diagnostics": []
+      },
+      "humanGroundTruth": false,
+      "visualBoundariesVerified": false
+    }
+  ]
+}

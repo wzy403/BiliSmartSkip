@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1BVyBY9EEw",
+    "cid": 26392005924,
+    "duration": 1030,
+    "fullTranscriptRead": true,
+    "videoSummary": "从羊膜卵、尿囊和胎盘演化解释胎生、脐带与肚脐来源，讨论华通胶及透明质酸的作用；正文结论后由皮肤保水引出颐莲面霜和喷雾推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 824.73,
+        "end": 1017.08,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "肚脐来源的正文已总结；从脐带脱离后透明质酸仍相伴、婴儿皮肤与保水性质铺垫，完整延伸至品牌研发、面霜喷雾功效、价格和购买建议，最后恢复频道告别。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          824.73,
+          824.73
+        ],
+        "endUncertainty": [
+          1017.08,
+          1017.08
+        ],
+        "evidence": [
+          {
+            "from": 26.44,
+            "to": 29.759,
+            "text": "今天就来跟你们讲讲关于肚脐的一切"
+          },
+          {
+            "from": 824.73,
+            "to": 826.49,
+            "text": "而脐带脱离透明质酸"
+          },
+          {
+            "from": 854.04,
+            "to": 856.48,
+            "text": "比如今天我要推荐这款颐莲蓬蓬双pro"
+          },
+          {
+            "from": 1002.88,
+            "to": 1004.26,
+            "text": "彭彭霜升级不加价"
+          },
+          {
+            "from": 1014.62,
+            "to": 1017.08,
+            "text": "屏幕前的各位朋友不妨购买体验试试"
+          },
+          {
+            "from": 1017.08,
+            "to": 1018.32,
+            "text": "这里是芳斯塔福"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.26,
+        "end": 824.73,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 1017.08,
+        "end": 1020.3,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1GzNgeRESK",
+    "cid": 28273475764,
+    "duration": 489,
+    "fullTranscriptRead": true,
+    "videoSummary": "吐槽Mujica角色、剧情与MyGO的比较，中插情人节箱包礼物促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 227.38,
+        "end": 282.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "情人节礼物需求转场开始山茶花信封包推荐，直至留言贺卡、围巾赠品及置顶优惠下单；173回动画评价。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 2.88,
+            "text": "看到现在我真的想给大翔两嘴巴子"
+          },
+          {
+            "from": 227.38,
+            "to": 227.9,
+            "text": "哦对了"
+          },
+          {
+            "from": 230.52,
+            "to": 232.94,
+            "text": "我推荐你送V是山茶花信封包"
+          },
+          {
+            "from": 273.28,
+            "to": 275.62,
+            "text": "需要备注东方硕果才能享受赠品哦"
+          },
+          {
+            "from": 282.98,
+            "to": 285.94,
+            "text": "口碑最好的这两集也就是买狗的戏份最多"
+          }
+        ],
+        "startUncertainty": [
+          227.38,
+          227.38
+        ],
+        "endUncertainty": [
+          282.98,
+          282.98
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 227.38,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 282.98,
+        "end": 487.75,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1GxdRBJE6u",
+    "cid": 37625333201,
+    "duration": 237,
+    "fullTranscriptRead": true,
+    "videoSummary": "比较伸缩收纳盒、晾衣挂篮、折叠凳和积木盒的用途、价格与局限，给出适用场景和负面评价。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.08,
+        "end": 236.92,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "四款家居用品的选购评价就是完整主题，持续讨论缺点、尺寸限制和少买建议，没有独立品牌投放或导购促销口播。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 1.46,
+            "text": "家居废物坑货多"
+          },
+          {
+            "from": 122.64,
+            "to": 123.96,
+            "text": "对于不会折的人呢"
+          },
+          {
+            "from": 235.82,
+            "to": 236.92,
+            "text": "给各位出一期视频哈"
+          }
+        ],
+        "startUncertainty": [
+          0.08,
+          0.08
+        ],
+        "endUncertainty": [
+          236.92,
+          236.92
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 236.92,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

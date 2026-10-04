@@ -1,0 +1,105 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1GN4y1p7Qj",
+    "cid": 1406349028,
+    "duration": 1502,
+    "fullTranscriptRead": true,
+    "videoSummary": "完整介绍AC-130炮艇机起源、AC-47先驱、越战与后续局部战争经历、传感器火力改进和新型号；其中插入拼多多年货节，并在结尾再次引导购买。军事装备成本、影视游戏名称属于正文举例。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 966.12,
+        "end": 1029.05,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从“说到性价比”明确转入拼多多，包含过年备货铺垫、搜索码与链接、手机耳机主机乐高价格以及补贴品质保证，直至放心下单。此前飞机火力成本分析仍是主题正文。",
+        "evidence": [
+          {
+            "from": 966.12,
+            "to": 981,
+            "text": "说到性价比就不得不说到拼多多了 马上就要过年了 相信大家都想在快递停运前 采购一波超值的年货吧 现在正好是拼多多百亿补贴年货节 进入拼多多app搜索88707 点击图片或者点击评论区置顶的链接 就能直达百亿补贴会场"
+          },
+          {
+            "from": 1023.92,
+            "to": 1029.05,
+            "text": "所有百亿补贴商品都承诺假一赔十 且有品质险双重保障 大家可以放心下单"
+          },
+          {
+            "from": 1029.05,
+            "to": 1034.079,
+            "text": "回到正题 在录入无杯数多年后 AC130的命运获得了转机"
+          }
+        ],
+        "startUncertainty": [
+          964.81,
+          966.12
+        ],
+        "endUncertainty": [
+          1029.05,
+          1029.05
+        ]
+      },
+      {
+        "start": 1490.34,
+        "end": 1499.95,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "军事正文及下期预告已结束，另加低价年货、搜索码、评论区链接和赶快递停运购买提醒，属于片尾二次推广。",
+        "evidence": [
+          {
+            "from": 1490.34,
+            "to": 1492.89,
+            "text": "还有想要低价采购各种年货的兄弟们"
+          },
+          {
+            "from": 1492.89,
+            "to": 1499.95,
+            "text": "别忘了打开拼多多搜索88707 或者点击评论区置顶链接 赶在快递停运前采购一波 犒劳自己吧"
+          },
+          {
+            "from": 1499.95,
+            "to": 1500.76,
+            "text": "Bye"
+          }
+        ],
+        "startUncertainty": [
+          1490.34,
+          1490.34
+        ],
+        "endUncertainty": [
+          1499.95,
+          1499.95
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 13.24,
+        "end": 966.12,
+        "reason": "炮艇机发展、越战战例及用途成本分析；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 1029.05,
+        "end": 1490.34,
+        "reason": "后续战争应用、新型号性能和主题结语预告；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 1499.95,
+        "end": 1500.76,
+        "reason": "告别语；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

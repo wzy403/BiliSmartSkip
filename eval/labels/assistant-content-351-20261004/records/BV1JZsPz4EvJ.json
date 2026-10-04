@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1JZsPz4EvJ",
+    "cid": 33212860581,
+    "duration": 301,
+    "fullTranscriptRead": true,
+    "videoSummary": "报道北方绿叶雪、冷空气和南方强对流，分析台风配合下广东降温及后续回暖；冷空气转场处插入蔓迪生发泡沫剂推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 65.66,
+        "end": 132.339,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "同一字幕从天气冷转到头皮干敏和脱发困扰，以同事和本人使用铺垫，完整讲品牌药物、作用、用法及双十一活动；随后回到冷空气实况。",
+        "startUncertainty": [
+          65.66,
+          69.38
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          132.339,
+          132.339
+        ],
+        "evidence": [
+          {
+            "from": 2,
+            "to": 4.04,
+            "text": "这几天强大的龙骑大举南下"
+          },
+          {
+            "from": 65.66,
+            "to": 69.38,
+            "text": "那就是冷冷空气一到头皮特容又干又敏感"
+          },
+          {
+            "from": 76.88,
+            "to": 79.14,
+            "text": "我有同事已经是头顶稀疏的二级脱发"
+          },
+          {
+            "from": 84.24,
+            "to": 86.66,
+            "text": "所以最近我开始用曼迪的生发泡沫剂"
+          },
+          {
+            "from": 130.16,
+            "to": 132.339,
+            "text": "临近双11活动力度大"
+          },
+          {
+            "from": 132.339,
+            "to": 133.179,
+            "text": "具体来说"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.28,
+        "end": 65.66,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 132.339,
+        "end": 295.14,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

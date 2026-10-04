@@ -1,0 +1,34 @@
+请独立接手 BiliSmartSkip，从 2.1.0 重新优化广告检测。
+
+项目：wzy403/BiliSmartSkip
+主目录：/Users/woshiyingyan/files/project/BiliSmartSkip，目前是 test-branch。
+生产基线：master，2.1.0 提交 3ce86faffab16a881640fc27dea5f53bf7b219ee。
+另一对照版本：Git 标签 v2.0.1。
+生产优化分支：fix/improve-detction-rate，目前与上述 2.1.0 一致；工作目录：
+/Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip
+先确认 Git 状态，不要修改 master。
+
+上一轮算法补丁已经撤销，但内容审核和测试资料保留。请复用这些资料，不要从零重采，也不要恢复被撤销的补丁或沿用旧算法结论。
+
+已完成的内容判断：
+- eval/labels/assistant-content-351-20261004/records/：250 个视频的完整字幕内容参考，包含广告起止、是否应跳过、原文依据、正文范围和不确定性。
+- 同目录 review-index.md 是逐视频索引；manifest.json、freeze.json 固定数据和标签的哈希。发现标签问题要单独记录、复核并版本化，不能为了匹配预测而偷偷修改。
+- 这些是助手根据字幕做的参考，不是逐帧视听核验或独立人工金标准。需要时核实有争议的边界。
+- 原 351 条记录中，101 个资料不足。额外 300 个视频没有逐个内容审核，不能直接用于计算正确率。
+- eval/labels/human/ 保存用户标注和纠正，优先尊重用户明确的保留/跳过决定。
+
+在主目录运行：
+node eval/restore-content-inputs.cjs
+node eval/audit-full-content.cjs check
+node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr
+
+目标：比 2.0.1、2.1.0 标得更准，误跳正文更少，正确识别的广告更多。不能只靠减少标记数量或者缩短真实广告范围来宣称优化。
+
+评价所有标记的质量，不按自动/手动模式拆散主要结果。广告起点、终点各允许前后 5 秒误差，不附加必须覆盖 90% 的限制，也不拼接多个片段冒充一次完整跳过。
+标记正确率＝合格标记数÷总标记数。误标正文、只标到部分广告、完全漏检和未知资料分别处理。广告不一定应该跳过，保留类广告不能当可跳内容。
+同一批参考、同一套规则比较三个版本。原有验证结果已经看过，不要称为全新的保留集；新增独立验证样本再证明泛化。
+
+算法修改只放生产优化分支；测试、采集、标注、评估及相关说明只放 test-branch。算法必须轻量、本地运行，不接大模型或外部推理 API。优先批量脚本，必要时才用浏览器；不要启动原 HTML 服务。普通日志使用已有 log() 并尊重 DEBUG。不要擅自推送、发布或回复 Issue。
+
+先验证两个发布版本的内容标记结果，再逐轮修改、回归。不要把找到触发词或能够发生跳转当成标记正确。
+向我只展示：版本｜正确标记数/总标记数｜标记正确率｜误标正文的比例｜能基本跳完全部应跳广告的视频数，再一句话说明是否真的优于旧版。部分广告没跳完整时，说明还差多少秒、差在开头还是结尾，不要堆报告和术语。

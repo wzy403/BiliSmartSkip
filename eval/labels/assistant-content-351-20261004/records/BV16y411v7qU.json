@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV16y411v7qU",
+    "cid": 25641093605,
+    "duration": 648,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍鸡与恐龙的关系、宰杀去毛及内脏结构，再烹制白切鸡并比较四种鸡的口感；拼多多物流售后和购买推荐融入采购与烹饪评测。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 47.64,
+        "end": 53.28,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "采购来源及物流新鲜度口播与后文平台推广呼应，但也是解剖样本介绍，短段保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          47.64,
+          47.64
+        ],
+        "endUncertainty": [
+          53.28,
+          53.28
+        ],
+        "evidence": [
+          {
+            "from": 42.2,
+            "to": 45.98,
+            "text": "我们就对恐龙的后代鸡进行一个全面了解"
+          },
+          {
+            "from": 47.64,
+            "to": 49.84,
+            "text": "这是我从拼多多网购的鸡"
+          },
+          {
+            "from": 50.9,
+            "to": 52.16,
+            "text": "三天内就到货了"
+          },
+          {
+            "from": 53.28,
+            "to": 56.2,
+            "text": "鸡跟恐龙有些部位都有共同之处"
+          }
+        ]
+      },
+      {
+        "start": 392.64,
+        "end": 645.11,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "从白切鸡选材铺垫至最后购买推荐构成整段商业叙事；其中包含完整烹饪操作和四款鸡的核心口感对比，跳整段将损失主题内容。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          392.64,
+          392.64
+        ],
+        "endUncertainty": [
+          645.11,
+          645.11
+        ],
+        "evidence": [
+          {
+            "from": 392.64,
+            "to": 394.24,
+            "text": "鸡怎么做才好吃呢"
+          },
+          {
+            "from": 407.38,
+            "to": 410.52,
+            "text": "这四款鸡都是我从拼多多上网购的"
+          },
+          {
+            "from": 416.49,
+            "to": 418.76,
+            "text": "我为什么在拼多多上购买呢"
+          },
+          {
+            "from": 443.08,
+            "to": 446.06,
+            "text": "看来在拼多多平台上购物真的无忧"
+          },
+          {
+            "from": 454.52,
+            "to": 455.64,
+            "text": "起锅烧水"
+          },
+          {
+            "from": 632.53,
+            "to": 634.11,
+            "text": "推荐大家可以试试"
+          },
+          {
+            "from": 642.47,
+            "to": 645.11,
+            "text": "相比其他的鸡更实惠好了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 647.46,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

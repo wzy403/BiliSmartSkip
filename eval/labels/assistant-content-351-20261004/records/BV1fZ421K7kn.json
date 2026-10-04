@@ -1,0 +1,139 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1fZ421K7kn",
+    "cid": 1609594173,
+    "duration": 331,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释手机与电脑在定位、后台、软件能力和生产力上的差异；以1688浏览器扩展作主要案例，并含平台省钱宣传及优惠引流。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 143.209,
+        "end": 166.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "平台定位、工厂发货、个人购买经历和便宜价格是可分离的推广铺垫；其后开始作为电脑软件能力的具体例子。",
+        "evidence": [
+          {
+            "to": 1.5,
+            "text": "现在手机这么好用",
+            "from": 0.12
+          },
+          {
+            "to": 158.88,
+            "text": "我个人已经用了1688很久",
+            "from": 156.92
+          },
+          {
+            "to": 168.6,
+            "text": "而电脑端的1688就是电脑",
+            "from": 166.48
+          }
+        ],
+        "startUncertainty": [
+          143.209,
+          143.209
+        ],
+        "endUncertainty": [
+          166.48,
+          166.48
+        ]
+      },
+      {
+        "start": 166.48,
+        "end": 223.56,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "推广采购助手扩展的找货、筛选、截图和导出功能，同时是文章解释电脑相对手机优势的重要案例，直接跳过会丢失论据，保留。",
+        "evidence": [
+          {
+            "to": 1.5,
+            "text": "现在手机这么好用",
+            "from": 0.12
+          },
+          {
+            "to": 179.67,
+            "text": "采购助手插件版就能找到它",
+            "from": 177.73
+          },
+          {
+            "to": 247.95,
+            "text": "通过这个浏览器扩展",
+            "from": 246.41
+          }
+        ],
+        "startUncertainty": [
+          166.48,
+          166.48
+        ],
+        "endUncertainty": [
+          223.56,
+          223.56
+        ]
+      },
+      {
+        "start": 223.56,
+        "end": 246.28,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从为观众挑衣服开始独立引导下载、搜索码、新老用户券包并号召尝试；之后回到电脑扩展能力的论证。",
+        "evidence": [
+          {
+            "to": 1.5,
+            "text": "现在手机这么好用",
+            "from": 0.12
+          },
+          {
+            "to": 229.46,
+            "text": "点击评论区置顶链接下载",
+            "from": 227.54
+          },
+          {
+            "to": 247.95,
+            "text": "通过这个浏览器扩展",
+            "from": 246.41
+          }
+        ],
+        "startUncertainty": [
+          223.56,
+          223.56
+        ],
+        "endUncertainty": [
+          246.28,
+          246.41
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 143.209,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 166.48,
+        "end": 223.56,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 246.28,
+        "end": 330,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

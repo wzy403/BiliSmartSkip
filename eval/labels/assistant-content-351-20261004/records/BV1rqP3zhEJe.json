@@ -1,0 +1,121 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1rqP3zhEJe",
+    "cid": 36383494140,
+    "duration": 1481,
+    "fullTranscriptRead": true,
+    "videoSummary": "以可视化模拟推导等大传送门、口袋维度、正负传送层、传送表面、特征向量及拓扑限制，并回应取出物体问题。含Brilliant课程广告和末尾Patreon支持请求；自制网页演示与Discord致谢属于本视频研究资源。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0.06,
+        "end": 5.31,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "开头只披露Brilliant赞助及稍后说明，保留短声明。",
+        "evidence": [
+          {
+            "from": 0.06,
+            "to": 5.31,
+            "text": "本视频由Brilliant赞助 更多详情 稍后在本视频中"
+          }
+        ],
+        "startUncertainty": [
+          0,
+          0.06
+        ],
+        "endUncertainty": [
+          5.31,
+          5.31
+        ]
+      },
+      {
+        "start": 512.98,
+        "end": 600.089,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "uncertain",
+        "reason": "以如何想出这些、编辑器即时反馈和解决问题方法作为自然铺垫，532.81明确接到赞助商，随后课程推荐、移动学习、试用折扣至致谢全部属于连续广告。铺垫也包含相关技术反思，故起点范围512.98–532.81，保留完整候选段而非仅截品牌卖点。",
+        "evidence": [
+          {
+            "from": 512.98,
+            "to": 537.37,
+            "text": "你可能会想知道我是如何想到这些的 秘诀在于这个视觉场景编辑器 我可以添加物体或门户 然后通过操作它们即时获得反馈 这就是解决问题和理解主题的好方法 这就是我乐意向大家介绍本期视频赞助商的原因"
+          },
+          {
+            "from": 585.85,
+            "to": 600.089,
+            "text": "前往Brilliant官网 Org slash aptozorax 也可以点击描述中的链接 或直接扫描此二维码 你将获得30天免费试用 年度订阅享20%折扣 感谢Brilliant的赞助"
+          },
+          {
+            "from": 600.089,
+            "to": 608.51,
+            "text": "现在回到门户主题 让我们实验这个框架 将这个物体向前放大"
+          }
+        ],
+        "startUncertainty": [
+          512.98,
+          532.81
+        ],
+        "endUncertainty": [
+          600.089,
+          600.089
+        ]
+      },
+      {
+        "start": 1463.23,
+        "end": 1471.3,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "创作者以制作成本请求Patreon支持，是短片尾自我支持号召，无独立商品卖点长插播，保留。",
+        "evidence": [
+          {
+            "from": 1463.23,
+            "to": 1471.3,
+            "text": "正如你看到的这些视频需要大量精力制作 所以如果你想支持我的工作 可以加入我的Patreon"
+          }
+        ],
+        "startUncertainty": [
+          1463.23,
+          1463.23
+        ],
+        "endUncertainty": [
+          1471.3,
+          1471.3
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 5.31,
+        "end": 512.9,
+        "reason": "传送门递归空间、渲染方法和负传送层的技术正文。"
+      },
+      {
+        "start": 600.089,
+        "end": 1463.23,
+        "reason": "口袋空间、表面、线性代数、拓扑和创作过程；网页演示链接与Discord交流是配套学习内容。"
+      },
+      {
+        "start": 1471.3,
+        "end": 1473.66,
+        "reason": "结束语。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面；512.98–532.81铺垫和正文反思存在重叠，起点范围已明确。",
+      "字幕末尾至视频总时长之间及所有无字幕画面未知。",
+      "normalSpeechRanges仅指实际字幕覆盖。"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ZHdZYuEv1",
+    "cid": 29426453025,
+    "duration": 48,
+    "fullTranscriptRead": true,
+    "videoSummary": "Python课程导入，讲语言在人工智能、大数据及教育考试中的应用和发展热度。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.04,
+        "end": 47.88,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "这是课程开场的学科背景介绍，口述未见具体付费服务、品牌赞助或购买推荐。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.04,
+          0.04
+        ],
+        "endUncertainty": [
+          47.88,
+          47.88
+        ],
+        "evidence": [
+          {
+            "from": 1.08,
+            "to": 3.2,
+            "text": "当下热门的人工智能"
+          },
+          {
+            "from": 20.88,
+            "to": 25.14,
+            "text": "将Python语言程序设计加入了计算机二级考试当中"
+          },
+          {
+            "from": 45.59,
+            "to": 47.88,
+            "text": "一定是新一轮的行业热潮"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 47.88,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

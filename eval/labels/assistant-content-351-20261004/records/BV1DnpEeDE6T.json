@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1DnpEeDE6T",
+    "cid": 25635394867,
+    "duration": 978,
+    "fullTranscriptRead": true,
+    "videoSummary": "以战线沙盘和影像讨论库尔斯克、纽约、红军城等俄乌战况及女兵被俘，中间推广妙界按摩仪，片尾再提优惠券。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 176.22,
+        "end": 256.52,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从将士压力与作者做视频压力对比开始铺垫，介绍肩颈按摩、热敷、档位和送礼、领券售后，推荐结束后回到恰索夫亚尔战线。",
+        "evidence": [
+          {
+            "to": 4.47,
+            "text": "令人震惊的丑恶",
+            "from": 2.26
+          },
+          {
+            "to": 184.04,
+            "text": "还好有妙界肩颈按摩仪不离不弃",
+            "from": 181.58
+          },
+          {
+            "to": 259.33,
+            "text": "恰索夫亚尔的俄军突然开始变得活跃",
+            "from": 256.93
+          }
+        ],
+        "startUncertainty": [
+          176.22,
+          176.22
+        ],
+        "endUncertainty": [
+          256.52,
+          256.93
+        ]
+      },
+      {
+        "start": 969.78,
+        "end": 972.62,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾两句优惠提醒属于广告，但很短且邻接结束致谢，保留。",
+        "evidence": [
+          {
+            "to": 969.78,
+            "text": "今天先讲到这",
+            "from": 968.98
+          },
+          {
+            "to": 971.66,
+            "text": "评论区还有妙界的优惠券可以领",
+            "from": 969.78
+          },
+          {
+            "to": 973.62,
+            "text": "感谢大家的收看",
+            "from": 972.62
+          }
+        ],
+        "startUncertainty": [
+          969.78,
+          969.78
+        ],
+        "endUncertainty": [
+          972.62,
+          972.62
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.26,
+        "end": 176.22,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 256.52,
+        "end": 977.14,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

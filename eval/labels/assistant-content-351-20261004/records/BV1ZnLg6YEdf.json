@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1ZnLg6YEdf",
+    "cid": 38373952028,
+    "duration": 1402,
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾收获日系列及Overkill/星风的创立、两代游戏玩法和发展、商业扩张失误、第三代问题与社区维护；从续作升级硬件的过渡插入飞智键盘推广。DLC价格、发行商与购买评价是游戏史评论本身。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 430.48,
+        "end": 515.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由续作全面加配转向给观众设备加配开始，引出飞智FS68，连续介绍轴体、预释放、办公切换、软件设置及外观，再以值得信赖的选择收尾。与收获日历史相分离，是完整键盘推荐段。",
+        "evidence": [
+          {
+            "from": 430.48,
+            "to": 444.54,
+            "text": "哦对了 既然游戏的续作要全面加配 也是时候给我们手边的设备加个配了 那接下来就不得不请出我们的老朋友飞智 崭新出厂的FS468多霍尔电竞磁轴键盘了 实不相瞒 这把键盘真是让老缪爱不释手"
+          },
+          {
+            "from": 507.34,
+            "to": 515.42,
+            "text": "只能说不愧是飞智 想要在游戏中快人一步 那飞智FS68多霍尔电竞磁轴键盘 就是值得各位信赖的选择"
+          },
+          {
+            "from": 516.72,
+            "to": 528.26,
+            "text": "言归正传 当然了 over q目前的财政状况供不起部规模庞大的续作 为了解决资金问题 他们找上了同样来自瑞典的另一位穷哥们儿 Subreze 也就是兴风工作室"
+          }
+        ],
+        "startUncertainty": [
+          430.48,
+          431.22
+        ],
+        "endUncertainty": [
+          515.42,
+          516.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.32,
+        "end": 430.48,
+        "reason": "收获日开发起源、初代内容及续作计划；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 516.72,
+        "end": 1400.6,
+        "reason": "星风合作、二代成功、商业失败、三代困境及玩家社区；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

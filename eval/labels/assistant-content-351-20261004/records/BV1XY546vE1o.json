@@ -1,0 +1,125 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1XY546vE1o",
+    "cid": 38254415201,
+    "duration": 834,
+    "fullTranscriptRead": true,
+    "videoSummary": "为刘谦新工作室改造拍摄环境，展示并讲解扑克小魔术，随后用三台高速摄影机挑战硬币与扑克手法，说明注意力控制的魅力；场景改造包含西昊椅子赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 185.949,
+        "end": 218.52,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "从注意旧椅子到换上西昊C300、介绍支撑与扶手，并以找不到停更借口收束；这同时是工作室改造揭晓和人物互动，广告与本集改造情节交织，保留完整场景。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          185.949,
+          185.949
+        ],
+        "endUncertainty": [
+          218.52,
+          218.52
+        ],
+        "evidence": [
+          {
+            "from": 22.52,
+            "to": 25.91,
+            "text": "我们很早的节目给他来做一个画质改造的同时"
+          },
+          {
+            "from": 185.949,
+            "to": 187.189,
+            "text": "但是我们注意到一个细节"
+          },
+          {
+            "from": 189.909,
+            "to": 195.729,
+            "text": "现在看起来有点需要给你换一下321啊"
+          },
+          {
+            "from": 195.729,
+            "to": 198.709,
+            "text": "可以实现动态调节的西号C300人体工学椅"
+          },
+          {
+            "from": 213.6,
+            "to": 214.4,
+            "text": "久坐不累"
+          },
+          {
+            "from": 216.68,
+            "to": 218.52,
+            "text": "这样你找不到任何一个借口可以不更新"
+          },
+          {
+            "from": 219.48,
+            "to": 220.64,
+            "text": "大家真的很想看你"
+          }
+        ]
+      },
+      {
+        "start": 819.54,
+        "end": 824.36,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "结尾简短感谢合作方并复述椅子口号，属于短赞助鸣谢，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          819.54,
+          819.54
+        ],
+        "endUncertainty": [
+          824.36,
+          824.36
+        ],
+        "evidence": [
+          {
+            "from": 806.7,
+            "to": 808.82,
+            "text": "所以希望各位喜欢我们这期节目"
+          },
+          {
+            "from": 819.54,
+            "to": 821.76,
+            "text": "那同时也非常感谢西浩给我们提供的支持"
+          },
+          {
+            "from": 821.76,
+            "to": 822.36,
+            "text": "坐姿多变"
+          },
+          {
+            "from": 822.96,
+            "to": 824.36,
+            "text": "非常好的一把椅子"
+          },
+          {
+            "from": 824.36,
+            "to": 827.02,
+            "text": "最后我有一个问题是你的冰块怎么"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 827.02,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

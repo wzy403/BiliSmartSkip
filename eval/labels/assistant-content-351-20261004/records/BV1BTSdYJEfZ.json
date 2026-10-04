@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1BTSdYJEfZ",
+    "cid": 26612534258,
+    "duration": 299,
+    "fullTranscriptRead": true,
+    "videoSummary": "正文是东北街头锅包肉的制作、摊主交流、分量价格和口味试吃；其间连续插入淘宝双11家电补贴推广，锅包肉价格本身属于正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 107.14,
+        "end": 176.9,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从外出拍视频遇到剃须刀不便开始铺垫，连续推荐剃须刀、空调、冰箱，说明淘宝补贴优惠和评论区蓝链直达，最后催促查看；与锅包肉试吃主题明显分离。",
+        "evidence": [
+          {
+            "to": 112.3,
+            "text": "我这老出来拍视频真不方便啊 酒店的一次性刮胡刀把我脸都给辣红了 不整个好刮胡刀是真不行啊",
+            "from": 107.14
+          },
+          {
+            "to": 176.9,
+            "text": "想要同款的 可以点击评论区蓝链就可以直达活动会场 get我同款好物 赶紧去看看吧",
+            "from": 171.54
+          },
+          {
+            "to": 185.76,
+            "text": "我得一年没吃过你家这个锅包肉了",
+            "from": 179.72
+          }
+        ],
+        "startUncertainty": [
+          85.5,
+          107.14
+        ],
+        "endUncertainty": [
+          176.9,
+          179.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 85.5,
+        "reason": "锅包肉价格、分量、制作与摊主交流。"
+      },
+      {
+        "start": 179.72,
+        "end": 298.4,
+        "reason": "恢复锅包肉制作、打包与试吃评价。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "广告前21.64秒没有字幕，不能仅凭字幕确定推广画面的真正起点；广告建议起点采用首句推广铺垫。"
+    ]
+  }
+}

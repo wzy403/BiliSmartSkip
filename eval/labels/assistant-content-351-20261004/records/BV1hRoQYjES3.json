@@ -1,0 +1,154 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1hRoQYjES3",
+    "cid": 29105065823,
+    "duration": 1011,
+    "fullTranscriptRead": true,
+    "videoSummary": "用马里奥像素、矩阵和实体方块演示三次错切实现旋转，解释参数与局限，并宣传Jane Street数学编程项目。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 45.02,
+        "end": 52.71,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "开头短促招生提醒及片尾指引，保留即可。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          45.02,
+          45.02
+        ],
+        "endUncertainty": [
+          52.71,
+          52.71
+        ],
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 2.96,
+            "text": "它可能看起来我好像被顺时针旋转了四五度"
+          },
+          {
+            "from": 45.02,
+            "to": 48.02,
+            "text": "快速申请加入奥本海默街的数学与编程学院"
+          },
+          {
+            "from": 49.86,
+            "to": 52.71,
+            "text": "更多信息请见视频结尾"
+          },
+          {
+            "from": 52.87,
+            "to": 55.97,
+            "text": "我们为什么要在不旋转的情况下旋转某物呢"
+          }
+        ]
+      },
+      {
+        "start": 881.33,
+        "end": 951.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "完成数学演示后独立赞助段，从引入致谢开始完整介绍项目对象、时间、奖学金和申请截止，之后恢复旋转讨论。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          881.33,
+          881.33
+        ],
+        "endUncertainty": [
+          951.46,
+          951.46
+        ],
+        "evidence": [
+          {
+            "from": 881.33,
+            "to": 884.88,
+            "text": "在我们展示我最终的全旋转之前"
+          },
+          {
+            "from": 884.88,
+            "to": 886.72,
+            "text": "我想感谢这个视频的赞助商"
+          },
+          {
+            "from": 926.86,
+            "to": 932.53,
+            "text": "街将为所有参与者提供5000美元的奖学金，以帮助他们的未来教育"
+          },
+          {
+            "from": 947.68,
+            "to": 951.46,
+            "text": "截止日期是3月13日，链接如下"
+          },
+          {
+            "from": 952.34,
+            "to": 954.98,
+            "text": "使用偏置变换不再需要"
+          }
+        ]
+      },
+      {
+        "start": 987.76,
+        "end": 992.46,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "旋转结尾中几秒钟再次感谢赞助并提示网站，属于短收尾口播。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          987.76,
+          987.76
+        ],
+        "endUncertainty": [
+          992.46,
+          992.46
+        ],
+        "evidence": [
+          {
+            "from": 987.34,
+            "to": 987.76,
+            "text": "嗯"
+          },
+          {
+            "from": 987.76,
+            "to": 989.58,
+            "text": "再次感谢Gene Street赞助视频"
+          },
+          {
+            "from": 990.36,
+            "to": 992.46,
+            "text": "或者告诉其他人"
+          },
+          {
+            "from": 993.8,
+            "to": 995.98,
+            "text": "观看屏幕上的一个视频"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 881.33,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 951.46,
+        "end": 1009.34,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

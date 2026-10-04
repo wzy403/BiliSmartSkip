@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1eHZ3Y6EWd",
+    "cid": 29097003629,
+    "duration": 278,
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾东北雨姐短视频经历、带货造假争议和网络梗，中插转转手机促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 121.0,
+        "end": 159.79,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "拿手机记录的过渡起，完整宣传转转低价旗舰、验机质保及口令优惠，88回2024年打假事件。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 3.3,
+            "text": "她靠着卖假货竟成为互联网第一女神"
+          },
+          {
+            "from": 121.0,
+            "to": 124.6,
+            "text": "老喵拿起手机记录下雨姐覆灭前的最后时刻"
+          },
+          {
+            "from": 124.6,
+            "to": 127.4,
+            "text": "谁说到低价买旗舰机还得看转转"
+          },
+          {
+            "from": 144.42,
+            "to": 145.84,
+            "text": "现在上转转收口令"
+          },
+          {
+            "from": 159.79,
+            "to": 161.73,
+            "text": "直到2024年9月"
+          }
+        ],
+        "startUncertainty": [
+          121.0,
+          121.0
+        ],
+        "endUncertainty": [
+          159.79,
+          159.79
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 121.0,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 159.79,
+        "end": 277.72,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

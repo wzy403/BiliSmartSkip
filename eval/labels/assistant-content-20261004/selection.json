@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "selection": "28 current automatic with subtitles; SHA256 deterministic 12 of 36 removed-auto with subtitles; 8 other non-auto unlabelled controls. Not an independent population sample.",
+  "algorithmFrozenAt": "4f87e95",
+  "labelsHiddenFromReviewers": true,
+  "records": [
+    {
+      "bvid": "BV1rqP3zhEJe",
+      "cid": 36383494140,
+      "group": "other-control-sample",
+      "batch": 1,
+      "transcriptSha256": "2dc502d8c69f97f1f5e48d7d3aa5c673bb233e077388535e7bf16876838ca997",
+      "subtitles": 442
+    },
+    {
+      "bvid": "BV1BTSdYJEfZ",
+      "cid": 26612534258,
+      "group": "other-control-sample",
+      "batch": 2,
+      "transcriptSha256": "6a14a569ed16523ca9bc17f4a06c6d2cd1b8b672d6485f432320eb3c7fcc8583",
+      "subtitles": 101
+    },
+    {
+      "bvid": "BV1ZnLg6YEdf",
+      "cid": 38373952028,
+      "group": "removed-auto-sample",
+      "batch": 3,
+      "transcriptSha256": "9753acbfde211b96432327aece005c1a008637aa595478305f785aafb74b72d9",
+      "subtitles": 710
+    },
+    {
+      "bvid": "BV1eTmNY8Eb7",
+      "cid": 26312441962,
+      "group": "other-control-sample",
+      "batch": 1,
+      "transcriptSha256": "1cf3d240f688e5def3b94010d979516d8e95559c9a7f01a42eaba710a42b5a6d",
+      "subtitles": 372
+    },
+    {
+      "bvid": "BV1UuYt61EZc",
+      "cid": 41732670590,
+      "group": "other-control-sample",
+      "batch": 2,
+      "transcriptSha256": "c05f397e84678abfa0c803c27d1075674a23eee3edbe40eb920ba8fc40a949b5",
+      "subtitles": 393
+    },
+    {
+      "bvid": "BV1GN4y1p7Qj",
+      "cid": 1406349028,
+      "group": "removed-auto-sample",
+      "batch": 3,
+      "transcriptSha256": "c7362a2f332b56cd9ab27e857af9a89a83a028cabdeb4e8cc8a1915e83429c34",
+      "subtitles": 680
+    },
+    {
+      "bvid": "BV1dz4y1p7Jw",
+      "cid": 1225364765,
+      "group": "other-control-sample",
+      "batch": 1,
+      "transcriptSha256": "b8b32b75e3a25b513bd61679c4a246073973d0f8c91eba5e334c26ed3e65f599",
+      "subtitles": 368
+    },
+    {
+      "bvid": "BV1qQoWYyEJo",
+      "cid": 29055845167,
+      "group": "other-control-sample",
+      "batch": 2,
+      "transcriptSha256": "3fd3aa2a0d26dd7af0f5d7685b3f6053a0782b988b72e3cc7ce7fac2c1f15863",
+      "subtitles": 275
+    },
+    {
+      "bvid": "BV1pz421m7fe",
+      "cid": 1541839333,
+      "group": "other-control-sample",
+      "batch": 3,
+      "transcriptSha256": "23e9b1a019e057e7437463a92ec3141a3041f1b4dad5170a7fe10aecf511dea3",
+      "subtitles": 155
+    },
+    {
+      "bvid": "BV1b9W4zeEG1",
+      "cid": 33181141255,
+      "group": "other-control-sample",
+      "batch": 1,
+      "transcriptSha256": "ca226c0f4fe1ed43004836f9e7701a937f040275f98ad905bab1a7c39df663df",
+      "subtitles": 624
+    },
+    {
+      "bvid": "BV1r2AuzXEJJ",
+      "cid": 36887988111,
+      "group": "removed-auto-sample",
+      "batch": 2,
+      "transcriptSha256": "a8fca619e9a6eb625427aac4a572599ec686677a41d1562431411a0f5b2dd6c7",
+      "subtitles": 544
+    },
+    {
+      "bvid": "BV1Entn6tEps",
+      "cid": 41515551691,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "c38db75c02525b31ae8194155d7009d5477070b5f5085fb5fe122c90d7f68cce",
+      "subtitles": 309
+    },
+    {
+      "bvid": "BV1pAec6fEnZ",
+      "cid": 41933407697,
+      "group": "removed-auto-sample",
+      "batch": 1,
+      "transcriptSha256": "d67f847527ed5ca13079a863454e0645a9b98a405884dfbc185e376925e3e13f",
+      "subtitles": 170
+    },
+    {
+      "bvid": "BV1F68m6jEpR",
+      "cid": 41161590949,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "070e6ba221515566365d148d1243a48e3b11f054faf350993b806b4c743759b9",
+      "subtitles": 300
+    },
+    {
+      "bvid": "BV1LAAYz3E4g",
+      "cid": 36352954182,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "edf2524a98697e27739958059afd38c96458a1b5c840a368c7d1ffcdd16a6cde",
+      "subtitles": 109
+    },
+    {
+      "bvid": "BV1Z6421Z7kV",
+      "cid": 1611704090,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "c0f5318cd36d127b0d1a22b89de2f7a9ae5e2f540d37f53ca0706efc6497beed",
+      "subtitles": 626
+    },
+    {
+      "bvid": "BV1rCLJzUEZZ",
+      "cid": 29604512505,
+      "group": "removed-auto-sample",
+      "batch": 2,
+      "transcriptSha256": "6a4307c7ad80f8537622a662854cabe497d26effebf6bb26ab363da63fb39728",
+      "subtitles": 531
+    },
+    {
+      "bvid": "BV1uT421S7qi",
+      "cid": 1555997267,
+      "group": "removed-auto-sample",
+      "batch": 3,
+      "transcriptSha256": "e10e880a1593666c1651457ebfdca423ff277eb5109abd6a55b205197a65e2cd",
+      "subtitles": 393
+    },
+    {
+      "bvid": "BV1oq421c7ZN",
+      "cid": 1490912515,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "f99266ccc626b9a1cd046cbabc2927f0692d712614a3f02c5d3252b594411386",
+      "subtitles": 436
+    },
+    {
+      "bvid": "BV1Lx4y1B7ub",
+      "cid": 1538043200,
+      "group": "removed-auto-sample",
+      "batch": 2,
+      "transcriptSha256": "d9fd0aaa632500898cfc0bd788a5876bd3304ae1c63a57579a94900bf1191cea",
+      "subtitles": 766
+    },
+    {
+      "bvid": "BV18Z421s7bn",
+      "cid": 1550006126,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "5eb8ee92d8dfe2a5e198fb094dfc213f42f03741e9134ed3b2561524ccbfd385",
+      "subtitles": 253
+    },
+    {
+      "bvid": "BV13o3T6qEx1",
+      "cid": 40283407270,
+      "group": "removed-auto-sample",
+      "batch": 1,
+      "transcriptSha256": "c1823205f30fc6cc0b7011a78370bfd5406e2f16a70c21d4bdbbecb713347910",
+      "subtitles": 467
+    },
+    {
+      "bvid": "BV13ptjzSETZ",
+      "cid": 31493721117,
+      "group": "removed-auto-sample",
+      "batch": 2,
+      "transcriptSha256": "46a31f32742a3198f7e15e319c4b4aa01231424f481d2c59d7ff97beed8f0c18",
+      "subtitles": 479
+    },
+    {
+      "bvid": "BV1QgDpBrEoQ",
+      "cid": 37355261901,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "0657d7a657e17f85d35ce790e0c287b4bfaf8a437a74029218f6947c4f36d7ae",
+      "subtitles": 138
+    },
+    {
+      "bvid": "BV1kwX9YdEci",
+      "cid": 28636352169,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "1cb57da517213826a62e8eb58bcf70f22ae508549b833f4a6d02797b42b843c5",
+      "subtitles": 409
+    },
+    {
+      "bvid": "BV14x3CzyEzz",
+      "cid": 30894653657,
+      "group": "removed-auto-sample",
+      "batch": 2,
+      "transcriptSha256": "a2a4017e2e71e8522e91bb6f98fe9f07174ca6137a88801ca9ae8e36a4d9e1ac",
+      "subtitles": 670
+    },
+    {
+      "bvid": "BV1b1421t7pt",
+      "cid": 1651554752,
+      "group": "removed-auto-sample",
+      "batch": 3,
+      "transcriptSha256": "45fbac110dd0f5674290d5266a054836ba2f58028a559ce50c93424eaa56da19",
+      "subtitles": 267
+    },
+    {
+      "bvid": "BV1vLAkeCE4i",
+      "cid": 28474740273,
+      "group": "removed-auto-sample",
+      "batch": 1,
+      "transcriptSha256": "4ab8ab921170bcbabbb5898344166e8780e68a8be20a09ae7b4f3bfce16546e4",
+      "subtitles": 437
+    },
+    {
+      "bvid": "BV1NXenzME9n",
+      "cid": 31916032793,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "61ec5cc3f989c489c24f9e74becbd70aefbcb1be62f0f5e2a454c432b0571a47",
+      "subtitles": 463
+    },
+    {
+      "bvid": "BV1xYQZBqEvh",
+      "cid": 36909813502,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "9c6a44447dbf9352f6f4845223224a205142b18abf8a684b35c5df65e4b0ca97",
+      "subtitles": 319
+    },
+    {
+      "bvid": "BV1TnVb6bEwG",
+      "cid": 38691997000,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "af72153691a124086506a11700826b715cf7ecb3a6bf449d51c143f365303c43",
+      "subtitles": 228
+    },
+    {
+      "bvid": "BV1gGJw6rEYa",
+      "cid": 39112803888,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "75b93d0adf7e59916a2df615ca47181213815d0ea36b9ef4003fe83e2e641901",
+      "subtitles": 343
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "cid": 32939511456,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "24b1a495f385b04fb0026450ffa6fb1223d5182a727475b5716d09d2ed55d704",
+      "subtitles": 390
+    },
+    {
+      "bvid": "BV1a5N4zxEQe",
+      "cid": 30584078525,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "8d2bd4a4d6bc51899c9a5e0a421720d6c4449708687e7ea11dbf5470d50e6baa",
+      "subtitles": 288
+    },
+    {
+      "bvid": "BV1qv8ezHEhE",
+      "cid": 31307206631,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "553a1ebe13e3fae91760f27bda3ecef2ed0e44d6a637fa7a2b2a2990428b846f",
+      "subtitles": 394
+    },
+    {
+      "bvid": "BV15zSWBUE6X",
+      "cid": 34434319501,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "5635e8c34d4ac9c48e519a137dd3634ab2d0f91a97002fbdc298821e9a4ce9c3",
+      "subtitles": 342
+    },
+    {
+      "bvid": "BV1gy411i7Yx",
+      "cid": 1608726911,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "16863767cb8bfeecf5c46704fdb846c0420eed7498446c13fb3b3230d2194470",
+      "subtitles": 165
+    },
+    {
+      "bvid": "BV1Km42177kz",
+      "cid": 1499456602,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "ba4dae4db54a607acd038441dd4d7f473544436345b8477d91a6b8eabfb0de18",
+      "subtitles": 133
+    },
+    {
+      "bvid": "BV156ePz3EXK",
+      "cid": 31809669327,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "584dec44b57e5a6a1dd9d31dcd5abc5a46561fa6e360ef66f80d2d59005fa134",
+      "subtitles": 185
+    },
+    {
+      "bvid": "BV1EE4m1R7TZ",
+      "cid": 1605299477,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "a207c2e651f16a09a80e4cdabff805441251cc474b35966ed143c96696018fb9",
+      "subtitles": 307
+    },
+    {
+      "bvid": "BV1ow4m1S7en",
+      "cid": 1548629472,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "6150af34ba51facb1057cf4b1e35cf92aa844273f8953dda2497ae0f64e1dd9a",
+      "subtitles": 406
+    },
+    {
+      "bvid": "BV1BPsQebEFY",
+      "cid": 25683956072,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "745fb59dc7a39b3bbda20dbbb319a9ce8e995f4af4aa5c140ab05f8602ceac43",
+      "subtitles": 387
+    },
+    {
+      "bvid": "BV1eN9XBMEj3",
+      "cid": 38045352352,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "1e51cf6c451317c365c8d73096f831e3b8bf031eab6b28d19b9f28bf1bea2b78",
+      "subtitles": 426
+    },
+    {
+      "bvid": "BV1iH4y1w7i2",
+      "cid": 1605770561,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "0f433ca2294ee9a7ede602fb829639dcbbf6eb50b6e137e5264cc405313d1bb9",
+      "subtitles": 134
+    },
+    {
+      "bvid": "BV1Lm421L7W7",
+      "cid": 1574103183,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "a8859615cd8bd9086e2b771a895e48034f2f1cc04ff11dc31ba0ab465cf1bd07",
+      "subtitles": 468
+    },
+    {
+      "bvid": "BV1KV1MB1E9p",
+      "cid": 33561183091,
+      "group": "current-auto",
+      "batch": 1,
+      "transcriptSha256": "f4a38bca0cf15b5bfcfcdd6d8ca6ad9e19895b9a99e6b79287b9bcc3bdfc4642",
+      "subtitles": 188
+    },
+    {
+      "bvid": "BV1Yz5k62E3y",
+      "cid": 38301469922,
+      "group": "current-auto",
+      "batch": 2,
+      "transcriptSha256": "ccbeb4a4a99c86c3c16229dbf91ac25976fa754c9ae6c5363890ce00a4bdea39",
+      "subtitles": 489
+    },
+    {
+      "bvid": "BV1gQxkebELa",
+      "cid": 26060984043,
+      "group": "current-auto",
+      "batch": 3,
+      "transcriptSha256": "25b95b0cb9791a59dd468a8b38ab05ecb28549d3ba64a07b1c1766fb7e7be2be",
+      "subtitles": 439
+    }
+  ]
+}

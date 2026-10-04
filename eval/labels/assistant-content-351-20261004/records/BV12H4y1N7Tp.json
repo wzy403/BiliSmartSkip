@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV12H4y1N7Tp",
+    "cid": 1511947697,
+    "duration": 603,
+    "fullTranscriptRead": true,
+    "videoSummary": "夫妻沪杭异地后周末相聚，在上海看房、租房和搬家，穿插京东存储设备购买推广，末尾谈异地生活的适应。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 387.449,
+        "end": 505.2,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "租房落定后由旧电脑和存储不足铺垫，连续推介多款固态及移动硬盘，落到京东搜索词和五折活动；505.72恢复异地感情正文，整段设备促销可独立移除。",
+        "startUncertainty": [
+          386.309,
+          395.59
+        ],
+        "endUncertainty": [
+          505.2,
+          505.72
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 18.64,
+            "to": 20.26,
+            "text": "我们又开始了异地恋"
+          },
+          {
+            "from": 387.449,
+            "to": 391.84,
+            "text": "我们先看看是什么一台装备的1070显卡的"
+          },
+          {
+            "from": 404.62,
+            "to": 406.78,
+            "text": "然后我在京东上给你买了几个硬盘"
+          },
+          {
+            "from": 495.72,
+            "to": 498.39,
+            "text": "逛京东搜索手机直连存储"
+          },
+          {
+            "from": 501.38,
+            "to": 503.78,
+            "text": "外置存储全品类真五折"
+          },
+          {
+            "from": 505.72,
+            "to": 507.78,
+            "text": "之前狗哥住酒店的时候"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 387.449,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 505.2,
+        "end": 601.22,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

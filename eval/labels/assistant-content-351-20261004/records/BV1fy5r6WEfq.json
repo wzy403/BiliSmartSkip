@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1fy5r6WEfq",
+    "cid": 38368183889,
+    "duration": 565,
+    "fullTranscriptRead": true,
+    "videoSummary": "解说两起美国警员追捕遭枪击及家属争议，中插转转折叠屏数码价格推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 48.78,
+        "end": 74.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从路人视频画质差和换手机铺垫进入转转折叠屏、平板电脑促销，36恢复现场。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 4.6,
+            "text": "当警员执法遭遇超级快枪手偷袭会发生什么呢"
+          },
+          {
+            "from": 48.78,
+            "to": 50.32,
+            "text": "不过这画质是真渣呀"
+          },
+          {
+            "from": 52.26,
+            "to": 54.96,
+            "text": "最近大萌牛发现转上的折叠屏非常划算"
+          },
+          {
+            "from": 72.54,
+            "to": 74.94,
+            "text": "反正我以后买折叠屏就认准转着了"
+          },
+          {
+            "from": 74.94,
+            "to": 75.82,
+            "text": "嘿小哥"
+          }
+        ],
+        "startUncertainty": [
+          48.78,
+          48.78
+        ],
+        "endUncertainty": [
+          74.94,
+          74.94
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 48.78,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 74.94,
+        "end": 564.74,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

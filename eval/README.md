@@ -1,6 +1,22 @@
 # 独立测试分支：回放、采集与人工审核
 
-`tests/` 和 `eval/` 的独立提交只保存在 `test-branch` 及其工作树中，不随生产分支或插件包发布。当前生产修复分支为 `codex/fix-issue-14-confidence`。后续生产代码更新应单向合入 `test-branch` 后回归，**不要把 `test-branch` 整支合并回 master**。
+`tests/` 和 `eval/` 的独立提交只保存在 `test-branch` 及其工作树中，不随生产分支或插件包发布。生产优化分支为 `fix/improve-detction-rate`，已撤销上一轮优化并恢复到 2.1.0。后续生产代码更新应单向合入 `test-branch` 后回归，**不要把 `test-branch` 整支合并回 master**。
+
+## 从 2.1.0 重新优化
+
+按用户要求，只撤销算法补丁，保留已经完成的内容审核数据。250 份全文字幕参考、原始字幕/弹幕压缩包、用户纠正和内容评分工具已恢复；旧算法实验报告和旧候选输出不作为新一轮输入。
+
+交接用 [RESTART-PROMPT.txt](RESTART-PROMPT.txt)。先阅读[内容参考说明](labels/assistant-content-351-20261004/README.md)，再运行：
+
+```sh
+node eval/restore-content-inputs.cjs
+node eval/audit-full-content.cjs check
+node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr
+```
+
+这个入口重新执行 v2.0.1、固定 2.1.0 和指定目录的当前算法，以同一批内容标签评估所有标记。起止各允许 5 秒偏差，不附加 90% 覆盖门槛。未知资料不算无广告；新增 300 个未做内容审核的视频不参与准确率计算。
+
+下方是原有工具的说明；其中按秒计分、内部边界收缩和原始快照对比是不同用途，不能拿来替代上面的标记正确率。当前原有生产回归仍对应 2.1.0；上一轮依赖撤销补丁的专用断言没有恢复。
 
 下列命令均在**测试工作树的仓库根目录**运行；当前算法来自该工作树的 `scr/`。生产发布从运行时分支或主分支打包，`.gitattributes` 的 `export-ignore` 提供额外的归档排除保护，不能替代分支隔离。
 

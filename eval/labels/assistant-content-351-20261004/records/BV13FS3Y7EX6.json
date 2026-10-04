@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV13FS3Y7EX6",
+    "cid": 26535790919,
+    "duration": 831,
+    "fullTranscriptRead": true,
+    "videoSummary": "团队采购大会通过太阳能帽、智能眼镜、隔音口罩、电动鞋及家具等的体验与报销互动制造喜剧；智能眼镜报价处插入天猫双11清单促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 269.49,
+        "end": 338.16,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从回答眼镜价格、引出天猫双11起，转为眼镜优惠、按摩器和吹风机卖点及会场引导的完整独立推广；结束后回到团队买不买的互动。主题产品体验本身保留。",
+        "evidence": [
+          {
+            "to": 1.48,
+            "text": "欢迎收看今天这期视频啊",
+            "from": 0
+          },
+          {
+            "to": 275.56,
+            "text": "最近正好天猫双11各种3C数码超省清单啊",
+            "from": 271.42
+          },
+          {
+            "to": 338.6,
+            "text": "怎么样",
+            "from": 338.16
+          }
+        ],
+        "startUncertainty": [
+          269.49,
+          269.49
+        ],
+        "endUncertainty": [
+          338.16,
+          338.16
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 269.49,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 338.16,
+        "end": 813.58,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

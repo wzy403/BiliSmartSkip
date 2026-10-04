@@ -1,0 +1,81 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1uZu46DE2K",
+    "cid": 40670135783,
+    "duration": 454,
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍Minecraft强弱加载接力珍珠炮，解释空爆微时序、抛射、碰撞箱方向控制及区块存储代价，中途推广爱回收。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 42.62,
+        "end": 76.009,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从造炮稳定类比二手机可靠的铺垫开始，介绍爱回收价格、质检售后与活动优惠，直到接力炮正文恢复。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          42.62,
+          42.62
+        ],
+        "endUncertainty": [
+          76.009,
+          76.009
+        ],
+        "evidence": [
+          {
+            "from": 14.93,
+            "to": 16.99,
+            "text": "这就是珍珠炮的魅力"
+          },
+          {
+            "from": 42.62,
+            "to": 43.86,
+            "text": "这造炮追求稳定"
+          },
+          {
+            "from": 46.3,
+            "to": 48.22,
+            "text": "爱回收严选的二手机真是划算"
+          },
+          {
+            "from": 70.62,
+            "to": 72.76,
+            "text": "每天派发4166元大额卷包"
+          },
+          {
+            "from": 74.7,
+            "to": 76.009,
+            "text": "这时候买最划算"
+          },
+          {
+            "from": 76.009,
+            "to": 79.65,
+            "text": "而这一次我们继续沿用接力炮的概念"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 42.62,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 76.009,
+        "end": 453.56,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

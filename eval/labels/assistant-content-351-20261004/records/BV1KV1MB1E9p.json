@@ -1,0 +1,68 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1KV1MB1E9p",
+    "cid": 33561183091,
+    "duration": 345,
+    "fullTranscriptRead": true,
+    "videoSummary": "分析雾霾、两股冷空气、青藏高原雨雪、双台风及梅丽莎灾情；中间借寒冷洗脸问题插入洁面泡泡和护肤乳的推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 56.5,
+        "end": 113.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "降温事实已在56.5前说完，接下来重新说降温并引出洗脸难题，构成广告铺垫；完整包含洁面及乳液卖点、优惠购买，113.58回到雨雪天气。",
+        "evidence": [
+          {
+            "from": 56.5,
+            "to": 64.62,
+            "text": "这波冷空气导致气温骤降 洗脸也成了难题 冷水刺骨 出门在外没地方洗脸 水质也没保障 敏感肌的朋友直呼苦不堪言"
+          },
+          {
+            "from": 104.72,
+            "to": 113.58,
+            "text": "科幻小喷菇系列帮你轻松应对寒潮 洗列难题 随时随地即刻清爽 现在点击评论区链接购买有优惠哦 快去评论区置顶领取吧"
+          },
+          {
+            "from": 113.58,
+            "to": 116.78,
+            "text": "除了降温之外 这波南潮还带来了非常大的雨雪"
+          }
+        ],
+        "startUncertainty": [
+          56.5,
+          58.34
+        ],
+        "endUncertainty": [
+          113.58,
+          113.58
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 56.5,
+        "reason": "天气形势、雾霾及冷空气影响。"
+      },
+      {
+        "start": 113.58,
+        "end": 339.88,
+        "reason": "雨雪、台风、寒潮预测和飓风灾情及结尾；双11是天气日期参照。"
+      }
+    ],
+    "limitations": [
+      "仅逐条阅读全文缓存AI字幕，未观看画面；品牌文字有明显识别误差。",
+      "56.5–58.34句表面仍述天气，但全文语义连接后面的洗脸广告铺垫，已保留完整广告而非从品牌名截起。",
+      "正文范围仅指实际字幕覆盖，不标无字幕空隙。"
+    ]
+  }
+}

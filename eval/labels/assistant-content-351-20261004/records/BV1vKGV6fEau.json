@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1vKGV6fEau",
+    "cid": 40503739037,
+    "duration": 819,
+    "fullTranscriptRead": true,
+    "videoSummary": "以耳机盒、圆角、按键、材质和软硬件配合解释产品质感，蝴蝶键盘案例后插入 Cursor 赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 452.06,
+        "end": 522.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由制造硬件难、开发软件容易转入明确赞助商 Cursor，介绍开发工具连接、云端执行和链接获取；其后明确回到视频并讲建筑材料。其他品牌产品为设计分析案例。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          452.06,
+          452.06
+        ],
+        "endUncertainty": [
+          522.24,
+          522.24
+        ],
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 1.98,
+            "text": "这是你的AirPods充电盒"
+          },
+          {
+            "from": 452.06,
+            "to": 453.5,
+            "text": "制造硬件非常困难"
+          },
+          {
+            "from": 456.34,
+            "to": 459.2,
+            "text": "这就是本期视频的赞助商Cursor的用武之地"
+          },
+          {
+            "from": 488.72,
+            "to": 491.7,
+            "text": "但我最喜欢的特性是云端执行功能"
+          },
+          {
+            "from": 519.34,
+            "to": 521.04,
+            "text": "可通过描述中的链接获取Cursor"
+          },
+          {
+            "from": 523.679,
+            "to": 525.139,
+            "text": "但现在回到视频"
+          },
+          {
+            "from": 534.93,
+            "to": 536.35,
+            "text": "这是PlayStation 5主机"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 452.06,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 522.24,
+        "end": 815.24,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

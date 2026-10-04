@@ -1,0 +1,228 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1ymux6BEFU",
+    "cid": 40676558041,
+    "duration": 772,
+    "fullTranscriptRead": true,
+    "videoSummary": "光盘存储和修复科普、店主访谈与家庭影像回顾；有学而思学习机合作鸣谢、中段推介和片尾推介。历史电台宣传片段属于怀旧素材。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 36.15,
+        "end": 45.72,
+        "reason": "简短合作说明紧接节目主题和开场，单独鸣谢保留，不据此吞掉后续光盘科普。",
+        "startUncertainty": [
+          36.15,
+          36.15
+        ],
+        "endUncertainty": [
+          45.72,
+          45.72
+        ],
+        "evidence": [
+          {
+            "from": 36.15,
+            "to": 38.15,
+            "content": "这期节目我们和学而思学习机"
+          },
+          {
+            "from": 38.15,
+            "to": 39.93,
+            "content": "全新T6旗舰系列一拍即合"
+          },
+          {
+            "from": 41.07,
+            "to": 43.18,
+            "content": "这样有点复古的光学存储方式"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 454.32,
+        "end": 499.13,
+        "reason": "由童年教育光盘过渡到赞助方学习机，连续介绍AI教学和互动功能；499.65回到光盘修复顾客。保留完整铺垫，不仅标品牌出现后的尾段。",
+        "startUncertainty": [
+          454.32,
+          476.649
+        ],
+        "endUncertainty": [
+          499.13,
+          499.65
+        ],
+        "evidence": [
+          {
+            "from": 454.32,
+            "to": 456.04,
+            "content": "那除了这些"
+          },
+          {
+            "from": 457.88,
+            "to": 460.17,
+            "content": "可能是另外一种教育光盘"
+          },
+          {
+            "from": 476.649,
+            "to": 477.709,
+            "content": "打开学而思学习机"
+          },
+          {
+            "from": 483.97,
+            "to": 486.01,
+            "content": "可以随时和AI老师提问互动"
+          },
+          {
+            "from": 496.22,
+            "to": 499.13,
+            "content": "喊老师老师就能接着播"
+          },
+          {
+            "from": 499.65,
+            "to": 500.61,
+            "content": "在KENNY这里"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 624.16,
+        "end": 633.3,
+        "reason": "旧电台宣传音频在历史影像回顾中作为记忆素材重放，不是当前独立插播。",
+        "startUncertainty": [
+          624.16,
+          624.16
+        ],
+        "endUncertainty": [
+          633.3,
+          633.3
+        ],
+        "evidence": [
+          {
+            "from": 624.16,
+            "to": 626.34,
+            "content": "我们的名字叫hit fm"
+          },
+          {
+            "from": 626.34,
+            "to": 629.58,
+            "content": "每天无偿送上同步世界流行的动感音乐"
+          },
+          {
+            "from": 631.54,
+            "to": 632.4,
+            "content": "选择HIFM"
+          }
+        ]
+      },
+      {
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "start": 725.55,
+        "end": 744.96,
+        "reason": "节目总结后对赞助方再度鸣谢并连续宣传学习内容、体系与AI体验，至关注结语前结束。",
+        "startUncertainty": [
+          725.55,
+          725.55
+        ],
+        "endUncertainty": [
+          744.96,
+          744.96
+        ],
+        "evidence": [
+          {
+            "from": 725.55,
+            "to": 726.83,
+            "content": "非常感谢徐尔思学习机"
+          },
+          {
+            "from": 726.83,
+            "to": 728.67,
+            "content": "全新T6旗舰系列的大力支持"
+          },
+          {
+            "from": 734.14,
+            "to": 735.92,
+            "content": "现在AI又带来了内容体验"
+          },
+          {
+            "from": 743.14,
+            "to": 744.96,
+            "content": "让爱与科技助力终身成长"
+          },
+          {
+            "from": 744.96,
+            "to": 746.34,
+            "content": "如果你也喜欢这个节目的话"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 36.15,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 45.72,
+        "end": 218.96,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 298.72,
+        "end": 316.58,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 408.23,
+        "end": 446.55,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 499.65,
+        "end": 513.76,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 542.079,
+        "end": 624.16,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 637.62,
+        "end": 671.81,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 696.34,
+        "end": 725.55,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 744.96,
+        "end": 752.32,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "部分粤语访谈ASR严重失真，未将不能理解的段落标成已确认正文。中段广告铺垫开始有明显边界不确定性。"
+    ]
+  }
+}

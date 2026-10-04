@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1tm42137Fa",
+    "cid": 1633371865,
+    "duration": 225,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释巴黎奥运期间热浪、昼夜温差与西风带冷暖变化，评估无空调环境；借巴黎时尚之都话题插入VH女包七夕推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 72.3,
+        "end": 129.919,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以巴黎时尚之都和四季衣包穿搭作铺垫，转入七夕送礼，完整介绍VH信封包设计材质、赠品及优惠，结束于置顶优惠券购买；后一句转回巴黎冷暖变化。",
+        "evidence": [
+          {
+            "to": 1.26,
+            "text": "谁说巴黎不热",
+            "from": 0.12
+          },
+          {
+            "to": 81.76,
+            "text": "可以选择这款山茶花信封包",
+            "from": 79.46
+          },
+          {
+            "to": 132.799,
+            "text": "如果你有幸到巴黎感受这里的时尚元素",
+            "from": 129.919
+          }
+        ],
+        "startUncertainty": [
+          72.3,
+          72.3
+        ],
+        "endUncertainty": [
+          129.919,
+          129.919
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 72.3,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 129.919,
+        "end": 224.1,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

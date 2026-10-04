@@ -1,0 +1,139 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1c2NQ6hETe",
+    "cid": 39929579793,
+    "duration": 1076,
+    "fullTranscriptRead": true,
+    "videoSummary": "试吃脆笋鸡爪、迪拜巧克力曲奇、椒麻牛肉和网红罐头，比较商家宣传与实物口味并吐槽包装；插入转转、枸杞原浆及主页橱窗推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 137.06,
+        "end": 178.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由突转暑假换相机引出闲置回收，完整说明转转回收体验、品类、价格和推荐；后接另一广告，直到鸡爪试吃才回正文。",
+        "evidence": [
+          {
+            "to": 0.76,
+            "text": "我没招了呀",
+            "from": 0
+          },
+          {
+            "to": 148,
+            "text": "像我那台旧相机找转转上门回收了3100多",
+            "from": 144.62
+          },
+          {
+            "to": 281.13,
+            "text": "来吧买都买来了",
+            "from": 279.85
+          }
+        ],
+        "startUncertainty": [
+          137.06,
+          137.06
+        ],
+        "endUncertainty": [
+          178.46,
+          178.46
+        ]
+      },
+      {
+        "start": 178.46,
+        "end": 279.85,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "另起枸杞原浆功效和作息痛点推介，包含红黑原浆及六味地黄款、组合价格、试喝政策及最后购买号召；随后恢复鸡爪测评。",
+        "evidence": [
+          {
+            "to": 0.76,
+            "text": "我没招了呀",
+            "from": 0
+          },
+          {
+            "to": 242.9,
+            "text": "我还给大家争取到了咱B站的专属机制",
+            "from": 240.22
+          },
+          {
+            "to": 281.13,
+            "text": "来吧买都买来了",
+            "from": 279.85
+          }
+        ],
+        "startUncertainty": [
+          178.46,
+          178.46
+        ],
+        "endUncertainty": [
+          279.85,
+          279.85
+        ]
+      },
+      {
+        "start": 1055.82,
+        "end": 1067.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全部试吃结束后独立引导主页橱窗、专属优惠和点击购买，随后进入节目收尾。正文播放的商家广告是测评对照证据，保留。",
+        "evidence": [
+          {
+            "to": 0.76,
+            "text": "我没招了呀",
+            "from": 0
+          },
+          {
+            "to": 1058.12,
+            "text": "另外大家也可以去我的主页橱窗里看看",
+            "from": 1055.82
+          },
+          {
+            "to": 1069.52,
+            "text": "另外电视上的小伙伴帮你最后都见不到",
+            "from": 1067.42
+          }
+        ],
+        "startUncertainty": [
+          1055.82,
+          1055.82
+        ],
+        "endUncertainty": [
+          1067.42,
+          1067.42
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 137.06,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 279.85,
+        "end": 1055.82,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 1067.42,
+        "end": 1071.44,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

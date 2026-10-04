@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1F68m6jEpR",
+    "cid": 41161590949,
+    "duration": 653,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述墨西哥洞穴捕鱼失踪者在气室存活十五天后获救，重建搜救与生还经过并提醒潜水准备；搜救暂停处插入转转二手数码推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 163.72,
+        "end": 190.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "缓一缓、趁间隙是插播铺垫，随后明称甲方转转并逐项报价、比较新机、劝认准转转，最后逛完转转为推广收束；全段应保留。",
+        "evidence": [
+          {
+            "to": 168.16,
+            "text": "我们也要缓一缓啊 趁此间隙 我要感谢下甲方转转的催更",
+            "from": 163.72
+          },
+          {
+            "to": 190.2,
+            "text": "反正听我的 买相机电脑 平板认准转转就对了",
+            "from": 186.56
+          },
+          {
+            "to": 194.55,
+            "text": "我们继续回到故事中来 在第一次搜寻无果后",
+            "from": 190.94
+          }
+        ],
+        "startUncertainty": [
+          163.72,
+          163.72
+        ],
+        "endUncertainty": [
+          190.94,
+          190.94
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.24,
+        "end": 163.72,
+        "reason": "捕鱼事故、报警和首轮搜救叙事。"
+      },
+      {
+        "start": 190.94,
+        "end": 591.31,
+        "reason": "返回搜救故事，重建受困生还过程并结束节目。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。",
+      "592.74–596.70只有一条难辨归属的片尾话语，未据此标正文；596.70至653秒无字幕，无法判断。"
+    ]
+  }
+}

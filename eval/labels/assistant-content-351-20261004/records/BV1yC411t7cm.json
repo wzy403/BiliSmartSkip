@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "root-content-only-completion",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1yC411t7cm",
+    "cid": 1486782701,
+    "duration": 588,
+    "fullTranscriptRead": true,
+    "videoSummary": "用心理学讨论适度努力和减少微决策，其中两段具体安利天工AI、展示搜索阅读与周报功能；它与工具使用主题有关，商业关系和应否跳过仅凭字幕不能确定。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "contentType": "uncertain",
+        "skipDecision": "uncertain",
+        "confidence": "uncertain",
+        "boundaryConfidence": "subtitle_only",
+        "start": 259.87,
+        "end": 324.12,
+        "reason": "品牌安利和详细功能展示有推广特征，但也直接作为减少检索负担的教学示例，缺独立商务关系证据。",
+        "startUncertainty": [
+          257.19,
+          268.61
+        ],
+        "endUncertainty": [
+          313.56,
+          324.12
+        ],
+        "evidence": [
+          {
+            "from": 259.87,
+            "to": 261.1,
+            "content": "比如信息检索"
+          },
+          {
+            "from": 268.61,
+            "to": 271.11,
+            "content": "给大家安利一下这个天宫AI"
+          },
+          {
+            "from": 273.15,
+            "to": 275.89,
+            "content": "我可以具体展示一下这个AI搜索功能"
+          },
+          {
+            "from": 310.89,
+            "to": 313.56,
+            "content": "我上面说的所有这些功能都是免费的"
+          },
+          {
+            "from": 321.14,
+            "to": 324.12,
+            "content": "构建文章逻辑这些更重要的事情上"
+          }
+        ]
+      },
+      {
+        "contentType": "uncertain",
+        "skipDecision": "uncertain",
+        "confidence": "uncertain",
+        "boundaryConfidence": "subtitle_only",
+        "start": 342.04,
+        "end": 358.28,
+        "reason": "再次提及同一AI写周报并邀请尝试，推广或教学示例的边界不确定。",
+        "startUncertainty": [
+          342.04,
+          342.52
+        ],
+        "endUncertainty": [
+          356.41,
+          358.28
+        ],
+        "evidence": [
+          {
+            "from": 342.04,
+            "to": 342.52,
+            "content": "对了"
+          },
+          {
+            "from": 342.52,
+            "to": 344.23,
+            "content": "我前面说的天宫AI"
+          },
+          {
+            "from": 355.03,
+            "to": 356.41,
+            "content": "大家可以帮我试一下"
+          },
+          {
+            "from": 356.41,
+            "to": 358.28,
+            "content": "还有哪些惊喜可以开发"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 257.19,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 324.12,
+        "end": 342.04,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      },
+      {
+        "start": 358.28,
+        "end": 583.86,
+        "reason": "全文字幕中的正文；仅对实际字幕覆盖时间评分"
+      }
+    ],
+    "limitations": [
+      "已阅读全文字幕；未逐帧核验画面。字幕间隙及没有字幕的时间未知。",
+      "未把普通心理学图书引用、推荐阅读或论文中的购买链接描述认作广告。"
+    ]
+  }
+}

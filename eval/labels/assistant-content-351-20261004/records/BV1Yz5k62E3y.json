@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1Yz5k62E3y",
+    "cid": 38301469922,
+    "duration": 946,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述教堂枪击纵火案的报警、警方与市民交战救援、伤亡及嫌犯背景和幸存者。开头用退一步、睡好觉的转折引入棉同学深睡枕推广，之后回到案发现场。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 64.92,
+        "end": 150.56,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从退一步海阔天空、好好睡一觉的转折铺垫开始，转为讲述创作者睡眠与枕头，集中介绍棉同学设计、舒适、销量、价格、退货与评论区优惠，至直接冲结束。最初转折兼有案件评论意味，因此注明边界语义重叠。",
+        "evidence": [
+          {
+            "from": 64.92,
+            "to": 70.92,
+            "text": "作为退一步 海阔天空 好好睡一觉不就过去了吗 其实最近大鹏脾气也暴得很 就是因为没休息好"
+          },
+          {
+            "from": 145.249,
+            "to": 150.56,
+            "text": "嘿嘿评论区有限时优惠 先把睡眠和状态全都拉满了 兄弟直接冲就完事"
+          },
+          {
+            "from": 150.56,
+            "to": 156.44,
+            "text": "此时教堂正在举行周日的礼拜 桑福德直接驾驶着皮卡车 一脚油门撞进了教会"
+          }
+        ],
+        "startUncertainty": [
+          64.92,
+          67.78
+        ],
+        "endUncertainty": [
+          150.56,
+          150.56
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 64.92,
+        "reason": "案件概述、虚假报警与携带武器前往教堂的经过。"
+      },
+      {
+        "start": 150.56,
+        "end": 945.54,
+        "reason": "恢复教堂袭击、救援、案件调查、人物与结尾致敬。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；无法判断画面广告、字幕漏识和无字幕间隙。正文范围仅用于其中实际字幕覆盖的口述内容。"
+    ]
+  }
+}

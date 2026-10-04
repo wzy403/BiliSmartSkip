@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1je6FBhE6w",
+    "cid": 35683632065,
+    "duration": 268,
+    "fullTranscriptRead": true,
+    "videoSummary": "在家复刻肯德基田园脆鸡堡，制作胡萝卜面包与蔬菜鸡肉饼并试吃；绞肉期间转入转转闲置回收广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 110.47,
+        "end": 147.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以最近换手机与旧机处理问题独立铺垫，介绍转转上门、报价、城市覆盖及回收品类直至推荐大平台，随后回到肉泥调味。",
+        "evidence": [
+          {
+            "to": 2.22,
+            "text": "曾经一年就能卖出2000万个",
+            "from": 0
+          },
+          {
+            "to": 119.36,
+            "text": "就找转转上门回收了3100多",
+            "from": 117.04
+          },
+          {
+            "to": 148.08,
+            "text": "搅好的肉泥呢",
+            "from": 147.24
+          }
+        ],
+        "startUncertainty": [
+          110.47,
+          110.47
+        ],
+        "endUncertainty": [
+          147.24,
+          147.24
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 110.47,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 147.24,
+        "end": 266.68,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

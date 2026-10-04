@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1F44izREmT",
+    "cid": 33092207130,
+    "duration": 353,
+    "fullTranscriptRead": true,
+    "videoSummary": "Python系列课程导学，展示基础到框架、数据分析和办公自动化的大纲、趣味项目、练习、真人答疑与后续更新计划。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.4,
+        "end": 347.4,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "全文为课程自身的大纲和学习服务介绍，虽有宣传性表达，字幕没有单独付费招募、外部赞助或购买导流；课程导学就是本集主题，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.4,
+          0.4
+        ],
+        "endUncertainty": [
+          347.4,
+          347.4
+        ],
+        "evidence": [
+          {
+            "from": 15.38,
+            "to": 19.6,
+            "text": "我们计划录制python400集零基础全系列课程"
+          },
+          {
+            "from": 161.11,
+            "to": 164.03,
+            "text": "这里呢是给大家展示我们计划的python400集"
+          },
+          {
+            "from": 260.659,
+            "to": 263.25,
+            "text": "本套课程配套配套了实时答疑系统"
+          },
+          {
+            "from": 342,
+            "to": 344.82,
+            "text": "这是我们本套课程所包含的全部内容"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.4,
+        "end": 347.4,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

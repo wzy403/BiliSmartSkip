@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_b",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1MxfcBhEdo",
+    "cid": 36214934558,
+    "duration": 1176,
+    "fullTranscriptRead": true,
+    "videoSummary": "逐层分析黄金白银短期暴涨暴跌、逼空、散户与币圈杠杆、保证金调整及市场规模差异，中间借春节出行推荐差旅背包。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 466.13,
+        "end": 535.72,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从逢年过节除了金银还有差旅的过桥起，完整介绍背包分区、开口、磁扣、容量、外观和面料，最后需求推荐结束后明确说回金银暴涨。",
+        "evidence": [
+          {
+            "to": 5.72,
+            "text": "这个2026年的1月份",
+            "from": 3.54
+          },
+          {
+            "to": 474.33,
+            "text": "你看这个哪有smart背包",
+            "from": 472.67
+          },
+          {
+            "to": 537.38,
+            "text": "好我们说回金银暴涨",
+            "from": 535.72
+          }
+        ],
+        "startUncertainty": [
+          466.13,
+          466.13
+        ],
+        "endUncertainty": [
+          535.72,
+          535.72
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 466.13,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      },
+      {
+        "start": 535.72,
+        "end": 1170.36,
+        "reason": "已完整阅读的节目正文及保留内容；仅真实字幕覆盖用于计分。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存字幕审核；未观看画面，无法判定视觉广告或无字幕部分。",
+      "字幕可能存在识别误差；边界仅依据口述字幕。"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV142421Z7Ty",
+    "cid": 1642157390,
+    "duration": 1147,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述美国海军航空先驱伊利的舰上起降和阻拦索发展，中插鱼油推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 722.63,
+        "end": 823.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从吃好与健康的过渡进入作者及父母血脂焦虑，完整保留至海力生鱼油优惠与购买推荐；420恢复1911年航空史。",
+        "evidence": [
+          {
+            "from": 0.36,
+            "to": 2.2,
+            "text": "可能许多观众都没有意识到"
+          },
+          {
+            "from": 727.42,
+            "to": 730.6,
+            "text": "我前阵子熬夜赶稿写稿也是仗着年轻硬熬啊"
+          },
+          {
+            "from": 775.36,
+            "to": 777.64,
+            "text": "海力生这个纯度在国内都能算天花板了"
+          },
+          {
+            "from": 819.12,
+            "to": 820.6,
+            "text": "需要的朋友可以入手试一试"
+          },
+          {
+            "from": 826.08,
+            "to": 827.96,
+            "text": "1911年1月19日"
+          }
+        ],
+        "startUncertainty": [
+          722.63,
+          722.63
+        ],
+        "endUncertainty": [
+          823.48,
+          826.08
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.36,
+        "end": 722.63,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 823.48,
+        "end": 1144.83,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

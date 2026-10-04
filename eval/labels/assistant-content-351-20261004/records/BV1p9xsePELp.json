@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1p9xsePELp",
+    "cid": 26124225612,
+    "duration": 1332,
+    "fullTranscriptRead": true,
+    "videoSummary": "比较《玫瑰的故事》《半熟男女》《凡人歌》《出走的决心》的精英男性塑造，讨论情感控制、利益择偶和育儿负担。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 161.28,
+        "end": 249.1,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从看视频配美食和秋季吃蟹铺垫开始，连续推荐天猫超市蟹券、面膜、旅行箱及搜索活动优惠，直到恢复庄国栋人物分析。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          161.28,
+          161.28
+        ],
+        "endUncertainty": [
+          249.1,
+          249.1
+        ],
+        "evidence": [
+          {
+            "from": 115.36,
+            "to": 117.28,
+            "text": "今天我们将结合玫瑰的故事"
+          },
+          {
+            "from": 161.28,
+            "to": 163.1,
+            "text": "看视频需要有美食相伴"
+          },
+          {
+            "from": 164.72,
+            "to": 167.9,
+            "text": "我在天猫超市买了这个螃蟹的券才200多"
+          },
+          {
+            "from": 210.94,
+            "to": 212.86,
+            "text": "最后再给大家推荐一个旅行箱"
+          },
+          {
+            "from": 247.32,
+            "to": 249.1,
+            "text": "淘宝的羊毛一定要抓牢了"
+          },
+          {
+            "from": 249.1,
+            "to": 252.04,
+            "text": "黄玉梅第一任男朋友庄国栋是外企主管"
+          }
+        ]
+      },
+      {
+        "start": 1320.78,
+        "end": 1329.8,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "结尾九秒赞助致谢和搜索提醒，可保留短收尾；开头电影推荐本身是后续批评分析的主题。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          1320.78,
+          1320.78
+        ],
+        "endUncertainty": [
+          1329.8,
+          1329.8
+        ],
+        "evidence": [
+          {
+            "from": 1320.78,
+            "to": 1321.48,
+            "text": "视频的最后"
+          },
+          {
+            "from": 1321.48,
+            "to": 1324.5,
+            "text": "再次感谢天猫超市对于本期视频的大力支持"
+          },
+          {
+            "from": 1324.5,
+            "to": 1326.94,
+            "text": "别忘了一定要去淘宝搜索猫超低价"
+          },
+          {
+            "from": 1328.42,
+            "to": 1329.8,
+            "text": "好货低价不等人"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 161.28,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 249.1,
+        "end": 1329.8,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

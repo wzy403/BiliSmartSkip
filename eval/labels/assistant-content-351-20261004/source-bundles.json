@@ -1,0 +1,22 @@
+{
+  "kind": "cached-evaluation-inputs",
+  "warning": "Public cached subtitles/danmaku and source provenance. No authentication credentials. Restored data is for evaluation, not a production allowlist.",
+  "bundles": [
+    {
+      "file": "eval/fixtures/content-audit-351-20261004.jsonl.gz",
+      "restoreTo": "eval/data/combined-351-content-refreshed-20261004.jsonl",
+      "bytes": 10953762,
+      "uncompressedBytes": 35648481,
+      "sha256": "55b0ca07598863589f3d9435d423e4bac667f731cc6ede382b6246fe63a7df32",
+      "compressedSha256": "071550643effc24aa37b79c0448dc7164d0509422fe42580dd8e82544c73782f"
+    },
+    {
+      "file": "eval/fixtures/content-audit-extra300-20261004.jsonl.gz",
+      "restoreTo": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+      "bytes": 7001583,
+      "uncompressedBytes": 23129058,
+      "sha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+      "compressedSha256": "cb5b2bbe897d968215026f91be73fc404ab63d1e65ecd40db24971f45d54aca1"
+    }
+  ]
+}

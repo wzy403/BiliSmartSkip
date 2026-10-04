@@ -1,0 +1,76 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1nAJyzZEbd",
+    "cid": 32573099132,
+    "duration": 277,
+    "fullTranscriptRead": true,
+    "videoSummary": "女律师回应关于年龄、工作、收入和婚恋的恶意私信，穿插洗地机推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 123.14,
+        "end": 169.22,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由没时间打扫的铺垫进入云朵洗地机功能和试用下单推荐，结束后恢复收入问题回应。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 3.14,
+            "text": "最近呐我收到了一条用心极其歹毒的私信呢"
+          },
+          {
+            "from": 123.14,
+            "to": 125.86,
+            "text": "我这忙的连打扫卫生的功夫都没有了"
+          },
+          {
+            "from": 128.38,
+            "to": 129.46,
+            "text": "甲方老铁问我"
+          },
+          {
+            "from": 165.14,
+            "to": 167.3,
+            "text": "云朵2.0还支持七天无理由试用"
+          },
+          {
+            "from": 169.22,
+            "to": 170.98,
+            "text": "那至于我赚没挣到钱这个问题啊"
+          }
+        ],
+        "startUncertainty": [
+          123.14,
+          123.14
+        ],
+        "endUncertainty": [
+          169.22,
+          169.22
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 123.14,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 169.22,
+        "end": 276.28,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。",
+      "谈及自媒体招揽生意是回应质疑的自述，未据此把整篇回应当作可跳商业段。"
+    ]
+  }
+}

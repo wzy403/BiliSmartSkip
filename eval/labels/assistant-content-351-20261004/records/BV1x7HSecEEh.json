@@ -1,0 +1,80 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1x7HSecEEh",
+    "cid": 25624190578,
+    "duration": 1379,
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述436至439年刘宋政局、拓跋焘北伐及北魏灭北凉统一北方，中途推介男士洗护用品。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 457.16,
+        "end": 544.97,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以远征艰苦作衔接引出溪木源，熬夜脸油铺垫后完整介绍洁面、沐浴和洗发水及优惠售后，至历史年末事件恢复。",
+        "evidence": [
+          {
+            "from": 0.0,
+            "to": 2.6,
+            "text": "上一集我们说到公元436年夏天"
+          },
+          {
+            "from": 457.16,
+            "to": 459.8,
+            "text": "在这种恶劣条件下远征一定非常艰苦"
+          },
+          {
+            "from": 459.8,
+            "to": 462.6,
+            "text": "这个时候就需要推荐我们的老朋友新墓园了"
+          },
+          {
+            "from": 472.32,
+            "to": 474.34,
+            "text": "溪木源男士控油洁面乳"
+          },
+          {
+            "from": 537.46,
+            "to": 539.6,
+            "text": "现在置顶就能领大额优惠券"
+          },
+          {
+            "from": 544.97,
+            "to": 545.85,
+            "text": "这一年年底"
+          }
+        ],
+        "startUncertainty": [
+          457.16,
+          457.16
+        ],
+        "endUncertainty": [
+          544.97,
+          544.97
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.0,
+        "end": 457.16,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 544.97,
+        "end": 1378.62,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

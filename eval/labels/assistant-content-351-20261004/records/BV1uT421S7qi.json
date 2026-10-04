@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1uT421S7qi",
+    "cid": 1555997267,
+    "duration": 734,
+    "fullTranscriptRead": true,
+    "videoSummary": "核对哈利波特八条粉丝传言：巧克力蛙情报网、开学致辞、斯内普花语、金妮外貌、死亡圣器、魁地奇、摄魂怪记忆和老魔杖传承；第一条之后插入拼多多零食福袋活动。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 85.52,
+        "end": 111.41,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从“但说到巧克力蛙”作品牌活动铺垫，转为拼多多抽零食福袋，罗列联名食品、免费抽取机会并要求点击视频下方及评论区链接；正文里的巧克力蛙原本是剧情分析对象，此处才是独立推广。",
+        "evidence": [
+          {
+            "from": 85.52,
+            "to": 91.34,
+            "text": "但说到巧克力蛙 最近拼多多官方正在开展临时福袋活动 超100款网红大牌零食都包含在内"
+          },
+          {
+            "from": 107.4,
+            "to": 111.41,
+            "text": "趁活动还在线 大家快点开视频下方和评论区置顶链接 试试手气吧"
+          },
+          {
+            "from": 111.41,
+            "to": 121.15,
+            "text": "2DOMINDO的开学致辞 哈利波特与魔法石中 harry1年级开学典礼上开饭之前 邓孝有一段非常经典的开学致辞"
+          }
+        ],
+        "startUncertainty": [
+          85.52,
+          86.52
+        ],
+        "endUncertainty": [
+          111.41,
+          111.41
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 85.52,
+        "reason": "传言介绍及巧克力蛙画像情报网理论核查；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 111.41,
+        "end": 733.1,
+        "reason": "后续七条粉丝理论、原著依据、评价与结语；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1Entn6tEps",
+    "cid": 41515551691,
+    "duration": 742,
+    "fullTranscriptRead": true,
+    "videoSummary": "讨论古网的蠕虫、单细胞、海绵和节肢动物假说，从结构、化石、活动能力及通信网络分析新研究，同时保留假说尚未证实的结论；中间从海绵寿命转入营养补剂推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 278.85,
+        "end": 423.56,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以海绵长寿和羡慕海绵作铺垫，推销NMN抗衰老，再连续介绍营养工厂品牌、成本透明、鱼油等产品和价格，最后以置顶链接券包、暗号积分及购买号召结束。医疗效果说法在此仅作为广告原文证据，不是审核者认可。",
+        "evidence": [
+          {
+            "from": 278.85,
+            "to": 289.81,
+            "text": "话说海绵是种极为长寿的动物 动辄能活到上万年 如果你羡慕海绵 那一定不要错过NMN 它是目前全球最火的抗衰老神器"
+          },
+          {
+            "from": 406.69,
+            "to": 423.56,
+            "text": "现在点击置顶链接就能领100元券包 还有额外的新人优惠 下单时备注暗号 阿廖娜还能拿双倍积分 积分还能再对优惠券和产品限时活动 有相关需求的话 非常建议冲一波 买营养补剂就选营养工厂"
+          },
+          {
+            "from": 425.32,
+            "to": 437.68,
+            "text": "除前面介绍的三大假说外 古往的假说其实还有数十种之多 但这些五花八门的设想要么早已被推翻 要么因为缺乏过硬的证据 长期在边缘徘徊"
+          }
+        ],
+        "startUncertainty": [
+          278.85,
+          283.63
+        ],
+        "endUncertainty": [
+          423.56,
+          425.32
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 278.85,
+        "reason": "古网历史与此前三种假说及缺陷；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      },
+      {
+        "start": 425.32,
+        "end": 735.84,
+        "reason": "节肢动物假说的数据、通信网络解释及局限与收尾；仅表示该范围内实际字幕覆盖的正文，不将无字幕间隙判为正常。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存AI字幕，未观看视频；字幕可能错字漏句，边界仅据字幕，无法确认无字幕间隙或画面广告。"
+    ]
+  }
+}

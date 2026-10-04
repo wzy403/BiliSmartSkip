@@ -1,0 +1,164 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1he5KzsEXy",
+    "cid": 29856958486,
+    "duration": 731,
+    "fullTranscriptRead": true,
+    "videoSummary": "解释超分、逻辑帧、光流和DLSS帧生成的原理与意义，以拯救者笔记本实测示例并插入完整硬件介绍。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 32.43,
+        "end": 70.39,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "带有拯救者散热宣传的开头帧率实测同时提出全片核心问题，是必要例证。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          32.43,
+          32.43
+        ],
+        "endUncertainty": [
+          70.39,
+          70.39
+        ],
+        "evidence": [
+          {
+            "from": 32.43,
+            "to": 35.81,
+            "text": "要我说现在DLSS技术真的太夸张了"
+          },
+          {
+            "from": 35.81,
+            "to": 39.04,
+            "text": "我们拿这台5070ti的拯救者Y9000P为例"
+          },
+          {
+            "from": 46.68,
+            "to": 49.14,
+            "text": "在乾坤ultra散热系统2.0加持下"
+          },
+          {
+            "from": 67.919,
+            "to": 70.39,
+            "text": "更是直接将帧率干到了157"
+          },
+          {
+            "from": 74.83,
+            "to": 77.68,
+            "text": "你这拼好帧拼出来的帧算什么本事"
+          }
+        ]
+      },
+      {
+        "start": 121.89,
+        "end": 137.96,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "再次展示赞助样机的超分帧率，但直接解释本期技术机制，保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          121.89,
+          121.89
+        ],
+        "endUncertainty": [
+          137.96,
+          137.96
+        ],
+        "evidence": [
+          {
+            "from": 121.89,
+            "to": 125.18,
+            "text": "还是在这台Y9000P上打开超分性能档后"
+          },
+          {
+            "from": 127,
+            "to": 130.16,
+            "text": "实际上只有1/4的像素是真实渲染出来的"
+          },
+          {
+            "from": 135.24,
+            "to": 137.96,
+            "text": "打开超分就能让帧率提升到59帧"
+          },
+          {
+            "from": 137.96,
+            "to": 138.9,
+            "text": "超分技术很好"
+          }
+        ]
+      },
+      {
+        "start": 491.73,
+        "end": 667.73,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由前述原理总结和AI过渡转入拯救者型号的独立推广，包含算力、完整跑分散热、外观灯效与屏幕卖点，随后才回到虚拟帧主题；从铺垫至最后硬盘宣传完整覆盖。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          491.73,
+          491.73
+        ],
+        "endUncertainty": [
+          667.73,
+          667.73
+        ],
+        "evidence": [
+          {
+            "from": 491.73,
+            "to": 493.37,
+            "text": "OK通过前面的原理介绍"
+          },
+          {
+            "from": 499.35,
+            "to": 501.75,
+            "text": "本次拿到了联想拯救者Y9000P"
+          },
+          {
+            "from": 582.72,
+            "to": 585.56,
+            "text": "主要是这次联想带来全新的乾坤散热系统"
+          },
+          {
+            "from": 619.95,
+            "to": 621.47,
+            "text": "Y9000P2025至尊版"
+          },
+          {
+            "from": 666.57,
+            "to": 667.73,
+            "text": "也都给你拉满了"
+          },
+          {
+            "from": 668.35,
+            "to": 670.04,
+            "text": "最后我们再回到最初的问题"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.96,
+        "end": 491.73,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 667.73,
+        "end": 729.62,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

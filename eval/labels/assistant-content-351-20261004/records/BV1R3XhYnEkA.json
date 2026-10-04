@@ -1,0 +1,71 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1R3XhYnEkA",
+    "cid": 29024716467,
+    "duration": 205,
+    "fullTranscriptRead": true,
+    "videoSummary": "逐一介绍九种便宜清洁工具和材料的用途、价格、局限及操作注意，覆盖除尘缝隙清理、刮水、去霉去垢去油和电钻刷。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0.12,
+        "end": 204.26,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "清洁好物推荐本身是视频主题，主要为通用工具和材料，包含缺点与安全提示；未见明确品牌合作或商家链接促销，不能因推荐和报价自动跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          0.12,
+          0.12
+        ],
+        "endUncertainty": [
+          204.26,
+          204.26
+        ],
+        "evidence": [
+          {
+            "from": 2.9,
+            "to": 5.82,
+            "text": "这些十几块的清洁工具怎么会这么好用"
+          },
+          {
+            "from": 42.14,
+            "to": 43.32,
+            "text": "记得买金属材质"
+          },
+          {
+            "from": 83.02,
+            "to": 84.8,
+            "text": "唯一的缺点那就是挺费胳膊"
+          },
+          {
+            "from": 170.18,
+            "to": 172.32,
+            "text": "使用过程必须戴好手套口罩"
+          },
+          {
+            "from": 197.68,
+            "to": 199.44,
+            "text": "别忘了点赞收藏加关注"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 204.26,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

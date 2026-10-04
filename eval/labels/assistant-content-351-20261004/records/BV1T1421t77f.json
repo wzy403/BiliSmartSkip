@@ -1,0 +1,86 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_a",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1T1421t77f",
+    "cid": 1639779014,
+    "duration": 808,
+    "fullTranscriptRead": true,
+    "videoSummary": "拆解网红面包的黄油比例、热量对比、配料、发酵和储运等宣传漏洞，指出制作与营养话术问题；中间插入妙界腿部按摩仪优惠。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 304.6,
+        "end": 377.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从抽象面包研发用腿思考的玩笑铺垫，转按摩仪价格、功能、适用场景及领券售后礼品推荐，结束后继续解释面包未烤熟原因。其他商家宣传引用均为批评素材。",
+        "startUncertainty": [
+          304.6,
+          309.12
+        ],
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "endUncertainty": [
+          377.5,
+          377.5
+        ],
+        "evidence": [
+          {
+            "from": 10.87,
+            "to": 13.21,
+            "text": "网红面包当中的自爆卡车们"
+          },
+          {
+            "from": 304.6,
+            "to": 305.98,
+            "text": "这么抽象的面包"
+          },
+          {
+            "from": 311.55,
+            "to": 312.79,
+            "text": "那小鱼就推荐他们"
+          },
+          {
+            "from": 317.39,
+            "to": 321.09,
+            "text": "只要268研发累了可以按腿制作"
+          },
+          {
+            "from": 365.03,
+            "to": 367.51,
+            "text": "喜欢的记得在评论区领券下单"
+          },
+          {
+            "from": 376.15,
+            "to": 377.5,
+            "text": "赶紧安排上"
+          },
+          {
+            "from": 377.5,
+            "to": 378.86,
+            "text": "为什么没烤熟"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.3,
+        "end": 304.6,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      },
+      {
+        "start": 377.5,
+        "end": 806.88,
+        "reason": "全文已读；正文字幕覆盖区间，未含可跳或待定商业段。"
+      }
+    ],
+    "limitations": [
+      "仅完整阅读缓存口述字幕；未核验画面、商品卡或无字幕区间。",
+      "自动字幕可能有错字；边界以字幕起止为依据。"
+    ]
+  }
+}

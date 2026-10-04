@@ -1,0 +1,91 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "previous-blind-review",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "provenance": "../assistant-content-20261004/batch-*.json",
+  "record": {
+    "bvid": "BV1TnVb6bEwG",
+    "cid": 38691997000,
+    "duration": 617,
+    "fullTranscriptRead": true,
+    "videoSummary": "通过手机回溯录制项目解释帧缓冲、压缩能耗与链表适用场景，再介绍交通违规记录的用途及项目未落地；有Brilliant赞助声明和课程插播。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0.08,
+        "end": 2.4,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "只有一句独立赞助关系披露，没有展开推销，保留。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 2.4,
+            "text": "本视频由Brilliant赞助"
+          }
+        ],
+        "startUncertainty": [
+          0,
+          0.08
+        ],
+        "endUncertainty": [
+          2.4,
+          3.76
+        ]
+      },
+      {
+        "start": 431.27,
+        "end": 495.97,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "明确告知接下来广告，转入传统学习方式的铺垫，再完整介绍课程、手机学习、30天试用、订阅折扣和链接；497.17明确回到视频。428.7–431.15关于应用用途的问题保留为正文。",
+        "evidence": [
+          {
+            "from": 431.27,
+            "to": 443.63,
+            "text": "稍后我会通过Brilliant的广告说明 有一件事我们都知道 传统学习方式如读书未必最有效 但幸运的是 Brilliant来帮忙了"
+          },
+          {
+            "from": 482.72,
+            "to": 495.97,
+            "text": "可免费体验全部内容30天 并享受年度订阅20%折扣 通过访问Brilliant Org slash core dumped 扫描屏幕代码 或使用下方链接"
+          },
+          {
+            "from": 497.17,
+            "to": 507.84,
+            "text": "现在回到视频 这肯定发生过 你兴奋地开始录制 却发现自己忘了按录制按钮 此类帧缓冲提供第二次机会"
+          }
+        ],
+        "startUncertainty": [
+          431.15,
+          431.27
+        ],
+        "endUncertainty": [
+          495.97,
+          497.17
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.76,
+        "end": 431.15,
+        "reason": "回溯录制与链表、缓存、图像压缩的技术讲解。"
+      },
+      {
+        "start": 497.17,
+        "end": 616.04,
+        "reason": "交通录像应用、项目经历、技术总结和结尾互动。"
+      }
+    ],
+    "limitations": [
+      "仅完整缓存AI字幕，未观看画面，字幕翻译存在不顺处。",
+      "无字幕测试画面不被normalSpeechRanges认定为非广告；范围只使用实际字幕覆盖。"
+    ]
+  }
+}

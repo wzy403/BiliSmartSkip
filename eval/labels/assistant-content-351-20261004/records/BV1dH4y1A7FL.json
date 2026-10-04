@@ -1,0 +1,231 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1dH4y1A7FL",
+    "cid": 1519848915,
+    "duration": 934,
+    "fullTranscriptRead": true,
+    "videoSummary": "4月宏观经济推演，分析国内产业、黄金与全球降息，并推广plus内容及必剪AI声音工具。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 314.68,
+        "end": 319.09,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "简短提示债券分析另在plus，保留论述衔接。",
+        "evidence": [
+          {
+            "from": 313.0,
+            "to": 314.68,
+            "text": "其实告诉了我们很多信息"
+          },
+          {
+            "from": 314.68,
+            "to": 317.53,
+            "text": "那对债券市场的具体推演呢相对专业"
+          },
+          {
+            "from": 317.53,
+            "to": 319.09,
+            "text": "我们放到plus版里讲"
+          },
+          {
+            "from": 319.09,
+            "to": 321.91,
+            "text": "目前新发个人住房贷款的利率也已经达到"
+          }
+        ],
+        "startUncertainty": [
+          314.68,
+          314.68
+        ],
+        "endUncertainty": [
+          319.09,
+          319.09
+        ]
+      },
+      {
+        "start": 469.62,
+        "end": 474.06,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "简短plus内容预告，保留章节衔接。",
+        "evidence": [
+          {
+            "from": 468.1,
+            "to": 469.62,
+            "text": "实施了交易限额等等"
+          },
+          {
+            "from": 469.62,
+            "to": 471.93,
+            "text": "那具体对黄金未来走势的判断"
+          },
+          {
+            "from": 471.93,
+            "to": 474.06,
+            "text": "我们也放到plus版跟大家聊聊"
+          },
+          {
+            "from": 474.06,
+            "to": 476.28,
+            "text": "国内讲完我们聊下国际层面"
+          }
+        ],
+        "startUncertainty": [
+          469.62,
+          469.62
+        ],
+        "endUncertainty": [
+          474.06,
+          474.06
+        ]
+      },
+      {
+        "start": 848.599,
+        "end": 855.03,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "plus提示同时界定本段讨论范围，保留。",
+        "evidence": [
+          {
+            "from": 845.359,
+            "to": 848.599,
+            "text": "看来这个明面上的借口的确是有点假的离谱了"
+          },
+          {
+            "from": 848.599,
+            "to": 850.309,
+            "text": "至于耶伦到底想谈什么"
+          },
+          {
+            "from": 853.5,
+            "to": 855.03,
+            "text": "我们放到plus版里讲"
+          },
+          {
+            "from": 855.03,
+            "to": 856.59,
+            "text": "此外这里重点插播一下"
+          }
+        ],
+        "startUncertainty": [
+          848.599,
+          848.599
+        ],
+        "endUncertainty": [
+          855.03,
+          855.03
+        ]
+      },
+      {
+        "start": 899.47,
+        "end": 910.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文结束后的plus资产分析及资产负债表展示与开通推荐可独立跳过。",
+        "evidence": [
+          {
+            "from": 897.97,
+            "to": 899.47,
+            "text": "本期宏观推演就到这里"
+          },
+          {
+            "from": 899.47,
+            "to": 901.33,
+            "text": "plus版内容已经同时更新"
+          },
+          {
+            "from": 902.55,
+            "to": 905.52,
+            "text": "主要为内容补充以及各类资产月度分析"
+          },
+          {
+            "from": 909.02,
+            "to": 910.46,
+            "text": "感兴趣的粉丝开通"
+          }
+        ],
+        "startUncertainty": [
+          899.47,
+          899.47
+        ],
+        "endUncertainty": [
+          910.46,
+          910.46
+        ]
+      },
+      {
+        "start": 910.46,
+        "end": 930.17,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "片尾独立介绍B站提供AI音色及免费必剪工具的链接引流，447告别。",
+        "evidence": [
+          {
+            "from": 910.46,
+            "to": 911.12,
+            "text": "此外呢"
+          },
+          {
+            "from": 912.75,
+            "to": 916.23,
+            "text": "本期视频使用的是B站帮我做的专属AI声音"
+          },
+          {
+            "from": 917.67,
+            "to": 919.56,
+            "text": "感谢B站提供的技术支持"
+          },
+          {
+            "from": 926.46,
+            "to": 930.17,
+            "text": "必剪死丢丢体验完全免费链接在视频简介"
+          },
+          {
+            "from": 930.17,
+            "to": 931.74,
+            "text": "我们下期见拜拜"
+          }
+        ],
+        "startUncertainty": [
+          910.46,
+          910.46
+        ],
+        "endUncertainty": [
+          930.17,
+          930.17
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 899.47,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 930.17,
+        "end": 931.74,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

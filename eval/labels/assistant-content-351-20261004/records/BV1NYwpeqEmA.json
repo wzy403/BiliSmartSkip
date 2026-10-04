@@ -1,0 +1,75 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1NYwpeqEmA",
+    "cid": 27975749047,
+    "duration": 1328,
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾赛博朋克2077开发、首发争议和修复重生过程，中插北通鲲鹏20手柄。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 369.46,
+        "end": 482.16,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从玩家准备电脑外设迎接游戏的铺垫起，完整介绍北通手柄软硬件、底座及199元购买链接；231言归正传。",
+        "evidence": [
+          {
+            "from": 0.08,
+            "to": 1.78,
+            "text": "始为2012年的某一天"
+          },
+          {
+            "from": 369.46,
+            "to": 371.58,
+            "text": "许多人为了好好享受2077"
+          },
+          {
+            "from": 380.36,
+            "to": 382.32,
+            "text": "北通鲲鹏二零智控手柄"
+          },
+          {
+            "from": 476.1,
+            "to": 477.58,
+            "text": "仅需199即可入手"
+          },
+          {
+            "from": 482.16,
+            "to": 484.899,
+            "text": "呃呃言归正传"
+          }
+        ],
+        "startUncertainty": [
+          369.46,
+          369.46
+        ],
+        "endUncertainty": [
+          482.16,
+          482.16
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 369.46,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 482.16,
+        "end": 1327.22,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}

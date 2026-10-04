@@ -1,0 +1,202 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "record": {
+    "bvid": "BV1XoA7eBEdV",
+    "cid": 28479914753,
+    "duration": 1658,
+    "fullTranscriptRead": true,
+    "videoSummary": "三位iPhone用户挑选安卓手机参加30天挑战，比较尺寸、影像和生态；含dbrand手机壳与LTT电缆宣传。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 80.71,
+        "end": 99.69,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "回家对象双关进入dbrand防黄透明壳及网址，49介绍参与者。",
+        "evidence": [
+          {
+            "from": 0.04,
+            "to": 5.279,
+            "text": "当我最近尝试为对方球队踢球时，我发现了很多我喜欢的iPhone功能"
+          },
+          {
+            "from": 80.71,
+            "to": 83.449,
+            "text": "我知道我回家和谁"
+          },
+          {
+            "from": 85.369,
+            "to": 88.829,
+            "text": "正在强迫我告诉你零黄变透明壳"
+          },
+          {
+            "from": 108.28,
+            "to": 110.22,
+            "text": "让我们见见我们的三位参赛者"
+          }
+        ],
+        "startUncertainty": [
+          80.71,
+          80.71
+        ],
+        "endUncertainty": [
+          99.69,
+          108.28
+        ]
+      },
+      {
+        "start": 170.96,
+        "end": 175.77,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "参与者介绍中插入即将推出LTT电缆和商店网址，85转挑选流程。",
+        "evidence": [
+          {
+            "from": 169.44,
+            "to": 170.96,
+            "text": "他的奉献精神"
+          },
+          {
+            "from": 170.96,
+            "to": 174.47,
+            "text": "终于让我们的惊人的lt电缆活起来，即将到来"
+          },
+          {
+            "from": 174.47,
+            "to": 175.29,
+            "text": "Ltstore"
+          },
+          {
+            "from": 175.77,
+            "to": 177.579,
+            "text": "让他们进入商店"
+          }
+        ],
+        "startUncertainty": [
+          170.96,
+          170.96
+        ],
+        "endUncertainty": [
+          175.77,
+          175.77
+        ]
+      },
+      {
+        "start": 193.49,
+        "end": 201.55,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "短赞助声明并说明参赛手机贴膜安排，保留实验设置。",
+        "evidence": [
+          {
+            "from": 192.1,
+            "to": 193.49,
+            "text": "让我们看看它们选择了什么"
+          },
+          {
+            "from": 194.31,
+            "to": 195.91,
+            "text": "既然dbrand已经支付了我们"
+          },
+          {
+            "from": 198.23,
+            "to": 201.55,
+            "text": "发光电路皮肤，贴在参赛者的手机上"
+          },
+          {
+            "from": 201.55,
+            "to": 205.73,
+            "text": "你对任何安卓手机有多少了解，少于零"
+          }
+        ],
+        "startUncertainty": [
+          193.49,
+          193.49
+        ],
+        "endUncertainty": [
+          201.55,
+          201.55
+        ]
+      },
+      {
+        "start": 1611.33,
+        "end": 1643.25,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "结尾从永远保留手机转入手机壳终身防黄、耐刮及防摔宣传和网址，1025返回结束语。",
+        "evidence": [
+          {
+            "from": 1600.12,
+            "to": 1601.62,
+            "text": "当三十天到期"
+          },
+          {
+            "from": 1611.33,
+            "to": 1613.19,
+            "text": "就像dbrand的无色保护壳"
+          },
+          {
+            "from": 1623.02,
+            "to": 1625.3,
+            "text": "它使用了一种专有的防刮涂层"
+          },
+          {
+            "from": 1639.85,
+            "to": 1641.11,
+            "text": "现在去获取"
+          },
+          {
+            "from": 1643.25,
+            "to": 1644.41,
+            "text": "谢谢大家观看"
+          }
+        ],
+        "startUncertainty": [
+          1611.33,
+          1611.33
+        ],
+        "endUncertainty": [
+          1643.25,
+          1643.25
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 80.71,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 99.69,
+        "end": 170.96,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 175.77,
+        "end": 1611.33,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      },
+      {
+        "start": 1643.25,
+        "end": 1656.92,
+        "reason": "已完整阅读的主题正文；仅真实字幕覆盖有效。"
+      }
+    ],
+    "limitations": [
+      "仅审核缓存字幕；未核验画面、音轨或无字幕时段。"
+    ]
+  }
+}
