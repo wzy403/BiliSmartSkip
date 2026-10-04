@@ -1,0 +1,158 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles-with-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 296,
+    "inputLineSha256": "f27bd3bf39d1ac455dae997893ba2c32550bb489f0885a8b36fdc8de73e38c5b",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1zw4m1e7F8-1595932241.json",
+    "acquisitionSha256": "1bc483b924709ca3b700f2cb56f5732b87539a2fbb7d494f4fb8bd6811a9b4d5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zw4m1e7F8/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1zw4m1e7F8.json",
+    "transcriptSha256": "ac9fd07b1f2482d5e4a3db5a78ebf6e101cd8ebfde41155b7ea488c43df52783"
+  },
+  "record": {
+    "bvid": "BV1zw4m1e7F8",
+    "cid": 1595932241,
+    "duration": 478,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "薄荷黄油熟成牛肉实验：讲解封层、60天停电后的检查、烹调和味觉评分，中途插入意面促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 111.4,
+        "end": 170.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "牛肉吃多了想吃意面为独立广告开场，后续拼多多美食专场、多个口味、烹饪便利、低价试吃和链接优惠直到完整收尾，非薄荷熟成实验。",
+        "startUncertainty": [
+          110.66,
+          114
+        ],
+        "endUncertainty": [
+          170.3,
+          175.42
+        ],
+        "evidence": [
+          {
+            "from": 111.4,
+            "to": 111.8,
+            "text": "唉"
+          },
+          {
+            "from": 111.8,
+            "to": 112.56,
+            "text": "牛肉吃多了"
+          },
+          {
+            "from": 112.56,
+            "to": 114,
+            "text": "今天呢我想吃点意面"
+          },
+          {
+            "from": 114,
+            "to": 117.68,
+            "text": "前两天正好看到在拼多多国产美食专场上面"
+          },
+          {
+            "from": 117.68,
+            "to": 121.16,
+            "text": "放出了1万个名额的空客意面限时实时活动"
+          },
+          {
+            "from": 133.92,
+            "to": 136.12,
+            "text": "红酒香肠意面下锅煮熟"
+          },
+          {
+            "from": 147.8,
+            "to": 149.52,
+            "text": "现在赶上年终大促"
+          },
+          {
+            "from": 155.039,
+            "to": 157.34,
+            "text": "现在只要一块就能抢整整十盒"
+          },
+          {
+            "from": 159.92,
+            "to": 161.58,
+            "text": "现在点击视频下方链接"
+          },
+          {
+            "from": 161.58,
+            "to": 164.1,
+            "text": "或者是评论区置顶蓝色链接就可以抢了"
+          },
+          {
+            "from": 167.96,
+            "to": 170.3,
+            "text": "赶紧点击链接试试看吧"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已全文阅读198条可用字幕并实际查看三个缺口共49张指定时间画面；未听音频或逐帧/连续观看全片。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 198,
+      "firstIndex": 0,
+      "lastIndex": 197,
+      "allRowsRead": true
+    },
+    "visualObservations": {
+      "reviewer": "assistant-extra300-root",
+      "method": "实际查看全部7张接触表49帧，三个范围均每约2秒取帧；非逐帧/连续播放，未听音频。",
+      "media": {
+        "bvid": "BV1zw4m1e7F8",
+        "cid": 1595932241,
+        "page": 1,
+        "sourceUrl": "https://www.bilibili.com/video/BV1zw4m1e7F8/?p=1",
+        "checkedAt": "2026-10-04T23:43:31.411Z",
+        "responseSha256": "19d2455ef39762f9661ebdb692f51773d5a75ef0f0441b1dd4a87b4b8a765926",
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1zw4m1e7F8.mp4",
+        "sha256": "74e63d4d529913e2380a89d31f0fc906c453a36ecea40921f424ef1e286dfdc1",
+        "bytes": 35276006,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "av1",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac"
+            }
+          ],
+          "format": {
+            "duration": "477.589167"
+          }
+        },
+        "status": "downloaded-and-verified",
+        "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+      },
+      "frameIndexes": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/opening/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cutting_gap/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frames.json"
+      ],
+      "observations": [
+        "0–12秒开头为牛肉和烤制成品预览；200–226秒展示切开黄油壳及肉纹理，与熟成检查和品尝连续。",
+        "254–314秒为调味、炙烤、切块、码盘、淋酒点火和薄荷黄油融化的烹饪过程，属于本期熟成试验；未见独立广告画面或额外商品促销。"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV11iLJzWES7",
+  "cid": 29604710085,
+  "title": "川嘉和：我会降低关税，我会对中国很好，中美会幸福地生活在一起",
+  "duration": 901,
+  "desc": "委屈不能求全。忍让和迁就是不能感化一个心理变态的人的。迁就只能使暴力不断升级，让暴力成为一种习惯。卑躬屈膝没有退路，有害怕就没有自由。要么握手重归于好，要么分手重新开始。远离暴力，这是我们唯一的选择。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:53.118Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:14:46.863Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 2,
+    "inputLineSha256": "55a01f7c6293a93536431eef4b40d0e2d56832a0b867f44b192a543169ae7643",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV11iLJzWES7-29604710085.json",
+    "acquisitionSha256": "b78c42ebc90c0c1747a8b2c81ae14ea540493ffa7b0198ce84c77836bfcc38e6",
+    "sourceUrl": "https://www.bilibili.com/video/BV11iLJzWES7/?p=1"
+  }
+}

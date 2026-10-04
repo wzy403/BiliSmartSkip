@@ -1,0 +1,197 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 267,
+    "inputLineSha256": "da12cc9618b8184fada3293527e554fd0d58e9c3503d58490e8e9829585bf748",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1xeYV6AEKE-41778611044.json",
+    "acquisitionSha256": "af6529a3c514c2c45ddd4f9de9a8187895f37319f2b0715a9957915f1f1477ab",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xeYV6AEKE/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1xeYV6AEKE.json",
+    "transcriptSha256": "245e99d6c01aa7711c0b794369fdd0ff491b73a5bd88e5a5f243df5a3b7f0734"
+  },
+  "record": {
+    "bvid": "BV1xeYV6AEKE",
+    "cid": 41778611044,
+    "duration": 508,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "阅读全文238行。标题就是华为Mate XT 2非凡大师体验；开篇河神捡手机短剧引出四屏和防窥，再介绍折叠结构、屏幕、防窥、股市悬浮信息、多窗口音量/分享、心电及相机样片，结尾总结优点并请观众评论是否喜欢。整期有明显具名新品宣传结构和品牌赞美，但产品功能体验正是标题主题，不能整期跳过；没有另外插入其他销售广告。尊界S800、一点点、英伟达等属于短剧/功能示例。字幕3.5–507.07秒覆盖508秒，未视听核验，商务关系未知。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 3.5,
+        "end": 499.19,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "整期从为卖点设计的河神/防窥短剧到正面功能演示与品牌收束均具有产品宣传结构，保存广告性质而不推定合作合同；标题明确该手机体验，折叠、系统、镜头与使用场景均是观看目标，应完整保留，末尾会不会买是观众讨论而非独立下单引流。",
+        "evidence": [
+          {
+            "from": 3.5,
+            "to": 5.88,
+            "text": "啊怎么不跳上去了"
+          },
+          {
+            "from": 16.239,
+            "to": 18.539,
+            "text": "就是手机有四块屏幕"
+          },
+          {
+            "from": 45.02,
+            "to": 47,
+            "text": "他有灵顿防窥屏"
+          },
+          {
+            "from": 60.649,
+            "to": 64.449,
+            "text": "是那种我自己能看到别人看不到的防窥啊"
+          },
+          {
+            "from": 111.82,
+            "to": 116.38,
+            "text": "因捡到一台华为mate xt2非凡大师后拒不归还"
+          },
+          {
+            "from": 140.38,
+            "to": 142.14,
+            "text": "这就是华为最新的三折叠"
+          },
+          {
+            "from": 142.14,
+            "to": 145.789,
+            "text": "华为mate xt2非凡大师真是顶啊"
+          },
+          {
+            "from": 156.95,
+            "to": 159.99,
+            "text": "这次在外观上最大的改变就是折叠方式"
+          },
+          {
+            "from": 163.44,
+            "to": 165.74,
+            "text": "而且如果你真的不小心折错了"
+          },
+          {
+            "from": 231.71,
+            "to": 234.51,
+            "text": "因为我们这台还是灵顿防窥屏的版本"
+          },
+          {
+            "from": 236.26,
+            "to": 238.44,
+            "text": "双击两下外屏即可打开防窥"
+          },
+          {
+            "from": 247.55,
+            "to": 251.2,
+            "text": "呃他手里拿着新发布的华为mate x d2"
+          },
+          {
+            "from": 282.54,
+            "to": 284.78,
+            "text": "你操针对这块大屏"
+          },
+          {
+            "from": 300.45,
+            "to": 302.289,
+            "text": "现在还新增了悬浮窗"
+          },
+          {
+            "from": 337.6,
+            "to": 340.36,
+            "text": "鸿蒙七能够分开独立调节不同应用的音量"
+          },
+          {
+            "from": 381.79,
+            "to": 383.92,
+            "text": "还支持了ECG心电分析"
+          },
+          {
+            "from": 411.44,
+            "to": 414.289,
+            "text": "我愿称之为最强折叠影像旗舰"
+          },
+          {
+            "from": 427.32,
+            "to": 429.039,
+            "text": "我们直接来看你样片"
+          },
+          {
+            "from": 463.66,
+            "to": 466.36,
+            "text": "从华为mate xt2非凡大师就可以看出"
+          },
+          {
+            "from": 472.84,
+            "to": 474.32,
+            "text": "没有华为做不出来的"
+          },
+          {
+            "from": 483.079,
+            "to": 485.82,
+            "text": "真是一绝又好用又实用"
+          },
+          {
+            "from": 492.21,
+            "to": 495.61,
+            "text": "那么大家觉得华为mate x t2非凡大师怎么样呢"
+          },
+          {
+            "from": 495.61,
+            "to": 496.43,
+            "text": "喜欢吗"
+          },
+          {
+            "from": 496.43,
+            "to": 497.27,
+            "text": "会买吗"
+          },
+          {
+            "from": 497.27,
+            "to": 499.19,
+            "text": "欢迎在弹幕或者评论区留言"
+          },
+          {
+            "from": 499.19,
+            "to": 501.89,
+            "text": "OK那么本期视频就到此结束了"
+          }
+        ],
+        "startUncertainty": [
+          0,
+          3.5
+        ],
+        "endUncertainty": [
+          499.19,
+          499.19
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 499.19,
+        "end": 507.07,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 238,
+      "firstIndex": 0,
+      "lastIndex": 237,
+      "allRowsRead": true
+    }
+  }
+}

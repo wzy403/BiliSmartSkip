@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1vi2LY4E6G",
+  "cid": 26190875355,
+  "title": "【熟肉】哪个AI能最快速通MC？",
+  "duration": 1291,
+  "desc": "原视频链接：https://www.youtube.com/watch?v=1Sf437NKUPs\n原作者： Wifies",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:10:48.247Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:30:56.836Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 254,
+    "inputLineSha256": "2170ad3d99a72d8df570840951c0218afebd509add40227d6a9d3eeef3f6d514",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1vi2LY4E6G-26190875355.json",
+    "acquisitionSha256": "d491c63a31cec06c666721d056a075e3a9d5167843eb1166850dc7ae16a2de30",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vi2LY4E6G/?p=1"
+  }
+}

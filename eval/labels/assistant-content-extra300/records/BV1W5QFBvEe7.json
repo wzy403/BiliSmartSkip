@@ -1,0 +1,182 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 257,
+    "inputLineSha256": "c1fde9e1bbf5fba5507fe353de4770a8c6038002fdaa26aad85aedb64c99b600",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1W5QFBvEe7-37385866413.json",
+    "acquisitionSha256": "24658b997e7a793920e968fc3b987f2814866a2fb3e5f796fceee7b9ed8a3efa",
+    "sourceUrl": "https://www.bilibili.com/video/BV1W5QFBvEe7/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1W5QFBvEe7.json",
+    "transcriptSha256": "ce3f8da1406767044787186be8ef3023dd4942679b63eb908e4a83759f59e435"
+  },
+  "record": {
+    "bvid": "BV1W5QFBvEe7",
+    "cid": 37385866413,
+    "duration": 707,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "完整读412行。内容介绍日本御柱祭的程序、死伤事件、诉讼及信仰/男子汉身份/社区传承与现代安全的冲突，首尾为同一民俗评论。开篇引题后独立插入海洋至尊乳液与洁面推广。字幕0.06–705.52秒覆盖707秒时长，段落间最长约6秒空白，未视听核验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 66.66,
+        "end": 125.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从天气热、早洗脸中午出油的痛点开始，明示品牌寄送，推介乳液质地与实验数值，再带洁面销量、评论区专属优惠和试用退货保证；完整独立护肤广告应跳。",
+        "evidence": [
+          {
+            "from": 56.96,
+            "to": 60.33,
+            "text": "用生命延续着这场威胁的信仰狂欢"
+          },
+          {
+            "from": 66.66,
+            "to": 68.3,
+            "text": "眼看天气是越来越热了"
+          },
+          {
+            "from": 68.3,
+            "to": 69.64,
+            "text": "不知道各位有没有和我一样"
+          },
+          {
+            "from": 70.38,
+            "to": 72.16,
+            "text": "不到中午就油的一塌糊涂了"
+          },
+          {
+            "from": 72.16,
+            "to": 75.02,
+            "text": "最近海洋至尊就给我寄了这支多效修护焕能乳"
+          },
+          {
+            "from": 83.78,
+            "to": 85.32,
+            "text": "新升级添加了核心成分"
+          },
+          {
+            "from": 90.04,
+            "to": 92.92,
+            "text": "他的油脂分泌改善量达到了60.05%"
+          },
+          {
+            "from": 96.12,
+            "to": 97.14,
+            "text": "二一瓶就顶了"
+          },
+          {
+            "from": 102.74,
+            "to": 104.36,
+            "text": "如果你想有更好的护肤效果"
+          },
+          {
+            "from": 107.5,
+            "to": 110.4,
+            "text": "全网累计热销650万平的三棱镜洁面了"
+          },
+          {
+            "from": 110.4,
+            "to": 112.92,
+            "text": "我每天都在使用大油皮亲测适配"
+          },
+          {
+            "from": 116.76,
+            "to": 118.64,
+            "text": "那现在就点击我评论区置顶链接"
+          },
+          {
+            "from": 118.64,
+            "to": 120.46,
+            "text": "品牌方为咱们设置了专属通道"
+          },
+          {
+            "from": 120.46,
+            "to": 121.9,
+            "text": "下单即可领大额优惠券"
+          },
+          {
+            "from": 121.9,
+            "to": 123.52,
+            "text": "并享受30天免费试用"
+          },
+          {
+            "from": 123.52,
+            "to": 125.58,
+            "text": "体验后觉得不满意都可以随时退哦"
+          },
+          {
+            "from": 125.58,
+            "to": 127.76,
+            "text": "先说说玉柱机到底是怎么一回事吧"
+          }
+        ],
+        "startUncertainty": [
+          60.33,
+          66.66
+        ],
+        "endUncertainty": [
+          125.58,
+          125.58
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.06,
+        "end": 60.33,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 125.58,
+        "end": 179.9,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 180.78,
+        "end": 263.04,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 268.78,
+        "end": 464.7,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 466.36,
+        "end": 518.76,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 525.2,
+        "end": 664.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 668.14,
+        "end": 705.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 412,
+      "firstIndex": 0,
+      "lastIndex": 411,
+      "allRowsRead": true
+    }
+  }
+}

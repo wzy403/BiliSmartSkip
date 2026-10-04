@@ -1,0 +1,100 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 36,
+    "inputLineSha256": "8fbaba5c1f6ff69f070315715aef143c5ae0be688f6d53fcfd2095a7ab2bbb68",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV17uN9zyEyW-30632772572.json",
+    "acquisitionSha256": "0ac125b959349250af3359bd1ff9c56a0fe7ddb13f1374b4cb9335b7c09c5c02",
+    "sourceUrl": "https://www.bilibili.com/video/BV17uN9zyEyW/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV17uN9zyEyW.json",
+    "transcriptSha256": "1b0f5fba20977dcc5e26f2a51878cbf45fb60c641a8b098a36f18b4ca8b4cfc6"
+  },
+  "record": {
+    "bvid": "BV17uN9zyEyW",
+    "cid": 30632772572,
+    "duration": 393,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "游戏实况笑点混剪，主体为角色变身、逃跑、击杀反应、重复梗及歌曲音效。160.2秒突然向退坑/入坑观众导流主页或置顶评论，承诺速度和主播担保安全；168.2秒以后恢复游戏反应与歌曲。字幕未说清服务名称，但这段引流和服务保证形成独立商业推介。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 160.2,
+        "end": 168.2,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "游戏行动台词转为面向观众的主页/置顶评论引流，并用出入速度与主播担保安全招徕，随后恢复游戏对白。服务名称未由字幕明确，保留此识别局限。",
+        "startUncertainty": [
+          160.2,
+          161.44
+        ],
+        "endUncertainty": [
+          168.2,
+          170.98
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 156.47,
+            "to": 160.2,
+            "text": "变身不死来人了"
+          },
+          {
+            "from": 160.2,
+            "to": 161.44,
+            "text": "想偷看入坑的彦祖"
+          },
+          {
+            "from": 161.44,
+            "to": 163.66,
+            "text": "可以看看主播主页或置顶评论"
+          },
+          {
+            "from": 163.66,
+            "to": 164.78,
+            "text": "不仅出入神速"
+          },
+          {
+            "from": 164.78,
+            "to": 166.28,
+            "text": "而且各大主播担保安全"
+          },
+          {
+            "from": 166.28,
+            "to": 168.2,
+            "text": "放心冲就完了"
+          },
+          {
+            "from": 170.98,
+            "to": 174,
+            "text": "我不死哇"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "全文重新复核后，160.2–168.2秒主页/置顶评论导流和安全担保可确认推广，但其具体服务名称及160.2秒前的衔接在字幕中不清楚，需要看听该段。",
+      "片尾267.02–287.01、335.405–355.56秒及370.77–393秒缺字幕，其余后半多为误识歌词/游戏声音；需视听这些段落，不能以全文读完字幕替代全片内容判断。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "游戏混剪有空白字幕和大量歌曲/识别失真；只确认字幕内可辨识的商业引流，不推断无声画面。",
+      "完整重读114行后保留已经确认的促销片段，但撤回仅字幕即可完成全片审核的状态；没有进行视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 114,
+      "firstIndex": 0,
+      "lastIndex": 113,
+      "allRowsRead": true
+    }
+  }
+}

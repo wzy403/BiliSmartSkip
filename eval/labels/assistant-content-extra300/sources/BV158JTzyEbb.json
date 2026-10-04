@@ -1,0 +1,26 @@
+{
+  "bvid": "BV158JTzyEbb",
+  "cid": 30016409290,
+  "title": "毒驾女子撞飞警员，遭警员开11枪当场击毙！EP360",
+  "duration": 821,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:14:31.352Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:14:58.641Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 21,
+    "inputLineSha256": "8e4d78f384416991799c7d9d1e48dde8bef4d616036b0dc754405dd3fda0fbbd",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV158JTzyEbb-30016409290.json",
+    "acquisitionSha256": "1ef1275846674ebec60137eb80b0058774ec0049058cf98b7b92056204d036f0",
+    "sourceUrl": "https://www.bilibili.com/video/BV158JTzyEbb/?p=1"
+  }
+}

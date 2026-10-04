@@ -1,0 +1,62 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": null,
+  "modality": "not-reviewed",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 287,
+    "inputLineSha256": "62eb6df4225dea9e9d885d8a506fdd7483d1e2c56d115bab0e91790e1313c18f",
+    "acquisitionFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "acquisitionSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yvfxBhEhY/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1yvfxBhEhY.json",
+    "transcriptSha256": "bc3b02bb48aab9fd0c0ac8f76674ad124420a9dabe9ddd48a67d43085d00adcb"
+  },
+  "record": {
+    "bvid": "BV1yvfxBhEhY",
+    "cid": 36276733769,
+    "duration": 328.539,
+    "reviewStatus": "needs-source",
+    "fullTranscriptRead": false,
+    "videoSummary": null,
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+      "公开元数据或BV/CID身份核验尚未成功。",
+      "元数据补采诊断：公开页补采返回了原 BV，但原 CID 36276733769 不在当前分 P 列表；当前列出的 CID 为 36526818658。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+    ],
+    "limitations": [
+      "助手内容参考；尚未完成内容审核，未观看视频或听取音频。"
+    ]
+  },
+  "metadataRecovery": {
+    "kind": "identity-recovery-diagnostic-not-content-review",
+    "file": "eval/labels/assistant-content-extra300/acquisition/metadata/metadata-recovery-summary.json",
+    "sha256": "f7e4548996a67b22bc267072f629a95404f2db8b2949af9658126edab11008ad",
+    "inputLine": 287,
+    "bvid": "BV1yvfxBhEhY",
+    "cid": 36276733769,
+    "attemptedAt": "2026-10-04T23:00:33.724Z",
+    "method": "anonymous-public-page-metadata-only-existing-initialState-parser",
+    "url": "https://www.bilibili.com/video/BV1yvfxBhEhY/",
+    "status": "unresolved",
+    "httpStatus": 200,
+    "responseSha256": "56b132c7d03cb35dbcbe7a13de8ba110b179806126d0f2544c1af50988981950",
+    "reason": "requested-cid-not-present-in-video",
+    "returnedBvid": "BV1yvfxBhEhY",
+    "availableCids": [
+      {
+        "cid": 36526818658,
+        "page": 1,
+        "duration": 329
+      }
+    ],
+    "limitation": "仅元数据与身份补采诊断，未读取社区广告标签或作为内容审核；原 BV/CID 保持不变。"
+  }
+}

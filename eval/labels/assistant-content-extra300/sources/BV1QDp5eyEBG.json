@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1QDp5eyEBG",
+  "cid": 25796414692,
+  "title": "星舰爆炸进化史！全面回顾研制和测试历程！",
+  "duration": 535,
+  "desc": "爆炸！爆炸！爆炸！星舰在爆炸中自我完善！星舰为什么总是炸？即将到来的第五飞叠加回收新buff，会不会还是炸？今日主题，复习！按照马斯克膨胀过的时间来算，星舰第五飞应该就在九月。为了更好观看，咱们先来复习之前的星舰爆炸史。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:07:08.182Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:24:36.883Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 199,
+    "inputLineSha256": "7eaa46e63f282e1c8450dec4e4116a53401e316a6b35d3a67ec58893dc72d6b7",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1QDp5eyEBG-25796414692.json",
+    "acquisitionSha256": "d52e68386e861fb5193f1d48ec7207811933d158bfa1101f7eb04549354ec90a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1QDp5eyEBG/?p=1"
+  }
+}

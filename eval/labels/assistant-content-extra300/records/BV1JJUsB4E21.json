@@ -1,0 +1,548 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 136,
+    "inputLineSha256": "afa00ebfb7de3bb6f80184670bc8a94e4d3b6382feba9d41b6a9c8f49b734c7e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1JJUsB4E21-34184760275.json",
+    "acquisitionSha256": "f9fc9bfe8946255a03d5271aa574dea38007b06d982602378479ca8a66cd269e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JJUsB4E21/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1JJUsB4E21.json",
+    "transcriptSha256": "dafe708bf4059b22f85923ef299656606033f5f9ef01cf788ab2bbabc7e7025d"
+  },
+  "record": {
+    "bvid": "BV1JJUsB4E21",
+    "cid": 34184760275,
+    "duration": 1558,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "Linux周新闻依次讨论NVIDIA开源驱动、DRM与Wayland标准、欧盟数字隐私提案、KDE账户集成、Zorin下载、Mozilla浏览自动化API争议、Mastodon组织变动、Steam运行时和Proton兼容进展。开头有Squarespace网站建设赞助，末尾有Tuxedo Linux电脑赞助以及频道支持链接/附加福利号召。主体中的软件公司及收费API是新闻与批评对象，应保留。实际查看无字幕片尾，1518.517–1524.023秒另显示Patreon付费支持链接，其后为Mastodon账号、节目推荐位和支持者署名滚动。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 42.009,
+        "end": 120.639,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确宣布赞助商信息后介绍Squarespace模板、SEO、拖拽设计、支付、Logo与域名，提供专属链接及首单折扣，之后开始NVIDIA新闻；完整独立赞助。",
+        "startUncertainty": [
+          42.009,
+          42.009
+        ],
+        "endUncertainty": [
+          120.639,
+          120.959
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 39.409,
+            "to": 42.009,
+            "text": "网络浏览器和Linux游戏"
+          },
+          {
+            "from": 42.009,
+            "to": 44.36,
+            "text": "我们还有一段赞助商信息"
+          },
+          {
+            "from": 44.36,
+            "to": 46.92,
+            "text": "这段视频由Squarespace赞助"
+          },
+          {
+            "from": 52.05,
+            "to": 56.71,
+            "text": "他们提供了超级易用的工具打造在线形象"
+          },
+          {
+            "from": 58.72,
+            "to": 60.88,
+            "text": "他们推出了蓝图系统"
+          },
+          {
+            "from": 69.959,
+            "to": 74.28,
+            "text": "所有模板都优化了SEO效果"
+          },
+          {
+            "from": 84.099,
+            "to": 87.879,
+            "text": "Squarespace有自己的设计引擎"
+          },
+          {
+            "from": 98.65,
+            "to": 104.29,
+            "text": "可添加在线商店等功能，集成信用卡支付系统"
+          },
+          {
+            "from": 106.43,
+            "to": 110.73,
+            "text": "甚至可设计专属Logo并注册域名"
+          },
+          {
+            "from": 110.73,
+            "to": 112.35,
+            "text": "立即访问Squarespace"
+          },
+          {
+            "from": 112.76,
+            "to": 114.1,
+            "text": "Slash the Linux Experiment"
+          },
+          {
+            "from": 114.1,
+            "to": 116.14,
+            "text": "或点击描述中的链接"
+          },
+          {
+            "from": 116.14,
+            "to": 120.639,
+            "text": "首单网站或域名享10%折扣"
+          },
+          {
+            "from": 120.959,
+            "to": 121.379,
+            "text": "好的"
+          },
+          {
+            "from": 121.379,
+            "to": 123.339,
+            "text": "现在让我们开始聊NVIDIA"
+          }
+        ]
+      },
+      {
+        "start": 1438.35,
+        "end": 1486.1,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "用Steam机器不适合、想换电脑作铺垫，转到明确赞助商Tuxedo，宣传预装Linux、配置、定制和个人信任，最后引导描述链接，与前面的游戏兼容新闻分开。",
+        "startUncertainty": [
+          1438.35,
+          1438.35
+        ],
+        "endUncertainty": [
+          1486.1,
+          1486.5
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1433.83,
+            "to": 1438.35,
+            "text": "或许开发者那时会意识到应该让玩家参与"
+          },
+          {
+            "from": 1438.35,
+            "to": 1440.47,
+            "text": "如果 Steam 机器不吸引你"
+          },
+          {
+            "from": 1440.47,
+            "to": 1442.03,
+            "text": "但你想换台新电脑"
+          },
+          {
+            "from": 1442.03,
+            "to": 1443.51,
+            "text": "那就看看我们的赞助商"
+          },
+          {
+            "from": 1443.51,
+            "to": 1444.09,
+            "text": "Tuxedo"
+          },
+          {
+            "from": 1444.48,
+            "to": 1448.02,
+            "text": "Tuxedo 是唯一我信赖的品牌"
+          },
+          {
+            "from": 1448.64,
+            "to": 1450.48,
+            "text": "他们生产笔记本和台式机"
+          },
+          {
+            "from": 1450.48,
+            "to": 1452.32,
+            "text": "预装 Linux 系统"
+          },
+          {
+            "from": 1453.14,
+            "to": 1457.56,
+            "text": "就知道 Linux 在这些设备上会运行得非常流畅"
+          },
+          {
+            "from": 1461.89,
+            "to": 1464.9,
+            "text": "无论你需要小巧实惠的机型"
+          },
+          {
+            "from": 1469.3,
+            "to": 1471.64,
+            "text": "他们提供各种硬件配置"
+          },
+          {
+            "from": 1471.64,
+            "to": 1473.14,
+            "text": "丰富的定制选项"
+          },
+          {
+            "from": 1475.17,
+            "to": 1476.55,
+            "text": "我只用他们的产品"
+          },
+          {
+            "from": 1478.75,
+            "to": 1482.4,
+            "text": "他们已赞助频道三年多"
+          },
+          {
+            "from": 1483.44,
+            "to": 1486.1,
+            "text": "链接在描述中"
+          },
+          {
+            "from": 1486.1,
+            "to": 1486.5,
+            "text": "好的"
+          },
+          {
+            "from": 1486.5,
+            "to": 1488.02,
+            "text": "今天的视频到此结束"
+          }
+        ]
+      },
+      {
+        "start": 1506.14,
+        "end": 1512.82,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "点赞评论的普通结语后另提描述内支持频道链接和附加福利，属于独立外部支持/会员推广；具体服务名称未在此字幕中展开。",
+        "startUncertainty": [
+          1504.9,
+          1506.14
+        ],
+        "endUncertainty": [
+          1512.82,
+          1512.82
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1503.42,
+            "to": 1504.9,
+            "text": "你知道该怎么做"
+          },
+          {
+            "from": 1504.9,
+            "to": 1506.14,
+            "text": "以及为什么重要"
+          },
+          {
+            "from": 1506.14,
+            "to": 1509.3,
+            "text": "描述中还有支持频道的链接"
+          },
+          {
+            "from": 1509.3,
+            "to": 1512.82,
+            "text": "如果你想获得附加福利"
+          },
+          {
+            "from": 1512.82,
+            "to": 1514.88,
+            "text": "感谢大家观看或收听"
+          }
+        ]
+      },
+      {
+        "start": 1518.517,
+        "end": 1524.023,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_0.5s",
+        "reason": "告别后另一个可分离的视觉Patreon支持推广，持续显示付费支持网址，至网址消失并转Mastodon及署名时结束。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1517.016,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-001.jpg",
+            "sha256": "25dc3a6f7427db41fc23c56a509d04301e1f10ef9a68a6bf2c0543185326e1af",
+            "observation": "主持人告别与手势。"
+          },
+          {
+            "time": 1517.516,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-002.jpg",
+            "sha256": "f7f4172891fdf617003e2409cf18638af9bb17fed50306ed2ff8737c96b1cfed",
+            "observation": "主持人告别与手势。"
+          },
+          {
+            "time": 1518.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-003.jpg",
+            "sha256": "73ff63c9d4a750cc84cb06714f8f95c30138e58c1ff65c0cd179f6b676056aa5",
+            "observation": "主持人告别与手势。"
+          },
+          {
+            "time": 1518.517,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-004.jpg",
+            "sha256": "4ca872e228060d2949d269b843b076c39f8961742fcffc764fec1f8457c9c322",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1519.018,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-005.jpg",
+            "sha256": "0144ab8b6599d5fd0ac634bb552f5755d0806acde221dc3f4cd8464124bf5239",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1519.518,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-006.jpg",
+            "sha256": "448e76dfd00504c6c45db645791008f7af133f093f8a6c289734ba404c17d74c",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1520.019,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-007.jpg",
+            "sha256": "b54173f2c39aceb5a23af80ddf0a1580add56f2c3b4b721c2ddb3adb85120db6",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1520.519,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-008.jpg",
+            "sha256": "9aff6c8b3e067dd631e3f4d911c7bc92f2dbdd6581d61ab5982210040a014914",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1521.02,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-009.jpg",
+            "sha256": "6fdfd2036e54a7db1c8e1c5412001178cbaff7db7cc9cb343f54bfd81b22647f",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1521.52,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-010.jpg",
+            "sha256": "ccd4a75eb78781213e185f3374fc4310de621738d1b6db2d9ceeb0ecc21a4c90",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1522.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-011.jpg",
+            "sha256": "fea4d48fcd044ec580dc2c6f18f665b455bfaa2c426e60ecc20143ea4d090b34",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1522.521,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-012.jpg",
+            "sha256": "a7a4c24705200b306da5839e4f00d83f4278a57bfb7b3efd4c9ae14710c7870f",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1523.022,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-013.jpg",
+            "sha256": "1de23b0a3fba47551dfa0c93d8df64718e4d00fdff347c175c4af849943b0004",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1523.522,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-014.jpg",
+            "sha256": "79f385b038f369890f7fe9c966eb105f4810721e1803d3b2ad8d8d89922b8650",
+            "observation": "节目片尾动画，显著显示Patreon标志和patreon.com/thelinuxexperiment付费支持链接。"
+          },
+          {
+            "time": 1524.023,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-015.jpg",
+            "sha256": "04dd97cb398e3338e52df4ab738c4edd2927440e0d881273eb41dd11ae278020",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          },
+          {
+            "time": 1524.523,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-016.jpg",
+            "sha256": "a118c5836c18c66900ba5f318d247ab046468253fb679504a0bffbb81ba1f5a7",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          },
+          {
+            "time": 1525.024,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-017.jpg",
+            "sha256": "99338522a98b5b950c590aeef4c9283643200a00e9d2abe8f605cedd072fed6b",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          },
+          {
+            "time": 1525.524,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-018.jpg",
+            "sha256": "e059b037f64383b14566e1501420422188a2e4075d75b583bd16a838b2263071",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          }
+        ],
+        "startUncertainty": [
+          1518.017,
+          1518.517
+        ],
+        "endUncertainty": [
+          1523.522,
+          1524.023
+        ]
+      },
+      {
+        "start": 1524.023,
+        "end": 1557.12,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_2s",
+        "reason": "后续片尾为社交账号、看更多视频提示和Linux Researchers支持者名单/感谢，属于频道结尾和署名，未见新增具体商品或付费行动号召，保留。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1525.024,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-007.jpg",
+            "sha256": "99338522a98b5b950c590aeef4c9283643200a00e9d2abe8f605cedd072fed6b",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          },
+          {
+            "time": 1527.026,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-008.jpg",
+            "sha256": "1f505642f575ac65c10e8ff7d92eab142be8b2ace560e3be9c540881a64221c8",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          },
+          {
+            "time": 1529.028,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-009.jpg",
+            "sha256": "7a4c09971f15ac4a9979179de858ed7d47f77368aa9f63b04cbea853cfefd0bf",
+            "observation": "片尾显示Mastodon账号、WATCH MORE VIDEOS与LINUX RESEARCHERS署名。"
+          },
+          {
+            "time": 1531.03,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-010.jpg",
+            "sha256": "bcf7ec07b0b350b41c3c024569320df11d5a02926d4fd931031d18a829656643",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1533.032,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-011.jpg",
+            "sha256": "0cba9a7ef9af59a7662a0ff5ac40372d37947187210e383dce9b43362ae1b772",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1535.034,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-012.jpg",
+            "sha256": "148e4f4e0f2e1511a5e88ee3ea019306592cda6599a25367383b0189abcf25e8",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1537.036,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-013.jpg",
+            "sha256": "01330c1cdeea83b2257d6c6a7348fb4b3deb42d21cce7aa03b8a3d849936ade4",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1539.038,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-014.jpg",
+            "sha256": "9af19c7850ab195eee97fb2e1cb06708daaf37b2546ecdf6e9966d20cfcc52ed",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1541.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-015.jpg",
+            "sha256": "2aa4de4ac92daa7ba3a0a27c677e987f2755eee178be0849b4631560e45379b3",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1543.042,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-016.jpg",
+            "sha256": "927025b41f55fff37e3936979c9cb9c38b34d2796c342c12407dfdb935424ba9",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1545.044,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-017.jpg",
+            "sha256": "5d6bc9f877bda1339a48da4fb5b6dd6c7fc78559877e8109b210c5d838d9cba4",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1547.046,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-018.jpg",
+            "sha256": "594683e645303c1a43bce1d98cbd14f9890fc22d19585ba882c532f434b8f0b2",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1549.048,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-019.jpg",
+            "sha256": "e93f7bd76eaa20da54343f6a915d944348f2aa575038fbdd46e5a061e1057b8e",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1551.05,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-020.jpg",
+            "sha256": "41d6851d7e6d5c0645929675a32c33dcfca21159c71f93b8d99b59ec032a74ae",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1553.052,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-021.jpg",
+            "sha256": "c6d850b8b4deca9f5abd1a2782fa203cbfcb2f7d717d5919a6fa2ba6b2ee52ee",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1555.054,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-022.jpg",
+            "sha256": "b1db14663ba8038d634e675303a767bad47b04d97105227a00f0efdd83db8f8e",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          },
+          {
+            "time": 1557.056,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-023.jpg",
+            "sha256": "5f1d46544be7ae8610f84db37cb095a479cc35b646efb4ef27193d74d790db74",
+            "observation": "持续滚动LINUX RESEARCHERS支持者名单及感谢信息，无新增商品或付费行动号召。"
+          }
+        ],
+        "startUncertainty": [
+          1523.522,
+          1524.523
+        ],
+        "endUncertainty": [
+          1557.056,
+          1558
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "中文字幕为翻译，部分软件名称/版本错译；这不改变已确认赞助段，但不视为技术新闻事实核验。",
+      "已阅读全文546行并实际查看1513.012–1557.056秒每约2秒23张、1517.016–1525.524秒每约0.5秒18张，共41张画面；未听音频，不是逐帧核验。原标称1558秒，公开媒体实长1557.120秒，保留约0.88秒时长差。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 546,
+      "firstIndex": 0,
+      "lastIndex": 545,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:43:43.824Z",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1JJUsB4E21.mp4",
+      "mediaSha256": "802e6d785a0dda4a87aa22e6704121a473aad62532f9dbd9df06c1433a59f2fc",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1JJUsB4E21-verified.json",
+      "frameManifests": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frames.json"
+      ],
+      "framesActuallyViewed": 41,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  }
+}

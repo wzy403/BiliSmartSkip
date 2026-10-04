@@ -1,0 +1,170 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 138,
+    "inputLineSha256": "bde8f9fed4b4da546739442f0978e517b0ea377d063c031cb2c6dd3b6e6d7886",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1JLsjeNEr8-500001662574721.json",
+    "acquisitionSha256": "489de0d422ae43e783a63b39c9a78b0cb72008a7e8c3d64acbd3c3cd5610acef",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JLsjeNEr8/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1JLsjeNEr8.json",
+    "transcriptSha256": "edf37625392ca902212ec7317d2a14a28ee4df40624c7252e30180a58c91c194"
+  },
+  "record": {
+    "bvid": "BV1JLsjeNEr8",
+    "cid": 500001662574721,
+    "duration": 743,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "军事装备介绍围绕瑞典维斯比级护卫舰的尺寸造价、冷战防御需求、原型试验和采购缩减，解释船体材料、隐身外形、推进、武备、人员生活及瑞典海军规模和北约背景。推进系统之后以熬夜写稿导致脸油、痘痘黑头引入溪木源男士洁面和洗护套装推广，后回到舰艇火力。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 431.72,
+        "end": 509.62,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从赶稿出油长痘个人困扰开始，推荐溪木源洁面乳、控油成分、木质香沐浴露、去屑洗发水、报告和榜单，最后置顶领券、售后及别错过号召。完整独立洗护推广，不能只标领券收尾。",
+        "startUncertainty": [
+          429.789,
+          431.72
+        ],
+        "endUncertainty": [
+          509.62,
+          510.06
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 426.129,
+            "to": 429.789,
+            "text": "特别适合瑞典海军的近岸潜水操作环境"
+          },
+          {
+            "from": 431.72,
+            "to": 434.34,
+            "text": "前段时间天天对着电脑熬夜赶稿"
+          },
+          {
+            "from": 434.34,
+            "to": 435.36,
+            "text": "脸经常会油"
+          },
+          {
+            "from": 435.36,
+            "to": 437.14,
+            "text": "这豆豆黑头都疯狂找上了门"
+          },
+          {
+            "from": 437.14,
+            "to": 438.22,
+            "text": "这里给大家推荐一款"
+          },
+          {
+            "from": 438.22,
+            "to": 441.26,
+            "text": "我最近一直在用的溪木源男士控油洁面乳"
+          },
+          {
+            "from": 446.26,
+            "to": 448.58,
+            "text": "携手清华珠三角研究院新桂园"
+          },
+          {
+            "from": 448.58,
+            "to": 451.95,
+            "text": "专为男性调配的六比三比一强清洁氨基酸体系"
+          },
+          {
+            "from": 457.38,
+            "to": 460.23,
+            "text": "另外专研的极光黑云山控油精粹"
+          },
+          {
+            "from": 464.47,
+            "to": 466.01,
+            "text": "夏天除了把脸洗干净"
+          },
+          {
+            "from": 466.01,
+            "to": 468.15,
+            "text": "保持身上的干净清爽也同样重要"
+          },
+          {
+            "from": 468.15,
+            "to": 471.05,
+            "text": "像我就是搭配使用这款男士洗护套装"
+          },
+          {
+            "from": 477.409,
+            "to": 480.569,
+            "text": "他这套一经推出就登顶了洗护套装新品榜"
+          },
+          {
+            "from": 482.21,
+            "to": 483.73,
+            "text": "沐浴露留香很持久"
+          },
+          {
+            "from": 488.13,
+            "to": 489.21,
+            "text": "加上它还有除螨率"
+          },
+          {
+            "from": 489.21,
+            "to": 490.87,
+            "text": "大约99%的专业报告"
+          },
+          {
+            "from": 492.96,
+            "to": 495.54,
+            "text": "洗发水里添加了新一代男士去屑专利"
+          },
+          {
+            "from": 501.87,
+            "to": 503.59,
+            "text": "现在置顶领大额优惠券"
+          },
+          {
+            "from": 503.59,
+            "to": 504.71,
+            "text": "到手更优惠"
+          },
+          {
+            "from": 504.71,
+            "to": 507.11,
+            "text": "而且品牌还承诺过敏包退下单"
+          },
+          {
+            "from": 507.11,
+            "to": 509.62,
+            "text": "有需要的小伙伴们可千万别错过了"
+          },
+          {
+            "from": 510.06,
+            "to": 511.1,
+            "text": "火力方面"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 353,
+      "firstIndex": 0,
+      "lastIndex": 352,
+      "allRowsRead": true
+    }
+  }
+}

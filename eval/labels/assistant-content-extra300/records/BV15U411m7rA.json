@@ -1,0 +1,147 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 24,
+    "inputLineSha256": "e44a71316064fb91b7401ab5527f86f3d7a47e4d7659c8309bdfdee6cd5bf231",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV15U411m7rA-1657947337.json",
+    "acquisitionSha256": "3a5885f063a247db0a27dc1413a3a3085c594e1e63ed59a3f27d67af5d546abf",
+    "sourceUrl": "https://www.bilibili.com/video/BV15U411m7rA/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV15U411m7rA.json",
+    "transcriptSha256": "c5f71d46e96a115fa6882cd741e43bcfbb95cabc80d746fc4d700fbec8b94427"
+  },
+  "record": {
+    "bvid": "BV15U411m7rA",
+    "cid": 1657947337,
+    "duration": 916,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "分析美国星座级护卫舰需求来源、选用欧洲FREMM方案、设计反复修改、造船劳动力与产能问题，并对比其他舰艇工程延期。中段用船厂带薪睡觉的笑话引出小鹿护颈枕广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 377.8,
+        "end": 436.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从船厂进度缓慢可能是带薪睡觉的玩笑铺垫开始，转入小鹿双面承托护颈枕188元价格、结构按摩与分区承托、记忆棉和冰丝枕套、领券质保以及送礼建议，结束后返回星座预算讨论。",
+        "evidence": [
+          {
+            "from": 375.64,
+            "to": 377.8,
+            "text": "它就不可能有任何建造上的困难"
+          },
+          {
+            "from": 377.8,
+            "to": 379.46,
+            "text": "那最大的可能性只有一种"
+          },
+          {
+            "from": 379.46,
+            "to": 381.44,
+            "text": "你们船上的人全都在带薪睡觉"
+          },
+          {
+            "from": 381.44,
+            "to": 382.7,
+            "text": "用的还是神气"
+          },
+          {
+            "from": 382.7,
+            "to": 384.24,
+            "text": "小鹿双面承托护颈枕"
+          },
+          {
+            "from": 386.06,
+            "to": 387.32,
+            "text": "他只要188"
+          },
+          {
+            "from": 408.44,
+            "to": 410.1,
+            "text": "我特别爱特的过渡分区"
+          },
+          {
+            "from": 416.88,
+            "to": 419.2,
+            "text": "里面呢是升级的2.0太空记忆棉"
+          },
+          {
+            "from": 425.08,
+            "to": 428.28,
+            "text": "而且这个冰丝枕套夏天睡凉凉的特舒服"
+          },
+          {
+            "from": 428.28,
+            "to": 429.78,
+            "text": "喜欢就抓紧领券"
+          },
+          {
+            "from": 431.28,
+            "to": 433.5,
+            "text": "两年开裂变形都能免费换新"
+          },
+          {
+            "from": 433.5,
+            "to": 436.06,
+            "text": "自己睡或者送礼都不错哦"
+          },
+          {
+            "from": 437.86,
+            "to": 440.34,
+            "text": "星座级层层累加的预算其实还好吧"
+          }
+        ],
+        "startUncertainty": [
+          377.8,
+          377.8
+        ],
+        "endUncertainty": [
+          436.06,
+          437.86
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 40.23,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 42.54,
+        "end": 183.18,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 183.92,
+        "end": 377.8,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 437.86,
+        "end": 912.86,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 454,
+      "firstIndex": 0,
+      "lastIndex": 453,
+      "allRowsRead": true
+    }
+  }
+}

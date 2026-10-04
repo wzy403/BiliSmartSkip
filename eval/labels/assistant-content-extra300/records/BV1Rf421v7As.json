@@ -1,0 +1,127 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 206,
+    "inputLineSha256": "0c0f7ccb509d0be91fae877b1d1d85be60143cc01d23e14531434d7d8923fb16",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Rf421v7As-1624817921.json",
+    "acquisitionSha256": "12e5200308d62249faea85843672be303bf4fb0a8608b4cc69ca3019ca5b2f0f",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Rf421v7As/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Rf421v7As.json",
+    "transcriptSha256": "840699d07d9a909bbbfdae2696e2566400f046a9edc4f055dadebeb18d599806"
+  },
+  "record": {
+    "bvid": "BV1Rf421v7As",
+    "cid": 1624817921,
+    "duration": 128,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解释台风格美、派比安外围下沉气流与广东、湖南、江西阶段性高温的关系，预测台风影响转变及高温缓解；天气讲解中插入赫恩冷水洗发水促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 38.14,
+        "end": 75.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从出门炎热、头顶冒烟的洗护需求铺垫，转到赫恩冷水洗发水的冰感、配方、控油与香味卖点，再讲规格、礼盒及评论区优惠券；75.66 秒以“那么为什么台风外围会那么热”恢复气象解释。此处是可独立跳过的商品推介，并非天气知识所必需。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          38.14,
+          38.14
+        ],
+        "endUncertainty": [
+          75.66,
+          75.66
+        ],
+        "evidence": [
+          {
+            "from": 35.66,
+            "to": 38.14,
+            "text": "隔壁湖南江西局部要超过40度"
+          },
+          {
+            "from": 38.14,
+            "to": 39.84,
+            "text": "这么热的天出门一圈"
+          },
+          {
+            "from": 39.84,
+            "to": 40.62,
+            "text": "头顶冒烟"
+          },
+          {
+            "from": 40.62,
+            "to": 43.6,
+            "text": "可以试试这款热销的赫恩冷水洗发水"
+          },
+          {
+            "from": 43.6,
+            "to": 44.74,
+            "text": "它添加了冰川水"
+          },
+          {
+            "from": 57.989,
+            "to": 61.26,
+            "text": "从根源化解头油头痒头屑头痘问题"
+          },
+          {
+            "from": 68.82,
+            "to": 70.66,
+            "text": "500克一大罐能用大半年"
+          },
+          {
+            "from": 70.66,
+            "to": 72.18,
+            "text": "现在品牌还出了礼盒装"
+          },
+          {
+            "from": 73.16,
+            "to": 74.26,
+            "text": "进来我的评论区"
+          },
+          {
+            "from": 74.26,
+            "to": 75.66,
+            "text": "大额优惠券等你领"
+          },
+          {
+            "from": 75.66,
+            "to": 77.78,
+            "text": "那么为什么台风外围会那么热"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 38.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 75.66,
+        "end": 127.2,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 75,
+      "firstIndex": 0,
+      "lastIndex": 74,
+      "allRowsRead": true
+    }
+  }
+}

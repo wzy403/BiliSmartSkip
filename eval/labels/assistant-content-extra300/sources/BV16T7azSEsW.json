@@ -1,0 +1,26 @@
+{
+  "bvid": "BV16T7azSEsW",
+  "cid": 30301619551,
+  "title": "【睡前消息908】杀人不割地 贵族战棋图什么？",
+  "duration": 1147,
+  "desc": "沙特、阿联酋、卡塔尔用另类方式参与国际政治。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:07:34.110Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:10.647Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 28,
+    "inputLineSha256": "9e55b9ac133716cf8d41f3586d92db42d521ae1eecde6aafcaa93e7463705137",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV16T7azSEsW-30301619551.json",
+    "acquisitionSha256": "e098c0b390454cf0956401e9184ffe8347e5dff1afd84bc058c2cd2993aeeb8d",
+    "sourceUrl": "https://www.bilibili.com/video/BV16T7azSEsW/?p=1"
+  }
+}

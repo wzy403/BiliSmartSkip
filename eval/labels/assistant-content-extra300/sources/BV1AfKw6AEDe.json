@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1AfKw6AEDe",
+  "cid": 40063402760,
+  "title": "太热了，且看老哥勇闯太平洋",
+  "duration": 384,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:04:55.373Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:30.647Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 48,
+    "inputLineSha256": "559fa9c29378f2e3343d3e13f86e00978157ab70fd1eaa3442ecc0e9034de97d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1AfKw6AEDe-40063402760.json",
+    "acquisitionSha256": "c65e4796b9b55c4f23821056d70b326c33845d6db0995f161f83c4ba116d74c6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1AfKw6AEDe/?p=1"
+  }
+}

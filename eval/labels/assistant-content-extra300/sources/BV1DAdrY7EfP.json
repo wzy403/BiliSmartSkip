@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1DAdrY7EfP",
+  "cid": 29390211980,
+  "title": "事故率最高的五代机是谁?【军事榨菜27】",
+  "duration": 976,
+  "desc": "文案：民宣department、花家\n配音：花岗岩\n制作：民宣department、花岗岩、花家\n\n本视频根据主观视角及相关资料制作，有误欢迎指正。 \n\n素材均来源于互联网公开合法资料，且仅作为科普素材使用。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:11.598Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:02.674Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 73,
+    "inputLineSha256": "1f057d8661fcece53444d51f78d77610a9f250a865d6668c077dd17641ad3881",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1DAdrY7EfP-29390211980.json",
+    "acquisitionSha256": "c792c7ec1ceefa1a7e428bf89aada881ff99d5f4196ef0ccb953d0d106d0a925",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DAdrY7EfP/?p=1"
+  }
+}

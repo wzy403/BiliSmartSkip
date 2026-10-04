@@ -1,0 +1,56 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": null,
+  "modality": "not-reviewed",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 82,
+    "inputLineSha256": "ac46f103b0eb55837fbb9ca0534bf8ff628407ff6f248728ff07fb961a48e089",
+    "acquisitionFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "acquisitionSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1e3sbexEGy/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1e3sbexEGy.json",
+    "transcriptSha256": "b6f06fdbb023ef67ddf99193009fe1d5e903a7819f259ca2535a199ff274b8da"
+  },
+  "record": {
+    "bvid": "BV1e3sbexEGy",
+    "cid": 25979849304,
+    "duration": 605,
+    "reviewStatus": "needs-source",
+    "fullTranscriptRead": false,
+    "videoSummary": null,
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+      "公开元数据或BV/CID身份核验尚未成功。",
+      "元数据补采诊断：公开页补采 HTTP 200，但未取得与原 BV/CID 一致的视频身份（返回 BV：缺失）；HTTP 成功不代表视频资料可用，也不能据此推定删除或无广告。"
+    ],
+    "limitations": [
+      "助手内容参考；尚未完成内容审核，未观看视频或听取音频。"
+    ]
+  },
+  "metadataRecovery": {
+    "kind": "identity-recovery-diagnostic-not-content-review",
+    "file": "eval/labels/assistant-content-extra300/acquisition/metadata/metadata-recovery-summary.json",
+    "sha256": "f7e4548996a67b22bc267072f629a95404f2db8b2949af9658126edab11008ad",
+    "inputLine": 82,
+    "bvid": "BV1e3sbexEGy",
+    "cid": 25979849304,
+    "attemptedAt": "2026-10-04T23:00:02.514Z",
+    "method": "anonymous-public-page-metadata-only-existing-initialState-parser",
+    "url": "https://www.bilibili.com/video/BV1e3sbexEGy/",
+    "status": "unresolved",
+    "httpStatus": 200,
+    "responseSha256": "85c4d97522d40cd17074ce03ffa9a99f1f97ba6c26791146ebe8f957136d2bb4",
+    "reason": "unexpected-or-missing-video-identity",
+    "returnedBvid": null,
+    "availableCids": [],
+    "limitation": "仅元数据与身份补采诊断，未读取社区广告标签或作为内容审核；原 BV/CID 保持不变。"
+  }
+}

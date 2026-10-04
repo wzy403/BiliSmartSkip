@@ -1,0 +1,132 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 70,
+    "inputLineSha256": "b26b5aa7617d05e82bc67c0e1b092b45e035cec6f90796a6a1cc08fff2efa755",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1D1421q77H-1548380618.json",
+    "acquisitionSha256": "05c6b50258e04a7f2b6b232159735a986778d479a4ea8c795b3a1eb3bd4af726",
+    "sourceUrl": "https://www.bilibili.com/video/BV1D1421q77H/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1D1421q77H.json",
+    "transcriptSha256": "e236c90ce2c7edc9d621128f183dbb971cc7fd107bf00a720c158e00c849608d"
+  },
+  "record": {
+    "bvid": "BV1D1421q77H",
+    "cid": 1548380618,
+    "duration": 343,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "分析雅克130触地后拉起、F104贴地滚转、F15断翼返航和轰六尾翼受损迫降等案例，解释飞行员极限操控。案例之间以头皮问题引入赫恩洗发水促销，之后回到1983年以色列战机事件。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 130.03,
+        "end": 183.36,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由想到操控挑战而头油头痒的铺垫，进入赫恩洗发水控油、氨基酸配方、检测功效、礼盒容量和优惠券推介；183.36秒以“说到极限操控”恢复飞行事故正文，整个广告可独立跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          130.03,
+          130.03
+        ],
+        "endUncertainty": [
+          183.36,
+          183.36
+        ],
+        "evidence": [
+          {
+            "from": 126.95,
+            "to": 130.03,
+            "text": "飞行员们还要面对几乎无胜算的操控挑战"
+          },
+          {
+            "from": 130.03,
+            "to": 130.71,
+            "text": "想到此处"
+          },
+          {
+            "from": 130.71,
+            "to": 132.07,
+            "text": "我顿感头油头痒"
+          },
+          {
+            "from": 133.82,
+            "to": 135.38,
+            "text": "还好有赫恩洗发水"
+          },
+          {
+            "from": 147.1,
+            "to": 149.42,
+            "text": "赫恩洗发水有多重氨基酸成分"
+          },
+          {
+            "from": 169.91,
+            "to": 171.99,
+            "text": "还限时赠送夏日限定礼盒"
+          },
+          {
+            "from": 178.68,
+            "to": 180.46,
+            "text": "500克一大罐能用大半年"
+          },
+          {
+            "from": 180.46,
+            "to": 181.84,
+            "text": "评论区领优惠券"
+          },
+          {
+            "from": 181.84,
+            "to": 183.36,
+            "text": "两瓶购买更划算"
+          },
+          {
+            "from": 183.36,
+            "to": 184.56,
+            "text": "说到极限操控"
+          },
+          {
+            "from": 185.3,
+            "to": 186.84,
+            "text": "1983年5月1日"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 83.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 87.36,
+        "end": 130.03,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 183.36,
+        "end": 342.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 177,
+      "firstIndex": 0,
+      "lastIndex": 176,
+      "allRowsRead": true
+    }
+  }
+}

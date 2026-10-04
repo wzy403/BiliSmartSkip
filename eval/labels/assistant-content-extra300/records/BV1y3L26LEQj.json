@@ -1,0 +1,195 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles-with-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 279,
+    "inputLineSha256": "95b5ed23fe97edd9cbc114273132cf94d1b0e48956754df6c45feb57cdef276d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1y3L26LEQj-38469764624.json",
+    "acquisitionSha256": "2fd3bf771b641f00962ed8b0b3d324d2b4ca1b469bfbe1c7383cd2e177f61885",
+    "sourceUrl": "https://www.bilibili.com/video/BV1y3L26LEQj/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1y3L26LEQj.json",
+    "transcriptSha256": "be5603d22e6ebbad85d7f272f751021f11ffb52d5354087ff97ce4663f3f078a"
+  },
+  "record": {
+    "bvid": "BV1y3L26LEQj",
+    "cid": 38469764624,
+    "duration": 1761,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "多个游戏叙事片段合集：家庭教师笑话、操控苦力怕比赛、克隆人寻宝与建房、木筏空岛资源建设。虚构商店买卖、青草蛋糕货币、家具和材料需求属于游戏剧情。全部1052条已连续读完，开头有近48秒重大字幕空白未核实。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 64.53,
+        "end": 112.48,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "selected-video-frames",
+        "startUncertainty": [
+          64.53,
+          112.48
+        ],
+        "endUncertainty": [
+          64.53,
+          112.48
+        ],
+        "reason": "实际查看62–116秒每约2秒27帧：同一Minecraft人物与“面前的人怎么长得这么帅”硬字幕持续，叠加叉号/爱心/收藏星图标动画，112秒后恢复家教对话。该缺口为剧情停格互动展示，没有商品、品牌或购买推广；结合完整1052行字幕判为应保留的非商业内容。",
+        "evidence": [
+          {
+            "from": 61.47,
+            "to": 64.53,
+            "text": "我去面前的人怎么长"
+          },
+          {
+            "from": 112.48,
+            "to": 113.96,
+            "text": "怎么这么帅啊"
+          }
+        ],
+        "visualEvidence": [
+          {
+            "time": 64.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-002.jpg",
+            "sha256": "5c05390e0c9b973bc1929250855d46df438dc61d49f71409f13b6f7da95a1374",
+            "observation": "同一游戏人物、剧情硬字幕和互动图标；114秒恢复下一句剧情。"
+          },
+          {
+            "time": 80.047,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-010.jpg",
+            "sha256": "69d63b0be1290ad057323b5d3baf05f8793c442d5309d192cfe4852717eea5ac",
+            "observation": "同一游戏人物、剧情硬字幕和互动图标；114秒恢复下一句剧情。"
+          },
+          {
+            "time": 98.065,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-019.jpg",
+            "sha256": "4fb9799abcffc6794d9ac1eaaa4e810fd815aec24689534a69ff8d8204011a50",
+            "observation": "同一游戏人物、剧情硬字幕和互动图标；114秒恢复下一句剧情。"
+          },
+          {
+            "time": 112.079,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-026.jpg",
+            "sha256": "d64926f6bb267f6b5a6785ec0183870cb245903df17f10617a2d234aa0e53027",
+            "observation": "同一游戏人物、剧情硬字幕和互动图标；114秒恢复下一句剧情。"
+          },
+          {
+            "time": 114.081,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-027.jpg",
+            "sha256": "10899ac72c7f80728f2241709f65c6ce6cca8df330f53d650390349ebbfdd177",
+            "observation": "同一游戏人物、剧情硬字幕和互动图标；114秒恢复下一句剧情。"
+          }
+        ]
+      },
+      {
+        "start": 305.23,
+        "end": 656.66,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          305.23,
+          307.21
+        ],
+        "endUncertainty": [
+          654.9,
+          656.66
+        ],
+        "reason": "商店推荐及支付青草蛋糕购买苦力怕，是虚构比赛故事的必要剧情，没有现实消费导流，保留。",
+        "evidence": [
+          {
+            "from": 305.23,
+            "to": 307.21,
+            "text": "今天我和土豆挑战驾驶苦力怕"
+          },
+          {
+            "from": 314.31,
+            "to": 316.45,
+            "text": "今天我和土豆来到了一个苦力怕商店"
+          },
+          {
+            "from": 371.24,
+            "to": 373.9,
+            "text": "土豆这里的老板据说是从青青草原来的"
+          },
+          {
+            "from": 382.829,
+            "to": 385.029,
+            "text": "老板老板我们想要在这里买两个苦力"
+          },
+          {
+            "from": 458.78,
+            "to": 461.28,
+            "text": "小野只需要支付100万青草蛋糕就好了"
+          },
+          {
+            "from": 495.94,
+            "to": 496.94,
+            "text": "这也太棒了"
+          },
+          {
+            "from": 572.36,
+            "to": 575.9,
+            "text": "土豆我的钻石苦力它的爆炸威力一定比你的强"
+          },
+          {
+            "from": 653.48,
+            "to": 654.9,
+            "text": "土豆已经投降认输了"
+          },
+          {
+            "from": 654.9,
+            "to": 656.66,
+            "text": "那么本期视频到此结束了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已全文阅读1052条字幕并补看关键缺口27张实际画面；未听音频。保存的是前120秒片段，不声称完整下载或逐帧观看29分钟全片。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 1052,
+      "firstIndex": 0,
+      "lastIndex": 1051,
+      "allRowsRead": true
+    },
+    "visualObservations": {
+      "reviewer": "assistant-extra300-root",
+      "method": "实际查看62–116秒约每2秒27帧；保存原视频流前120秒的无音频片段作为画面证据。未听音频，非逐帧/连续全片观看。",
+      "media": {
+        "bvid": "BV1y3L26LEQj",
+        "cid": 38469764624,
+        "page": 1,
+        "sourceUrl": "https://www.bilibili.com/video/BV1y3L26LEQj/?p=1",
+        "checkedAt": "2026-10-04T23:49:05.419Z",
+        "responseSha256": "35e7c1e894448d077129aa2626be4ced8ac4dc1f7e46fb83fa8b9ecfebdef6c6",
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1y3L26LEQj-excerpt-0-120.mp4",
+        "sha256": "0e26613c12595f6910d3a3bbf6ebca20b0c7e7336e0fd728b02db700bc10f979",
+        "bytes": 6589748,
+        "status": "excerpt-preserved-and-identity-verified",
+        "sourceTimeRange": [
+          0,
+          120
+        ],
+        "hasAudio": false,
+        "method": "原CID校验后的公开DASH视频流前120秒保存为无重编码视频片段；只保留所需缺口及上下文，不声称下载或观看完整视频。"
+      },
+      "frameIndexes": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frames.json"
+      ],
+      "observations": [
+        "无字幕缺口为同一游戏情境上的互动图标动画和重复硬字幕，未见独立商品推广。",
+        "游戏内苦力怕商店、蛋糕销售与游戏任务均属虚构剧情，全文无独立现实商业推介。"
+      ]
+    }
+  }
+}

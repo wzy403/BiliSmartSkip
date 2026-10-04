@@ -1,0 +1,885 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 159,
+    "inputLineSha256": "6bb1b4028eb2a8f09c717cecb41d7d01170691ba28b025f46532d981b5da6492",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1M1421t7fr-1619353657.json",
+    "acquisitionSha256": "38682817ec5b278e694145d97bb102a13ea1db6aa35475a224f144d125729b46",
+    "sourceUrl": "https://www.bilibili.com/video/BV1M1421t7fr/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1M1421t7fr.json",
+    "transcriptSha256": "e5588430338733f6d4670c16a6be5f057d604b85e547299a14d39f214946bf2a"
+  },
+  "record": {
+    "bvid": "BV1M1421t7fr",
+    "cid": 1619353657,
+    "duration": 1093,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "TESTV 九周年郊游纪录，团队与朋友露营、试洗车机及玻璃清洁剂、听耳机、冲咖啡、摄影烧烤和庆生，结尾回顾产品体验宗旨。含朋友烧烤店支持与九折导流、两处自营短裤性能推介，自家挂耳咖啡和集市号冲泡教程也具有商业关联。洗车用品和耳机的优缺点评价属于聚会中的产品体验。实际补看缺字幕片段发现，片尾1018.5–1088秒另有完整TESTV工装短裤情景广告，从卧室穿裤铺垫到SOLOTEX、弹力、防泼溅性能和淘宝热销提示。咖啡制作间隙展示自营挂耳产品冲泡，按主题体验保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 51.32,
+        "end": 91.02,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "朋友送来次日周年聚会的精酿啤酒、蘸水和配菜，并解释因店内球赛客人多无法同行；既为朋友店铺背书，广告性质保留，也直接交代聚会食物来源与参与者缺席，是本期郊游主题记录的一部分，保留。随后独立广告位邀请另段应跳。",
+        "startUncertainty": [
+          49.68,
+          51.32
+        ],
+        "endUncertainty": [
+          91.02,
+          91.02
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 49.68,
+            "to": 51.32,
+            "text": "哎呀老板老板老板"
+          },
+          {
+            "from": 51.32,
+            "to": 53.52,
+            "text": "谢谢老板老板送货来了啊"
+          },
+          {
+            "from": 53.52,
+            "to": 56.96,
+            "text": "这是我们明天不仅有肖师傅男妈妈准备的"
+          },
+          {
+            "from": 60.86,
+            "to": 62.68,
+            "text": "他们的精酿啤酒"
+          },
+          {
+            "from": 69.729,
+            "to": 72.94,
+            "text": "就拿出来展示一下啊"
+          },
+          {
+            "from": 72.94,
+            "to": 75.66,
+            "text": "这包是这类折耳根蘸水啊"
+          },
+          {
+            "from": 75.66,
+            "to": 76.96,
+            "text": "还有辣椒面儿的"
+          },
+          {
+            "from": 76.96,
+            "to": 79.7,
+            "text": "还有毛豆卤花生哦"
+          },
+          {
+            "from": 79.7,
+            "to": 80.78,
+            "text": "这个是永川的豆干"
+          },
+          {
+            "from": 80.78,
+            "to": 82.38,
+            "text": "本来是让铁铁跟我们一起去"
+          },
+          {
+            "from": 88.78,
+            "to": 91.02,
+            "text": "有球赛就很多人来店里看"
+          },
+          {
+            "from": 91.02,
+            "to": 91.9,
+            "text": "你打广告给你"
+          }
+        ]
+      },
+      {
+        "start": 91.02,
+        "end": 104.865,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确宣布给朋友广告位后，号召观众支持具名烧烤店及九折优惠并祝做大做强；独立于聚会食物来源说明，完整保留开场、店名优惠和收尾的广告范围，可跳过。",
+        "startUncertainty": [
+          91.02,
+          91.02
+        ],
+        "endUncertainty": [
+          104.865,
+          113.16
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 88.78,
+            "to": 91.02,
+            "text": "有球赛就很多人来店里看"
+          },
+          {
+            "from": 91.02,
+            "to": 91.9,
+            "text": "你打广告给你"
+          },
+          {
+            "from": 91.9,
+            "to": 94.16,
+            "text": "给你30秒广告坑位嗯"
+          },
+          {
+            "from": 94.16,
+            "to": 95.95,
+            "text": "希望大家多多支持"
+          },
+          {
+            "from": 98.17,
+            "to": 99.93,
+            "text": "可以来像木柜烧烤啊"
+          },
+          {
+            "from": 99.93,
+            "to": 102.33,
+            "text": "然后我们都是打九折的啊"
+          },
+          {
+            "from": 102.33,
+            "to": 103.59,
+            "text": "一直打在这个位置"
+          },
+          {
+            "from": 103.59,
+            "to": 104.865,
+            "text": "做大做强"
+          },
+          {
+            "from": 113.16,
+            "to": 115.28,
+            "text": "我们今天这个营地长得非常好"
+          }
+        ]
+      },
+      {
+        "start": 285.089,
+        "end": 292.28,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "借摄影镜头明确展示自营夏季轻薄短裤及四面弹力，与上下文聚会互动可分离。",
+        "startUncertainty": [
+          282.169,
+          285.089
+        ],
+        "endUncertainty": [
+          292.28,
+          292.48
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 285.089,
+            "to": 287.4,
+            "text": "我猜摄影师就是单纯的想展示"
+          },
+          {
+            "from": 287.4,
+            "to": 289.4,
+            "text": "KSTV夏季轻薄短裤"
+          },
+          {
+            "from": 289.4,
+            "to": 292.28,
+            "text": "四面弹力真的很棒棒哟"
+          }
+        ]
+      },
+      {
+        "start": 489.12,
+        "end": 590.38,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "自营DRIP COFFEE产品从现场拆包、架挂耳、注水冲泡，延续至朋友品尝、温度酸度和果味交流及同一内容教程导流；有商业关联，但构成本次周年郊游真实产品体验与冲泡知识，ad/keep。",
+        "startUncertainty": [
+          489,
+          491
+        ],
+        "endUncertainty": [
+          590.38,
+          590.38
+        ],
+        "boundaryConfidence": "subtitle_plus_targeted_visual_samples_2s",
+        "evidence": [
+          {
+            "from": 549.64,
+            "to": 554.15,
+            "text": "我们的这个挂耳咖啡给到的是一个起点嗯"
+          },
+          {
+            "from": 554.15,
+            "to": 557.11,
+            "text": "但是不是这个咖啡风味品尝的终点"
+          },
+          {
+            "from": 558.5,
+            "to": 560.92,
+            "text": "热一点的跟冷下来的风味是不一样的"
+          },
+          {
+            "from": 574.18,
+            "to": 577.07,
+            "text": "因为咖啡豆它本身就是水果"
+          },
+          {
+            "from": 581.83,
+            "to": 583.79,
+            "text": "我们已经放到特斯维集市号上面了"
+          },
+          {
+            "from": 588.9,
+            "to": 590.38,
+            "text": "大家都去集市号上面看啊"
+          }
+        ],
+        "visualEvidence": [
+          {
+            "time": 487,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-001.jpg",
+            "sha256": "3b6b49d9d2f893e8297170dfa0d0d4574bea6da793ff8319f133a09d694cf993",
+            "observation": "主持人邀请开始制作咖啡。"
+          },
+          {
+            "time": 489,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-002.jpg",
+            "sha256": "89367b972d912ba1787a2c847e2112a4978790b121c6801bc176a38971dac108",
+            "observation": "咖啡时间场景与TESTV DRIP COFFEE包装特写。"
+          },
+          {
+            "time": 491,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-003.jpg",
+            "sha256": "8a89fb6fbb165e1c718c703582599499c4dac7937a412f1485b051ba0294c06b",
+            "observation": "咖啡时间场景与TESTV DRIP COFFEE包装特写。"
+          },
+          {
+            "time": 493,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-004.jpg",
+            "sha256": "5dcd0d1cbe7b8d5217910d12f186171cdc4bf804d50d62d94635f7ad425a1279",
+            "observation": "咖啡时间场景与TESTV DRIP COFFEE包装特写。"
+          },
+          {
+            "time": 495,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-005.jpg",
+            "sha256": "959afcbc4ab881d6f13f4b7c244e6a194a49066385877b0b3e2039a12b8daa70",
+            "observation": "咖啡时间场景与TESTV DRIP COFFEE包装特写。"
+          },
+          {
+            "time": 497,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-006.jpg",
+            "sha256": "2555b5f0c65befba720993f0299e58dcdcff21105fef07c596dc3fd8627c28c0",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 499,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-007.jpg",
+            "sha256": "5d131658705a8853dee448b430785209edbd456411ecf63a15fa6769497a8691",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 501,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-008.jpg",
+            "sha256": "5329a84c0aa3e888fbb3829b868455688b00c4cd006a50d4b16c55b16a15874c",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 503,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-009.jpg",
+            "sha256": "797e209cda70931b93a0ef5296bed3b2049c7f33138987278ef94f9fa08b2063",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 505,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-010.jpg",
+            "sha256": "49066c356114dae16f3408784b61f65cac0c800363043d15a44bfe4c7dba3d9a",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 507,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-011.jpg",
+            "sha256": "f5e9d9ee41217c93dbff5d1fe7a5886a5a9cb986bdc7abe649c1c382cc70b728",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 509,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-012.jpg",
+            "sha256": "ffd39986ca76ae24fc850b1d4e1a5bb5302c5891c7e166d671303a184b950286",
+            "observation": "现场拆挂耳袋、打开并架到杯口。"
+          },
+          {
+            "time": 511,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-013.jpg",
+            "sha256": "e499d4f85c08c0c123bd0babd396c7f3edd234d38179860c5027e0bea8e8cd15",
+            "observation": "注水冲泡和完成后的现场画面。"
+          },
+          {
+            "time": 513,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-014.jpg",
+            "sha256": "8952e6fe5458a5e537a4d1e1a736220c9d19dc834a2470f4cf9370e77fd1fd4e",
+            "observation": "注水冲泡和完成后的现场画面。"
+          },
+          {
+            "time": 515,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-015.jpg",
+            "sha256": "7857952753379812f430fbba1f2197300584ebdd3b28e141e3918bc05100a565",
+            "observation": "注水冲泡和完成后的现场画面。"
+          },
+          {
+            "time": 517,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-016.jpg",
+            "sha256": "35eb7501a17d9987c3343b523c8fd43c1b3f3535b017c3dd1e528d7000970a33",
+            "observation": "注水冲泡和完成后的现场画面。"
+          },
+          {
+            "time": 519,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frame-017.jpg",
+            "sha256": "28ffcfb811d48462c7030850ed8deebad8c340de870a76e9f2c993ad258eb834",
+            "observation": "注水冲泡和完成后的现场画面。"
+          }
+        ]
+      },
+      {
+        "start": 700.1,
+        "end": 715.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "通过湿裤已干的效果比较宣传自营夏季短裤，另用没穿该品牌会后悔的笑话收尾，随后转烧烤。",
+        "startUncertainty": [
+          698.3,
+          700.1
+        ],
+        "endUncertainty": [
+          715.98,
+          715.98
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 700.1,
+            "to": 702.18,
+            "text": "哎你看我穿的我们的这个裤子啊"
+          },
+          {
+            "from": 702.18,
+            "to": 704.22,
+            "text": "短裤夏季的夏季短裤啊"
+          },
+          {
+            "from": 706.24,
+            "to": 707.76,
+            "text": "现在已经全干了"
+          },
+          {
+            "from": 709.22,
+            "to": 712.54,
+            "text": "啧啧啧唉10年后确诊风湿病的时候"
+          },
+          {
+            "from": 713.28,
+            "to": 715.98,
+            "text": "今天没有穿太斯利的工装裤"
+          }
+        ]
+      },
+      {
+        "start": 292.48,
+        "end": 476.86,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "自购洗车机、两款清洁剂与耳机的试用分享，有评分差异、效果持续时间的负面意见和实际使用讨论，未见销售导流，符合产品体验主题。",
+        "startUncertainty": [
+          292.28,
+          292.48
+        ],
+        "endUncertainty": [
+          476.86,
+          476.86
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 295.04,
+            "to": 297.68,
+            "text": "前面上期节目是做了我们那个小米洗车机嘛"
+          },
+          {
+            "from": 299,
+            "to": 301.48,
+            "text": "他自己又买了个什么除油墨的那个清洗剂"
+          },
+          {
+            "from": 343.58,
+            "to": 348.81,
+            "text": "这个DER高主观评分我评分2.13分好"
+          },
+          {
+            "from": 409.21,
+            "to": 411.5,
+            "text": "其实用下来的话其实差不多的"
+          },
+          {
+            "from": 421.169,
+            "to": 423.169,
+            "text": "在我车上其实是没有保持太久的"
+          },
+          {
+            "from": 461.47,
+            "to": 464.12,
+            "text": "然后总体来说就是说它虽然现在是卖二两千"
+          },
+          {
+            "from": 464.76,
+            "to": 466.68,
+            "text": "但我觉得这个数字是不止2100的"
+          }
+        ]
+      },
+      {
+        "start": 1018.5,
+        "end": 1088,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s_plus_0.5s_boundaries",
+        "reason": "独立于周年郊游正文的TESTV KeepGoing工装短裤完整情景广告。起点取裤铺垫，随后材质抗皱透气、跑动弹力、厕所和饮料防泼溅场景、轻薄展示及产品名，最后淘宝店搜索和正在热销CTA；1088秒转换通用频道片尾。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1012,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-001.jpg",
+            "sha256": "a8e5b5b6680ec08753a080bcfd26aa2cce965b61f33d6bc42b76ccf2cd2d5be7",
+            "observation": "郊游合影结束。"
+          },
+          {
+            "time": 1015,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-002.jpg",
+            "sha256": "d6e74e0d29adcc573e499e606f052636f40c19c90e2bc3843fb50a47e7ebbb05",
+            "observation": "郊游合影结束。"
+          },
+          {
+            "time": 1018,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-003.jpg",
+            "sha256": "026c8050dbd63c05d603afe252e6e4f80f4d1c1bfd29064ca896a7d183bfa761",
+            "observation": "合影后的黑色转场。"
+          },
+          {
+            "time": 1021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-004.jpg",
+            "sha256": "731c593d583a5449170c2fef7d0ccff026c935f7a14ee0090aa64d665eb0983f",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1024,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-005.jpg",
+            "sha256": "ee4a37abc7bf4699cf35192d3c55f71233dd991802449032fb8dc0d861544cd2",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1027,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-006.jpg",
+            "sha256": "d96e5ba73f6a6308a555e30e3e4bbf765166e07bbbdb28815f122625317603ed",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1030,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-007.jpg",
+            "sha256": "57e9ba741f7fc00ec9302f2da791417c3b5f10e48d2d307763c0a26a9a087b65",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1033,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-008.jpg",
+            "sha256": "3a64b97872ed909fae0b44646fc3d2a173b09c6152c158a1909b7ae96afd2125",
+            "observation": "短裤特写，文字100% SOLOTEX、抗皱舒适透气。"
+          },
+          {
+            "time": 1036,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-009.jpg",
+            "sha256": "9f2d158ca1f6f8b33dd344cc41e5e945f53d53ecdbd3bf1584e17535cf5f7da7",
+            "observation": "跑步与腿部动作展示；画面宣传强劲弹力、运动无束。"
+          },
+          {
+            "time": 1039,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-010.jpg",
+            "sha256": "4268d1f6bd470758e9fa180de8c7ae3d01c2d6b410b84cdb25424fa5e03d75b5",
+            "observation": "跑步与腿部动作展示；画面宣传强劲弹力、运动无束。"
+          },
+          {
+            "time": 1042,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-011.jpg",
+            "sha256": "c173f4e25dc2ebd274130a2085b2ad7c9f75563e25d1182768492f19673acdff",
+            "observation": "跑步与腿部动作展示；画面宣传强劲弹力、运动无束。"
+          },
+          {
+            "time": 1045,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-012.jpg",
+            "sha256": "cc745bea27a3a20427f90c5064445508306bae97ad95748b38ddb051cbb10a21",
+            "observation": "跑步与腿部动作展示；画面宣传强劲弹力、运动无束。"
+          },
+          {
+            "time": 1048,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-013.jpg",
+            "sha256": "e31c2a8e1cae0b0bbcd1c1e03065fc9a2819d1560314875bed6e7bb163248d24",
+            "observation": "跑步与腿部动作展示；画面宣传强劲弹力、运动无束。"
+          },
+          {
+            "time": 1051,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-014.jpg",
+            "sha256": "52d95b4ffd6f7d25aab30d112a720b9b29d9778b06b46f8bb199435c1795b8a0",
+            "observation": "卫生间场景与穿短裤走出厕所，延续短裤广告故事。"
+          },
+          {
+            "time": 1054,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-015.jpg",
+            "sha256": "f4433d556382f7a36fe2779127a44959f88a683624ad6362d558aebe596af312",
+            "observation": "卫生间场景与穿短裤走出厕所，延续短裤广告故事。"
+          },
+          {
+            "time": 1057,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-016.jpg",
+            "sha256": "8827b45e1c0ffa39f70b66388f6ec78f693b3ce62aff150cfce41119f9a3b559",
+            "observation": "卫生间场景与穿短裤走出厕所，延续短裤广告故事。"
+          },
+          {
+            "time": 1060,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-017.jpg",
+            "sha256": "80a52cdeff4b6e5e8f1b24368ec9ba178c31e9426b4500fa7548be22ff3f211e",
+            "observation": "卫生间场景与穿短裤走出厕所，延续短裤广告故事。"
+          },
+          {
+            "time": 1063,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-018.jpg",
+            "sha256": "b1051b75cef5d5e9e6f1abb192878bf7eed0beb32def8609edb73e4fff1edee3",
+            "observation": "饮料泼到短裤的场景，展示防泼防溅、从容不迫。"
+          },
+          {
+            "time": 1066,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-019.jpg",
+            "sha256": "992bda54888ce279cc7585ae4fa0a14ac8f9d169e6551199996a1de801b61d14",
+            "observation": "饮料泼到短裤的场景，展示防泼防溅、从容不迫。"
+          },
+          {
+            "time": 1069,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-020.jpg",
+            "sha256": "9d6afefeb8ad7f17aebf412a41d15478f4ab59f90a3c8b8d15d8b8d699a1bed3",
+            "observation": "饮料泼到短裤的场景，展示防泼防溅、从容不迫。"
+          },
+          {
+            "time": 1072,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-021.jpg",
+            "sha256": "14c8e7cd4e7eed86b02f1a568830becdad70987df976955cecffc578a1bcd8d2",
+            "observation": "饮料泼到短裤的场景，展示防泼防溅、从容不迫。"
+          },
+          {
+            "time": 1075,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-022.jpg",
+            "sha256": "a89b6cce6f322e0ff1708eda8d438b9822007f090c5c77449305491bee0b99db",
+            "observation": "饮料泼到短裤的场景，展示防泼防溅、从容不迫。"
+          },
+          {
+            "time": 1078,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-023.jpg",
+            "sha256": "2d8995f4303b1f983db67d23d69b6fd517ef46cf06fcfe00d2d629dd7651e8c8",
+            "observation": "够轻薄及TESTV KeepGoing系列工装短裤产品展示。"
+          },
+          {
+            "time": 1081,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-024.jpg",
+            "sha256": "7cb6e545b6ca82064beeb795041d7a53d740d907fb93d119fcce04ecf3b24acf",
+            "observation": "够轻薄及TESTV KeepGoing系列工装短裤产品展示。"
+          },
+          {
+            "time": 1084,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-025.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1087,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-026.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1090,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frame-027.jpg",
+            "sha256": "8b75d57f22af083e996a81001892ad0270f9da194e27576a444ba1d00dd6c2b9",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1016,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-001.jpg",
+            "sha256": "f0f7c9f4b3cfb7311f2bf22530cf21187fdebeb547d3941882584b5074188fd3",
+            "observation": "郊游合影结束。"
+          },
+          {
+            "time": 1016.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-002.jpg",
+            "sha256": "28498be024dddb60aca35ee5b2169143e8c4d3a7c0aa189d19eb971c99bd1d1a",
+            "observation": "郊游合影结束。"
+          },
+          {
+            "time": 1017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-003.jpg",
+            "sha256": "37d0d56020f5ea38152e0de5c4d4a7027096aeb4fb3cceaca95778e509eed676",
+            "observation": "郊游合影结束。"
+          },
+          {
+            "time": 1017.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-004.jpg",
+            "sha256": "7d9b7b3d70cf6dfe05e59e96adaaeea7966551d52ef373e1a79e57cf246857e4",
+            "observation": "郊游合影结束。"
+          },
+          {
+            "time": 1018,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-005.jpg",
+            "sha256": "026c8050dbd63c05d603afe252e6e4f80f4d1c1bfd29064ca896a7d183bfa761",
+            "observation": "合影后的黑色转场。"
+          },
+          {
+            "time": 1018.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-006.jpg",
+            "sha256": "9a0169eb90bd60c4df6ec6f75c6d4e69002f722db9ba56663c9de02847d939ac",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1019,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-007.jpg",
+            "sha256": "1a46375e2621ccb7a66f022776bcc146dbff3692e497d8e3dfe0fca39334b16f",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1019.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-008.jpg",
+            "sha256": "f11916e484cc483400d249adee63630958800dfcf81ca022df0ede507f3c796c",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1020,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-009.jpg",
+            "sha256": "96c675ab82d5b90e9b98ebdb03ea3a931d8a76d1e3c75623a1e56f0f5ebf1290",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1020.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-010.jpg",
+            "sha256": "bf8884ca15b05a4a40235a032fe3dcb555fa504e77569587c16a2bec3e3a5ce8",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-011.jpg",
+            "sha256": "731c593d583a5449170c2fef7d0ccff026c935f7a14ee0090aa64d665eb0983f",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1021.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-012.jpg",
+            "sha256": "a13e9aa97bf8ff714d52e1d0a815f97c8a19fb7489e3f8bb007a57e9a1ba3ea1",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1022,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-013.jpg",
+            "sha256": "54150299c907f7fa0f885722104a968bf2679f711e3f0312cb2c9a72733d34d9",
+            "observation": "卧室取裤、面料和穿着场景，是后续短裤推介的完整情景铺垫。"
+          },
+          {
+            "time": 1082,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-001.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1082.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-002.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1083,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-003.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1083.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-004.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1084,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-005.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1084.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-006.jpg",
+            "sha256": "cf249cbf1fabf8765d0acdfe7de181ac26875a5a63316bcd1a0b988d5e2f94e3",
+            "observation": "产品广告中间TESTV黑底商标卡。"
+          },
+          {
+            "time": 1085,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-007.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1085.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-008.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1086,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-009.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1086.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-010.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1087,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-011.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1087.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-012.jpg",
+            "sha256": "e2d048c3bb45a365fec9f9c51b3a683a4d6c9316ba3daa810ba48910fe5aef86",
+            "observation": "淘宝搜索店铺TESTV值不值得买、正在热销的购买提示。"
+          },
+          {
+            "time": 1088,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-013.jpg",
+            "sha256": "027fd7c4da260a1abf4e4ab9e3b18fdb412e4e4cc6257a0e02384fc98369892c",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1088.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-014.jpg",
+            "sha256": "67d3235adfbec177452981f5c574e9d2a8d83522ddd73360738a1d18d1f24401",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1089,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-015.jpg",
+            "sha256": "8bd4f36c40f71ac8ca2c13a3a812d80c3eacc456dd7ecdadcc0162ff2cf52056",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1089.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-016.jpg",
+            "sha256": "9fe5637dbe2bee9720902d0e130b3337dab149a5e3d19b97115e38e8912e9863",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1090,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-017.jpg",
+            "sha256": "8b75d57f22af083e996a81001892ad0270f9da194e27576a444ba1d00dd6c2b9",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1090.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-018.jpg",
+            "sha256": "410b4cf22239040e78a13f70372abb4c8e9031a3d481f46df076b355f2d68a5c",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1091,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-019.jpg",
+            "sha256": "c34a6d030761c9490e25e896d985ce55464e329860c90521b60cc719dc6115e2",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1091.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-020.jpg",
+            "sha256": "2878b9c933e8e5cbd35b47f3a7009e1a5fc9fff2545777320e9a8aa355318d88",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          },
+          {
+            "time": 1092,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frame-021.jpg",
+            "sha256": "3e30b666cad2916b89826ef1d7de3323c08aa89cfc35d2b593a0887c4506d6e2",
+            "observation": "广告结束后频道TESTV标准片尾标志。"
+          }
+        ],
+        "startUncertainty": [
+          1018,
+          1018.5
+        ],
+        "endUncertainty": [
+          1087.5,
+          1088
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "全部427行字幕已读；实际查看咖啡487–519秒每2秒17张、片尾1012–1090秒每3秒27张及首尾每0.5秒34张，共78张图像。未听音频，不是逐帧观看，采样间短暂内容和细微边界保持不确定。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 427,
+      "firstIndex": 0,
+      "lastIndex": 426,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:43:18.394Z",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1M1421t7fr.mp4",
+      "mediaSha256": "f3337bc2f68ef29632bacaf17d2edfb4f1c2223e6ae96e29defeab5795b1e5dc",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1M1421t7fr-verified.json",
+      "frameManifests": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/coffee-gap-middle/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-gap-middle/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-end-middle/frames.json"
+      ],
+      "framesActuallyViewed": 78,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_content_001_100",
+    "modality": "full-cached-subtitles",
+    "fullTranscriptRead": true,
+    "subtitleRows": 427,
+    "readCoverage": {
+      "subtitleRows": 427,
+      "firstIndex": 0,
+      "lastIndex": 426,
+      "allRowsRead": true
+    },
+    "decision": "逐行全文二审：朋友供货51.32–91.02为广告但属周年聚会来源及人物叙事，应保留；91.02–104.865显式烧烤店九折CTA可跳。两段自营短裤均为可分离推介可跳；咖啡549.64–590.38商业关联与实际冲泡知识混合，保留。已消除这些内容/跳过争议，末尾70.58秒字幕缺口仍未观看或听取，故维持needs-verification。",
+    "followUpResolution": "以上为二审时的历史结论，保留主题体验与独立推介的语义判断。后续 visualReview 已实际补看咖啡间隙及片尾、加密首尾边界，消除了原缺口待核实项：咖啡商业体验保留范围更新为489.12–590.38秒，另确认片尾1018.5–1088秒完整短裤广告应跳；当前审核状态与时间边界以 record 为准。"
+  }
+}

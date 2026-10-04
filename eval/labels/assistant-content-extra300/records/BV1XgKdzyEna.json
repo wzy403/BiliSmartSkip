@@ -1,0 +1,62 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": null,
+  "modality": "not-reviewed",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 269,
+    "inputLineSha256": "e8fc6ee8ff6d08e6b245c8e026062b36ffac267112ace3ba20fcd1c9323b77d1",
+    "acquisitionFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "acquisitionSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XgKdzyEna/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1XgKdzyEna.json",
+    "transcriptSha256": "38ddcd0e9e887dd6a24e0ed798438846363ea18a2c68226f6889e66a85b529cd"
+  },
+  "record": {
+    "bvid": "BV1XgKdzyEna",
+    "cid": 30703683167,
+    "duration": 207,
+    "reviewStatus": "needs-source",
+    "fullTranscriptRead": false,
+    "videoSummary": null,
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+      "公开元数据或BV/CID身份核验尚未成功。",
+      "元数据补采诊断：公开页补采返回了原 BV，但原 CID 30703683167 不在当前分 P 列表；当前列出的 CID 为 30715544134。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+    ],
+    "limitations": [
+      "助手内容参考；尚未完成内容审核，未观看视频或听取音频。"
+    ]
+  },
+  "metadataRecovery": {
+    "kind": "identity-recovery-diagnostic-not-content-review",
+    "file": "eval/labels/assistant-content-extra300/acquisition/metadata/metadata-recovery-summary.json",
+    "sha256": "f7e4548996a67b22bc267072f629a95404f2db8b2949af9658126edab11008ad",
+    "inputLine": 269,
+    "bvid": "BV1XgKdzyEna",
+    "cid": 30703683167,
+    "attemptedAt": "2026-10-04T23:00:27.165Z",
+    "method": "anonymous-public-page-metadata-only-existing-initialState-parser",
+    "url": "https://www.bilibili.com/video/BV1XgKdzyEna/",
+    "status": "unresolved",
+    "httpStatus": 200,
+    "responseSha256": "7f8521521e3a48bf66b2f65cbd64471bb9a9b77f68ed78e7645373f1ce44dec5",
+    "reason": "requested-cid-not-present-in-video",
+    "returnedBvid": "BV1XgKdzyEna",
+    "availableCids": [
+      {
+        "cid": 30715544134,
+        "page": 1,
+        "duration": 165
+      }
+    ],
+    "limitation": "仅元数据与身份补采诊断，未读取社区广告标签或作为内容审核；原 BV/CID 保持不变。"
+  }
+}

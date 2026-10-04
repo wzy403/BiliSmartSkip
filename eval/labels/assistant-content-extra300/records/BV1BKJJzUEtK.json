@@ -1,0 +1,152 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 58,
+    "inputLineSha256": "a7d28be04faf4f97f2814ad6aee56c81daac7f9ad00b46dd6eda52770ff6865a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1BKJJzUEtK-30091644577.json",
+    "acquisitionSha256": "a0f95817b9b6f0d3a197460026b00d3933aee58e7baf73aa764c788ded2f5ffd",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BKJJzUEtK/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1BKJJzUEtK.json",
+    "transcriptSha256": "f31bf09c7de819d6a1879318486cdc0b41897c0ad7b8434bb6b78583e7bf92d3"
+  },
+  "record": {
+    "bvid": "BV1BKJJzUEtK",
+    "cid": 30091644577,
+    "duration": 874,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕原神爱可菲考据奥古斯特·埃斯科菲的厨房制度、法餐史、英法料理、鲜味与美拉德反应，再解释德波大饭店与情境主义的关联；游戏角色和品牌是主题分析对象。正文结束后明确感谢金主并完整介绍萌牙家电动牙刷。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 734.94,
+        "end": 873.32,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从感谢萌牙家金主、说明将广告放片尾并请求观众支持的赞助铺垫开始，持续讲电动牙刷售价、质保、品控、刷牙效果、型号选择及优惠券/退差价，到视频结尾；该内容与原神文化考据可独立分开。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          734.94,
+          734.94
+        ],
+        "endUncertainty": [
+          873.32,
+          873.32
+        ],
+        "evidence": [
+          {
+            "from": 728.87,
+            "to": 732.24,
+            "text": "才可以从中窥见创作者最深藏的隐喻"
+          },
+          {
+            "from": 732.24,
+            "to": 734.94,
+            "text": "最后非常感谢大家能把视频看到这里"
+          },
+          {
+            "from": 734.94,
+            "to": 738.08,
+            "text": "也非常非常感谢今天的金主爸爸萌芽家"
+          },
+          {
+            "from": 740.64,
+            "to": 742.86,
+            "text": "我们就把广告直接放片尾吧"
+          },
+          {
+            "from": 753.97,
+            "to": 755.85,
+            "text": "所以希望大家能给我点时间"
+          },
+          {
+            "from": 755.85,
+            "to": 757.27,
+            "text": "好好介绍他们的产品"
+          },
+          {
+            "from": 763.86,
+            "to": 765.66,
+            "text": "像他们家入门款的电动牙刷"
+          },
+          {
+            "from": 765.66,
+            "to": 766.9,
+            "text": "特价才139"
+          },
+          {
+            "from": 840.04,
+            "to": 842.04,
+            "text": "就买一支电动牙刷好好刷"
+          },
+          {
+            "from": 850.7,
+            "to": 853.44,
+            "text": "那就选他家的特价139的星光2.0"
+          },
+          {
+            "from": 855.74,
+            "to": 858.46,
+            "text": "可以选他们家经典款星耀特价239"
+          },
+          {
+            "from": 868.56,
+            "to": 870.72,
+            "text": "买之前呢别忘了去评论区领券"
+          },
+          {
+            "from": 871.5,
+            "to": 873.32,
+            "text": "买贵了可随时退差价"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.58,
+        "end": 197.6,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 201.46,
+        "end": 549.47,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 549.87,
+        "end": 569.2,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 572.68,
+        "end": 706.77,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 708.75,
+        "end": 734.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 417,
+      "firstIndex": 0,
+      "lastIndex": 416,
+      "allRowsRead": true
+    }
+  }
+}

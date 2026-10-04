@@ -1,0 +1,62 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": null,
+  "modality": "not-reviewed",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 156,
+    "inputLineSha256": "f5020055f95b8423daf66374504d172e21dca03c3a353f97e83e6599ede8a09f",
+    "acquisitionFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "acquisitionSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LppWzNEMT/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1LppWzNEMT.json",
+    "transcriptSha256": "291d30399cb61106df619a550a718d2419679b5004ce66942875205c88496557"
+  },
+  "record": {
+    "bvid": "BV1LppWzNEMT",
+    "cid": 32434490925,
+    "duration": 1558,
+    "reviewStatus": "needs-source",
+    "fullTranscriptRead": false,
+    "videoSummary": null,
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+      "公开元数据或BV/CID身份核验尚未成功。",
+      "元数据补采诊断：公开页补采返回了原 BV，但原 CID 32434490925 不在当前分 P 列表；当前列出的 CID 为 39826950252。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+    ],
+    "limitations": [
+      "助手内容参考；尚未完成内容审核，未观看视频或听取音频。"
+    ]
+  },
+  "metadataRecovery": {
+    "kind": "identity-recovery-diagnostic-not-content-review",
+    "file": "eval/labels/assistant-content-extra300/acquisition/metadata/metadata-recovery-summary.json",
+    "sha256": "f7e4548996a67b22bc267072f629a95404f2db8b2949af9658126edab11008ad",
+    "inputLine": 156,
+    "bvid": "BV1LppWzNEMT",
+    "cid": 32434490925,
+    "attemptedAt": "2026-10-04T23:00:08.957Z",
+    "method": "anonymous-public-page-metadata-only-existing-initialState-parser",
+    "url": "https://www.bilibili.com/video/BV1LppWzNEMT/",
+    "status": "unresolved",
+    "httpStatus": 200,
+    "responseSha256": "7b1cfe04cba34a485eb39c9f573de60d5e49c1167d66b848aa30feb1c3413d36",
+    "reason": "requested-cid-not-present-in-video",
+    "returnedBvid": "BV1LppWzNEMT",
+    "availableCids": [
+      {
+        "cid": 39826950252,
+        "page": 1,
+        "duration": 1372
+      }
+    ],
+    "limitation": "仅元数据与身份补采诊断，未读取社区广告标签或作为内容审核；原 BV/CID 保持不变。"
+  }
+}

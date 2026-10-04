@@ -1,0 +1,148 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 236,
+    "inputLineSha256": "0c524596a04aafbae007c673e2072d88437e6cdb105716bd44eb9632907f9243",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1TPXBBSEr9-36965908880.json",
+    "acquisitionSha256": "33cf3f0e4f3ec3681e896ce752699470000b4726c2228e2801923d3fcb8ad8c8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TPXBBSEr9/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1TPXBBSEr9.json",
+    "transcriptSha256": "1606cc91fa78f81380b30f530963ca66cf80f6c6aa9b3e30e9c7b7464d367f38"
+  },
+  "record": {
+    "bvid": "BV1TPXBBSEr9",
+    "cid": 36965908880,
+    "duration": 598,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "可辨内容是广州铭少烧鸡到店试吃，讨论环境、鸡鱼及其他菜式口味、套餐和人均，最后给出三分及价格偏高的意见。中间从剪视频犯困与提神需求转入购物平台新人券、价格走势、抽奖、鉴别和左下角入口。大部分粤语被错误识别为无连贯含义的普通话，不能可靠排除其他推广或确认边界。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 0.02,
+        "end": 5.21,
+        "contentType": "uncertain",
+        "skipDecision": "uncertain",
+        "confidence": "low",
+        "reason": "开头关于剪视频犯困、咖啡提神的句子与中段促销铺垫相似，但 ASR 无法确认是否为广告预告或普通开场，需要听原音。",
+        "startUncertainty": [
+          0,
+          0.02
+        ],
+        "endUncertainty": [
+          5.21,
+          5.21
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 0.02,
+            "to": 5.21,
+            "text": "最近剪视频黑满分会上荣登入买的咖啡提提神"
+          }
+        ]
+      },
+      {
+        "start": 85.059,
+        "end": 128.17,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "虽 ASR 严重错字，但新人优惠、抵扣、价格走势、领取商品/现金活动、鉴别保障和左下角入口组成连续明确促销；保留剪视频提神铺垫，平台名和金额不能仅凭错字确认。",
+        "startUncertainty": [
+          82.319,
+          85.059
+        ],
+        "endUncertainty": [
+          128.17,
+          128.17
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 85.059,
+            "to": 86.319,
+            "text": "剪视频"
+          },
+          {
+            "from": 86.319,
+            "to": 87.519,
+            "text": "剪到我的黑晚饭"
+          },
+          {
+            "from": 87.519,
+            "to": 90.93,
+            "text": "安抚新密的假发岛主盛怒提神"
+          },
+          {
+            "from": 90.93,
+            "to": 93.09,
+            "text": "新人补贴价更亲们"
+          },
+          {
+            "from": 93.09,
+            "to": 98.61,
+            "text": "我一直用德牧马野新人登录6805百二十万优惠卷包"
+          },
+          {
+            "from": 99.59,
+            "to": 100.69,
+            "text": "直接抵扣"
+          },
+          {
+            "from": 104.64,
+            "to": 106.58,
+            "text": "他们可以看到价格走势"
+          },
+          {
+            "from": 108,
+            "to": 109.26,
+            "text": "帮你避开高架"
+          },
+          {
+            "from": 114.41,
+            "to": 116.23,
+            "text": "新老用户都可以参与"
+          },
+          {
+            "from": 118.81,
+            "to": 120.51,
+            "text": "大牌潮牌款十多"
+          },
+          {
+            "from": 124.65,
+            "to": 125.85,
+            "text": "买着都放心"
+          },
+          {
+            "from": 125.85,
+            "to": 128.17,
+            "text": "就在那天的左下角可以退下了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "全片粤语 ASR 大量严重误识，如 0–55.319、128.17–270.999 及 456.63 秒后的评分讨论多处不可连贯理解；必须补听或获取可靠字幕，不能以全部行读过视为内容可判断。",
+      "0.02–5.21 秒开场提神句是否也是广告预告，以及 85.059–128.17 秒购物推广准确铺垫边界需视听复核。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "描述中的菜品名称与评价仅使用可辨内容及主题；未对无法理解的字幕区间作无广告判断，normalSpeechRanges 留空。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 164,
+      "firstIndex": 0,
+      "lastIndex": 163,
+      "allRowsRead": true
+    }
+  }
+}

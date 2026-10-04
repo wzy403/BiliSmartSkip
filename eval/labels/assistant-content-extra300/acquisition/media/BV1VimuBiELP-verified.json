@@ -1,0 +1,30 @@
+{
+  "bvid": "BV1VimuBiELP",
+  "cid": 34661404292,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1VimuBiELP/?p=1",
+  "checkedAt": "2026-10-04T23:36:33.188Z",
+  "responseSha256": "f2630ee1970c45d7993216bd62571445c53124bbbca733bd6b11fdd5cdbcf457",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1VimuBiELP.mp4",
+  "sha256": "f167074b69b59caf0106c988366ab6426ecf3ecd88e7f8e64bb41b04a83074ca",
+  "bytes": 23289561,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac"
+      }
+    ],
+    "format": {
+      "duration": "521.078776"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+}

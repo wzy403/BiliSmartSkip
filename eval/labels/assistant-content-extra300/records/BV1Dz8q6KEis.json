@@ -1,0 +1,132 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 81,
+    "inputLineSha256": "8d1383de7777d5302c02da5f35d926147126c4b05831ce2526f9499083305c78",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1Dz8q6KEis-41124430036.json",
+    "acquisitionSha256": "ce9d3ff3fd0de99c916a777f6b54bb31331ba10c341193cda00fd33ef41a29ca",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Dz8q6KEis/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Dz8q6KEis.json",
+    "transcriptSha256": "4493aa304f16246f7e28faa8df76913b530bcce618a41a31de7ed5c98a1609f7"
+  },
+  "record": {
+    "bvid": "BV1Dz8q6KEis",
+    "cid": 41124430036,
+    "duration": 277,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以一局英雄联盟天使对线塔姆、潘森频繁游走压上路的经历，讨论辅助自由游走给弱势上单造成的压力与最终团战获胜；中段借紧张出汗推介得物短袖与购物优惠。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 87.52,
+        "end": 118.14,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从局面紧张想冒汗引出得物购买的速干短袖，再介绍售价折扣、新老客券、鉴别和品牌入驻、评论区购买与价格走势功能；结束后回答潘森不回下路，回到游戏分析。",
+        "evidence": [
+          {
+            "from": 84.62,
+            "to": 87.52,
+            "text": "那主播为什么说现在环境是不是太健康了呢"
+          },
+          {
+            "from": 87.52,
+            "to": 88.8,
+            "text": "这局面把我给弄紧张了"
+          },
+          {
+            "from": 88.8,
+            "to": 89.76,
+            "text": "一紧张就想冒汗"
+          },
+          {
+            "from": 89.76,
+            "to": 91.72,
+            "text": "还好穿着在得物买的阿达玛短袖速干"
+          },
+          {
+            "from": 94.12,
+            "to": 95.08,
+            "text": "包邮到才几十块"
+          },
+          {
+            "from": 96.6,
+            "to": 97.44,
+            "text": "而且得物有新"
+          },
+          {
+            "from": 99.8,
+            "to": 101.76,
+            "text": "我下方评论区置顶链接还在就能领"
+          },
+          {
+            "from": 108.7,
+            "to": 109.9,
+            "text": "有先鉴别再发货"
+          },
+          {
+            "from": 112.46,
+            "to": 113.78,
+            "text": "赶紧去我评论区置顶看看"
+          },
+          {
+            "from": 115.34,
+            "to": 117.42,
+            "text": "按商品价格走势对比行情之后再下手"
+          },
+          {
+            "from": 117.42,
+            "to": 118.14,
+            "text": "就不怕买贵了"
+          },
+          {
+            "from": 118.14,
+            "to": 120.38,
+            "text": "答案就是潘森根本就不去下路了"
+          }
+        ],
+        "startUncertainty": [
+          87.52,
+          87.52
+        ],
+        "endUncertainty": [
+          118.14,
+          118.14
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 87.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 118.14,
+        "end": 276.58,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 181,
+      "firstIndex": 0,
+      "lastIndex": 180,
+      "allRowsRead": true
+    }
+  }
+}

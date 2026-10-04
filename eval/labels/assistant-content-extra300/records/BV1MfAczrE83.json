@@ -1,0 +1,122 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 160,
+    "inputLineSha256": "f4f27906a58b2553a65728b33446d5d7d9e8b101d9045720924030b43f5e36ab",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1MfAczrE83-36862233349.json",
+    "acquisitionSha256": "79b7a61accbcd2b9949a43b9f3f16f2f0a4003ae1a1af780859a446943f7d46a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MfAczrE83/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1MfAczrE83.json",
+    "transcriptSha256": "2ea518d316821ce8276e833396a5a5a3fec9f991c69b419949c63f5baa09dd34"
+  },
+  "record": {
+    "bvid": "BV1MfAczrE83",
+    "cid": 36862233349,
+    "duration": 426,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从 NULL 车牌罚单故事引出计算机译名，分别解释鲁棒性、菊花链、透明与语法糖的语源和技术含义，结尾邀请讨论。菊花链说明中，由资料整理所用新平板转到旧物回收，插入转转回收价格、品类和变现优势，随后明确回到术语话题。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 169.96,
+        "end": 201.78,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "新平板方便整理资料是旧平板回收推广的铺垫，持续讲转转回收品类、速度、价格和闲置变现，收在“钱到手才是硬道理”，后句回到话题。",
+        "startUncertainty": [
+          169.96,
+          169.96
+        ],
+        "endUncertainty": [
+          201.78,
+          202.28
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 169.96,
+            "to": 171.8,
+            "text": "这些资料的收集也多亏我新换的平板"
+          },
+          {
+            "from": 173.04,
+            "to": 174.42,
+            "text": "大家换新后旧要怎么处理"
+          },
+          {
+            "from": 174.42,
+            "to": 176.98,
+            "text": "像我那台旧平板找转转上门回收了4400多"
+          },
+          {
+            "from": 180.5,
+            "to": 182.66,
+            "text": "像手机平板switch这样的数码产品"
+          },
+          {
+            "from": 189.92,
+            "to": 192.46,
+            "text": "特别适合我这种想快速变现又图省事的人"
+          },
+          {
+            "from": 194.98,
+            "to": 197.1,
+            "text": "我之前那款欧米茄还卖了2万4000多呢"
+          },
+          {
+            "from": 198.74,
+            "to": 199.78,
+            "text": "就直接卖给转转"
+          },
+          {
+            "from": 199.78,
+            "to": 201.78,
+            "text": "钱到手才是硬道理"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 46.62,
+        "reason": "计算机词汇、鲁棒性和菊花链概念说明。"
+      },
+      {
+        "start": 48.2,
+        "end": 169.96,
+        "reason": "计算机词汇、鲁棒性和菊花链概念说明。"
+      },
+      {
+        "start": 202.28,
+        "end": 257.14,
+        "reason": "菊花链翻译历史、透明性与语法糖说明；投币笑话和片尾互动为频道常规交流。"
+      },
+      {
+        "start": 258.19,
+        "end": 417.72,
+        "reason": "菊花链翻译历史、透明性与语法糖说明；投币笑话和片尾互动为频道常规交流。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "末句 417.72 秒之后至时长 426 秒缺字幕，画面未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 277,
+      "firstIndex": 0,
+      "lastIndex": 276,
+      "allRowsRead": true
+    }
+  }
+}

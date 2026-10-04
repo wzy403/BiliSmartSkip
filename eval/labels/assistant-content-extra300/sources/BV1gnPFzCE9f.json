@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1gnPFzCE9f",
+  "cid": 36424257001,
+  "title": "霍尔木兹一关，欧洲先断气：美以打伊朗打到哪了？",
+  "duration": 978,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:11.394Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:34.672Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 110,
+    "inputLineSha256": "db0eb3c60caf95dc4187318d81a75a2ffe69dc9b883c89fc8e95459f447e7a32",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1gnPFzCE9f-36424257001.json",
+    "acquisitionSha256": "212efe4fd030912a4ba05cc7285fcc58f63d5c9103ea52de66a542753bbd0359",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gnPFzCE9f/?p=1"
+  }
+}

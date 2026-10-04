@@ -1,0 +1,197 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 86,
+    "inputLineSha256": "b52e8c8667233813ea3c72b220d65da4b6c450a3fb56ef71ec85a522a52adcbe",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1Eb2PYYEE7-26495028227.json",
+    "acquisitionSha256": "9d64dbe7aec6a1d9fe25a536ce94c10341560345af162905a18d450e49e27eab",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Eb2PYYEE7/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Eb2PYYEE7.json",
+    "transcriptSha256": "8628935f24708d08c08cf4b22c779cff5d207b5fd799442e67afe7a97976a684"
+  },
+  "record": {
+    "bvid": "BV1Eb2PYYEE7",
+    "cid": 26495028227,
+    "duration": 754,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "对比《我本是高山》和《山花烂漫时》呈现张桂梅校长的叙事方式，分析贫困、教师组织、基层干部、人物信仰和革命乐观主义，批评电影动机庸俗化。由剧中奔波转入赫恩沐浴露推广后回到剧评。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 324.72,
+        "end": 386,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由三人组奔波联想到自己工作出汗油痒，构成沐浴露的需求铺垫；接着介绍赫恩的祛痘除螨、保湿香型、榜单与礼盒，给优惠券和两瓶购买建议，并以国庆结束将开工作为场景收尾。386秒开始明确恢复电视剧人物评论。影视名称、推荐观看和白酒米酒的叙事比喻均属剧评正文。",
+        "evidence": [
+          {
+            "from": 322.36,
+            "to": 324.72,
+            "text": "也让我们看到了现实工作的复杂性"
+          },
+          {
+            "from": 324.72,
+            "to": 326.08,
+            "text": "到三人组到处奔波"
+          },
+          {
+            "from": 326.08,
+            "to": 328.64,
+            "text": "就想到我刚工作时也是从早跑到晚"
+          },
+          {
+            "from": 328.64,
+            "to": 329.6,
+            "text": "一身汗臭"
+          },
+          {
+            "from": 329.6,
+            "to": 331.28,
+            "text": "浑身又油又痒还难受"
+          },
+          {
+            "from": 331.28,
+            "to": 333.84,
+            "text": "现在我们有了这款赫恩吉利沐浴露"
+          },
+          {
+            "from": 337.46,
+            "to": 339.5,
+            "text": "它实打实做到了祛痘控油"
+          },
+          {
+            "from": 341.56,
+            "to": 343.32,
+            "text": "除尘螨率高达百分之百"
+          },
+          {
+            "from": 351.82,
+            "to": 353.06,
+            "text": "参根雪莲花温泉水"
+          },
+          {
+            "from": 354.7,
+            "to": 356.62,
+            "text": "洗后皮肤水润丝滑不干燥"
+          },
+          {
+            "from": 363.86,
+            "to": 366.06,
+            "text": "味道还是高级好闻的木质古龙香"
+          },
+          {
+            "from": 371.3,
+            "to": 373.66,
+            "text": "不仅斩获了天猫沐浴露三大榜单"
+          },
+          {
+            "from": 373.66,
+            "to": 375.64,
+            "text": "还入选了B站年度好物榜"
+          },
+          {
+            "from": 376.88,
+            "to": 378.48,
+            "text": "现在品牌还出了礼盒装"
+          },
+          {
+            "from": 379.82,
+            "to": 381.84,
+            "text": "评论区领取专属大额券"
+          },
+          {
+            "from": 381.84,
+            "to": 383.06,
+            "text": "买两瓶更划算"
+          },
+          {
+            "from": 383.06,
+            "to": 384.34,
+            "text": "国庆是马上要结束的"
+          },
+          {
+            "from": 384.34,
+            "to": 386,
+            "text": "但工作是马上要开始的"
+          },
+          {
+            "from": 386,
+            "to": 387.04,
+            "text": "电视剧里张校长"
+          }
+        ],
+        "startUncertainty": [
+          324.72,
+          324.72
+        ],
+        "endUncertainty": [
+          386,
+          386
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 282.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 284.2,
+        "end": 302.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 305.26,
+        "end": 324.72,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 386,
+        "end": 387.56,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 392.2,
+        "end": 499.48,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 500.68,
+        "end": 546.46,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 549.08,
+        "end": 728.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 730.76,
+        "end": 753.5,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 432,
+      "firstIndex": 0,
+      "lastIndex": 431,
+      "allRowsRead": true
+    }
+  }
+}

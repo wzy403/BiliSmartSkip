@@ -1,0 +1,438 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 170,
+    "inputLineSha256": "d74cadc118cdd05971b1efe8ddb458ff2c1e9945e4171c93ac7963a6c2723a72",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1mx411M75v-25427412.json",
+    "acquisitionSha256": "c2cffd13a678db9c74b0948318b8acee5da716d00c51ef2830c92f6be3085b30",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mx411M75v/?p=10",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1mx411M75v.json",
+    "transcriptSha256": "e3bc1cdde7b4cf37f491e8517643ee816c265a8170e61878dcc63a4c5c4ce36d"
+  },
+  "record": {
+    "bvid": "BV1mx411M75v",
+    "cid": 25427412,
+    "duration": 511,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "可用字幕呈现《夺宝幸运星》大闹天宫一集：片头西游人物歌、李天王失利、太上老君用仙丹抓悟空、炼丹炉乌龙、如来手掌赌约及五行山封条笑话。仙丹、罚款和影视名称均是剧情笑料，无可确认现实商品广告。片尾“请看下集”后仍有 66.06 秒完全无字幕，不能判断剩余内容。 补看原CID25427412所在第10分P的440–509秒每3秒抽帧：440–449秒为请看下集卡，452秒以后为角色动画和配音、导演、编剧、制作、媒体支持及出品署名，未见商品推广。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 444.94,
+        "end": 511,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "字幕缺口经实际查看24张每3秒抽取画面，显示请看下集和连续片尾制作署名；支持单位/出品公司是署名，不等同需跳商业推广。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 440,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-001.jpg",
+            "sha256": "8939179ea8be11850598d1d8100a4857aa3b9b31a40d17ec53d919290aa59d88",
+            "observation": "动画角色与请看下集字样。"
+          },
+          {
+            "time": 443,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-002.jpg",
+            "sha256": "0af1b53a55c08862830a7ddfdfac64b87f23ff26cd23d49db2aaff96f6cfd271",
+            "observation": "动画角色与请看下集字样。"
+          },
+          {
+            "time": 446,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-003.jpg",
+            "sha256": "2876942f172d6c987a95b68426d519d2b43104b0c0fbd9908461c26d10006485",
+            "observation": "动画角色与请看下集字样。"
+          },
+          {
+            "time": 449,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-004.jpg",
+            "sha256": "3bc06fd1d9941444b03a7793f19bcc89d5374ea4c3e04cec6110b8e484667bde",
+            "observation": "动画角色与请看下集字样。"
+          },
+          {
+            "time": 452,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-005.jpg",
+            "sha256": "f2a3c29751d5fc4ba4857fa0804d1e9405d08cba4113e176a8e0bc76bf351e54",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 455,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-006.jpg",
+            "sha256": "f559d8b309e471d7eabec45feaa7e4363d63402efea52636b54b5929004d8dda",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 458,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-007.jpg",
+            "sha256": "f7f23b56258bdeebbf8943da78ec864b8b0c539caee9caba529af2c8d9ba70a4",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 461,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-008.jpg",
+            "sha256": "be669c2e02d6e70a1625e84db8974217bc869dc3339eb173cb2feb7b2a046efb",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 464,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-009.jpg",
+            "sha256": "9a44cd271723775c623a35f985bed73e4abea2b0659040a1915adc9321fd159f",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 467,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-010.jpg",
+            "sha256": "388d9aa203e78ade9aeecae8767a3796b44b6470984b7fb29481b3c45523d91e",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 470,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-011.jpg",
+            "sha256": "b191550b2eb7d7353dc0899d0f5a39b1e2a177810a7c72a94e27f03f22d135ae",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 473,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-012.jpg",
+            "sha256": "db948f810020a97fd25f785dbf3f382a9783a178f9ad3553aaaad839d4d6eccd",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 476,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-013.jpg",
+            "sha256": "5c8801a561d5679d8f6266f86b756596323f4d27a0c7ea1447f88d2773ca2c2f",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 479,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-014.jpg",
+            "sha256": "9ba4bf591163c8fef7b8eb6eafd3cfe9257b29e1559b9b62e13e25b9db260473",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 482,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-015.jpg",
+            "sha256": "3dd3bcf9c34ba997d7b6f6607217b372d67ff990de38bdee8840390d71c7d35f",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 485,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-016.jpg",
+            "sha256": "93a6def3f7af2349e7b91390f5f01cc1495a4f01c059b5596082dc36df09e4bb",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 488,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-017.jpg",
+            "sha256": "c0050a1fe52ee394bc315c1d8c4f960494cf61303e86c9a3679c562ac77a68cb",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 491,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-018.jpg",
+            "sha256": "aea125441db1125ecf28730651e406881a03938e30c9d959b3bf4c3cad226e75",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 494,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-019.jpg",
+            "sha256": "58d5bb57687a59a19cc273d6e6fa56833c286289ad3916c8603f75ff0c1c5bf6",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 497,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-020.jpg",
+            "sha256": "0892d10cef239f68aa773f968e853f09b572c6dbaff0c1d6156918c6c9644813",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 500,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-021.jpg",
+            "sha256": "fb8630c8d6e4246292148744ab9d8fb390dfb0ada2fd6ad66c322ac986a26277",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 503,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-022.jpg",
+            "sha256": "6a4bea4da6eae0e1fd8e8f861281fe9c0d6ae0b63ab4140268b18fd89d50f8dc",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 506,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-023.jpg",
+            "sha256": "3ba33c3ed3ba5c4a1219e0146fd1130087ebc054bcc0bffba964382026c95899",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          },
+          {
+            "time": 509,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frame-024.jpg",
+            "sha256": "dbbd8776de22c13a331a4373bed81741e2bbaaa738b0d117d568b21815cc6e70",
+            "observation": "角色动画及连续片尾工作人员/制作和媒体支持署名。"
+          }
+        ],
+        "startUncertainty": [
+          444.94,
+          446
+        ],
+        "endUncertainty": [
+          509,
+          511
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.22,
+        "end": 4.3,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 5.9,
+        "end": 31.26,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 31.34,
+        "end": 71.56,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 73.22,
+        "end": 87.539,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 93.46,
+        "end": 104.539,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 106.46,
+        "end": 113.64,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 115.06,
+        "end": 122.679,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 133.2,
+        "end": 134.92,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 135.38,
+        "end": 165.34,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 166.399,
+        "end": 171.84,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 172.559,
+        "end": 187.2,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 190.82,
+        "end": 193.84,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 196.3,
+        "end": 198.84,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 200.6,
+        "end": 207.24,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 207.54,
+        "end": 221.34,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 221.5,
+        "end": 225.98,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 226.32,
+        "end": 235.74,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 236.019,
+        "end": 238.26,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 240.6,
+        "end": 248,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 249.26,
+        "end": 251.08,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 251.76,
+        "end": 257.12,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 257.64,
+        "end": 265,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 272.56,
+        "end": 273.9,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 275.64,
+        "end": 278.46,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 279.56,
+        "end": 281.86,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 284.14,
+        "end": 296.6,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 306.759,
+        "end": 313.38,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 314.34,
+        "end": 324.42,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 325.18,
+        "end": 330.3,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 340.4,
+        "end": 341.36,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 344.12,
+        "end": 355.04,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 355.18,
+        "end": 363.68,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 364,
+        "end": 370.36,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 376.02,
+        "end": 382.74,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 383.4,
+        "end": 386.74,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 388.96,
+        "end": 396.62,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 397.259,
+        "end": 402.24,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 405.88,
+        "end": 410.56,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 411.06,
+        "end": 418.46,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 423.38,
+        "end": 432.36,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 432.7,
+        "end": 435.64,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 436.44,
+        "end": 440.3,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      },
+      {
+        "start": 443.02,
+        "end": 444.94,
+        "reason": "动画片头及大闹天宫剧情；购物或神药相关措辞仅出现在西游故事中。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "片头歌词及部分人物对话 ASR 有错字，剧情主线可理解；已完整阅读124行字幕，并实际查看尾部440–509秒每3秒抽帧共24张。未听取音频，未连续观看或逐帧核验全片。",
+      "完整阅读全部124行可用字幕，并实际查看尾部440–509秒每3秒抽帧共24张；未听音频、非逐帧检查，抽帧之间及509–511秒保留视觉采样限制。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 124,
+      "firstIndex": 0,
+      "lastIndex": 123,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:38:59.908Z",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1mx411M75v.mp4",
+      "mediaSha256": "30a30796033e992ac320ec4a2732b9552b9e17ad3396ab272c5a14a72cc17d47",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1mx411M75v-verified.json",
+      "originalCid": 25427412,
+      "page": 10,
+      "frameManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1mx411M75v/tail-gap-middle/frames.json",
+      "sampleStart": 440,
+      "sampleEnd": 509,
+      "sampleEverySeconds": 3,
+      "framesActuallyViewed": 24,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  }
+}

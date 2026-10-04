@@ -1,0 +1,147 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 154,
+    "inputLineSha256": "d3483b2f0b450802804792896816804f685ea535bb7c513bcc7a96c093f61a9e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Lf421B7RZ-1640873740.json",
+    "acquisitionSha256": "15e9978656db5aeeb45922fe854ff52f811d4893afec48108923b9054fe4ed47",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Lf421B7RZ/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Lf421B7RZ.json",
+    "transcriptSha256": "cc83aaa118b4cfbc6ed4f5b8b011b8c44cb9ad49cb39911f96d234579d0ab528"
+  },
+  "record": {
+    "bvid": "BV1Lf421B7RZ",
+    "cid": 1640873740,
+    "duration": 1376,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以 426–429 年北魏攻夏为主线，讲拓跋焘攻取统万城、赫连昌被俘、锡金冒进战败，穿插毛修之厨艺与史学故事，随后交代西秦内乱、北凉攻势和刘宋权力调整。唯一商业插入从崔浩容貌与夏季保养的岔话转向西木源男士护肤套装，之后接回崔浩驳斥宦官的战场对话。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 316.02,
+        "end": 408.03,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“说到崔颢再多说两句”另起容貌与保养铺垫，紧接出油问题、西木源洁面水乳成分功效、榜单背书、优惠券及售后，直到男生日常护肤建议后回到战场正文。",
+        "startUncertainty": [
+          316.02,
+          322.21
+        ],
+        "endUncertainty": [
+          405.719,
+          408.03
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 316.02,
+            "to": 316.8,
+            "text": "说到崔颢"
+          },
+          {
+            "from": 317.98,
+            "to": 320.57,
+            "text": "史书记载崔颢的长相纤妍"
+          },
+          {
+            "from": 322.21,
+            "to": 325.53,
+            "text": "那崔颢在这炎热的夏季跟随拓跋涛出征"
+          },
+          {
+            "from": 328.54,
+            "to": 330.74,
+            "text": "是不是有很多朋友脸上狂出油"
+          },
+          {
+            "from": 334.82,
+            "to": 336.98,
+            "text": "这里就给大家推荐我们的老朋友"
+          },
+          {
+            "from": 336.98,
+            "to": 338.94,
+            "text": "西木源男士专研套装"
+          },
+          {
+            "from": 372.76,
+            "to": 376.28,
+            "text": "精华水里边添加的极光黑云山控油精粹"
+          },
+          {
+            "from": 398.919,
+            "to": 400.679,
+            "text": "现在置顶领大额优惠券"
+          },
+          {
+            "from": 402.259,
+            "to": 404.519,
+            "text": "性价比高的同时还承诺过敏包退"
+          },
+          {
+            "from": 406.399,
+            "to": 408.03,
+            "text": "咱男生选这套就足够了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 316.02,
+        "reason": "北魏两次西征、战略部署与战场争论的历史叙述。"
+      },
+      {
+        "start": 408.03,
+        "end": 683.56,
+        "reason": "继续南北朝战争、人事和史料故事；信长的主厨只作毛修之人生的文学类比。"
+      },
+      {
+        "start": 686.4,
+        "end": 775.34,
+        "reason": "继续南北朝战争、人事和史料故事；信长的主厨只作毛修之人生的文学类比。"
+      },
+      {
+        "start": 777.14,
+        "end": 1118.12,
+        "reason": "继续南北朝战争、人事和史料故事；信长的主厨只作毛修之人生的文学类比。"
+      },
+      {
+        "start": 1121.76,
+        "end": 1196.68,
+        "reason": "继续南北朝战争、人事和史料故事；信长的主厨只作毛修之人生的文学类比。"
+      },
+      {
+        "start": 1198.26,
+        "end": 1311.38,
+        "reason": "继续南北朝战争、人事和史料故事；信长的主厨只作毛修之人生的文学类比。"
+      },
+      {
+        "start": 1313.68,
+        "end": 1362.16,
+        "reason": "继续南北朝战争、人事和史料故事；信长的主厨只作毛修之人生的文学类比。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "末句再见至视频结尾 1362.16–1376 秒无字幕，未核验该处画面。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 701,
+      "firstIndex": 0,
+      "lastIndex": 700,
+      "allRowsRead": true
+    }
+  }
+}

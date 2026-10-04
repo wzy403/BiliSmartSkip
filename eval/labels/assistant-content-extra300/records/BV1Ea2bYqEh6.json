@@ -1,0 +1,257 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 83,
+    "inputLineSha256": "a4deb3870bcc4ba1c040fddef98366f6f8296c4a14b2f8d20569545fb26bb314",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1Ea2bYqEh6-26254313908.json",
+    "acquisitionSha256": "8e72982b04c7ed2f8ceb22269593e830988f7abaf937604a065a78c1deb26311",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ea2bYqEh6/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Ea2bYqEh6.json",
+    "transcriptSha256": "3d75753f2b72bb42f623957557b6c2f915b8508052f42beee09d1cdbfe8aeda0"
+  },
+  "record": {
+    "bvid": "BV1Ea2bYqEh6",
+    "cid": 26254313908,
+    "duration": 504,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "复刻黄磊综艺里的黄酒黄豆炖猪蹄，与加水版同时制作并让朋友盲尝，讨论酒味、苦酸与软烂差异。焖煮等待时以饥饿垫肚子引入白象拌面推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 85.16,
+        "end": 122.36,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从烹调香味勾起食欲、没吃晚饭的铺垫过渡到火鸡面垫肚子，集中展示白象多种口味与方便做法，随后给出礼包尝鲜名额、链接及领取号召；至‘赶快去薅羊毛吧’收尾，下一句回到猪蹄熬干现场。",
+        "evidence": [
+          {
+            "from": 84.56,
+            "to": 85.16,
+            "text": "扣个二啊"
+          },
+          {
+            "from": 85.16,
+            "to": 86.04,
+            "text": "当时炒着的时候呢"
+          },
+          {
+            "from": 86.04,
+            "to": 87.72,
+            "text": "其实我觉得闻着还是很香的"
+          },
+          {
+            "from": 87.72,
+            "to": 89.16,
+            "text": "也可能是我晚饭没吃的原因吧"
+          },
+          {
+            "from": 90.22,
+            "to": 91.6,
+            "text": "瞬间勾起了我的食欲"
+          },
+          {
+            "from": 91.88,
+            "to": 93.36,
+            "text": "还是整个火鸡面垫垫肚子吧"
+          },
+          {
+            "from": 93.36,
+            "to": 94.96,
+            "text": "我囤了一大箱白象拌面"
+          },
+          {
+            "from": 100.38,
+            "to": 102.32,
+            "text": "这个奶油火鸡面就是浓郁的奶香"
+          },
+          {
+            "from": 102.32,
+            "to": 103.56,
+            "text": "融合了火鸡面的辣"
+          },
+          {
+            "from": 105.74,
+            "to": 107.96,
+            "text": "每一根面条都裹满咸蛋黄的流沙"
+          },
+          {
+            "from": 110.58,
+            "to": 112.02,
+            "text": "一煮一拌3分钟就搞定"
+          },
+          {
+            "from": 112.54,
+            "to": 114.18,
+            "text": "我特意申请了2000个"
+          },
+          {
+            "from": 114.18,
+            "to": 115.78,
+            "text": "白象拌面大礼包的尝鲜名额"
+          },
+          {
+            "from": 115.78,
+            "to": 118.38,
+            "text": "每个名额都有机会获得一整箱五种多口味"
+          },
+          {
+            "from": 119.02,
+            "to": 121.4,
+            "text": "试试链接就挂在视频下方和评论区置顶了"
+          },
+          {
+            "from": 121.4,
+            "to": 122.36,
+            "text": "赶快去薅羊毛吧"
+          },
+          {
+            "from": 122.36,
+            "to": 123.92,
+            "text": "哎呀我滴乖乖呀"
+          }
+        ],
+        "startUncertainty": [
+          85.16,
+          85.16
+        ],
+        "endUncertainty": [
+          122.36,
+          122.36
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 36.67,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 37.75,
+        "end": 47.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 50.78,
+        "end": 64.21,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 66.2,
+        "end": 85.16,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 122.36,
+        "end": 195.15,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 196.39,
+        "end": 207.18,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 208.86,
+        "end": 209.54,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 212.1,
+        "end": 237.68,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 238.88,
+        "end": 243.8,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 245.06,
+        "end": 288.25,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 289.69,
+        "end": 304.37,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 306.47,
+        "end": 310.26,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 310.82,
+        "end": 315.38,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 317.1,
+        "end": 319.53,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 325.09,
+        "end": 357.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 358,
+        "end": 392.01,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 393.21,
+        "end": 395.05,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 397.53,
+        "end": 408.62,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 409.9,
+        "end": 452.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 453.96,
+        "end": 459.73,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 460.33,
+        "end": 483.42,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 484.14,
+        "end": 503.72,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 327,
+      "firstIndex": 0,
+      "lastIndex": 326,
+      "allRowsRead": true
+    }
+  }
+}

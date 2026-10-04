@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1gKjV6eEBv",
+  "cid": 39166804849,
+  "title": "骑射对决，倒反天罡",
+  "duration": 587,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:41.790Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:30.672Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 107,
+    "inputLineSha256": "c1aab858b52a3449db486423705c51ed3c3b618a404a6eee63f9a1f58a0a57d2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1gKjV6eEBv-39166804849.json",
+    "acquisitionSha256": "8cb29570a07aaef7af569faa88f19085b7cedd89cce63992963a5908f031a040",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gKjV6eEBv/?p=1"
+  }
+}

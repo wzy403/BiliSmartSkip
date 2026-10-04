@@ -1,0 +1,26 @@
+{
+  "bvid": "BV16CU5BFETj",
+  "cid": 34152647660,
+  "title": "伏笔太深，怪不得鹰眼会和凯多一样被索隆给吓到，原来是从他身上看到了御田的身影",
+  "duration": 305,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:23.794Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:06.821Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 27,
+    "inputLineSha256": "159cb1b09e4ff1b543bde9e16c521942daf524781b8a9f6b7b8a6f2a7f666ed8",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV16CU5BFETj-34152647660.json",
+    "acquisitionSha256": "6f3a96578e29ae6c55988551d2d589e2958efa5bf3f14a62d2402033344a1ae9",
+    "sourceUrl": "https://www.bilibili.com/video/BV16CU5BFETj/?p=1"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 294,
+    "inputLineSha256": "f2777d434ee9438202769025905751ed1c851adb601a89c14466fc72edabfe9e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1zRXAY7EmG-28963571814.json",
+    "acquisitionSha256": "04fd77efbce59511df720ddb547bf6913ca235c860b890d0ea943d211d39adce",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zRXAY7EmG/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1zRXAY7EmG.json",
+    "transcriptSha256": "aabbab035ab67f63849ef5716e838d0b3dacb7de6052fd272f1c62416c3123d3"
+  },
+  "record": {
+    "bvid": "BV1zRXAY7EmG",
+    "cid": 28963571814,
+    "duration": 908,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "记录救助貉在笼内的状态、转移、第二次野外放生及夜间回访，中途独立展示洗护套装。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 281.26,
+        "end": 476.83,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "从休息一下的转场引出收到洗护套装，连续展示沐浴、洗发、洁面及产品卖点，最后优惠券、套装价格和感谢支持；整段可脱离放生主线，应跳过。产品名称存在转写差异，不以推测品牌补写原文。",
+        "startUncertainty": [
+          278.91,
+          284.259
+        ],
+        "endUncertainty": [
+          476.83,
+          477.15
+        ],
+        "evidence": [
+          {
+            "from": 281.26,
+            "to": 283.659,
+            "text": "休息一下休息一下哎"
+          },
+          {
+            "from": 284.259,
+            "to": 289.179,
+            "text": "正好收到了果壳的这个升级款的西服套装"
+          },
+          {
+            "from": 297.15,
+            "to": 301.33,
+            "text": "这玩意这洗护套装有洗化泡泡嗯"
+          },
+          {
+            "from": 304.63,
+            "to": 308.87,
+            "text": "顾客家的这个洗护套装已经推荐过很多回了"
+          },
+          {
+            "from": 324.1,
+            "to": 328.84,
+            "text": "看一下这款是他们家的无患子洗发泡泡"
+          },
+          {
+            "from": 374.94,
+            "to": 377.84,
+            "text": "油头的真的可以尝试一下"
+          },
+          {
+            "from": 377.84,
+            "to": 381.66,
+            "text": "这个是他们家的水杨酸沐浴露"
+          },
+          {
+            "from": 436.42,
+            "to": 439.44,
+            "text": "再看一下果壳家的这个洁面"
+          },
+          {
+            "from": 459.659,
+            "to": 462.759,
+            "text": "这个洗护套装真的是非常不错的"
+          },
+          {
+            "from": 462.759,
+            "to": 464.92,
+            "text": "不仅好用还不贵"
+          },
+          {
+            "from": 464.92,
+            "to": 467.92,
+            "text": "需要的朋友可以评论区领取专属优惠券"
+          },
+          {
+            "from": 469.2,
+            "to": 472.86,
+            "text": "推荐买套装会更划算"
+          },
+          {
+            "from": 472.86,
+            "to": 476.83,
+            "text": "同时也感谢大家的一路支持"
+          },
+          {
+            "from": 477.15,
+            "to": 478.59,
+            "text": "走了去放生"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 325,
+      "firstIndex": 0,
+      "lastIndex": 324,
+      "allRowsRead": true
+    }
+  }
+}

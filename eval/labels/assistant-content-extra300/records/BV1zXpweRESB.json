@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 298,
+    "inputLineSha256": "a38225bc63b47ff18ab3fdbe8286df6ad52d49291ade6f4aaecc5fbae3fd0d75",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1zXpweRESB-25741560078.json",
+    "acquisitionSha256": "c3d02fbdd626e776aeb9d36bb287d7234012496f35d7abb179359940b838e1b6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zXpweRESB/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1zXpweRESB.json",
+    "transcriptSha256": "4b75e77ebabc81c5316dd5fc317bd28ec40a01a9b9a8aa77f8ee963e2592a8a2"
+  },
+  "record": {
+    "bvid": "BV1zXpweRESB",
+    "cid": 25741560078,
+    "duration": 298,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕链式机炮为何使用链条、内部机构和工作周期的科普；正题前插入肩颈按摩仪推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 52.38,
+        "end": 108.14,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "以开始前让久坐观众按摩的引导切入妙界产品，包含力度、结构、使用场景、价格价值、优惠和售后以及节日礼品收尾；108.14秒回到科普。",
+        "startUncertainty": [
+          52.38,
+          52.38
+        ],
+        "endUncertainty": [
+          108.14,
+          108.14
+        ],
+        "evidence": [
+          {
+            "from": 52.38,
+            "to": 55.7,
+            "text": "开始前建议久坐的同学先用妙结肩颈按摩仪"
+          },
+          {
+            "from": 57.4,
+            "to": 58.24,
+            "text": "配置厚道"
+          },
+          {
+            "from": 58.94,
+            "to": 60.34,
+            "text": "实打实的八个爪子"
+          },
+          {
+            "from": 68.739,
+            "to": 70.859,
+            "text": "是我用过最像人手的按摩仪"
+          },
+          {
+            "from": 75.38,
+            "to": 77.48,
+            "text": "久而久之难免患上颈椎病"
+          },
+          {
+            "from": 81.62,
+            "to": 83.92,
+            "text": "一不留神就会买到差的妙界"
+          },
+          {
+            "from": 85.2,
+            "to": 88.44,
+            "text": "平时运动健身后还能用热敷功能舒缓腰腿"
+          },
+          {
+            "from": 96.24,
+            "to": 98.86,
+            "text": "而且使用一段时间腰板会自然挺直"
+          },
+          {
+            "from": 100.08,
+            "to": 101.92,
+            "text": "评论区置顶领取优惠券"
+          },
+          {
+            "from": 101.92,
+            "to": 103.56,
+            "text": "依旧有保价和运险"
+          },
+          {
+            "from": 105.18,
+            "to": 108.14,
+            "text": "中秋教师节赠送礼品就选它了"
+          },
+          {
+            "from": 108.14,
+            "to": 109.06,
+            "text": "链式机炮"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 160,
+      "firstIndex": 0,
+      "lastIndex": 159,
+      "allRowsRead": true
+    }
+  }
+}

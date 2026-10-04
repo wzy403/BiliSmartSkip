@@ -1,0 +1,157 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 197,
+    "inputLineSha256": "b7812b2033375467df1378e68bbb5cd6390d7eb7e8533fdc241bd3f005658177",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Q6YqzxEWD-31740461497.json",
+    "acquisitionSha256": "46d61419fe1d11b3a172cd2059ea9708f7cce83342d8636c9ec949933775fe7e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Q6YqzxEWD/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Q6YqzxEWD.json",
+    "transcriptSha256": "5516d3d63f34f40c65e9c828fa0e6a04a2ab871c6cd8272932d7874e89764d3e"
+  },
+  "record": {
+    "bvid": "BV1Q6YqzxEWD",
+    "cid": 31740461497,
+    "duration": 301,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从车尾小狗逆风排尿与货车火龙卷现象讲解分离涡和回流区，继而说明火星直升机在低雷诺数条件下控制气流分离的方法。分析中明确暂停插入EHD沐浴露推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 73.96,
+        "end": 123.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "‘在分析之前’为独立广告转场，介绍EHD祛痘沐浴露的检测、配方、使用感和香型，接着推荐美白款及粉丝优惠券、买两瓶更划算。123.38秒直接继续轿车回流区问题，广告与流体知识正文清楚分离。",
+        "evidence": [
+          {
+            "from": 72.24,
+            "to": 73.96,
+            "text": "又该采用什么方法呢"
+          },
+          {
+            "from": 73.96,
+            "to": 75.04,
+            "text": "在分析之前"
+          },
+          {
+            "from": 75.04,
+            "to": 77,
+            "text": "我要向夏天后背容易出油"
+          },
+          {
+            "from": 77,
+            "to": 80.68,
+            "text": "长痘的小伙伴推荐这款EHD持证祛痘沐浴露"
+          },
+          {
+            "from": 80.68,
+            "to": 81.88,
+            "text": "经我试用一段时间"
+          },
+          {
+            "from": 83.4,
+            "to": 84.82,
+            "text": "他有权威检测报告"
+          },
+          {
+            "from": 85.66,
+            "to": 87.18,
+            "text": "三酸复配舒缓成分"
+          },
+          {
+            "from": 91.44,
+            "to": 93.22,
+            "text": "还添加护脸级氨基酸"
+          },
+          {
+            "from": 96,
+            "to": 97.92,
+            "text": "挤一下洗全身秒冲洗"
+          },
+          {
+            "from": 102.94,
+            "to": 106.14,
+            "text": "经典的橙花柠檬香型气息淡雅持久"
+          },
+          {
+            "from": 106.14,
+            "to": 109.16,
+            "text": "夏天晒黑变黄或者后背有痘印的同学"
+          },
+          {
+            "from": 109.16,
+            "to": 111.84,
+            "text": "建议搭配这款具有美白特征的沐浴露"
+          },
+          {
+            "from": 111.84,
+            "to": 113.54,
+            "text": "它含高纯度烟酰胺"
+          },
+          {
+            "from": 117.3,
+            "to": 119.98,
+            "text": "EHD是我多次推荐的口碑产品"
+          },
+          {
+            "from": 119.98,
+            "to": 122.04,
+            "text": "评论置顶领取粉丝优惠券"
+          },
+          {
+            "from": 122.04,
+            "to": 123.38,
+            "text": "买两瓶更划算"
+          },
+          {
+            "from": 123.38,
+            "to": 126,
+            "text": "既然轿车的后风挡处没有分离涡"
+          }
+        ],
+        "startUncertainty": [
+          73.96,
+          73.96
+        ],
+        "endUncertainty": [
+          123.38,
+          123.38
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 73.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 123.38,
+        "end": 299.02,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 134,
+      "firstIndex": 0,
+      "lastIndex": 133,
+      "allRowsRead": true
+    }
+  }
+}

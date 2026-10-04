@@ -1,0 +1,369 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles-plus-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 211,
+    "inputLineSha256": "17953bf5645442fc2a07b29588060842a81b2fe30ee2ecefa1006a67fc4a6066",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1rsPqzvEW1-36455321320.json",
+    "acquisitionSha256": "308556c8d40e9c51c4de9511e84eed8c93cd99534a6264dfc4f37f6481a5879b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rsPqzvEW1/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1rsPqzvEW1.json",
+    "transcriptSha256": "e1cfcb678965ad095b9c453fed61de7ea5eaa1a92cd93aa9b5cf1695a94cfc7b"
+  },
+  "record": {
+    "bvid": "BV1rsPqzvEW1",
+    "cid": 36455321320,
+    "duration": 506,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "通过实战讲解击伤侦察员高分试炼的配装、刷新点、等待时机、追击风险与撤离操作；等待期间插入千岛游戏物品平台推广，字幕结尾停在另一个地点教学刚开始处。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 71.02,
+        "end": 87.01,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从等待无聊、弹吉他打发时间开始引出千岛，宣传游戏内物品获取、实时比价、透明公平与放心购买；88.04 秒返回刷新操作。平台消费建议是独立插入，不是完成游戏刷分所需步骤。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          71.02,
+          71.02
+        ],
+        "endUncertainty": [
+          87.01,
+          87.01
+        ],
+        "evidence": [
+          {
+            "from": 68.59,
+            "to": 70.73,
+            "text": "不然会很麻烦"
+          },
+          {
+            "from": 71.02,
+            "to": 73.02,
+            "text": "这里等待时间还是挺无聊的"
+          },
+          {
+            "from": 73.02,
+            "to": 75,
+            "text": "你可以带把吉他过来弹一弹"
+          },
+          {
+            "from": 75,
+            "to": 78.42,
+            "text": "或者你也可以来千岛看看吧"
+          },
+          {
+            "from": 78.42,
+            "to": 83.07,
+            "text": "你想要的各种游戏内物品都可以获取实时对比"
+          },
+          {
+            "from": 83.07,
+            "to": 84.13,
+            "text": "透明公平"
+          },
+          {
+            "from": 84.13,
+            "to": 85.23,
+            "text": "买得放心"
+          },
+          {
+            "from": 85.23,
+            "to": 87.01,
+            "text": "玩得开心"
+          },
+          {
+            "from": 88.04,
+            "to": 90.56,
+            "text": "那其实你只要这样重复就可以了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.18,
+        "end": 16.129,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 16.334,
+        "end": 32.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 32.58,
+        "end": 34.62,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 36.42,
+        "end": 38.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 40.24,
+        "end": 51.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 52.1,
+        "end": 62.13,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 63.17,
+        "end": 70.73,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 88.04,
+        "end": 99.23,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 99.69,
+        "end": 103.89,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 104.89,
+        "end": 108.735,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 110.72,
+        "end": 115.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 120.86,
+        "end": 124.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 125,
+        "end": 132.4,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 162.72,
+        "end": 168.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 172.54,
+        "end": 176.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 184.74,
+        "end": 186.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 187.14,
+        "end": 190.26,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 199.16,
+        "end": 203.959,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 204.279,
+        "end": 208.039,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 210.269,
+        "end": 214.309,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 225.86,
+        "end": 234.97,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 236.13,
+        "end": 239.73,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 249.12,
+        "end": 251.2,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 253.4,
+        "end": 254.84,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 273,
+        "end": 275.88,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 292.5,
+        "end": 295.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 296.82,
+        "end": 299.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 303.56,
+        "end": 311.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 314.7,
+        "end": 318.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 319.3,
+        "end": 323.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 323.85,
+        "end": 327.73,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 328.36,
+        "end": 332.16,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 334.72,
+        "end": 337.32,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 340.1,
+        "end": 346.38,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 364.24,
+        "end": 371.38,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 376.82,
+        "end": 379.85,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 380.61,
+        "end": 386.659,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 386.979,
+        "end": 393.899,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 394.86,
+        "end": 396.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 399.9,
+        "end": 401.3,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 407.7,
+        "end": 410.22,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [
+      "已补看395–503秒每3秒共37张实际选定画面，410.22秒后主要是避难所内弹琴等待、出门击打侦察目标、再返回弹琴，503秒黑屏，所见未出现另一段商业画面。但该95.78秒没有可读口述字幕，也未听取音频，画面无法确认是否还有叠在游戏上的口播广告，仍待听取或补转写后段音轨，不能计入完成。"
+    ],
+    "limitations": [
+      "已连续完整阅读95条字幕，并实际查看原BV/CID核验下载媒体395–503秒每3秒37张画面；未听音频，未逐帧或连续视听全片。",
+      "游戏画面本身不能排除无硬字幕口播推广，后段仍保持待核实，未将无字幕区间标为普通对白。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 95,
+      "firstIndex": 0,
+      "lastIndex": 94,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": {
+    "reviewer": "extra300_full_content_c",
+    "media": "eval/labels/assistant-content-extra300/acquisition/media/BV1rsPqzvEW1-verified.json",
+    "frameIndexes": [
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frames.json"
+    ],
+    "framesActuallyViewed": 37,
+    "audioReviewed": false,
+    "frameByFrameReviewed": false,
+    "method": "实际查看395–503秒每3秒37张选定画面的全部接触表；未听音频，未连续播放或逐帧核验。",
+    "observations": [
+      {
+        "time": 407,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-005.jpg",
+        "sha256": "c249c9c1927bfb4b341e355628087bb682fcbbdc7c39c8a90c834ffd6d11a7c3",
+        "observation": "游戏地图界面，显示正在讨论的避难所位置。"
+      },
+      {
+        "time": 413,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-007.jpg",
+        "sha256": "a19f85b7585f1c9cfc8c350130efb063027d3948535cd9d6b142e927a07ad8cc",
+        "observation": "角色在避难所内钢琴前弹奏，后续多张画面持续该活动。"
+      },
+      {
+        "time": 449,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-019.jpg",
+        "sha256": "a4d6aee1023eee545713db9ce188a3c2d314a2c25b7533a3d96362cea588cc15",
+        "observation": "角色走出门外向空中目标瞄准。"
+      },
+      {
+        "time": 476,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-028.jpg",
+        "sha256": "decdf1f20cf403f825df305841dedabd5882165e06cfcfb18db5337cf5ed147e",
+        "observation": "角色在避难所门口射击空中侦察目标。"
+      },
+      {
+        "time": 491,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-033.jpg",
+        "sha256": "f5885001c5ed8d95e1e1743a04ba4621c223444726b51a3fdd4a16aa7aa3c05b",
+        "observation": "角色返回室内钢琴前，与之前等待/刷侦察员流程相连。"
+      },
+      {
+        "time": 500,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-036.jpg",
+        "sha256": "ab7533b4b46f95358177072e2d61654f0c4d80e7b368d30e51475c13a900fd08",
+        "observation": "片尾仍为游戏中钢琴前等待画面，没有硬字幕解释。"
+      },
+      {
+        "time": 503,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1rsPqzvEW1/tail-gap/frame-037.jpg",
+        "sha256": "8cd6b8c81193d4efc28884b556fe677949abd47b159ae5b66397b7ee6c564a3c",
+        "observation": "黑屏但保留作者及bilibili水印。"
+      }
+    ]
+  }
+}

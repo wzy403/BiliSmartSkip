@@ -1,0 +1,67 @@
+[
+  {
+    "time": 1016.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-001.jpg",
+    "sha256": "f0f7c9f4b3cfb7311f2bf22530cf21187fdebeb547d3941882584b5074188fd3"
+  },
+  {
+    "time": 1016.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-002.jpg",
+    "sha256": "28498be024dddb60aca35ee5b2169143e8c4d3a7c0aa189d19eb971c99bd1d1a"
+  },
+  {
+    "time": 1017.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-003.jpg",
+    "sha256": "37d0d56020f5ea38152e0de5c4d4a7027096aeb4fb3cceaca95778e509eed676"
+  },
+  {
+    "time": 1017.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-004.jpg",
+    "sha256": "7d9b7b3d70cf6dfe05e59e96adaaeea7966551d52ef373e1a79e57cf246857e4"
+  },
+  {
+    "time": 1018.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-005.jpg",
+    "sha256": "026c8050dbd63c05d603afe252e6e4f80f4d1c1bfd29064ca896a7d183bfa761"
+  },
+  {
+    "time": 1018.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-006.jpg",
+    "sha256": "9a0169eb90bd60c4df6ec6f75c6d4e69002f722db9ba56663c9de02847d939ac"
+  },
+  {
+    "time": 1019.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-007.jpg",
+    "sha256": "1a46375e2621ccb7a66f022776bcc146dbff3692e497d8e3dfe0fca39334b16f"
+  },
+  {
+    "time": 1019.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-008.jpg",
+    "sha256": "f11916e484cc483400d249adee63630958800dfcf81ca022df0ede507f3c796c"
+  },
+  {
+    "time": 1020.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-009.jpg",
+    "sha256": "96c675ab82d5b90e9b98ebdb03ea3a931d8a76d1e3c75623a1e56f0f5ebf1290"
+  },
+  {
+    "time": 1020.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-010.jpg",
+    "sha256": "bf8884ca15b05a4a40235a032fe3dcb555fa504e77569587c16a2bec3e3a5ce8"
+  },
+  {
+    "time": 1021.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-011.jpg",
+    "sha256": "731c593d583a5449170c2fef7d0ccff026c935f7a14ee0090aa64d665eb0983f"
+  },
+  {
+    "time": 1021.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-012.jpg",
+    "sha256": "a13e9aa97bf8ff714d52e1d0a815f97c8a19fb7489e3f8bb007a57e9a1ba3ea1"
+  },
+  {
+    "time": 1022.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1M1421t7fr/tail-start-middle/frame-013.jpg",
+    "sha256": "54150299c907f7fa0f885722104a968bf2679f711e3f0312cb2c9a72733d34d9"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 261,
+    "inputLineSha256": "a73a4696ebaad4f7b6555a89b70edb31860d428cd98dd4cec210a8da30b87cfe",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1wJ4m1e7Yv-29427631507.json",
+    "acquisitionSha256": "8bc96539354a9ddf6bca34f09b3e8e34beac4bd995f5cf4d6fa69b04554427c3",
+    "sourceUrl": "https://www.bilibili.com/video/BV1wJ4m1e7Yv/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1wJ4m1e7Yv.json",
+    "transcriptSha256": "374467b6829a101d65a0f33e38d2659d9439562599ff213d958bbd8fd3c31e05"
+  },
+  "record": {
+    "bvid": "BV1wJ4m1e7Yv",
+    "cid": 29427631507,
+    "duration": 1233,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "阅读全文562行。整期为零基础硬盘选购与拆装教程：HDD/SSD、SATA与M.2尺寸协议、机械盘垂直/叠瓦和转速、闪存颗粒/正白黑片/主控缓存，再演示台式机和笔记本接口判断与拆装、提醒保修电池静电，最后总结按接口和预算选购。IBM历史、希捷转速、联想/Steam Deck/PS5兼容和三星等厂商名单均服务知识说明，没有单一产品销售段、优惠链接或广告式品牌推介。采购建议本身属于标题正文，应保留；技术主张未进行准确性核验。字幕4.019–1231.24秒覆盖1233秒，未观看画面/听音。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [],
+    "normalSpeechRanges": [
+      {
+        "start": 4.019,
+        "end": 79.23,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 79.59,
+        "end": 134.4,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 134.6,
+        "end": 182.899,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 183.299,
+        "end": 240.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 240.52,
+        "end": 302.05,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 302.41,
+        "end": 406.45,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 406.73,
+        "end": 462.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 462.52,
+        "end": 578.72,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 579.08,
+        "end": 628.94,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 629.26,
+        "end": 867.589,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 867.789,
+        "end": 917.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 917.76,
+        "end": 993.16,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 993.56,
+        "end": 1006.579,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1006.899,
+        "end": 1082.889,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1083.209,
+        "end": 1162.85,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1163.17,
+        "end": 1231.24,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 562,
+      "firstIndex": 0,
+      "lastIndex": 561,
+      "allRowsRead": true
+    }
+  }
+}

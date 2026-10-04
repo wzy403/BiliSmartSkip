@@ -1,0 +1,112 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 233,
+    "inputLineSha256": "f6cbfb0c8e940b5ec8c3ec5085baa242e295fedbcfc74a36c49429abb86dc7ce",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Tj7H6XErp-39444284629.json",
+    "acquisitionSha256": "0fb8b038d09a47ec6ae68b4a867220eb8856fa4d2ff90be312abc472a11c3002",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Tj7H6XErp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Tj7H6XErp.json",
+    "transcriptSha256": "219ab40c7dae40bee9b40748536bcdd5003ed81e27b70080a58edafd0f4d9141"
+  },
+  "record": {
+    "bvid": "BV1Tj7H6XErp",
+    "cid": 39444284629,
+    "duration": 264,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "穿越火线 M4A1 雷霆的外观、手感及挑战功能体验，再配多场生化模式实战解说；作者指出千元取得但功能性不值。中间“说下台词”暂停实战，推广解封、代打和账号买卖服务并导向置顶评论。其他武器、道具和地图讨论属于游戏正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 96.55,
+        "end": 106.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确暂停说台词，向观众介绍解封、挑战代打、活动及账号买卖，附置顶评论入口，随后转夜幕山庄实战。",
+        "startUncertainty": [
+          96.55,
+          96.55
+        ],
+        "endUncertainty": [
+          106.24,
+          106.24
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 96.55,
+            "to": 97.03,
+            "text": "说下台词"
+          },
+          {
+            "from": 97.03,
+            "to": 99.24,
+            "text": "有各位老板穿越火线微风10年想解封的"
+          },
+          {
+            "from": 99.24,
+            "to": 100.92,
+            "text": "现在解封是百分之百挑战代打"
+          },
+          {
+            "from": 100.92,
+            "to": 102.36,
+            "text": "还有各种各样创业需有飞行棋"
+          },
+          {
+            "from": 102.36,
+            "to": 103.56,
+            "text": "通行证以及脱坑入坑"
+          },
+          {
+            "from": 103.56,
+            "to": 105.28,
+            "text": "买号卖号可以看一下我的评论区"
+          },
+          {
+            "from": 105.28,
+            "to": 106.24,
+            "text": "置顶好"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 92.67,
+        "reason": "频道互动、武器体验及卡顿话题；不因付费获得枪械或提到价格而标广告。"
+      },
+      {
+        "start": 93.15,
+        "end": 96.55,
+        "reason": "频道互动、武器体验及卡顿话题；不因付费获得枪械或提到价格而标广告。"
+      },
+      {
+        "start": 106.24,
+        "end": 262.76,
+        "reason": "生化模式战况及操作思路，结尾说明后续视频安排。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "56.88–61.129 秒“不能在视频里面说”没有明确对象，仅凭这句无法推定另有广告；记录其上下文属于卡顿话题，未查看弹幕或评论。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 179,
+      "firstIndex": 0,
+      "lastIndex": 178,
+      "allRowsRead": true
+    }
+  }
+}

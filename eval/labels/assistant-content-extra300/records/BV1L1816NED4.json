@@ -1,0 +1,224 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 153,
+    "inputLineSha256": "6ca6122fd76424a9f79ae2ff01ed422f751c88dc6e4e37047f76350b19d2d525",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1L1816NED4-41155759224.json",
+    "acquisitionSha256": "9cd4ac894aa69a88450ce029d83315771168bbb379d9a15135caa30d8eee02f9",
+    "sourceUrl": "https://www.bilibili.com/video/BV1L1816NED4/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1L1816NED4.json",
+    "transcriptSha256": "b41a18a0c6cd4843772cf0513747328b7ba2980064daa730f6fbbfbf50661775"
+  },
+  "record": {
+    "bvid": "BV1L1816NED4",
+    "cid": 41155759224,
+    "duration": 706,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "案件解说按时间顺序讲述汉堡店枪击、休班或离职警员及路人制止、嫌疑人逃跑、警方到场和后续受害者信息，并介绍受伤警员家人筹款。英文字幕可连续理解叙事。开头案件背景之后插入转转旧物上门回收，结尾另有感谢转转赞助并趁促销买新设备的召回。枪械、汽车品牌及受害者筹款是案件事实叙述，不是销售广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 80.23,
+        "end": 119.04,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "以事件刺激、想用新手机记录为铺垫，转入卖小米手机的回收价格、上门估价、服务便利、多品类及奢侈品回收，并明确推荐转转，之后回到监控时间线。属于与案件内容无关的完整服务推广。",
+        "startUncertainty": [
+          79.71,
+          80.23
+        ],
+        "endUncertainty": [
+          119.04,
+          119.55
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 77.19,
+            "to": 79.71,
+            "text": "muted, blurred, and had freeze frames removed."
+          },
+          {
+            "from": 80.23,
+            "to": 82.149,
+            "text": "Gotta say, for an event this thrilling,"
+          },
+          {
+            "from": 82.149,
+            "to": 85.029,
+            "text": "if I were there, I’d want to film it all with my new phone!"
+          },
+          {
+            "from": 85.43,
+            "to": 86.828,
+            "text": "For instance, I sold my Xiaomi fifteen S Pro"
+          },
+          {
+            "from": 86.828,
+            "to": 87.87,
+            "text": "via Zhuanzhuan’s at home pickup"
+          },
+          {
+            "from": 87.87,
+            "to": 89.269,
+            "text": "for over three thousand four hundred yuan—"
+          },
+          {
+            "from": 91.319,
+            "to": 91.839,
+            "text": "one tap to order,"
+          },
+          {
+            "from": 91.839,
+            "to": 93.629,
+            "text": "and a recycler comes to your door for a free appraisal!"
+          },
+          {
+            "from": 100.88,
+            "to": 102.991,
+            "text": "Now with Zhuanzhuan, you don’t even have to leave your door—"
+          },
+          {
+            "from": 104.7,
+            "to": 106.723,
+            "text": "Plus, Zhuanzhuan now takes a wide array of items—"
+          },
+          {
+            "from": 109.58,
+            "to": 111.264,
+            "text": "They even offer at home pickup for luxury goods"
+          },
+          {
+            "from": 115.44,
+            "to": 116.523,
+            "text": "If you ask me, to sell old stuff,"
+          },
+          {
+            "from": 116.523,
+            "to": 118.437,
+            "text": "don’t bother asking around—Zhuanzhuan’s at home pickup"
+          },
+          {
+            "from": 118.437,
+            "to": 119.04,
+            "text": "is the way to go!"
+          },
+          {
+            "from": 119.55,
+            "to": 121.798,
+            "text": "This is surveillance footage from outside the burger joint,"
+          }
+        ]
+      },
+      {
+        "start": 698.02,
+        "end": 704.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "常规频道结语后另起转转赞助致谢和促销买新设备号召，是独立广告召回。",
+        "startUncertainty": [
+          697.429,
+          698.02
+        ],
+        "endUncertainty": [
+          704.06,
+          706
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 696.677,
+            "to": 697.429,
+            "text": "thank you so much!"
+          },
+          {
+            "from": 698.02,
+            "to": 699.946,
+            "text": "Oh! And a huge shout out to Zhuanzhuan"
+          },
+          {
+            "from": 699.946,
+            "to": 701.3,
+            "text": "for sponsoring this video—"
+          },
+          {
+            "from": 701.3,
+            "to": 704.06,
+            "text": "since there’s a sale on now, go snag some new gadgets!"
+          }
+        ]
+      },
+      {
+        "start": 671.21,
+        "end": 679.17,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "描述受伤警员家人筹集医疗款及目前金额，属于案件后续背景，没有向观众要求捐款或推销商品，保留。",
+        "startUncertainty": [
+          670.66,
+          671.21
+        ],
+        "endUncertainty": [
+          679.17,
+          679.7
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 669.3,
+            "to": 670.66,
+            "text": "That father, too, is a cop."
+          },
+          {
+            "from": 671.21,
+            "to": 673.852,
+            "text": "Post incident, the family of that injured ex cop, Austin James,"
+          },
+          {
+            "from": 673.852,
+            "to": 675.13,
+            "text": "launched a fundraising drive."
+          },
+          {
+            "from": 675.61,
+            "to": 677.627,
+            "text": "So far, two hundred thousand dollars has been raised,"
+          },
+          {
+            "from": 677.627,
+            "to": 679.17,
+            "text": "which will go toward his medical costs."
+          },
+          {
+            "from": 679.7,
+            "to": 682.676,
+            "text": "As of this posting, I’ve found no further news on this case,"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "依据采集到的ai-en英文字幕，非原语言人工转写；427.609–455.92秒执法记录片段、583.3–610.04秒射击训练片段存在无字幕间隙，未实际观看，纯画面信息仍未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 298,
+      "firstIndex": 0,
+      "lastIndex": 297,
+      "allRowsRead": true
+    }
+  }
+}

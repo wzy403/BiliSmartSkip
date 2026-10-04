@@ -1,0 +1,222 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 221,
+    "inputLineSha256": "ddd408bbbe815d14fc696713a04539d70bcdae5fa12f6c31b148a90e54faa553",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1sFg3zEEbU-31123245187.json",
+    "acquisitionSha256": "8c030737a1b12299421aec01924abf793b30069ec79e312444a834dffe99aacf",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sFg3zEEbU/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1sFg3zEEbU.json",
+    "transcriptSha256": "f316fc692b744ba1aae567d072b0de9e317fc57feacd2c92f9a60d0d3559a308"
+  },
+  "record": {
+    "bvid": "BV1sFg3zEEbU",
+    "cid": 31123245187,
+    "duration": 366,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解说多起随意变道、斗气驾驶导致的 PIT 事故，分析车距与变道时机；中间由“更帅”的驾驶调侃转入海洋至尊多效乳广告，再返回事故案例。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 146.31,
+        "end": 202.18,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "“相反视频车更帅”接“想变帅很简单”构成护肤推广的过渡，随后点名海洋至尊多效乳、榜单销量、配方和护肤功效、包装质地及评论区券，直到放心冲的号召。202.18 秒继续事故案例；这整段护肤介绍与驾驶分析可分离。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          142.13,
+          148.69
+        ],
+        "endUncertainty": [
+          202.18,
+          202.18
+        ],
+        "evidence": [
+          {
+            "from": 142.13,
+            "to": 143.97,
+            "text": "不如还以为自己来回穿梭"
+          },
+          {
+            "from": 143.97,
+            "to": 146.31,
+            "text": "像速度与激情的男主一样帅呢"
+          },
+          {
+            "from": 146.31,
+            "to": 148.69,
+            "text": "相反我觉得视频车要更帅一些"
+          },
+          {
+            "from": 148.69,
+            "to": 151.05,
+            "text": "不过想变帅其实也很简单"
+          },
+          {
+            "from": 151.05,
+            "to": 152.61,
+            "text": "又懒又想变帅的兄弟们"
+          },
+          {
+            "from": 152.61,
+            "to": 155.09,
+            "text": "海洋至尊为咱们专门研究了一款新产品"
+          },
+          {
+            "from": 155.09,
+            "to": 156.42,
+            "text": "海洋至尊多小乳"
+          },
+          {
+            "from": 161.66,
+            "to": 164.64,
+            "text": "这款多效乳目前排在某猫热销榜第一名"
+          },
+          {
+            "from": 164.64,
+            "to": 166.14,
+            "text": "全网累计热卖4万多瓶"
+          },
+          {
+            "from": 166.76,
+            "to": 168.3,
+            "text": "这是一款六效合一的产品"
+          },
+          {
+            "from": 171.28,
+            "to": 173.8,
+            "text": "真正做到28天有效改善肌肤屏障"
+          },
+          {
+            "from": 177.32,
+            "to": 180.04,
+            "text": "另外还有2%的自研专利控油组合物"
+          },
+          {
+            "from": 186.82,
+            "to": 188.9,
+            "text": "一抹化开上脸感觉冰冰凉凉"
+          },
+          {
+            "from": 189.68,
+            "to": 192.16,
+            "text": "涂完之后皮肤轻松变得水润有光泽"
+          },
+          {
+            "from": 192.16,
+            "to": 193.98,
+            "text": "这还是一款美修全绿的产品"
+          },
+          {
+            "from": 196.8,
+            "to": 197.94,
+            "text": "主打一个简单高效"
+          },
+          {
+            "from": 197.94,
+            "to": 199.46,
+            "text": "购买链接放评论区置顶了"
+          },
+          {
+            "from": 199.46,
+            "to": 200.76,
+            "text": "还有大额优惠券可以领"
+          },
+          {
+            "from": 200.76,
+            "to": 202.18,
+            "text": "兄弟们放心冲就行了"
+          },
+          {
+            "from": 202.18,
+            "to": 205.34,
+            "text": "接下来咱们再来看一个第三视角的注意视频"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 8.29,
+        "end": 15.88,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 17.74,
+        "end": 31.53,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 33.53,
+        "end": 56.39,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 65.239,
+        "end": 95.11,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 101.33,
+        "end": 127.3,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 128.64,
+        "end": 146.31,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 202.18,
+        "end": 227.81,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 231.46,
+        "end": 245.54,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 249.72,
+        "end": 275.84,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 278.5,
+        "end": 311.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 317.75,
+        "end": 338.919,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 344.9,
+        "end": 364.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 161,
+      "firstIndex": 0,
+      "lastIndex": 160,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1J7qDBeEg5",
+  "cid": 34885077167,
+  "title": "【睡前消息994】越南缺房子 深圳缺垃圾",
+  "duration": 1208,
+  "desc": "1 越南近期房价暴涨。2 深圳垃圾处理问题",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:14:13.366Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:18:02.932Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 132,
+    "inputLineSha256": "b0a7b79bec0ddd01f04c647c02226ca3b02babbb59f3c5defe247e27b4bc8d81",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1J7qDBeEg5-34885077167.json",
+    "acquisitionSha256": "d361fa86618b2a565f154eab5a847537353affe789a28fe38d6158368ea26174",
+    "sourceUrl": "https://www.bilibili.com/video/BV1J7qDBeEg5/?p=1"
+  }
+}

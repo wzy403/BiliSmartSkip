@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Kb3RzGEnq",
+  "cid": 30868244209,
+  "title": "捞女游戏背刺玩家？：这封感谢信确实有点离谱了。",
+  "duration": 1122,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:14:34.057Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:19:18.756Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 144,
+    "inputLineSha256": "29d700253df4a41f6465176f99637d5970426a8e43045a36f27c0c0fa0a4d338",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Kb3RzGEnq-30868244209.json",
+    "acquisitionSha256": "8c5484cfd619fbae161b459ce0dd52b24d91c6cbb7ef37c75b25e1b3276ef643",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Kb3RzGEnq/?p=1"
+  }
+}

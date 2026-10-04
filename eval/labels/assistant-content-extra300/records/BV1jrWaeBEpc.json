@@ -1,0 +1,175 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 140,
+    "inputLineSha256": "6fba10dd39403b90bb221944d315b108998dbf2ce4fb131007ec940e90ea095d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1jrWaeBEpc-500001656866072.json",
+    "acquisitionSha256": "54ca60b270ab6136f42552a0a15dafdd085d772feda27115bf8b9435fd0a86ac",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jrWaeBEpc/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1jrWaeBEpc.json",
+    "transcriptSha256": "b313d7d9af63163c6be3541d11e27c414aa6c1cfec686e417551a07cb561fd28"
+  },
+  "record": {
+    "bvid": "BV1jrWaeBEpc",
+    "cid": 500001656866072,
+    "duration": 295,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "摆摊经营日记，说明四人分摊利润不足、考虑部分人上班与及时止损，后半反思烧烤和卤肉销量、卤味串串新品、半成品与鲜肉卖相、分工和作息困难。中间用厨房摆摊仍炎热作铺垫，宣传品牌赠送的循环小风扇，讲风力、质感、无线多场景使用并导向评论区优惠券。食物售价与经营难题是主线经验分享。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 51.92,
+        "end": 116.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从入秋仍炎热引入品牌再次寄来风扇，持续展示风力柔和、携带粘墙、厨房摆摊睡觉场景和质量，最后评论区链接领大额券。是独立消费品推荐，包含热与同事抢用的铺垫；随后回到更新减少和生意焦虑。",
+        "startUncertainty": [
+          51.92,
+          51.92
+        ],
+        "endUncertainty": [
+          116.46,
+          116.46
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 49.68,
+            "to": 51.92,
+            "text": "大家伙也可以给我们一些建议"
+          },
+          {
+            "from": 51.92,
+            "to": 54.02,
+            "text": "现在虽然已经快进入秋天了"
+          },
+          {
+            "from": 54.02,
+            "to": 55.9,
+            "text": "在厨房干活或者出去摆摊"
+          },
+          {
+            "from": 55.9,
+            "to": 57.02,
+            "text": "依然是很热"
+          },
+          {
+            "from": 57.02,
+            "to": 59.66,
+            "text": "之前同事品牌方给我寄的循环小风扇"
+          },
+          {
+            "from": 59.66,
+            "to": 62.06,
+            "text": "现在成功被两位总监给我霸占了"
+          },
+          {
+            "from": 62.06,
+            "to": 64.44,
+            "text": "结果呢品牌方又赶紧给我寄了一个过来"
+          },
+          {
+            "from": 68.67,
+            "to": 69.65,
+            "text": "别看它长得小"
+          },
+          {
+            "from": 69.65,
+            "to": 70.88,
+            "text": "但锋利真的很猛"
+          },
+          {
+            "from": 71.64,
+            "to": 72.4,
+            "text": "风又很柔和"
+          },
+          {
+            "from": 76.26,
+            "to": 79.14,
+            "text": "比我之前买的那种两个档位的落地风扇"
+          },
+          {
+            "from": 83.62,
+            "to": 85.789,
+            "text": "而且这个风扇的话用起来也很方便"
+          },
+          {
+            "from": 85.789,
+            "to": 87.429,
+            "text": "厨房卧室剪视频"
+          },
+          {
+            "from": 87.429,
+            "to": 88.789,
+            "text": "吃饭摆摊哪儿都能用"
+          },
+          {
+            "from": 89.589,
+            "to": 90.429,
+            "text": "又能粘到墙上"
+          },
+          {
+            "from": 93.42,
+            "to": 94.56,
+            "text": "摆摊也不用充电"
+          },
+          {
+            "from": 94.56,
+            "to": 96.12,
+            "text": "完全实现了无线自由"
+          },
+          {
+            "from": 103,
+            "to": 105.2,
+            "text": "晚上还可以接着用这个小风扇吹着睡觉"
+          },
+          {
+            "from": 111.32,
+            "to": 112.56,
+            "text": "肯定是杠杠的"
+          },
+          {
+            "from": 112.56,
+            "to": 114.22,
+            "text": "有需要的朋友就赶紧去看看"
+          },
+          {
+            "from": 114.22,
+            "to": 115.2,
+            "text": "点评论区链接"
+          },
+          {
+            "from": 115.2,
+            "to": 116.46,
+            "text": "还有大额优惠券了"
+          },
+          {
+            "from": 116.46,
+            "to": 118.29,
+            "text": "最近很少发视频"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 163,
+      "firstIndex": 0,
+      "lastIndex": 162,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 115,
+    "inputLineSha256": "233a602dfe269a199c748e6ceb2bcff7fb6b4f5ae063c3b0f1191b1710b55289",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1H94y16722-1237151628.json",
+    "acquisitionSha256": "fbefc0168caab15c0b2ebdf6813c9722d01a33fcccad34b11c4855da9c3644cb",
+    "sourceUrl": "https://www.bilibili.com/video/BV1H94y16722/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1H94y16722.json",
+    "transcriptSha256": "805ddeaabf7f5285c27711651fd68028da6ca280a4cd05c9fd4f44c953126fa9"
+  },
+  "record": {
+    "bvid": "BV1H94y16722",
+    "cid": 1237151628,
+    "duration": 476,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文为Minecraft AE2中P2P通道教学：依次介绍七类通道、内存卡的shift右键绑定与颜色对应、致密线缆和频道扩展、主网与副网经接口和存储总线互访、供电和递归套网，以及末尾的操作总结和关注三连。所有品牌/模组或物品术语服务于实际玩法说明，没有独立商品或服务推销、消费优惠或外部导流；可用字幕中未见应跳广告。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 161,
+      "firstIndex": 0,
+      "lastIndex": 160,
+      "allRowsRead": true
+    }
+  }
+}

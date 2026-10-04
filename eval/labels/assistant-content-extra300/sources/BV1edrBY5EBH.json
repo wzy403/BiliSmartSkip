@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1edrBY5EBH",
+  "cid": 27775797941,
+  "title": "【折扣】圣诞PS4与PS5游戏第二波折扣，推荐与避坑一览",
+  "duration": 999,
+  "desc": "欢迎关注汪酱的微信公众号：汪酱游戏，\n游戏租赁、主机游戏回收、折扣、会免等你哦~\n同时欢迎加入我们QQ讨论群：805961796~有问题都可到群内讨教哦~\n淘宝店铺：汪酱的店，也欢迎大家来走一走看一看~\n商务合作WX :WangJiang-Game",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:12:08.836Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:06.664Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 87,
+    "inputLineSha256": "43f2ba95faeb6fce12426ec081439adedf359493896d2a82cddede6dff5db361",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1edrBY5EBH-27775797941.json",
+    "acquisitionSha256": "86179a8972ab3499c53c16758c7602e2ffc47e9efb1812194ad6b343810b0d75",
+    "sourceUrl": "https://www.bilibili.com/video/BV1edrBY5EBH/?p=1"
+  }
+}

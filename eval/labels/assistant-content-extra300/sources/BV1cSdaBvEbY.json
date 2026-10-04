@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1cSdaBvEbY",
+  "cid": 37559470307,
+  "title": "2026.04.16 【The Linux Experiment】最受欢迎的生产力应用的开源替代品（2026版）",
+  "duration": 1342,
+  "desc": "https://ytb.com/4NdlRlie-A8\n视频发布日期：20260416  视频原标题：OPEN SOURCE alternatives for the MOST POPULAR productivity apps (2026 edition)",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:13:43.390Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:54.672Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 67,
+    "inputLineSha256": "a177235602649b79f31e4def379349d36a9fc73afdfbb07769f17615901ff7d4",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1cSdaBvEbY-37559470307.json",
+    "acquisitionSha256": "4054483ccfe650f51fc3d90084185a0940d180374a5454beb4ca25ba5d1a4c1e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cSdaBvEbY/?p=1"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 97,
+    "inputLineSha256": "94620f2d399112e2c529dc7e71f1748b247ab82038a799b85232e880ac5956fd",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1fQevzPEzp-31890735691.json",
+    "acquisitionSha256": "d96e93749794024896a4f54f31010d3a3117e04212c7df0801e48f37a6811e8a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fQevzPEzp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1fQevzPEzp.json",
+    "transcriptSha256": "712007bea14273270c19c32795ce08d26fe4451aec30c041aa7689b9d32de265"
+  },
+  "record": {
+    "bvid": "BV1fQevzPEzp",
+    "cid": 31890735691,
+    "duration": 1515,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从弹射过载、着舰起落架、拦阻索和着舰重量解释舰载机设计约束，再讨论低速起降与高速制空、多用途和高出动率的取舍，比较F/A-18、苏33、F35C及歼15/歼35。中间以设计麻烦掉头发转入曼迪生发产品合作广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 603.69,
+        "end": 680.03,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从‘想了想就要掉不少头发’为曼迪脱发需求铺垫，明确提本期合作伙伴，连续介绍毛囊、米诺地尔泡沫剂、使用方法、洗发水及优惠购买建议，680.03结束；680.27起回到舰载机多用途问题。毛囊和药物机理解释均服务该商品推介，属于广告完整范围。",
+        "evidence": [
+          {
+            "from": 600.77,
+            "to": 603.69,
+            "text": "不是简单的用陆基战斗机改一下就好了"
+          },
+          {
+            "from": 603.69,
+            "to": 604.41,
+            "text": "想了想啊"
+          },
+          {
+            "from": 604.41,
+            "to": 605.579,
+            "text": "就要掉不少头发"
+          },
+          {
+            "from": 605.579,
+            "to": 607.479,
+            "text": "那说到掉头发脱发问题"
+          },
+          {
+            "from": 607.479,
+            "to": 610.839,
+            "text": "那就不得不来提提我们本期的合作伙伴曼迪"
+          },
+          {
+            "from": 610.839,
+            "to": 612.839,
+            "text": "像我前段时间熬了一个大夜"
+          },
+          {
+            "from": 612.839,
+            "to": 615.099,
+            "text": "早上起来头发一抓也是一大把"
+          },
+          {
+            "from": 622.349,
+            "to": 626.03,
+            "text": "米诺地尔是脱发诊疗推荐指南的生发外用药"
+          },
+          {
+            "from": 632.44,
+            "to": 634.46,
+            "text": "传统溶液剂经常因为流动性"
+          },
+          {
+            "from": 636.48,
+            "to": 638.24,
+            "text": "而浓度5%的泡沫剂"
+          },
+          {
+            "from": 639.9,
+            "to": 641.5,
+            "text": "如同毛囊靶向导弹"
+          },
+          {
+            "from": 645.06,
+            "to": 646.66,
+            "text": "达到原先的2.85倍"
+          },
+          {
+            "from": 646.66,
+            "to": 649.02,
+            "text": "坚持使用八周就可以初步看到效果"
+          },
+          {
+            "from": 652.22,
+            "to": 653.06,
+            "text": "挤出半瓶盖"
+          },
+          {
+            "from": 653.06,
+            "to": 655.6,
+            "text": "用涂抹刷将泡沫直接涂抹在秃发位置"
+          },
+          {
+            "from": 656.64,
+            "to": 657.76,
+            "text": "因为不含丙二醇"
+          },
+          {
+            "from": 659.78,
+            "to": 661.8,
+            "text": "再搭配他们家的防脱洗发水"
+          },
+          {
+            "from": 672.56,
+            "to": 675.12,
+            "text": "使四周掉发量就能减少38%"
+          },
+          {
+            "from": 675.12,
+            "to": 677.12,
+            "text": "现在有脱发困扰的朋友们"
+          },
+          {
+            "from": 677.12,
+            "to": 680.03,
+            "text": "可以趁着现在有优惠下手试试吧"
+          },
+          {
+            "from": 680.27,
+            "to": 681.71,
+            "text": "让我们说回到航母"
+          }
+        ],
+        "startUncertainty": [
+          603.69,
+          603.69
+        ],
+        "endUncertainty": [
+          680.03,
+          680.27
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 53.85,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 65.839,
+        "end": 603.69,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 680.27,
+        "end": 1514.06,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 788,
+      "firstIndex": 0,
+      "lastIndex": 787,
+      "allRowsRead": true
+    }
+  }
+}

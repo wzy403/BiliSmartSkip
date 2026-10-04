@@ -1,0 +1,189 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 45,
+    "inputLineSha256": "0865c295d1d7a2506f4eeaf75fd301e6a80432513ee7a5539c373262039fe125",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1A4xazLECD-32849461973.json",
+    "acquisitionSha256": "dbc07f4e8aa2be976c2d92fab5af181e08497b08efd4132dd3b40773e9115946",
+    "sourceUrl": "https://www.bilibili.com/video/BV1A4xazLECD/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1A4xazLECD.json",
+    "transcriptSha256": "e7b21bd4775053cba5bf27689f1713960571d52df2948028d957896e8f71f9c0"
+  },
+  "record": {
+    "bvid": "BV1A4xazLECD",
+    "cid": 32849461973,
+    "duration": 156,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "老年人代抢促销鸡蛋的搞笑Vlog，以跑酷、客户寒暄和避开保健品推销构成剧情；中间从囤鸡蛋转到三角洲游戏，介绍周年庆三角券和鹅鸭杀联动皮肤后继续第二单。店员推销床、水与第66位幸运老人是剧情笑点，不是作者带货。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 87.79,
+        "end": 98.32,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“喜欢囤东西”转场将囤蛋连接三角洲仓库，连续推游戏周年庆领取券和联动皮肤，以“让我也玩一会”结束，再回到抢鸡蛋第二单。",
+        "startUncertainty": [
+          87.79,
+          87.79
+        ],
+        "endUncertainty": [
+          98.32,
+          98.32
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 87.19,
+            "to": 87.79,
+            "text": "少给我"
+          },
+          {
+            "from": 87.79,
+            "to": 89.03,
+            "text": "不是你这么喜欢囤东西"
+          },
+          {
+            "from": 89.03,
+            "to": 89.98,
+            "text": "你去三角洲里屯"
+          },
+          {
+            "from": 89.98,
+            "to": 91.54,
+            "text": "仓库里大红就靠你囤了"
+          },
+          {
+            "from": 91.54,
+            "to": 93.3,
+            "text": "正好赶上周年庆保底3900"
+          },
+          {
+            "from": 93.3,
+            "to": 94.58,
+            "text": "限时三角券人人都能领"
+          },
+          {
+            "from": 94.58,
+            "to": 95.58,
+            "text": "还能在游戏里掏蛋"
+          },
+          {
+            "from": 96.04,
+            "to": 97.26,
+            "text": "领鹅鸭杀联动皮"
+          },
+          {
+            "from": 97.26,
+            "to": 98.32,
+            "text": "那你让我也玩一会呗"
+          },
+          {
+            "from": 98.32,
+            "to": 99.52,
+            "text": "直接开始第二单"
+          }
+        ]
+      },
+      {
+        "start": 113.5,
+        "end": 137.27,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "两次相同幸运老人/三折推销被角色识破或借口离开，是讽刺销售套路的剧情，不能因出现促销价格而跳过。",
+        "startUncertainty": [
+          113.5,
+          113.5
+        ],
+        "endUncertainty": [
+          137.27,
+          137.27
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 112.72,
+            "to": 113.5,
+            "text": "领取三"
+          },
+          {
+            "from": 113.5,
+            "to": 114.48,
+            "text": "您太幸运了"
+          },
+          {
+            "from": 114.48,
+            "to": 117.38,
+            "text": "您正好是我们第66个来领鸡蛋的幸运老人"
+          },
+          {
+            "from": 117.38,
+            "to": 118.26,
+            "text": "咱家那个复兴水"
+          },
+          {
+            "from": 118.26,
+            "to": 119.3,
+            "text": "你三折就能买下来"
+          },
+          {
+            "from": 120.26,
+            "to": 123.04,
+            "text": "不买来专业的代购"
+          },
+          {
+            "from": 128.79,
+            "to": 131.47,
+            "text": "你是我们今天第66个领鸡蛋的幸运老人"
+          },
+          {
+            "from": 131.47,
+            "to": 132.53,
+            "text": "我家那个付清水"
+          },
+          {
+            "from": 132.53,
+            "to": 133.87,
+            "text": "你三折就能买下来"
+          },
+          {
+            "from": 134.47,
+            "to": 135.23,
+            "text": "你等我回去取钱去啊"
+          },
+          {
+            "from": 135.23,
+            "to": 136.01,
+            "text": "我没带钱"
+          },
+          {
+            "from": 136.33,
+            "to": 137.27,
+            "text": "不是叔啊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 102,
+      "firstIndex": 0,
+      "lastIndex": 101,
+      "allRowsRead": true
+    }
+  }
+}

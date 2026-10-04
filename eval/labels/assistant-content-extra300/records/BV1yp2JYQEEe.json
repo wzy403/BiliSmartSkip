@@ -1,0 +1,356 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles-with-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 284,
+    "inputLineSha256": "b54c00200af0bc62124efbd25c2fc41a1f8589d509c3a3c7a1b128d6bcfcf7d0",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1yp2JYQEEe-26198869865.json",
+    "acquisitionSha256": "42d30316dc2ae67391274f7dad7da0d570a3474af904ec03310245ce26292448",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yp2JYQEEe/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1yp2JYQEEe.json",
+    "transcriptSha256": "719da3529b92727783fa0d13da04f1080d6cc387f84f994a741d3117aafa66a6"
+  },
+  "record": {
+    "bvid": "BV1yp2JYQEEe",
+    "cid": 26198869865,
+    "duration": 485,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "30年前电脑启动失败后，以偷换朋友主机的短剧推进，最终揭示阿里无影云电脑能让旧XP经浏览器运行现代游戏，进一步讲解企业旧设备、远程办公权限、配置计费及多屏兼容。二审确认无影云294.62–478.35整段属于与旧设备复用主题紧密相连的商业介绍，均保留；短剧中186.56–214.08等字幕缺口仍需视觉核实。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 294.62,
+        "end": 338.73,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          294.62,
+          296.02
+        ],
+        "endUncertainty": [
+          336.11,
+          338.73
+        ],
+        "reason": "从疑问旧XP如何打游戏到发现无影云、浏览器兼容与电竞模式，广告性质明确，但直接回答视频题目及前段剧情，保留该主题演示。",
+        "evidence": [
+          {
+            "from": 294.62,
+            "to": 296.02,
+            "text": "但我还是想不明白"
+          },
+          {
+            "from": 296.02,
+            "to": 298.8,
+            "text": "陈二狗到底是咋用的XP打游戏的"
+          },
+          {
+            "from": 298.8,
+            "to": 300.98,
+            "text": "终于在机缘巧合之下"
+          },
+          {
+            "from": 300.98,
+            "to": 305.82,
+            "text": "我发现了这个阿里旗下无影云电脑哈"
+          },
+          {
+            "from": 310.99,
+            "to": 313.31,
+            "text": "不过他的客户端已经不支持"
+          },
+          {
+            "from": 313.31,
+            "to": 314.87,
+            "text": "20年前的XP系统了"
+          },
+          {
+            "from": 314.87,
+            "to": 317.76,
+            "text": "但我发现从浏览器登录还能正常使用"
+          },
+          {
+            "from": 323.12,
+            "to": 326.92,
+            "text": "30岁老头秒变当下主流高端机型"
+          },
+          {
+            "from": 326.92,
+            "to": 330.14,
+            "text": "想玩个3A大作就选这个电竞模式"
+          },
+          {
+            "from": 333.35,
+            "to": 336.11,
+            "text": "而且云电脑是全程线上工程"
+          },
+          {
+            "from": 336.11,
+            "to": 338.73,
+            "text": "从环节上就超越了传统PC"
+          }
+        ]
+      },
+      {
+        "start": 338.73,
+        "end": 423.12,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          338.73,
+          340.33
+        ],
+        "endUncertainty": [
+          421.62,
+          423.12
+        ],
+        "reason": "整片从机关单位旧电脑出发，经复活旧XP的游戏能力转向单位旧设备继续办公，讨论软件硬件负担、云端统一权限、手机紧急接入、按需GPU和计费，随后延展多种旧屏幕兼容。这一段确有商业卖点但连续解释题目中的旧设备复用和云电脑功能，属于主题商业介绍，应保留，不因提及企业和价格单独跳过。",
+        "evidence": [
+          {
+            "from": 338.73,
+            "to": 340.33,
+            "text": "这要是用来办公不行"
+          },
+          {
+            "from": 341.22,
+            "to": 343.54,
+            "text": "万一让一些拮据的企业领导知道"
+          },
+          {
+            "from": 354.79,
+            "to": 357.24,
+            "text": "现在的电脑更新实在是太快了"
+          },
+          {
+            "from": 365.24,
+            "to": 367.74,
+            "text": "导致不少单位根本来不及更换设备"
+          },
+          {
+            "from": 376.51,
+            "to": 378.29,
+            "text": "但往长远看"
+          },
+          {
+            "from": 378.29,
+            "to": 380.43,
+            "text": "反而是云电脑这种工作形式"
+          },
+          {
+            "from": 380.43,
+            "to": 383.23,
+            "text": "更能提升办公室里所有电脑的水准"
+          },
+          {
+            "from": 387.98,
+            "to": 389.88,
+            "text": "数据安全也更有保障"
+          },
+          {
+            "from": 393.52,
+            "to": 396.54,
+            "text": "管理员在云端统一管控着呢"
+          },
+          {
+            "from": 401.38,
+            "to": 404.28,
+            "text": "就算是在蹲坑也能紧急修复bug"
+          },
+          {
+            "from": 407.66,
+            "to": 410.58,
+            "text": "而且它还能根据工作需求预装办公软件"
+          },
+          {
+            "from": 419.54,
+            "to": 421.62,
+            "text": "需要配置按小时付费"
+          },
+          {
+            "from": 421.62,
+            "to": 423.12,
+            "text": "那是一点也不浪费"
+          },
+          {
+            "from": 423.12,
+            "to": 424.8,
+            "text": "为了测试无影云的兼容性"
+          }
+        ]
+      },
+      {
+        "start": 423.12,
+        "end": 478.35,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          423.12,
+          424.8
+        ],
+        "endUncertainty": [
+          475.96,
+          478.35
+        ],
+        "reason": "多屏旧设备兼容演示与旧机复用总结完整相连，属于题目承诺的体验和结论，即使带商业背书仍保留，最后478.35秒为作者告别。",
+        "evidence": [
+          {
+            "from": 423.12,
+            "to": 424.8,
+            "text": "为了测试无影云的兼容性"
+          },
+          {
+            "from": 424.8,
+            "to": 427.06,
+            "text": "我把身边带屏的设备都试了一遍"
+          },
+          {
+            "from": 427.06,
+            "to": 430.1,
+            "text": "现在5年前的平板也可以远程显示屏"
+          },
+          {
+            "from": 430.1,
+            "to": 432,
+            "text": "车里也可以躺着打游戏"
+          },
+          {
+            "from": 432,
+            "to": 435.14,
+            "text": "就连我这包浆的笔记本也能变成工作主力机"
+          },
+          {
+            "from": 436.65,
+            "to": 438.97,
+            "text": "这鸡我都能用它打steam游戏"
+          },
+          {
+            "from": 442.11,
+            "to": 444.41,
+            "text": "应该都能无缝连接无影云了"
+          },
+          {
+            "from": 448.18,
+            "to": 450.82,
+            "text": "可吴映云好像要颠覆这条真理"
+          },
+          {
+            "from": 450.82,
+            "to": 453.82,
+            "text": "让已经隐退的设备重新焕发生机"
+          },
+          {
+            "from": 455.66,
+            "to": 458.48,
+            "text": "用最低的投入就能享受到全面的便利"
+          },
+          {
+            "from": 463.8,
+            "to": 465.94,
+            "text": "谁又不愿意换上高新科技"
+          },
+          {
+            "from": 465.94,
+            "to": 468.42,
+            "text": "好在现在有了这些云技术的支持"
+          },
+          {
+            "from": 472.06,
+            "to": 475.96,
+            "text": "相信总有一天我们都会在云上相聚一块屏"
+          },
+          {
+            "from": 475.96,
+            "to": 478.35,
+            "text": "就能让彼此成为网上邻居"
+          },
+          {
+            "from": 478.35,
+            "to": 482.46,
+            "text": "我是总局古董科技给你的不只是回忆"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已全文阅读189条可用字幕，并实际查看上述34张指定时间画面；未听取音频或逐帧/连续观看全片。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 189,
+      "firstIndex": 0,
+      "lastIndex": 188,
+      "allRowsRead": true
+    },
+    "visualObservations": {
+      "reviewer": "assistant-extra300-root",
+      "method": "实际查看两组全部接触表：144–170秒每2秒14帧，180–218秒每2秒20帧；未听音频，非逐帧播放。",
+      "media": {
+        "bvid": "BV1yp2JYQEEe",
+        "cid": 26198869865,
+        "page": 1,
+        "sourceUrl": "https://www.bilibili.com/video/BV1yp2JYQEEe/?p=1",
+        "checkedAt": "2026-10-04T23:42:18.234Z",
+        "responseSha256": "e1304a96bfcfddedea34e9e842b9a7448f62815d68ebbb9bbd8e4b513254e330",
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1yp2JYQEEe.mp4",
+        "sha256": "eb60d83977fe5ba8e335d8e2ffd5983c0c19b5d8c783d9d82e4d60e7fec625eb",
+        "bytes": 38632848,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "av1",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac"
+            }
+          ],
+          "format": {
+            "duration": "484.670590"
+          }
+        },
+        "status": "downloaded-and-verified",
+        "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+      },
+      "frameIndexes": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1yp2JYQEEe/gap_first/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1yp2JYQEEe/gap_review/frames.json"
+      ],
+      "observations": [
+        "144–170秒：潜入门厅、向保安展示玩具枪、追逐躲藏及LATER转场；均为偷换电脑短剧连续情节。",
+        "180–218秒：车库潜入、走廊追逐、保安昏倒、面部近景和指纹锁/监控办公室画面，未见独立商品推广。",
+        "结合完整189行字幕和独立全文二审，无影云章节承担旧设备复用主题，保留其功能、办公和兼容演示。"
+      ]
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_full_content_c",
+    "modality": "full-cached-subtitles",
+    "fullTranscriptRead": true,
+    "readCoverage": {
+      "subtitleRows": 189,
+      "firstIndex": 0,
+      "lastIndex": 188,
+      "allRowsRead": true
+    },
+    "algorithmPredictionsSeen": false,
+    "communityAdLabelsSeen": false,
+    "danmakuJumpTimesSeen": false,
+    "decision": "先独立读完189行，再查看首审。无影云完整商业章节应保留：前文单位老电脑、启动失败及偷换电脑剧情所提出的旧设备复用问题，在浏览器云端游戏、单位电脑继续办公、云端权限/手机紧急接入、配置与按时计费、多设备兼容中连续展开。企业卖点虽具推广性，仍为主题云电脑使用场景与功能解释，不能仅因有品牌、费用或积极评价就跳过。视觉缺口尚未由本二审查看，状态仍待核实。"
+  }
+}

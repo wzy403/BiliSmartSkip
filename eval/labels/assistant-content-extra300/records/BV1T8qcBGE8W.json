@@ -1,0 +1,516 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 228,
+    "inputLineSha256": "b8565de29f9470f260e0ad347a8c4c9244d92a29f3604624d4e5e5936e4a42ea",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1T8qcBGE8W-35216884888.json",
+    "acquisitionSha256": "39f92344a45c90a7b96dbac31cc7918401f71e95b3de1ce1f5a41e01ce866cfa",
+    "sourceUrl": "https://www.bilibili.com/video/BV1T8qcBGE8W/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1T8qcBGE8W.json",
+    "transcriptSha256": "253e94d83835ab2e34bfa836fe8b21fe93c23823fc7c596168e81bd88f740eae"
+  },
+  "record": {
+    "bvid": "BV1T8qcBGE8W",
+    "cid": 35216884888,
+    "duration": 917,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "鳌太线违规穿越事故与晨曦救援队第一视角记录，讲男徒步者高反死亡、女伴报错位置、救援者找到帐篷后下撤被暴雨困住、最终直升机转运，以及公益救援和禁穿越警示。报警手机信号话题接转转二手数码推广；公益队不收费和遇难队长故事是事故正文。最后字幕到 864.42 秒而时长 917 秒，尚不能完成全片核实。 补看857–914秒每3秒抽帧：救援人员最后提醒不要再穿越鳌太线，866秒以后连续展示鳌太线事故地点地图及历年伤亡标记，是本题材的警示信息。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 157.76,
+        "end": 198.8,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从有信号及功能齐全手机重要的救援情境铺垫，切到转转手机价格、质检保修、其他数码和优惠券，以品牌逛完回故事收尾。",
+        "startUncertainty": [
+          157.76,
+          159.96
+        ],
+        "endUncertainty": [
+          196.68,
+          198.8
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 157.76,
+            "to": 159.96,
+            "text": "幸亏他们扎营的地方还有信号"
+          },
+          {
+            "from": 159.96,
+            "to": 162.7,
+            "text": "不过一个功能齐全的手机也很重要"
+          },
+          {
+            "from": 163.6,
+            "to": 166.86,
+            "text": "像这台转转上买的IPHONE16pro只要5300多"
+          },
+          {
+            "from": 170.86,
+            "to": 173.1,
+            "text": "转转是个专业的官方ER2手平台"
+          },
+          {
+            "from": 180.08,
+            "to": 182.74,
+            "text": "支持七天无理由退货和一年保修"
+          },
+          {
+            "from": 183.78,
+            "to": 187.38,
+            "text": "而且转转不止有手机拯救者R9000P4060"
+          },
+          {
+            "from": 188.9,
+            "to": 192.4,
+            "text": "佳能EOSR10套机价格也只要5200多"
+          },
+          {
+            "from": 193.4,
+            "to": 196.68,
+            "text": "现在点击评论区蓝链还能领最高千元优惠券"
+          },
+          {
+            "from": 196.68,
+            "to": 197.44,
+            "text": "逛完转转"
+          },
+          {
+            "from": 197.44,
+            "to": 198.8,
+            "text": "我们回到故事中来"
+          }
+        ]
+      },
+      {
+        "start": 864.42,
+        "end": 917,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "尾部字幕缺口的实际20张抽帧先为救援人员安全提醒，随后为连续鳌太线事故地点地图和伤亡标注；属于事故分析和警示正文。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 857,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-001.jpg",
+            "sha256": "609f42e3bd98e0767d758f5c28fdf28c57b9c39b5eb8e5b927d942578bff4175",
+            "observation": "救援人员镜头，画面字幕提示当前位置或不要再穿越鳌太线。"
+          },
+          {
+            "time": 860,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-002.jpg",
+            "sha256": "2c2af4ce38ad1782bfb3e4f7e574534c990c8793860957cb178556dc0926312f",
+            "observation": "救援人员镜头，画面字幕提示当前位置或不要再穿越鳌太线。"
+          },
+          {
+            "time": 863,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-003.jpg",
+            "sha256": "d359c1f328ed8d89f51afa661fca82bccfa0bec28e194be74a184f2074a0c3b6",
+            "observation": "救援人员镜头，画面字幕提示当前位置或不要再穿越鳌太线。"
+          },
+          {
+            "time": 866,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-004.jpg",
+            "sha256": "47a30caa2d8e3ac714ad4702084a994de50bef85bf6c27d45ce531e2b064225d",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 869,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-005.jpg",
+            "sha256": "6a184e0f6e209b79ce82d61fa232e269851b440c7ab146f5f05ccb8c7a90f23e",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 872,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-006.jpg",
+            "sha256": "77c65d88090051adbcd0b0cf525536321eeee48dd313cd2c77ec935991c75df9",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 875,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-007.jpg",
+            "sha256": "08aca2e88b0c16fe9afe568d91aea30b619ed91acd271b784b550a18a0b7219d",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 878,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-008.jpg",
+            "sha256": "c01ed2656b72b5a308e6f1d31bc5fc3224b6c5b2fc4db47d6ffc52b4335bbd48",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 881,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-009.jpg",
+            "sha256": "aac4a279b990be17dec012472469206ffd5be1b4d14335bdc0cfd470b1cf6013",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 884,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-010.jpg",
+            "sha256": "410acd0448ed58a0cf23fafffaf65139790889af1c1729d3959a7f278b1a1c49",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 887,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-011.jpg",
+            "sha256": "c92c8ce23ec3da88a2ae98b31ec481cf7cd147249c21e8b18cb2a2878f713b02",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 890,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-012.jpg",
+            "sha256": "c0272f42984dbd0801c3dd85d319e539534dad5271c8c7de1dd0d6293e23e4b5",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 893,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-013.jpg",
+            "sha256": "627b5735bcd7ddb9bf600656776ac6f5b6639a6976e582b4a9069580b523b985",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 896,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-014.jpg",
+            "sha256": "39c777e51093e76f80f911265a90585df253acb89737fafa4b3a22501b45d600",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 899,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-015.jpg",
+            "sha256": "f03e380f1a7ae3c098c29f5bb4624259100df5d994251854958d129f3781ce9b",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 902,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-016.jpg",
+            "sha256": "c884d4cafbb47823ab36d284cbf5da5dcada34cc52ba405ec2d93ae7c6992611",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 905,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-017.jpg",
+            "sha256": "6f1fc8b9bde0daca5cfe645f5cde301218bc7046e4496bfe9bfcb1287b3a8175",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 908,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-018.jpg",
+            "sha256": "4edd5661f55bbb6ce7b11bec10f0c35b163270db9de89278126c77d8ee74b1cd",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 911,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-019.jpg",
+            "sha256": "37932887d223e2bf60c976e2568fb5c1c89133969fe0dc15ffdac5a06c548203",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          },
+          {
+            "time": 914,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frame-020.jpg",
+            "sha256": "ee4928e7f24640a3f51848a9575f3b75e4c0bbdd9245b2e0c31a672095af134a",
+            "observation": "鳌太线事故地点（部分）地图，标示历年事故日期、地点和伤亡信息。"
+          }
+        ],
+        "startUncertainty": [
+          864.42,
+          866
+        ],
+        "endUncertainty": [
+          914,
+          917
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 157.76,
+        "reason": "徒步准备、高反恶化与报警的事件经过。"
+      },
+      {
+        "start": 198.8,
+        "end": 269.97,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 281.52,
+        "end": 285.8,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 286.44,
+        "end": 288.12,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 289.6,
+        "end": 305.97,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 306.61,
+        "end": 310.89,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 311.85,
+        "end": 314.21,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 315.65,
+        "end": 317.68,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 321.02,
+        "end": 323.94,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 325.32,
+        "end": 328.12,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 329.16,
+        "end": 336.94,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 339.86,
+        "end": 342.94,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 347.64,
+        "end": 350.44,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 352.62,
+        "end": 354.74,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 356.94,
+        "end": 358.62,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 360.04,
+        "end": 362.16,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 385.9,
+        "end": 433.48,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 434.17,
+        "end": 435.05,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 437.21,
+        "end": 439.84,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 443.48,
+        "end": 446.08,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 447.62,
+        "end": 524.92,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 526,
+        "end": 528.36,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 528.8,
+        "end": 605.31,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 605.71,
+        "end": 611.35,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 614.68,
+        "end": 627.39,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 628.68,
+        "end": 648.64,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 649.54,
+        "end": 666.22,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 666.58,
+        "end": 672.79,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 673.11,
+        "end": 675.75,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 676.83,
+        "end": 682.03,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 690.6,
+        "end": 694.44,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 697.36,
+        "end": 699.92,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 709.8,
+        "end": 711.84,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 712.88,
+        "end": 716.32,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 718.2,
+        "end": 722.96,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 725.1,
+        "end": 727.98,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 730.98,
+        "end": 735.18,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 736.22,
+        "end": 738.5,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 739.66,
+        "end": 741.78,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 745.38,
+        "end": 748.78,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 749.18,
+        "end": 756.599,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 756.919,
+        "end": 758.079,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 759.359,
+        "end": 762.479,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 768.18,
+        "end": 773.14,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 778.4,
+        "end": 780.04,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 780.5,
+        "end": 835.03,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 835.35,
+        "end": 844.585,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 845.16,
+        "end": 850.2,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 850.67,
+        "end": 860.599,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      },
+      {
+        "start": 861.919,
+        "end": 864.42,
+        "reason": "搜救、暴雨避险、转运与公益救援经历和提醒。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "362.16–385.9 秒为救援现场至旁白之间无字幕间隙；若干户外对白 ASR 不完整，未核验实际音画。",
+      "完整阅读344行可用字幕，实际查看857–914秒每3秒抽帧共20张。未听音频、非逐帧检查，采样之间及914–917秒保留视觉采样限制。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 344,
+      "firstIndex": 0,
+      "lastIndex": 343,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:39:25.340Z",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1T8qcBGE8W.mp4",
+      "mediaSha256": "1ef64994b35c834e0947946332895cd4c2711e91ed7f98ae72aa6d5166b7067b",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1T8qcBGE8W-verified.json",
+      "frameManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1T8qcBGE8W/tail-gap-middle/frames.json",
+      "sampleStart": 857,
+      "sampleEnd": 914,
+      "sampleEverySeconds": 3,
+      "framesActuallyViewed": 20,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 183,
+    "inputLineSha256": "f581edf0524e9bbad64efc100a25ddc04209c0f3e32699d33bc8ded95e8fc284",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1oDqpYoEfR-27243711625.json",
+    "acquisitionSha256": "77e9da61ea8db20dd06b8e1062ffeda0c8afae8c501ba6247e16ea4c48b5032c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oDqpYoEfR/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1oDqpYoEfR.json",
+    "transcriptSha256": "5daaf97a31152b8a4dc8f8349dde64f0638850ee161474eb0a3cf7097d8606cd"
+  },
+  "record": {
+    "bvid": "BV1oDqpYoEfR",
+    "cid": 27243711625,
+    "duration": 904,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "《小生啪啪》粤语电影片段，字幕只可辨认零散人物对白、‘I love you’、凳子/机关相关争执及歌曲，大量内容变成不连贯的普通话错识或啊哼等占位，无法可靠理解完整剧情与潜在广告。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "已逐行读完197行，但粤语对白严重误识且大量长段仅识别为拟声词，例如208.85–234.72、326.02–470.11与600.12–642.06秒等，无法判断商业插入是否存在；需要可理解的粤语/中文字幕或真实视听核验。",
+      "首条字幕70.64秒，开头0–70.64秒完全未覆盖；还有710.66–737.94及749.89–776.429等长空档。不能标无广告或完成。"
+    ],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 197,
+      "firstIndex": 0,
+      "lastIndex": 196,
+      "allRowsRead": true
+    }
+  }
+}

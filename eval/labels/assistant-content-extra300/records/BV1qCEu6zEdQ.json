@@ -1,0 +1,67 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 198,
+    "inputLineSha256": "928040c782871f0a8cd0419e96839f014e29eda3209d939ce8a783b5107f5b18",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1qCEu6zEdQ-38959319246.json",
+    "acquisitionSha256": "effc42082fca0dd52111288afefa1980bb1b9b0662396449ce73055ee37799cd",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qCEu6zEdQ/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1qCEu6zEdQ.json",
+    "transcriptSha256": "20358000a436805d4f62292881478b8ecc9863ba6f97d814a0a75049c88976e1"
+  },
+  "record": {
+    "bvid": "BV1qCEu6zEdQ",
+    "cid": 38959319246,
+    "duration": 1753,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "已按连续四块阅读全文1214行。全片为斗罗同人叙事：林天觉醒双神级武魂、父母与唐昊冲突、猎魂和魂骨吸收、回武魂殿与金宝/姐姐/千仞雪切磋、戟法训练、唐三入学及魂师补贴改革，结尾武魂城逛街冲突仍为剧情。金胶、魂骨、武器及糖葫芦均为虚构世界道具或情节，没有面向观众的现实商品推介或导流。字幕从片首叙事持续至1752.6秒，距1753秒总时长0.4秒；仅基于完整可用字幕判无应跳广告，未查看画面或听音。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 200.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 203.62,
+        "end": 453.42,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 454.82,
+        "end": 642.28,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 642.78,
+        "end": 732.76,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 735.34,
+        "end": 1752.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 1214,
+      "firstIndex": 0,
+      "lastIndex": 1213,
+      "allRowsRead": true
+    }
+  }
+}

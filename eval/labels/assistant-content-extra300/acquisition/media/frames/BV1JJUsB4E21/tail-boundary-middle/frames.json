@@ -1,0 +1,92 @@
+[
+  {
+    "time": 1517.016,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-001.jpg",
+    "sha256": "25dc3a6f7427db41fc23c56a509d04301e1f10ef9a68a6bf2c0543185326e1af"
+  },
+  {
+    "time": 1517.516,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-002.jpg",
+    "sha256": "f7f4172891fdf617003e2409cf18638af9bb17fed50306ed2ff8737c96b1cfed"
+  },
+  {
+    "time": 1518.017,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-003.jpg",
+    "sha256": "73ff63c9d4a750cc84cb06714f8f95c30138e58c1ff65c0cd179f6b676056aa5"
+  },
+  {
+    "time": 1518.517,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-004.jpg",
+    "sha256": "4ca872e228060d2949d269b843b076c39f8961742fcffc764fec1f8457c9c322"
+  },
+  {
+    "time": 1519.018,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-005.jpg",
+    "sha256": "0144ab8b6599d5fd0ac634bb552f5755d0806acde221dc3f4cd8464124bf5239"
+  },
+  {
+    "time": 1519.518,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-006.jpg",
+    "sha256": "448e76dfd00504c6c45db645791008f7af133f093f8a6c289734ba404c17d74c"
+  },
+  {
+    "time": 1520.019,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-007.jpg",
+    "sha256": "b54173f2c39aceb5a23af80ddf0a1580add56f2c3b4b721c2ddb3adb85120db6"
+  },
+  {
+    "time": 1520.519,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-008.jpg",
+    "sha256": "9aff6c8b3e067dd631e3f4d911c7bc92f2dbdd6581d61ab5982210040a014914"
+  },
+  {
+    "time": 1521.02,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-009.jpg",
+    "sha256": "6fdfd2036e54a7db1c8e1c5412001178cbaff7db7cc9cb343f54bfd81b22647f"
+  },
+  {
+    "time": 1521.52,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-010.jpg",
+    "sha256": "ccd4a75eb78781213e185f3374fc4310de621738d1b6db2d9ceeb0ecc21a4c90"
+  },
+  {
+    "time": 1522.021,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-011.jpg",
+    "sha256": "fea4d48fcd044ec580dc2c6f18f665b455bfaa2c426e60ecc20143ea4d090b34"
+  },
+  {
+    "time": 1522.521,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-012.jpg",
+    "sha256": "a7a4c24705200b306da5839e4f00d83f4278a57bfb7b3efd4c9ae14710c7870f"
+  },
+  {
+    "time": 1523.022,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-013.jpg",
+    "sha256": "1de23b0a3fba47551dfa0c93d8df64718e4d00fdff347c175c4af849943b0004"
+  },
+  {
+    "time": 1523.522,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-014.jpg",
+    "sha256": "79f385b038f369890f7fe9c966eb105f4810721e1803d3b2ad8d8d89922b8650"
+  },
+  {
+    "time": 1524.023,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-015.jpg",
+    "sha256": "04dd97cb398e3338e52df4ab738c4edd2927440e0d881273eb41dd11ae278020"
+  },
+  {
+    "time": 1524.523,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-016.jpg",
+    "sha256": "a118c5836c18c66900ba5f318d247ab046468253fb679504a0bffbb81ba1f5a7"
+  },
+  {
+    "time": 1525.024,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-017.jpg",
+    "sha256": "99338522a98b5b950c590aeef4c9283643200a00e9d2abe8f605cedd072fed6b"
+  },
+  {
+    "time": 1525.524,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-boundary-middle/frame-018.jpg",
+    "sha256": "e059b037f64383b14566e1501420422188a2e4075d75b583bd16a838b2263071"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "time": 258.025,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-001.jpg",
+    "sha256": "e683559877f3fa74b794d50c7e406a0314c1e80499be83ccc91f53437665c9ca"
+  },
+  {
+    "time": 260.027,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-002.jpg",
+    "sha256": "c0dada91b73f29488eb9da6172c049ec1c34aabb86e34643fff14929a39ab34a"
+  },
+  {
+    "time": 262.029,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-003.jpg",
+    "sha256": "7db04d232bd60b9639188c811dc2b226187ee1a80279f66b7960a4d2044980ac"
+  },
+  {
+    "time": 264.031,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-004.jpg",
+    "sha256": "5c484f9d59f7925ebeb7337b0b6cc187766b9ec8c87f6e24da17e3c64ebc1b78"
+  },
+  {
+    "time": 266.033,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-005.jpg",
+    "sha256": "16622efa64c5c107cd50068cbc736c7b69cceeb2c9c68594a793d108c4da02ae"
+  },
+  {
+    "time": 268.035,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-006.jpg",
+    "sha256": "5381c754f341854d5bacffe0a96ea6c6411d3b8181310366244931e136143001"
+  },
+  {
+    "time": 270.037,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-007.jpg",
+    "sha256": "17f61cb6ca740311e3d0ae36ef0d2083cca490c0fc8f6542757bb4a3b44873af"
+  },
+  {
+    "time": 272.039,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-008.jpg",
+    "sha256": "a0bd3890e5faad1360e67795c72e82f5b31b750a86ddae9f62e8b4d4c8ed02bb"
+  },
+  {
+    "time": 274.041,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-009.jpg",
+    "sha256": "4a361b68db07b0cb5b151944d66f1cf0e70f1186928cc05af49977534bc714d5"
+  },
+  {
+    "time": 276.043,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-010.jpg",
+    "sha256": "76d00ef1ee8d71c3e1db8a06ccaa37c424c2a619d1ee40c30c85235438d881b1"
+  },
+  {
+    "time": 278.045,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-011.jpg",
+    "sha256": "cd6312be82f067611e1fd9fd1710f90e366386eebf2468de410a148f1543368f"
+  },
+  {
+    "time": 280.047,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-012.jpg",
+    "sha256": "dfdbd47d4bc3a1c9480acccd2fa955344e9345567e619610e76d3da40209f71a"
+  },
+  {
+    "time": 282.049,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-013.jpg",
+    "sha256": "743b1761fb2028cd1c99469f9e8a961e208cf93adf4309f479bdb38b42a4a450"
+  },
+  {
+    "time": 284.051,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-014.jpg",
+    "sha256": "1462d314c642b456c38bb473cbef794296efdda6de8c2c3b74d6ce885d7231a5"
+  },
+  {
+    "time": 286.053,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-015.jpg",
+    "sha256": "de65326b3f26f4a93ef9ba974e92b58866ed08e1466ac40103581f66a966c23a"
+  },
+  {
+    "time": 288.055,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-016.jpg",
+    "sha256": "43e25b87e18962a518793638583456af7964cab29ee20d5360d4e50fee46ef74"
+  },
+  {
+    "time": 290.057,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-017.jpg",
+    "sha256": "8264ad1fbc0e5875d1671f5ae28541d97cb73d21913d15f635619a56c2f39635"
+  },
+  {
+    "time": 292.059,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-018.jpg",
+    "sha256": "ce6b3c1d050d6e90ff116d48cf605c116e26f7535323cb19224cc1ab56253ba6"
+  },
+  {
+    "time": 294.061,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-019.jpg",
+    "sha256": "f17f7437e7a57b630786fc54d75a61bfae32eda65d26a08851c968c96ccd72b6"
+  },
+  {
+    "time": 296.063,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-020.jpg",
+    "sha256": "ff2f553d4590b9960c520ef2535ae1484f075a22757639937aa5e8d05385a913"
+  },
+  {
+    "time": 298.065,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-021.jpg",
+    "sha256": "b13428384d4888a14b9fcb699992a5bcc8dd0b6ab5bc652e22cb7ffc4a21a71d"
+  },
+  {
+    "time": 300.067,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-022.jpg",
+    "sha256": "db20891e4f9bbdac40d553b6675269ace3e5d5ca293d3192b0fe2b15837f346f"
+  },
+  {
+    "time": 302.069,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/city-sample/frame-023.jpg",
+    "sha256": "fef6f9860a9cf246ad256b818ff427a3a3cf44e8405280a0a4e2c73d6ce86a1f"
+  }
+]

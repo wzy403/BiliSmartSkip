@@ -1,0 +1,853 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 111,
+    "inputLineSha256": "ea2bf2ed729d67e7471a549df91d909c683e46c88e0f37314f4b87d0c55e0e67",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1gUQtYvEFC-28883290337.json",
+    "acquisitionSha256": "afa3b81d833c3cdabe3cb2c4df77f370273d1fa8f1f4d1a66e4147f6a04ba65e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gUQtYvEFC/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1gUQtYvEFC.json",
+    "transcriptSha256": "9d416b9e3c6ad669c5b6c966723ad173ccb49bcd84a1e8797c86fb78dabd7660"
+  },
+  "record": {
+    "bvid": "BV1gUQtYvEFC",
+    "cid": 28883290337,
+    "duration": 625,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "成都三斤牛排限时免单挑战，开头看餐具与食物，中间进食计时，随后公布5分19秒的成绩、讨论生熟重量和加点卤肉饭。80.34–150.21秒由吃完睡好觉转入神气小鹿深睡枕，介绍体验、价格、材质与优惠，属于完整独立应跳广告。餐厅价格和免单规则是主体体验；另对六处明显字幕缺口实际查看93张画面，均为连续挑战进食、撕牛排或喝可乐，没有发现新增独立推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 80.34,
+        "end": 150.21,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“吃完之后晚上美美睡一觉”是睡枕推广铺垫；后续功能、酒店对照、198元价格、科学分区、记忆棉与领券售后直到邀请查看，150.21秒回到挑战兴奋感和开吃准备。",
+        "startUncertainty": [
+          80.34,
+          80.34
+        ],
+        "endUncertainty": [
+          150.21,
+          150.21
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 77.88,
+            "to": 80.34,
+            "text": "这弹性都非常好啊"
+          },
+          {
+            "from": 80.34,
+            "to": 82.24,
+            "text": "我感觉这吃完了之后"
+          },
+          {
+            "from": 82.24,
+            "to": 84.83,
+            "text": "晚上都能美美的睡上一觉了"
+          },
+          {
+            "from": 84.83,
+            "to": 86.15,
+            "text": "想要睡个好觉"
+          },
+          {
+            "from": 86.15,
+            "to": 88.03,
+            "text": "那当然也离不开咱们的神器"
+          },
+          {
+            "from": 88.03,
+            "to": 90.35,
+            "text": "小路的人体工学深睡枕"
+          },
+          {
+            "from": 103.62,
+            "to": 106.28,
+            "text": "而且小鹿这个枕头才198元"
+          },
+          {
+            "from": 112.95,
+            "to": 115.13,
+            "text": "而且还做了科学分区"
+          },
+          {
+            "from": 120.23,
+            "to": 122.93,
+            "text": "让颈椎保持一个健康的弧度"
+          },
+          {
+            "from": 130.509,
+            "to": 133.269,
+            "text": "神奇小鹿的这个枕头做了两种高度设计"
+          },
+          {
+            "from": 135.209,
+            "to": 137.309,
+            "text": "高品质的太空记忆棉"
+          },
+          {
+            "from": 142.66,
+            "to": 146.07,
+            "text": "现在新品推广评论区领券买很划算"
+          },
+          {
+            "from": 146.07,
+            "to": 148.25,
+            "text": "还赠送运费险和两年的质保"
+          },
+          {
+            "from": 148.25,
+            "to": 150.21,
+            "text": "有兴趣的朋友可以去看一看"
+          },
+          {
+            "from": 150.21,
+            "to": 151.95,
+            "text": "就是现在我有点好好激动啊"
+          }
+        ]
+      },
+      {
+        "start": 175.5,
+        "end": 188.66,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已完整阅读139行字幕，并实际查看该无字幕区间及前后连续每约3秒抽帧；画面延续同一桌牛排挑战，进食或喝饮料，没有另起商品推介。餐厅、餐具和可乐属于实际消费场景，不因品牌露出改判应跳广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 174.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-001.jpg",
+            "sha256": "c917777dae65cf90b39f07d96075fab7a8168e77ef8c5082c132e4c737bdba58",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 177.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-002.jpg",
+            "sha256": "cdf4e9b14b4c40b4b8cb5dfeb564d74b2d23b90aa6a197e8fe6358c80fc0c63e",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 180.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-003.jpg",
+            "sha256": "add5a477f4c34c42f8d3b07a80c7fcd7b184f72420c41cc145308e597077613f",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 183.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-004.jpg",
+            "sha256": "b3b11043b4029e1e10aafbee437b5793e34a9a80a4bbf7d9d1dfd70d99559a5d",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 186.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-005.jpg",
+            "sha256": "6cf1c1e329f77d0f2317ed67c8ec39d13d13a1d7074d628f8a96deb7772633f4",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 189.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-006.jpg",
+            "sha256": "bc1575fdc6e37b4aa2aa93c57ce7a330fffa970d5ca22cfad39ec70f30e58b56",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          }
+        ],
+        "startUncertainty": [
+          174.021,
+          175.5
+        ],
+        "endUncertainty": [
+          188.66,
+          190
+        ]
+      },
+      {
+        "start": 191.7,
+        "end": 293.94,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已完整阅读139行字幕，并实际查看该无字幕区间及前后连续每约3秒抽帧；画面延续同一桌牛排挑战，进食或喝饮料，没有另起商品推介。餐厅、餐具和可乐属于实际消费场景，不因品牌露出改判应跳广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 192.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-007.jpg",
+            "sha256": "a9d88162e78f45fbf7391f45e9942ca21419f7fbca699c18c150d402f0fb155f",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 195.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-008.jpg",
+            "sha256": "a85ac13aa2731db37c8a96e10e72ebfe410678fddcc48a35a32901541061c670",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 198.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-009.jpg",
+            "sha256": "e8dec068a7263978425bb8254a773ecf335dcf5d9f7bb7498b0c0cbc57c6168b",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 201.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-010.jpg",
+            "sha256": "772272cadcded2207d9683fa5f41f2fcd6738f8aee43cbe97e5683b5dc9a84bb",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 204.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-011.jpg",
+            "sha256": "228516c5338868c2d345c7594c7da0fe95cd076f8406b853d053f3f28ae1473a",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 207.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-012.jpg",
+            "sha256": "834f3c328e3158febe25834457921c57f2614f108ce254ea00727721c4a2846b",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 210.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-013.jpg",
+            "sha256": "12e29c02a63f23246ef165201ebea135305cc1d8798bbd5e01364a292fbc08ee",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 213.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-014.jpg",
+            "sha256": "d3ff162e0c6d6e2dd4e4c7fc37cf31e567dd6ccce85edb4f94ba705a22cd6fb0",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 216.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-015.jpg",
+            "sha256": "68d2b9de9681824aa5b1aa1e9e7e98aa8c21d227d39fee10fed7590323c1287d",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 219.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-016.jpg",
+            "sha256": "131cbe138dfe7fb24633b53ec0c10d4af5816197d2c3df4df0532109641ec8ae",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 222.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-017.jpg",
+            "sha256": "01b6bfc2ae67a1414c22d347170c6982fc94e1678002a98cb81bb8a655919e4f",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 225.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-018.jpg",
+            "sha256": "3e512e4e80c9030502fec855e5477d46eb8b100431b44896c6923c2c055ad03d",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 228.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-019.jpg",
+            "sha256": "9bcf1fb2d9a506a04c7df57a0dc2740eff86c6ee34166cf30c1792357aeec8e8",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 231.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-020.jpg",
+            "sha256": "81a2def6a0eff0cf6aed1702ac7c1b5d32c5818dfa2170bdcbec92a7491a6c59",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 234.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-021.jpg",
+            "sha256": "44904f06ab47a5bc53a6faff7d606a492e0116436c55910de1b28fb4a5d5bab2",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 237.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-022.jpg",
+            "sha256": "11d545c1df3f45d14d2f8b4928b3d73270e02f671bb15f98b87bd0de14672e91",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 240.021,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-023.jpg",
+            "sha256": "22bbc993d3acaeba0571bb5d3a6734b3db1b5531e0447fd8af41d3e4111adbf5",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 243.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-024.jpg",
+            "sha256": "cfc70b800c21491f95b5e77ff80c32f4cb8b33f492a6991477095896a43b76b2",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 246.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-025.jpg",
+            "sha256": "e55ce4a1263a2aff717fd03c13e1964693d7e582c7b8ddedec5d55f6b9702e93",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 249.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-026.jpg",
+            "sha256": "b9503f5824605596c10f0dc19f586dfa6d1f06e3cd60a6f7fb03398f21333ed3",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 252.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-027.jpg",
+            "sha256": "d64e75aed2a8bc7e923cff75b3297a86cced48582c8f44ee0dcc36998103805e",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 255.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-028.jpg",
+            "sha256": "f4bba020476c1a3bbac6d2f3103e081225bd47f5924e881c12a48d36869a720c",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 258.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-029.jpg",
+            "sha256": "61b11c52ffbae0c705fa767c6ec6a553600ce091fd03c69c7cafdd287322b59b",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 261.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-030.jpg",
+            "sha256": "24afe22b312968ca8f33df8c573fbb3682d198a59d724ebbed99d72eb0c48827",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 264.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-031.jpg",
+            "sha256": "140a20d9cb2e2904151946a9d6468107888cd41b674f6bb05be16cecb050f6de",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 267.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-032.jpg",
+            "sha256": "f9079592b2999298ffc1f6e814324e8d4c5629b70aa80b0309087f2c9835a052",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 270.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-033.jpg",
+            "sha256": "35a9e39bac98e7a4daa68e3af40a46e88faca8003ef4fd7d6fd633ab2450f19a",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 273.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-034.jpg",
+            "sha256": "f19d2843a60147b9471c7816022cb2104b52963b7a5a8e8c0139914ad71230ee",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 276.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-035.jpg",
+            "sha256": "00b9b2bfafe45688b12fd08f21ee3cb4fad3263ad6f3a59c40705b560c2b5dec",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 279.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-036.jpg",
+            "sha256": "2218ce12f39428a7a06a3781b0bf3789d646ed6c1b3c92e2573f39a27ef28980",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 282.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-037.jpg",
+            "sha256": "36ffaec59ab6cd9fc07b38ade0647d238501b6901b957599eeb744b938b7bfac",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 285.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-038.jpg",
+            "sha256": "af55e863006836f6a15186c11191cbcce38f03138060e87dfe0e6458a7842e11",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 288.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-039.jpg",
+            "sha256": "a40c78a9df7d32132543ea345b77a73544137a1f9d1392145598147f39b88c4a",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 291.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-040.jpg",
+            "sha256": "403d88028b0d408011c1e14ab84ecd77faf1850157b3258096e49a63994fd8cf",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 294.04,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-041.jpg",
+            "sha256": "f2ceed457d4b5a21260f16253570f0a430fbcd072d82b138ad9e69f48973c496",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          }
+        ],
+        "startUncertainty": [
+          191.7,
+          191.7
+        ],
+        "endUncertainty": [
+          293.94,
+          296
+        ]
+      },
+      {
+        "start": 301.38,
+        "end": 318.38,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已完整阅读139行字幕，并实际查看该无字幕区间及前后连续每约3秒抽帧；画面延续同一桌牛排挑战，进食或喝饮料，没有另起商品推介。餐厅、餐具和可乐属于实际消费场景，不因品牌露出改判应跳广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 300.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-042.jpg",
+            "sha256": "13ec08383b7872164ec6282aca6f07709f2e9ff008b252849dfb2aa400adbdfa",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 303.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-043.jpg",
+            "sha256": "1d5c4714d55857b3a3e107e9493952a8912cbc4a4c801e0e85a821f0079d6d3b",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 306.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-044.jpg",
+            "sha256": "1c65708e7d582558bd3ec5da35241d08d90bc0dd09c409478b599262854bef8a",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 309.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-045.jpg",
+            "sha256": "0312f945eabc29a81e87efdde3a2c3d07b40ec3a7bd549e325c982cc2e0561cb",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 312.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-046.jpg",
+            "sha256": "d5410e82e9871c3449c3716aef8ed46baee810278aadc3dc8aa10f6774ebbc4e",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 315.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-047.jpg",
+            "sha256": "8aa555c8f8ad04cf0a770d347d01d8eb32ae384ce3021db7d998cad47575b162",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 318.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-048.jpg",
+            "sha256": "08cedce35a998050f0df4713e377969497469cb1a3adc0a1bdb1cbffd6c6fd5d",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          }
+        ],
+        "startUncertainty": [
+          300.007,
+          301.38
+        ],
+        "endUncertainty": [
+          318.38,
+          319
+        ]
+      },
+      {
+        "start": 348.6,
+        "end": 417.88,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已完整阅读139行字幕，并实际查看该无字幕区间及前后连续每约3秒抽帧；画面延续同一桌牛排挑战，进食或喝饮料，没有另起商品推介。餐厅、餐具和可乐属于实际消费场景，不因品牌露出改判应跳广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 347.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-049.jpg",
+            "sha256": "8f71449ee03c18ff48e1ac34d2cf0003c7bd97dd60a1458975e36f629712c307",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 350.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-050.jpg",
+            "sha256": "3d1515774b6f298ef07a2aab2f1263866090eb39bfc8e6af17ab485cc374d7d0",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 353.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-051.jpg",
+            "sha256": "fc2bf55041ac4081df5a8bfb45010618dedc3365f0e6d8a77b720a8d1aa7b213",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 356.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-052.jpg",
+            "sha256": "1023133ccef2eba08aac08bbd874605da18808a06c5c6b7cab81e38b8e3b3b62",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 359.007,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-053.jpg",
+            "sha256": "ae949d7a963a3b9d27cc21ed7b3c4103c18ac2470439718526d920965bc0fd66",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 362.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-054.jpg",
+            "sha256": "da9d60dbe671b2c2a0adc4d5f9b5e4a13358444742007e6ec829d06cdc22d5ac",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 365.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-055.jpg",
+            "sha256": "394b55dc0c351cd8da518d09a8fe86d7663af29db6b32a91142b8070b1d92e02",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 368.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-056.jpg",
+            "sha256": "c33b2a54dac8ba1e802c93d16769fa384aa7f1dc052803f69a345e06e3c3136b",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 371.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-057.jpg",
+            "sha256": "b59393dde00f43229ee685f356ac22621d62a88a66adef2ffb400f0061302ac2",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 374.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-058.jpg",
+            "sha256": "5e97f3bad9ab54ec795473c47da32868d263bbb65944f586e9137c5ce6babc65",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 377.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-059.jpg",
+            "sha256": "6d71c4e20966f2e2c420d229b509fc94c5e89718e47ea87f92de31209248fff3",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 380.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-060.jpg",
+            "sha256": "d4267b9e23f173f00c06d0f856ab2587131dd1567b381a56253789c7a3fe3765",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 383.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-061.jpg",
+            "sha256": "e067a358599cd581893d103dae49af4b3ecfc027a70091fbceea059a5f81daf5",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 386.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-062.jpg",
+            "sha256": "2a0ad17afefb4a7c47ab0d6583cf1ae5a4f7b1d03a42147ec53854b8496dd4b5",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 389.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-063.jpg",
+            "sha256": "ad8d4eea899540d383ec58446a579e81e791d39fb1a6a75f5f990ca29a67803a",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 392.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-064.jpg",
+            "sha256": "177441eab2e4ee3b68b7150d2a4d7cc8cdd8012488b37d2d5ffb3fe38917b0fb",
+            "observation": "进食挑战中打开或饮用桌上的可乐，没有商品介绍、优惠或购买号召；保留饮食实况。"
+          },
+          {
+            "time": 395.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-065.jpg",
+            "sha256": "46c57c1329b6bf7747ee0fe783ddd1682f805ebe18b84f12443181051dcf6733",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 398.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-066.jpg",
+            "sha256": "7ea25596ee981bb5e2aa399b783164fbc60cb5545b14b31fe7b19347d1f801b6",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 401.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-067.jpg",
+            "sha256": "8f7f90c6ac36b6ed6eee87bfe035dc3cd5de597ee800b0cdf4d6845fba185599",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 404.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-068.jpg",
+            "sha256": "2a39bb48e53f7717a01403aeb0f289b531a3bea23b609025f58f0d2d12252b7a",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 407.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-069.jpg",
+            "sha256": "8d9da5e23cc8da1d0753b4c9b7529079c5fd2b73ff238a6ebfd05acc64b754a7",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 410.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-070.jpg",
+            "sha256": "b654b1faaf33ba24f728d9ff9edd8c3da4732499cc3461e45c62c612ed16773f",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 413.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-071.jpg",
+            "sha256": "51a45f6dc3af1ddbac90144fdaff2ad3fd426bcbd115cf06e4f47e09e271ce57",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 416.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-072.jpg",
+            "sha256": "1f094d7ee334ec052d476fcd79029657db3a57d8c4cd4726258a7786be54754e",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 419.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-073.jpg",
+            "sha256": "b0453bc06ac13990af58eb371e8314dafbbad78342281d1c57b8e96b41cbbb2f",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          }
+        ],
+        "startUncertainty": [
+          347.007,
+          348.6
+        ],
+        "endUncertainty": [
+          417.88,
+          420
+        ]
+      },
+      {
+        "start": 426.53,
+        "end": 439.8,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已完整阅读139行字幕，并实际查看该无字幕区间及前后连续每约3秒抽帧；画面延续同一桌牛排挑战，进食或喝饮料，没有另起商品推介。餐厅、餐具和可乐属于实际消费场景，不因品牌露出改判应跳广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 425.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-074.jpg",
+            "sha256": "6356628a29584ad78641f4dc37e51aacf3de046922cd0c42664574e6ab0c15d3",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 428.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-075.jpg",
+            "sha256": "de5ed57994b3086c259fec3981a9cea8ff1b688072f6dce232178d6061956414",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 431.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-076.jpg",
+            "sha256": "e9a5a8259b74873a5ad7707b602d22280f1042779775e3a0a4ebc134c5f02d6a",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 434.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-077.jpg",
+            "sha256": "87fbf79989aea074dd6250916ce8c2c32a36213c1f74468fa8f86111e364aa75",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 437.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-078.jpg",
+            "sha256": "521408d6e92967f0a2a3c22fe7b0113b599ed481288b7bcb45775a25efa5f91c",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 440.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-079.jpg",
+            "sha256": "f415725f940d286544cb8fb12adc2e6bdb7c9bf8543551a849f3d788b6845dd9",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          }
+        ],
+        "startUncertainty": [
+          425.031,
+          426.53
+        ],
+        "endUncertainty": [
+          439.8,
+          441
+        ]
+      },
+      {
+        "start": 442.26,
+        "end": 483.28,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已完整阅读139行字幕，并实际查看该无字幕区间及前后连续每约3秒抽帧；画面延续同一桌牛排挑战，进食或喝饮料，没有另起商品推介。餐厅、餐具和可乐属于实际消费场景，不因品牌露出改判应跳广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 443.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-080.jpg",
+            "sha256": "5cd04c68079a0986e24d9a8aaa88e73647edffd6fa5d7c1df52898696d323077",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 446.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-081.jpg",
+            "sha256": "975a111992eaef1af7ade0dc7edaab879c97200d015eb5cf2860b2d67e2c2fe7",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 449.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-082.jpg",
+            "sha256": "4e3a71e8199993b99320b9d4ed2dea2ffaa3de7db162dd82d4149d0da22d258b",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 452.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-083.jpg",
+            "sha256": "6fa899c09afa0811ff053b890719bb4dd0b0c020ffdeb3f85f330f4f827830f1",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 455.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-084.jpg",
+            "sha256": "d10a5e804e498b015ea0cfc82aa7be8c251ac76c37d38a2ab9f764ddc4b702d4",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 458.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-085.jpg",
+            "sha256": "d0a219623a37cf49a6912bbc16b437d5149e79c6b0849cb4077a32eecef127b8",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 461.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-086.jpg",
+            "sha256": "df3fdfc723a3fa645a0f70d26255232835b8ef9b98bf4fcb19af0fc9d170c450",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 464.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-087.jpg",
+            "sha256": "5dfadb9a74c78bc7945eb157914d061f4d09d1242319e7c4c12f00e1edc100a7",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 467.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-088.jpg",
+            "sha256": "b1de3a153deb191087b80ba49e7f6402d7de5a7b99e00c52ff7620b071bb8ea3",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 470.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-089.jpg",
+            "sha256": "b14a96a060c9d02855fcb250d209b88ad3248c4416b1207b8367c8a2ed879ee2",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 473.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-090.jpg",
+            "sha256": "fa644ec38f4c5ffab03f77d2f259d97ab232f4879149a70622dfe850358c6bfd",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 476.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-091.jpg",
+            "sha256": "bfa544ca13da1872a7c6f5d3834e498c8b73d425984fc2a1e67e65ca86257823",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 479.031,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-092.jpg",
+            "sha256": "374ae5ce46d93567edf1e92ca00886e00c6268fe8f79152e6c2020c362f1f449",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          },
+          {
+            "time": 482.043,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frame-093.jpg",
+            "sha256": "c3413fef234cbdd0a2cae983efaeb930b9d86b76e5bc37712ad8a14f935de906",
+            "observation": "同一餐桌持续撕取、咀嚼牛排，盘中食物逐渐减少，属于三斤牛排计时挑战正文。"
+          }
+        ],
+        "startUncertainty": [
+          442.26,
+          442.26
+        ],
+        "endUncertainty": [
+          483.28,
+          485
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已连续完整阅读139行缓存字幕，并实际查看六处明显缺口的93张抽帧，采样约3秒；未听取音频，未逐帧检查，不能据此声称完整视听核验。",
+      "未抽帧的其他短字幕间隙和短于采样间隔的画面仍存在不确定；标签为助手内容参考。",
+      "媒体实际时长624.804秒，输入时长取整为625秒；原BV/CID核对一致。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 139,
+      "firstIndex": 0,
+      "lastIndex": 138,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:48:37.347623+00:00",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1gUQtYvEFC.mp4",
+      "mediaSha256": "8147b9b09481e721bdea1bf1870ed65922b2fdeca69a4d8f895e0edbea792568",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1gUQtYvEFC-verified.json",
+      "frameManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1gUQtYvEFC/subtitle-gaps-middle/frames.json",
+      "sampleRanges": [
+        [
+          174,
+          190
+        ],
+        [
+          191,
+          296
+        ],
+        [
+          300,
+          319
+        ],
+        [
+          347,
+          420
+        ],
+        [
+          425,
+          441
+        ],
+        [
+          441,
+          485
+        ]
+      ],
+      "sampleEverySeconds": 3,
+      "framesActuallyViewed": 93,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  }
+}

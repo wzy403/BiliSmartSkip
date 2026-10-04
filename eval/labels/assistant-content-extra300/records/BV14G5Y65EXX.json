@@ -1,0 +1,177 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 18,
+    "inputLineSha256": "a9805ead0575daeb68d2a1b063626d419a6bc661b9a215def82c02b863b48b02",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV14G5Y65EXX-38423824802.json",
+    "acquisitionSha256": "b7b252d6d6e7b1d5a9b5181f8490506b4aec2285a86cbdacb33b5494fd62b7e1",
+    "sourceUrl": "https://www.bilibili.com/video/BV14G5Y65EXX/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV14G5Y65EXX.json",
+    "transcriptSha256": "386c0cafae1e9c92d5a0e4bf5278d127125743085dcef4ab07f5b741120613fb"
+  },
+  "record": {
+    "bvid": "BV14G5Y65EXX",
+    "cid": 38423824802,
+    "duration": 200,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "搞笑尝试纸皮烤鸡，从寻找胶带、廉价鸡和腌料到纸箱反复着火的失败过程；中途玩手机引出基因宝检测报告与9.9元、199元套餐推广。做鸡腌料属于主题实验道具，字幕不足以把品牌出现视为独立广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 88.64,
+        "end": 155.78,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从责怪同伴玩手机而不帮忙的剧情桥段开始，展示健康基因报告、解释检测好处和操作、介绍套餐项目并引导点击左下角购买，直到回到烤鸡着火场景；完整独立推广应跳。",
+        "evidence": [
+          {
+            "from": 87.06,
+            "to": 88.64,
+            "text": "在我们这这叫侧身"
+          },
+          {
+            "from": 88.64,
+            "to": 90.04,
+            "text": "你又在这里玩手机"
+          },
+          {
+            "from": 90.04,
+            "to": 91.36,
+            "text": "不帮忙打游戏是吧"
+          },
+          {
+            "from": 91.36,
+            "to": 93.5,
+            "text": "我在查看我的健康基因报告"
+          },
+          {
+            "from": 96.74,
+            "to": 99.72,
+            "text": "基因检测是个体的先天基因倾向"
+          },
+          {
+            "from": 114.02,
+            "to": 116.78,
+            "text": "只需要跟着采集DNA步骤邮寄回去"
+          },
+          {
+            "from": 116.78,
+            "to": 119.1,
+            "text": "报告直接反馈在精英宝app上"
+          },
+          {
+            "from": 127.9,
+            "to": 131.3,
+            "text": "那必须的九块九就能做一次基因检测"
+          },
+          {
+            "from": 131.3,
+            "to": 133.44,
+            "text": "我还升级了199套餐"
+          },
+          {
+            "from": 133.44,
+            "to": 135.46,
+            "text": "310家项目解析"
+          },
+          {
+            "from": 151.84,
+            "to": 152.32,
+            "text": "在哪买"
+          },
+          {
+            "from": 152.32,
+            "to": 153.26,
+            "text": "我现在就下单"
+          },
+          {
+            "from": 153.26,
+            "to": 154.08,
+            "text": "购买渠道"
+          },
+          {
+            "from": 154.08,
+            "to": 155.78,
+            "text": "点视频左下角直接下单"
+          },
+          {
+            "from": 155.78,
+            "to": 156.96,
+            "text": "完了完了完了完了"
+          }
+        ],
+        "startUncertainty": [
+          88.64,
+          88.64
+        ],
+        "endUncertainty": [
+          155.78,
+          155.78
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 58.58,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 58.82,
+        "end": 66.3,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 68.43,
+        "end": 88.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 155.78,
+        "end": 158.69,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 159.9,
+        "end": 168.28,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 169.92,
+        "end": 176.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 176.92,
+        "end": 183.01,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 184.92,
+        "end": 199.92,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 119,
+      "firstIndex": 0,
+      "lastIndex": 118,
+      "allRowsRead": true
+    }
+  }
+}

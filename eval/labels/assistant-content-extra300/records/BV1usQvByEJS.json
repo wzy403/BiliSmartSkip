@@ -1,0 +1,561 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 245,
+    "inputLineSha256": "d59a0cea5a4bfa93f1215f501df5b2408edc121c9d48bd92dc3f657b0ad33406",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1usQvByEJS-37496555843.json",
+    "acquisitionSha256": "cad57267fb7022c2599d7ef9827d208aaf447559bdff5f56c9371e8fae0e9652",
+    "sourceUrl": "https://www.bilibili.com/video/BV1usQvByEJS/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1usQvByEJS.json",
+    "transcriptSha256": "0a38d7292d3106c100e3282fac28b9a030138ddc65de66a450334becdb184adb"
+  },
+  "record": {
+    "bvid": "BV1usQvByEJS",
+    "cid": 37496555843,
+    "duration": 904,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "评论谢孟伟直播带货录屏中的手表话术、卖表与酒混淆、可乐及叮叮消直播骂人、酸奶争执和老人与嘎短剧情。引用带货片段是本期评论对象，应保留。329.04 秒由躺床看直播燥热和天气变热转为本片独立的小鹿凉被带货，至425秒结束后返回酸奶直播评论。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 83.46,
+        "end": 101.3,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "被评论的手表直播原片，作为假装回应观众再带货的示例，是视频主题证据。",
+        "startUncertainty": [
+          83.46,
+          83.46
+        ],
+        "endUncertainty": [
+          101.3,
+          101.3
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 81.54,
+            "to": 83.46,
+            "text": "你比如嘎子之前准备带一款手表"
+          },
+          {
+            "from": 83.46,
+            "to": 86.52,
+            "text": "骑手就是想要啥手"
+          },
+          {
+            "from": 86.52,
+            "to": 88,
+            "text": "要手表啊"
+          },
+          {
+            "from": 96.64,
+            "to": 98.2,
+            "text": "给我打在公屏上来"
+          },
+          {
+            "from": 100.46,
+            "to": 101.3,
+            "text": "太给力了"
+          },
+          {
+            "from": 101.3,
+            "to": 104.26,
+            "text": "我就想知道到底是谁问你滴"
+          }
+        ]
+      },
+      {
+        "start": 128.28,
+        "end": 144.95,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "被评论的手表适用人群与机械表矛盾话术原片，需要保留才能理解吐槽。",
+        "startUncertainty": [
+          128.28,
+          128.28
+        ],
+        "endUncertainty": [
+          144.95,
+          151.139
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 122.4,
+            "to": 124.64,
+            "text": "我们主要来说一下嘎子的带货话术"
+          },
+          {
+            "from": 124.64,
+            "to": 128.28,
+            "text": "那简直就是常熟阿诺看了都摇头"
+          },
+          {
+            "from": 128.28,
+            "to": 130.66,
+            "text": "这个是年轻人的最爱"
+          },
+          {
+            "from": 132.28,
+            "to": 135.7,
+            "text": "可以说这款手表是男人的最爱"
+          },
+          {
+            "from": 138.87,
+            "to": 140.37,
+            "text": "它不是机械手表"
+          },
+          {
+            "from": 140.37,
+            "to": 144.95,
+            "text": "它是机械手表"
+          },
+          {
+            "from": 151.139,
+            "to": 151.979,
+            "text": "啊嘎子哥"
+          }
+        ]
+      },
+      {
+        "start": 200.6,
+        "end": 231.8,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "原带货录屏把手表检测报告说成酒的报告，酒抽奖口播是评论所需原始例证。",
+        "startUncertainty": [
+          200.24,
+          200.6
+        ],
+        "endUncertainty": [
+          231.8,
+          231.8
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 196.29,
+            "to": 200.24,
+            "text": "然后这就导致出现了一种奇怪的现象"
+          },
+          {
+            "from": 200.6,
+            "to": 202.32,
+            "text": "全自动的机械机芯"
+          },
+          {
+            "from": 212.47,
+            "to": 214.39,
+            "text": "送给你们的华源名酒"
+          },
+          {
+            "from": 214.39,
+            "to": 216.24,
+            "text": "点击右上角抽奖"
+          },
+          {
+            "from": 222.66,
+            "to": 223.64,
+            "text": "喝华原名酒"
+          },
+          {
+            "from": 223.64,
+            "to": 225.69,
+            "text": "结交天下朋友好"
+          },
+          {
+            "from": 227.31,
+            "to": 231.8,
+            "text": "这是咱们这个是咱们酒的检测报告"
+          },
+          {
+            "from": 231.8,
+            "to": 233.88,
+            "text": "他就硬拿着手表的检测文件"
+          }
+        ]
+      },
+      {
+        "start": 264.16,
+        "end": 270.6,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "可乐直播录屏中的产品和辱骂话术，为本期反讽评论的证据而保留。",
+        "startUncertainty": [
+          260.94,
+          264.16
+        ],
+        "endUncertainty": [
+          270.6,
+          270.6
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 253.6,
+            "to": 255.96,
+            "text": "就比如有一次在带货一款可乐的时候"
+          },
+          {
+            "from": 255.96,
+            "to": 259.16,
+            "text": "就非常暖心的关心直播间粉丝的妈妈"
+          },
+          {
+            "from": 264.16,
+            "to": 268.52,
+            "text": "我想请问你喝过他妈百事可乐吗"
+          },
+          {
+            "from": 268.52,
+            "to": 270.6,
+            "text": "你个傻滚出去"
+          },
+          {
+            "from": 274.58,
+            "to": 276.06,
+            "text": "说实话看泪目了"
+          }
+        ]
+      },
+      {
+        "start": 315.74,
+        "end": 323.67,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "叮叮消带货原片和主播反应是盘点内容本身。",
+        "startUncertainty": [
+          315.74,
+          315.74
+        ],
+        "endUncertainty": [
+          323.67,
+          323.67
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 309.4,
+            "to": 311.24,
+            "text": "还有再一次带货丁丁笑的时候"
+          },
+          {
+            "from": 312.52,
+            "to": 314.32,
+            "text": "我嘎子哥也是好言相劝"
+          },
+          {
+            "from": 315.74,
+            "to": 317.85,
+            "text": "花药业丁丁消啊"
+          },
+          {
+            "from": 317.85,
+            "to": 318.97,
+            "text": "大人也能抹"
+          },
+          {
+            "from": 318.97,
+            "to": 321.57,
+            "text": "小孩也能抹飞机背背"
+          },
+          {
+            "from": 321.57,
+            "to": 322.37,
+            "text": "你妈了逼啊"
+          },
+          {
+            "from": 322.37,
+            "to": 323.67,
+            "text": "赶紧给我滚出去"
+          },
+          {
+            "from": 326.68,
+            "to": 329.04,
+            "text": "一个字绝呃"
+          }
+        ]
+      },
+      {
+        "start": 329.04,
+        "end": 425,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "完整包含躺床看直播燥热、天气变热铺垫，转入小鹿凉被的价格、双面材料、机洗、抗菌、规格、评论区优惠和换新保障；425秒明确返回嘎子酸奶直播。此段为独立促销，不是被批评的原带货片段。",
+        "startUncertainty": [
+          329.04,
+          329.04
+        ],
+        "endUncertainty": [
+          425,
+          425
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 329.04,
+            "to": 329.56,
+            "text": "说实话"
+          },
+          {
+            "from": 329.56,
+            "to": 331.44,
+            "text": "每天晚上躺在床上看我嘎子过的直播"
+          },
+          {
+            "from": 333.04,
+            "to": 334.38,
+            "text": "那是照热难耐"
+          },
+          {
+            "from": 335.24,
+            "to": 337.16,
+            "text": "加上最近天气也开始热闹起来"
+          },
+          {
+            "from": 338.61,
+            "to": 341.77,
+            "text": "可以去夏日炎炎的床上"
+          },
+          {
+            "from": 341.77,
+            "to": 343.91,
+            "text": "一窗销路的背哟"
+          },
+          {
+            "from": 349.779,
+            "to": 352.139,
+            "text": "这个神奇小鹿的小兵被第一次摸就给维西"
+          },
+          {
+            "from": 353.219,
+            "to": 353.899,
+            "text": "在我评论区买"
+          },
+          {
+            "from": 355.679,
+            "to": 356.859,
+            "text": "同类都要三四百"
+          },
+          {
+            "from": 356.859,
+            "to": 358.24,
+            "text": "我这条到手也就100多"
+          },
+          {
+            "from": 362.7,
+            "to": 364.88,
+            "text": "小鹿给大家做了ab双面A面"
+          },
+          {
+            "from": 371.22,
+            "to": 373.68,
+            "text": "半夜凉了就翻到轻浮冰面"
+          },
+          {
+            "from": 389.84,
+            "to": 391.52,
+            "text": "乳酸纤维填充用料"
+          },
+          {
+            "from": 397.92,
+            "to": 399.92,
+            "text": "A类母婴级标准的抗菌面料"
+          },
+          {
+            "from": 414.8,
+            "to": 417.88,
+            "text": "选大号够我和小一起看评论区的优惠券"
+          },
+          {
+            "from": 419.36,
+            "to": 421.04,
+            "text": "保价一年还送运费险"
+          },
+          {
+            "from": 421.04,
+            "to": 423,
+            "text": "两年内质量问题免费换新"
+          },
+          {
+            "from": 423,
+            "to": 425,
+            "text": "需要的赶快下手了"
+          },
+          {
+            "from": 425,
+            "to": 427.84,
+            "text": "而嘎子哥最近火爆出圈的直播经典带货在一"
+          }
+        ]
+      },
+      {
+        "start": 535.44,
+        "end": 583.48,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "每日酸奶的原带货录屏，包含价格、主播怒斥助手与正能量口号，是视频标题承诺分析的名场面，应保留整段以理解评论。",
+        "startUncertainty": [
+          535.44,
+          535.44
+        ],
+        "endUncertainty": [
+          583.48,
+          583.48
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 527.9,
+            "to": 529.3,
+            "text": "本来就心情不好"
+          },
+          {
+            "from": 533.3,
+            "to": 535.44,
+            "text": "直接整红温了"
+          },
+          {
+            "from": 535.44,
+            "to": 536.94,
+            "text": "哇哦好"
+          },
+          {
+            "from": 543.48,
+            "to": 546.5,
+            "text": "每日刷点刘亦菲的代代言的"
+          },
+          {
+            "from": 548.88,
+            "to": 551.83,
+            "text": "这一箱46块八"
+          },
+          {
+            "from": 559.49,
+            "to": 564.21,
+            "text": "阿东今天就半腾云岭他妈的半城云岭"
+          },
+          {
+            "from": 564.8,
+            "to": 569.28,
+            "text": "你来所有男家人打三个字"
+          },
+          {
+            "from": 578.899,
+            "to": 581.259,
+            "text": "正能量来生命打起来"
+          },
+          {
+            "from": 581.259,
+            "to": 583.48,
+            "text": "这种人那神经病"
+          },
+          {
+            "from": 583.48,
+            "to": 585.04,
+            "text": "我嘎哥太正能量"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 83.46,
+        "reason": "实际字幕覆盖的评论开场与带货套路背景。"
+      },
+      {
+        "start": 101.3,
+        "end": 104.26,
+        "reason": "实际字幕覆盖的手表价格套路批评。"
+      },
+      {
+        "start": 104.94,
+        "end": 128.28,
+        "reason": "实际字幕覆盖的手表价格套路批评。"
+      },
+      {
+        "start": 151.139,
+        "end": 200.24,
+        "reason": "实际字幕覆盖的直播话术评论与酒表混淆引入。"
+      },
+      {
+        "start": 231.8,
+        "end": 264.16,
+        "reason": "实际字幕覆盖的评论与可乐片段背景。"
+      },
+      {
+        "start": 270.6,
+        "end": 315.74,
+        "reason": "实际字幕覆盖的反讽评论和主播辱骂示例。"
+      },
+      {
+        "start": 323.67,
+        "end": 329.04,
+        "reason": "实际字幕覆盖的评论衔接。"
+      },
+      {
+        "start": 425,
+        "end": 535.44,
+        "reason": "实际字幕覆盖的酸奶直播剧本说明与批评。"
+      },
+      {
+        "start": 583.48,
+        "end": 660.51,
+        "reason": "实际字幕覆盖的直播评论、老人与嘎剧情评析与结尾。"
+      },
+      {
+        "start": 663.88,
+        "end": 667,
+        "reason": "实际字幕覆盖的直播评论、老人与嘎剧情评析与结尾。"
+      },
+      {
+        "start": 669.42,
+        "end": 766.19,
+        "reason": "实际字幕覆盖的直播评论、老人与嘎剧情评析与结尾。"
+      },
+      {
+        "start": 771.82,
+        "end": 780.26,
+        "reason": "实际字幕覆盖的直播评论、老人与嘎剧情评析与结尾。"
+      },
+      {
+        "start": 784,
+        "end": 856.14,
+        "reason": "实际字幕覆盖的直播评论、老人与嘎剧情评析与结尾。"
+      },
+      {
+        "start": 857.14,
+        "end": 903.7,
+        "reason": "实际字幕覆盖的直播评论、老人与嘎剧情评析与结尾。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "部分引文有自动字幕误识，明确的产品和原录屏/评论切换足以判定；短暂笑声、无字幕剪辑与画面内容未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 461,
+      "firstIndex": 0,
+      "lastIndex": 460,
+      "allRowsRead": true
+    }
+  }
+}

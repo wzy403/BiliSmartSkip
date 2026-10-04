@@ -1,0 +1,102 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 121,
+    "inputLineSha256": "b710cfceb1c9f1544c64490925d0e70d4b8aa77ba6738a654735c7c8391a3e5f",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1iaVfzkEyZ-29893593867.json",
+    "acquisitionSha256": "61436afc5df22dd2d84c7d2de3fbc3d7587a20a766fef1244d6a1364d5598b65",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iaVfzkEyZ/?p=12",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1iaVfzkEyZ.json",
+    "transcriptSha256": "4ae79f141a239cc6ed8988e4a6349a34eb54d08d0b39c751beb40a59fa836253"
+  },
+  "record": {
+    "bvid": "BV1iaVfzkEyZ",
+    "cid": 29893593867,
+    "duration": 443,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "开头为《赌神》粤语片段，谈到陈金城、高进、合作出钱出力等剧情；114.18秒以后大段缺字幕，185.68秒起主要识别为歌曲，末条到373.16秒。未从可辨识对白发现独立商品推广，但粤语识别严重失真且后半内容不足，不能判无广告。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 81.17,
+        "end": 93.89,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "百万美金和“出钱出力”在赌神角色合作对话中出现，是剧情交易，并无面向观众的商业推荐。",
+        "startUncertainty": [
+          79.81,
+          81.17
+        ],
+        "endUncertainty": [
+          93.89,
+          100.07
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 53.6,
+            "to": 58.54,
+            "text": "我查过你是新加坡赌王陈金城的香港的叛徒"
+          },
+          {
+            "from": 75.93,
+            "to": 78.05,
+            "text": "一日未见高进调试啊"
+          },
+          {
+            "from": 81.17,
+            "to": 84.795,
+            "text": "那你今我私人有100万美金落你户口"
+          },
+          {
+            "from": 84.91,
+            "to": 86.17,
+            "text": "我出钱"
+          },
+          {
+            "from": 86.17,
+            "to": 87.39,
+            "text": "你出力"
+          },
+          {
+            "from": 87.39,
+            "to": 89.63,
+            "text": "高进写着你挑去"
+          },
+          {
+            "from": 90.03,
+            "to": 91.73,
+            "text": "我和小周的眼中钉"
+          },
+          {
+            "from": 91.73,
+            "to": 93.89,
+            "text": "陈胜和小猪的大敌"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "粤语对白识别失真；114.18–185.68秒无字幕，373.16–443秒片尾无字幕，后半主要歌词不能解释画面。需要实际视听核对原片与拼接部分。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 64,
+      "firstIndex": 0,
+      "lastIndex": 63,
+      "allRowsRead": true
+    }
+  }
+}

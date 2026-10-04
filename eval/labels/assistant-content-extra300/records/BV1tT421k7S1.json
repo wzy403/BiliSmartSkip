@@ -1,0 +1,295 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 238,
+    "inputLineSha256": "f06ecad581688ece39ab1036307d4b2c0b665886c5f06c40c7ad217675c768d1",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1tT421k7S1-1610668786.json",
+    "acquisitionSha256": "5ebdbb549e3f264cb704bf54c8b8e20ca81bbc0440137d4788ecd2fd35ef0bb5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tT421k7S1/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1tT421k7S1.json",
+    "transcriptSha256": "0a7ff18a1f869b3c3adef84aa007b287bbaeae639665e75266acfc18cd107c57"
+  },
+  "record": {
+    "bvid": "BV1tT421k7S1",
+    "cid": 1610668786,
+    "duration": 626,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "逐段辨识网络蛇视频，解释黑眉锦蛇、王蛇、蝮蛇、蟒和游蛇的外形与分布，反驳夸大体长及牛角蛇传言，再介绍四人被同一印度环蛇咬伤的旧案和毒液分配。两处以读毒液论文的工作流引出 Kimi 的总结、翻译、表格和免费使用推广，尾部有评论区下载入口。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 111.56,
+        "end": 128.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "从观众好奇如何判断血清、需要看文献完整铺垫，转到工具快速总结翻译、回答准确、省时和免费；前后蛇种辨识知识独立，此处为工具推广首段，工具名在本段 ASR 缺失但片尾同一流程明确为 Kimi。",
+        "startUncertainty": [
+          111.56,
+          117.88
+        ],
+        "endUncertainty": [
+          128.5,
+          131.22
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 111.56,
+            "to": 112.76,
+            "text": "很多人可能会比较好奇"
+          },
+          {
+            "from": 112.76,
+            "to": 114.84,
+            "text": "我怎么判断冷门毒蛇用什么血清的"
+          },
+          {
+            "from": 114.84,
+            "to": 116.52,
+            "text": "这需要详细对比毒液成分"
+          },
+          {
+            "from": 116.52,
+            "to": 117.88,
+            "text": "看很多毒液研究的文献"
+          },
+          {
+            "from": 117.88,
+            "to": 120.76,
+            "text": "我通常会使用快速总结论文和翻译"
+          },
+          {
+            "from": 120.76,
+            "to": 122.86,
+            "text": "比如这个白头葵的毒液蛋白质组学研究"
+          },
+          {
+            "from": 122.86,
+            "to": 124.4,
+            "text": "片面的回答是相当准确的"
+          },
+          {
+            "from": 125.4,
+            "to": 126.64,
+            "text": "帮助我节省了很多时间"
+          },
+          {
+            "from": 126.64,
+            "to": 128.5,
+            "text": "而且不用花一分钱"
+          }
+        ]
+      },
+      {
+        "start": 597.06,
+        "end": 625.52,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "再用 Kimi 读环蛇论文和表格为应用场景，随后详细介绍文献筛选、二十万字上下文、免费和下载；整段工具示范与卖点至收尾一并记录。",
+        "startUncertainty": [
+          595.1,
+          597.06
+        ],
+        "endUncertainty": [
+          625.52,
+          626
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 597.06,
+            "to": 599.5,
+            "text": "咱们再用KIMI来看一篇印度环蛇的毒液研究"
+          },
+          {
+            "from": 601.02,
+            "to": 602.58,
+            "text": "总结的依然很准确"
+          },
+          {
+            "from": 602.58,
+            "to": 604.22,
+            "text": "我们还可以让KIMI整理一个表格"
+          },
+          {
+            "from": 604.22,
+            "to": 606.58,
+            "text": "这样印度环蛇的毒素含量就很直观了"
+          },
+          {
+            "from": 609.18,
+            "to": 610.98,
+            "text": "从大量文献中找到我想要的内容"
+          },
+          {
+            "from": 611.94,
+            "to": 613.22,
+            "text": "这个时候支持20万字"
+          },
+          {
+            "from": 613.22,
+            "to": 615.5,
+            "text": "无损上下文的KIMI就非常香了"
+          },
+          {
+            "from": 615.5,
+            "to": 617.34,
+            "text": "每次阅读前我又把多篇文献发给他"
+          },
+          {
+            "from": 620.8,
+            "to": 622.32,
+            "text": "而且KIMI还是免费的"
+          },
+          {
+            "from": 622.32,
+            "to": 623.76,
+            "text": "现在点我评论区就可以下载"
+          },
+          {
+            "from": 623.76,
+            "to": 625.52,
+            "text": "有需要的赶紧去试试哟"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 1.88,
+        "end": 17.78,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 19.22,
+        "end": 38.06,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 39.52,
+        "end": 42.85,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 43.09,
+        "end": 51,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 51.28,
+        "end": 55.79,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 56.99,
+        "end": 68.66,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 73.66,
+        "end": 85.64,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 87.42,
+        "end": 111.56,
+        "reason": "蛇种鉴定、配音真假和毒蛇特征的正文。"
+      },
+      {
+        "start": 131.22,
+        "end": 150.43,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 154.66,
+        "end": 156.39,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 157.11,
+        "end": 186.5,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 199.44,
+        "end": 235.48,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 237.14,
+        "end": 239.34,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 240.46,
+        "end": 259.54,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 261.74,
+        "end": 304.36,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 311.53,
+        "end": 326.44,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 329.44,
+        "end": 360.289,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 362.64,
+        "end": 364.12,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 366.96,
+        "end": 383.04,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 392.26,
+        "end": 407.08,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 410.36,
+        "end": 467.98,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 476.68,
+        "end": 494.18,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      },
+      {
+        "start": 496.1,
+        "end": 597.06,
+        "reason": "继续蛇类知识、网络夸张描述批评和环蛇咬人历史，提到手机仅是要求提供影像证据。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 346,
+      "firstIndex": 0,
+      "lastIndex": 345,
+      "allRowsRead": true
+    }
+  }
+}

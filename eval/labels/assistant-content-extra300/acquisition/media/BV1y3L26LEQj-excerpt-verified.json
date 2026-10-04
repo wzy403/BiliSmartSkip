@@ -1,0 +1,18 @@
+{
+  "bvid": "BV1y3L26LEQj",
+  "cid": 38469764624,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1y3L26LEQj/?p=1",
+  "checkedAt": "2026-10-04T23:49:05.419Z",
+  "responseSha256": "35e7c1e894448d077129aa2626be4ced8ac4dc1f7e46fb83fa8b9ecfebdef6c6",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1y3L26LEQj-excerpt-0-120.mp4",
+  "sha256": "0e26613c12595f6910d3a3bbf6ebca20b0c7e7336e0fd728b02db700bc10f979",
+  "bytes": 6589748,
+  "status": "excerpt-preserved-and-identity-verified",
+  "sourceTimeRange": [
+    0,
+    120
+  ],
+  "hasAudio": false,
+  "method": "原CID校验后的公开DASH视频流前120秒保存为无重编码视频片段；只保留所需缺口及上下文，不声称下载或观看完整视频。"
+}

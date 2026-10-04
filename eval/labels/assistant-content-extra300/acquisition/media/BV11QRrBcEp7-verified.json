@@ -1,0 +1,30 @@
+{
+  "bvid": "BV11QRrBcEp7",
+  "cid": 38097915056,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV11QRrBcEp7/?p=1",
+  "checkedAt": "2026-10-04T23:46:21.099Z",
+  "responseSha256": "297f232906cc2cdf980076d68ee5706f79a606b64b7527fb49b0041085febe2e",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV11QRrBcEp7.mp4",
+  "sha256": "e0be85ab9145e415fccd8983752e37c0acb90c13720ea0e3433a0efd7558ce9f",
+  "bytes": 22215866,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac"
+      }
+    ],
+    "format": {
+      "duration": "322.100000"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+}

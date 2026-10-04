@@ -1,0 +1,441 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles-plus-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 215,
+    "inputLineSha256": "3d7749461eacd7478a984108afc0e13e37bcdc51b9f8a99fa9af83f3919ad270",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1RxfnBwEd9-36195139841.json",
+    "acquisitionSha256": "1118682fa66719988d7a5444e2e9e31adbbacd39276e3f693b300440f4517630",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RxfnBwEd9/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1RxfnBwEd9.json",
+    "transcriptSha256": "80f4b2cb1c6674002ad6afbfe21b29477a40a5aad3dbad6d05765a43d038cce9"
+  },
+  "record": {
+    "bvid": "BV1RxfnBwEd9",
+    "cid": 36195139841,
+    "duration": 1541,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "Linux 与开源周报，连续介绍 GNOME 50、GNOME OS、Plasma 6.6、systemd 争议、Budgie、欧盟科技政策、Asteroid OS 和 BSD 工具；开头 Proton 服务及结尾 Tuxedo 电脑为独立赞助推广。 补看原媒体片尾确认1501.333–1507.206秒另有无字幕Patreon品牌及专属支持页引流广告；其后社交账号和滚动名单保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 30.04,
+        "end": 104.7,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "以“接下来的赞助商环节”明确转入 Proton 邮件、隐私连接、免费及付费套餐的功能与使用推荐，至描述区链接和“赶紧试试吧”结束；104.7 秒开启 GNOME 新闻。完整范围包含字幕内短暂缺口，不把广告压缩成链接话术。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          30.04,
+          30.04
+        ],
+        "endUncertainty": [
+          104.7,
+          104.7
+        ],
+        "evidence": [
+          {
+            "from": 28.4,
+            "to": 30.04,
+            "text": "以及一大堆其他内容"
+          },
+          {
+            "from": 30.04,
+            "to": 32.189,
+            "text": "包括接下来的赞助商环节"
+          },
+          {
+            "from": 35.229,
+            "to": 37.569,
+            "text": "你们可能都听说过Proton Mail"
+          },
+          {
+            "from": 40.44,
+            "to": 46.02,
+            "text": "替代Gmail等侵入性通讯方案的解决方案"
+          },
+          {
+            "from": 53.7,
+            "to": 56.42,
+            "text": "无论是连接公共Wi-Fi"
+          },
+          {
+            "from": 69.22,
+            "to": 72.22,
+            "text": "因为它包含在免费Proton账户中"
+          },
+          {
+            "from": 80.11,
+            "to": 81.47,
+            "text": "他们不记录任何日志"
+          },
+          {
+            "from": 88.03,
+            "to": 93.32,
+            "text": "付费计划涵盖整个Proton套件"
+          },
+          {
+            "from": 93.32,
+            "to": 96.31,
+            "text": "包括邮件、日历、联系人、网盘等"
+          },
+          {
+            "from": 98.83,
+            "to": 100.35,
+            "text": "链接在描述中"
+          },
+          {
+            "from": 101.67,
+            "to": 102.75,
+            "text": "每天使用"
+          },
+          {
+            "from": 102.75,
+            "to": 103.67,
+            "text": "非常出色"
+          },
+          {
+            "from": 103.67,
+            "to": 104.7,
+            "text": "赶紧试试吧"
+          },
+          {
+            "from": 104.7,
+            "to": 107.44,
+            "text": "现在开始聊GNOME 50测试版"
+          }
+        ]
+      },
+      {
+        "start": 1422.66,
+        "end": 1474.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "周报主题项目结束后，明确提到赞助商并集中宣传 Tuxedo 预装 Linux 电脑、产品范围、可配置性、作者使用背书及描述区链接；1474.24 秒进入通用片尾。虽然电脑与频道领域相关，这里是独立赞助介绍而非正在评论的新闻或产品评测。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          1422.66,
+          1422.66
+        ],
+        "endUncertainty": [
+          1474.24,
+          1474.24
+        ],
+        "evidence": [
+          {
+            "from": 1421.06,
+            "to": 1422.66,
+            "text": "只是看看这到底怎么回事"
+          },
+          {
+            "from": 1422.66,
+            "to": 1425.52,
+            "text": "如果你想了解我们赞助商的热度所在"
+          },
+          {
+            "from": 1425.52,
+            "to": 1426.74,
+            "text": "嗯那就继续听下去"
+          },
+          {
+            "from": 1426.74,
+            "to": 1427.9,
+            "text": "这是Tuxedo电脑"
+          },
+          {
+            "from": 1427.9,
+            "to": 1431.74,
+            "text": "Tuxedo是一家德国的笔记本和台式机制造商"
+          },
+          {
+            "from": 1433.56,
+            "to": 1437.599,
+            "text": "他们发货的电脑预装了Linux系统"
+          },
+          {
+            "from": 1451.08,
+            "to": 1452.06,
+            "text": "游戏台式机"
+          },
+          {
+            "from": 1452.96,
+            "to": 1456.84,
+            "text": "你可以在这些设备内部自由配置"
+          },
+          {
+            "from": 1460.34,
+            "to": 1461.3,
+            "text": "它们真的非常出色"
+          },
+          {
+            "from": 1463.56,
+            "to": 1466.86,
+            "text": "听到的或读到的内容都是用他们的电脑完成的"
+          },
+          {
+            "from": 1466.86,
+            "to": 1469.24,
+            "text": "我所有的游戏都在他们的电脑上进行"
+          },
+          {
+            "from": 1470.44,
+            "to": 1471.68,
+            "text": "它们真的太棒了"
+          },
+          {
+            "from": 1471.68,
+            "to": 1474.24,
+            "text": "一如既往，链接在描述中"
+          },
+          {
+            "from": 1474.24,
+            "to": 1474.76,
+            "text": "总之"
+          }
+        ]
+      },
+      {
+        "start": 1491.66,
+        "end": 1495.88,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "此处仅说描述中有支持节目的链接，未在可用字幕中说明付费交易、商品或权益，按通用创作者片尾保留；不能仅凭“链接/支持”推定商品广告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          1491.66,
+          1491.66
+        ],
+        "endUncertainty": [
+          1495.88,
+          1495.88
+        ],
+        "evidence": [
+          {
+            "from": 1489,
+            "to": 1491.66,
+            "text": "他们是我说的一切内容的原创作者"
+          },
+          {
+            "from": 1491.66,
+            "to": 1493.86,
+            "text": "你还会找到支持节目的链接"
+          },
+          {
+            "from": 1493.86,
+            "to": 1495.88,
+            "text": "如果你喜欢观看或收听节目"
+          },
+          {
+            "from": 1495.88,
+            "to": 1498.22,
+            "text": "感谢大家收听或观看"
+          }
+        ]
+      },
+      {
+        "start": 1501.333,
+        "end": 1507.206,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "字幕再见后独立片尾动画显示Patreon品牌和频道专属支持页面地址，将观众引向商业支持入口，属于新闻主题之外可分离的自营支持推广。范围包括Patreon图标出场、完整网址展示和退场；其后Mastodon账号及贡献名单不延伸计入此广告。该段仅有实际画面证据，无相应字幕，不借用无关字幕。",
+        "confidence": "high",
+        "boundaryConfidence": "selected-video-frames",
+        "startUncertainty": [
+          1501.066,
+          1501.6
+        ],
+        "endUncertainty": [
+          1506.939,
+          1507.206
+        ],
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1501.333,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-004.jpg",
+            "sha256": "e4e2304e55a5ac311cb2cd3d1722e8ec6b4211d2fa72e4655ab0f4206bacf8ce",
+            "observation": "告别转场切入频道/Patreon动画，起点处仍有运动模糊。"
+          },
+          {
+            "time": 1501.6,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-005.jpg",
+            "sha256": "73a7c2231b399020368cc1ea039314611155c04aa1ff604d32439fbb0ee60418",
+            "observation": "Patreon图标完整出现。"
+          },
+          {
+            "time": 1502.401,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-008.jpg",
+            "sha256": "c3096f02642d3a1801bc8367987211e358fcfaa7f7bc191eb910966dff74d3fe",
+            "observation": "Patreon品牌和专属支持页面网址完整展示。"
+          },
+          {
+            "time": 1506.939,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-025.jpg",
+            "sha256": "3ab5bb336d775a6615c4cb7f01e17a3408a56c909d38190f1060bfdba457a989",
+            "observation": "Patreon网址与图标仍在滑出，属于推广退场。"
+          },
+          {
+            "time": 1507.206,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-026.jpg",
+            "sha256": "e60bbddbf3d95e8312c2508e51036c15d1fc4ea511951bfff8f498b0c17065e7",
+            "observation": "Patreon入口已退场，开始Mastodon社交账号。"
+          }
+        ]
+      },
+      {
+        "start": 1507.206,
+        "end": 1540.16,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "后续为非商业社交账号、其他视频位置和滚动LINUX RESEARCHERS名单；没有继续推广付费入口、商品权益或购买号召，保留正常片尾信息。判断基于实际选定画面，不把字幕空白自动归为普通对白。",
+        "confidence": "high",
+        "boundaryConfidence": "selected-video-frames",
+        "startUncertainty": [
+          1507.206,
+          1507.473
+        ],
+        "endUncertainty": [
+          1539.071,
+          1541
+        ],
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1507.473,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-027.jpg",
+            "sha256": "c6e7cbdcfcbd63fd02ba2e542d246010e7de0ffbcd5e55ca23eaf31d20148ce0",
+            "observation": "Mastodon账号与两个片尾栏目出现。"
+          },
+          {
+            "time": 1509.041,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-015.jpg",
+            "sha256": "9ed1854784e9c0b37724987991a98956163bf72eeea4011c3e0f1fd2b2cb838a",
+            "observation": "显示Mastodon账号及正在滚动的名单。"
+          },
+          {
+            "time": 1518.05,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-024.jpg",
+            "sha256": "445098a6eff27445f299bfbc824e12657f14f4d5484a8a322ac63947ddfee2ae",
+            "observation": "仅片尾视频位置与名单。"
+          },
+          {
+            "time": 1539.071,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-045.jpg",
+            "sha256": "3247e86a36c14b58301f433fdb3ab35f6dea66369ae920c9c43abc40e50ac78b",
+            "observation": "最后选定画面仍为名单。"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 30.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 104.7,
+        "end": 731.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 732.15,
+        "end": 1422.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1474.24,
+        "end": 1491.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1495.88,
+        "end": 1501.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "已连续完整阅读589条字幕；为核实39.82秒片尾缺口，实际查看1495.027–1539.071约每1秒45帧及1500.532–1508.274约每0.267秒30帧。未听音频，未逐帧或完整视听全片。",
+      "实际媒体时长1540.160167秒，输入元数据1541秒；新增纯画面段依据选定帧记录边界不确定性。字幕段仍依据全文上下文，没有按未来评估容差裁剪。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 589,
+      "firstIndex": 0,
+      "lastIndex": 588,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": {
+    "reviewer": "extra300_full_content_c",
+    "media": "eval/labels/assistant-content-extra300/acquisition/media/BV1RxfnBwEd9-verified.json",
+    "frameIndexes": [
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frames.json"
+    ],
+    "framesActuallyViewed": 75,
+    "audioReviewed": false,
+    "frameByFrameReviewed": false,
+    "method": "实际查看1495.027–1539.071每约1.001秒45帧，以及1500.532–1508.274每约0.267秒30帧的全部接触表。未听音频，未逐帧或连续视听全片。",
+    "observations": [
+      {
+        "time": 1501.033,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-007.jpg",
+        "sha256": "c1a74451985793e6a670ef7e6862357e00561edef3269a7f8527a29cd49825b3",
+        "observation": "真人挥手告别，与字幕再见对应。"
+      },
+      {
+        "time": 1501.6,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-005.jpg",
+        "sha256": "73a7c2231b399020368cc1ea039314611155c04aa1ff604d32439fbb0ee60418",
+        "observation": "告别转场后显示Patreon图标与频道图标，尚未展开完整网址。"
+      },
+      {
+        "time": 1502.401,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-008.jpg",
+        "sha256": "c3096f02642d3a1801bc8367987211e358fcfaa7f7bc191eb910966dff74d3fe",
+        "observation": "单独整屏动画展示Patreon图标和 patreon.com/thelinuxexperiment 支持页面地址。"
+      },
+      {
+        "time": 1506.939,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-025.jpg",
+        "sha256": "3ab5bb336d775a6615c4cb7f01e17a3408a56c909d38190f1060bfdba457a989",
+        "observation": "Patreon图标与网址开始滑出，仍有商业支持入口露出。"
+      },
+      {
+        "time": 1507.206,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-link-boundary/frame-026.jpg",
+        "sha256": "e60bbddbf3d95e8312c2508e51036c15d1fc4ea511951bfff8f498b0c17065e7",
+        "observation": "Patreon入口退场，Mastodon图标正在进场。"
+      },
+      {
+        "time": 1508.04,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-014.jpg",
+        "sha256": "25e5bfd4bae4dfdefc6208404e325326a48805b2a17a2b57203e1df403230f53",
+        "observation": "Mastodon社交账号、WATCH MORE VIDEOS和LINUX RESEARCHERS名单同时出现。"
+      },
+      {
+        "time": 1518.05,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-024.jpg",
+        "sha256": "445098a6eff27445f299bfbc824e12657f14f4d5484a8a322ac63947ddfee2ae",
+        "observation": "仅为后续视频位置和滚动名单，没有进一步商品或支持入口号召。"
+      },
+      {
+        "time": 1539.071,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1RxfnBwEd9/tail-gap/frame-045.jpg",
+        "sha256": "3247e86a36c14b58301f433fdb3ab35f6dea66369ae920c9c43abc40e50ac78b",
+        "observation": "滚动名单一直持续到接近媒体尾部。"
+      }
+    ]
+  }
+}

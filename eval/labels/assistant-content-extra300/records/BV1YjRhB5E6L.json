@@ -1,0 +1,130 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 283,
+    "inputLineSha256": "383846fd68a4e0f4aaad63cfa8f7a4e85f9abe681f9c6d20f13e636725e3673d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1YjRhB5E6L-38148311711.json",
+    "acquisitionSha256": "e4880d0cfe76406406542e7f196a95175251d4b1413a8f72a2a8ccc7f76f9d06",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YjRhB5E6L/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1YjRhB5E6L.json",
+    "transcriptSha256": "c4f4bd03c25e517d5818c147ead167fe04f14b4235ec3121e5132b9484b497f5"
+  },
+  "record": {
+    "bvid": "BV1YjRhB5E6L",
+    "cid": 38148311711,
+    "duration": 603,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "叙述巴拉圭超市火灾、锁闭出口、救援、审判及后续纪念与安全问题；中间从家庭周末购物切入母亲节按摩仪送礼推介。事故超市名称、商品和费用是事件叙述，不是促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 78.42,
+        "end": 140.37,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          78.42,
+          79.72
+        ],
+        "endUncertainty": [
+          137.82,
+          140.37
+        ],
+        "reason": "从“说到家庭活动”及给母亲按摩的困难开始，包含妙界功能、家庭情感铺垫、产品卖点、售后贺卡和送礼号召；140.37秒返回超市安全隐患，广告全段独立可跳。",
+        "evidence": [
+          {
+            "from": 76.68,
+            "to": 78.42,
+            "text": "享受难得的闲暇时光"
+          },
+          {
+            "from": 78.42,
+            "to": 79.72,
+            "text": "那么说到家庭活动"
+          },
+          {
+            "from": 79.72,
+            "to": 82.1,
+            "text": "我平时就喜欢给我妈按按肩膀啥的"
+          },
+          {
+            "from": 86.4,
+            "to": 88.46,
+            "text": "我给我妈备了一台妙界颈肩按摩仪"
+          },
+          {
+            "from": 92.24,
+            "to": 94.8,
+            "text": "大家也可以带两个回去犒劳一下自己"
+          },
+          {
+            "from": 107.12,
+            "to": 109.06,
+            "text": "平时也没给她买过啥像样的"
+          },
+          {
+            "from": 109.06,
+            "to": 110.94,
+            "text": "这次母亲节必须得表示表示"
+          },
+          {
+            "from": 115.52,
+            "to": 117.68,
+            "text": "他都能够怼着穴位推按揉捏"
+          },
+          {
+            "from": 121.2,
+            "to": 123.12,
+            "text": "难怪热消耗比回购都第一呢"
+          },
+          {
+            "from": 132.82,
+            "to": 135.06,
+            "text": "那干脆就趁节日送个实在的妙界"
+          },
+          {
+            "from": 135.06,
+            "to": 136.74,
+            "text": "老朋友售后都包靠谱的"
+          },
+          {
+            "from": 136.74,
+            "to": 137.82,
+            "text": "还能够代写贺卡"
+          },
+          {
+            "from": 137.82,
+            "to": 140.37,
+            "text": "按摩类top第一都不要错过咯"
+          },
+          {
+            "from": 140.37,
+            "to": 142.35,
+            "text": "然而在这光鲜的外表之下"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 327,
+      "firstIndex": 0,
+      "lastIndex": 326,
+      "allRowsRead": true
+    }
+  }
+}

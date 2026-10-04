@@ -1,0 +1,167 @@
+[
+  {
+    "time": 0.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-001.jpg",
+    "sha256": "a1686812eb2332cade29d3ac445513440f02aa06301916879e338bc210b4bd02"
+  },
+  {
+    "time": 10.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-002.jpg",
+    "sha256": "89109d8df1705a9c5a8f3c5f68a925fa7b7692ce0c6659903b3f84215df0b987"
+  },
+  {
+    "time": 20.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-003.jpg",
+    "sha256": "5f1ccbc4d1c062b03050356eeb4752a70fabb58d65876d7bb4a25984e7963c23"
+  },
+  {
+    "time": 30.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-004.jpg",
+    "sha256": "4c908728adeca3da0e70b04bbc739540a61f2810ae6123097d319d4516dddc48"
+  },
+  {
+    "time": 40.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-005.jpg",
+    "sha256": "b15e774ba9a2ab0ca2bc4e872143c09fd710b361e174818d525723d6534a16e2"
+  },
+  {
+    "time": 50.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-006.jpg",
+    "sha256": "c02a3fd0e7c68874a148e55aea91c2463d87b976775a1f3d70528dc0d91ff5c8"
+  },
+  {
+    "time": 60.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-007.jpg",
+    "sha256": "859ebbb04805d247efa0796793bddd0ddd7f68678f82058e21c5441bd8df5680"
+  },
+  {
+    "time": 70.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-008.jpg",
+    "sha256": "203630e7e2255fc2015fece654cc71c83c48503afb8c1cfa6b602c66664015c4"
+  },
+  {
+    "time": 80.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-009.jpg",
+    "sha256": "6d7747da3f299a76b2a11505a77b79b7d741c4b2962a6714dbc9debc4c3f9cd1"
+  },
+  {
+    "time": 90.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-010.jpg",
+    "sha256": "ada1c4f3de38b5e4c50449f1e8f900886ff194d85e720e2c26478ae41d2810db"
+  },
+  {
+    "time": 100.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-011.jpg",
+    "sha256": "933cbcb34c685a2fdf919160c34c59a489d57c8bbb2274af32662eb86a25ef39"
+  },
+  {
+    "time": 110.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-012.jpg",
+    "sha256": "1d42b9d3bbd8fc4f66a75487bac785175be14e4f7ac242a6fd7e93802f0e9cba"
+  },
+  {
+    "time": 120.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-013.jpg",
+    "sha256": "bb0a2481067d4194fbd00eeeffe296a9408565ae22fa8a44b5ff726bbe06d833"
+  },
+  {
+    "time": 130.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-014.jpg",
+    "sha256": "4380df495c8e2503f727b0017896f4614cbe0f698294e1ab8336090c77823add"
+  },
+  {
+    "time": 140.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-015.jpg",
+    "sha256": "fe2f3e5a1d672bd32c81dff78a4af1512e971747c75e8c58f7a0e93d0c725ffe"
+  },
+  {
+    "time": 150.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-016.jpg",
+    "sha256": "18543b57eeded117924eb6011998a346fa7f5870322968b383ae46f1a0d99962"
+  },
+  {
+    "time": 160.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-017.jpg",
+    "sha256": "c2654d122d823011843962f0d7b3b279fe21ea22ee08560fd11b82246523ea78"
+  },
+  {
+    "time": 170.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-018.jpg",
+    "sha256": "742ee74c4f5cad10725b9b9d77ee041e940f3cee78dc5be3888e817611ba1554"
+  },
+  {
+    "time": 180.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-019.jpg",
+    "sha256": "d48a54915d004a7b69f215a8c46582ccb238c0d7fc9280d6a9e82a18d1cd7e35"
+  },
+  {
+    "time": 190.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-020.jpg",
+    "sha256": "c0b5609f36e8e57378a66b329f1c9967372b5ac8c60f7a361ec6bf52a6cf6d05"
+  },
+  {
+    "time": 200.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-021.jpg",
+    "sha256": "3f5bf1ecc590802162ccc072002934a282af33527c5eb29431efdfa62218351e"
+  },
+  {
+    "time": 210.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-022.jpg",
+    "sha256": "ca5dcbb09a43d1aeba49accff54f2cf92061a4396f2218953b13bf3276fe11b9"
+  },
+  {
+    "time": 220.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-023.jpg",
+    "sha256": "3be9cee9561e57ebce2989b1f708a7f09c7ff9d6bfabd8c2ce69a3216993d16b"
+  },
+  {
+    "time": 230.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-024.jpg",
+    "sha256": "e7dd0a3b896cb3db3036fa95a447dd6c4ea7982e0914f1a7ce9f96a6f0af87ef"
+  },
+  {
+    "time": 240.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-025.jpg",
+    "sha256": "807bd1336ac22bf848b98d0707d9dd8df2eb08b412d6028cf10de06cf2cad1bb"
+  },
+  {
+    "time": 250.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-026.jpg",
+    "sha256": "ac5ee0df966235fe2774717ba565b8fb9b4068bd6069e5c44664e3c319b713a5"
+  },
+  {
+    "time": 260.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-027.jpg",
+    "sha256": "81bbfaeeb5988caeb39d4c61e5119c2b1b863237251a3dadc6dd0245dfd7fe3d"
+  },
+  {
+    "time": 270.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-028.jpg",
+    "sha256": "c0e3b9863e87b425564951cc0bf8c8f8bd0e48c5cd381a05f569009eb5bad91f"
+  },
+  {
+    "time": 280.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-029.jpg",
+    "sha256": "a96da5394a80f87f7d7ede919075ebb9572c70c929e0677548800cf818aaca02"
+  },
+  {
+    "time": 290.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-030.jpg",
+    "sha256": "dbfd6c722a8c219f926a0d986c841efa95be34e7c00d675326e7c06099bc9a8c"
+  },
+  {
+    "time": 300.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-031.jpg",
+    "sha256": "28a96a1e2396694d4bfc5d1680c2c96c1b552910a82544185e812df47ada1d97"
+  },
+  {
+    "time": 310.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-032.jpg",
+    "sha256": "563d96325b031c14e6ed9317f14ee3f4a58b88bf7b1a14a05baf7a51abfb2056"
+  },
+  {
+    "time": 320.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frame-033.jpg",
+    "sha256": "865535874973fe3c866e6593440eb059e1c1a57d711b90755689e881220721ce"
+  }
+]

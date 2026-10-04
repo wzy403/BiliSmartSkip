@@ -1,0 +1,166 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 142,
+    "inputLineSha256": "01dce97add53cc183100784d8a29fc1dffb5ec809fe1ef5c0c69f8c6c2b1cd3d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1jz421i7Bc-1619304540.json",
+    "acquisitionSha256": "972950139710c3c3e715833c5290764eeb33d1e43806020e0fe1100eee370353",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jz421i7Bc/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1jz421i7Bc.json",
+    "transcriptSha256": "644f297a417c5f98c16bf52ab131aa2a0f21e5c36a5cc7c72f843ecbf89d8453"
+  },
+  "record": {
+    "bvid": "BV1jz421i7Bc",
+    "cid": 1619304540,
+    "duration": 655,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "按年代讲可口可乐新品与失败案例：新可乐、OK苏打、咖啡可乐、苦味饮料、牛奶水果混合品、低糖生活系列，并辨析大蒜和培根可乐的传言与真实旁支产品。品牌、营销口号、价格和配方都是食品商业史主体，非向观众推销。中场休息另起赫恩控油洗面奶及水乳套装推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 274.68,
+        "end": 320.8,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确“中场休息”后以夏天脸油与黑头痘痘为铺垫，介绍赫恩洁面测试结果、配方、舒适感和水乳搭配，评论区专属券及套购更划算，最后清爽SPA收尾。与可乐失败产品史无关，整段应跳。",
+        "startUncertainty": [
+          274.68,
+          274.68
+        ],
+        "endUncertainty": [
+          320.8,
+          325.9
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 272.42,
+            "to": 274.68,
+            "text": "就驾鹤西游去了丁儿"
+          },
+          {
+            "from": 274.68,
+            "to": 276.92,
+            "text": "中场休息时间到夏天一到脸上热出了油"
+          },
+          {
+            "from": 276.92,
+            "to": 278.2,
+            "text": "都可以做三菜一汤了"
+          },
+          {
+            "from": 278.2,
+            "to": 279.2,
+            "text": "如果不及时清洁"
+          },
+          {
+            "from": 280.28,
+            "to": 281.1,
+            "text": "痘痘和粉刺"
+          },
+          {
+            "from": 281.1,
+            "to": 282.58,
+            "text": "和我有一样烦恼的朋友们"
+          },
+          {
+            "from": 282.58,
+            "to": 284.42,
+            "text": "可以试试这款赫恩控油洗面奶"
+          },
+          {
+            "from": 288.519,
+            "to": 290.079,
+            "text": "经过了28天真人测试"
+          },
+          {
+            "from": 290.079,
+            "to": 291.119,
+            "text": "被权威机构认证"
+          },
+          {
+            "from": 292.719,
+            "to": 294.8,
+            "text": "油脂含量降低68.72%"
+          },
+          {
+            "from": 294.8,
+            "to": 296.48,
+            "text": "它采用的是双泥吸附配方"
+          },
+          {
+            "from": 298.8,
+            "to": 300.16,
+            "text": "配合上双氨基酸成分"
+          },
+          {
+            "from": 300.88,
+            "to": 302.6,
+            "text": "用着完全不怕紧绷刺激"
+          },
+          {
+            "from": 304.34,
+            "to": 306.26,
+            "text": "从大庆油田变成电竞少年"
+          },
+          {
+            "from": 306.26,
+            "to": 309,
+            "text": "只需3分钟评论区领取我的专属大额券"
+          },
+          {
+            "from": 309,
+            "to": 310.42,
+            "text": "也可以连与汝一起试试"
+          },
+          {
+            "from": 310.42,
+            "to": 312.02,
+            "text": "都是采用大牌同款的药用"
+          },
+          {
+            "from": 312.02,
+            "to": 314.92,
+            "text": "从恐惧均成分一喷一抹就能有效控油保湿"
+          },
+          {
+            "from": 314.92,
+            "to": 316.34,
+            "text": "一套购买更划算"
+          },
+          {
+            "from": 316.34,
+            "to": 320.8,
+            "text": "控日里用它带来的清爽做一场小小的死SPA"
+          },
+          {
+            "from": 325.9,
+            "to": 327.52,
+            "text": "可口可乐对于新品的研发"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "末行645.32秒，视频655秒，片尾9.68秒无字幕；未观看该处画面。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 302,
+      "firstIndex": 0,
+      "lastIndex": 301,
+      "allRowsRead": true
+    }
+  }
+}

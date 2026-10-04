@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1HzuJ6DEY3",
+  "cid": 40654733495,
+  "title": "军事up主陪你看新大决战：48年开打的三大战役当然要从45年开始讲了！",
+  "duration": 956,
+  "desc": "文案：花岗岩、Suit、海参崴的夏季风、花家\n\n配音：花岗岩\n\n制作：海参崴的夏季风\n\n本视频根据主观视角及相关资料制作，有误欢迎指正。 \n\n素材均来源于互联网公开合法资料，且仅作为科普素材使用。\n\n推荐书籍：《重庆国共谈判43天》——重庆出版社",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:04:17.514Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:17:38.722Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 120,
+    "inputLineSha256": "6c2daadbbe4d9367b27c7baff212976b739b508de0d862997baa9976fb954cc9",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1HzuJ6DEY3-40654733495.json",
+    "acquisitionSha256": "a46c28881e2f876266e22a6ffff8ad5805936424795648c250d11202c6fc77a7",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HzuJ6DEY3/?p=1"
+  }
+}

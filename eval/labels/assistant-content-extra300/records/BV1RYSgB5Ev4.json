@@ -1,0 +1,192 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 217,
+    "inputLineSha256": "89fc195b7b3311cf8b9d5c12f784d1cb0c449fc83e2ba1e904692cb26926332a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1RYSgB5Ev4-34311504857.json",
+    "acquisitionSha256": "40dfb97c212e8c89c32e87596b9d2a2c0a5ffa5cf75f80f2b1a66f42a11acaca",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RYSgB5Ev4/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1RYSgB5Ev4.json",
+    "transcriptSha256": "4e37dffe2bf502293f4ff188ca1840666d6d5ceeda1b642284cee4d6aa0a7445"
+  },
+  "record": {
+    "bvid": "BV1RYSgB5Ev4",
+    "cid": 34311504857,
+    "duration": 479,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕汉尼拔与朊病毒传闻，批评染色体禁令和食人神话，用毛线及军训顺拐比喻蛋白异常折叠和传播；引用文献的转场插入波尔科研导航的功能演示和会员兑换推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 136.86,
+        "end": 240.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "“得说明引用哪篇文献”引出科研工具，随后查文献迷宫痛点、中英文检索数量、综述知识图谱、以朊病毒检索作产品演示，直到粉丝兑换码、免费会员及省时号召结束；240.24 秒开始毛衣比喻，恢复疾病原理讲解。工具演示虽借用了主题词，但核心是服务卖点和获客福利，可独立跳过，范围不能仅截取兑换步骤。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          136.86,
+          136.86
+        ],
+        "endUncertainty": [
+          240.24,
+          240.24
+        ],
+        "evidence": [
+          {
+            "from": 134.88,
+            "to": 136.86,
+            "text": "变形之后它就是软病毒"
+          },
+          {
+            "from": 136.86,
+            "to": 138.9,
+            "text": "那我得说明我是引用了哪篇文献啊"
+          },
+          {
+            "from": 138.9,
+            "to": 140.26,
+            "text": "到这里给大家推荐一个"
+          },
+          {
+            "from": 140.26,
+            "to": 143.17,
+            "text": "我最近一直在用的科研AI布尔科学导航"
+          },
+          {
+            "from": 144.49,
+            "to": 146.09,
+            "text": "就是在查文献这件事情上"
+          },
+          {
+            "from": 146.09,
+            "to": 147.91,
+            "text": "很多人好像在走迷宫"
+          },
+          {
+            "from": 157.86,
+            "to": 160.36,
+            "text": "现在沃尔就是直接把这个迷宫给他趟平了"
+          },
+          {
+            "from": 160.36,
+            "to": 162.9,
+            "text": "他原本就有1.7亿篇英文文献"
+          },
+          {
+            "from": 162.9,
+            "to": 165.54,
+            "text": "最近他又上线了8000万篇中文文献"
+          },
+          {
+            "from": 170.92,
+            "to": 174.48,
+            "text": "中文期刊加英文期刊加专利加学者全部打通"
+          },
+          {
+            "from": 179.6,
+            "to": 181.16,
+            "text": "还能让AI直接写综述"
+          },
+          {
+            "from": 189.3,
+            "to": 189.9,
+            "text": "举个例子"
+          },
+          {
+            "from": 190.94,
+            "to": 193.08,
+            "text": "我在布尔里面搜软病毒并发机制"
+          },
+          {
+            "from": 203.26,
+            "to": 205.38,
+            "text": "绝不会像通用AA一样乱编文献"
+          },
+          {
+            "from": 221.82,
+            "to": 223.26,
+            "text": "我还给大家准备了一个福利"
+          },
+          {
+            "from": 224.22,
+            "to": 226.48,
+            "text": "还专门给我的粉丝开通了一个月的兑换码"
+          },
+          {
+            "from": 226.48,
+            "to": 229.28,
+            "text": "在波尔首页个人中心科研资产立即兑换"
+          },
+          {
+            "from": 229.28,
+            "to": 231.82,
+            "text": "输入耿同学就能免费领取一个月的会员"
+          },
+          {
+            "from": 231.82,
+            "to": 233.52,
+            "text": "让你的科研效率原地起飞"
+          },
+          {
+            "from": 233.52,
+            "to": 236.04,
+            "text": "你可以试试把下一次的综述任务交给波尔"
+          },
+          {
+            "from": 236.04,
+            "to": 238.36,
+            "text": "让AI帮你省下来熬夜查资料的时间"
+          },
+          {
+            "from": 238.36,
+            "to": 240.24,
+            "text": "去思考更多有意义的科学问题"
+          },
+          {
+            "from": 240.24,
+            "to": 241.47,
+            "text": "给大家举一个例子"
+          },
+          {
+            "from": 241.47,
+            "to": 244.49,
+            "text": "毛衣毛裤都是由毛线组成的"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 136.86,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 240.24,
+        "end": 477.98,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 279,
+      "firstIndex": 0,
+      "lastIndex": 278,
+      "allRowsRead": true
+    }
+  }
+}

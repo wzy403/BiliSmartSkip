@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1B2ydBeE8h",
+  "cid": 33615055198,
+  "title": "【中配】我打造了全球最小的Minecraft服务器 - PortalRunner",
+  "duration": 1372,
+  "desc": "I Made the World&#39;s Smallest Minecraft Server\nhttps://www.youtube.com/watch?v=p-k5MPhBSjk\n上传日期：20250912\n1美元单片机打造全球最小MC服务器！性能弱爆却完美运行无限地图、洞穴、合成系统，代码仅300KB！技术宅用C语言魔改的神作&quot;熊铁&quot;服务器开源了，速来围观这波硬核操作！关注走起~",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:40.540Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:38.833Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 53,
+    "inputLineSha256": "601a14419e269588992e5a73a043ed6ba790fe83f361a5ff3caebb8feffc8602",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1B2ydBeE8h-33615055198.json",
+    "acquisitionSha256": "0dfc1c9fd1aac786a03e56f9ed3ae0bed30b0022083bf41d0234095be9146117",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B2ydBeE8h/?p=1"
+  }
+}

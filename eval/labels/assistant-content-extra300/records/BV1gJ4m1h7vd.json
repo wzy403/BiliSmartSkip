@@ -1,0 +1,121 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 105,
+    "inputLineSha256": "37a42f776d16c03c74f970c96fe0870bf7f4501b248d32ae890d81c2ec88e570",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1gJ4m1h7vd-1467988278.json",
+    "acquisitionSha256": "70467f74ecd76aa6d429677c726b8467bfe5d72d2dcf51adb81784156173eb27",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gJ4m1h7vd/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1gJ4m1h7vd.json",
+    "transcriptSha256": "9e350262a4bc9d6e4cb022911a9205832ca53828db4efd1f04187d3b3d121b60"
+  },
+  "record": {
+    "bvid": "BV1gJ4m1h7vd",
+    "cid": 1467988278,
+    "duration": 1376,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "梳理空客A340与A330共同开发、双发延程规则变化、齿轮风扇技术挫折、CFM56与后续发动机选择、航程和经济性竞争直至停产。中间借CFM话题推广飞驰航空发动机叶片摆件和挂饰，给扫码与备注赠礼。其余波音、空客、航司和发动机品牌均是航空工业史与技术论述对象。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 694.16,
+        "end": 720.4,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“既然提到了CFM”明确转入飞驰航空商品介绍，从发动机叶片、材质底座到扫码详情、其他款式和备注赠礼，最后理性消费收尾，721.48秒回到发动机历史。",
+        "startUncertainty": [
+          692.3,
+          694.16
+        ],
+        "endUncertainty": [
+          720.4,
+          721.48
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 690.89,
+            "to": 692.3,
+            "text": "并不是什么糟糕的选择"
+          },
+          {
+            "from": 694.16,
+            "to": 695.39,
+            "text": "既然提到了CFM"
+          },
+          {
+            "from": 695.39,
+            "to": 697.19,
+            "text": "这里顺便介绍一下飞驰航空"
+          },
+          {
+            "from": 697.19,
+            "to": 699.98,
+            "text": "最近上架了CFM56系列发动机摆件"
+          },
+          {
+            "from": 699.98,
+            "to": 703.36,
+            "text": "选取了CFM56发动机高压涡轮一级叶片"
+          },
+          {
+            "from": 703.36,
+            "to": 705.79,
+            "text": "配以不锈钢榫槽和胡桃木底座"
+          },
+          {
+            "from": 708.13,
+            "to": 709.96,
+            "text": "具体可扫码查看详情"
+          },
+          {
+            "from": 711.13,
+            "to": 714.31,
+            "text": "飞车红海推出了F15战斗机风扇叶片摆件"
+          },
+          {
+            "from": 714.31,
+            "to": 716.62,
+            "text": "和PW4000的高压叶片挂饰"
+          },
+          {
+            "from": 716.62,
+            "to": 719.26,
+            "text": "备注机品化会有额外的礼品相送"
+          },
+          {
+            "from": 719.26,
+            "to": 720.4,
+            "text": "欢迎理性消费"
+          },
+          {
+            "from": 721.48,
+            "to": 722.17,
+            "text": "事实上"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "631.3–655.36秒插叙场景无字幕，片尾1368.479–1376秒无字幕；不推断这些画面内容。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 610,
+      "firstIndex": 0,
+      "lastIndex": 609,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1NsYE6yEna",
+  "cid": 41790538095,
+  "title": "如何制造海苔",
+  "duration": 548,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:15:30.791Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:22:31.977Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 178,
+    "inputLineSha256": "063a8084364a01c653b48985550a29596edef5df6acc3caf7a8eab8c4cc7fe32",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1NsYE6yEna-41790538095.json",
+    "acquisitionSha256": "f94647904850785e843e35b668f49e05d41fe11962ec1bf82c111ae8b0865df1",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NsYE6yEna/?p=1"
+  }
+}

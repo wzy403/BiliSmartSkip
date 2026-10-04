@@ -1,0 +1,296 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 89,
+    "inputLineSha256": "ba8a28f13ce0a30e2034ff3f3282e909682b5da4aadd4d003a1055f6d6c7bb9f",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1eS421Q72b-25656887761.json",
+    "acquisitionSha256": "f0f8d1c562ea9f2a0726592af9b766f2d52424760b294881f4770713fdd4aa5c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eS421Q72b/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1eS421Q72b.json",
+    "transcriptSha256": "25bb2961c904888ed3c17368b5565475e6b07f5c7b994baf658184d07507bd23"
+  },
+  "record": {
+    "bvid": "BV1eS421Q72b",
+    "cid": 25656887761,
+    "duration": 787,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "辨析95步枪切角卡手、06防弹衣防刺能力、等级、部件名称与80斤重量等网络谣言。中间由受伤影响战斗力转入牙疼与冲牙器的大段营销；结尾说明本人制作影视道具防弹衣作为辨识依据。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 302.5,
+        "end": 502.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从受伤降低战斗力类比普通人生病工作效率和童年牙痛，随后以教材背书、牙缝牙龈讲解、玉米实验连续建立冲牙器需求，最终推荐萌牙家两款产品、价格赠品售后及优惠券；整段是与军事辟谣主题无关且连续服务商品推荐的广告，不能仅标最后的品牌下单话术。502.38广告结束，503.68恢复六级防弹板。",
+        "evidence": [
+          {
+            "from": 300.9,
+            "to": 302.5,
+            "text": "就必定会造成肌肉撕裂"
+          },
+          {
+            "from": 302.5,
+            "to": 304.44,
+            "text": "毕竟一个人一旦受伤"
+          },
+          {
+            "from": 304.44,
+            "to": 305.7,
+            "text": "战斗力就会大大减弱"
+          },
+          {
+            "from": 305.7,
+            "to": 306.84,
+            "text": "就像咱们普通人一样"
+          },
+          {
+            "from": 309.56,
+            "to": 310.64,
+            "text": "比如说像牙病"
+          },
+          {
+            "from": 312.8,
+            "to": 314.72,
+            "text": "时至今日仍然刻骨铭心"
+          },
+          {
+            "from": 318.96,
+            "to": 323.12,
+            "text": "推荐各位一定一定一定要用一用护牙神器"
+          },
+          {
+            "from": 328.99,
+            "to": 332.39,
+            "text": "专业的讲牙病预防的牙科大学教材"
+          },
+          {
+            "from": 338.06,
+            "to": 340.98,
+            "text": "也推荐用冲牙器冲牙缝及牙龈沟"
+          },
+          {
+            "from": 348.68,
+            "to": 351.74,
+            "text": "这么多专业的权威的机构能推荐吗"
+          },
+          {
+            "from": 378.5,
+            "to": 380.68,
+            "text": "效率比不过机关枪一样的冲牙器"
+          },
+          {
+            "from": 384.9,
+            "to": 386.34,
+            "text": "所以说最好用冲牙器"
+          },
+          {
+            "from": 399.74,
+            "to": 401.81,
+            "text": "那我们来看看这个玉米实验"
+          },
+          {
+            "from": 413.26,
+            "to": 414.84,
+            "text": "冲牙器各位一定要用"
+          },
+          {
+            "from": 433.98,
+            "to": 437.54,
+            "text": "所以那本讲牙周病的教材推荐使用冲牙器"
+          },
+          {
+            "from": 446.88,
+            "to": 448.24,
+            "text": "赶紧去搞台冲牙器吧"
+          },
+          {
+            "from": 449.2,
+            "to": 450.62,
+            "text": "当然是我们的老朋友萌牙家"
+          },
+          {
+            "from": 450.62,
+            "to": 452.86,
+            "text": "这款萌牙家王者我用了八个月"
+          },
+          {
+            "from": 462.88,
+            "to": 463.94,
+            "text": "45天的续航"
+          },
+          {
+            "from": 470.04,
+            "to": 471.48,
+            "text": "原价339"
+          },
+          {
+            "from": 471.48,
+            "to": 473.24,
+            "text": "评论区领券才199"
+          },
+          {
+            "from": 474.02,
+            "to": 476.34,
+            "text": "可以买这款手机大小的小海浪冲牙器"
+          },
+          {
+            "from": 477.6,
+            "to": 478.98,
+            "text": "特价才259"
+          },
+          {
+            "from": 485.8,
+            "to": 488.66,
+            "text": "两年内坏了不修免费直接换新"
+          },
+          {
+            "from": 493.62,
+            "to": 495.58,
+            "text": "各位买冲牙器就买萌牙家"
+          },
+          {
+            "from": 497.18,
+            "to": 498.56,
+            "text": "赶紧去评论区领个券"
+          },
+          {
+            "from": 500.32,
+            "to": 502.38,
+            "text": "买贵退差价"
+          },
+          {
+            "from": 503.68,
+            "to": 505.32,
+            "text": "防弹等级六级有没有呢"
+          }
+        ],
+        "startUncertainty": [
+          302.5,
+          302.5
+        ],
+        "endUncertainty": [
+          502.38,
+          503.68
+        ]
+      },
+      {
+        "start": 764.72,
+        "end": 773.78,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "说明本人制作影视剧维和防弹衣，用于解释对不同背心识别熟悉的经历和主题论证；没有商品展示、价格或接单号召，按正文保留。",
+        "evidence": [
+          {
+            "from": 762.68,
+            "to": 764.72,
+            "text": "爹这俩玩意你能混在一起吗"
+          },
+          {
+            "from": 764.72,
+            "to": 765.96,
+            "text": "至于你问我为什么这么清楚"
+          },
+          {
+            "from": 766.84,
+            "to": 769.08,
+            "text": "因为市面上流通的很多影视剧里使用的"
+          },
+          {
+            "from": 769.08,
+            "to": 770.12,
+            "text": "维和部队防弹衣啊"
+          },
+          {
+            "from": 770.12,
+            "to": 771.52,
+            "text": "就是这我做的没错"
+          },
+          {
+            "from": 771.52,
+            "to": 772.34,
+            "text": "正是在下"
+          },
+          {
+            "from": 772.34,
+            "to": 773.78,
+            "text": "你说我为什么这么清楚呢"
+          },
+          {
+            "from": 773.78,
+            "to": 775.66,
+            "text": "这营销号文案错"
+          }
+        ],
+        "startUncertainty": [
+          764.72,
+          764.72
+        ],
+        "endUncertainty": [
+          773.78,
+          773.78
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 28.2,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 36.62,
+        "end": 122.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 122.56,
+        "end": 241.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 244.32,
+        "end": 302.5,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 503.68,
+        "end": 544.04,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 544.28,
+        "end": 764.72,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 773.78,
+        "end": 785.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 491,
+      "firstIndex": 0,
+      "lastIndex": 490,
+      "allRowsRead": true
+    }
+  }
+}

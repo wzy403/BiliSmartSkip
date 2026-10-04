@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 37,
+    "inputLineSha256": "bd13c4c5a5ea1749f045fbd2f69871ee165f6b312c0322c56f32b09766bd7556",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV183X5BdEXw-37044424212.json",
+    "acquisitionSha256": "cf91ccb251e740a83b315123487e9200343cb46485add18fa667e56150b3d5a6",
+    "sourceUrl": "https://www.bilibili.com/video/BV183X5BdEXw/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV183X5BdEXw.json",
+    "transcriptSha256": "e751352605e1e8723438d3fa0cae1e53df873eaccd885118cb73233737425ac1"
+  },
+  "record": {
+    "bvid": "BV183X5BdEXw",
+    "cid": 37044424212,
+    "duration": 1205,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕俄乌战争四周年、中东战事挤占援助、乌匈能源与贷款争端、特朗普与泽连斯基关系及征兵等内容作时政评论并穿插戏谑对白。176.88秒由败家话题转到作者处理闲置，推介转转回收及成交价格；218.92秒明确回到新闻主题。军售和石油买卖等其余商业词语都属于政治议题。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 176.88,
+        "end": 217.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“好在我比他精明”“旧的拿去回血”是转转广告铺垫，后续以自身平板及手表成交金额推广回收服务、品类和便捷性，末尾号召卖给转转；随后明确回归正题。",
+        "startUncertainty": [
+          176.88,
+          176.88
+        ],
+        "endUncertainty": [
+          217.24,
+          218.92
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 174.78,
+            "to": 176.88,
+            "text": "我怎么摊上个败家爷爷呀"
+          },
+          {
+            "from": 176.88,
+            "to": 178.4,
+            "text": "好在我比他精明"
+          },
+          {
+            "from": 178.4,
+            "to": 180.04,
+            "text": "知道把旧的拿去回血"
+          },
+          {
+            "from": 180.04,
+            "to": 182.44,
+            "text": "就像我前几天换了新品宝来看剧"
+          },
+          {
+            "from": 183.32,
+            "to": 184.64,
+            "text": "我直接找转转上门"
+          },
+          {
+            "from": 184.64,
+            "to": 185.9,
+            "text": "回收了4400多"
+          },
+          {
+            "from": 185.9,
+            "to": 187.54,
+            "text": "转转是一个很好的买家"
+          },
+          {
+            "from": 202.9,
+            "to": 205.96,
+            "text": "特别适合我这种想快速变现又图省事的人"
+          },
+          {
+            "from": 208.96,
+            "to": 211.7,
+            "text": "我之前那款omega还卖了2万4000多呢"
+          },
+          {
+            "from": 213.76,
+            "to": 214.98,
+            "text": "就直接卖给转转"
+          },
+          {
+            "from": 214.98,
+            "to": 217.24,
+            "text": "钱到手才是硬道理"
+          },
+          {
+            "from": 218.92,
+            "to": 220.44,
+            "text": "好了我们再回到正题"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 667,
+      "firstIndex": 0,
+      "lastIndex": 666,
+      "allRowsRead": true
+    }
+  }
+}

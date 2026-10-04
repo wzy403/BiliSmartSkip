@@ -1,0 +1,494 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles-and-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 192,
+    "inputLineSha256": "c4703bcba9b22869a7525858de1f26487d6d49da90dbd2b2f80e5b3158f9d1ba",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1PpCYYJEXU-27530166430.json",
+    "acquisitionSha256": "89594354eae5b8240d0de09a30434e0057269851c709c0daa9e81530b0909b94",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PpCYYJEXU/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1PpCYYJEXU.json",
+    "transcriptSha256": "f1a9384a5dcc2ab39f26bc8954ae2fca2c6130c6d163c48bb80e8c8a6dd4d6c0",
+    "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1PpCYYJEXU.mp4",
+    "mediaSha256": "ae549a5305a708c44abcaf384a294e7b24f51a011b9a96a6df5561352dd948b0",
+    "mediaVerificationFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1PpCYYJEXU-verified.json",
+    "mediaVerificationSha256": "bcfc044ed4960b3c9b765de03e616f98fa4f979882b3dd05282eafa1927c8cf2"
+  },
+  "record": {
+    "bvid": "BV1PpCYYJEXU",
+    "cid": 27530166430,
+    "duration": 883,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从体能、反应、编排个性与台风分析Ave Mujica鼓手祐天寺若麦及声优米泽茜的演奏技术。后半开箱Tama赠送军鼓，选择鼓皮、调音并为演奏同名曲试听，另夹有未上市新品和品牌全线产品的宣传，最后进入整曲演奏。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 345.739,
+        "end": 575.72,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "reason": "明确披露Tama免费赠鼓，开箱和品质评价具有商业性质，但全过程为随后演奏Ave Mujica曲目选择鼓皮、调低音与检验鼓声，解释B音域、调音容错和曲风适配，也坦言自己不一定舍得购买。属于鼓手水平主题延伸的器材使用与演奏教学，保留完整商业体验内容。 实际补看确认545.26秒后的无对白部分仍是刚介绍军鼓的试奏，因此本次延伸至575.72秒下一产品推介开始，不因缺字幕裁掉商业演示。",
+        "evidence": [
+          {
+            "from": 345.739,
+            "to": 350.179,
+            "text": "啊那我们趁着暂时还没有什么剧情可以讨论"
+          },
+          {
+            "from": 350.179,
+            "to": 355.779,
+            "text": "刚好在我打这首承上启下的阿V母集卡之前"
+          },
+          {
+            "from": 355.779,
+            "to": 358.27,
+            "text": "我要给大家看一个东西"
+          },
+          {
+            "from": 358.71,
+            "to": 363.85,
+            "text": "淘到一个沾满了长城乐器胶带的纸箱包裹快递"
+          },
+          {
+            "from": 365.45,
+            "to": 368.66,
+            "text": "是因为塔马架子鼓那边有一天突然联系到我"
+          },
+          {
+            "from": 370.54,
+            "to": 372.22,
+            "text": "要不我们送你一个军鼓吧"
+          },
+          {
+            "from": 374.34,
+            "to": 378.2,
+            "text": "我希望你们能送我那个步兵嘎做的军鼓"
+          },
+          {
+            "from": 378.2,
+            "to": 381.4,
+            "text": "就是那个12层木皮全全是补兵嘎的军鼓"
+          },
+          {
+            "from": 428.15,
+            "to": 430.07,
+            "text": "好我们现在来听一下"
+          },
+          {
+            "from": 436.28,
+            "to": 439.52,
+            "text": "这个军鼓它需要被调一调"
+          },
+          {
+            "from": 439.52,
+            "to": 443.72,
+            "text": "我为这首歌选的骨皮是UV2嘶"
+          },
+          {
+            "from": 462.94,
+            "to": 465.02,
+            "text": "虽然这个鼓是SLP的"
+          },
+          {
+            "from": 465.02,
+            "to": 468.86,
+            "text": "但是他用的响弦上面写着star classic"
+          },
+          {
+            "from": 475.14,
+            "to": 477.48,
+            "text": "好这个军鼓我已经调好了"
+          },
+          {
+            "from": 477.48,
+            "to": 481.309,
+            "text": "下皮F上皮B我们把它放到鼓上"
+          },
+          {
+            "from": 487.35,
+            "to": 490.59,
+            "text": "现在我已经把它放在我的帝王之星里面"
+          },
+          {
+            "from": 495.429,
+            "to": 498,
+            "text": "我们听听他是什么声音哈"
+          },
+          {
+            "from": 515.32,
+            "to": 517.74,
+            "text": "可能都对上皮调到B是什么概念不大清楚"
+          },
+          {
+            "from": 517.74,
+            "to": 519.22,
+            "text": "B属于一个非常松的音域"
+          },
+          {
+            "from": 520.42,
+            "to": 522.02,
+            "text": "一方面是因为阿比姆吉卡这首歌"
+          },
+          {
+            "from": 522.02,
+            "to": 523.32,
+            "text": "能够驾驭比较浑厚的声音"
+          },
+          {
+            "from": 523.32,
+            "to": 525.6,
+            "text": "另一个原因是我想测试一下这个鼓的做工精度"
+          },
+          {
+            "from": 531.18,
+            "to": 533.3,
+            "text": "可以听到这个军鼓在低音区能被轻松的调频"
+          },
+          {
+            "from": 534.38,
+            "to": 536.3,
+            "text": "SLP系列并不是奢侈品型号"
+          },
+          {
+            "from": 536.3,
+            "to": 537.3,
+            "text": "价格属于中间那档"
+          },
+          {
+            "from": 537.9,
+            "to": 538.82,
+            "text": "我还是十分意外的"
+          },
+          {
+            "from": 538.82,
+            "to": 540.78,
+            "text": "不过像我这种抠门的广多人"
+          },
+          {
+            "from": 540.78,
+            "to": 542.1,
+            "text": "也不一定舍得买就是了"
+          },
+          {
+            "from": 542.1,
+            "to": 543.64,
+            "text": "接下来我们听一下内陆的表现"
+          },
+          {
+            "from": 543.64,
+            "to": 545.26,
+            "text": "非常结实"
+          }
+        ],
+        "startUncertainty": [
+          330.88,
+          345.739
+        ],
+        "endUncertainty": [
+          574.032,
+          576.034
+        ]
+      },
+      {
+        "start": 575.72,
+        "end": 612.14,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从‘除了刚才那个军鼓’另外介绍尚未上市、不能明说的新产品，拆箱后直接宣称Tama产品线完全没有短板、任何东西都能配齐；未提供与曲目技法相关的具体分析，构成独立新品预热与品牌推介，完整保留其引入和结论。575.72之前为鼓声演示无字幕，起始边界留545.26–575.72不确定性。",
+        "evidence": [
+          {
+            "from": 543.64,
+            "to": 545.26,
+            "text": "非常结实"
+          },
+          {
+            "from": 575.72,
+            "to": 577.88,
+            "text": "除了刚才那个SLP军鼓"
+          },
+          {
+            "from": 577.88,
+            "to": 579.16,
+            "text": "他们还送了我一个"
+          },
+          {
+            "from": 579.16,
+            "to": 581.58,
+            "text": "现在还不能明说是什么的产品"
+          },
+          {
+            "from": 581.58,
+            "to": 583.52,
+            "text": "我拆开来看看"
+          },
+          {
+            "from": 592.82,
+            "to": 597.24,
+            "text": "啧我的一点声音都没有好"
+          },
+          {
+            "from": 597.24,
+            "to": 600.26,
+            "text": "这是一个明年才会正式和大家见面的新产品"
+          },
+          {
+            "from": 600.26,
+            "to": 601.64,
+            "text": "我是不能说太多的"
+          },
+          {
+            "from": 601.64,
+            "to": 603.52,
+            "text": "但是我可以和大家说的是"
+          },
+          {
+            "from": 603.52,
+            "to": 604.74,
+            "text": "有了这件产品之后"
+          },
+          {
+            "from": 604.74,
+            "to": 606.08,
+            "text": "它已然成为了一个产品"
+          },
+          {
+            "from": 606.08,
+            "to": 608.1,
+            "text": "线上完全没有短板的公司"
+          },
+          {
+            "from": 608.1,
+            "to": 609.46,
+            "text": "你想要的任何东西"
+          },
+          {
+            "from": 609.46,
+            "to": 612.14,
+            "text": "都可以找他妈这一个公司配齐"
+          },
+          {
+            "from": 612.14,
+            "to": 613.7,
+            "text": "现在我已经把军鼓跟杆子"
+          }
+        ],
+        "startUncertainty": [
+          545.26,
+          575.72
+        ],
+        "endUncertainty": [
+          612.14,
+          612.14
+        ]
+      },
+      {
+        "start": 612.14,
+        "end": 883,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "reason": "把获赠军鼓和支架装回鼓组、感谢支持并引入整曲演奏，是主题表演的设备与资助交代；保留以理解随后使用何种器材演奏。 补看621.72秒后到片尾，确认在使用这些赞助设备完成整首主题曲的架子鼓演奏；这是产品展示的延伸，广告性质完整保留，同时直接服务打鼓技术与曲目主题，故整个演奏保留，不能仅因TAMA标识出现就跳过音乐表演。",
+        "evidence": [
+          {
+            "from": 612.14,
+            "to": 613.7,
+            "text": "现在我已经把军鼓跟杆子"
+          },
+          {
+            "from": 613.7,
+            "to": 615.58,
+            "text": "都装到我的帝王之星上面了"
+          },
+          {
+            "from": 615.58,
+            "to": 616.26,
+            "text": "谢谢老板"
+          },
+          {
+            "from": 616.26,
+            "to": 617.62,
+            "text": "让我鸟枪换炮"
+          },
+          {
+            "from": 617.62,
+            "to": 620.12,
+            "text": "那我们就一起听阿比母鸡卡"
+          },
+          {
+            "from": 620.12,
+            "to": 621.72,
+            "text": "用这些设备"
+          }
+        ],
+        "startUncertainty": [
+          612.14,
+          612.14
+        ],
+        "endUncertainty": [
+          882.298,
+          883
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 101.33,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 103.65,
+        "end": 140.34,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 142.8,
+        "end": 213.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 217,
+        "end": 281.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 291.34,
+        "end": 330.88,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；完整读263行字幕，实际查看试鼓542–576.034秒18帧和曲目演奏618.034–882.298秒67帧。",
+      "没有听取音频，不能据此评价鼓音色或演奏准确率；不是连续播放或逐帧审核，画面以约2秒/4秒间隔抽帧核实。",
+      "歌曲歌词ASR严重失真，未据歌词判断商品；可观察到持续使用赞助鼓具的主题演奏，以ad/keep完整覆盖商业演示。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 263,
+      "firstIndex": 0,
+      "lastIndex": 262,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": [
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frames.json",
+      "framesManifestSha256": "3688b65b664ca37f2e96cd015c3e3a3bfa144690c31dde6b67c4d586d5e1d75d",
+      "framesViewed": 18,
+      "times": [
+        542.0,
+        544.002,
+        546.004,
+        548.006,
+        550.008,
+        552.01,
+        554.012,
+        556.014,
+        558.016,
+        560.018,
+        562.02,
+        564.022,
+        566.024,
+        568.026,
+        570.028,
+        572.03,
+        574.032,
+        576.034
+      ],
+      "observation": "实际查看542–576.034秒18帧：544秒最后一句“非常结实”后，546–574秒持续坐在刚介绍的军鼓与架子鼓前演奏，576秒回到“除了刚才那个SLP军鼓”的下个产品推介；545.26–575.72缺口为完整试奏示范。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frames.json",
+      "framesManifestSha256": "d3e8bea492406eef33d1722b3aae446168e7b1182c6bb2200a181cd7fa89b9fc",
+      "framesViewed": 67,
+      "times": [
+        618.034,
+        622.038,
+        626.042,
+        630.046,
+        634.05,
+        638.054,
+        642.058,
+        646.062,
+        650.066,
+        654.07,
+        658.074,
+        662.078,
+        666.082,
+        670.086,
+        674.09,
+        678.094,
+        682.098,
+        686.102,
+        690.106,
+        694.11,
+        698.114,
+        702.118,
+        706.122,
+        710.126,
+        714.13,
+        718.134,
+        722.138,
+        726.142,
+        730.146,
+        734.15,
+        738.154,
+        742.158,
+        746.162,
+        750.166,
+        754.17,
+        758.174,
+        762.178,
+        766.182,
+        770.186,
+        774.19,
+        778.194,
+        782.198,
+        786.202,
+        790.206,
+        794.21,
+        798.214,
+        802.218,
+        806.222,
+        810.226,
+        814.23,
+        818.234,
+        822.238,
+        826.242,
+        830.246,
+        834.25,
+        838.254,
+        842.258,
+        846.262,
+        850.266,
+        854.27,
+        858.274,
+        862.278,
+        866.282,
+        870.286,
+        874.29,
+        878.294,
+        882.298
+      ],
+      "observation": "实际查看618.034–882.298秒67帧：618秒邀请一起听Ave Mujica，622秒过渡，626秒起至片尾在红色灯光下使用此前赞助设备持续架子鼓演奏，并有歌词硬字幕；621.72–715.22、808.12–841.18和858.2秒后的字幕缺口均在这场演奏内，无新增独立广告插页。"
+    }
+  ],
+  "gapVerification": {
+    "reviewer": "extra300_content_001_100",
+    "decision": "3处长空档均为主题演奏；补齐ad/keep试鼓345.739–575.72及赞助设备演奏612.14–883，独立新品背书575.72–612.14仍ad/skip。"
+  }
+}

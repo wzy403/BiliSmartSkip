@@ -1,0 +1,145 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 106,
+    "inputLineSha256": "af4afd4cd219c4d0d75ccb34667077ebea2f860fa2fb2a9a808af51e5c9d0092",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1GJEfzJEMw-30050094389.json",
+    "acquisitionSha256": "6f5c8fe5bb94f7acdf1c103249a5db55bd05d9fc0c885e539e8c0e999cf728eb",
+    "sourceUrl": "https://www.bilibili.com/video/BV1GJEfzJEMw/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1GJEfzJEMw.json",
+    "transcriptSha256": "b66b07e779f8542d0aa5278579593ae0bc35918aa663c46ccd53429063ba4f0f"
+  },
+  "record": {
+    "bvid": "BV1GJEfzJEMw",
+    "cid": 30050094389,
+    "duration": 1093,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "叙述1988年巴黎里昂站列车相撞事故，从刹车失灵和站内乘客遭遇到救援、调查、司机误操作、调度通信问题及后续责任和安全改进。169.45秒由想现场拍照、新换手机过渡到转转回收，介绍上门服务、品类、搜索红包并号召估价，随后回到乘客登车叙事。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 169.45,
+        "end": 223.459,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“说到这”起的想用新手机记录车站是旧机处理推广铺垫，连续展示转转回收价格、验机打款服务和红包搜索，至估价号召结束；223.459秒回到事故主线。",
+        "startUncertainty": [
+          169.45,
+          169.45
+        ],
+        "endUncertainty": [
+          223.459,
+          223.459
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 165.749,
+            "to": 169.45,
+            "text": "这里每天都有约20万人利用火车来通勤"
+          },
+          {
+            "from": 169.45,
+            "to": 170.41,
+            "text": "说到这"
+          },
+          {
+            "from": 170.41,
+            "to": 172.79,
+            "text": "up主真希望自己也能在现场"
+          },
+          {
+            "from": 172.79,
+            "to": 175.29,
+            "text": "这样就可以用我新换的手机拍照"
+          },
+          {
+            "from": 175.29,
+            "to": 177.26,
+            "text": "记录一下上世纪的梁站"
+          },
+          {
+            "from": 177.26,
+            "to": 180.11,
+            "text": "话说大家买了新的旧的怎么处理"
+          },
+          {
+            "from": 180.11,
+            "to": 183.25,
+            "text": "像我那台IPHONE15pro max进入社转转"
+          },
+          {
+            "from": 183.25,
+            "to": 185.13,
+            "text": "上门回收了4800多"
+          },
+          {
+            "from": 185.13,
+            "to": 187.32,
+            "text": "转转提供优质的回收服务"
+          },
+          {
+            "from": 189.96,
+            "to": 191.64,
+            "text": "全程标准化验机"
+          },
+          {
+            "from": 195.28,
+            "to": 197.3,
+            "text": "回收车最快一个小时上门"
+          },
+          {
+            "from": 202.11,
+            "to": 204.98,
+            "text": "向家里闲置的主机显卡放角落"
+          },
+          {
+            "from": 213.11,
+            "to": 214.77,
+            "text": "现在打开转转app"
+          },
+          {
+            "from": 214.77,
+            "to": 216.21,
+            "text": "搜索11781"
+          },
+          {
+            "from": 216.21,
+            "to": 218.47,
+            "text": "领取580元的回收红包"
+          },
+          {
+            "from": 221.15,
+            "to": 223.459,
+            "text": "赶紧上转转估个价吧"
+          },
+          {
+            "from": 223.459,
+            "to": 227.239,
+            "text": "柯莱特登上的列车编号为153951次"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 444,
+      "firstIndex": 0,
+      "lastIndex": 443,
+      "allRowsRead": true
+    }
+  }
+}

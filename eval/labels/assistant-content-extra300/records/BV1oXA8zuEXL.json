@@ -1,0 +1,219 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles-and-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 187,
+    "inputLineSha256": "00a6f26ea37eaf601e08d4738e84da818e4b3fcf8e23b324b6108a3e1a531899",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1oXA8zuEXL-36349283695.json",
+    "acquisitionSha256": "daa20c61a720e9608afe7a09a5c61b463b5d61f4db3fffb69310bd30dda3c52b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oXA8zuEXL/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1oXA8zuEXL.json",
+    "transcriptSha256": "f0f8fca6161b25257aebfc28bea3ba40fe39df417be3cd26890ac3173e00920d",
+    "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1oXA8zuEXL.mp4",
+    "mediaSha256": "de68cec2a90bdbd9f5af32586f7fbe0446ef4ebd8480abc6764d52e62060acfd",
+    "mediaVerificationFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1oXA8zuEXL-verified.json",
+    "mediaVerificationSha256": "9bb6cfaa49ccc678ebe3242338429138f2e88f9cfe7357c6807a7ae2af9e0fd7"
+  },
+  "record": {
+    "bvid": "BV1oXA8zuEXL",
+    "cid": 36349283695,
+    "duration": 170,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以早餐剩食制作干脆面、迪拜巧克力软曲奇与爆浆糍粑，之后家人试吃和出门拜年。完整读35行后实际检查全片每5秒抽帧及广告结束处每0.5秒抽帧：片首缺字幕为下厨制作，广告后缺口为孩子继续吃曲奇。83.88–106.66秒从拍下孩子吃相转入转转旧机回收推荐，完整广告应跳；其余所见制作/试吃/拜年为主题正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 83.88,
+        "end": 106.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_and_sampled_video_frames",
+        "reason": "从看孩子吃得香想用手机记录开始，转到换新手机、旧iPhone找转转回收3400多、比价便利和多类闲置回收推荐。实际105.5秒仍有“我首先推荐转转”硬字幕，106秒转孩子吃曲奇，106.5秒起“我去忙了 镜头交给他”；保留原字幕完整话语至106.66秒，不为视觉字幕提前消失而裁短可能仍在说的广告。未听音频，结束的不确定区间105.5–107秒。",
+        "evidence": [
+          {
+            "from": 81.39,
+            "to": 83.88,
+            "text": "我先把干脆面切一下"
+          },
+          {
+            "from": 83.88,
+            "to": 85.4,
+            "text": "看着刘亦吃的这么香"
+          },
+          {
+            "from": 85.4,
+            "to": 87.08,
+            "text": "我赶紧拿出手机记录下来"
+          },
+          {
+            "from": 87.08,
+            "to": 89,
+            "text": "最近欢喜手机拍视频清晰多了"
+          },
+          {
+            "from": 89,
+            "to": 90.56,
+            "text": "就等IPHONE14pro max"
+          },
+          {
+            "from": 90.56,
+            "to": 91.4,
+            "text": "我找转转上门"
+          },
+          {
+            "from": 91.4,
+            "to": 92.72,
+            "text": "回收了3400多呢"
+          },
+          {
+            "from": 93.4,
+            "to": 95.04,
+            "text": "他家价格真挺公道的"
+          },
+          {
+            "from": 96.6,
+            "to": 98.52,
+            "text": "而且比起到处跑来跑去问价格"
+          },
+          {
+            "from": 98.52,
+            "to": 101.4,
+            "text": "转转特别适合咱们这种想卖二手又嫌麻烦的人"
+          },
+          {
+            "from": 101.4,
+            "to": 102.18,
+            "text": "总之听我好的"
+          },
+          {
+            "from": 102.18,
+            "to": 103.1,
+            "text": "如果你也有手机"
+          },
+          {
+            "from": 103.1,
+            "to": 103.42,
+            "text": "平板"
+          },
+          {
+            "from": 103.42,
+            "to": 103.86,
+            "text": "笔记本"
+          },
+          {
+            "from": 103.86,
+            "to": 104.66,
+            "text": "奢侈品小麦"
+          },
+          {
+            "from": 104.66,
+            "to": 106.66,
+            "text": "我首先推荐转转"
+          },
+          {
+            "from": 136.4,
+            "to": 139.68,
+            "text": "迪拜巧克力软曲奇现在特别火"
+          }
+        ],
+        "startUncertainty": [
+          83.88,
+          83.88
+        ],
+        "endUncertainty": [
+          105.5,
+          107.0
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；全文读35行，实际查看0–165秒每5秒共34帧及104–111秒每0.5秒共15帧，不是连续观看或逐帧审核，未听取音频。",
+      "抽帧未见广告的间隔仍可能存在短暂视觉信息；原字幕广告尾句至106.66秒，视觉文字约105.5–106秒消失，不以抽帧替代精确音频边界。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 35,
+      "firstIndex": 0,
+      "lastIndex": 34,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": [
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1oXA8zuEXL/full-pass/frames.json",
+      "framesManifestSha256": "60953e3eed17f420610eeaefe7313eebefe43888dc3c324b24652d70b0651ee5",
+      "framesViewed": 34,
+      "times": [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0,
+        95.0,
+        100.0,
+        105.0,
+        110.0,
+        115.0,
+        120.0,
+        125.0,
+        130.0,
+        135.0,
+        140.0,
+        145.0,
+        150.0,
+        155.0,
+        160.0,
+        165.0
+      ],
+      "observation": "0–65秒下厨制作剩面和巧克力糍粑，70–85秒孩子试吃；90–105秒平台回收与推荐，110–135秒孩子继续吃，140–155秒成人试吃，160–165秒拜年。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1oXA8zuEXL/ad-exit/frames.json",
+      "framesManifestSha256": "97ee2ad64b6ed2a3e164af3e42c54fa56accde82caf673a19af288692a26b008",
+      "framesViewed": 15,
+      "times": [
+        104.0,
+        104.5,
+        105.0,
+        105.5,
+        106.0,
+        106.5,
+        107.0,
+        107.5,
+        108.0,
+        108.5,
+        109.0,
+        109.5,
+        110.0,
+        110.5,
+        111.0
+      ],
+      "observation": "104–104.5秒转转人员展示闲置回收；105–105.5秒孩子画面叠“我首先推荐转转”；106秒孩子吃曲奇无广告字样，106.5–111秒“我去忙了 镜头交给他”。"
+    }
+  ]
+}

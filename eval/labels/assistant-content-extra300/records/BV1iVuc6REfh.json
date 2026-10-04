@@ -1,0 +1,176 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 126,
+    "inputLineSha256": "3b88c5650d31d9797a9dbd47006d59ba182eee363af483a1f8a13dbbf38b8b34",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1iVuc6REfh-40591363963.json",
+    "acquisitionSha256": "ad3034d93735409d11cddd50c99e29231a478326f97541ec5b90328797bdbe03",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iVuc6REfh/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1iVuc6REfh.json",
+    "transcriptSha256": "182f4a61a2632219051a13457091af2e4582f6f92ad509fd4ac31d341f5a9d99"
+  },
+  "record": {
+    "bvid": "BV1iVuc6REfh",
+    "cid": 40591363963,
+    "duration": 369,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕香港警队MP5供应限制、替代型号竞标及国产CS/LS7性能和供应链进行军事新闻评论。66.38秒由垄断和高价泛化到消费品，进入UndoAge营养补剂推广，介绍NAD+、鱼油和苏糖酸镁、价格、个人体验及小程序优惠，199.52秒回到港警换枪主题。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 66.38,
+        "end": 199.32,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "技术垄断与高价的议论转为消费品信息差、熬夜疲劳铺垫，完整推销UndoAge各补剂、价格和个人效果，随后引导置顶链接、优惠码与积分，199.52秒明确回到受制裁港警。军事枪械性能介绍属于标题主体。",
+        "startUncertainty": [
+          66.38,
+          71.32
+        ],
+        "endUncertainty": [
+          199.32,
+          199.52
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 63.87,
+            "to": 66.23,
+            "text": "Let us see what reliable S M Gs you can even use!"
+          },
+          {
+            "from": 66.38,
+            "to": 68.284,
+            "text": "Honestly, this whole playbook using tech monopolies"
+          },
+          {
+            "from": 69.199,
+            "to": 71.18,
+            "text": "exploiting info gaps, and selling at inflated prices"
+          },
+          {
+            "from": 71.32,
+            "to": 73.273,
+            "text": "And that is not just in the firearms sector"
+          },
+          {
+            "from": 73.273,
+            "to": 75.759,
+            "text": "many consumer goods fields have mastered this art to a T."
+          },
+          {
+            "from": 76.07,
+            "to": 76.749,
+            "text": "Take me, for instance,"
+          },
+          {
+            "from": 80.145,
+            "to": 82.149,
+            "text": "getting tired so easily, and having zero drive for anything."
+          },
+          {
+            "from": 82.3,
+            "to": 84.46,
+            "text": "So, I figured I would try some supplements."
+          },
+          {
+            "from": 104.131,
+            "to": 105.979,
+            "text": "until I came across this platform,"
+          },
+          {
+            "from": 105.979,
+            "to": 106.348,
+            "text": "UndoAge."
+          },
+          {
+            "from": 119.052,
+            "to": 121.12,
+            "text": "from thousands down to just seventy five bucks a month."
+          },
+          {
+            "from": 129.34,
+            "to": 130.269,
+            "text": "Take their fish oil,"
+          },
+          {
+            "from": 137.152,
+            "to": 138.074,
+            "text": "theirs is just sixty nine,"
+          },
+          {
+            "from": 142.439,
+            "to": 144.784,
+            "text": "is that they dare to lay out all their costs"
+          },
+          {
+            "from": 146.74,
+            "to": 149.373,
+            "text": "plus, each batch comes with a full third party test report,"
+          },
+          {
+            "from": 157.3,
+            "to": 159.519,
+            "text": "I myself have been taking an N A D plus supplement"
+          },
+          {
+            "from": 164.78,
+            "to": 166.94,
+            "text": "Plus, I paired it with fish oil and magnesium L threonate."
+          },
+          {
+            "from": 177.66,
+            "to": 179.99,
+            "text": "This trio costs just over two hundred yuan"
+          },
+          {
+            "from": 185.02,
+            "to": 186.698,
+            "text": "Click the pinned link in the comments"
+          },
+          {
+            "from": 189.602,
+            "to": 192.28,
+            "text": "key in the code word at checkout and you get double points!"
+          },
+          {
+            "from": 194,
+            "to": 197.009,
+            "text": "So, no paying for brand marketing or markups spend wisely,"
+          },
+          {
+            "from": 197.009,
+            "to": 199.32,
+            "text": "and that sense of security is truly prized!"
+          },
+          {
+            "from": 199.52,
+            "to": 201.087,
+            "text": "Now, back to the sanctioned Hong Kong Police"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "本次可用字幕为英语内容轨道，证据逐行保留原始英文；未把推广中的健康功效当作经核实事实。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 207,
+      "firstIndex": 0,
+      "lastIndex": 206,
+      "allRowsRead": true
+    }
+  }
+}

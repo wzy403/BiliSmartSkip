@@ -1,0 +1,207 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 174,
+    "inputLineSha256": "0620b6fae38fd73fc838ce6a9c7cd4efedef8c92a5fe2ae9e9e53d28db9cc7b7",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1nmeH6JEDq-41925087221.json",
+    "acquisitionSha256": "e12aa367b059c386adb8702698da1a1289e35b0961e6d04192f207835831a517",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nmeH6JEDq/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1nmeH6JEDq.json",
+    "transcriptSha256": "b1e292edb7d29b15d71d52ec32c4e99b529ba5ee8e01083aafece190e9b074fb"
+  },
+  "record": {
+    "bvid": "BV1nmeH6JEDq",
+    "cid": 41925087221,
+    "duration": 1216,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解说锻刀大赛厨具专场：选手由挂肉钩高碳钢锻中国菜刀，比较材料用量、焊接淬火和刀柄，经过骨头及食材测试淘汰；决赛锻金枪鱼长刀，讨论凿刃和钢材，经强度锋利测试后道格胜出。人物轶事后借新相机记录精彩场面转入转转回收推广，随后继续锻造解说。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 166.4,
+        "end": 207.62,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "先以现场拍摄精彩场面与新相机铺垫换新旧物处理，介绍转转回收报价、器材与小众品类及变现省事优势，直到“钱到手才是硬道理”后回比赛。",
+        "startUncertainty": [
+          166.4,
+          166.4
+        ],
+        "endUncertainty": [
+          207.62,
+          207.62
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 166.4,
+            "to": 167.78,
+            "text": "话说这精彩的一幕"
+          },
+          {
+            "from": 168.86,
+            "to": 172,
+            "text": "肯定忍不住拿我新换的相机记录下来"
+          },
+          {
+            "from": 172,
+            "to": 174.04,
+            "text": "大家换新后旧的都怎么处理"
+          },
+          {
+            "from": 174.04,
+            "to": 177.76,
+            "text": "像我那台旧相机找转转上门回收了3100多"
+          },
+          {
+            "from": 182.06,
+            "to": 183.36,
+            "text": "像微单运动相机"
+          },
+          {
+            "from": 184.9,
+            "to": 187.96,
+            "text": "甚至是内存条主机之类不好卖的小众品类"
+          },
+          {
+            "from": 194,
+            "to": 196.88,
+            "text": "特别适合我这种想快速变现又图省事的人"
+          },
+          {
+            "from": 199.58,
+            "to": 202.44,
+            "text": "我之前那款万国表还卖了1万5000多呢"
+          },
+          {
+            "from": 204.3,
+            "to": 205.76,
+            "text": "就直接卖给转转"
+          },
+          {
+            "from": 205.76,
+            "to": 207.62,
+            "text": "钱到手才是硬道理"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 166.4,
+        "reason": "锻刀比赛引子、原料工艺和选手故事。"
+      },
+      {
+        "start": 207.62,
+        "end": 333.74,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 335.16,
+        "end": 497.72,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 498.12,
+        "end": 613.56,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 623.18,
+        "end": 642.78,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 655.96,
+        "end": 675.019,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 686.14,
+        "end": 704.67,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 724.98,
+        "end": 734.16,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 756.94,
+        "end": 765.18,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 781.86,
+        "end": 917.04,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 918.76,
+        "end": 981.96,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 984.48,
+        "end": 986.82,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 999.56,
+        "end": 1022.4,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 1037.7,
+        "end": 1063.26,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 1068.5,
+        "end": 1072.2,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 1081.56,
+        "end": 1102.44,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 1113.58,
+        "end": 1136.25,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 1147.04,
+        "end": 1157.1,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      },
+      {
+        "start": 1169.7,
+        "end": 1215.84,
+        "reason": "比赛锻造、评审测试及胜负，刀具性能描述直接属于主题。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "多处测试前后存在无字幕间隙，如 704.67–724.98、734.16–756.94、765.18–781.86 秒；前后明确是比赛劈砍/切割环节，纯画面内容仍未核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 584,
+      "firstIndex": 0,
+      "lastIndex": 583,
+      "allRowsRead": true
+    }
+  }
+}

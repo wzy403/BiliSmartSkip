@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1MiGy66E5S",
+  "cid": 38647365656,
+  "title": "跪舔遭群嘲？润人拍的洋马屁为啥总是翻车？",
+  "duration": 648,
+  "desc": "制作：见闻工作室\n编委会：云汉 郭歆 柿子 王景兴 饼干\n监制：云汉 王景兴\n总监：郭歆\n主编：柿子\n策划：云汉 郭歆 柿子 王景兴\n文案：郭歆 柿子\n配音：柿子\n后期：无雨\n编辑：饼干\n\n参考资料：\n昆仑策 《闻韬：自称记者的润人，外卖和社交账号均被封，坠入美国“斩杀线”》\n豆瓣网 《去了俄罗斯七天，震惊：中俄差距实在太大了》\n人民日报 《来到中国 发现中国》\n搜狐网 《爱尔兰夫妇来华旅游，揭露中国脏乱差的谎言，怒斥：我们被洗脑了》\n观察者风闻 《愿全世界华人都能摆脱冷气，只是向上走，不必听自暴自弃者的怨言》",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:10:31.437Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:20:56.987Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 162,
+    "inputLineSha256": "d80c656a8543d656d8567b5801ef02288ffb28dbdc3f2651cc223035e8cdbe9f",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1MiGy66E5S-38647365656.json",
+    "acquisitionSha256": "d5bc1db03d93c51b0db2a9e868e1f53bbab4ee2dcffb6c6d99a3f0ae0e9b34e8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MiGy66E5S/?p=1"
+  }
+}

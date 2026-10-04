@@ -1,0 +1,635 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles-plus-selected-local-and-browser-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 61,
+    "inputLineSha256": "330b672c1df3cf0fe3b1a1a920db8d16ac21f274e5261ccf5c913372258b9e21",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1byMc66Eyk-39638991900.json",
+    "acquisitionSha256": "0301a266525104c3f166bea7288319a0b9245af7f46dde1d7cc4b8e9d06f1166",
+    "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1byMc66Eyk.json",
+    "transcriptSha256": "c9cf63972468a6fdd154d312303c58da3b436e6429ce7ec8ffcf515f62e8aa3e"
+  },
+  "record": {
+    "bvid": "BV1byMc66Eyk",
+    "cid": 39638991900,
+    "duration": 314,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "宝可梦双打对战搞笑动画，围绕戏法空间、连续守住、胡地速度互换与大师球排名展开。片头睡眠眼罩推广应跳；片尾另有纯视觉钥匙扣/T恤销售推广应跳，音乐署名/支持者致谢及最终队伍展示保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 0,
+        "end": 35,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "实际本地画面1秒明确manta sleep赞助，2秒起失眠卡通铺垫，13–28秒展示睡眠眼罩功能与款式，29–34秒TERMINAL优惠码/10%折扣和淡出，35秒黑场、36秒开始动画标题。由实际商品、促销、完整铺垫与收尾确认，未仅依据字幕跳转提示。",
+        "confidence": "high",
+        "boundaryConfidence": "selected-local-frames",
+        "startUncertainty": [
+          0,
+          1
+        ],
+        "endUncertainty": [
+          34,
+          36
+        ],
+        "evidence": [
+          {
+            "from": 0,
+            "to": 36,
+            "text": "广告时间，可跳过至36秒"
+          }
+        ],
+        "visualEvidence": [
+          {
+            "time": 1,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-002.jpg",
+            "sha256": "1b977fa52da97b1e5615fed0c727483d75cd99a530af9b255ee03c43a4a9363c",
+            "observation": "This video is sponsored by manta sleep。"
+          },
+          {
+            "time": 2,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-003.jpg",
+            "sha256": "caae81314b4fb5a91190dae8244d6cf82fde09aa8ef26c4bf380acbcf3a70c92",
+            "observation": "失眠的床上卡通情境，为眼罩推广铺垫。"
+          },
+          {
+            "time": 20,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-021.jpg",
+            "sha256": "7fc40e4e85631275fdaaa45ad1cd0f03164676e8effe0a2d60aa6e0eef83e980",
+            "observation": "眼罩内部结构与不压眼球功能介绍。"
+          },
+          {
+            "time": 29,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-030.jpg",
+            "sha256": "5a0016194e95d6ae42467a1419b3e21ea841c558e250113ad466345c33d3656a",
+            "observation": "TERMINAL代码、10%折扣和TODAY促销。"
+          },
+          {
+            "time": 34,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-035.jpg",
+            "sha256": "b2adbbf3295694fd504e65d5e61de505c44d15226afeaa6a9594e92af6a52f08",
+            "observation": "促销画面淡出。"
+          },
+          {
+            "time": 35,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-036.jpg",
+            "sha256": "7cf8e40896cafe949b4b6fa3cd1db7c3201bb7cebd46985391d73c63aa97882b",
+            "observation": "广告淡出结束后的黑场。"
+          },
+          {
+            "time": 36,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frame-037.jpg",
+            "sha256": "9fbb5218de7f2b80f4efb190f3d942800cec0783575c0ca70a7629d2164042e6",
+            "observation": "动画创作者片头开始。"
+          }
+        ]
+      },
+      {
+        "start": 270.5,
+        "end": 275.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "selected-local-frames",
+        "startUncertainty": [
+          270.5,
+          271
+        ],
+        "endUncertainty": [
+          275,
+          275.5
+        ],
+        "reason": "片尾独立展示钥匙扣与T恤，明示for sale、New shirts too以及简介链接购买引导；应跳过。前后是创作人员和音乐署名，不能把整个片尾都当广告，也不能遗漏这段纯视觉商品推广。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 270.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-002.jpg",
+            "sha256": "2b4e8d19733c5ea36947a4eb898acd59e9fe0c8f4175660d5a8acb421f4e7acf",
+            "observation": "制作人员署名淡出，商品卡尚未清晰出现。"
+          },
+          {
+            "time": 271,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-003.jpg",
+            "sha256": "feb73e7866fc072bb7959228cba5387786c62c18abc36ad8326ab25d438fd51b",
+            "observation": "New ACRYLIC KEYCHAINS for sale!、简介链接与New shirts too!"
+          },
+          {
+            "time": 275,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-011.jpg",
+            "sha256": "99893afa9d7502e3dd72558aea8ab603a1047c526971a1b36255f6ed93085c95",
+            "observation": "仍在展示商品/购买指引。"
+          },
+          {
+            "time": 275.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-012.jpg",
+            "sha256": "57e1a5eab9bcfe82440127a5b90b403c362d1264e29633a262f4743a40dd5dc4",
+            "observation": "商品卡结束，转入Featured Songs音乐署名。"
+          }
+        ]
+      },
+      {
+        "start": 275.5,
+        "end": 307.08,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "selected-local-frames",
+        "startUncertainty": [
+          275,
+          275.5
+        ],
+        "endUncertainty": [
+          306,
+          308
+        ],
+        "reason": "音乐/音效来源署名、Patreon支持者致谢名单、普通订阅提示及空白结束卡；实际所见无独立付费行动号召，不因出现Patreon品牌或支持者姓名当成应跳商品广告。随后返回对战阵容展示。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 275.5,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-012.jpg",
+            "sha256": "57e1a5eab9bcfe82440127a5b90b403c362d1264e29633a262f4743a40dd5dc4",
+            "observation": "Featured Songs与Sounds Used署名。"
+          },
+          {
+            "time": 282,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/tail/frame-012.jpg",
+            "sha256": "a9e6fbdc6df2183c5edcda69a477022333b323ea301c100f6d01fd97b983e219",
+            "observation": "Scholarly Patreon Supporters支持者名单。"
+          },
+          {
+            "time": 298,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/tail/frame-020.jpg",
+            "sha256": "dcbb5309c33b15a05c1fc8286e65818355eb7a0ff8cff69923810e8ca94ae217",
+            "observation": "Patreon Supporters名单收尾。"
+          },
+          {
+            "time": 306,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/tail/frame-024.jpg",
+            "sha256": "b85500b6ba2fb14f008881aedddbfcd6cb488e6661bbdcba80750e6b439bbebf",
+            "observation": "普通SUBSCRIBE结束卡。"
+          },
+          {
+            "time": 308,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/tail/frame-025.jpg",
+            "sha256": "ced128758e472a9e0f8520bed4d693ba3694e2e57a42bd1c44beae36664e5d6e",
+            "observation": "返回对战队伍展示。"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 42.88,
+        "end": 44.49,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 45.68,
+        "end": 47.29,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 47.4,
+        "end": 48.4,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 49.12,
+        "end": 50.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 50.73,
+        "end": 51.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 53.75,
+        "end": 55.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 61.36,
+        "end": 63.51,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 64.42,
+        "end": 65.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 65.91,
+        "end": 66.41,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 69.1,
+        "end": 69.86,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 72.03,
+        "end": 72.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 73.27,
+        "end": 74.3,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 74.59,
+        "end": 76.59,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 77.5,
+        "end": 81.52,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 84.41,
+        "end": 87.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 88.28,
+        "end": 89.38,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 90.44,
+        "end": 93.11,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 93.27,
+        "end": 95.27,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 97.1,
+        "end": 98.26,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 98.27,
+        "end": 99.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 100.66,
+        "end": 101.84,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 102.13,
+        "end": 103.15,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 103.35,
+        "end": 105.84,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 105.96,
+        "end": 107.67,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 114.13,
+        "end": 116.13,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 116.88,
+        "end": 120,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 120.31,
+        "end": 122.31,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 125.14,
+        "end": 127.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 131.4,
+        "end": 132.77,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 132.88,
+        "end": 133.4,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 134.24,
+        "end": 135.91,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 145.22,
+        "end": 147,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 147.24,
+        "end": 150.31,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 150.87,
+        "end": 152.71,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 153.25,
+        "end": 155.88,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 155.9,
+        "end": 162.21,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 162.25,
+        "end": 165.69,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 169.1,
+        "end": 171.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 172.57,
+        "end": 173.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 178,
+        "end": 180.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 181.28,
+        "end": 183,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 183.22,
+        "end": 185.93,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 192.01,
+        "end": 194.51,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 194.78,
+        "end": 196.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 196.68,
+        "end": 198.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 199.15,
+        "end": 201.6,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 201.88,
+        "end": 203.88,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 204.6,
+        "end": 206.12,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 206.28,
+        "end": 208.91,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 210.61,
+        "end": 213.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 213.67,
+        "end": 223.25,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 226.13,
+        "end": 227.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 228,
+        "end": 228.79,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 228.97,
+        "end": 229.73,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 231.46,
+        "end": 233.4,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 236.85,
+        "end": 237.35,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 247.56,
+        "end": 249.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 249.84,
+        "end": 251.74,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 252.11,
+        "end": 255.11,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 255.94,
+        "end": 257.54,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 258.71,
+        "end": 260.91,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 261.27,
+        "end": 265.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 307.08,
+        "end": 311.01,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "完整阅读66行字幕；先查看选定浏览器画面，再实际查看本地全片每10秒抽帧、片头0–39秒每1秒、260–312秒每2秒、270–277秒每0.5秒抽帧。未听音频，未声称连续全片或逐帧观看；抽帧间瞬时画面仍可能遗漏。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 66,
+      "firstIndex": 0,
+      "lastIndex": 65,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "assistant-extra300-root",
+    "fullTranscriptRead": true,
+    "subtitleRows": 66,
+    "firstIndex": 0,
+    "lastIndex": 65,
+    "allRowsRead": true,
+    "method": "Full transcript plus actual selected local frames; no audio listened.",
+    "conclusion": "片头眼罩广告0–35秒；补核此前字幕空白，新增270.5–275.5秒周边销售广告。其后署名致谢与队伍展示保留。"
+  },
+  "visualObservations": {
+    "reviewer": "assistant-extra300-root",
+    "media": {
+      "bvid": "BV1byMc66Eyk",
+      "cid": 39638991900,
+      "page": 1,
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "checkedAt": "2026-10-04T23:27:27.278Z",
+      "responseSha256": "46f2a483e03f922f09643297dfe56eac7083653d2040e22ac48b2cf36d91bb7c",
+      "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1byMc66Eyk.mp4",
+      "sha256": "ad4b509685227ad8f8ae0361a8bca948e22c9da07060304f6152e5ad82fb9a75",
+      "bytes": 15681055,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "av1",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "313.655147"
+        }
+      },
+      "status": "downloaded-and-verified",
+      "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+    },
+    "frameIndexes": [
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/overview/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/intro/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/tail/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frames.json"
+    ],
+    "method": "Actual selected still frames; no full-frame/continuous viewing or audio listening claim."
+  },
+  "previousBrowserObservations": [
+    {
+      "time": 0,
+      "observation": "失眠床上卡通铺垫。",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 16.93,
+      "observation": "显示睡眠眼罩产品。",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 21.97,
+      "observation": "显示睡眠眼罩产品及款式。",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 26.99,
+      "observation": "展示多个睡眠眼罩款式。",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 32.01,
+      "observation": "画面文字：Use Promocode: TERMINAL / To get 10% off yours TODAY!",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 37.04,
+      "observation": "已切到TERMINALMONTAGE片头。",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 42.09,
+      "observation": "竞技场动画正文。",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    },
+    {
+      "time": 266.37,
+      "observation": "片尾文字：TO BE CONTINUED...",
+      "timePrecision": "approximate browser currentTime",
+      "sourceUrl": "https://www.bilibili.com/video/BV1byMc66Eyk/?p=1",
+      "observer": "root",
+      "modality": "selected-browser-frame"
+    }
+  ]
+}

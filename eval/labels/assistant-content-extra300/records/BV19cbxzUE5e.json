@@ -1,0 +1,448 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 41,
+    "inputLineSha256": "be56b55c7479b0d8de78d4039a5d7f5111743853c08c440bc33911cb45c74b8d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV19cbxzUE5e-31735743852.json",
+    "acquisitionSha256": "0d270e76c40ec0a9be11b47a61a9a2fcee86244e747d0055f3e149b6dd8662b2",
+    "sourceUrl": "https://www.bilibili.com/video/BV19cbxzUE5e/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV19cbxzUE5e.json",
+    "transcriptSha256": "4320dfb74f48ae6d2cad1fcbd6c17ed26880df764b411859de27188ea6d720b0"
+  },
+  "record": {
+    "bvid": "BV19cbxzUE5e",
+    "cid": 31735743852,
+    "duration": 1167,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "阿姆斯特丹旅行记录，包含红灯区从业者访谈、胶囊酒店、运河建筑与船屋、市民骑行与语言访谈、市场鲱鱼和梵高博物馆。多邻国作为语言学习赞助线索多次穿插：出发前推荐、首次访谈后再推荐、酒店打卡演示、街访前临时学习、与多语者交流使用经历以及末尾英语测试介绍。城市文化实录应保留，不把整段旅行都视为广告。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 69.26,
+        "end": 121.87,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "以英语不好能否旅行和个人语言局限铺垫，转入多邻国的免费多语种及碎片学习推荐，再以检验学习成果和首个挑战收尾。",
+        "startUncertainty": [
+          69.26,
+          71.53
+        ],
+        "endUncertainty": [
+          119.45,
+          121.87
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 69.26,
+            "to": 71.53,
+            "text": "走那在前往去红灯区的路上呢"
+          },
+          {
+            "from": 73.38,
+            "to": 74.98,
+            "text": "很多朋友都问我英语不好"
+          },
+          {
+            "from": 84.32,
+            "to": 86.12,
+            "text": "缺少了一种当地视角"
+          },
+          {
+            "from": 89.68,
+            "to": 93.2,
+            "text": "那今年呢我下定决心用多邻国重新学起英语"
+          },
+          {
+            "from": 99.18,
+            "to": 100.46,
+            "text": "我真心推荐你试一试"
+          },
+          {
+            "from": 100.46,
+            "to": 102.42,
+            "text": "多邻国40多种语言都能学"
+          },
+          {
+            "from": 102.42,
+            "to": 103.86,
+            "text": "而且不花一分钱"
+          },
+          {
+            "from": 111.6,
+            "to": 113.36,
+            "text": "那接下来呢我就要开始"
+          },
+          {
+            "from": 116.52,
+            "to": 119.45,
+            "text": "能不能够打开阿姆斯特丹和当地人对话"
+          },
+          {
+            "from": 119.45,
+            "to": 121.87,
+            "text": "我的第一个挑战呢就是红灯区"
+          },
+          {
+            "from": 121.87,
+            "to": 122.65,
+            "text": "说到这里"
+          }
+        ]
+      },
+      {
+        "start": 394.74,
+        "end": 409.21,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "访谈后由没学好外语的感叹进入明确劝观众早点用多邻国，并以沟通自如的利益点收尾。",
+        "startUncertainty": [
+          394.74,
+          398.15
+        ],
+        "endUncertainty": [
+          409.21,
+          409.65
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 392.54,
+            "to": 394.74,
+            "text": "特别像是一个男性的声音"
+          },
+          {
+            "from": 394.74,
+            "to": 398.15,
+            "text": "总之呢很感叹没有好好的学习英文"
+          },
+          {
+            "from": 398.15,
+            "to": 400.44,
+            "text": "也没有好好的学习西班牙文吧"
+          },
+          {
+            "from": 400.44,
+            "to": 401.52,
+            "text": "就是建议大家"
+          },
+          {
+            "from": 401.52,
+            "to": 403.92,
+            "text": "真的要把这个多邻国早早的用起来"
+          },
+          {
+            "from": 405.44,
+            "to": 409.21,
+            "text": "这样你在跟别人沟通的时候就会更加的自如"
+          },
+          {
+            "from": 409.65,
+            "to": 411.65,
+            "text": "现在是晚上的11点钟"
+          }
+        ]
+      },
+      {
+        "start": 435.32,
+        "end": 476.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从困倦却不能睡的铺垫，演示多邻国催打卡通知、倒计时和练习，并评价吉祥物；随后转入白天运河景观。",
+        "startUncertainty": [
+          435.32,
+          438.04
+        ],
+        "endUncertainty": [
+          476.5,
+          481.6
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 433.97,
+            "to": 435.32,
+            "text": "你觉得这个价格怎么样"
+          },
+          {
+            "from": 435.32,
+            "to": 435.96,
+            "text": "不夸张"
+          },
+          {
+            "from": 435.96,
+            "to": 438.04,
+            "text": "我现在坐在这里一秒就能入睡"
+          },
+          {
+            "from": 438.04,
+            "to": 439.04,
+            "text": "但是我还不能睡"
+          },
+          {
+            "from": 439.04,
+            "to": 440.84,
+            "text": "因为我今天收到了三色条"
+          },
+          {
+            "from": 440.84,
+            "to": 442.89,
+            "text": "来自多邻国的催促打卡"
+          },
+          {
+            "from": 448.45,
+            "to": 449.37,
+            "text": "点进去吧"
+          },
+          {
+            "from": 452.26,
+            "to": 456.16,
+            "text": "French spelling is not that difficult"
+          },
+          {
+            "from": 470.58,
+            "to": 473.4,
+            "text": "刚学完它就已经开始想我了"
+          },
+          {
+            "from": 473.4,
+            "to": 476.5,
+            "text": "这小鸟真是变化多端"
+          },
+          {
+            "from": 481.6,
+            "to": 482.72,
+            "text": "褪去夜晚的光"
+          }
+        ]
+      },
+      {
+        "start": 712.13,
+        "end": 753.41,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "街访前紧张、英文不好的铺垫接入打开多邻国临时学习，展示练习并肯定其作用；至放下手机看小船收尾，随后真实街访另行保留。",
+        "startUncertainty": [
+          712.13,
+          715.89
+        ],
+        "endUncertainty": [
+          753.41,
+          753.65
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 712.13,
+            "to": 713.79,
+            "text": "那带着这些疑问呢"
+          },
+          {
+            "from": 713.79,
+            "to": 715.89,
+            "text": "我的挑战马上就要开始了"
+          },
+          {
+            "from": 719.29,
+            "to": 720.71,
+            "text": "就是因为我很害怕"
+          },
+          {
+            "from": 722.48,
+            "to": 724.4,
+            "text": "那我现在要做一件事情"
+          },
+          {
+            "from": 725.86,
+            "to": 726.84,
+            "text": "多灵活"
+          },
+          {
+            "from": 728.89,
+            "to": 731.37,
+            "text": "上阵之前先磨磨刀"
+          },
+          {
+            "from": 740.56,
+            "to": 743.1,
+            "text": "说实话这个紧急还是有用的"
+          },
+          {
+            "from": 743.1,
+            "to": 745.1,
+            "text": "今天练的这个话题就特别应景"
+          },
+          {
+            "from": 747.54,
+            "to": 748.76,
+            "text": "让我们手机放下"
+          },
+          {
+            "from": 750.86,
+            "to": 753.41,
+            "text": "它就没有船桨自动的"
+          },
+          {
+            "from": 753.65,
+            "to": 755.81,
+            "text": "I'm actually when i travel around the city"
+          }
+        ]
+      },
+      {
+        "start": 908.49,
+        "end": 953.48,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "明确引入多邻国并交流课程完成、打卡天数和钻石，属于本期推广线索的延伸；全文上下文中，这段紧接加拿大法语母语受访者谈在华师大学中文两年、会英中德语，继续回答他学完中文和想学西班牙语的个人经历，承担作者与当地人交流的旅行主题。品牌嵌入未变成独立价格、购买或下载推介，故ad/keep，保留实际访谈内容而不将整个问答删去。二审全文同意该区分。",
+        "startUncertainty": [
+          907.07,
+          908.49
+        ],
+        "endUncertainty": [
+          953.48,
+          954.38
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 903.35,
+            "to": 905.77,
+            "text": "然后第四个是我的德语哇"
+          },
+          {
+            "from": 907.07,
+            "to": 908.49,
+            "text": "我只会说中文"
+          },
+          {
+            "from": 908.49,
+            "to": 911.99,
+            "text": "然后英文还是最近才开始用多邻国打卡"
+          },
+          {
+            "from": 911.99,
+            "to": 913.59,
+            "text": "你有没有听过多邻国这个软件"
+          },
+          {
+            "from": 914.03,
+            "to": 916.74,
+            "text": "我用你用我用我用我用哎"
+          },
+          {
+            "from": 927.58,
+            "to": 929.78,
+            "text": "他已经有已经学完了"
+          },
+          {
+            "from": 929.78,
+            "to": 933.349,
+            "text": "而且他正在用这个多邻国学习德语"
+          },
+          {
+            "from": 938.309,
+            "to": 940.869,
+            "text": "我想学习西班牙语哦"
+          },
+          {
+            "from": 944.28,
+            "to": 946.56,
+            "text": "你坚持打卡了222天"
+          },
+          {
+            "from": 951.84,
+            "to": 953.48,
+            "text": "努力学习语言"
+          }
+        ]
+      },
+      {
+        "start": 1114.88,
+        "end": 1136.26,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "总结旅行不同归功于多邻国，再追加英语测试可用于留学申请的产品介绍，之后回到城市总结。",
+        "startUncertainty": [
+          1114.88,
+          1114.88
+        ],
+        "endUncertainty": [
+          1136.26,
+          1136.26
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1114.88,
+            "to": 1116.94,
+            "text": "这次旅行和往常不一样的是"
+          },
+          {
+            "from": 1116.94,
+            "to": 1120.02,
+            "text": "因为多邻国我才大胆迈出了沟通的这一步"
+          },
+          {
+            "from": 1120.02,
+            "to": 1122.429,
+            "text": "接触到了阿姆斯特丹背后的故事"
+          },
+          {
+            "from": 1125.69,
+            "to": 1126.55,
+            "text": "哦对了"
+          },
+          {
+            "from": 1126.55,
+            "to": 1128.81,
+            "text": "多邻国甚至还做了一个英语测试"
+          },
+          {
+            "from": 1132.93,
+            "to": 1136.26,
+            "text": "可以代替托福和雅思去做留学申请哦"
+          },
+          {
+            "from": 1136.26,
+            "to": 1139.62,
+            "text": "以上就是我们此次在阿姆斯特丹的所见所闻"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "161.16–368.54秒外语访谈字幕大量失真，225.51–241.5、299.039–328.36等区间无字幕，需视听核对是否有未被识别的商业内容；未声称全片视听核验。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 527,
+      "firstIndex": 0,
+      "lastIndex": 526,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_content_001_100",
+    "fullTranscriptRead": true,
+    "subtitleRows": 527,
+    "decision": "完整阅读全部527行。同意908.49–953.48秒ad/keep：受访者多语学习经历与采访主题直接连续，广告性质不自动等同应跳；其余五段独立推介保持ad/skip。前段外语访谈ASR大面积失真与缺口仍需视听核实，保留needs-verification，不计完成。"
+  }
+}

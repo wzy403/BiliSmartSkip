@@ -1,0 +1,147 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 57,
+    "inputLineSha256": "b31ea4273f25e57dbbde910cbaa86d111bb1f0b2ec20fde5445dbfe9df8acd1a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1BH4y177SC-1454496646.json",
+    "acquisitionSha256": "e8a8aa631db7b45610e071fc41c5d61645bc10b3328e1921001223e1fc17b488",
+    "sourceUrl": "https://www.bilibili.com/video/BV1BH4y177SC/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1BH4y177SC.json",
+    "transcriptSha256": "3a2a7da8cf2560a72392b78aef9f7af0f1fd4c1d824d8521a9a94a770944c1f1"
+  },
+  "record": {
+    "bvid": "BV1BH4y177SC",
+    "cid": 1454496646,
+    "duration": 323,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "用陀螺进动解释雪地盆子原地旋转及摔倒摩托车自行起身过弯，最后以打工生活自嘲收尾；两道物理案例之间插入赫恩极地沐浴露的独立推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 100.9,
+        "end": 162.88,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从看演示不如在家躺着刷手机的转场铺垫，进入皮肤干痒出油诉求，介绍赫恩沐浴露除螨抑菌、护肤保湿、香味和容量，直至评论区优惠券结束；随后明确想起开头摩托车，恢复陀螺知识正文。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          100.9,
+          107.6
+        ],
+        "endUncertainty": [
+          162.88,
+          162.88
+        ],
+        "evidence": [
+          {
+            "from": 98.8,
+            "to": 100.9,
+            "text": "于是像狗盆子一样躺平"
+          },
+          {
+            "from": 100.9,
+            "to": 102.82,
+            "text": "通过萌萌老师的演示"
+          },
+          {
+            "from": 102.82,
+            "to": 105.61,
+            "text": "我意识到站在雪地里看他比比划划"
+          },
+          {
+            "from": 105.61,
+            "to": 107.6,
+            "text": "真不如躺在家里刷手机"
+          },
+          {
+            "from": 107.6,
+            "to": 109.1,
+            "text": "但换季皮肤干痒"
+          },
+          {
+            "from": 113.6,
+            "to": 116.98,
+            "text": "这款某猫销量60万平的赫恩极地沐浴露"
+          },
+          {
+            "from": 118.24,
+            "to": 120.64,
+            "text": "其除螨抑菌率大于99%"
+          },
+          {
+            "from": 155.72,
+            "to": 159.26,
+            "text": "而且这一瓶500克大容量足够用大半年"
+          },
+          {
+            "from": 159.26,
+            "to": 162.88,
+            "text": "评论区领专属优惠券组合购买更划算"
+          },
+          {
+            "from": 162.88,
+            "to": 163.66,
+            "text": "说到这里"
+          },
+          {
+            "from": 163.66,
+            "to": 166.06,
+            "text": "我突然想起来开头提到摩托车"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.979,
+        "end": 10.8,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 14.319,
+        "end": 100.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 162.88,
+        "end": 240.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 246.369,
+        "end": 249.8,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 251.96,
+        "end": 281.64,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 283.02,
+        "end": 321.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 149,
+      "firstIndex": 0,
+      "lastIndex": 148,
+      "allRowsRead": true
+    }
+  }
+}

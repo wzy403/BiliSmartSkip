@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1T6AwzyEhq",
+  "cid": 36858170613,
+  "title": "“黑珍珠哈莉·贝瑞早期惊悚片，剧情简单粗暴，但过程紧张刺激，扣人心弦”——《致命呼叫》",
+  "duration": 1006,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:20.667Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:28:00.809Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 227,
+    "inputLineSha256": "8b9b0f95cda5a6fc95480a77585640bc8f8d63897a6f1c905ab6e5c72bcf77a2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1T6AwzyEhq-36858170613.json",
+    "acquisitionSha256": "24dabc3fdba66dded0419a54a3b1139ac90caeb2cdc91e2a98680b99fe78f760",
+    "sourceUrl": "https://www.bilibili.com/video/BV1T6AwzyEhq/?p=1"
+  }
+}

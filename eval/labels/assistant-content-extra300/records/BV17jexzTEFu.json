@@ -1,0 +1,131 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 34,
+    "inputLineSha256": "857476cb12e8a8022ac20665e4f42df527ac6a19b82521242954fda76930e9ba",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV17jexzTEFu-31925928902.json",
+    "acquisitionSha256": "d7dfaf6fe53cb02f83883db6134fcb9d9fa897869cba802b1703580769358f40",
+    "sourceUrl": "https://www.bilibili.com/video/BV17jexzTEFu/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV17jexzTEFu.json",
+    "transcriptSha256": "20b0fb25c9349a769e513f946fdad5dbfc8b44fdad935b607c3efa22f65e1c90"
+  },
+  "record": {
+    "bvid": "BV17jexzTEFu",
+    "cid": 31925928902,
+    "duration": 304,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "点评共享家园免费吃住、卤味培训和直播带货致富话术，解释针对老年和年轻人的招徕骗局。104.12秒请长辈扣下手机后，转入七夕送礼的VH两款包推广，介绍材质、造型、赠品和评论区优惠；182.86秒明确回到防骗评论。被引用的共享家园和培训营销是批评对象，需保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 104.12,
+        "end": 182.86,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从让长辈扣下手机、与孩子单独说事的铺垫起，到七夕礼物号召结束，完整推介VH包及赠品优惠，与共享家园防骗主题分离。",
+        "startUncertainty": [
+          104.12,
+          104.12
+        ],
+        "endUncertainty": [
+          182.86,
+          183.38
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 102.96,
+            "to": 104.12,
+            "text": "谨慎点好了"
+          },
+          {
+            "from": 104.12,
+            "to": 106.2,
+            "text": "你们把手机屏幕扣下一分多钟"
+          },
+          {
+            "from": 106.2,
+            "to": 108.66,
+            "text": "我给你们的孩子单独说点事"
+          },
+          {
+            "from": 108.66,
+            "to": 109.62,
+            "text": "又要七夕了"
+          },
+          {
+            "from": 112.3,
+            "to": 115.38,
+            "text": "那我推荐VH山茶花信封包和欣"
+          },
+          {
+            "from": 142.96,
+            "to": 144.72,
+            "text": "意大利进口的植物牛皮"
+          },
+          {
+            "from": 154.72,
+            "to": 155.36,
+            "text": "下单心软"
+          },
+          {
+            "from": 163.9,
+            "to": 166.62,
+            "text": "铁柱两款均可加赠一套高级浪漫贺卡"
+          },
+          {
+            "from": 177.16,
+            "to": 178.82,
+            "text": "置顶领专属优惠券"
+          },
+          {
+            "from": 180.34,
+            "to": 182.86,
+            "text": "想送七夕礼物的小伙伴可以考虑一下好"
+          },
+          {
+            "from": 182.86,
+            "to": 183.38,
+            "text": "我们回来"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 55.43,
+        "reason": "共享家园营销片段及其盈利/骗局分析，保健品价格是虚构骗局示例，不是作者推荐。"
+      },
+      {
+        "start": 56.37,
+        "end": 104.12,
+        "reason": "共享家园营销片段及其盈利/骗局分析，保健品价格是虚构骗局示例，不是作者推荐。"
+      },
+      {
+        "start": 182.86,
+        "end": 303.38,
+        "reason": "回归对免费培训、电商致富和豪车宣传的反诈批评；其中商业话术是被讨论的材料，保留。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 206,
+      "firstIndex": 0,
+      "lastIndex": 205,
+      "allRowsRead": true
+    }
+  }
+}

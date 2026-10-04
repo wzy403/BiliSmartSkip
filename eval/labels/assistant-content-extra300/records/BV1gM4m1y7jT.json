@@ -1,0 +1,140 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 109,
+    "inputLineSha256": "3fc307ce480710b8517ed1887b609027b835ba6b2bbd89204a3685cbf03ba511",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1gM4m1y7jT-1548633062.json",
+    "acquisitionSha256": "585058084269bf66d8a6ff99a29f3b1109ad7edba8a7a178b1eada99d9a71144",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gM4m1y7jT/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1gM4m1y7jT.json",
+    "transcriptSha256": "3815cc4f4a74166e4e66fa14dc092e1b7cb013b3bc678d76740bf8f69c9355e8"
+  },
+  "record": {
+    "bvid": "BV1gM4m1y7jT",
+    "cid": 1548633062,
+    "duration": 599,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以一战至二战假坦克的训练和欺骗用途引入国际人道法中的诈术与背信弃义区别，说明假投降、假平民和冒充救援组织的风险及保护原则。中间以普通人体验战争诈术引入《坦克世界》，介绍玩法、战术、下载礼包和忍者神龟通行证；其后恢复法律讨论。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 246.99,
+        "end": 316.22,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“作为普通人想要合法体验”是游戏推荐铺垫；从坦克数量、真实细节到个人组队打法都服务于产品推广，随后给专属下载礼包和联动活动并号召体验。316.22秒以李云龙笑话回到诈术限制的法律正文。",
+        "startUncertainty": [
+          246.99,
+          246.99
+        ],
+        "endUncertainty": [
+          316.22,
+          316.22
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 245.19,
+            "to": 246.99,
+            "text": "确实是一种战争的艺术"
+          },
+          {
+            "from": 246.99,
+            "to": 247.67,
+            "text": "作为普通人"
+          },
+          {
+            "from": 247.67,
+            "to": 249.11,
+            "text": "想要合法体验战争中的诈术"
+          },
+          {
+            "from": 249.11,
+            "to": 250.59,
+            "text": "那又绝对不能错过坦克世界"
+          },
+          {
+            "from": 251.15,
+            "to": 253.18,
+            "text": "作为一款战争题材的载具射击类游戏"
+          },
+          {
+            "from": 261.16,
+            "to": 262.76,
+            "text": "800多辆坦克任你驾驶"
+          },
+          {
+            "from": 271.58,
+            "to": 273.66,
+            "text": "坦克世界绝对不是简单的排队互殴"
+          },
+          {
+            "from": 274.42,
+            "to": 276.72,
+            "text": "我就和小伙伴经常在开黑的时候讨论战术"
+          },
+          {
+            "from": 295,
+            "to": 296.52,
+            "text": "这都是满满的细节和配合"
+          },
+          {
+            "from": 296.52,
+            "to": 297.96,
+            "text": "现在从我的智能链接下载游戏"
+          },
+          {
+            "from": 297.96,
+            "to": 300.44,
+            "text": "PC新玩家就能获得S系三级轻型坦克"
+          },
+          {
+            "from": 305.94,
+            "to": 308.28,
+            "text": "坦克世界还最新发布了人射神龟战斗通行证"
+          },
+          {
+            "from": 312.36,
+            "to": 313.96,
+            "text": "英雄角色和定制坦克皮肤"
+          },
+          {
+            "from": 315.36,
+            "to": 316.22,
+            "text": "快来体验吧"
+          },
+          {
+            "from": 316.22,
+            "to": 317.98,
+            "text": "知名军事家李云龙"
+          },
+          {
+            "from": 321.94,
+            "to": 325.01,
+            "text": "然而诈术的使用并不是无限制的"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 277,
+      "firstIndex": 0,
+      "lastIndex": 276,
+      "allRowsRead": true
+    }
+  }
+}

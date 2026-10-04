@@ -1,0 +1,222 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 274,
+    "inputLineSha256": "5cd1cec400bf673a5b7de18d157bc649f08cd082beb4d94f31ae63db6308a37d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1XS411F7Ti-1540028666.json",
+    "acquisitionSha256": "41be1be9cea384415c1250a0c455aa486699e1d5c43ac6b3e0ae2e67c448d992",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XS411F7Ti/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1XS411F7Ti.json",
+    "transcriptSha256": "78c126afe1203f1086faf7041be02fa52f9df75ae25cfd523e6e560c92ed7bc4"
+  },
+  "record": {
+    "bvid": "BV1XS411F7Ti",
+    "cid": 1540028666,
+    "duration": 886,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "黑山旅行与历史见闻：从主教亲王、尼古拉一世和南斯拉夫到独立，参观采蒂涅王宫与军事馆，介绍塔拉河桥、佩拉斯特与圣母岩、科托尔城堡及杜米托尔黑湖。中途以国王工作后卧室放松为铺垫插入妙界按摩仪推广；后续书籍提及只是当地传说来源。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 239.61,
+        "end": 306.21,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由国王工作一天回到卧室需要按摩的想象铺垫，连续转入妙界按摩仪的使用、结构、按摩功效、价格与出行携带、母亲节礼品优惠和质保，至送礼自用收束后恢复王后起居室参观。整段为独立商品推介，可跳过而不损失黑山旅行历史正文。",
+        "evidence": [
+          {
+            "from": 239.61,
+            "to": 242.1,
+            "text": "我觉得国王陛下在工作一天之后"
+          },
+          {
+            "from": 242.1,
+            "to": 243.09,
+            "text": "回到卧室"
+          },
+          {
+            "from": 243.09,
+            "to": 245.19,
+            "text": "需要来一场按摩放松身体"
+          },
+          {
+            "from": 245.19,
+            "to": 248.26,
+            "text": "刚好妙建国的安剑侯进贡了肩颈按摩仪"
+          },
+          {
+            "from": 253.27,
+            "to": 254.14,
+            "text": "实属妙哉"
+          },
+          {
+            "from": 254.14,
+            "to": 255.56,
+            "text": "普通按摩仪配置低"
+          },
+          {
+            "from": 258.32,
+            "to": 261.11,
+            "text": "妙界的巴蒂按摩头可不是摆设道具"
+          },
+          {
+            "from": 267.32,
+            "to": 268.22,
+            "text": "不仅是国王"
+          },
+          {
+            "from": 273.26,
+            "to": 275.28,
+            "text": "一不小心还会被颈椎病所害"
+          },
+          {
+            "from": 275.28,
+            "to": 276.9,
+            "text": "他调节一下力度和热敷"
+          },
+          {
+            "from": 282.42,
+            "to": 284.96,
+            "text": "外面三四百推拿的价格远不及妙界"
+          },
+          {
+            "from": 286.82,
+            "to": 288.38,
+            "text": "被扣的设计也很贴心"
+          },
+          {
+            "from": 290.14,
+            "to": 292.6,
+            "text": "就连平时出门旅行佩戴着也很方便"
+          },
+          {
+            "from": 292.6,
+            "to": 293.86,
+            "text": "最近恰逢母亲节"
+          },
+          {
+            "from": 293.86,
+            "to": 295.9,
+            "text": "谋士们还能找客服代写贺卡"
+          },
+          {
+            "from": 295.9,
+            "to": 297.82,
+            "text": "送家里长辈更添一份心意"
+          },
+          {
+            "from": 297.82,
+            "to": 298.42,
+            "text": "安检后"
+          },
+          {
+            "from": 298.42,
+            "to": 300.82,
+            "text": "还为我们安排了运费险和一年内"
+          },
+          {
+            "from": 300.82,
+            "to": 302.08,
+            "text": "质量问题免费换"
+          },
+          {
+            "from": 302.08,
+            "to": 303.97,
+            "text": "有需要赶紧戳下评论"
+          },
+          {
+            "from": 303.97,
+            "to": 306.21,
+            "text": "犒劳自己或是送人都不错"
+          },
+          {
+            "from": 306.21,
+            "to": 308.49,
+            "text": "从国王卧室另一扇门出来"
+          }
+        ],
+        "startUncertainty": [
+          239.61,
+          239.61
+        ],
+        "endUncertainty": [
+          306.21,
+          306.21
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 6.3,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 7.539,
+        "end": 64.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 67.24,
+        "end": 79.56,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 81.24,
+        "end": 144.71,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 146.76,
+        "end": 157.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 159.44,
+        "end": 219.95,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 220.59,
+        "end": 239.61,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 306.21,
+        "end": 414.48,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 419.4,
+        "end": 560.62,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 561.82,
+        "end": 870.12,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 424,
+      "firstIndex": 0,
+      "lastIndex": 423,
+      "allRowsRead": true
+    }
+  }
+}

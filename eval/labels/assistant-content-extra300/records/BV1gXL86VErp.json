@@ -1,0 +1,229 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 113,
+    "inputLineSha256": "8e24497a07fb165e1f428f44b6acd6fe8102563798d2eec6b5c695947054ca81",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1gXL86VErp-38508759855.json",
+    "acquisitionSha256": "ddcedcba9c264fd2003d0c8de2019819c5468db871af93fdbb753966edc3cf3f",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gXL86VErp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1gXL86VErp.json",
+    "transcriptSha256": "c1b096dbece62a0000e198fd801d580e79949366db337a21f693b9be7a159eb1"
+  },
+  "record": {
+    "bvid": "BV1gXL86VErp",
+    "cid": 38508759855,
+    "duration": 712,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讲卢克艾金斯无伞高空跳入安全网的家庭背景、赞助寻找、缓冲和导航方案、测试失败与改进、起跳前降落伞争议、最终成功，以及其他高空坠落生还和后续换机挑战。红牛与炫迈是事件融资、争议和影响的历史背景，不是对观众的产品推荐。独立转转广告位于正式人物生平前，以甲方催更、更换电脑和处理旧设备引入。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 47.17,
+        "end": 87.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "在正式故事开始前感谢甲方并以新电脑剪辑加快为铺垫，讲转转旧电脑回收价格、多品类变现、手表成交与直接卖给转转的号召；整段独立于无伞跳伞故事。",
+        "startUncertainty": [
+          47.17,
+          47.17
+        ],
+        "endUncertainty": [
+          87.06,
+          87.48
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 44.8,
+            "to": 47.17,
+            "text": "无伞跳伞之空中骑兵"
+          },
+          {
+            "from": 47.17,
+            "to": 47.99,
+            "text": "视频开始前"
+          },
+          {
+            "from": 47.99,
+            "to": 49.63,
+            "text": "感谢一下甲方正的催更"
+          },
+          {
+            "from": 49.63,
+            "to": 50.87,
+            "text": "最近剪视频快多了"
+          },
+          {
+            "from": 50.87,
+            "to": 52.35,
+            "text": "多亏我换了台新电脑"
+          },
+          {
+            "from": 52.35,
+            "to": 54.34,
+            "text": "大家换新后旧的都怎么处理"
+          },
+          {
+            "from": 55.86,
+            "to": 57.82,
+            "text": "找转转上门回收了3100多"
+          },
+          {
+            "from": 60.56,
+            "to": 61.88,
+            "text": "而且变现特别快"
+          },
+          {
+            "from": 67.9,
+            "to": 69.48,
+            "text": "在他那都能随时换成钱"
+          },
+          {
+            "from": 73.58,
+            "to": 76.4,
+            "text": "特别适合我这种想快速变现又图省事的人"
+          },
+          {
+            "from": 77.36,
+            "to": 78.92,
+            "text": "他们回收价格也很不错"
+          },
+          {
+            "from": 78.92,
+            "to": 81.58,
+            "text": "我之前那款万国表还卖了1万5000多呢"
+          },
+          {
+            "from": 81.58,
+            "to": 83.48,
+            "text": "要我说有懒得处理的闲置"
+          },
+          {
+            "from": 83.48,
+            "to": 84.76,
+            "text": "就直接卖给转转"
+          },
+          {
+            "from": 84.76,
+            "to": 87.06,
+            "text": "钱到手才是硬道理"
+          },
+          {
+            "from": 87.48,
+            "to": 89.96,
+            "text": "卢克艾金斯1973年11月"
+          }
+        ]
+      },
+      {
+        "start": 259.87,
+        "end": 307.38,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "叙述运动员为何遭红牛拒绝、怎样与炫迈营销计划结合获资助以及家人反应，是本期挑战故事的必要因果背景；没有向观众推销饮料或口香糖。",
+        "startUncertainty": [
+          259.87,
+          259.87
+        ],
+        "endUncertainty": [
+          307.38,
+          307.38
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 259.87,
+            "to": 263.42,
+            "text": "没想到这小子他妈的愣头青真的去找红牛商量"
+          },
+          {
+            "from": 263.42,
+            "to": 265.94,
+            "text": "因为他本身就是红牛的签约运动员"
+          },
+          {
+            "from": 265.94,
+            "to": 267.58,
+            "text": "但是红牛看到这个方案后呢"
+          },
+          {
+            "from": 268.98,
+            "to": 271.7,
+            "text": "我们品牌广告语是给你一双翅膀"
+          },
+          {
+            "from": 273.94,
+            "to": 276.8,
+            "text": "你这项目跟我们品牌价值观严重不符"
+          },
+          {
+            "from": 277.34,
+            "to": 278.36,
+            "text": "我们不能投"
+          },
+          {
+            "from": 289.3,
+            "to": 293.44,
+            "text": "那年炫迈推出了一款名为疯狂劲爽的新系列"
+          },
+          {
+            "from": 295.3,
+            "to": 298.2,
+            "text": "极具视觉冲击和疯狂属性的营销方案"
+          },
+          {
+            "from": 298.2,
+            "to": 300.04,
+            "text": "于是双方一拍即合"
+          },
+          {
+            "from": 300.04,
+            "to": 300.88,
+            "text": "一个出钱"
+          },
+          {
+            "from": 300.88,
+            "to": 301.64,
+            "text": "一个出命"
+          },
+          {
+            "from": 302.56,
+            "to": 304.16,
+            "text": "两方就把合同给签了"
+          },
+          {
+            "from": 304.16,
+            "to": 305.48,
+            "text": "卢克家人知道后"
+          },
+          {
+            "from": 306.4,
+            "to": 307.38,
+            "text": "炫迈的心都有"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 419,
+      "firstIndex": 0,
+      "lastIndex": 418,
+      "allRowsRead": true
+    }
+  }
+}

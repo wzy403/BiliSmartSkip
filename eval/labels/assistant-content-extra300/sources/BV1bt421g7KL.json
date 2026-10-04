@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1bt421g7KL",
+  "cid": 1537871122,
+  "title": "锅盖：头有点痒，好像要长面包了！",
+  "duration": 489,
+  "desc": "打算用这个方法做个擦锅包，再整个糊糊酱料，美美饱餐一顿！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:00.098Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:46.669Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 60,
+    "inputLineSha256": "57166ec1c3090b1278ca200ed414259841082bfd6ed4a8aa55ed1bb20e9c2664",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1bt421g7KL-1537871122.json",
+    "acquisitionSha256": "ab6ce028eaf142565da705d36b8338caff31c010bf121de26d38f19802f64a49",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bt421g7KL/?p=1"
+  }
+}

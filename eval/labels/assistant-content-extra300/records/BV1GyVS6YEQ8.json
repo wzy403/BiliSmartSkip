@@ -1,0 +1,150 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 114,
+    "inputLineSha256": "1efb254f8171f35f898b7a22bfe2a87f379a1410e00a719cab2d3c70a7b2ef74",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1GyVS6YEQ8-38745802212.json",
+    "acquisitionSha256": "99fbef3aa987071afb8e675ae1ee5c8bd97b30e87d502fda6d651d68c6d87f31",
+    "sourceUrl": "https://www.bilibili.com/video/BV1GyVS6YEQ8/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1GyVS6YEQ8.json",
+    "transcriptSha256": "d82786079c1984ffaeaec0890633709641ba8e22f44a4a3a440467ef20dcdf0a"
+  },
+  "record": {
+    "bvid": "BV1GyVS6YEQ8",
+    "cid": 38745802212,
+    "duration": 889,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以特朗普体检和夜间发帖引入美国总统健康披露争议，回顾威尔逊、罗斯福、克利夫兰等隐瞒病情的案例，再讨论社交媒体团队、哈普和总统医生的政治利益。中段用隐瞒程度的“度”转成气温几度，独立推介小鹿凉席与冰被，之后返回总统医疗保密历史。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 282.26,
+        "end": 387.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“说到度”把政治话题切换为天气、床品消费；完整讲小鹿凉席凉感指标、材料结构、透气清洗、母婴标准、尺寸配件、优惠售后与置顶链接领券，直到邀请观看商品后回归总统历史。广告范围包含气温双关铺垫。",
+        "startUncertainty": [
+          280.08,
+          282.26
+        ],
+        "endUncertainty": [
+          387.94,
+          387.94
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 280.08,
+            "to": 282.26,
+            "text": "所以呢度的问题啊就非常重要"
+          },
+          {
+            "from": 282.26,
+            "to": 283.84,
+            "text": "说到度大家那里都几度了呢"
+          },
+          {
+            "from": 283.84,
+            "to": 286.2,
+            "text": "我这两天把神奇小鹿的小惊喜也换上了"
+          },
+          {
+            "from": 290.74,
+            "to": 292.78,
+            "text": "现在618的大促呢能拿到超低价"
+          },
+          {
+            "from": 292.78,
+            "to": 294.72,
+            "text": "大家可以搭配小冰被一起入手"
+          },
+          {
+            "from": 306.2,
+            "to": 309.7,
+            "text": "小鹿接触腾q max值就高达0.33"
+          },
+          {
+            "from": 317.38,
+            "to": 319.18,
+            "text": "0.33是国标的2.2倍"
+          },
+          {
+            "from": 334.4,
+            "to": 336.58,
+            "text": "小鹿的底部就专门设计了透气网络"
+          },
+          {
+            "from": 340.04,
+            "to": 341.1,
+            "text": "脏了直接机洗"
+          },
+          {
+            "from": 358.06,
+            "to": 359.62,
+            "text": "符合A类母婴标准"
+          },
+          {
+            "from": 368.36,
+            "to": 371.32,
+            "text": "有床笠和绑带两款能选不一味"
+          },
+          {
+            "from": 373.44,
+            "to": 374,
+            "text": "真心推荐"
+          },
+          {
+            "from": 376.84,
+            "to": 378.12,
+            "text": "记得点击评论区置链接"
+          },
+          {
+            "from": 378.12,
+            "to": 378.8,
+            "text": "领我的券"
+          },
+          {
+            "from": 378.8,
+            "to": 382.32,
+            "text": "下单点叠加618的大促抄底入手多种尺寸"
+          },
+          {
+            "from": 384.9,
+            "to": 386.7,
+            "text": "自己用送家人都相当不错"
+          },
+          {
+            "from": 386.7,
+            "to": 387.94,
+            "text": "感谢的各位感去看一下吧"
+          },
+          {
+            "from": 387.94,
+            "to": 390.18,
+            "text": "那么如果说威尔逊那种太过突发"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 485,
+      "firstIndex": 0,
+      "lastIndex": 484,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1FiNteDEnj",
+  "cid": 28257553011,
+  "title": "假面骑士fourze31（上）",
+  "duration": 1020,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:09:27.090Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:18.667Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 94,
+    "inputLineSha256": "340febb648fc2bb85363ee143f99251801a7abef45b1b79284c16a3d99d79d63",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1FiNteDEnj-28257553011.json",
+    "acquisitionSha256": "d31154adcc0b1047cea74ff0db12c9b5b28d946fffada611629349d7dbd17310",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FiNteDEnj/?p=1"
+  }
+}

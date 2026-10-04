@@ -1,0 +1,152 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 66,
+    "inputLineSha256": "e44cec2d797c46862f678f3e0c34fed04fc9358d65dc0360f1aa14b70ca550de",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1cs596oESZ-38327222806.json",
+    "acquisitionSha256": "4c2bc49fa05b58435417c3b11dcc8762f8a804c6139e1e0537d7aae0744b6d17",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cs596oESZ/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1cs596oESZ.json",
+    "transcriptSha256": "cbe7c60ff7ee94359757188ba97c5f06e232b421cdb361f505f3b4ea64b4a9a3"
+  },
+  "record": {
+    "bvid": "BV1cs596oESZ",
+    "cid": 38327222806,
+    "duration": 604,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述1873年后英国长萧条与进口小麦、食品工业和铁路海运如何改变工人饮食，依次解释白面包、肉派、香肠、土豆泥与炖菜的兴起。面包章节与土豆章节之间插入云朵蒸汽洗地机推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 255.76,
+        "end": 305.74,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "以“中场休息时间到”及清洁油污毛发的困难切入，连续推介洗地机蒸汽、吸力、躺平清洁、自清洁、手柄和入手福利，最终引导置顶链接；308.44秒恢复土豆饮食史正文。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          255.76,
+          255.76
+        ],
+        "endUncertainty": [
+          305.74,
+          308.44
+        ],
+        "evidence": [
+          {
+            "from": 253.8,
+            "to": 255.76,
+            "text": "午餐食的一致选择"
+          },
+          {
+            "from": 255.76,
+            "to": 258.04,
+            "text": "第二中场休息时间到清洁地板时"
+          },
+          {
+            "from": 258.04,
+            "to": 260.04,
+            "text": "最难处理的不是垃圾本身"
+          },
+          {
+            "from": 260.86,
+            "to": 262.54,
+            "text": "顽固污渍和宠物毛发"
+          },
+          {
+            "from": 262.54,
+            "to": 264.48,
+            "text": "游望这台云朵蒸汽洗地机"
+          },
+          {
+            "from": 264.48,
+            "to": 266.42,
+            "text": "160度高温蒸汽直喷"
+          },
+          {
+            "from": 275.36,
+            "to": 276.98,
+            "text": "2万7000帕飓风吸力"
+          },
+          {
+            "from": 289.88,
+            "to": 291.34,
+            "text": "AI还会自动清洁"
+          },
+          {
+            "from": 300.84,
+            "to": 302.28,
+            "text": "现在入手还有多重福利"
+          },
+          {
+            "from": 302.28,
+            "to": 305.74,
+            "text": "感兴趣的朋友可以去看看置顶区链接"
+          },
+          {
+            "from": 308.44,
+            "to": 309.2,
+            "text": "坦白地说"
+          },
+          {
+            "from": 313.3,
+            "to": 314.99,
+            "text": "会如土豆这般曲折"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 41.48,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 43.94,
+        "end": 84.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 87.54,
+        "end": 251.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 253.8,
+        "end": 255.76,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 308.44,
+        "end": 355.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 358.309,
+        "end": 593.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 271,
+      "firstIndex": 0,
+      "lastIndex": 270,
+      "allRowsRead": true
+    }
+  }
+}

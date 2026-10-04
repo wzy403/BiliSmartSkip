@@ -1,0 +1,10 @@
+{
+  "bvid": "BV1UGN3zrEVy",
+  "firstAttempt": "download-public-media.cjs",
+  "status": "first-download-incomplete-recovered-by-smaller-video-stream",
+  "error": "Connection ended: 13188603 bytes read, 58032816 more expected",
+  "partialBytes": 12920013,
+  "partialSha256": "77b4566325c84689cfda6c91e54a9dcb5713dafc7be42f2f9d1116982bba13cf",
+  "partialRemovedAt": "2026-10-04T23:44:12.765Z",
+  "recoveredEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1UGN3zrEVy-verified.json"
+}

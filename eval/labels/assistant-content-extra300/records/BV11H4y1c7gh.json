@@ -1,0 +1,142 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 1,
+    "inputLineSha256": "72f5e1918725ba86f8d89be0e4155de8741d22b166396e9c8c309b8be3fd6607",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV11H4y1c7gh-1621497482.json",
+    "acquisitionSha256": "51d97fd0544a3d4623dd6005c59c040dfaf0bf119b45a1b978fc7b20f39b17d3",
+    "sourceUrl": "https://www.bilibili.com/video/BV11H4y1c7gh/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV11H4y1c7gh.json",
+    "transcriptSha256": "b1040b960152f674c64ac34a38b74d48c3bfb4e1351ebf495cc6fa3b27aaf04f"
+  },
+  "record": {
+    "bvid": "BV11H4y1c7gh",
+    "cid": 1621497482,
+    "duration": 1451,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "按时间梳理《哈利波特与混血王子》暑假、对角巷购物、列车、开学和首堂魔药课的原著细节，比较电影改编删减；韦斯莱商店等虚构商品均属剧情解说，中途借黑科技转入曼迪米诺地尔生发产品推销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 473.84,
+        "end": 540.2,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从说到这里要介绍自己使用两年的生发黑科技转入曼迪米诺地尔，连续介绍新版泡沫剂功效与浓度、个人使用经历、改进体验和置顶购买链接；结束后返回哈利在双胞胎商店购物的原著情节。",
+        "evidence": [
+          {
+            "from": 470.64,
+            "to": 472.92,
+            "text": "这些装备可以说是能在这特殊时期"
+          },
+          {
+            "from": 472.92,
+            "to": 473.84,
+            "text": "救命的黑科技了"
+          },
+          {
+            "from": 473.84,
+            "to": 474.36,
+            "text": "说到这里"
+          },
+          {
+            "from": 474.36,
+            "to": 476.12,
+            "text": "今天小粉就不得不向大家介绍"
+          },
+          {
+            "from": 476.12,
+            "to": 478.14,
+            "text": "我用了两年的生发黑科技"
+          },
+          {
+            "from": 478.14,
+            "to": 479.28,
+            "text": "曼迪米诺地尔"
+          },
+          {
+            "from": 488.26,
+            "to": 489.98,
+            "text": "推出第二代泡沫机型"
+          },
+          {
+            "from": 496.2,
+            "to": 498.12,
+            "text": "药物累积是溶液的两倍以上"
+          },
+          {
+            "from": 514.2,
+            "to": 515.679,
+            "text": "给我开了曼迪的米诺地尔丁"
+          },
+          {
+            "from": 527.56,
+            "to": 530,
+            "text": "这次曼迪更新的泡沫板吸收就很快"
+          },
+          {
+            "from": 531.28,
+            "to": 532.64,
+            "text": "而且里面不加丙二醇"
+          },
+          {
+            "from": 538.38,
+            "to": 540.2,
+            "text": "购买链接我放在评论区置顶啦"
+          },
+          {
+            "from": 540.2,
+            "to": 542.26,
+            "text": "因为harry是这店的天使投资人"
+          }
+        ],
+        "startUncertainty": [
+          473.84,
+          473.84
+        ],
+        "endUncertainty": [
+          540.2,
+          540.2
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 473.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 540.2,
+        "end": 1296.9,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1297.92,
+        "end": 1449.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 989,
+      "firstIndex": 0,
+      "lastIndex": 988,
+      "allRowsRead": true
+    }
+  }
+}

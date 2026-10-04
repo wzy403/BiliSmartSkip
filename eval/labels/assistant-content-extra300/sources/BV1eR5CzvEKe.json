@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1eR5CzvEKe",
+  "cid": 29538453942,
+  "title": "朝鲜，进入小康社会了？（中）",
+  "duration": 1385,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:14:24.354Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:10.705Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 88,
+    "inputLineSha256": "b86f6e9ca1a9b75b5664d30a324798bd474bd42eebafdbe332dee2a6175b49fb",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1eR5CzvEKe-29538453942.json",
+    "acquisitionSha256": "a32af7432d952cde27f5148bc4512b2834f342a6c581102ad6b482870ae99f3d",
+    "sourceUrl": "https://www.bilibili.com/video/BV1eR5CzvEKe/?p=1"
+  }
+}

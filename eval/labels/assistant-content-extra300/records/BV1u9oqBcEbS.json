@@ -1,0 +1,167 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 241,
+    "inputLineSha256": "717826f7c16117af08ed76b1e2d06e02620a7b519d8455a73a9c5b37806b5bfa",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1u9oqBcEbS-38086119249.json",
+    "acquisitionSha256": "4733ca974dd4a5143be70914495190a0c5e99a631773ea88028d49cc6f9106dd",
+    "sourceUrl": "https://www.bilibili.com/video/BV1u9oqBcEbS/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1u9oqBcEbS.json",
+    "transcriptSha256": "87b9d0c706932f67f25e962c87c2e3d9fa6d4d01c8c539b7ece96ad0ed6c52b9"
+  },
+  "record": {
+    "bvid": "BV1u9oqBcEbS",
+    "cid": 38086119249,
+    "duration": 902,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "FGO 主线奏章四攻略：先说明开放条件、纪念奖励及尺阶支援，再逐关说明卡莲、戈尔贡姐妹、天使、阿育王、麻婆、莉莉丝和加拉哈德战的机制、编队与通关操作。中途以稳定不翻车转入萌牙冲牙器长期推荐、试用退货、口腔清洁、价格优惠及售后广告，结束后明确回到最终战。游戏角色、卡池和奖励属于攻略语境。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 507.06,
+        "end": 643.52,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从稳定不翻车的铺垫接萌牙冲牙器，称长期甲方，讲清洁效果、两型号券后价格、31天试用、保修和评论区领券下单；整段独立于游戏关卡攻略，至放心入手就好收尾。",
+        "startUncertainty": [
+          507.06,
+          507.06
+        ],
+        "endUncertainty": [
+          643.52,
+          643.52
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 507.06,
+            "to": 508.26,
+            "text": "说到稳定不翻车"
+          },
+          {
+            "from": 508.26,
+            "to": 510.26,
+            "text": "怎么能不用上萌芽家的冲牙器呢"
+          },
+          {
+            "from": 510.26,
+            "to": 512.16,
+            "text": "我从22年开始就推荐这款"
+          },
+          {
+            "from": 519.799,
+            "to": 522.239,
+            "text": "也让我有了这么一个稳定的超级老甲方"
+          },
+          {
+            "from": 532.08,
+            "to": 535.24,
+            "text": "up主带货是不是单纯恰饭产品根本不靠谱"
+          },
+          {
+            "from": 546.2,
+            "to": 547.58,
+            "text": "直接给到31天"
+          },
+          {
+            "from": 552.1,
+            "to": 552.7,
+            "text": "无压力退"
+          },
+          {
+            "from": 594.84,
+            "to": 596,
+            "text": "萌牙家这款冲牙器"
+          },
+          {
+            "from": 611.88,
+            "to": 614.24,
+            "text": "性价比拉满券后只要179"
+          },
+          {
+            "from": 616.92,
+            "to": 618.28,
+            "text": "券后也才209"
+          },
+          {
+            "from": 620.24,
+            "to": 621.64,
+            "text": "31天免费试用"
+          },
+          {
+            "from": 622.92,
+            "to": 624.98,
+            "text": "两年内坏了都能直接免费换新"
+          },
+          {
+            "from": 636.46,
+            "to": 639.26,
+            "text": "感兴趣的小伙伴记得先去评论区领专属优惠券"
+          },
+          {
+            "from": 639.26,
+            "to": 642.32,
+            "text": "再下单券后全网低价买亏随时退差价"
+          },
+          {
+            "from": 642.32,
+            "to": 643.52,
+            "text": "放心入手就好"
+          },
+          {
+            "from": 643.52,
+            "to": 645.4,
+            "text": "那么最后就是来介绍下最终战"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.02,
+        "end": 92.1,
+        "reason": "实际字幕覆盖的活动说明、关卡机制与通关攻略。"
+      },
+      {
+        "start": 94.72,
+        "end": 249.84,
+        "reason": "实际字幕覆盖的活动说明、关卡机制与通关攻略。"
+      },
+      {
+        "start": 250.16,
+        "end": 489.04,
+        "reason": "实际字幕覆盖的活动说明、关卡机制与通关攻略。"
+      },
+      {
+        "start": 490.12,
+        "end": 507.06,
+        "reason": "实际字幕覆盖的活动说明、关卡机制与通关攻略。"
+      },
+      {
+        "start": 643.52,
+        "end": 901.4,
+        "reason": "实际字幕覆盖的最终战操作、总结与频道关注。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "开头 0–3.02 秒及结尾 901.4–902 秒无字幕，保留未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 508,
+      "firstIndex": 0,
+      "lastIndex": 507,
+      "allRowsRead": true
+    }
+  }
+}

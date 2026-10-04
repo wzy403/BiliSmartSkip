@@ -1,0 +1,294 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles-and-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 5,
+    "inputLineSha256": "94e9e3d66c3cadf7dc198a5c603163ff372599fe66ac18b8895abf73efbef40b",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV11QRrBcEp7-38097915056.json",
+    "acquisitionSha256": "996e2d426609c326200b169ef17c6d6a071f947c2dbc2d3c3dabd4e9614a2408",
+    "sourceUrl": "https://www.bilibili.com/video/BV11QRrBcEp7/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV11QRrBcEp7.json",
+    "transcriptSha256": "17ef9bc0f4d6acb6d698da3e55b8fe9d94e5983db3da74b2e01dd279eced085f",
+    "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV11QRrBcEp7.mp4",
+    "mediaSha256": "e0be85ab9145e415fccd8983752e37c0acb90c13720ea0e3433a0efd7558ce9f",
+    "mediaVerificationFile": "eval/labels/assistant-content-extra300/acquisition/media/BV11QRrBcEp7-verified.json",
+    "mediaVerificationSha256": "05471dbc0d1981c10a1b503b6d6b06033a8c76109f99a6e4d7ac06edb3495000"
+  },
+  "record": {
+    "bvid": "BV11QRrBcEp7",
+    "cid": 38097915056,
+    "duration": 323,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "东北街头购买并品尝泰国打抛饭、空心菜与妈妈面，讨论做法、价格和口味；等餐时以同行者肩膀劳累为引子插入妙界A9按摩仪的母亲节推销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 110.48,
+        "end": 169.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从莉莉劳累引出随身按摩仪，连续介绍揉捶、热敷、送母亲礼盒、领券底价和售后，到全家健康祝愿收尾；与街头美食主题独立，应完整跳过。 字幕前一行止于103.92秒，缺口内是否已有广告画面未核验。",
+        "evidence": [
+          {
+            "from": 100.42,
+            "to": 103.92,
+            "text": "16第16回来的都购买"
+          },
+          {
+            "from": 110.48,
+            "to": 112.76,
+            "text": "这都给莉莉整累了"
+          },
+          {
+            "from": 112.76,
+            "to": 114.2,
+            "text": "还好我随身携带妙计"
+          },
+          {
+            "from": 121.94,
+            "to": 124.14,
+            "text": "有底价小礼盒都给兄弟们准备好了"
+          },
+          {
+            "from": 135.82,
+            "to": 137.66,
+            "text": "配上每分钟1200次的捶打"
+          },
+          {
+            "from": 159.36,
+            "to": 160.8,
+            "text": "而且妙界都老朋友了"
+          },
+          {
+            "from": 167.24,
+            "to": 169.3,
+            "text": "在一个全家都健健康康的"
+          },
+          {
+            "from": 169.3,
+            "to": 171.23,
+            "text": "卖相挺好啊"
+          }
+        ],
+        "startUncertainty": [
+          103.92,
+          110.48
+        ],
+        "endUncertainty": [
+          169.3,
+          169.3
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 10.92,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 14.26,
+        "end": 16.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 19.7,
+        "end": 32.54,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 34.6,
+        "end": 38.31,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 39.03,
+        "end": 45.42,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 45.86,
+        "end": 53.04,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 56.28,
+        "end": 59.56,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 68.14,
+        "end": 69.38,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 70.66,
+        "end": 72.58,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 75.44,
+        "end": 77.16,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 78.16,
+        "end": 82.69,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 83.05,
+        "end": 90.97,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 91.8,
+        "end": 96.92,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 100.42,
+        "end": 103.92,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 169.3,
+        "end": 171.23,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 214.32,
+        "end": 216.16,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 217.74,
+        "end": 220.14,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 223.24,
+        "end": 225.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 231.84,
+        "end": 236.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 247.28,
+        "end": 249.12,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 251.98,
+        "end": 255.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 258.8,
+        "end": 271.95,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 272.47,
+        "end": 288.99,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 289.69,
+        "end": 291.81,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 293.09,
+        "end": 314.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 315.2,
+        "end": 317.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 318.24,
+        "end": 322.06,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；全文98行字幕已读并有独立二审；本轮实际查看168–218秒每2秒26帧，核实43.09秒字幕缺口为炒空心菜正文。",
+      "仅补看上述抽帧，不是连续观看全片或逐帧审核，未听取音频；其他未覆盖的纯画面仍受字幕和有限抽帧限制。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 98,
+      "firstIndex": 0,
+      "lastIndex": 97,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "assistant-extra300-root",
+    "fullTranscriptRead": true,
+    "subtitleRows": 98,
+    "decision": "同意110.48–169.3秒广告范围；保留103.92–110.48秒间隙边界不确定性。"
+  },
+  "visualObservations": [
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV11QRrBcEp7/post-ad-gap/frames.json",
+      "framesManifestSha256": "92e650de9f893a5b5563497c566b33eb2e14a5f1bca1e7115ad8184e424f3b7d",
+      "framesViewed": 26,
+      "times": [
+        168.0,
+        170.0,
+        172.0,
+        174.0,
+        176.0,
+        178.0,
+        180.0,
+        182.0,
+        184.0,
+        186.0,
+        188.0,
+        190.0,
+        192.0,
+        194.0,
+        196.0,
+        198.0,
+        200.0,
+        202.0,
+        204.0,
+        206.0,
+        208.0,
+        210.0,
+        212.0,
+        214.0,
+        216.0,
+        218.0
+      ],
+      "observation": "实际查看168–218秒26帧：168秒妙界广告末句，170秒恢复展示打抛饭；172–214秒为热锅倒油、蒜辣椒、空心菜翻炒调味及出锅，216秒成品、218秒接妈妈面。171.23–214.32字幕空档是主题烹饪过程，不是新增广告。"
+    }
+  ],
+  "gapVerification": {
+    "reviewer": "extra300_content_001_100",
+    "gaps": [
+      {
+        "from": 171.23,
+        "to": 214.32,
+        "decision": "non_ad/keep，空心菜烹饪完整过程"
+      }
+    ]
+  }
+}

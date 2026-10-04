@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1gGb8zZEme",
+  "cid": 31661817876,
+  "title": "既防超速又防龟速，简直天才设计",
+  "duration": 377,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:01.594Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:26.760Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 102,
+    "inputLineSha256": "4e9d9c522950f660426f31e0669e84b77bd938cac646a58e78fc92f5c28e4501",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1gGb8zZEme-31661817876.json",
+    "acquisitionSha256": "40d7b119440635b43b44d78e17f47186f4ce034623166455a5475a9d71bca38d",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gGb8zZEme/?p=1"
+  }
+}

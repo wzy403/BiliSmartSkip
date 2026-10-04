@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1JjyEB8ESn",
+  "cid": 34107359283,
+  "title": "外国吃播真的好可怜啊",
+  "duration": 238,
+  "desc": "比如,在羊磴,创办“土而奇”艺术乡场这样一年一度的本土艺术节;在酉阳,打造乡村艺术季,把艺术创作植入农事节律,令其成为村民年年期盼的新民俗;在柳荫镇,充分运用数字技术拓展乡村视野",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:44.693Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:18:38.865Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 137,
+    "inputLineSha256": "cc34277b2623f1e154d7800c36d6a3db4896d7c203cf0ec09de123024ab98345",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1JjyEB8ESn-34107359283.json",
+    "acquisitionSha256": "a4ef8de621a1641d9d05ce8b1a27af2dea38a1de79bffa0d3e129c5268d22ef8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JjyEB8ESn/?p=1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1XVpjemEw9",
+  "cid": 25798708085,
+  "title": "当你第一步就看错了食谱，抽象也就开始了..",
+  "duration": 634,
+  "desc": "新手烘焙真的不需要什么节目效果，毕竟本身就是节目效果",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:33.326Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:33:36.958Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 277,
+    "inputLineSha256": "ae9e5aa8055cfc188cde1e1c32876ad92ab9250055ffe50c9b538a22f0686f88",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1XVpjemEw9-25798708085.json",
+    "acquisitionSha256": "d86636ec922c5c9870b8efa78dff941bae7d0622581c753b48fbafaa4c04b843",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XVpjemEw9/?p=1"
+  }
+}

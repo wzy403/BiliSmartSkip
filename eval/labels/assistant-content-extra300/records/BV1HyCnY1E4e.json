@@ -1,0 +1,123 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 118,
+    "inputLineSha256": "c85ab182a32aada557963942559a650623169e642085c32b402455f512984eaf",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1HyCnY1E4e-27556710715.json",
+    "acquisitionSha256": "b78a749ade4f8d08ee089bb8f15d40608739287485690f789ea36f8b01161399",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HyCnY1E4e/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1HyCnY1E4e.json",
+    "transcriptSha256": "391d526a01cabdbb92ba556cb9ee547639b0646a35fee788bad8f86fff0b7cec"
+  },
+  "record": {
+    "bvid": "BV1HyCnY1E4e",
+    "cid": 27556710715,
+    "duration": 833,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "《熊出没》打嗝故事：熊二吃多后打嗝，熊大与蹦蹦先后尝试惊吓、倒立、吸气、催眠和烧草药，间接干扰光头强砍树，最后战斗后不再打嗝并附“无科学依据”的提醒。后接歌曲与少儿频道口号，尾段明显缺大量字幕；现有剧情里的治疗办法和烧草药属于故事，不是商品推销。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 474.08,
+        "end": 503.35,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "烧草药治打嗝的说法由动画角色提出，紧接森林防火制止，并在剧情结尾明确无科学依据；属于情节与安全提醒，没有商品品牌、销售利益或购买号召。",
+        "startUncertainty": [
+          474.08,
+          474.08
+        ],
+        "endUncertainty": [
+          503.35,
+          503.35
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 474.08,
+            "to": 477.26,
+            "text": "传说中治疗打嗝最最古老"
+          },
+          {
+            "from": 477.26,
+            "to": 480.37,
+            "text": "最最有用的方法就是烧草药"
+          },
+          {
+            "from": 481.22,
+            "to": 483.22,
+            "text": "烧草药没错"
+          },
+          {
+            "from": 483.22,
+            "to": 485.84,
+            "text": "只要闻一下烧草药的味道"
+          },
+          {
+            "from": 485.84,
+            "to": 488.46,
+            "text": "打嗝的症状立马就会消失的"
+          },
+          {
+            "from": 492.089,
+            "to": 494.049,
+            "text": "哎我好不容易弄回来的火"
+          },
+          {
+            "from": 494.049,
+            "to": 497.45,
+            "text": "把森林防火时刻不能忘"
+          },
+          {
+            "from": 497.45,
+            "to": 499.39,
+            "text": "要是点着了树叶什么的"
+          },
+          {
+            "from": 499.39,
+            "to": 503.35,
+            "text": "咱们的森林可就毁了呀"
+          },
+          {
+            "from": 591.87,
+            "to": 595.94,
+            "text": "看来光头强才是治疗大哥的最佳秘方啊"
+          },
+          {
+            "from": 595.94,
+            "to": 599.64,
+            "text": "神父本集故事并无科学依据"
+          },
+          {
+            "from": 599.64,
+            "to": 602.48,
+            "text": "小朋友千万不要相信哦"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "字幕619.89–640.48、669.54–720.78、726.58–778.7秒存在空档，最后781.44–833秒亦无字幕，片尾超过两分钟只有少量歌曲/频道口号，必须补看或听后确认有无节目间宣传。",
+      "全文221行已读，未实际观看画面；不能把动画剧情内未见商品推销等同全片无广告。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 221,
+      "firstIndex": 0,
+      "lastIndex": 220,
+      "allRowsRead": true
+    }
+  }
+}

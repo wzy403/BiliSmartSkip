@@ -1,0 +1,303 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 135,
+    "inputLineSha256": "2ab0eebb848fc6d6411889b82b61b03c0bfe17422a1c75307c8d03a14dc9cd38",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1JGx9zNEU6-32904316301.json",
+    "acquisitionSha256": "a75ef1206677061662dd6df47f0122ba79beee406561d68a747d43fc077f0724",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JGx9zNEU6/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1JGx9zNEU6.json",
+    "transcriptSha256": "81021538334de2b45a35455071bd1693a94290cbec1e209549a858d8a5038b16"
+  },
+  "record": {
+    "bvid": "BV1JGx9zNEU6",
+    "cid": 32904316301,
+    "duration": 1512,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文比较华硕A14与G14游戏本，并穿插MacBook屏幕/音响参照：开箱、机身接口、屏幕、烤机温度、键盘触控板、内存显存限制、游戏帧率与噪声、CPU测试、音频频响、摄像头、拆机升级、续航及价格取舍。多处真实缺点和测试局限明确，最后促销价格比较仍是购买决策的评测结论，应保留。两处Patreon支持号召是独立频道资金推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 233.77,
+        "end": 245.549,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "在准备开机时明确叫停，因无赞助商转而要求通过下方链接订阅Patreon支持频道，与电脑测试无关，随后“现在开机”返回主题。",
+        "startUncertainty": [
+          233.77,
+          236.709
+        ],
+        "endUncertainty": [
+          245.549,
+          245.549
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 232.97,
+            "to": 233.77,
+            "text": "我们打开它吗"
+          },
+          {
+            "from": 233.77,
+            "to": 236.709,
+            "text": "安迪，不，不，先等等"
+          },
+          {
+            "from": 236.709,
+            "to": 238.569,
+            "text": "我需要告诉你我们的Patreon"
+          },
+          {
+            "from": 238.569,
+            "to": 239.869,
+            "text": "因为我们没有赞助商"
+          },
+          {
+            "from": 239.869,
+            "to": 241.069,
+            "text": "去下方链接"
+          },
+          {
+            "from": 241.069,
+            "to": 241.409,
+            "text": "订阅"
+          },
+          {
+            "from": 241.409,
+            "to": 243.389,
+            "text": "这是支持这个频道最好的方式"
+          },
+          {
+            "from": 243.389,
+            "to": 245.549,
+            "text": "让我们继续制作这些视频"
+          },
+          {
+            "from": 245.549,
+            "to": 247.26,
+            "text": "现在开机"
+          }
+        ]
+      },
+      {
+        "start": 1507.91,
+        "end": 1511.06,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "在正常点赞订阅/内容建议结语之后，单独再次号召订阅Patreon，最后与告别同处一字幕行，整行保留为广告召回边界。",
+        "startUncertainty": [
+          1507.91,
+          1507.91
+        ],
+        "endUncertainty": [
+          1507.91,
+          1512
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1494.939,
+            "to": 1498.35,
+            "text": "如果你点个赞订阅 并在下方告诉我们"
+          },
+          {
+            "from": 1498.35,
+            "to": 1500.09,
+            "text": "你希望我们如何拍摄这些视频"
+          },
+          {
+            "from": 1504.61,
+            "to": 1507.91,
+            "text": "天空任你飞 时间无限"
+          },
+          {
+            "from": 1507.91,
+            "to": 1511.06,
+            "text": "当然订阅我们的Patreon 并祝你度过美好一天"
+          }
+        ]
+      },
+      {
+        "start": 1429.22,
+        "end": 1494.939,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "对两款主题产品的常规价、折扣价与性能/屏幕/音响增益作有条件比较，并指出价差过大不划算，是整篇实测的选购结论；不能只因价格、促销与推荐而标应跳广告。",
+        "startUncertainty": [
+          1429.22,
+          1429.22
+        ],
+        "endUncertainty": [
+          1494.939,
+          1494.939
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1429.22,
+            "to": 1431.82,
+            "text": "你应该把钱花在哪个上面呢"
+          },
+          {
+            "from": 1431.82,
+            "to": 1437.18,
+            "text": "我们这里这款A14的配置价格是1700美元"
+          },
+          {
+            "from": 1437.18,
+            "to": 1438.7,
+            "text": "这并不便宜"
+          },
+          {
+            "from": 1443.34,
+            "to": 1446.88,
+            "text": "价格是2400美元"
+          },
+          {
+            "from": 1450.05,
+            "to": 1451.27,
+            "text": "不过我不确定"
+          },
+          {
+            "from": 1460.909,
+            "to": 1464.28,
+            "text": "G14这款配置正在促销价2000美元"
+          },
+          {
+            "from": 1464.28,
+            "to": 1467.909,
+            "text": "我真的认为双倍内存更快"
+          },
+          {
+            "from": 1467.909,
+            "to": 1471.429,
+            "text": "CPU更快 GPU更好 屏幕更佳 音响更优"
+          },
+          {
+            "from": 1471.429,
+            "to": 1473.489,
+            "text": "花400美元是值得的"
+          },
+          {
+            "from": 1473.489,
+            "to": 1476.08,
+            "text": "但花800美元"
+          },
+          {
+            "from": 1476.08,
+            "to": 1478.25,
+            "text": "就不太划算了"
+          },
+          {
+            "from": 1478.25,
+            "to": 1479.89,
+            "text": "如果你要在两者之间选择"
+          },
+          {
+            "from": 1479.89,
+            "to": 1483.59,
+            "text": "当然要关注促销活动 看哪个更划算"
+          },
+          {
+            "from": 1483.59,
+            "to": 1486.21,
+            "text": "但如果你想买A14"
+          },
+          {
+            "from": 1487.95,
+            "to": 1490.35,
+            "text": "因为我已经使用了两三个月"
+          },
+          {
+            "from": 1490.35,
+            "to": 1493.339,
+            "text": "它真的非常出色"
+          },
+          {
+            "from": 1493.339,
+            "to": 1494.939,
+            "text": "就像它会非常棒一样"
+          }
+        ]
+      },
+      {
+        "start": 1298.47,
+        "end": 1303.06,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "拆机现场插话向潜在工具赞助商开玩笑招揽赞助，没有向观众推销具体产品，也未承诺产品利益；保留评测中的简短互动。字幕工具名称疑似误译，不据此认定现有赞助。",
+        "startUncertainty": [
+          1298.47,
+          1298.47
+        ],
+        "endUncertainty": [
+          1303.06,
+          1305.46
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1295.73,
+            "to": 1296.59,
+            "text": "嗯"
+          },
+          {
+            "from": 1296.59,
+            "to": 1298.35,
+            "text": "我们来揭晓答案"
+          },
+          {
+            "from": 1298.47,
+            "to": 1298.87,
+            "text": "嘿"
+          },
+          {
+            "from": 1298.87,
+            "to": 1299.35,
+            "text": "我来修好了"
+          },
+          {
+            "from": 1299.35,
+            "to": 1301.51,
+            "text": "如果你想赞助科技频道"
+          },
+          {
+            "from": 1301.7,
+            "to": 1303.06,
+            "text": "我们没有任何竞品产品"
+          },
+          {
+            "from": 1305.46,
+            "to": 1306.78,
+            "text": "希望这是角落里的那个"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "采集字幕为中文翻译，个别型号/术语存在误译；音响示范小段主要是音乐，字幕不能替代实际试听。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 581,
+      "firstIndex": 0,
+      "lastIndex": 580,
+      "allRowsRead": true
+    }
+  }
+}

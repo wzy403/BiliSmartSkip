@@ -1,0 +1,30 @@
+{
+  "bvid": "BV1M1421t7fr",
+  "cid": 1619353657,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1M1421t7fr/?p=1",
+  "checkedAt": "2026-10-04T23:41:00.570Z",
+  "responseSha256": "59c6252f4aba10e7836406fe8fbd8bdec828e09e0dc221f73f408e5b6dc854d4",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1M1421t7fr.mp4",
+  "sha256": "f3337bc2f68ef29632bacaf17d2edfb4f1c2223e6ae96e29defeab5795b1e5dc",
+  "bytes": 83091544,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac"
+      }
+    ],
+    "format": {
+      "duration": "1092.927833"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+}

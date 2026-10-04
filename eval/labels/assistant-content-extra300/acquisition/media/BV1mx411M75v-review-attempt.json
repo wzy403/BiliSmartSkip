@@ -1,0 +1,18 @@
+{
+  "bvid": "BV1mx411M75v",
+  "inputLine": 170,
+  "attemptedAt": "2026-10-04T23:36:35.922Z",
+  "method": "download-public-media.cjs original BV/CID/page check",
+  "status": "blocked-identity-mismatch",
+  "error": "Original BV/CID/page mismatch",
+  "downloaded": false,
+  "visualInspectionPerformed": false,
+  "resolution": {
+    "cause": "Original helper restricted playback to page 1; original CID was verified on page 10 of the same BV.",
+    "originalCid": 25427412,
+    "matchedPage": 10,
+    "evidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1mx411M75v-verified.json",
+    "identityChanged": false,
+    "subsequentVisualReviewPerformed": true
+  }
+}

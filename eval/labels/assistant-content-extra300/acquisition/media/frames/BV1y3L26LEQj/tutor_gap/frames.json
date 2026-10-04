@@ -1,0 +1,137 @@
+[
+  {
+    "time": 62.029,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-001.jpg",
+    "sha256": "bc6354f914143a2c41bf234276fbbfd96ced6d4d1b576316fec7ef3f38601fde"
+  },
+  {
+    "time": 64.031,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-002.jpg",
+    "sha256": "5c05390e0c9b973bc1929250855d46df438dc61d49f71409f13b6f7da95a1374"
+  },
+  {
+    "time": 66.033,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-003.jpg",
+    "sha256": "38fb0d4cfe2c26dccb78198b68b1dcc7507ed16a8043e2344bc863a94094155a"
+  },
+  {
+    "time": 68.035,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-004.jpg",
+    "sha256": "c53babfd34bfeb4d621634096e9819c5bcdee0e6db7310fcf45aed920b4d4383"
+  },
+  {
+    "time": 70.037,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-005.jpg",
+    "sha256": "367c0a7051735ff1400d3e5880143db516e345c6b0db7cc422d2e96404498441"
+  },
+  {
+    "time": 72.039,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-006.jpg",
+    "sha256": "13a96c6f6226f77d6ee84a3d0affa97f2560cff85cbeb6732d5c7d904137d39f"
+  },
+  {
+    "time": 74.041,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-007.jpg",
+    "sha256": "a4fc2a7d48bcb9b88b65025f9a1f801cc2bab013e9debc7929d913fae76ffa8d"
+  },
+  {
+    "time": 76.043,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-008.jpg",
+    "sha256": "9ec8af23100fd266c0135e32f04eeeb97c1ec79be41d68dc2fd51400eccfe096"
+  },
+  {
+    "time": 78.045,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-009.jpg",
+    "sha256": "aebcc2727df687b27f7b2c8169bbb9c9e1c3d842c9ccc256899dfd4aa3200303"
+  },
+  {
+    "time": 80.047,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-010.jpg",
+    "sha256": "69d63b0be1290ad057323b5d3baf05f8793c442d5309d192cfe4852717eea5ac"
+  },
+  {
+    "time": 82.049,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-011.jpg",
+    "sha256": "148e8635314bb043b2a96cabf256c4a8d245660aa5afe65b0c3c3a3a389db507"
+  },
+  {
+    "time": 84.051,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-012.jpg",
+    "sha256": "4c86b8fcef0acc8f3cf2904b559e7cd5191308d9884c06cc1cda3a0c2e9c42b6"
+  },
+  {
+    "time": 86.053,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-013.jpg",
+    "sha256": "6bdfd3afa56b46ef38ce3d0f6eafd06cbd85de95d20aa7a243ff8ced18f7a7e8"
+  },
+  {
+    "time": 88.055,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-014.jpg",
+    "sha256": "87931a49cf1980d22026807e521f16182d129658a8a2153477822c22abe9e6ee"
+  },
+  {
+    "time": 90.057,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-015.jpg",
+    "sha256": "371dd4109d72de76ac0e3d53491978da3580a98aaca07f7dac3484a1fd6963ec"
+  },
+  {
+    "time": 92.059,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-016.jpg",
+    "sha256": "06d3bb89dfc8d36c031ade525fc62de44c5de29892ad7b95cf6026055a04ff0b"
+  },
+  {
+    "time": 94.061,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-017.jpg",
+    "sha256": "f37b22cd7bab1c677545a5a620310f9799fb635937c3087d69174455c26985e0"
+  },
+  {
+    "time": 96.063,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-018.jpg",
+    "sha256": "023b0d2c01a3b22384c35912833d79f0d3fd1029179427c612a708e3ff35432a"
+  },
+  {
+    "time": 98.065,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-019.jpg",
+    "sha256": "4fb9799abcffc6794d9ac1eaaa4e810fd815aec24689534a69ff8d8204011a50"
+  },
+  {
+    "time": 100.067,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-020.jpg",
+    "sha256": "f58476b692a19e9c0d695e7056ac8c4a884ddd91b63b171672e8977b866a3cf3"
+  },
+  {
+    "time": 102.069,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-021.jpg",
+    "sha256": "09ec6224d21fed9d6243306ae97e2004028f2938073f5c756225fd5ea27d244c"
+  },
+  {
+    "time": 104.071,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-022.jpg",
+    "sha256": "99556c463915c5ef67709e834e5cf07a3238d41122d7c4efc88961064d7664f1"
+  },
+  {
+    "time": 106.073,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-023.jpg",
+    "sha256": "69ad9c9a97af7fc7d31b742fe1eb9d9f5dc68df96a228a5007c68d11ee8544ac"
+  },
+  {
+    "time": 108.075,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-024.jpg",
+    "sha256": "33f470165db7a3c6bbf6eceed029c4b6fca5f239585a1ece1bb6f87ee3a0195d"
+  },
+  {
+    "time": 110.077,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-025.jpg",
+    "sha256": "9aa6accf120e6fda82c4eb0746a3befff1f5a2647f5cc090ce113d870d8eb91f"
+  },
+  {
+    "time": 112.079,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-026.jpg",
+    "sha256": "d64926f6bb267f6b5a6785ec0183870cb245903df17f10617a2d234aa0e53027"
+  },
+  {
+    "time": 114.081,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1y3L26LEQj/tutor_gap/frame-027.jpg",
+    "sha256": "10899ac72c7f80728f2241709f65c6ce6cca8df330f53d650390349ebbfdd177"
+  }
+]

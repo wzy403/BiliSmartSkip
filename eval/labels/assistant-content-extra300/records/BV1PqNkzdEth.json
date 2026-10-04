@@ -1,0 +1,250 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 194,
+    "inputLineSha256": "01d4ff556038eafcfce4872a6d4ea5a44cd0d232f904c079bd6da35f50acdcee",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1PqNkzdEth-30611867081.json",
+    "acquisitionSha256": "10ccd8cb2bc215ceaecf26866aa49b3b46dd143d6d28803e3525eae0f6066ed7",
+    "sourceUrl": "https://www.bilibili.com/video/BV1PqNkzdEth/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1PqNkzdEth.json",
+    "transcriptSha256": "fb26e057c3661a306b67ffd96f67e497b0fad389a190a08dcbc9e7aaaafdfc57"
+  },
+  "record": {
+    "bvid": "BV1PqNkzdEth",
+    "cid": 30611867081,
+    "duration": 128,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "工地重逢短剧：国企项目管理同学炫耀大学背景与4000元月薪，得知工人同学日薪五六百后嫉妒，最终仍需去处理现场琐事。中间以手机价格比较插入转转二手平台广告，前后买同款手机的对话又是后续嫉妒剧情的触发因素。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 46.76,
+        "end": 48.2,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "‘你手机不错、挺贵的吧’既是转转推介铺垫，也是后续‘你看我用啥你买啥’嫉妒冲突的必要手机话题起点，广告性质明确但这两句剧情保留。",
+        "evidence": [
+          {
+            "from": 45.4,
+            "to": 46.76,
+            "text": "是大学生说的真对"
+          },
+          {
+            "from": 46.76,
+            "to": 47.6,
+            "text": "你手机不错"
+          },
+          {
+            "from": 47.6,
+            "to": 48.2,
+            "text": "挺贵的吧"
+          },
+          {
+            "from": 48.2,
+            "to": 49.36,
+            "text": "专件上买的不贵"
+          },
+          {
+            "from": 75.94,
+            "to": 76.6,
+            "text": "看我用啥"
+          },
+          {
+            "from": 76.6,
+            "to": 77.12,
+            "text": "你买啥"
+          }
+        ],
+        "startUncertainty": [
+          46.76,
+          46.76
+        ],
+        "endUncertainty": [
+          48.2,
+          48.2
+        ]
+      },
+      {
+        "start": 48.2,
+        "end": 63.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "对手机价格问题的答复转为完整商业口播：转转购买渠道、iPhone14 Pro价格、iPad和Pocket3、检验退货保修、搜索口令及优惠券。该连续平台推介可独立跳过；前面的询问和后面的‘真不错、我也整一个’保留，观众仍能理解手机攀比的剧情。整个广告46.76–67.14被分为保留铺垫、可跳推介和保留剧情收尾，未将铺垫误当无广告。",
+        "evidence": [
+          {
+            "from": 47.6,
+            "to": 48.2,
+            "text": "挺贵的吧"
+          },
+          {
+            "from": 48.2,
+            "to": 49.36,
+            "text": "专件上买的不贵"
+          },
+          {
+            "from": 49.36,
+            "to": 51.96,
+            "text": "这台九五新IPHONE14pro只要3728元"
+          },
+          {
+            "from": 51.96,
+            "to": 54.82,
+            "text": "相当于新机三指上边的IPAD和大疆POKET3"
+          },
+          {
+            "from": 54.82,
+            "to": 55.68,
+            "text": "价格也很实惠"
+          },
+          {
+            "from": 55.68,
+            "to": 57.22,
+            "text": "装这是专业的官方鉴手平台"
+          },
+          {
+            "from": 57.22,
+            "to": 59.54,
+            "text": "每个商品都经过工程师全面检验支持"
+          },
+          {
+            "from": 59.54,
+            "to": 61,
+            "text": "七天无理由退货和一年保修"
+          },
+          {
+            "from": 61,
+            "to": 62.1,
+            "text": "现在去赚点收口令"
+          },
+          {
+            "from": 62.1,
+            "to": 63.98,
+            "text": "大碗补贴还能领最高千元优惠券"
+          },
+          {
+            "from": 63.98,
+            "to": 64.66,
+            "text": "真不错"
+          }
+        ],
+        "startUncertainty": [
+          48.2,
+          48.2
+        ],
+        "endUncertainty": [
+          63.98,
+          63.98
+        ]
+      },
+      {
+        "start": 63.98,
+        "end": 67.14,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "‘真不错、等发工钱我也整一个’是广告的购买回应和收尾，也是直接引出管理同学看不起工人消费能力、后续攀比的必要剧情，应保留。",
+        "evidence": [
+          {
+            "from": 62.1,
+            "to": 63.98,
+            "text": "大碗补贴还能领最高千元优惠券"
+          },
+          {
+            "from": 63.98,
+            "to": 64.66,
+            "text": "真不错"
+          },
+          {
+            "from": 64.66,
+            "to": 65.62,
+            "text": "等下个月发工钱"
+          },
+          {
+            "from": 65.62,
+            "to": 67.14,
+            "text": "我也整一个兄弟啊"
+          },
+          {
+            "from": 67.14,
+            "to": 68.82,
+            "text": "一天能挣上100块钱吗"
+          },
+          {
+            "from": 68.82,
+            "to": 69.98,
+            "text": "还买这手机啊"
+          },
+          {
+            "from": 69.98,
+            "to": 71.86,
+            "text": "你说你脚踏实力一点不行吗"
+          },
+          {
+            "from": 71.86,
+            "to": 72.84,
+            "text": "非得嫉妒我"
+          },
+          {
+            "from": 75.94,
+            "to": 76.6,
+            "text": "看我用啥"
+          },
+          {
+            "from": 76.6,
+            "to": 77.12,
+            "text": "你买啥"
+          }
+        ],
+        "startUncertainty": [
+          63.98,
+          63.98
+        ],
+        "endUncertainty": [
+          67.14,
+          67.14
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.14,
+        "end": 5.54,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 6.7,
+        "end": 46.76,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 67.14,
+        "end": 125.709,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 85,
+      "firstIndex": 0,
+      "lastIndex": 84,
+      "allRowsRead": true
+    }
+  }
+}

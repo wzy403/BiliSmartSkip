@@ -1,0 +1,122 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 59,
+    "inputLineSha256": "08530c6b646ec2df71bf813bcd3991d43a2c161732d37f38de0a8c5a4627b50e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1bm421T75S-1565463305.json",
+    "acquisitionSha256": "9d4ea4f06c81e9afc786fb9ab64a2ba287b735d82f89c202211163c91f94fb53",
+    "sourceUrl": "https://www.bilibili.com/video/BV1bm421T75S/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1bm421T75S.json",
+    "transcriptSha256": "90798c2cc57b8856f2704859b4f74e58143310cd81767c0d420619f4ae94b887"
+  },
+  "record": {
+    "bvid": "BV1bm421T75S",
+    "cid": 1565463305,
+    "duration": 267,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "记录夫妻在沈阳洗浴中心洗澡、休息、吃自助餐及日常玩笑，预告五爱市场与烤肉行程；结尾以烤肉气味切入沐浴露和香体膏促销。前面洗浴服务、游戏与小度等提及均是旅行体验或人物互动。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 227.14,
+        "end": 265.92,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由烤肉后身上有味的需求铺垫进入出沫且优沐浴露及同品牌香体膏的成分、香型、除臭功效介绍，持续到淘宝搜同款及评论区行动号召，是旅行正文后可独立去掉的商品推介。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          227.14,
+          227.14
+        ],
+        "endUncertainty": [
+          265.92,
+          265.92
+        ],
+        "evidence": [
+          {
+            "from": 221.4,
+            "to": 224.52,
+            "text": "东北一年干出去400亿交易额的五爱批发市场"
+          },
+          {
+            "from": 224.52,
+            "to": 227.14,
+            "text": "以及生腌蟹免费无限畅吃的沈阳烤肉"
+          },
+          {
+            "from": 227.14,
+            "to": 228.86,
+            "text": "但吃完烤肉身上总有味儿"
+          },
+          {
+            "from": 229.5,
+            "to": 232.42,
+            "text": "咱们家不是有出沫且优氨基酸香氛沐浴露吗"
+          },
+          {
+            "from": 233.12,
+            "to": 234.76,
+            "text": "添加了29%的氨基酸"
+          },
+          {
+            "from": 239.42,
+            "to": 241.22,
+            "text": "那就再用上同品牌香体膏"
+          },
+          {
+            "from": 246.8,
+            "to": 249.32,
+            "text": "双全除臭技术从源头转化异味"
+          },
+          {
+            "from": 259.14,
+            "to": 261.5,
+            "text": "茶歇则是淡雅的柑橘加茶香"
+          },
+          {
+            "from": 262.58,
+            "to": 264.54,
+            "text": "心动的宝子可以上淘宝搜同款"
+          },
+          {
+            "from": 264.54,
+            "to": 265.92,
+            "text": "或戳评论区看看哦"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 4.32,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 7.1,
+        "end": 227.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 172,
+      "firstIndex": 0,
+      "lastIndex": 171,
+      "allRowsRead": true
+    }
+  }
+}

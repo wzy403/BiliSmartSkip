@@ -1,0 +1,184 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 127,
+    "inputLineSha256": "fde03346702898a3570a52ee5418b041692fc8b095fbdb1648d431a252e2c976",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1iW42197E6-1650433178.json",
+    "acquisitionSha256": "4c89950071f7cf9df13936b4c99c1f7008d24790d8e5df1611c5bc9c8fe62cc6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iW42197E6/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1iW42197E6.json",
+    "transcriptSha256": "ec66eaafa26756bd66737455fed8a5bad9501fc61253857bc0c76f455b1f7820"
+  },
+  "record": {
+    "bvid": "BV1iW42197E6",
+    "cid": 1650433178,
+    "duration": 937,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "俄乌沙盘战况口播，按库尔斯克、哈尔科夫、纽约/捷尔任斯克、红军村和赫尔松展开部队部署、推进和补给分析，末段回应观众评论。251.76秒把突破与持久作双关，转入持久安全套的情境铺垫、功能及优惠，331.34秒回到军事计划；结尾再次提醒优惠券。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 251.76,
+        "end": 331.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从“突破容易/想要持久”双关过渡，经明确飙车预警及使用情境进入安全套商品介绍、技术质量和优惠引流，全段可从战况分析中独立跳过；331.34秒恢复军事行动讨论。",
+        "startUncertainty": [
+          251.76,
+          255.56
+        ],
+        "endUncertainty": [
+          331.34,
+          331.34
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 248.48,
+            "to": 251.76,
+            "text": "然后中央突破直插库尔斯克核电站"
+          },
+          {
+            "from": 251.76,
+            "to": 253.32,
+            "text": "乌军想要突破容易"
+          },
+          {
+            "from": 253.32,
+            "to": 254.48,
+            "text": "但想要持久"
+          },
+          {
+            "from": 254.48,
+            "to": 255.56,
+            "text": "那就不一定了"
+          },
+          {
+            "from": 255.56,
+            "to": 256.56,
+            "text": "前方飙车预警"
+          },
+          {
+            "from": 282.66,
+            "to": 285.54,
+            "text": "而电影里的老师们似乎从来没有时间的烦恼"
+          },
+          {
+            "from": 285.54,
+            "to": 288.88,
+            "text": "今天就给大家揭秘老师们都在用的颜石神器"
+          },
+          {
+            "from": 288.88,
+            "to": 291.68,
+            "text": "它就是最近火爆全网的国货宝藏"
+          },
+          {
+            "from": 291.68,
+            "to": 294.68,
+            "text": "赤久延时快感套团队耗时两年"
+          },
+          {
+            "from": 300.86,
+            "to": 304.12,
+            "text": "并获得国家物理加实特征上市短短几个月"
+          },
+          {
+            "from": 314.16,
+            "to": 315.32,
+            "text": "它的质量也可以放心"
+          },
+          {
+            "from": 315.32,
+            "to": 318.86,
+            "text": "采用行业内高标准的马来西亚A加级乳胶"
+          },
+          {
+            "from": 322.12,
+            "to": 324.42,
+            "text": "这次杰森也给粉丝谈到了专属优惠"
+          },
+          {
+            "from": 324.42,
+            "to": 327.48,
+            "text": "大额优惠券100元买就送99元礼包"
+          },
+          {
+            "from": 327.48,
+            "to": 328.28,
+            "text": "数量有限"
+          },
+          {
+            "from": 328.28,
+            "to": 331.34,
+            "text": "想体验到腿软的家人们可以到评论区看看"
+          },
+          {
+            "from": 331.34,
+            "to": 332.96,
+            "text": "这是一个非常大胆的计划"
+          }
+        ]
+      },
+      {
+        "start": 928.67,
+        "end": 931.65,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "新闻/评论结束后单独重复同品牌评论区优惠券信息，随后正常道谢。",
+        "startUncertainty": [
+          928.67,
+          928.67
+        ],
+        "endUncertainty": [
+          931.65,
+          931.65
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 927.31,
+            "to": 928.67,
+            "text": "好的今天先讲到这"
+          },
+          {
+            "from": 928.67,
+            "to": 930.71,
+            "text": "评论区还有持久的优惠券可以领"
+          },
+          {
+            "from": 930.71,
+            "to": 931.65,
+            "text": "比平时优惠很多"
+          },
+          {
+            "from": 931.65,
+            "to": 932.59,
+            "text": "感谢大家的收看"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 510,
+      "firstIndex": 0,
+      "lastIndex": 509,
+      "allRowsRead": true
+    }
+  }
+}

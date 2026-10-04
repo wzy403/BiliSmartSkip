@@ -1,0 +1,140 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 300,
+    "inputLineSha256": "14956548ae670c16e117d6e8999fcd6979cdae85a13e7bcb4a709d64be21755d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1zzs7eqEDS-500001662865013.json",
+    "acquisitionSha256": "e28c85574b5c076191560545d645e37e4199f06c5ea5746fa0633a64124b30e6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zzs7eqEDS/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1zzs7eqEDS.json",
+    "transcriptSha256": "d6145d5ec59328346d41a6850f42d44eee6c143e6840c3c09d4d8b64fbcfe83e"
+  },
+  "record": {
+    "bvid": "BV1zzs7eqEDS",
+    "cid": 500001662865013,
+    "duration": 122,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解释2024年超级月亮和拍摄构图方法；由赏月吃月饼转入淘宝秒杀活动。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 30.08,
+        "end": 67.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "赏月少不了月饼是促销铺垫，包含月饼、餐饮咖啡优惠、代言活动、链接和抽奖，延续到囤货后顺便赏月的收尾；67.3秒恢复月球近地点科普。",
+        "startUncertainty": [
+          30.08,
+          30.08
+        ],
+        "endUncertainty": [
+          67.3,
+          67.3
+        ],
+        "evidence": [
+          {
+            "from": 30.08,
+            "to": 31.88,
+            "text": "那赏月怎么能少得了月饼"
+          },
+          {
+            "from": 31.88,
+            "to": 34.88,
+            "text": "现在淘宝正在进行淘宝秒杀省钱周活动"
+          },
+          {
+            "from": 36.2,
+            "to": 39.12,
+            "text": "就能将这款比比赞巧克力流心月饼带回家"
+          },
+          {
+            "from": 39.12,
+            "to": 40.88,
+            "text": "还有好多产品都有超值优惠"
+          },
+          {
+            "from": 40.88,
+            "to": 43.7,
+            "text": "比如四块钱就能拿下的麦当劳麦炫酷冰饮"
+          },
+          {
+            "from": 46.72,
+            "to": 49.84,
+            "text": "连九块九的瑞幸咖啡都能杀价到九块八毛一"
+          },
+          {
+            "from": 49.84,
+            "to": 52.8,
+            "text": "最近毛不易还官宣成为淘宝秒杀神关"
+          },
+          {
+            "from": 55.04,
+            "to": 57.74,
+            "text": "呼喊淘宝秒杀来帮你消消省钱的仇"
+          },
+          {
+            "from": 57.74,
+            "to": 60.06,
+            "text": "赶快点击视频框下组件或评论区"
+          },
+          {
+            "from": 60.06,
+            "to": 61.18,
+            "text": "置顶链接抢购吧"
+          },
+          {
+            "from": 61.18,
+            "to": 62.3,
+            "text": "还可以参与抽奖"
+          },
+          {
+            "from": 62.3,
+            "to": 63.66,
+            "text": "快去试试你的运气吧"
+          },
+          {
+            "from": 63.66,
+            "to": 64.54,
+            "text": "中秋快到了"
+          },
+          {
+            "from": 64.54,
+            "to": 65.82,
+            "text": "趁着优惠可以囤一波"
+          },
+          {
+            "from": 65.82,
+            "to": 67.3,
+            "text": "顺便欣赏超级月亮"
+          },
+          {
+            "from": 67.3,
+            "to": 70.32,
+            "text": "由于中秋后这两天月球刚好处于近地点附近"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 73,
+      "firstIndex": 0,
+      "lastIndex": 72,
+      "allRowsRead": true
+    }
+  }
+}

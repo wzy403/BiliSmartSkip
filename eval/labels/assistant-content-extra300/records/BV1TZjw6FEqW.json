@@ -1,0 +1,131 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 239,
+    "inputLineSha256": "470222221837194dbec166e7deb5acd7f0fe43835cd6b21ffb0c18ac7beab778",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1TZjw6FEqW-39214844382.json",
+    "acquisitionSha256": "151e5a8982541618dd3f5d54abe48143a12b611f782648f31846f62f5ba2fb77",
+    "sourceUrl": "https://www.bilibili.com/video/BV1TZjw6FEqW/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1TZjw6FEqW.json",
+    "transcriptSha256": "e0982680e4f60b0edbc57bdc04138848edb9f41a203622e2b1d1f478c91e7e68"
+  },
+  "record": {
+    "bvid": "BV1TZjw6FEqW",
+    "cid": 39214844382,
+    "duration": 181,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕农村大席卫生的疑问，依次论述食材现买现做、公开后厨、亲友帮工、本地口碑约束和厨师自己食用，带有夸张笑话。可视后厨观点被用于引入美团拼好饭亮厨商家，集中讲上传照片、菜色份量和搜索码/评论区入口，随后回到乡亲帮厨。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 77.44,
+        "end": 112.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“眼睛看得到、吃着放心”的过渡概括随后直接类比拼好饭亮厨，展示监督机制、味道份量及低价，最终搜索码和链接推荐；完整包含类比铺垫与收尾。",
+        "startUncertainty": [
+          77.44,
+          80.52
+        ],
+        "endUncertainty": [
+          112.94,
+          112.94
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 77.44,
+            "to": 79.52,
+            "text": "说白了就是眼睛能看得到嘴巴"
+          },
+          {
+            "from": 79.52,
+            "to": 80.52,
+            "text": "吃着自然就放心"
+          },
+          {
+            "from": 80.52,
+            "to": 83.42,
+            "text": "这其实跟咱们点外卖吃拼好饭的逻辑是一样的"
+          },
+          {
+            "from": 83.42,
+            "to": 86.06,
+            "text": "我现在点拼好饭基本都会优先选亮厨"
+          },
+          {
+            "from": 88.88,
+            "to": 91,
+            "text": "商家每周都上传打卡操作台"
+          },
+          {
+            "from": 95.2,
+            "to": 96.84,
+            "text": "后厨完全接受大家的监督"
+          },
+          {
+            "from": 99.06,
+            "to": 100.46,
+            "text": "鱼香肉丝鲜香浓郁"
+          },
+          {
+            "from": 103.38,
+            "to": 105.58,
+            "text": "而且你看这分量跟正价点的一样"
+          },
+          {
+            "from": 106.36,
+            "to": 107.82,
+            "text": "美团拼好饭吃的不贵"
+          },
+          {
+            "from": 108.88,
+            "to": 110.66,
+            "text": "想点的上美团搜拼好饭"
+          },
+          {
+            "from": 110.66,
+            "to": 111.4,
+            "text": "68304"
+          },
+          {
+            "from": 111.4,
+            "to": 112.94,
+            "text": "或者点评论区链接就行"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 77.44,
+        "reason": "大席食材与透明后厨的主题论述，未指向具体商家。"
+      },
+      {
+        "start": 112.94,
+        "end": 180.64,
+        "reason": "乡亲帮工、厨师口碑和自食所做饭菜的论述。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 120,
+      "firstIndex": 0,
+      "lastIndex": 119,
+      "allRowsRead": true
+    }
+  }
+}

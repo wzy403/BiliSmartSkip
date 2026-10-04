@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1x7oABoE57",
+  "cid": 37651153350,
+  "title": "突发！东大涉密文件遭间谍泄露境外！朝鲜试射地对地战术弹道！伊朗拒绝第二轮谈判！东部战区舰艇赴西太演训！特朗普或亲自赴会！伊朗参加世界杯！万斯将谈判！美国最新民调",
+  "duration": 294,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:04:40.169Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:32:12.987Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 264,
+    "inputLineSha256": "0aa5ee65959652c7b1613998a58a40f814a01f50969f85c0bf7c71dfdc45e572",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1x7oABoE57-37651153350.json",
+    "acquisitionSha256": "84f20985fb5256a3c938d231c988539c4ad24153317215036cd97028d90aef07",
+    "sourceUrl": "https://www.bilibili.com/video/BV1x7oABoE57/?p=1"
+  }
+}

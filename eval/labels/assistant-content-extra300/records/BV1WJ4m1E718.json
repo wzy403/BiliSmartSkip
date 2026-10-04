@@ -1,0 +1,266 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 260,
+    "inputLineSha256": "ec514e70521155397e69a87fd291c56f0ddb263f3e53e7832490ebdb0353d76b",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1WJ4m1E718-1525504087.json",
+    "acquisitionSha256": "ae93244276c58d7479aa0a7afe6c0f17860b82a29a7fb80ddb7403aa91ca63c9",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WJ4m1E718/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1WJ4m1E718.json",
+    "transcriptSha256": "5b9546b59f4845f6e86bdabd58f2c89bab1b8d47f0583a97e88398d07c5407fa"
+  },
+  "record": {
+    "bvid": "BV1WJ4m1E718",
+    "cid": 1525504087,
+    "duration": 909,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读516行。视频为4月30日俄乌战况沙盘评论，按卢甘斯克、巴赫穆特、顿涅茨克及南线展示战线、部队与攻防推断，片尾借台湾海滩继续军事议论。开头电影比较是反应梗，打钱是对军援的讽刺，不属于商品广告。主体开讲前和片尾各有且初/且悠香体产品推介（名称保留ASR，未画面校字）。字幕0–908.52秒覆盖909秒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 68.32,
+        "end": 159.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由运动汗臭和更衣室体味的完整情景铺垫引入香体膏，介绍成分、净味功效、香型和自用背书，再带沐浴露和评论区/淘宝优惠购买指引；与战况正文独立，可跳全部。",
+        "evidence": [
+          {
+            "from": 65.8,
+            "to": 68.32,
+            "text": "本期俄乌沙盘信息截止4月30日"
+          },
+          {
+            "from": 68.32,
+            "to": 71.02,
+            "text": "朋友你有为运动后的汗臭困扰过吗"
+          },
+          {
+            "from": 71.02,
+            "to": 71.52,
+            "text": "Trust me"
+          },
+          {
+            "from": 71.52,
+            "to": 74.28,
+            "text": "我们黄种人身上的体味算是非常轻的"
+          },
+          {
+            "from": 74.28,
+            "to": 76.62,
+            "text": "如果你有机会跟白人黑人打过篮球赛"
+          },
+          {
+            "from": 76.62,
+            "to": 78,
+            "text": "然后在更衣室里一起洗澡"
+          },
+          {
+            "from": 78,
+            "to": 80.43,
+            "text": "你就知道我们的体位几乎可以忽略"
+          },
+          {
+            "from": 80.43,
+            "to": 81.69,
+            "text": "还有印度朋友"
+          },
+          {
+            "from": 90.93,
+            "to": 92.43,
+            "text": "即使我们体味非常少"
+          },
+          {
+            "from": 92.43,
+            "to": 95.07,
+            "text": "但大家运动后或多或少都会被汗味困扰"
+          },
+          {
+            "from": 95.07,
+            "to": 96.72,
+            "text": "最近我运动后常用秋末"
+          },
+          {
+            "from": 96.72,
+            "to": 98.61,
+            "text": "且幽静味清爽相提高"
+          },
+          {
+            "from": 98.61,
+            "to": 99.39,
+            "text": "推荐给大家"
+          },
+          {
+            "from": 104.32,
+            "to": 106.3,
+            "text": "那么这款香体膏非常适合你"
+          },
+          {
+            "from": 107.62,
+            "to": 109.04,
+            "text": "它里面含有水凝基底"
+          },
+          {
+            "from": 118.2,
+            "to": 120.48,
+            "text": "在出汗后双全除臭技术"
+          },
+          {
+            "from": 122.1,
+            "to": 123.66,
+            "text": "八小时除臭留香"
+          },
+          {
+            "from": 127.64,
+            "to": 129.38,
+            "text": "男生可以考虑海岸烟火"
+          },
+          {
+            "from": 136.88,
+            "to": 138.38,
+            "text": "阳煎茶比较适合女生"
+          },
+          {
+            "from": 144.46,
+            "to": 145.78,
+            "text": "我用他家产品一年了"
+          },
+          {
+            "from": 146.74,
+            "to": 148.36,
+            "text": "还喜欢用他家的香氛沐浴露"
+          },
+          {
+            "from": 154.6,
+            "to": 155.56,
+            "text": "评论区有优惠券"
+          },
+          {
+            "from": 155.56,
+            "to": 158.32,
+            "text": "或者到淘宝秋末且优旗舰店搜索同款"
+          },
+          {
+            "from": 158.32,
+            "to": 159.46,
+            "text": "比平时优惠很多哦"
+          },
+          {
+            "from": 159.46,
+            "to": 161.44,
+            "text": "卢甘斯克战线有些值得注意的消息"
+          }
+        ],
+        "startUncertainty": [
+          68.32,
+          68.32
+        ],
+        "endUncertainty": [
+          159.46,
+          159.46
+        ]
+      },
+      {
+        "start": 902.24,
+        "end": 904.04,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文结束后独立提醒评论区品牌优惠券，为再次销售导流，可跳。",
+        "evidence": [
+          {
+            "from": 901.1,
+            "to": 902.24,
+            "text": "好的今天先讲到这"
+          },
+          {
+            "from": 902.24,
+            "to": 904.04,
+            "text": "评论区还有且优的优惠券可以领"
+          },
+          {
+            "from": 904.04,
+            "to": 904.94,
+            "text": "感谢大家的收看"
+          }
+        ],
+        "startUncertainty": [
+          902.24,
+          902.24
+        ],
+        "endUncertainty": [
+          904.04,
+          904.04
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 13.8,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 16.32,
+        "end": 27.02,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 28.46,
+        "end": 43.82,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 49.41,
+        "end": 68.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 159.46,
+        "end": 547.12,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 548.48,
+        "end": 659.34,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 661.8,
+        "end": 706.82,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 708.92,
+        "end": 902.24,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 904.04,
+        "end": 908.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 516,
+      "firstIndex": 0,
+      "lastIndex": 515,
+      "allRowsRead": true
+    }
+  }
+}

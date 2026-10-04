@@ -1,0 +1,127 @@
+[
+  {
+    "time": 1046.013,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-001.jpg",
+    "sha256": "32e77b33aad2d6637f2c90c82d59b0232c265a824e91a0d595ffc5b0c3037cb3"
+  },
+  {
+    "time": 1048.015,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-002.jpg",
+    "sha256": "05e8f1037514d12876f75f1c9ed3be172d4c7746bbece76adb25fa176e4d1d86"
+  },
+  {
+    "time": 1050.017,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-003.jpg",
+    "sha256": "8c5c5c7e3c275ba45e9a6c1be50bf8ed677fe5f3619568cf1a7e4da071ae6884"
+  },
+  {
+    "time": 1052.019,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-004.jpg",
+    "sha256": "87b1361d72616251cf6c13f6b31c22947a2233ba2f38e6ac938293192bdf0a30"
+  },
+  {
+    "time": 1054.021,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-005.jpg",
+    "sha256": "a1bf396d44aa342caf2d56c99c827b1898fdbb9fbcf927115510a7cd8ffbe18c"
+  },
+  {
+    "time": 1056.023,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-006.jpg",
+    "sha256": "2b23b9096e55f864c19b5d123b0b8a9682070553e45cd246b79348cf64ea4424"
+  },
+  {
+    "time": 1058.025,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-007.jpg",
+    "sha256": "bb45092efce12455a3c64e41b92bfaa59e8438acebb7ca69dda22de62ede7157"
+  },
+  {
+    "time": 1060.027,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-008.jpg",
+    "sha256": "fd4375b88fdc66acdf54cfc74d35f4a572145a9e7150c842eeb6046373f49caa"
+  },
+  {
+    "time": 1062.029,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-009.jpg",
+    "sha256": "5cd0f8e83480397166b3e6ea16d80e88f67477248acad5f9aac07357c58f52e2"
+  },
+  {
+    "time": 1064.031,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-010.jpg",
+    "sha256": "0ea691b75c051557add1ef5085d2172e399466a8f8a272aa4f1503c734ac7cb4"
+  },
+  {
+    "time": 1066.033,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-011.jpg",
+    "sha256": "0fd04d8af1f25f9fdebf5388bbac49da8bbdeaa2f5e8caa317bcb5c211cf8f5b"
+  },
+  {
+    "time": 1068.035,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-012.jpg",
+    "sha256": "8154c9e2ce842ac0f447153164b44999c5100eeb98abfca38e93b8e038fd36a3"
+  },
+  {
+    "time": 1070.037,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-013.jpg",
+    "sha256": "42a8d308a29cd82f4ba6abb0f4b432f55bd5491cb6e6564107bed0d88a923baf"
+  },
+  {
+    "time": 1072.039,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-014.jpg",
+    "sha256": "14ce4b519822f08b9f49a22c2261a760eab4feb0123190f11776676cb2b11cb6"
+  },
+  {
+    "time": 1074.041,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-015.jpg",
+    "sha256": "039456ea96117cddc17ec91eddd8e7454dc20e476fe31e0b781579710dbf4263"
+  },
+  {
+    "time": 1076.043,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-016.jpg",
+    "sha256": "b1e9fc0bb2194777b9ce42c16d10833d1c63042412bf11736699424a9d3a74e3"
+  },
+  {
+    "time": 1078.045,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-017.jpg",
+    "sha256": "c151289ea793d3f39f47b32265562e8594bdb22ea80ef111956f1d240625bcff"
+  },
+  {
+    "time": 1080.047,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-018.jpg",
+    "sha256": "4ff4b05d504fd849419d1122b6096e47ce796f20c562f0edcc8daef172edd80c"
+  },
+  {
+    "time": 1082.049,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-019.jpg",
+    "sha256": "ab895f8416fa58f1854a835ab9307b21652f7fee44777cbd12f89ca59c30646c"
+  },
+  {
+    "time": 1084.051,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-020.jpg",
+    "sha256": "dacda0a15724f816b4fd78e595632578a58b4d33a84013be3f49068583f9efc4"
+  },
+  {
+    "time": 1086.053,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-021.jpg",
+    "sha256": "dfcd19e9f79ff7d746499e2d4e826da66805a9dcb9d6250850d93dfdd1054c05"
+  },
+  {
+    "time": 1088.055,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-022.jpg",
+    "sha256": "64dcea4a3c636218be5acf01966a7cc4895d39898c8a4b180ac9899305df39ba"
+  },
+  {
+    "time": 1090.057,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-023.jpg",
+    "sha256": "f1ae2d78459431a5759ec04b9f2316d5fc53cc1ef54f54eec3dd9d042d534a97"
+  },
+  {
+    "time": 1092.059,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-024.jpg",
+    "sha256": "92c747d3538562611a7ec0733cb0e3bb5502509383d7e841b06f7eea005678e3"
+  },
+  {
+    "time": 1094.061,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1omoHYzEST/fuji-sample/frame-025.jpg",
+    "sha256": "6e5de3af9581a8f3ea67de6cb7be6457f1c0da384b1730572cf2365bf74c6867"
+  }
+]

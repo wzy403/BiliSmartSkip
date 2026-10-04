@@ -1,0 +1,449 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 224,
+    "inputLineSha256": "75335fa505068ba5ba91ba5318e2cd80d613cb60cffe2da861f66c37734cabae",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1SSX3YXEGL-28926020855.json",
+    "acquisitionSha256": "5b3183737f9d6b77d958e15f686a7fdf609ca3a6e84dbac756a2ca8a2f8fdd9c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SSX3YXEGL/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1SSX3YXEGL.json",
+    "transcriptSha256": "616cc699e8bf16d7535ca98420b40d9ce2e9553c400e9ddd87c14a62de53bffb"
+  },
+  "record": {
+    "bvid": "BV1SSX3YXEGL",
+    "cid": 28926020855,
+    "duration": 923,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从蜜雪冰城被曝光后网友维护的现象讲公关与营销区别、情感账户、降级回应及拟写公关稿，并用宜家雨伞作案例；中间推介京东超市品质实验室，结尾招揽公关及法律业务。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 78.58,
+        "end": 108.34,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "作者谈从公关顾问业务获取收入、更新内容为顾问金主拉业务，有自我服务推广性质；同时明确披露本期公关观点的职业身份及经济关系，保留这一商业内容有助于理解后文立场，不能因商业关系披露就删除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          78.58,
+          78.58
+        ],
+        "endUncertainty": [
+          108.34,
+          108.34
+        ],
+        "evidence": [
+          {
+            "from": 76.34,
+            "to": 78.58,
+            "text": "一个被公关公司包养的废物律师啊"
+          },
+          {
+            "from": 78.58,
+            "to": 79.66,
+            "text": "先说个题外话"
+          },
+          {
+            "from": 79.66,
+            "to": 83.76,
+            "text": "今天终于也让我体会到了律师前辈说的"
+          },
+          {
+            "from": 84.78,
+            "to": 87.03,
+            "text": "开张吃一年是什么感觉了"
+          },
+          {
+            "from": 87.03,
+            "to": 88.35,
+            "text": "前两天写了篇稿子"
+          },
+          {
+            "from": 100.18,
+            "to": 102.22,
+            "text": "自从给公关公司做律师之后呢"
+          },
+          {
+            "from": 102.22,
+            "to": 104.5,
+            "text": "自然也就开始关注公关行业的热点了"
+          },
+          {
+            "from": 104.5,
+            "to": 105.58,
+            "text": "那我就多更新"
+          },
+          {
+            "from": 105.58,
+            "to": 106.26,
+            "text": "多蹭热度"
+          },
+          {
+            "from": 106.26,
+            "to": 108.34,
+            "text": "好给我的顾问金主拉点业务啊"
+          },
+          {
+            "from": 108.34,
+            "to": 109.58,
+            "text": "那大家有没有发现啊"
+          }
+        ]
+      },
+      {
+        "start": 601.91,
+        "end": 612.11,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "换手机与评论区抽奖的短对话是为稍后“真正广告在这”的反差设置笑话；当前字幕没有手机品牌、商品功能或交易号召，不据此推定额外手机广告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          601.91,
+          601.91
+        ],
+        "endUncertainty": [
+          612.11,
+          612.11
+        ],
+        "evidence": [
+          {
+            "from": 600.71,
+            "to": 601.91,
+            "text": "希望大家理解啊"
+          },
+          {
+            "from": 601.91,
+            "to": 602.33,
+            "text": "樊老师"
+          },
+          {
+            "from": 602.33,
+            "to": 603.01,
+            "text": "樊老师"
+          },
+          {
+            "from": 603.01,
+            "to": 604.63,
+            "text": "你怎么又换新手机了"
+          },
+          {
+            "from": 604.63,
+            "to": 606.51,
+            "text": "我路上捡的不是"
+          },
+          {
+            "from": 606.51,
+            "to": 609.01,
+            "text": "我是问你为什么又换新手机了哦"
+          },
+          {
+            "from": 609.01,
+            "to": 610.47,
+            "text": "我评论区抽奖抽的"
+          },
+          {
+            "from": 610.47,
+            "to": 612.11,
+            "text": "你管得着吗"
+          },
+          {
+            "from": 612.11,
+            "to": 615.21,
+            "text": "唉我们话说回蜜雪冰城这边啊"
+          }
+        ]
+      },
+      {
+        "start": 636.76,
+        "end": 688.4,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "在“功在平时”的主题结论后，用产品品质安全与信用积累铺垫，集中介绍京东超市品质实验室、检测合作、准入抽检、农兽残与肉品溯源，并明确承认“真正的广告在这”，以质量把关积累信任收尾；688.4 秒转回情感余额有限及回应策略。具体平台背书可独立跳过，标签包含前后主题式商业铺垫和总结。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          636.76,
+          636.76
+        ],
+        "endUncertainty": [
+          688.4,
+          688.4
+        ],
+        "evidence": [
+          {
+            "from": 635.73,
+            "to": 636.76,
+            "text": "度过危机"
+          },
+          {
+            "from": 636.76,
+            "to": 639.4,
+            "text": "特别是在产品品质安全方面下了功夫"
+          },
+          {
+            "from": 639.4,
+            "to": 642.02,
+            "text": "这种靠诚信经营积累下来的金融货币"
+          },
+          {
+            "from": 642.02,
+            "to": 645.22,
+            "text": "不是一两个代言人的翻车鱼型就能够透支掉的"
+          },
+          {
+            "from": 645.22,
+            "to": 648.09,
+            "text": "就比如知名购物平台京东超市"
+          },
+          {
+            "from": 648.09,
+            "to": 650.77,
+            "text": "将产品质量和食品安全把关作为切入点"
+          },
+          {
+            "from": 650.77,
+            "to": 652.81,
+            "text": "推出了京东超市品质实验室"
+          },
+          {
+            "from": 652.81,
+            "to": 653.67,
+            "text": "嘿嘿没想到吧"
+          },
+          {
+            "from": 653.67,
+            "to": 654.87,
+            "text": "真正的广告在这呢"
+          },
+          {
+            "from": 654.87,
+            "to": 656.73,
+            "text": "哎平台主打是检测把关"
+          },
+          {
+            "from": 657.29,
+            "to": 659.13,
+            "text": "京东除了有自己独立的检测实验室"
+          },
+          {
+            "from": 659.13,
+            "to": 661.21,
+            "text": "还和多家有资质的实验室进行了战略合作"
+          },
+          {
+            "from": 664.2,
+            "to": 666.96,
+            "text": "对上架京东超市的产品做抽检和提高准入门槛"
+          },
+          {
+            "from": 666.96,
+            "to": 669,
+            "text": "比如水果生鲜呢就要检测农残"
+          },
+          {
+            "from": 669.48,
+            "to": 671.28,
+            "text": "还有水产品就要检测兽药残留"
+          },
+          {
+            "from": 674.94,
+            "to": 676.58,
+            "text": "那平台就得做好溯源性检测"
+          },
+          {
+            "from": 678.32,
+            "to": 679.46,
+            "text": "通过实验室的检测"
+          },
+          {
+            "from": 679.46,
+            "to": 681.33,
+            "text": "为产品摆一道质量关"
+          },
+          {
+            "from": 681.33,
+            "to": 683.61,
+            "text": "所以希望所有品牌能理解一个道理"
+          },
+          {
+            "from": 683.61,
+            "to": 685.43,
+            "text": "只有这种对产品质量的把关"
+          },
+          {
+            "from": 685.43,
+            "to": 688.4,
+            "text": "才是真正给品牌积累信任的余额"
+          },
+          {
+            "from": 688.4,
+            "to": 690.74,
+            "text": "但是呢这种余额啊他也不是无限的"
+          }
+        ]
+      },
+      {
+        "start": 911.66,
+        "end": 921.12,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "本期讨论及下期预告结束后，明确请有公关/法律需求者后台私信、拉业务续律师费，再重复律师身份作为自我服务宣传的收尾；921.12 秒仅剩通用道别。此为独立获客号召。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          911.66,
+          911.66
+        ],
+        "endUncertainty": [
+          921.12,
+          921.12
+        ],
+        "evidence": [
+          {
+            "from": 909.98,
+            "to": 911.66,
+            "text": "早点把下一期给大家做出来"
+          },
+          {
+            "from": 911.66,
+            "to": 912.54,
+            "text": "比起做广告呢"
+          },
+          {
+            "from": 912.54,
+            "to": 913.48,
+            "text": "有公关需求"
+          },
+          {
+            "from": 913.48,
+            "to": 914.38,
+            "text": "法律需求哎"
+          },
+          {
+            "from": 914.38,
+            "to": 915.3,
+            "text": "后台私信我"
+          },
+          {
+            "from": 915.3,
+            "to": 916.44,
+            "text": "多给金主拉业务"
+          },
+          {
+            "from": 916.44,
+            "to": 918.16,
+            "text": "明年呢接着给我续律师费"
+          },
+          {
+            "from": 918.16,
+            "to": 918.92,
+            "text": "我是樊老师"
+          },
+          {
+            "from": 918.92,
+            "to": 921.12,
+            "text": "一个被公关公司包养的废物律师啊"
+          },
+          {
+            "from": 921.12,
+            "to": 921.6,
+            "text": "朋友们"
+          },
+          {
+            "from": 921.6,
+            "to": 922.76,
+            "text": "我们下期见"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 78.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 108.34,
+        "end": 116.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 118.72,
+        "end": 120.48,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 127.04,
+        "end": 327.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 327.98,
+        "end": 549.41,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 553.48,
+        "end": 559.57,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 561.29,
+        "end": 564.53,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 568.43,
+        "end": 601.91,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 612.11,
+        "end": 636.76,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 688.4,
+        "end": 770.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 772.92,
+        "end": 784.76,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 786.22,
+        "end": 911.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 921.12,
+        "end": 922.76,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 458,
+      "firstIndex": 0,
+      "lastIndex": 457,
+      "allRowsRead": true
+    }
+  }
+}

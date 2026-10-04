@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1NLKBzEEbj",
+  "cid": 30724260086,
+  "title": "S40新赛季上分最强的4大玩法：趁着信息差，赶紧上一波大的！",
+  "duration": 203,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:13:19.909Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:21:56.800Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 172,
+    "inputLineSha256": "3b5404e3784886ecea9e37d0810438fb7c4a1ba70a7f71aae207219bbed0676f",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1NLKBzEEbj-30724260086.json",
+    "acquisitionSha256": "b3e78f74e11902b648d0453dce337ba7badb871f2d037b83d237bbe7b41905bf",
+    "sourceUrl": "https://www.bilibili.com/video/BV1NLKBzEEbj/?p=1"
+  }
+}

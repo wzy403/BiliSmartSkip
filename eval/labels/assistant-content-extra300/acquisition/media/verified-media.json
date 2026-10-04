@@ -1,0 +1,68 @@
+[
+  {
+    "bvid": "BV172hdz7EAF",
+    "cid": 32028624173,
+    "page": 1,
+    "duration": 175,
+    "sourceUrl": "https://www.bilibili.com/video/BV172hdz7EAF/?p=1",
+    "responseSha256": "41813dce6252f1597558581c4727d7d8abfecc6b9a62ff73c04befa5aff95424",
+    "checkedAt": "2026-10-04T23:18:35.542Z",
+    "status": "downloaded-and-verified",
+    "extractorId": "BV172hdz7EAF_p1",
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/BV172hdz7EAF.mp4",
+    "sha256": "3d316b6ee2012f49543d66cc6091dacaf7ec30cdc45570d0e259c33ae022bb46",
+    "bytes": 8483853,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "av1",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "codec_name": "aac"
+        }
+      ],
+      "format": {
+        "duration": "174.033651"
+      }
+    },
+    "method": "yt-dlp anonymous public media; original BV/CID/page independently checked with existing public parser",
+    "previousCheckCorrection": "Initial post-download check required plain BV; explicit ?p=1 yields extractor ID with _p1. Download itself had succeeded."
+  },
+  {
+    "bvid": "BV12u2WB4EfP",
+    "cid": 34544881490,
+    "page": 1,
+    "duration": 325,
+    "sourceUrl": "https://www.bilibili.com/video/BV12u2WB4EfP/?p=1",
+    "responseSha256": "9e9566334bb13cff83966d8671d2c8e9cdaed8b59241532d0913cda912f1a9e3",
+    "checkedAt": "2026-10-04T23:18:37.797Z",
+    "status": "downloaded-and-verified",
+    "extractorId": "BV12u2WB4EfP_p1",
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/BV12u2WB4EfP.mp4",
+    "sha256": "b507cb50d902106a346552a1a239eaa023f4b7e2ff4d8155c0e9e4f7415d2206",
+    "bytes": 39856073,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "av1",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac"
+        }
+      ],
+      "format": {
+        "duration": "324.986833"
+      }
+    },
+    "method": "yt-dlp anonymous public media; original BV/CID/page independently checked with existing public parser",
+    "previousCheckCorrection": "Initial post-download check required plain BV; explicit ?p=1 yields extractor ID with _p1. Download itself had succeeded."
+  }
+]

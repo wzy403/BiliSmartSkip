@@ -1,0 +1,137 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 268,
+    "inputLineSha256": "2ca9f7ca5001e6685be96417131730017ae9c6557a1a8a2325fa8d43fedd56b0",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1XfjH6FEyD-39300631710.json",
+    "acquisitionSha256": "d59c2157c3e6f29d621d991ff4d636ac9b8ed9518b3e4bd7280c3ba55e106734",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XfjH6FEyD/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1XfjH6FEyD.json",
+    "transcriptSha256": "26174c0e35803b4b138e585eb1fbc806aae0b83c5e4ebbc136080bc4632f5d65"
+  },
+  "record": {
+    "bvid": "BV1XfjH6FEyD",
+    "cid": 39300631710,
+    "duration": 402,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读249行。围绕千早爱音与传统少女乐队主角区别，讨论其虚荣、交换式关系、退让成长、迷路意象、世萌夺冠与普通人自我认同。心跳原力AI角色产品在成长分析与迷路主题之间独立插入。全文字幕0–401.2秒覆盖402秒，没有重大缺口，未视听核验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 156.38,
+        "end": 181.93,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以观众是否寻找能互动、有剧情的二次元AI女友作开场，介绍心跳原力角色外形性格、陪伴体验、专属互动剧情与硬件联动；这是与爱音人物分析无关的完整产品推介，至再谈迷路前结束，应跳。",
+        "evidence": [
+          {
+            "from": 155.18,
+            "to": 156.38,
+            "text": "可以不在聚光灯下"
+          },
+          {
+            "from": 156.38,
+            "to": 158.04,
+            "text": "话说各位还在找能互动"
+          },
+          {
+            "from": 158.04,
+            "to": 159.7,
+            "text": "有剧情的二次元AI女友吗"
+          },
+          {
+            "from": 159.7,
+            "to": 162.96,
+            "text": "心跳原力这不就安排上了金发齐刘海的女仆"
+          },
+          {
+            "from": 162.96,
+            "to": 165.56,
+            "text": "野木奈子是自带中二属性的天然呆"
+          },
+          {
+            "from": 167.78,
+            "to": 169.68,
+            "text": "日常陪伴鲜活又治愈"
+          },
+          {
+            "from": 169.68,
+            "to": 172.1,
+            "text": "白发狐娘走妩媚御姐路线"
+          },
+          {
+            "from": 175.4,
+            "to": 178.06,
+            "text": "柔声唤你少爷氛围感直接拉满"
+          },
+          {
+            "from": 178.06,
+            "to": 179.9,
+            "text": "两位角色均有专属互动剧情"
+          },
+          {
+            "from": 179.9,
+            "to": 180.7,
+            "text": "还支持心跳"
+          },
+          {
+            "from": 180.7,
+            "to": 181.93,
+            "text": "原力2pro联动"
+          },
+          {
+            "from": 181.93,
+            "to": 183.37,
+            "text": "再谈一下麋鹿这个主题"
+          }
+        ],
+        "startUncertainty": [
+          156.38,
+          156.38
+        ],
+        "endUncertainty": [
+          181.93,
+          181.93
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 98.63,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 100.62,
+        "end": 156.38,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 181.93,
+        "end": 401.2,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 249,
+      "firstIndex": 0,
+      "lastIndex": 248,
+      "allRowsRead": true
+    }
+  }
+}

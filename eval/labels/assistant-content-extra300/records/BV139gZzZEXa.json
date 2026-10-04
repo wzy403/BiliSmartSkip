@@ -1,0 +1,132 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 13,
+    "inputLineSha256": "1bd9962163b2241c9747317ace78ffdb3639d7df6dad8041d7d7760943c4ddf5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV139gZzZEXa-30757421642.json",
+    "acquisitionSha256": "37f248bd37b3a8cd9bdc27b68e17b7dc8df1b6adcd8ab599ea94ab4e52826bfe",
+    "sourceUrl": "https://www.bilibili.com/video/BV139gZzZEXa/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV139gZzZEXa.json",
+    "transcriptSha256": "0190bcc9c03d59269965944a136bb472f693722419268c8fd829fe3641e480d3"
+  },
+  "record": {
+    "bvid": "BV139gZzZEXa",
+    "cid": 30757421642,
+    "duration": 292,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解释笔杆碰撞笔帽后倒立的摩擦和速度叠加原理，再类比火箭喷流与直升机前飞尾流，用于讨论贴水飞行视频真假。中途从河面没有凉风转入祛痘沐浴露推销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 51.66,
+        "end": 105.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从看直升机没有凉风引发燥热、后背冒痘的完整铺垫开始，介绍EHD沐浴露成分、祛痘功效、香味和品牌口碑，直到置顶优惠券与两瓶更划算结束，随后回到笔帽实验。",
+        "evidence": [
+          {
+            "from": 49.44,
+            "to": 51.66,
+            "text": "对这段视频进行分析鉴别呢"
+          },
+          {
+            "from": 51.66,
+            "to": 53.3,
+            "text": "看着直升机飞过河面"
+          },
+          {
+            "from": 53.3,
+            "to": 54.96,
+            "text": "却没刮起半点凉风"
+          },
+          {
+            "from": 54.96,
+            "to": 56.28,
+            "text": "我不禁燥热难忍"
+          },
+          {
+            "from": 56.28,
+            "to": 57.4,
+            "text": "后背出油冒痘"
+          },
+          {
+            "from": 61.12,
+            "to": 63.94,
+            "text": "买两瓶这款EHD持证祛痘沐浴露"
+          },
+          {
+            "from": 70.52,
+            "to": 72.14,
+            "text": "三酸复配舒缓成分"
+          },
+          {
+            "from": 76.8,
+            "to": 80.48,
+            "text": "同时还添加保湿补水清洁修护的护脸级氨基酸"
+          },
+          {
+            "from": 96.54,
+            "to": 98.52,
+            "text": "EHD品牌我已多次推荐"
+          },
+          {
+            "from": 101.34,
+            "to": 103.88,
+            "text": "评论区置顶领取粉丝专属优惠券"
+          },
+          {
+            "from": 103.88,
+            "to": 105.5,
+            "text": "一次买两瓶更划算"
+          },
+          {
+            "from": 105.5,
+            "to": 107.68,
+            "text": "如果将笔帽竖立放在桌子上"
+          }
+        ],
+        "startUncertainty": [
+          51.66,
+          51.66
+        ],
+        "endUncertainty": [
+          105.5,
+          105.5
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 51.66,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 105.5,
+        "end": 289.7,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 131,
+      "firstIndex": 0,
+      "lastIndex": 130,
+      "allRowsRead": true
+    }
+  }
+}

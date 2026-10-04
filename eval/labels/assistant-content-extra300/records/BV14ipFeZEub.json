@@ -1,0 +1,211 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 19,
+    "inputLineSha256": "39f7cbd93a0f0b7a348431385630c2758a5468869fcd0d58370a5df9b8617b34",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV14ipFeZEub-25733891016.json",
+    "acquisitionSha256": "76c06d8313560bc347527dc3e22285ad2d8416db70a253aedccf384955e67571",
+    "sourceUrl": "https://www.bilibili.com/video/BV14ipFeZEub/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV14ipFeZEub.json",
+    "transcriptSha256": "78b9747b61544d3043d709fdccae9bc7fb7539ddba87d96f093692c3f3277d9e"
+  },
+  "record": {
+    "bvid": "BV14ipFeZEub",
+    "cid": 25733891016,
+    "duration": 998,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以恐龙没有遭遇白垩纪末陨石的假想世界为线索，讨论开花植物、海草红树、森林生态、哺乳类、灵长类和后期降温如何影响演化；原神纳塔人龙共存作为命题引子，末尾独立展示游戏龙种与玩法并号召体验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 115.02,
+        "end": 148.69,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以原神纳塔人龙共存的场景提出科普假设，是与后文游戏推广关联的品牌内容；这段提出整期研究命题，保留才不丢失恐龙演化推演的动机，不能因品牌出现跳过正文。",
+        "evidence": [
+          {
+            "from": 111.98,
+            "to": 113.26,
+            "text": "豁"
+          },
+          {
+            "from": 115.02,
+            "to": 117.42,
+            "text": "所以当我看到原神5.0里"
+          },
+          {
+            "from": 117.42,
+            "to": 119.5,
+            "text": "娜塔人与龙共生的景象时"
+          },
+          {
+            "from": 121.4,
+            "to": 124.48,
+            "text": "假如当初那颗陨石大小形状签到时间"
+          },
+          {
+            "from": 128.24,
+            "to": 130.82,
+            "text": "我们今天会不会就和娜塔的人们一样"
+          },
+          {
+            "from": 135.18,
+            "to": 136.84,
+            "text": "多了几千万年演化"
+          },
+          {
+            "from": 145.64,
+            "to": 148.69,
+            "text": "那这又会是怎样一副光景呢"
+          },
+          {
+            "from": 148.69,
+            "to": 151.82,
+            "text": "好那今天我们就假设在6600万年前"
+          }
+        ],
+        "startUncertainty": [
+          113.26,
+          115.02
+        ],
+        "endUncertainty": [
+          148.69,
+          148.69
+        ]
+      },
+      {
+        "start": 871.06,
+        "end": 985.7,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从遗憾现实中看不到非鸟恐龙转为邀请来到提瓦特，完整介绍纳塔地图、附身龙的玩法、三类龙的能力与设计亮点，并号召亲身探索；这部分独立于前面的科学假设推演，属于游戏推广应跳。",
+        "evidence": [
+          {
+            "from": 863.89,
+            "to": 866.35,
+            "text": "不过即便在我们这个世界线上"
+          },
+          {
+            "from": 866.35,
+            "to": 868.79,
+            "text": "只要人类还在为恐龙痴狂"
+          },
+          {
+            "from": 868.79,
+            "to": 871.06,
+            "text": "恐龙就不会真正离开我们"
+          },
+          {
+            "from": 871.06,
+            "to": 872.34,
+            "text": "如果小伙伴很遗憾"
+          },
+          {
+            "from": 874.56,
+            "to": 876.94,
+            "text": "那你也可以选择来到提瓦特大陆"
+          },
+          {
+            "from": 878.079,
+            "to": 879.999,
+            "text": "原神最新上线的娜塔地图"
+          },
+          {
+            "from": 901.16,
+            "to": 903.42,
+            "text": "在那他你不仅可以与龙同行"
+          },
+          {
+            "from": 903.42,
+            "to": 905.38,
+            "text": "甚至可以化身为龙"
+          },
+          {
+            "from": 924.14,
+            "to": 927.78,
+            "text": "几风龙还可以带我钻入地下穿梭遁地藏身"
+          },
+          {
+            "from": 951.52,
+            "to": 953.44,
+            "text": "而又说我个人最喜欢龙"
+          },
+          {
+            "from": 969.74,
+            "to": 970.38,
+            "text": "总而言之"
+          },
+          {
+            "from": 971.62,
+            "to": 974.06,
+            "text": "我们不仅能看到古生物学的科学发现"
+          },
+          {
+            "from": 982.54,
+            "to": 985.7,
+            "text": "原神娜塔都值得亲身体验探索一番"
+          },
+          {
+            "from": 985.7,
+            "to": 987.12,
+            "text": "这里是方萨福"
+          }
+        ],
+        "startUncertainty": [
+          871.06,
+          871.06
+        ],
+        "endUncertainty": [
+          985.7,
+          985.7
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.36,
+        "end": 113.26,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 148.69,
+        "end": 846.17,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 849.24,
+        "end": 871.06,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 985.7,
+        "end": 989.58,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 477,
+      "firstIndex": 0,
+      "lastIndex": 476,
+      "allRowsRead": true
+    }
+  }
+}

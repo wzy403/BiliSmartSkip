@@ -1,0 +1,127 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 161,
+    "inputLineSha256": "b253823ef3997794f99946fdfecb8a13f4ca21642b51b6a908bb2ebd2c3c95e6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1mfLu6mErm-38375785336.json",
+    "acquisitionSha256": "9f22c4bd513244e537f4efa6395acfbe74b710b1588ab3a2f98aaf6458570526",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mfLu6mErm/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1mfLu6mErm.json",
+    "transcriptSha256": "decbbec376680446c751c2d083e8dbbab1c832d1980f022c3da7a5c54e1c93b2"
+  },
+  "record": {
+    "bvid": "BV1mfLu6mErm",
+    "cid": 38375785336,
+    "duration": 505,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "完整讲述克拉克斯维尔洞地理结构、四名学生不足的训练与装备、清理水下通道时斯文森被卡、同伴救援失败、排水取出遗体与事后封闭洞穴的经过，最后总结潜水风险。中段以新手机观看沉浸视频为过渡，推广转转上门回收服务后回到事件。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 147.23,
+        "end": 189.16,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“沉浸式视频用新手机看”构成换新处理旧物的铺垫，接着介绍转转回收报价、上门和品类服务，最后品牌收尾“逛完转转，我们继续回到故事中来”。",
+        "startUncertainty": [
+          147.23,
+          147.23
+        ],
+        "endUncertainty": [
+          186.84,
+          189.16
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 147.23,
+            "to": 148.43,
+            "text": "这么沉浸式的视频"
+          },
+          {
+            "from": 148.43,
+            "to": 150.32,
+            "text": "用我新换的手机看就是爽"
+          },
+          {
+            "from": 151.56,
+            "to": 152.78,
+            "text": "旧的都怎么处理啊"
+          },
+          {
+            "from": 154.58,
+            "to": 156.86,
+            "text": "旧到转转上门回收了3400多"
+          },
+          {
+            "from": 159.6,
+            "to": 161.12,
+            "text": "回收时免费上门估价"
+          },
+          {
+            "from": 171.58,
+            "to": 174,
+            "text": "而且作战现在回收品类很丰富"
+          },
+          {
+            "from": 183.74,
+            "to": 185.04,
+            "text": "卖闲置不用到处问"
+          },
+          {
+            "from": 185.04,
+            "to": 185.6,
+            "text": "找转转"
+          },
+          {
+            "from": 185.6,
+            "to": 186.84,
+            "text": "上门回收准没错"
+          },
+          {
+            "from": 186.84,
+            "to": 187.6,
+            "text": "逛完转转"
+          },
+          {
+            "from": 187.6,
+            "to": 189.16,
+            "text": "我们继续回到故事中来"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 147.23,
+        "reason": "事故引子、地形和涉事者装备资料。"
+      },
+      {
+        "start": 189.16,
+        "end": 479.38,
+        "reason": "事故与救援过程、死因及风险提醒，已叙述到道别。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "最后一句道别为 477.929–479.38 秒，时长 505 秒，尾部 25.62 秒无字幕，画面内容未核验，不能据此确认纯画面无广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 261,
+      "firstIndex": 0,
+      "lastIndex": 260,
+      "allRowsRead": true
+    }
+  }
+}

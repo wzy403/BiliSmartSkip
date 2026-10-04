@@ -1,0 +1,6 @@
+{
+  "kind": "reviewed-subtitle-gaps-without-recorded-visual-observation",
+  "generatedAt": "2026-10-04T23:53:50.202Z",
+  "scope": "Metadata flags only. Recognizes top/record visualObservations, visualReview, visualEvidence and secondary-review media references. Existing visual declarations are excluded, without claiming that a script proves actual visual coverage. No semantic label or reviewStatus is changed.",
+  "records": []
+}

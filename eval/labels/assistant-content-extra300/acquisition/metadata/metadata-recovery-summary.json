@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "source": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+  "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+  "method": "anonymous-public-page-metadata-only-existing-initialState-parser",
+  "startedAt": "2026-10-04T22:59:44.569Z",
+  "total": 25,
+  "attempted": 25,
+  "recovered": 0,
+  "unresolved": 25,
+  "unattempted": 0,
+  "paused": false,
+  "records": [
+    {
+      "bvid": "BV13f2pBNEA8",
+      "cid": 34535901282,
+      "inputLine": 15,
+      "inputRecordSha256": "4b6f7820f37a999e93d9b1aa669a0fa0f9bcc70d4475f0ff7d39c8b691759c64",
+      "url": "https://www.bilibili.com/video/BV13f2pBNEA8/",
+      "observedAt": "2026-10-04T22:59:44.571Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "e0d527b9ff91b76dc4e953aa2af3a82007f0829df06c1776c98328082c9f2e4f",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV13ZPHeEED9",
+      "cid": 28597880092,
+      "inputLine": 16,
+      "inputRecordSha256": "306bab971a6acf6d0aeb81202c37fd8d1dfc329860165db332c31ce536bf3e67",
+      "url": "https://www.bilibili.com/video/BV13ZPHeEED9/",
+      "observedAt": "2026-10-04T22:59:45.714Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "2b0ae922ecacd046fbcf352a1379c71f6c62c70687c2795da8ac7f15f7de774d",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV141bJzsEd7",
+      "cid": 31704155637,
+      "inputLine": 17,
+      "inputRecordSha256": "447ad8e1bb8d4933675efedf279921288c1aecdbecee3a90f27a753cc77f9768",
+      "url": "https://www.bilibili.com/video/BV141bJzsEd7/",
+      "observedAt": "2026-10-04T22:59:47.740Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "c44fb446080cef76a33ff47f08e28009a7afdb7359384376a0cac1574e3e822e",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV172421f7yZ",
+      "cid": 25628705116,
+      "inputLine": 30,
+      "inputRecordSha256": "531fcaf3cc2ab76ddd83069a3baa3fb0a19aa777f612b5b95918698a5f842aef",
+      "url": "https://www.bilibili.com/video/BV172421f7yZ/",
+      "observedAt": "2026-10-04T22:59:49.748Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "d4add204f34da3edd70004b9f52fe47434f80bf13624bb7a8416b3d046db45dd",
+      "returnedBvid": "BV172421f7yZ",
+      "availablePages": [
+        {
+          "cid": 28850392049,
+          "page": 1,
+          "duration": 942,
+          "part": "英法为什么总是对着干？比如百年战争-第二集【英法互喷】"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV18i9hBqEAS",
+      "cid": 37962646643,
+      "inputLine": 38,
+      "inputRecordSha256": "571401ac5a8cd1261f9704c88b5fecc8c2e36cd355968de8344a9cbb505cc776",
+      "url": "https://www.bilibili.com/video/BV18i9hBqEAS/",
+      "observedAt": "2026-10-04T22:59:51.961Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "04852b1afaadb93f65a9ac779bb20d6cf9344674bc47c2683d0b89c2f45ad4a4",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV19pLJzAERb",
+      "cid": 25789471133,
+      "inputLine": 43,
+      "inputRecordSha256": "4cc5e906afebc0a1c2d28e5d19fc64e1641e469c002e2e64bce64985f5ce3a97",
+      "url": "https://www.bilibili.com/video/BV19pLJzAERb/",
+      "observedAt": "2026-10-04T22:59:53.957Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "b6aa2dc9f06532df162250b58bbed8f641ae752f1c0c49927b415f73d116bbda",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1abY96ZE2e",
+      "cid": 41820619350,
+      "inputLine": 47,
+      "inputRecordSha256": "e2eee8a9417b4a06762a0aa7acc03d4bb3cb8319d0545f64b5741614f57b8abd",
+      "url": "https://www.bilibili.com/video/BV1abY96ZE2e/",
+      "observedAt": "2026-10-04T22:59:55.949Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "b670478845ccfd948354d6fd4545be0b17a6a113966a95fbcfb559c7090d457f",
+      "returnedBvid": "BV1abY96ZE2e",
+      "availablePages": [
+        {
+          "cid": 41824357456,
+          "page": 1,
+          "duration": 279,
+          "part": "豆包x软件硬吃"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1cq9eBeEbP",
+      "cid": 37980406021,
+      "inputLine": 65,
+      "inputRecordSha256": "9f31d3062d1aeec4bf3c80ac80f872ff84b8491e3c4140f4f1cc8f84ef2ffc53",
+      "url": "https://www.bilibili.com/video/BV1cq9eBeEbP/",
+      "observedAt": "2026-10-04T22:59:58.157Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "847ae0a076ade67fc029505c2b62c5156f6a31defc65becdc776b511530ade68",
+      "returnedBvid": "BV1cq9eBeEbP",
+      "availablePages": [
+        {
+          "cid": 38016648690,
+          "page": 1,
+          "duration": 873,
+          "part": "美以伊战争是怎么一步一步打起来的？【军事榨菜51】（声音增大）"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1ctKTe8ENf",
+      "cid": 28486730936,
+      "inputLine": 68,
+      "inputRecordSha256": "4459b2aafba1e00dcd0f2fb3c036a9fdbc7be243c92c53e572b7da5e4b598fcb",
+      "url": "https://www.bilibili.com/video/BV1ctKTe8ENf/",
+      "observedAt": "2026-10-04T23:00:00.647Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "438d5fb3cc4940904c09814038918c85617955523280b8b36689f8f6cb87224f",
+      "reason": "Video metadata not present in public page"
+    },
+    {
+      "bvid": "BV1e3sbexEGy",
+      "cid": 25979849304,
+      "inputLine": 82,
+      "inputRecordSha256": "ac46f103b0eb55837fbb9ca0534bf8ff628407ff6f248728ff07fb961a48e089",
+      "url": "https://www.bilibili.com/video/BV1e3sbexEGy/",
+      "observedAt": "2026-10-04T23:00:02.514Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "85c4d97522d40cd17074ce03ffa9a99f1f97ba6c26791146ebe8f957136d2bb4",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1fvqSBAECB",
+      "cid": 34886059351,
+      "inputLine": 100,
+      "inputRecordSha256": "b7dadc440823aef94555e82b2536be09cd09a811ebd728d1db5025b12793f45d",
+      "url": "https://www.bilibili.com/video/BV1fvqSBAECB/",
+      "observedAt": "2026-10-04T23:00:04.457Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "ee87cfce97462c50288cbdb3bb2ed370249bf81912ca4d86933997192d4c2ec7",
+      "returnedBvid": "BV1fvqSBAECB",
+      "availablePages": [
+        {
+          "cid": 34894317805,
+          "page": 1,
+          "duration": 667,
+          "part": "1766314846689"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1JWyaBAE8q",
+      "cid": 33544407143,
+      "inputLine": 141,
+      "inputRecordSha256": "15a16e11cc3d5c7973b905010b10bc24759ef6a8bd765a72a5b851eb4d9fbbca",
+      "url": "https://www.bilibili.com/video/BV1JWyaBAE8q/",
+      "observedAt": "2026-10-04T23:00:06.645Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "5f04f66db3e0544754258ca5a5c80701cbe00c6ba5437d0181e1d0990c1f4882",
+      "returnedBvid": "BV1JWyaBAE8q",
+      "availablePages": [
+        {
+          "cid": 34334050717,
+          "page": 1,
+          "duration": 1213,
+          "part": "11月28日 (4)"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1LppWzNEMT",
+      "cid": 32434490925,
+      "inputLine": 156,
+      "inputRecordSha256": "f5020055f95b8423daf66374504d172e21dca03c3a353f97e83e6599ede8a09f",
+      "url": "https://www.bilibili.com/video/BV1LppWzNEMT/",
+      "observedAt": "2026-10-04T23:00:08.957Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "7b1cfe04cba34a485eb39c9f573de60d5e49c1167d66b848aa30feb1c3413d36",
+      "returnedBvid": "BV1LppWzNEMT",
+      "availablePages": [
+        {
+          "cid": 39826950252,
+          "page": 1,
+          "duration": 1372,
+          "part": "老玩家E124使命召唤5-苏军战役"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1nm421G7jA",
+      "cid": 1605623902,
+      "inputLine": 173,
+      "inputRecordSha256": "2a061a4c173a30e5eb2fc7d68491cf84958ef2ac5cfd10a303e2c85dfd29f873",
+      "url": "https://www.bilibili.com/video/BV1nm421G7jA/",
+      "observedAt": "2026-10-04T23:00:11.179Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "b70ce553f60f516f31f88622237c27685c6cc65e46261c21ecc67548437ba6fe",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1nvxYeJEit",
+      "cid": 26090867787,
+      "inputLine": 181,
+      "inputRecordSha256": "ccb9c7fb54e8ae1588ff005d7928a7265c1a44812e9f5a709aa154fc7b7c7b83",
+      "url": "https://www.bilibili.com/video/BV1nvxYeJEit/",
+      "observedAt": "2026-10-04T23:00:13.092Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "01055f480b0663d7f67531a6fcdf97bbc5ef794ff578d216fe24a39b1ccd0456",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1P3zaYPEw5",
+      "cid": 27082687643,
+      "inputLine": 189,
+      "inputRecordSha256": "be3914e6fb759e99701758ee565b37e0577418933f67e75bf0f470abb254e09b",
+      "url": "https://www.bilibili.com/video/BV1P3zaYPEw5/",
+      "observedAt": "2026-10-04T23:00:14.995Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "e3f2d520e1b239a6b1db684559f89847b5053fab3668439aa2e24f5d2a8f8476",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1PdDSYjE5Z",
+      "cid": 26654673126,
+      "inputLine": 191,
+      "inputRecordSha256": "98b173f0213d6002d3c2bae502b82bdd58cfcea4a11e8d52b104657bf1abd267",
+      "url": "https://www.bilibili.com/video/BV1PdDSYjE5Z/",
+      "observedAt": "2026-10-04T23:00:17.230Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "7432edb9840faa89579adfab6c196c2a5bbc81ea9805063094ab98d29f5994c6",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1QuYRz6ERH",
+      "cid": 31850234607,
+      "inputLine": 203,
+      "inputRecordSha256": "3942140dc4ceecaa1011f7bcb68a56747739d53a97ac3056a9c114525abde76b",
+      "url": "https://www.bilibili.com/video/BV1QuYRz6ERH/",
+      "observedAt": "2026-10-04T23:00:19.267Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "593292bdf9ba43c565755b1b26c530d62fc7b87dfa05d0b5cfd9c386202ce6cc",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1TduLzYEov",
+      "cid": 30987519136,
+      "inputLine": 232,
+      "inputRecordSha256": "a6084691c590b9b82d19912728660e628de20cc5ddcca8c4ab8fd9718f0829f9",
+      "url": "https://www.bilibili.com/video/BV1TduLzYEov/",
+      "observedAt": "2026-10-04T23:00:21.179Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "438d5fb3cc4940904c09814038918c85617955523280b8b36689f8f6cb87224f",
+      "reason": "Video metadata not present in public page"
+    },
+    {
+      "bvid": "BV1tnZqYTEx6",
+      "cid": 29145498914,
+      "inputLine": 234,
+      "inputRecordSha256": "db7afe44bea134bb47341c78fbc823b242cbfc7886fe19da96e68f57c9654b10",
+      "url": "https://www.bilibili.com/video/BV1tnZqYTEx6/",
+      "observedAt": "2026-10-04T23:00:22.995Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "77cd65c42252435fcccb6ac924fa4afa2b4dea2e8d10872eb2b74d7b156b0c0e",
+      "returnedBvid": "BV1tnZqYTEx6",
+      "availablePages": [
+        {
+          "cid": 29181414442,
+          "page": 1,
+          "duration": 1190,
+          "part": "手机续航大横评！到底谁的电池最耐用？"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1vhPseYEX8",
+      "cid": 28550759415,
+      "inputLine": 253,
+      "inputRecordSha256": "1ec70a7b5c5b63faf5d15a4e0d071782e9b193777cf6c2539d2659ab763c1b17",
+      "url": "https://www.bilibili.com/video/BV1vhPseYEX8/",
+      "observedAt": "2026-10-04T23:00:25.278Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "11a393ff0c946d15310fe5b1a1eacac2993c7f91805138bde7a1484789c85ead",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1XgKdzyEna",
+      "cid": 30703683167,
+      "inputLine": 269,
+      "inputRecordSha256": "e8fc6ee8ff6d08e6b245c8e026062b36ffac267112ace3ba20fcd1c9323b77d1",
+      "url": "https://www.bilibili.com/video/BV1XgKdzyEna/",
+      "observedAt": "2026-10-04T23:00:27.165Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "7f8521521e3a48bf66b2f65cbd64471bb9a9b77f68ed78e7645373f1ce44dec5",
+      "returnedBvid": "BV1XgKdzyEna",
+      "availablePages": [
+        {
+          "cid": 30715544134,
+          "page": 1,
+          "duration": 165,
+          "part": "蟑螂：感觉身体被填满了"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1yc41147t9",
+      "cid": 1407312876,
+      "inputLine": 281,
+      "inputRecordSha256": "f841a90625ce0cfa60e4b5dc07d1bdf9847f8d5c4bf8dc9a020cf11659674372",
+      "url": "https://www.bilibili.com/video/BV1yc41147t9/",
+      "observedAt": "2026-10-04T23:00:29.373Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "bebeef304462b9d44af0e623833fe8a211e6c058c2d0dd5a31a08ec01ef01274",
+      "returnedBvid": null,
+      "reason": "unexpected-or-missing-video-identity"
+    },
+    {
+      "bvid": "BV1ypFWzREcy",
+      "cid": 35892428897,
+      "inputLine": 285,
+      "inputRecordSha256": "b0e5af31740e24e5c1dff0df95575cc7c50557392c310881604be6083a52bd66",
+      "url": "https://www.bilibili.com/video/BV1ypFWzREcy/",
+      "observedAt": "2026-10-04T23:00:31.526Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "8dd84bd961e3b22c55182675b5a78a510d65c8c2a579b7f2ebebb794a6597905",
+      "returnedBvid": "BV1ypFWzREcy",
+      "availablePages": [
+        {
+          "cid": 40663188180,
+          "page": 1,
+          "duration": 156,
+          "part": "Video Project 17"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    },
+    {
+      "bvid": "BV1yvfxBhEhY",
+      "cid": 36276733769,
+      "inputLine": 287,
+      "inputRecordSha256": "62eb6df4225dea9e9d885d8a506fdd7483d1e2c56d115bab0e91790e1313c18f",
+      "url": "https://www.bilibili.com/video/BV1yvfxBhEhY/",
+      "observedAt": "2026-10-04T23:00:33.724Z",
+      "status": "unresolved",
+      "httpStatus": 200,
+      "responseSha256": "56b132c7d03cb35dbcbe7a13de8ba110b179806126d0f2544c1af50988981950",
+      "returnedBvid": "BV1yvfxBhEhY",
+      "availablePages": [
+        {
+          "cid": 36526818658,
+          "page": 1,
+          "duration": 329,
+          "part": "lv_0_20260225155100"
+        }
+      ],
+      "reason": "requested-cid-not-present-in-video"
+    }
+  ],
+  "completedAt": "2026-10-04T23:00:36.040Z",
+  "recoveredInputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

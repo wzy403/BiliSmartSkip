@@ -1,0 +1,26 @@
+{
+  "bvid": "BV14pLF6HECp",
+  "cid": 38420286404,
+  "title": "中国致命的“泡泡脸”灾难 | Wonny",
+  "duration": 800,
+  "desc": "一款名为“生长因子注射”的美容项目在中国走红，号称能让人看起来年轻10岁，效果立竿见影，能持续一年多。中国网红们疯狂宣传，说打一针脸就饱满、下巴就立体了。但真正的危险在于，它有长达一到两年的延迟期，期间看起来一切正常，之后脸部会突然开始“膨胀”，像被一千只蜜蜂蜇了，或者皮下有东西在生长。这就是所谓的“气泡脸”效应。\n\n生长因子本来是人体自然产生的蛋白质，医生只在外用，用于伤口愈合或烧伤修复。一旦注射进脸部，它会向细胞发送“不断生长、不要停止”的信号，导致细胞无限增殖，形成肿块和不对称的肿胀。这在中国是非法美容手术，但诊所只是给它换个名字继续卖，比如“婴儿脸套餐”、“青春血清”、“生长肽”等。\n\n有个叫“桃花宝宝”的网红是典型受害者。她从17岁开始，骗了父母20万人民币（约3万美元）做整形，8年内接受了超过1000次手术、400次注射，其中200次生长因子注射只用在额头上。结果额头像锤头鲨一样突出，后来塌陷留下大坑，面部神经受压导致永久性抽搐，脸歪了，还失去了部分嗅觉，甚至可能失明。她跑遍全中国找数百名医生求医，所有人都拒绝治疗，因为损伤太严重。\n\n中国国家药监局已经明令禁止生长因子注射用于美容，但地下诊所仍在运作，只是换个名头继续推销。没有资质的诊所和收钱推广的网红大量存在，最终受害的还是那些自己去打针的人。\n\n\ntitle: China’s Deadly “Bubble Face” Disaster\nurl: https://www.youtube.com/watch?v=yMk1OSSAW28\nuploader: Wonny\npublish_timestamp: 2026-05-17 23:01:21 UTC+8\nduration: 13:19\n原视频描述(中文翻译):\n这种新的中国美容趋势在抖音和小红书上引发了一波巨大的“泡泡脸”热潮...\n\n这种名为“生长因子”的新型神奇注射剂在中国社交媒体上被宣传为“青春精华”和“婴儿脸套餐”，声称效果永久。起初，你能瞬间逆转衰老，但大约一年后会随机出现副作用...人们脸上出现起泡、组织不受控制地生长，这就是所谓的“泡泡脸”效应。\n\n我们分析了这一疯狂美容趋势的兴起、诊所如何秘密注射禁用物质，以及受害者（如桃花宝宝等人）的故事，她们无法逆转这种损害。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:02.916Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:14:54.680Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 20,
+    "inputLineSha256": "3065765988a45e3f1fbdc5ceba7aadd807a35a5f00b999c6b09f4bd165155ff4",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV14pLF6HECp-38420286404.json",
+    "acquisitionSha256": "e933735e6be0130a43204e33b8c2c7071825ae0145ecbd14b997830890077232",
+    "sourceUrl": "https://www.bilibili.com/video/BV14pLF6HECp/?p=1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "bvid": "BV1EZiRYJEFy",
+  "cid": 27190756051,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1EZiRYJEFy/?p=1",
+  "checkedAt": "2026-10-04T23:51:34.853Z",
+  "responseSha256": "55e86105afde827e7dd3fa3e234036e082bdb34853e0176f0700993be5680021",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1EZiRYJEFy.mp4",
+  "sha256": "29a9c573329101d4dc3bcf1115b67ec98b7a548cdcdef8e75d00d4a0c42d2ab2",
+  "bytes": 109079091,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac"
+      }
+    ],
+    "format": {
+      "duration": "1469.454240"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+}

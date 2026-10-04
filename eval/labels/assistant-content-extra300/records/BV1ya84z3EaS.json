@@ -1,0 +1,115 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 280,
+    "inputLineSha256": "a73578ab01c7b22e5e102f15fe7621089d993810b0c627d73636ef5df9d8e425",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1ya84z3EaS-31297438570.json",
+    "acquisitionSha256": "0f543b2178aa947188be4f9dc8a8fb667b0c217bba41c3e9223c18fe35fcf8d2",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ya84z3EaS/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1ya84z3EaS.json",
+    "transcriptSha256": "3e498856318d1350ce52d3bfe420b294b6de1dc0f7c99fabb560958e3b7c8f59"
+  },
+  "record": {
+    "bvid": "BV1ya84z3EaS",
+    "cid": 31297438570,
+    "duration": 643,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "评论电动车新国标、禁摩、交通监管与道路资源分配；中间以省钱为桥接插入转转二手数码推广，后续全部回到公共政策论述。末尾公众号/油管是本期文案与内容发布渠道，普通关注提示。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 106.74,
+        "end": 141.329,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          106.74,
+          108.94
+        ],
+        "endUncertainty": [
+          139.78,
+          141.329
+        ],
+        "reason": "从“省钱还是得看转转”完整转场到二手手机/电脑/平板价格、验货售后背书、优惠券与更新数码号召，独立于电动车治理评论；141.329秒明确回到新国标。",
+        "evidence": [
+          {
+            "from": 104.43,
+            "to": 106.74,
+            "text": "主打一个成本低省钱"
+          },
+          {
+            "from": 106.74,
+            "to": 108.94,
+            "text": "唉这个省钱呀还是得看转转"
+          },
+          {
+            "from": 108.94,
+            "to": 111.82,
+            "text": "在转转上买这台九五新A级的IPHONE13pro"
+          },
+          {
+            "from": 117.39,
+            "to": 119.39,
+            "text": "转转是个专业的官方验二手平台"
+          },
+          {
+            "from": 125.729,
+            "to": 127.909,
+            "text": "支持七天无理由退货和一年保修"
+          },
+          {
+            "from": 128.749,
+            "to": 129.909,
+            "text": "而且转转不止有手机"
+          },
+          {
+            "from": 134.92,
+            "to": 137.7,
+            "text": "现在点击评论区蓝链还能领最高千元优惠券"
+          },
+          {
+            "from": 137.7,
+            "to": 138.94,
+            "text": "趁现在平台有活动"
+          },
+          {
+            "from": 138.94,
+            "to": 139.78,
+            "text": "大家快去转转"
+          },
+          {
+            "from": 139.78,
+            "to": 141.329,
+            "text": "更新一波数码产品吧"
+          },
+          {
+            "from": 141.329,
+            "to": 142.629,
+            "text": "新国标的这一刀"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 330,
+      "firstIndex": 0,
+      "lastIndex": 329,
+      "allRowsRead": true
+    }
+  }
+}

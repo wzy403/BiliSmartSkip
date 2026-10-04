@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1d3bC6REjn",
+  "cid": 40931429156,
+  "title": "八星晋级赛——直升机严父",
+  "duration": 773,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:15:25.626Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:58.675Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 71,
+    "inputLineSha256": "856ef4521624083c385c34965b0430153464936362472b7de2379b32b80a30f9",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1d3bC6REjn-40931429156.json",
+    "acquisitionSha256": "fcb276beaf676e5c0108e700a1f657668e9e82e32318ee7a1270000d801e899b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d3bC6REjn/?p=1"
+  }
+}

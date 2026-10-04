@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1kfdSBHEBQ",
+  "cid": 37691065863,
+  "title": "殖人大乱斗：《凌华湛的宝藏》支线剧情：甜党缴获凌华湛见叠资金！",
+  "duration": 1235,
+  "desc": "生活不易，甜党卖艺\n曾经有一大笔巨款摆在我王哥面前，我王哥没有珍惜\n如果能再来一次，我王哥只想说一句话：俺滴钱！！俺滴！！！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:14:43.461Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:19:34.751Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 147,
+    "inputLineSha256": "82b55dc4f234820e6c6fdee09ca24d2e94757cce7a4459ceb0c4614d915bf6bb",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1kfdSBHEBQ-37691065863.json",
+    "acquisitionSha256": "a45a1feef9503a98151a7b5cdb341b98789d6c8d4f0fd662d03506feefe0b368",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kfdSBHEBQ/?p=1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1pR9fYUEi8",
+  "cid": 28711322171,
+  "title": "尹锡悦的挣扎",
+  "duration": 1128,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:48.405Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:24:11.965Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 195,
+    "inputLineSha256": "b73559d4971dccae98f30457759078ed49718867f9377ec90c78faf2558aebe5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1pR9fYUEi8-28711322171.json",
+    "acquisitionSha256": "d6c220fcbf86ca41afdd2ea6f226e29e4eb47084832eebdb56794602dc5c4514",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pR9fYUEi8/?p=1"
+  }
+}

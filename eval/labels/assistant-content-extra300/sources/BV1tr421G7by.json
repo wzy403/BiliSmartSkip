@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1tr421G7by",
+  "cid": 1510981658,
+  "title": "宇宙级别的印度美食会是什么味道？",
+  "duration": 439,
+  "desc": "舌头：好吃！\n大脑：好吃！\n胆固醇：算了..已经无所谓了",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:07:48.517Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:28:57.076Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 237,
+    "inputLineSha256": "879e68cd897e4c3368879181fa72efabf52ebbfdcc31e9049796b421f8086aad",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1tr421G7by-1510981658.json",
+    "acquisitionSha256": "596dd255ca69d636fb9d3d8f0f8c904a2d9ad63c04f9a1aee727d02b45b2d3b1",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tr421G7by/?p=1"
+  }
+}

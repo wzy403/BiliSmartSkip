@@ -1,0 +1,310 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 218,
+    "inputLineSha256": "cfe9b92603174baef35d72dc588e8fe6d7e111a40a8c131e71fe071e3f94b554",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1S39TBiEK7-37200134950.json",
+    "acquisitionSha256": "07e00d8ebbbe8eae4fe7457b5b1a22b455075a5f503e5439d49600b986af0748",
+    "sourceUrl": "https://www.bilibili.com/video/BV1S39TBiEK7/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1S39TBiEK7.json",
+    "transcriptSha256": "baacb923fa58ad899fa6a2f745810dbd025bd80041f46648643726c0a8166161"
+  },
+  "record": {
+    "bvid": "BV1S39TBiEK7",
+    "cid": 37200134950,
+    "duration": 160,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "加班员工向老板辞职的对话短剧，围绕工资、吃饭、贷款婚恋、社保与身体状况逐层反驳，最后老板送饭并准假；拼好饭既在剧情中被提及，也有一整段价格套餐与下单步骤的独立推介。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 17.28,
+        "end": 20.74,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "老板以不吃早餐解释员工看图误会并推荐拼好饭，是商业露出及后续广告的伏笔，但它同时是开场误解笑话的收束和角色对话，短句保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          17.28,
+          17.28
+        ],
+        "endUncertainty": [
+          20.74,
+          20.74
+        ],
+        "evidence": [
+          {
+            "from": 13.13,
+            "to": 15.49,
+            "text": "这是两个月亮在笑"
+          },
+          {
+            "from": 15.49,
+            "to": 17.28,
+            "text": "什么玩意儿啊"
+          },
+          {
+            "from": 17.28,
+            "to": 19.2,
+            "text": "我就说你不吃早餐不行吗"
+          },
+          {
+            "from": 19.2,
+            "to": 20.74,
+            "text": "点个拼好饭呀"
+          },
+          {
+            "from": 20.74,
+            "to": 22.2,
+            "text": "哎呀我没事"
+          },
+          {
+            "from": 22.2,
+            "to": 24,
+            "text": "那你看这个是什么"
+          }
+        ]
+      },
+      {
+        "start": 50.05,
+        "end": 91.86,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从加班没时间吃饭、饿一顿饱一顿的痛点铺垫进入拼好饭，集中罗列价格、餐品、品质、配送与休息时间卖点，再给出美团搜索口令及评论区链接，角色认可“这好像不错”后 91.86 秒重新提出辞职。中段是可分离的完整服务推广；保留前后辞职矛盾及稍后重复的健康理由，不把标签只缩到下单口令。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          50.05,
+          50.05
+        ],
+        "endUncertainty": [
+          91.86,
+          91.86
+        ],
+        "evidence": [
+          {
+            "from": 48.01,
+            "to": 50.05,
+            "text": "那烂工作遍地都是啊"
+          },
+          {
+            "from": 50.05,
+            "to": 51.35,
+            "text": "而且因为工作加班"
+          },
+          {
+            "from": 51.35,
+            "to": 53.2,
+            "text": "没时间吃饭或者压力太大"
+          },
+          {
+            "from": 53.2,
+            "to": 54.02,
+            "text": "没心情吃饭"
+          },
+          {
+            "from": 54.02,
+            "to": 55.44,
+            "text": "经常饿一顿饱一顿"
+          },
+          {
+            "from": 55.44,
+            "to": 57.31,
+            "text": "我都整出胃溃疡了"
+          },
+          {
+            "from": 57.31,
+            "to": 58.87,
+            "text": "哎呀不是跟你说了吗"
+          },
+          {
+            "from": 58.87,
+            "to": 60.09,
+            "text": "点个拼好饭呀"
+          },
+          {
+            "from": 60.09,
+            "to": 63.23,
+            "text": "像午餐点的这份手撕烤鸭饭才八块五毛四"
+          },
+          {
+            "from": 63.23,
+            "to": 64.819,
+            "text": "这份雪梨糕才三块一"
+          },
+          {
+            "from": 67.179,
+            "to": 69.02,
+            "text": "闭眼选宝藏小店放心点"
+          },
+          {
+            "from": 70.4,
+            "to": 72.24,
+            "text": "花小钱也能享受好品质"
+          },
+          {
+            "from": 73.7,
+            "to": 74.5,
+            "text": "也选拼好饭"
+          },
+          {
+            "from": 75.76,
+            "to": 76.64,
+            "text": "全是零起送"
+          },
+          {
+            "from": 76.64,
+            "to": 77.28,
+            "text": "零配送的"
+          },
+          {
+            "from": 79.88,
+            "to": 80.56,
+            "text": "准时送达"
+          },
+          {
+            "from": 84.02,
+            "to": 85.2,
+            "text": "上美团搜索拼好饭"
+          },
+          {
+            "from": 85.2,
+            "to": 86.18,
+            "text": "51813"
+          },
+          {
+            "from": 86.18,
+            "to": 87.98,
+            "text": "或者点击评论区链接就行了"
+          },
+          {
+            "from": 87.98,
+            "to": 88.96,
+            "text": "每天拼好饭"
+          },
+          {
+            "from": 88.96,
+            "to": 89.54,
+            "text": "吃的好"
+          },
+          {
+            "from": 89.54,
+            "to": 90.22,
+            "text": "花的少"
+          },
+          {
+            "from": 90.22,
+            "to": 91.86,
+            "text": "这好像是不错"
+          },
+          {
+            "from": 91.86,
+            "to": 93.44,
+            "text": "但是我还是想辞职"
+          }
+        ]
+      },
+      {
+        "start": 146.5,
+        "end": 149.48,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "最后老板把拼好饭给员工并让其休息，品牌再次露出具有商业性，但送饭关怀直接促成准假结局，是应保留的剧情动作，不能因为品牌而删除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          146.5,
+          146.5
+        ],
+        "endUncertainty": [
+          149.48,
+          149.48
+        ],
+        "evidence": [
+          {
+            "from": 142.18,
+            "to": 144.28,
+            "text": "你让那些有钱的多生点吧"
+          },
+          {
+            "from": 144.28,
+            "to": 146.5,
+            "text": "我真的压力好大呀"
+          },
+          {
+            "from": 146.5,
+            "to": 147.98,
+            "text": "呃我这份拼好饭"
+          },
+          {
+            "from": 147.98,
+            "to": 148.66,
+            "text": "你拿去吃吧"
+          },
+          {
+            "from": 148.66,
+            "to": 149.48,
+            "text": "好好休息一下"
+          },
+          {
+            "from": 149.48,
+            "to": 152.06,
+            "text": "然后你这几年也确实为公司尽心尽力了"
+          },
+          {
+            "from": 152.06,
+            "to": 152.58,
+            "text": "这样吧"
+          },
+          {
+            "from": 152.58,
+            "to": 154.66,
+            "text": "给你一个月假去好好放松一下"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 17.28,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 20.74,
+        "end": 50.05,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 91.86,
+        "end": 146.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 149.48,
+        "end": 157.06,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 102,
+      "firstIndex": 0,
+      "lastIndex": 101,
+      "allRowsRead": true
+    }
+  }
+}

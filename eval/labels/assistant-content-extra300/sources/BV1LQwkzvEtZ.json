@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1LQwkzvEtZ",
+  "cid": 36809278022,
+  "title": "为了不熬夜玩手机，我们做了这个...",
+  "duration": 187,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:45.793Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:20:20.897Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 157,
+    "inputLineSha256": "6e3397be8bd7958dc0342c0dc2ee8915ed2049a6af8bd0c0138367cd093dcd0e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1LQwkzvEtZ-36809278022.json",
+    "acquisitionSha256": "0a9fea6cf224772c56ec381eb903d2d962c449fb6ba00cec0a15a5f2c5f3a926",
+    "sourceUrl": "https://www.bilibili.com/video/BV1LQwkzvEtZ/?p=1"
+  }
+}

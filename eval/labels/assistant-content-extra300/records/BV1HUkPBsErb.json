@@ -1,0 +1,144 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 117,
+    "inputLineSha256": "2babe942aeda283aee8bfc18948c836ecdc1317e60d09b65fc0141662ce1d3d2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1HUkPBsErb-35416115913.json",
+    "acquisitionSha256": "a858f08318d462695afebe61959e8279edbca59d8e8fe7c3108d3035dc576060",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HUkPBsErb/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1HUkPBsErb.json",
+    "transcriptSha256": "27417c884f2147006edf13dbb23c5c0ec6a9ab99263c1a324773e3949e85b13d"
+  },
+  "record": {
+    "bvid": "BV1HUkPBsErb",
+    "cid": 35416115913,
+    "duration": 808,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "开头概述棕色尘埃2暗魔兽五位主C的单队伤害与低保要求，之后提供战斗回放中的站位、技能、护盾、回合顺序调整。正式开始前明确推荐手机游戏加速器。大量后续字幕为背景歌曲与零散游戏交流混合；广告后紧接保号卡、流量卡讨论，但仅字幕不能确认是否广告收尾或普通聊天。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 58.769,
+        "end": 77.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确在视频开始之前推荐自用加速器，宣传下载、免费加速、解决游戏商店打不开和看广告领时长，属于独立服务推广。后续保号/流量卡话题是否同一推广需看听，故保存已确认核心与实际结尾不确定性。",
+        "startUncertainty": [
+          58.769,
+          58.769
+        ],
+        "endUncertainty": [
+          77.64,
+          109.28
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 54.1,
+            "to": 56.86,
+            "text": "然后本期的一个低保伤害为6.45亿啊"
+          },
+          {
+            "from": 56.86,
+            "to": 58.769,
+            "text": "所以你参考其中之一就行"
+          },
+          {
+            "from": 58.769,
+            "to": 60.529,
+            "text": "那么在视频正式开始之前呢"
+          },
+          {
+            "from": 60.529,
+            "to": 62.85,
+            "text": "给大家推荐一个比较好用的加速器"
+          },
+          {
+            "from": 62.85,
+            "to": 64.63,
+            "text": "手机玩中传二"
+          },
+          {
+            "from": 64.63,
+            "to": 67.09,
+            "text": "推荐我自用的酷油加速器"
+          },
+          {
+            "from": 67.09,
+            "to": 69.49,
+            "text": "可以一键下载和免费加速游戏"
+          },
+          {
+            "from": 69.49,
+            "to": 72.66,
+            "text": "用酷睿加戏还能解决游戏商店打不开的问题"
+          },
+          {
+            "from": 72.66,
+            "to": 75.9,
+            "text": "平时每天看广告就可以领六小时免费加速时"
+          },
+          {
+            "from": 75.9,
+            "to": 76.2,
+            "text": "长"
+          },
+          {
+            "from": 76.2,
+            "to": 77.64,
+            "text": "白嫖还是很香的"
+          },
+          {
+            "from": 77.64,
+            "to": 79.74,
+            "text": "错了又有一张保号"
+          },
+          {
+            "from": 79.74,
+            "to": 85.48,
+            "text": "另一张那个呀啊哎"
+          },
+          {
+            "from": 90.38,
+            "to": 91.1,
+            "text": "一张保号"
+          },
+          {
+            "from": 91.1,
+            "to": 92.74,
+            "text": "一张另一张流量"
+          },
+          {
+            "from": 105.6,
+            "to": 109.28,
+            "text": "我一张流量卡是30块的吧"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "需视听58.769–109.28秒：加速器广告明确，但77.64秒之后突接保号卡、另一张流量卡和30元话题，字幕不足以确认这是否广告收尾或已回到游戏直播聊天。",
+      "游戏回放大量背景歌与讲话混识，315.72–335.62、677.12–694.76、747.01–763.51等空档及后半零散发言不足以独立确认全部内容性质；未实际看画面，暂不计完成。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "已全文读取231行，末行至805.66/808秒；歌词占用字幕时间不等于游戏画面已经核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 231,
+      "firstIndex": 0,
+      "lastIndex": 230,
+      "allRowsRead": true
+    }
+  }
+}

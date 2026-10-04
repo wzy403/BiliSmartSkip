@@ -1,0 +1,187 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 188,
+    "inputLineSha256": "164efef103b2f4d259d2a38589ab969297b652a2450a4291c1761a63ba987fb5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1oZ42187Nc-1468544432.json",
+    "acquisitionSha256": "3d3fcb6e6ac571af621ee306fa73265155815b7bfd6c5b643a489c4a251ea2b3",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oZ42187Nc/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1oZ42187Nc.json",
+    "transcriptSha256": "2c9e597fd874d9107df3e814ffac2d13dfd32a2fa6cfb4648cc24650b2fc3fc1"
+  },
+  "record": {
+    "bvid": "BV1oZ42187Nc",
+    "cid": 1468544432,
+    "duration": 702,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "借荣格人格发展和‘伊甸园幻想’讨论过度期待现实、关系受伤、自我否认与主动应对生活，引用《房思琪的初恋乐园》和夫妻关系作例子。中间明确请出金主，并以睡前回顾情绪的仪式引入HBN晚霜推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 427.62,
+        "end": 515.789,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从‘话题已经完成一大半、如果分析帮你转运’引出本期金主，接着用15分钟回顾感受、洗澡睡前仪式作晚霜铺垫，介绍HBN双A醇晚霜配方、抗老功效、使用感和口碑，以选HBN晚霜结束；515.789起恢复人为何放不下幻想的主题论述。广告中的仪式讲解服务商品引入，未只截品牌出现后的范围。",
+        "evidence": [
+          {
+            "from": 422.8,
+            "to": 427.62,
+            "text": "这就是吸渣的来源以及清纯的诅咒"
+          },
+          {
+            "from": 427.62,
+            "to": 428.7,
+            "text": "说到这里呢"
+          },
+          {
+            "from": 428.7,
+            "to": 430.71,
+            "text": "这个话题已经完成了一大半"
+          },
+          {
+            "from": 430.71,
+            "to": 433.58,
+            "text": "如果你觉得我的分析能够帮你转运的话"
+          },
+          {
+            "from": 433.58,
+            "to": 435.8,
+            "text": "那就让我们隆重请出"
+          },
+          {
+            "from": 435.8,
+            "to": 439.45,
+            "text": "今天这个视频的金主妈妈HDN"
+          },
+          {
+            "from": 439.45,
+            "to": 442.75,
+            "text": "为了防止伊甸园幻想影响自己的感受"
+          },
+          {
+            "from": 442.75,
+            "to": 445.44,
+            "text": "每天呢我都会花15分钟的时间"
+          },
+          {
+            "from": 447.42,
+            "to": 449.14,
+            "text": "和自己的感受建立连接"
+          },
+          {
+            "from": 456,
+            "to": 458.15,
+            "text": "你可以在做仪式前洗一个澡"
+          },
+          {
+            "from": 458.15,
+            "to": 460.04,
+            "text": "带上我们的晚导伴侣"
+          },
+          {
+            "from": 460.04,
+            "to": 461.93,
+            "text": "HBN双A醇晚霜"
+          },
+          {
+            "from": 462.68,
+            "to": 465.97,
+            "text": "这款晚霜最显著的功效是抗皱紧致"
+          },
+          {
+            "from": 472.9,
+            "to": 475.6,
+            "text": "双A醇晚霜采用了科学配比的"
+          },
+          {
+            "from": 480.88,
+            "to": 484.95,
+            "text": "能够高效率促生胶原有成倍的紧致淡纹效果"
+          },
+          {
+            "from": 491.88,
+            "to": 493.74,
+            "text": "它使用的是真空按压"
+          },
+          {
+            "from": 499.4,
+            "to": 503.11,
+            "text": "HBN是国内口碑很好的功效护肤品牌"
+          },
+          {
+            "from": 505.51,
+            "to": 509.6,
+            "text": "这款晚霜一直都是各大平台回购口碑top one"
+          },
+          {
+            "from": 509.6,
+            "to": 512,
+            "text": "所以想要效果明显的抗老面霜"
+          },
+          {
+            "from": 512,
+            "to": 514.31,
+            "text": "还是得选HBN霜"
+          },
+          {
+            "from": 514.31,
+            "to": 515.789,
+            "text": "A醇晚霜"
+          },
+          {
+            "from": 515.789,
+            "to": 519.77,
+            "text": "最后呢我还想再推进一步深入补充一个问题"
+          }
+        ],
+        "startUncertainty": [
+          427.62,
+          427.62
+        ],
+        "endUncertainty": [
+          515.789,
+          515.789
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 125.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 126.38,
+        "end": 427.62,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 515.789,
+        "end": 696.4,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 335,
+      "firstIndex": 0,
+      "lastIndex": 334,
+      "allRowsRead": true
+    }
+  }
+}

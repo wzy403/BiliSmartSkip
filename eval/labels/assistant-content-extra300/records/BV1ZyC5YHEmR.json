@@ -1,0 +1,155 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 299,
+    "inputLineSha256": "23c4a6693636544ac077a48c496b6d10dffdf1f90666cbac9e94c93154aedcbe",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1ZyC5YHEmR-27491110751.json",
+    "acquisitionSha256": "961a202f71ef1684b595dd08135acbe5852b8efcc27ec127e47d9031cf28c5c3",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ZyC5YHEmR/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1ZyC5YHEmR.json",
+    "transcriptSha256": "637365f670925ea1b024eab34177f34060496a4e130ecdca24568099dba74b87"
+  },
+  "record": {
+    "bvid": "BV1ZyC5YHEmR",
+    "cid": 27491110751,
+    "duration": 1272,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "复盘辛吉飞相关打假冲突中的沟通、角色诉求和法务发言，穿插明确自报的妙界足浴桶广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 631.26,
+        "end": 729.4,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "重新自我介绍后即说明本期推广，包含感谢客户照顾的铺垫、足浴桶功能、保价赠品及与模特拍广告的收尾笑话；到回到内容才结束，不截在最后下单句。",
+        "startUncertainty": [
+          631.26,
+          633.86
+        ],
+        "endUncertainty": [
+          729.4,
+          731.66
+        ],
+        "evidence": [
+          {
+            "from": 631.26,
+            "to": 631.94,
+            "text": "好的大家好"
+          },
+          {
+            "from": 631.94,
+            "to": 632.82,
+            "text": "我是唯一讲述者"
+          },
+          {
+            "from": 633.86,
+            "to": 635.62,
+            "text": "那个本期的推广位还是妙界的"
+          },
+          {
+            "from": 635.62,
+            "to": 637.06,
+            "text": "最近我流量下滑的比较明显"
+          },
+          {
+            "from": 637.06,
+            "to": 638.38,
+            "text": "但是妙界和卖洗地基"
+          },
+          {
+            "from": 641.94,
+            "to": 643.32,
+            "text": "也还是很愿意下单"
+          },
+          {
+            "from": 650.34,
+            "to": 652.36,
+            "text": "那么本期妙界要推广的这个产品呢"
+          },
+          {
+            "from": 652.36,
+            "to": 654.4,
+            "text": "是妙界恒温足浴桶啊"
+          },
+          {
+            "from": 668.78,
+            "to": 670.34,
+            "text": "这款妙界恒温足浴桶呢"
+          },
+          {
+            "from": 681.34,
+            "to": 683.98,
+            "text": "所以妙姐特地做了万向轮和排水口啊"
+          },
+          {
+            "from": 693.3,
+            "to": 694,
+            "text": "快过年了"
+          },
+          {
+            "from": 708.65,
+            "to": 710.11,
+            "text": "保价大促还送运费检"
+          },
+          {
+            "from": 710.11,
+            "to": 712.17,
+            "text": "下单还加送30包足浴药包"
+          },
+          {
+            "from": 714.03,
+            "to": 715.14,
+            "text": "都都可以入手试一试"
+          },
+          {
+            "from": 715.14,
+            "to": 716.94,
+            "text": "但是每次这个词儿念到这里啊"
+          },
+          {
+            "from": 719.82,
+            "to": 722.32,
+            "text": "足浴的竞争力它不在足浴本身"
+          },
+          {
+            "from": 724.74,
+            "to": 726.74,
+            "text": "但是跟模特姐姐一起拍广告的事情"
+          },
+          {
+            "from": 727.98,
+            "to": 729.4,
+            "text": "主要还是为了工作嘛"
+          },
+          {
+            "from": 729.4,
+            "to": 731.66,
+            "text": "OK我们回到内容继续看一下原片"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 728,
+      "firstIndex": 0,
+      "lastIndex": 727,
+      "allRowsRead": true
+    }
+  }
+}

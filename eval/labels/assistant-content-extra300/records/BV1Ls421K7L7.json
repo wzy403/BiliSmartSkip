@@ -1,0 +1,219 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 158,
+    "inputLineSha256": "a7d13c4cf55a41811e94008cac8d557c3d58222f83c889c16ce6ace939b64c7b",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Ls421K7L7-1525080840.json",
+    "acquisitionSha256": "4f525ca095cc38aaf647ccc3b56ce66c5ac0e69598f082a923761241c708247b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ls421K7L7/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Ls421K7L7.json",
+    "transcriptSha256": "0e96cef6dbcf4d71b360843dd52d9453379dd9cdcf263fa586a67253e90db21c"
+  },
+  "record": {
+    "bvid": "BV1Ls421K7L7",
+    "cid": 1525080840,
+    "duration": 682,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "作者自称购入 iQOO Z9 全系列，比较屏幕、调光、触控、性能系统、续航、摄影、信号及不同型号取舍，并指出音质、定位规格、马达和 Z9X 屏幕问题。主题手机评测整体保留；从外放音质转耳机购买的一段推广淘宝秒杀，片尾另给出个人二手出售测试机的账号。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 127.18,
+        "end": 190.42,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "先以音质可由耳机解决、好耳机重要铺垫，继而转淘宝耳机、抽纸、风扇秒杀价格与活动入口，190.42 秒才接回手机屏幕评测。",
+        "startUncertainty": [
+          127.18,
+          135.44
+        ],
+        "endUncertainty": [
+          190.42,
+          190.42
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 127.18,
+            "to": 129.46,
+            "text": "但是音质这块也没关系啊"
+          },
+          {
+            "from": 129.46,
+            "to": 131.18,
+            "text": "有耳机呢是吧"
+          },
+          {
+            "from": 132.26,
+            "to": 135.44,
+            "text": "我个人觉得好的耳机甚至比前端更重要"
+          },
+          {
+            "from": 139.42,
+            "to": 141.07,
+            "text": "去哪里买比较划算呢"
+          },
+          {
+            "from": 141.07,
+            "to": 143.37,
+            "text": "当然是万能的淘宝啦"
+          },
+          {
+            "from": 152.23,
+            "to": 154.42,
+            "text": "秒杀价六块六就能拿下"
+          },
+          {
+            "from": 180.72,
+            "to": 185.13,
+            "text": "现在点击视频下方浮窗或评论区置顶链接"
+          },
+          {
+            "from": 187.659,
+            "to": 190.42,
+            "text": "赶紧去淘宝限时秒杀频道去逛逛吧"
+          }
+        ]
+      },
+      {
+        "start": 669.56,
+        "end": 678.96,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "片尾宣布两款测试机在二手平台出售并逐字提示卖家账号，属于可独立跳过的个人销售导流。",
+        "startUncertainty": [
+          669.56,
+          669.56
+        ],
+        "endUncertainty": [
+          678.96,
+          678.96
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 669.56,
+            "to": 671.66,
+            "text": "Z9和Z9X"
+          },
+          {
+            "from": 671.66,
+            "to": 675.18,
+            "text": "接下来我要在某二手海鲜市场震撼发售了"
+          },
+          {
+            "from": 675.18,
+            "to": 676.92,
+            "text": "id就是这个莎莎"
+          },
+          {
+            "from": 676.92,
+            "to": 678,
+            "text": "全是坏心眼儿"
+          },
+          {
+            "from": 678,
+            "to": 678.96,
+            "text": "别打错了啊"
+          }
+        ]
+      },
+      {
+        "start": 0.72,
+        "end": 127.18,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "开场的型号、价格、优缺点及推荐是标题承诺的手机自购体验正文，不能因强烈赞扬品牌直接作为应跳广告。",
+        "startUncertainty": [
+          0.72,
+          0.72
+        ],
+        "endUncertainty": [
+          127.18,
+          127.18
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 3.69,
+            "to": 7.74,
+            "text": "爱酷Z9全系列杀机型我都买了"
+          },
+          {
+            "from": 42.68,
+            "to": 45.2,
+            "text": "真的蓝厂我一分钱没收过哈"
+          },
+          {
+            "from": 80.88,
+            "to": 82.74,
+            "text": "我绞尽脑汁的给他找问题"
+          },
+          {
+            "from": 82.74,
+            "to": 85.12,
+            "text": "也就是短焦指纹识别太靠下"
+          },
+          {
+            "from": 88.06,
+            "to": 89.36,
+            "text": "马达震感一般"
+          },
+          {
+            "from": 94.219,
+            "to": 97.549,
+            "text": "还有去掉了Z系列一直有的3.5mm耳机孔"
+          },
+          {
+            "from": 123.46,
+            "to": 125.2,
+            "text": "除了它的功放音质不太行"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 190.42,
+        "end": 420.54,
+        "reason": "屏幕、性能系统、充电续航、摄影及不同型号比较和评价，构成主题产品评测。"
+      },
+      {
+        "start": 421.8,
+        "end": 432.91,
+        "reason": "屏幕、性能系统、充电续航、摄影及不同型号比较和评价，构成主题产品评测。"
+      },
+      {
+        "start": 436.69,
+        "end": 447.39,
+        "reason": "屏幕、性能系统、充电续航、摄影及不同型号比较和评价，构成主题产品评测。"
+      },
+      {
+        "start": 448.5,
+        "end": 669.56,
+        "reason": "屏幕、性能系统、充电续航、摄影及不同型号比较和评价，构成主题产品评测。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 305,
+      "firstIndex": 0,
+      "lastIndex": 304,
+      "allRowsRead": true
+    }
+  }
+}

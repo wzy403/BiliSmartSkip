@@ -1,0 +1,127 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 230,
+    "inputLineSha256": "0d691cdce203b7f22af24391d34125e8510ecd6ba367952193ef9c6dcf0d9d54",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Ta411K72v-796078347.json",
+    "acquisitionSha256": "6ca0ff41d31ff64f85f89c8dc67cae1fa7c95589582d696fa5475b2039fe7cf4",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ta411K72v/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Ta411K72v.json",
+    "transcriptSha256": "83ee4409d784a35d3413d3ef868169cee74f4ae9503abbd4013e4bbdb4137912"
+  },
+  "record": {
+    "bvid": "BV1Ta411K72v",
+    "cid": 796078347,
+    "duration": 447,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "循序讲解标准俯卧撑、核心不足、手肘手腕位置、耸肩低头和上肢力量等常见问题，提供骨盆后倾、臀桥、死虫、平板和降低难度等练习，再说明如何增加标准次数。教程结束后明确为 MyProtein 赞助商推广分离乳清蛋白粉和活动优惠，之后是学习动作的鼓励道别。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 397.459,
+        "end": 416.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确说为赞助商打广告，介绍蛋白粉口味与限时优惠、评论区信息，独立于俯卧撑动作教学，至返回动作学习鼓励之前。",
+        "startUncertainty": [
+          397.459,
+          397.459
+        ],
+        "endUncertainty": [
+          416.38,
+          416.38
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 397.459,
+            "to": 399.99,
+            "text": "最后为我的赞助商my protein打个广告"
+          },
+          {
+            "from": 399.99,
+            "to": 403.05,
+            "text": "在我手里呢是他们家的分离乳清蛋白粉"
+          },
+          {
+            "from": 403.05,
+            "to": 405.62,
+            "text": "这个是我最近非常喜欢的橘子芒果口味"
+          },
+          {
+            "from": 407.24,
+            "to": 410.36,
+            "text": "在8月8号到11号有力度非常大的活动"
+          },
+          {
+            "from": 410.36,
+            "to": 413.5,
+            "text": "希望暑期训练使用的小伙伴千万不要错过这个机会哦"
+          },
+          {
+            "from": 413.5,
+            "to": 416.38,
+            "text": "我会把我的专属优惠信息放在评论区"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 152.76,
+        "reason": "姿势和训练进阶的知识教学；弹力绳、背包等为通用训练用品，未推荐具体商品。"
+      },
+      {
+        "start": 153.3,
+        "end": 253.92,
+        "reason": "姿势和训练进阶的知识教学；弹力绳、背包等为通用训练用品，未推荐具体商品。"
+      },
+      {
+        "start": 254.38,
+        "end": 279.56,
+        "reason": "姿势和训练进阶的知识教学；弹力绳、背包等为通用训练用品，未推荐具体商品。"
+      },
+      {
+        "start": 282,
+        "end": 339.02,
+        "reason": "姿势和训练进阶的知识教学；弹力绳、背包等为通用训练用品，未推荐具体商品。"
+      },
+      {
+        "start": 339.4,
+        "end": 390.1,
+        "reason": "姿势和训练进阶的知识教学；弹力绳、背包等为通用训练用品，未推荐具体商品。"
+      },
+      {
+        "start": 392.519,
+        "end": 397.459,
+        "reason": "姿势和训练进阶的知识教学；弹力绳、背包等为通用训练用品，未推荐具体商品。"
+      },
+      {
+        "start": 416.38,
+        "end": 435.88,
+        "reason": "分解动作、坚持练习的教程总结和道别。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "435.88–447 秒尾部无字幕，未核验画面。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 186,
+      "firstIndex": 0,
+      "lastIndex": 185,
+      "allRowsRead": true
+    }
+  }
+}

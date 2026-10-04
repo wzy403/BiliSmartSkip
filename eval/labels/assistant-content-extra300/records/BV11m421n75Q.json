@@ -1,0 +1,152 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 3,
+    "inputLineSha256": "a3ff172bfaaceec01587838e6705803a1490f28dc075cf41fac01a88edaffda0",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV11m421n75Q-1486866048.json",
+    "acquisitionSha256": "f6e6b34e6f77b9afab62571d813a0fd2982c8a3eefd854a9b7b6bc00fbba7513",
+    "sourceUrl": "https://www.bilibili.com/video/BV11m421n75Q/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV11m421n75Q.json",
+    "transcriptSha256": "fe977bf7d8f724b36ebaecaf02c069d1762b4a9d37b8c2fd04550900c860b6c1"
+  },
+  "record": {
+    "bvid": "BV11m421n75Q",
+    "cid": 1486866048,
+    "duration": 841,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍西格玛男性标签的起源、与阿尔法和贝塔的区别、影视人物及网络男性文化传播，并评论其理想与现实落差；中间由体能健康转入蛋白质营养补剂的促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 317.23,
+        "end": 423.53,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从西格玛男性应健康强壮、肉蛋奶必需的铺垫开始，扩展成蛋白质缺乏焦虑和产品效果背书、每日用量、优惠券189元与礼盒赠品，完整收尾后明确返回西格玛日程和影视人物分析。属于独立补剂广告，字幕缺失品牌名不影响其广告性质。",
+        "evidence": [
+          {
+            "from": 315.64,
+            "to": 317.23,
+            "text": "着重标记下划线"
+          },
+          {
+            "from": 317.23,
+            "to": 318.4,
+            "text": "作为西格玛男"
+          },
+          {
+            "from": 320.02,
+            "to": 321.31,
+            "text": "肉蛋奶是必需品"
+          },
+          {
+            "from": 333.95,
+            "to": 336.65,
+            "text": "其实70%以上的人都缺乏蛋白质"
+          },
+          {
+            "from": 357.93,
+            "to": 360.72,
+            "text": "那就可以像我一样选择一款专业的营养补剂"
+          },
+          {
+            "from": 367,
+            "to": 370.15,
+            "text": "原本是专门供给院线营养科的肠内营养制剂"
+          },
+          {
+            "from": 378.96,
+            "to": 380.46,
+            "text": "你说效果能差到哪里去"
+          },
+          {
+            "from": 406.25,
+            "to": 408.74,
+            "text": "所以我确定补充蛋白质是真的有用"
+          },
+          {
+            "from": 409.67,
+            "to": 411.62,
+            "text": "现在评论区领取我的优惠券"
+          },
+          {
+            "from": 411.62,
+            "to": 413.09,
+            "text": "一罐只要189"
+          },
+          {
+            "from": 417.93,
+            "to": 419.97,
+            "text": "还多送一瓶鱼油和一个搅搅杯"
+          },
+          {
+            "from": 419.97,
+            "to": 423.53,
+            "text": "每天五六块钱换健康好身体绝对不亏"
+          },
+          {
+            "from": 423.53,
+            "to": 426.34,
+            "text": "上面那段西格玛兰的日程是开玩笑"
+          }
+        ],
+        "startUncertainty": [
+          317.23,
+          317.23
+        ],
+        "endUncertainty": [
+          423.53,
+          423.53
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 30.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 32.31,
+        "end": 273.14,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 275.49,
+        "end": 317.23,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 423.53,
+        "end": 492.93,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 515.47,
+        "end": 833.51,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 444,
+      "firstIndex": 0,
+      "lastIndex": 443,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 51,
+    "inputLineSha256": "bc9971030df188d20d5fc08fbc8f783ca2756e8820887777fdb73d34a4f96a5a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1aQ7Y6tEaF-39398408342.json",
+    "acquisitionSha256": "7bf70af553fec0494f066f1dc91dc5ce9b24a8c9e7c6565166f219455ef444a8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aQ7Y6tEaF/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1aQ7Y6tEaF.json",
+    "transcriptSha256": "ef81427726d381b20011987f8201c8986442646355253c818b329077a024d086"
+  },
+  "record": {
+    "bvid": "BV1aQ7Y6tEaF",
+    "cid": 39398408342,
+    "duration": 253,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解释竹筷材料、竹子的再生与快速生长机制，以及钢筷过滑、导热快等使用问题；在解释竹子夜间拔节声之后，转入小鹿护颈枕的独立促销，之后回到竹节生长机制。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 114.32,
+        "end": 177.9,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由晚上睡觉顺势转为自身头颈不适的广告铺垫，连续介绍小鹿枕头材质、分区、护颈体验、178元价格、领券和售后，到父亲节送礼号召结束；177.9秒接回竹子快速生长的第二个原因，可独立移除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          114.32,
+          114.32
+        ],
+        "endUncertainty": [
+          177.9,
+          177.9
+        ],
+        "evidence": [
+          {
+            "from": 111.58,
+            "to": 114.32,
+            "text": "晚上睡觉甚至都能听到竹子拔节的声音啊"
+          },
+          {
+            "from": 114.32,
+            "to": 116.8,
+            "text": "说到晚上睡觉道容我最近睡眠不太好"
+          },
+          {
+            "from": 121.1,
+            "to": 122.6,
+            "text": "小鹿双面承托护颈枕"
+          },
+          {
+            "from": 134.72,
+            "to": 136.58,
+            "text": "但咱小鹿良心只要178"
+          },
+          {
+            "from": 169.4,
+            "to": 171.54,
+            "text": "朋友们现在点我评论区领券到手"
+          },
+          {
+            "from": 175.32,
+            "to": 177.9,
+            "text": "四种高度自用父亲节送礼都快安排上"
+          },
+          {
+            "from": 177.9,
+            "to": 180.48,
+            "text": "其次就是普通的树木靠的是顶端生长"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 114.32,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 177.9,
+        "end": 249.89,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 250.33,
+        "end": 252.86,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 164,
+      "firstIndex": 0,
+      "lastIndex": 163,
+      "allRowsRead": true
+    }
+  }
+}

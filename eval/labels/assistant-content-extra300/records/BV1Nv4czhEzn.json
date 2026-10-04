@@ -1,0 +1,182 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 179,
+    "inputLineSha256": "09ec5e74b5aafe75e2f13c9389c87d8c6ea25d9a3476beb19d3517668ceee4f5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Nv4czhEzn-32989580150.json",
+    "acquisitionSha256": "af49f1be3cdedfb3c6470d291ecff49d8b58b403a59e3f61abc8314617d35b67",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Nv4czhEzn/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Nv4czhEzn.json",
+    "transcriptSha256": "297d6d5a581cca26bc4ff981d2c0efbf5afe8f508462c5ef4f4b6cc7a711445e"
+  },
+  "record": {
+    "bvid": "BV1Nv4czhEzn",
+    "cid": 32989580150,
+    "duration": 297,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "天气解说华西及北方秋雨南压、南方副热带高压与异常高温，解释海温高不等于台风生成，并展望后续冷空气南下。以北方转凉添外套为引子插入淘宝男装三件八折推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 52.96,
+        "end": 105.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "重复冷空气南下后转为体感转凉、添外套和备秋装，构成淘宝男装活动需求铺垫；介绍三件八折、具体服装、搭配保暖卖点、凑单价格及淘宝入口，至‘冷空气来也不慌’结束。105.38起恢复冷空气与副高的气象解说。",
+        "evidence": [
+          {
+            "from": 51.2,
+            "to": 52.96,
+            "text": "冷空气已经接力南下"
+          },
+          {
+            "from": 52.96,
+            "to": 54.44,
+            "text": "冷空气接力南下"
+          },
+          {
+            "from": 54.44,
+            "to": 56.16,
+            "text": "北方多地体感已经明显转凉"
+          },
+          {
+            "from": 56.16,
+            "to": 57.82,
+            "text": "出门一定得添层外套"
+          },
+          {
+            "from": 57.82,
+            "to": 59.69,
+            "text": "备秋装可得提上日程"
+          },
+          {
+            "from": 59.69,
+            "to": 62.57,
+            "text": "淘宝每月8号的男装三件八折福利"
+          },
+          {
+            "from": 64.879,
+            "to": 66.779,
+            "text": "这三件就是我最近入手的"
+          },
+          {
+            "from": 66.779,
+            "to": 67.919,
+            "text": "上淘宝搜男装"
+          },
+          {
+            "from": 67.919,
+            "to": 69.85,
+            "text": "三件八折就能锁定爆款"
+          },
+          {
+            "from": 71.53,
+            "to": 73.45,
+            "text": "马德工装骨汤夹克男装top"
+          },
+          {
+            "from": 78.28,
+            "to": 79.02,
+            "text": "悟空有货"
+          },
+          {
+            "from": 82.78,
+            "to": 85.58,
+            "text": "撞色设计拿下青春校园男装top1"
+          },
+          {
+            "from": 85.58,
+            "to": 88.12,
+            "text": "现在下单还能跨店凑单更划算"
+          },
+          {
+            "from": 88.12,
+            "to": 90.52,
+            "text": "像我凑的这三件直接立省80元"
+          },
+          {
+            "from": 91.52,
+            "to": 93.64,
+            "text": "现在赶上优惠到手只要270元"
+          },
+          {
+            "from": 96.78,
+            "to": 99.28,
+            "text": "上淘宝首页搜索栏顶部找到穿搭"
+          },
+          {
+            "from": 99.28,
+            "to": 101.76,
+            "text": "点击进去也能直接参与三件八折"
+          },
+          {
+            "from": 101.76,
+            "to": 103.86,
+            "text": "赶紧趁优惠提前备好秋装"
+          },
+          {
+            "from": 103.86,
+            "to": 105.38,
+            "text": "冷空气来也不慌"
+          },
+          {
+            "from": 105.38,
+            "to": 107.02,
+            "text": "不过正如我们之前节目所说"
+          }
+        ],
+        "startUncertainty": [
+          52.96,
+          52.96
+        ],
+        "endUncertainty": [
+          105.38,
+          105.38
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 52.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 105.38,
+        "end": 185.74,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 187.78,
+        "end": 220.92,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 222.86,
+        "end": 290.06,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 158,
+      "firstIndex": 0,
+      "lastIndex": 157,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 204,
+    "inputLineSha256": "6f4364b392333fdc1943701bde62619b0797158b28b8ea3cc34b0e85f4719506",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1qxCPY9ERS-27524861247.json",
+    "acquisitionSha256": "2e35f58464db6cb8546a13f21a2d44e608de0cd590bc1fd065eb2b6ad52bf65d",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qxCPY9ERS/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1qxCPY9ERS.json",
+    "transcriptSha256": "9b7ffbf798c45c48a6e48e3654252a675f97432b2ab04b4a011f014ad56e51e8"
+  },
+  "record": {
+    "bvid": "BV1qxCPY9ERS",
+    "cid": 27524861247,
+    "duration": 942,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从传播、公关与逻辑谬误角度拆解辛吉飞回应松哥打假的视频，讨论假两难、循环论证、稻草人及转移话题等表达；中段明确进入有望云朵洗地机推广位。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 332.62,
+        "end": 429.699,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "332.62 秒重新招呼和自我介绍后宣布本期洗地机推广，解释品牌下单及与话题的联系属于赞助铺垫，随后完整介绍吸力、平躺、清洁及送礼用途，置顶链接与补贴后仍继续评价金主和推广时长，至“我们回到内容”收尾。商品推广可与回应分析正文分离；不能仅保留末尾购买话术。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          332.62,
+          332.62
+        ],
+        "endUncertainty": [
+          429.699,
+          429.699
+        ],
+        "evidence": [
+          {
+            "from": 332.62,
+            "to": 333.26,
+            "text": "好的大家好"
+          },
+          {
+            "from": 333.26,
+            "to": 334.02,
+            "text": "我是唯一讲述者"
+          },
+          {
+            "from": 334.02,
+            "to": 335.12,
+            "text": "新手村村霸啊"
+          },
+          {
+            "from": 335.12,
+            "to": 337.46,
+            "text": "那个本期的推广位还是卖洗地机"
+          },
+          {
+            "from": 341.52,
+            "to": 343.94,
+            "text": "因为他们也是新机飞教徒的受害者"
+          },
+          {
+            "from": 350.62,
+            "to": 352.22,
+            "text": "那既然金主都到位了呢"
+          },
+          {
+            "from": 357.24,
+            "to": 359.78,
+            "text": "然后有望云朵洗地机也带过好几次了啊"
+          },
+          {
+            "from": 363.77,
+            "to": 364.91,
+            "text": "有望云朵洗地机"
+          },
+          {
+            "from": 368.59,
+            "to": 370.41,
+            "text": "1万8000帕的大吸力啊"
+          },
+          {
+            "from": 376.82,
+            "to": 379.68,
+            "text": "180度的平设计呢也能够轻松的深入"
+          },
+          {
+            "from": 385.72,
+            "to": 387.62,
+            "text": "只要往里轻轻一推就完事了"
+          },
+          {
+            "from": 405.74,
+            "to": 407.42,
+            "text": "有望云朵的性价比超高啊"
+          },
+          {
+            "from": 413.8,
+            "to": 416.44,
+            "text": "那么这款有云朵洗地机也是不错的选择"
+          },
+          {
+            "from": 417.58,
+            "to": 418.66,
+            "text": "可以点击置顶链接"
+          },
+          {
+            "from": 419.9,
+            "to": 421.98,
+            "text": "还能叠加国家补贴到手更优惠"
+          },
+          {
+            "from": 421.98,
+            "to": 423.82,
+            "text": "OK结束啊"
+          },
+          {
+            "from": 423.82,
+            "to": 426.02,
+            "text": "他确实是恨疯了啊"
+          },
+          {
+            "from": 426.02,
+            "to": 428.159,
+            "text": "这推广费压缩到时间这么短"
+          },
+          {
+            "from": 428.159,
+            "to": 429.699,
+            "text": "OK我们回到内容"
+          },
+          {
+            "from": 429.699,
+            "to": 431.759,
+            "text": "然后这个刚开始的这一段呢"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 203.97,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 206.41,
+        "end": 332.62,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 429.699,
+        "end": 457.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 460.9,
+        "end": 483.16,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 485.06,
+        "end": 887.32,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 887.66,
+        "end": 941.4,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 582,
+      "firstIndex": 0,
+      "lastIndex": 581,
+      "allRowsRead": true
+    }
+  }
+}

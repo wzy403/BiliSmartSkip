@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1B8j1z7Enb",
+  "cid": 30159997778,
+  "title": "【爱情公寓搞笑合集】曾小贤，我要跟你单挑",
+  "duration": 1095,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:09:16.204Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:42.654Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 55,
+    "inputLineSha256": "70e661d0d321ecd3e019dd7b3f972eb32083c3e0f36715f63cbd952b66891211",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1B8j1z7Enb-30159997778.json",
+    "acquisitionSha256": "d9cb6740a418287b3618321c5aadcc5ba4bd57603a5e33be4b2a1f7807be4427",
+    "sourceUrl": "https://www.bilibili.com/video/BV1B8j1z7Enb/?p=1"
+  }
+}

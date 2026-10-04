@@ -1,0 +1,197 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles-plus-selected-local-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 12,
+    "inputLineSha256": "51a081a54bcbb1d905d8ac7794ac117d8080eb723f45a0c04fcec0d3e83e98d5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV12u2WB4EfP-34544881490.json",
+    "acquisitionSha256": "96d0f3ad7e9011015b1eaab5d387970e474e9f45d312860c473cddb258be0e5d",
+    "sourceUrl": "https://www.bilibili.com/video/BV12u2WB4EfP/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV12u2WB4EfP.json",
+    "transcriptSha256": "fabbba83418bb169ed1d8976b1056e552419b4c4ddbf4a419ddb790260231fcf"
+  },
+  "record": {
+    "bvid": "BV12u2WB4EfP",
+    "cid": 34544881490,
+    "duration": 325,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "植物大战僵尸套娃礼盒巨人海无车噩梦挑战。介绍规则后插入转转旧电脑回收推广，随后长段游戏实战与背景音乐，最后点赞关注收尾。游戏实战不是广告；没有因歌词ASR乱码直接判为无广告，已补看覆盖全片的抽帧及广告边界。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 47.86,
+        "end": 89,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle-plus-selected-frames",
+        "reason": "从换新电脑/旧电脑如何处理的口播铺垫开始，连续转转上门回收、服务便利、支持品类、打包处理与品牌收尾。实际画面88秒仍为转转标识与收尾字幕，89秒恢复植物大战僵尸对局，故完整保留至89秒。",
+        "evidence": [
+          {
+            "from": 36.73,
+            "to": 40.05,
+            "text": "我们真的还能守护这个房子吗"
+          },
+          {
+            "from": 47.86,
+            "to": 49.32,
+            "text": "最近换了新电脑"
+          },
+          {
+            "from": 50.88,
+            "to": 53.1,
+            "text": "大家买了新的旧的都怎么处理"
+          },
+          {
+            "from": 54.82,
+            "to": 57,
+            "text": "就找转转上门回收了6000多"
+          },
+          {
+            "from": 63.22,
+            "to": 65.83,
+            "text": "而且转转是专业的二手回收平台"
+          },
+          {
+            "from": 65.83,
+            "to": 68.57,
+            "text": "全国400多个城市都支持上门回收"
+          },
+          {
+            "from": 74.66,
+            "to": 77.6,
+            "text": "黄金甚至是LV包腕表这种奢侈品"
+          },
+          {
+            "from": 80.64,
+            "to": 82.83,
+            "text": "一键下单就能通通打包带走"
+          },
+          {
+            "from": 86.07,
+            "to": 88.95,
+            "text": "找转转这种大平台准没错"
+          },
+          {
+            "from": 135.76,
+            "to": 138.54,
+            "text": "快乐的大人"
+          }
+        ],
+        "startUncertainty": [
+          47.86,
+          49
+        ],
+        "endUncertainty": [
+          88,
+          89
+        ],
+        "visualEvidence": [
+          {
+            "time": 49,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/boundaries/frame-011.jpg",
+            "sha256": "dcc417c204a92b2fa601f58434cbeccdf675f61c3f229dec69548c7e4fa0a663",
+            "observation": "游戏背景上硬字幕“最近换了新电脑”。"
+          },
+          {
+            "time": 54,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/boundaries/frame-016.jpg",
+            "sha256": "4cef57d88bf031e3125c47de42435438a6a3f8de05f73accf66107e593dd8c3e",
+            "observation": "转入回收人员和旧电脑实拍推介。"
+          },
+          {
+            "time": 88,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/boundaries/frame-050.jpg",
+            "sha256": "83bd486f67c9d33cc44d3ecd2ec65a5b9bf8e6a4d0876d08d60624cfe3270d81",
+            "observation": "转转品牌卡与“找转转这种大平台准没错”收尾。"
+          },
+          {
+            "time": 89,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/boundaries/frame-051.jpg",
+            "sha256": "a1b6a6ff449460a3961b26f1a092f10c6d721373d0ed10bf877c6f05b5b0f208",
+            "observation": "恢复植物大战僵尸对局。"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 40.05,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 316.02,
+        "end": 324.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手完整阅读69行字幕，实际查看全片每10秒抽帧及39–97秒每1秒抽帧。长字幕空白对应抽帧可见游戏实战；未听音频，未声称连续全片或逐帧观看，抽帧间瞬时叠加仍可能遗漏。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 69,
+      "firstIndex": 0,
+      "lastIndex": 68,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "assistant-extra300-root",
+    "fullTranscriptRead": true,
+    "subtitleRows": 69,
+    "firstIndex": 0,
+    "lastIndex": 68,
+    "allRowsRead": true,
+    "decision": "全字幕与抽帧复核确认完整转转广告47.86–89秒，89秒后恢复游戏主体。"
+  },
+  "visualObservations": {
+    "reviewer": "assistant-extra300-root",
+    "media": {
+      "bvid": "BV12u2WB4EfP",
+      "cid": 34544881490,
+      "page": 1,
+      "duration": 325,
+      "sourceUrl": "https://www.bilibili.com/video/BV12u2WB4EfP/?p=1",
+      "responseSha256": "9e9566334bb13cff83966d8671d2c8e9cdaed8b59241532d0913cda912f1a9e3",
+      "checkedAt": "2026-10-04T23:18:37.797Z",
+      "status": "downloaded-and-verified",
+      "extractorId": "BV12u2WB4EfP_p1",
+      "file": "eval/labels/assistant-content-extra300/acquisition/media/BV12u2WB4EfP.mp4",
+      "sha256": "b507cb50d902106a346552a1a239eaa023f4b7e2ff4d8155c0e9e4f7415d2206",
+      "bytes": 39856073,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "av1",
+            "width": 1280,
+            "height": 720
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "324.986833"
+        }
+      },
+      "method": "yt-dlp anonymous public media; original BV/CID/page independently checked with existing public parser",
+      "previousCheckCorrection": "Initial post-download check required plain BV; explicit ?p=1 yields extractor ID with _p1. Download itself had succeeded."
+    },
+    "frameIndexes": [
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/overview/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV12u2WB4EfP/boundaries/frames.json"
+    ],
+    "method": "Selected decoded still frames at 10-second and 1-second intervals; no audio listened and no continuous/full-frame viewing claim."
+  }
+}

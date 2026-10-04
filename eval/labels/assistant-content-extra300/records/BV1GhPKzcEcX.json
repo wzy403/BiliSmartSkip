@@ -1,0 +1,150 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 103,
+    "inputLineSha256": "73533148da88a8bc5a64c1332d759c0631d8601030a5243064a1923d15277f12",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1GhPKzcEcX-36444114628.json",
+    "acquisitionSha256": "dbb96880c618433a6d0e534c603fa4809ae677621b3e0ef4eb7abe71a6a8a3a7",
+    "sourceUrl": "https://www.bilibili.com/video/BV1GhPKzcEcX/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1GhPKzcEcX.json",
+    "transcriptSha256": "58980f8731fd40c5f64a14139a3c91dcaaef243e450a0f43a68771dbcff8374a"
+  },
+  "record": {
+    "bvid": "BV1GhPKzcEcX",
+    "cid": 36444114628,
+    "duration": 259,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讨论圈养猪是否会抑郁、神经系统与刻板行为，比较散养猪、马和虎鲸的心理需求，再解释人为何不容易察觉猪的抑郁。中段从打工人久坐伏案转入熬夜眼部不适，推介妙界眼部按摩仪，含功能和三八节优惠，随后恢复猪的行为解释。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 138.64,
+        "end": 207.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "打工人长期工位工作、眼睛难受与熬夜赶稿是广告铺垫，之后介绍妙界雾化/热敷/按摩、使用场景和优惠售后，207.3秒重新发问猪为何看起来不抑郁，回到正文。",
+        "startUncertainty": [
+          138.64,
+          138.64
+        ],
+        "endUncertainty": [
+          207.3,
+          207.3
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 137.42,
+            "to": 138.64,
+            "text": "他怎么能不抑郁呢"
+          },
+          {
+            "from": 138.64,
+            "to": 139.76,
+            "text": "这就跟咱们打工人"
+          },
+          {
+            "from": 139.76,
+            "to": 142.86,
+            "text": "长期鸡在狭窄的工位上伏案工作也会抑郁一样"
+          },
+          {
+            "from": 142.86,
+            "to": 143.72,
+            "text": "不仅会抑郁"
+          },
+          {
+            "from": 143.72,
+            "to": 145.46,
+            "text": "长期工作对眼睛也不好"
+          },
+          {
+            "from": 145.46,
+            "to": 146.48,
+            "text": "比如道容这几天"
+          },
+          {
+            "from": 147.58,
+            "to": 148.76,
+            "text": "眼睛就难受得厉害"
+          },
+          {
+            "from": 148.76,
+            "to": 151.96,
+            "text": "不过还好我有这台妙界蒸汽雾化眼部按摩仪"
+          },
+          {
+            "from": 151.96,
+            "to": 154.56,
+            "text": "他急雾化点阵按摩热敷为一体"
+          },
+          {
+            "from": 164.56,
+            "to": 167.44,
+            "text": "朋友们可以选它自用或是当礼物送给家人"
+          },
+          {
+            "from": 170.24,
+            "to": 171.4,
+            "text": "都可能是干眼症"
+          },
+          {
+            "from": 172.62,
+            "to": 174.36,
+            "text": "可以试下妙界的雾化功能"
+          },
+          {
+            "from": 187.08,
+            "to": 188.2,
+            "text": "妙界续航还长"
+          },
+          {
+            "from": 192.98,
+            "to": 195.66,
+            "text": "日常能用来冰敷消肿或是连蓝牙放歌"
+          },
+          {
+            "from": 199.46,
+            "to": 201.12,
+            "text": "大家可以领三八节优惠券"
+          },
+          {
+            "from": 204.9,
+            "to": 206.12,
+            "text": "包装能代写贺卡"
+          },
+          {
+            "from": 206.12,
+            "to": 207.3,
+            "text": "需要的就来试试吧"
+          },
+          {
+            "from": 207.3,
+            "to": 210.02,
+            "text": "那为什么我们平时都不觉得猪猪会抑郁呢"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 161,
+      "firstIndex": 0,
+      "lastIndex": 160,
+      "allRowsRead": true
+    }
+  }
+}

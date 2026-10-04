@@ -1,0 +1,152 @@
+[
+  {
+    "time": 254.02,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-001.jpg",
+    "sha256": "7fb3ecd2c72f2dbee14bd7a0a228b0d7b28d765391fd2948089969ecca7be52f"
+  },
+  {
+    "time": 256.022,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-002.jpg",
+    "sha256": "fd683780ed43824710b6dfe2881c97074f05479d0213e562d37cb19e5971dad8"
+  },
+  {
+    "time": 258.024,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-003.jpg",
+    "sha256": "a4ba1ff648fb2cfb707990e69746e504bfbaf27175bcd2e6f130ef813e92bea4"
+  },
+  {
+    "time": 260.026,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-004.jpg",
+    "sha256": "f4a77911da96a68e7d6d9f12875786c73c758cdc449a54d723da96748d2cb121"
+  },
+  {
+    "time": 262.028,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-005.jpg",
+    "sha256": "4cb732a78ace9b9535e069dda5186898843b8a81e62be7ab52abb195d5466f5d"
+  },
+  {
+    "time": 264.03,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-006.jpg",
+    "sha256": "2ef76cc0ffd915e1cea9f846be17e4cb0a06c56e9d692d71a345688fc98236f3"
+  },
+  {
+    "time": 266.032,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-007.jpg",
+    "sha256": "cfa5186154782647bf8b4ba099c7dc9d6ede22bbc0636a0ac372192e3ad649cc"
+  },
+  {
+    "time": 268.034,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-008.jpg",
+    "sha256": "acd2d3930c4cb6ae25b7e4573a7836181f6075babd62152524086327decf19cc"
+  },
+  {
+    "time": 270.036,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-009.jpg",
+    "sha256": "a212ba9e6ea5d5347cb0fd630da0b9079306424717f897baee706d88722784c4"
+  },
+  {
+    "time": 272.038,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-010.jpg",
+    "sha256": "0ebe03b8ae98b0f15ab9793b742d9ff0252c71c671e7b17c7432ee2afd3a9d51"
+  },
+  {
+    "time": 274.04,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-011.jpg",
+    "sha256": "16e266b2c6a8b0f083f79d8b411885d1643e11ed142efc68e984b2577c059619"
+  },
+  {
+    "time": 276.042,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-012.jpg",
+    "sha256": "6c2432ec46fd904e500be641bc878ebc67279b7ddb87316221df4956955eca0f"
+  },
+  {
+    "time": 278.044,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-013.jpg",
+    "sha256": "0b36391e8526fa8c01b330d89508a3e94405799bbbca370c461a4a906a3c8345"
+  },
+  {
+    "time": 280.046,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-014.jpg",
+    "sha256": "818d97af915ed9f9a056f05ca6dd1944da7e56c7be01b3efe4fb897f60862412"
+  },
+  {
+    "time": 282.048,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-015.jpg",
+    "sha256": "8fb3aacdfd6f9bb7c95f870e9d2fb5f2ae507167750fd744440dc94b264e2f1d"
+  },
+  {
+    "time": 284.05,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-016.jpg",
+    "sha256": "aa3569e5fe27057ccc7ba550db6832e12a27b58a3f598d440df0eb6a93bd1244"
+  },
+  {
+    "time": 286.052,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-017.jpg",
+    "sha256": "5e0005a8fbab7dddcf309af445e783eb121622c2d6f933a71fb68d56a6c80b99"
+  },
+  {
+    "time": 288.054,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-018.jpg",
+    "sha256": "15e1febd83658bd1091bc58276a9d0820b4f768cc2013dba790913461e4e9ee2"
+  },
+  {
+    "time": 290.056,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-019.jpg",
+    "sha256": "9d8a7535e0cf41383fee0a7423c3900ae4475e61ffab9c4d261b441c33b0971a"
+  },
+  {
+    "time": 292.058,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-020.jpg",
+    "sha256": "b8d91b67815f4dcb833fea35847480b156fd286c28daf33c2d08ae4a9eef6fab"
+  },
+  {
+    "time": 294.06,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-021.jpg",
+    "sha256": "f5b816a97257ce6119ade22fa801e1df94e4bf46c20cc29e5ac0ecc48bbecd56"
+  },
+  {
+    "time": 296.062,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-022.jpg",
+    "sha256": "227552d35abb4c3ef2147e579eb1ca37a1198cdd41c11cb8740f0abc1c33bbda"
+  },
+  {
+    "time": 298.064,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-023.jpg",
+    "sha256": "a2e1ec9db5f1f3f8bb996cf8833e86fde71a74e4f66c848fd0e9f372323faab5"
+  },
+  {
+    "time": 300.066,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-024.jpg",
+    "sha256": "f606624bc6e1e78d9fcfdf2dc8024a869b9cf1511b8f1a32a55843a4e0ca3cce"
+  },
+  {
+    "time": 302.068,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-025.jpg",
+    "sha256": "e057eda3b0e7b1cfbab10d214adba69f33fbe0f404636eb32d3e4bab6b491f03"
+  },
+  {
+    "time": 304.07,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-026.jpg",
+    "sha256": "b936b1ca5889f7c55d6b213d44ffb38c424e29583201db6c5376b23259e5aa9a"
+  },
+  {
+    "time": 306.072,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-027.jpg",
+    "sha256": "7b87cb0c29b7b3731a5e26405368307bc9eda1da093a9291e0c3d88aabf14e9b"
+  },
+  {
+    "time": 308.074,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-028.jpg",
+    "sha256": "f1388596d2824cce8f2ecf63b68dade5915d1a6ca6271e2b693cba5e62adcaa1"
+  },
+  {
+    "time": 310.076,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-029.jpg",
+    "sha256": "14c7e96e338aa554974610bf5d77e38986ff6bf74d42dbf19299967b481280d1"
+  },
+  {
+    "time": 312.078,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1zw4m1e7F8/cooking_gap/frame-030.jpg",
+    "sha256": "187e2f9373059ab55a73add957bae9ba32339882b29fb39cb42b75c93052dc70"
+  }
+]

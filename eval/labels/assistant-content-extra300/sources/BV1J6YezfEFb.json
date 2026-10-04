@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1J6YezfEFb",
+  "cid": 31729058264,
+  "title": "为啥都是“线下试玩”不出“线上demo”？是不敢吗？",
+  "duration": 415,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:12:23.153Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:17:50.722Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 130,
+    "inputLineSha256": "710a43f9687f3a2212c68b072e25eaeb4559369359b412d99c14d072686c40c5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1J6YezfEFb-31729058264.json",
+    "acquisitionSha256": "a6147da54f4a0f1a01ef0b830fd653e14c3996a4da3e6c3c79e5b8a87ac5db1c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1J6YezfEFb/?p=1"
+  }
+}

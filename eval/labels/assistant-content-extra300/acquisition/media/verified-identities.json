@@ -1,0 +1,20 @@
+[
+  {
+    "bvid": "BV172hdz7EAF",
+    "cid": 32028624173,
+    "page": 1,
+    "duration": 175,
+    "sourceUrl": "https://www.bilibili.com/video/BV172hdz7EAF/?p=1",
+    "responseSha256": "41813dce6252f1597558581c4727d7d8abfecc6b9a62ff73c04befa5aff95424",
+    "checkedAt": "2026-10-04T23:18:35.542Z"
+  },
+  {
+    "bvid": "BV12u2WB4EfP",
+    "cid": 34544881490,
+    "page": 1,
+    "duration": 325,
+    "sourceUrl": "https://www.bilibili.com/video/BV12u2WB4EfP/?p=1",
+    "responseSha256": "9e9566334bb13cff83966d8671d2c8e9cdaed8b59241532d0913cda912f1a9e3",
+    "checkedAt": "2026-10-04T23:18:37.797Z"
+  }
+]

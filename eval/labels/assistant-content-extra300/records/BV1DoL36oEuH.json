@@ -1,0 +1,117 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 80,
+    "inputLineSha256": "08730cbb143d1892c0a79ede8cca737c9417b5da49441e8b5cdec9fc292bb4bd",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1DoL36oEuH-38380896407.json",
+    "acquisitionSha256": "124896eb45fd040cc7b018f25b989aa7e6759acf02fe24aaa416828942ba4ea0",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DoL36oEuH/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1DoL36oEuH.json",
+    "transcriptSha256": "f2eb7dc810fadbd55e96cc702f19d893d322161cd100db7bcc0d41ba8d8ff8ad"
+  },
+  "record": {
+    "bvid": "BV1DoL36oEuH",
+    "cid": 38380896407,
+    "duration": 258,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解说文艺部学姐坐学弟膝上的恋爱漫画，交代椅子被借走、双方心意和第二天主动靠近；中途从梦到什么剪什么转入闲鱼买枕头与集市渠道推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 102.9,
+        "end": 119.18,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从创作像做梦的说法铺垫，推介闲鱼集市员工内购深睡枕、低折扣和各种货源渠道，再号召下单前先看闲鱼，是独立平台广告；后接个人妹妹回忆与漫画剧情。",
+        "evidence": [
+          {
+            "from": 101.46,
+            "to": 102.9,
+            "text": "哈哈来电了"
+          },
+          {
+            "from": 102.9,
+            "to": 104.88,
+            "text": "很多人问我是不是梦到什么捡什么"
+          },
+          {
+            "from": 104.88,
+            "to": 105.54,
+            "text": "确实是这样"
+          },
+          {
+            "from": 105.54,
+            "to": 107.62,
+            "text": "因为在闲鱼集市薅到了员工内购"
+          },
+          {
+            "from": 107.62,
+            "to": 108.82,
+            "text": "某朵同款深睡枕"
+          },
+          {
+            "from": 108.82,
+            "to": 110.12,
+            "text": "官网3~4折就能拿下"
+          },
+          {
+            "from": 112.08,
+            "to": 115.52,
+            "text": "经销商串货员工内购官起代拍专柜样机啊"
+          },
+          {
+            "from": 116.26,
+            "to": 119.18,
+            "text": "下单之前先上闲鱼看看闲鱼集市更便宜"
+          },
+          {
+            "from": 119.18,
+            "to": 120.82,
+            "text": "其实静静妹妹小时候啊"
+          }
+        ],
+        "startUncertainty": [
+          102.9,
+          102.9
+        ],
+        "endUncertainty": [
+          119.18,
+          119.18
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 102.9,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 119.18,
+        "end": 257.959,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 161,
+      "firstIndex": 0,
+      "lastIndex": 160,
+      "allRowsRead": true
+    }
+  }
+}

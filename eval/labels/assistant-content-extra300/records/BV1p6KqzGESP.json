@@ -1,0 +1,187 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 190,
+    "inputLineSha256": "596990031d09d69780d6ea68c8f06b05d543c6cc38202607ad0fb3183e50d280",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1p6KqzGESP-30718297958.json",
+    "acquisitionSha256": "89f3358b34dc73df51ceb86f3337b7c400e9f29d08a61d8dff85412be591b9f3",
+    "sourceUrl": "https://www.bilibili.com/video/BV1p6KqzGESP/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1p6KqzGESP.json",
+    "transcriptSha256": "1114f1ec32c714ef19c1e3947668ff07e7127178af74d753b80c54a85ac346a3"
+  },
+  "record": {
+    "bvid": "BV1p6KqzGESP",
+    "cid": 30718297958,
+    "duration": 266,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "用游戏耗蓝耗血、DOT持续伤害与瞬时伤害比喻，解释大型食肉动物为何不依赖毒液，讨论能耗、生态位、科莫多巨蜥及蟒蛇；中间从更小生物寄生引出大宇除螨仪推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 137.64,
+        "end": 192.08,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从蛇再小一点需要寄生、螨虫吃皮屑切向除螨仪需求，完整介绍大宇的拍打吸力、滚刷、紫外线超声波、除湿尘杯与防过敏用途，给领券、运费险及售后；192.08秒回到大型动物带毒的反例。螨虫铺垫服务独立家电推介，因此不是只标后面的优惠话术。",
+        "evidence": [
+          {
+            "from": 136.44,
+            "to": 137.64,
+            "text": "小型动物靠毒液"
+          },
+          {
+            "from": 137.64,
+            "to": 139.08,
+            "text": "比如蛇再小一点呢"
+          },
+          {
+            "from": 139.08,
+            "to": 140.2,
+            "text": "可能就得靠寄生了"
+          },
+          {
+            "from": 140.2,
+            "to": 140.84,
+            "text": "比如螨虫"
+          },
+          {
+            "from": 140.84,
+            "to": 142.34,
+            "text": "就靠吃点人类残留在衣服"
+          },
+          {
+            "from": 142.34,
+            "to": 143.9,
+            "text": "被子上的皮脂屑生存啊"
+          },
+          {
+            "from": 143.9,
+            "to": 144.56,
+            "text": "说到螨虫"
+          },
+          {
+            "from": 144.56,
+            "to": 146.06,
+            "text": "就不得不给大家推荐一下"
+          },
+          {
+            "from": 146.06,
+            "to": 147.94,
+            "text": "我最近入手的大鱼除螨仪了"
+          },
+          {
+            "from": 149.7,
+            "to": 152.06,
+            "text": "看着干净的床居然吸出这么多脏东西"
+          },
+          {
+            "from": 152.92,
+            "to": 154.76,
+            "text": "背上爱长痘的原因算是找到了"
+          },
+          {
+            "from": 157.96,
+            "to": 159.5,
+            "text": "它搭载的是高强度马达"
+          },
+          {
+            "from": 163.64,
+            "to": 165.46,
+            "text": "还有紫外线和超声波的加持"
+          },
+          {
+            "from": 172.12,
+            "to": 173.9,
+            "text": "下雨天还能用热风去湿气"
+          },
+          {
+            "from": 177.64,
+            "to": 179.18,
+            "text": "如果大家经常过敏鼻炎"
+          },
+          {
+            "from": 180.72,
+            "to": 182.2,
+            "text": "建议可以像我一样搞个大雨"
+          },
+          {
+            "from": 186.44,
+            "to": 187.44,
+            "text": "感兴趣的兄弟们"
+          },
+          {
+            "from": 187.44,
+            "to": 189.04,
+            "text": "欢迎评论领券送运费险"
+          },
+          {
+            "from": 189.04,
+            "to": 190.7,
+            "text": "一年内质量问题免费换新"
+          },
+          {
+            "from": 190.7,
+            "to": 192.08,
+            "text": "两年质保不要错过了"
+          },
+          {
+            "from": 192.08,
+            "to": 193.8,
+            "text": "到这有人可能会反驳道"
+          }
+        ],
+        "startUncertainty": [
+          137.64,
+          137.64
+        ],
+        "endUncertainty": [
+          192.08,
+          192.08
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 124.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 125.88,
+        "end": 137.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 192.08,
+        "end": 263.03,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 263.35,
+        "end": 265.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 173,
+      "firstIndex": 0,
+      "lastIndex": 172,
+      "allRowsRead": true
+    }
+  }
+}

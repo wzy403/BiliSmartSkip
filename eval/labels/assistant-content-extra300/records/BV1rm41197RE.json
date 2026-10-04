@@ -1,0 +1,177 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 207,
+    "inputLineSha256": "edb722eeedbc7fa6707a536669a3bb525bd6b82b2552b96af8221faa8bc82a95",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1rm41197RE-1429488301.json",
+    "acquisitionSha256": "44aa44dda15aca48f8df2df8ef6592b17689d05561d292bd6a1ac377d5263644",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rm41197RE/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1rm41197RE.json",
+    "transcriptSha256": "c7272cb6ae2244ae6a6d9ae4537039f1335d59b226a20a6b4133fe42b096c4fd"
+  },
+  "record": {
+    "bvid": "BV1rm41197RE",
+    "cid": 1429488301,
+    "duration": 534,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "逐项解释方便面的消化速度、防腐与脱水、添加剂、油脂和钠、面桶材质及营养搭配等争议；后段由健康吃法转入白象汤好喝真味汤馆的具体商品推广，随后回到工业食品与便利饮食的结语。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 431.1,
+        "end": 490.51,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "前文少放调料、搭配蔬菜蛋白质是通用饮食说明；431.1 秒从“健康就有了美味也不能落后”转入汤底重要性的商业铺垫，继而点名白象新品、两款口味、面饼原料、冻干配菜、熬汤工艺及零防腐剂等卖点，直到“还原一碗地道好汤面”。490.51 秒回到工业食品的一般性总结。视频主题是方便面谣言科普，具体单品牌推荐属于独立植入，不是必要的主题产品评测。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          431.1,
+          431.1
+        ],
+        "endUncertainty": [
+          490.51,
+          490.51
+        ],
+        "evidence": [
+          {
+            "from": 428.01,
+            "to": 431.1,
+            "text": "蔬菜来填补蛋白质和维生素的亏空"
+          },
+          {
+            "from": 431.1,
+            "to": 432.96,
+            "text": "那健康就有了美味"
+          },
+          {
+            "from": 432.96,
+            "to": 433.88,
+            "text": "也不能落后啊"
+          },
+          {
+            "from": 433.88,
+            "to": 436.1,
+            "text": "加入这么多食材炖煮方便面"
+          },
+          {
+            "from": 436.1,
+            "to": 437.76,
+            "text": "汤底就显得尤为重要"
+          },
+          {
+            "from": 437.76,
+            "to": 439.38,
+            "text": "一碗方便面好不好吃"
+          },
+          {
+            "from": 439.38,
+            "to": 441.03,
+            "text": "尝这一口汤就知道了"
+          },
+          {
+            "from": 441.03,
+            "to": 443.76,
+            "text": "2024年新一代白象汤好喝"
+          },
+          {
+            "from": 443.76,
+            "to": 446.56,
+            "text": "真味汤馆推出了山君老母鸡汤面"
+          },
+          {
+            "from": 446.56,
+            "to": 449.54,
+            "text": "和白玉萝卜牛肉汤面两款招牌产品"
+          },
+          {
+            "from": 451.16,
+            "to": 454.5,
+            "text": "选取麦芯最优质的30%作为主要原料"
+          },
+          {
+            "from": 459.6,
+            "to": 461.76,
+            "text": "使面条更加筋道鲜爽"
+          },
+          {
+            "from": 473.19,
+            "to": 476.31,
+            "text": "香菜高汤包代替粉包酱包"
+          },
+          {
+            "from": 476.31,
+            "to": 480.6,
+            "text": "用传统中式熬汤工艺100度文火慢熬六小时"
+          },
+          {
+            "from": 483.12,
+            "to": 483.9,
+            "text": "零防腐剂"
+          },
+          {
+            "from": 483.9,
+            "to": 485.1,
+            "text": "零反式脂肪酸"
+          },
+          {
+            "from": 487.9,
+            "to": 490.51,
+            "text": "为大家还原一碗地道好汤面"
+          },
+          {
+            "from": 490.51,
+            "to": 492.9,
+            "text": "工业食品啊是现代化的馈赠"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 72.43,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 72.95,
+        "end": 86.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 87.78,
+        "end": 431.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 490.51,
+        "end": 522.109,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 522.389,
+        "end": 532.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 254,
+      "firstIndex": 0,
+      "lastIndex": 253,
+      "allRowsRead": true
+    }
+  }
+}

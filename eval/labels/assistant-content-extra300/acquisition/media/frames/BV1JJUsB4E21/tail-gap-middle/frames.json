@@ -1,0 +1,117 @@
+[
+  {
+    "time": 1513.012,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-001.jpg",
+    "sha256": "e2a20a37d21172dbd9444ee38730bee2b928e0bd8137ab3ae2d851c2781af76e"
+  },
+  {
+    "time": 1515.014,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-002.jpg",
+    "sha256": "4fddc05a351c8d00315a6a135a7c12bf5fa6d7912cf5344c24155f79fffd23f7"
+  },
+  {
+    "time": 1517.016,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-003.jpg",
+    "sha256": "25dc3a6f7427db41fc23c56a509d04301e1f10ef9a68a6bf2c0543185326e1af"
+  },
+  {
+    "time": 1519.018,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-004.jpg",
+    "sha256": "0144ab8b6599d5fd0ac634bb552f5755d0806acde221dc3f4cd8464124bf5239"
+  },
+  {
+    "time": 1521.02,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-005.jpg",
+    "sha256": "6fdfd2036e54a7db1c8e1c5412001178cbaff7db7cc9cb343f54bfd81b22647f"
+  },
+  {
+    "time": 1523.022,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-006.jpg",
+    "sha256": "1de23b0a3fba47551dfa0c93d8df64718e4d00fdff347c175c4af849943b0004"
+  },
+  {
+    "time": 1525.024,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-007.jpg",
+    "sha256": "99338522a98b5b950c590aeef4c9283643200a00e9d2abe8f605cedd072fed6b"
+  },
+  {
+    "time": 1527.026,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-008.jpg",
+    "sha256": "1f505642f575ac65c10e8ff7d92eab142be8b2ace560e3be9c540881a64221c8"
+  },
+  {
+    "time": 1529.028,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-009.jpg",
+    "sha256": "7a4c09971f15ac4a9979179de858ed7d47f77368aa9f63b04cbea853cfefd0bf"
+  },
+  {
+    "time": 1531.03,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-010.jpg",
+    "sha256": "bcf7ec07b0b350b41c3c024569320df11d5a02926d4fd931031d18a829656643"
+  },
+  {
+    "time": 1533.032,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-011.jpg",
+    "sha256": "0cba9a7ef9af59a7662a0ff5ac40372d37947187210e383dce9b43362ae1b772"
+  },
+  {
+    "time": 1535.034,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-012.jpg",
+    "sha256": "148e4f4e0f2e1511a5e88ee3ea019306592cda6599a25367383b0189abcf25e8"
+  },
+  {
+    "time": 1537.036,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-013.jpg",
+    "sha256": "01330c1cdeea83b2257d6c6a7348fb4b3deb42d21cce7aa03b8a3d849936ade4"
+  },
+  {
+    "time": 1539.038,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-014.jpg",
+    "sha256": "9af19c7850ab195eee97fb2e1cb06708daaf37b2546ecdf6e9966d20cfcc52ed"
+  },
+  {
+    "time": 1541.04,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-015.jpg",
+    "sha256": "2aa4de4ac92daa7ba3a0a27c677e987f2755eee178be0849b4631560e45379b3"
+  },
+  {
+    "time": 1543.042,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-016.jpg",
+    "sha256": "927025b41f55fff37e3936979c9cb9c38b34d2796c342c12407dfdb935424ba9"
+  },
+  {
+    "time": 1545.044,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-017.jpg",
+    "sha256": "5d6bc9f877bda1339a48da4fb5b6dd6c7fc78559877e8109b210c5d838d9cba4"
+  },
+  {
+    "time": 1547.046,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-018.jpg",
+    "sha256": "594683e645303c1a43bce1d98cbd14f9890fc22d19585ba882c532f434b8f0b2"
+  },
+  {
+    "time": 1549.048,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-019.jpg",
+    "sha256": "e93f7bd76eaa20da54343f6a915d944348f2aa575038fbdd46e5a061e1057b8e"
+  },
+  {
+    "time": 1551.05,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-020.jpg",
+    "sha256": "41d6851d7e6d5c0645929675a32c33dcfca21159c71f93b8d99b59ec032a74ae"
+  },
+  {
+    "time": 1553.052,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-021.jpg",
+    "sha256": "c6d850b8b4deca9f5abd1a2782fa203cbfcb2f7d717d5919a6fa2ba6b2ee52ee"
+  },
+  {
+    "time": 1555.054,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-022.jpg",
+    "sha256": "b1db14663ba8038d634e675303a767bad47b04d97105227a00f0efdd83db8f8e"
+  },
+  {
+    "time": 1557.056,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1JJUsB4E21/tail-gap-middle/frame-023.jpg",
+    "sha256": "5f1d46544be7ae8610f84db37cb095a479cc35b646efb4ef27193d74d790db74"
+  }
+]

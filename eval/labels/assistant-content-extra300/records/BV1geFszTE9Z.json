@@ -1,0 +1,146 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 101,
+    "inputLineSha256": "63a10f317245eb624688730f9523c1fb3adf96a8bab28bb65dfe99edae8c5b34",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1geFszTE9Z-35886467452.json",
+    "acquisitionSha256": "6e6b81bb338de0d2d2c28f6d1bf4d20e0a4a872c67acecd5d5f237a1e9fd8503",
+    "sourceUrl": "https://www.bilibili.com/video/BV1geFszTE9Z/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1geFszTE9Z.json",
+    "transcriptSha256": "2ff10e420825eeeaa5c1b07045a8660ca3a65ff79207a362c6ef1f32f890c57c"
+  },
+  "record": {
+    "bvid": "BV1geFszTE9Z",
+    "cid": 35886467452,
+    "duration": 631,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "大阪网红鳗鱼饭探店，排队后体验店内氛围，评价鳗鱼串、肝、玉子烧、米饭、牛肉的口味和价格，并多次批评偏咸、鱼刺和硬米饭。中段从座位拥挤、腿麻引出妙界F2膝盖按摩仪，介绍热敷按摩与年货节券和送礼，随后主餐上桌继续评测。探店及连锁餐饮比较是主题内容。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 182.76,
+        "end": 264.84,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "要求让开伸展、抱怨拥挤腿麻为膝盖按摩仪铺垫；商品体验、功能、健康需求、领券赠品和给丈母娘送礼笑话连续属于推广，264.84秒开始宣布主角饭上桌并回到探店。",
+        "startUncertainty": [
+          182.76,
+          184
+        ],
+        "endUncertainty": [
+          264.84,
+          264.84
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 182.26,
+            "to": 182.76,
+            "text": "哎呦"
+          },
+          {
+            "from": 182.76,
+            "to": 184,
+            "text": "你躲开点啊"
+          },
+          {
+            "from": 184,
+            "to": 184.84,
+            "text": "我得伸展一下子"
+          },
+          {
+            "from": 184.84,
+            "to": 185.8,
+            "text": "这也太挤了"
+          },
+          {
+            "from": 185.8,
+            "to": 186.92,
+            "text": "就是坐的我可难受了"
+          },
+          {
+            "from": 188.66,
+            "to": 189.8,
+            "text": "坐的腿都麻了"
+          },
+          {
+            "from": 189.8,
+            "to": 192.82,
+            "text": "这时候就得用妙计F2膝盖按摩仪了"
+          },
+          {
+            "from": 210.64,
+            "to": 212.52,
+            "text": "好评热销回购第一的实力"
+          },
+          {
+            "from": 215.42,
+            "to": 219.06,
+            "text": "它升级了超大的热敷面积和锁温银离子面料"
+          },
+          {
+            "from": 235.52,
+            "to": 236.92,
+            "text": "你是久坐久站伤"
+          },
+          {
+            "from": 241.16,
+            "to": 242.8,
+            "text": "就怕严重的要开刀"
+          },
+          {
+            "from": 251.36,
+            "to": 253.32,
+            "text": "而且现在年过节领我券"
+          },
+          {
+            "from": 255.46,
+            "to": 257.24,
+            "text": "不说送延长带艾灸包"
+          },
+          {
+            "from": 260.24,
+            "to": 262.22,
+            "text": "回头回去我给老丈母娘送过去"
+          },
+          {
+            "from": 262.22,
+            "to": 264.84,
+            "text": "今年这十佳好女婿非我莫属了"
+          },
+          {
+            "from": 264.84,
+            "to": 265.72,
+            "text": "好的观众们"
+          },
+          {
+            "from": 265.72,
+            "to": 267.08,
+            "text": "今天的主角就上来了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "552.72–572.25秒无字幕，未推断其中无声/进餐画面的内容。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 322,
+      "firstIndex": 0,
+      "lastIndex": 321,
+      "allRowsRead": true
+    }
+  }
+}

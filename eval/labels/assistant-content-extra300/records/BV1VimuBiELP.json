@@ -1,0 +1,536 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles-and-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 255,
+    "inputLineSha256": "1aa99b861e100f09be273c9dc62a8d8cdd3481a716912c6ffae8f947a584e6b5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1VimuBiELP-34661404292.json",
+    "acquisitionSha256": "29f3f762409d7640a5b98a7d921c58369cf07a2ad43e42fa13fbaefeac9de415",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VimuBiELP/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1VimuBiELP.json",
+    "transcriptSha256": "298ecedb3eb51a92c3bef73f2567ee6bada64caedf6093d619a02832beeefc8e",
+    "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1VimuBiELP.mp4",
+    "mediaSha256": "f167074b69b59caf0106c988366ab6426ecf3ecd88e7f8e64bb41b04a83074ca",
+    "mediaVerificationFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1VimuBiELP-verified.json",
+    "mediaVerificationSha256": "0415bd8d280284c3363c376a1f100c4bc304711bbc9960690f15728effba6ac8"
+  },
+  "record": {
+    "bvid": "BV1VimuBiELP",
+    "cid": 34661404292,
+    "duration": 522,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读228行，盘点145集猫和老鼠中汤姆前摇导致扑空或反伤的54次动作，计算总时长与平均时长并解释动画表现手法。抽帧确认三处粉色“拼好姆”是拼好饭的谐音铺垫，作为与主题动画例子结合的短笑点标广告但保留；267.54–314.03秒和486.34–502.24秒完整独立拼好饭推介应跳。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 65.92,
+        "end": 66.96,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "reason": "实际抽帧确认粉色硬字幕“拼好姆”与后续“拼好饭”构成谐音推广铺垫；同时是汤姆被切碎动画例子的短笑点，未变为商品插页或独立销售话术，跳过会删除题目所需的动画动作与解说，因此广告性质与保留决定分开记录。",
+        "evidence": [
+          {
+            "from": 65.92,
+            "to": 66.96,
+            "text": "金航母是吧"
+          }
+        ],
+        "startUncertainty": [
+          65.8,
+          66.333
+        ],
+        "endUncertainty": [
+          66.867,
+          67.133
+        ]
+      },
+      {
+        "start": 160.66,
+        "end": 162,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "reason": "实际抽帧确认粉色硬字幕“拼好姆”与后续“拼好饭”构成谐音推广铺垫；同时是汤姆被切碎动画例子的短笑点，未变为商品插页或独立销售话术，跳过会删除题目所需的动画动作与解说，因此广告性质与保留决定分开记录。 第二次ASR将谐音与下一句“离谱的是”合成一行，按161秒仍有谐音、162秒已切下一个例子将标注尾点设162秒，保留抽帧边界区间。",
+        "evidence": [
+          {
+            "from": 160.66,
+            "to": 163.44,
+            "text": "拼航母again离谱的是你前腰长"
+          }
+        ],
+        "startUncertainty": [
+          160,
+          161
+        ],
+        "endUncertainty": [
+          161,
+          162
+        ]
+      },
+      {
+        "start": 266.26,
+        "end": 267.54,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "reason": "实际抽帧确认粉色硬字幕“拼好姆”与后续“拼好饭”构成谐音推广铺垫；同时是汤姆被切碎动画例子的短笑点，未变为商品插页或独立销售话术，跳过会删除题目所需的动画动作与解说，因此广告性质与保留决定分开记录。",
+        "evidence": [
+          {
+            "from": 266.26,
+            "to": 267.54,
+            "text": "依旧拼航母"
+          }
+        ],
+        "startUncertainty": [
+          266,
+          267
+        ],
+        "endUncertainty": [
+          267.5,
+          268
+        ]
+      },
+      {
+        "start": 267.54,
+        "end": 314.03,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从汤姆前摇烦恼引入作者不烦恼因点了拼好饭，展开亮厨计划卫生背书、线下店实访、搜索口令和评论区下载、零起送与免配送，再以前摇呼应安心的广告收尾；完整可跳。",
+        "evidence": [
+          {
+            "from": 266.26,
+            "to": 267.54,
+            "text": "依旧拼航母"
+          },
+          {
+            "from": 267.54,
+            "to": 269.62,
+            "text": "虽然汤姆前药厂非常烦恼"
+          },
+          {
+            "from": 269.62,
+            "to": 271.72,
+            "text": "但是咕咕却一点也烦恼不起来"
+          },
+          {
+            "from": 271.72,
+            "to": 272.64,
+            "text": "因为我点了美团"
+          },
+          {
+            "from": 272.64,
+            "to": 273.18,
+            "text": "拼好饭"
+          },
+          {
+            "from": 275.5,
+            "to": 277.16,
+            "text": "最近还上线了量厨计划"
+          },
+          {
+            "from": 279.48,
+            "to": 282.14,
+            "text": "他们每周还会在石安日记上传后厨图"
+          },
+          {
+            "from": 295.14,
+            "to": 297.1,
+            "text": "而且姑姑还亲自去店里看了一下"
+          },
+          {
+            "from": 297.1,
+            "to": 299.56,
+            "text": "发现店里的后厨灶台都很明亮干净"
+          },
+          {
+            "from": 301.6,
+            "to": 304.08,
+            "text": "现在上美团搜索拼好饭23598"
+          },
+          {
+            "from": 304.08,
+            "to": 305.74,
+            "text": "或者点击评论区即可下载"
+          },
+          {
+            "from": 305.74,
+            "to": 306.42,
+            "text": "零起送"
+          },
+          {
+            "from": 306.42,
+            "to": 307.02,
+            "text": "零配送费"
+          },
+          {
+            "from": 309.66,
+            "to": 311.34,
+            "text": "如果汤姆的前摇是未知的"
+          },
+          {
+            "from": 311.34,
+            "to": 314.03,
+            "text": "拼好饭的无前摇就是确定的安心"
+          },
+          {
+            "from": 314.03,
+            "to": 315.99,
+            "text": "当咕咕回顾猫和老鼠的时候"
+          }
+        ],
+        "startUncertainty": [
+          267.5,
+          268
+        ],
+        "endUncertainty": [
+          314.03,
+          314.03
+        ]
+      },
+      {
+        "start": 486.34,
+        "end": 502.24,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文总结后独立再次推介拼好饭的便宜干净、个位数套餐、拼单省成本，并以怎么没早点发现收尾；应跳过，保留完整二次推广。",
+        "evidence": [
+          {
+            "from": 484.74,
+            "to": 486.34,
+            "text": "很轻松就出了包袱好了"
+          },
+          {
+            "from": 486.34,
+            "to": 487.1,
+            "text": "想吃到便宜"
+          },
+          {
+            "from": 487.1,
+            "to": 488.9,
+            "text": "有干净的外卖就上美团拼好饭"
+          },
+          {
+            "from": 488.9,
+            "to": 492.46,
+            "text": "一份招牌凉皮加花干煎蛋夹馍套餐只需个位数"
+          },
+          {
+            "from": 492.46,
+            "to": 494.9,
+            "text": "比平时正常点一顿起码便宜了好几十"
+          },
+          {
+            "from": 494.9,
+            "to": 496.86,
+            "text": "这么便宜的原因是因为拼了之后"
+          },
+          {
+            "from": 496.86,
+            "to": 499.26,
+            "text": "商家能获得集中单量起手统一Python"
+          },
+          {
+            "from": 499.26,
+            "to": 500.26,
+            "text": "节省了中间成本"
+          },
+          {
+            "from": 500.26,
+            "to": 501.22,
+            "text": "所以才能这么划算"
+          },
+          {
+            "from": 501.22,
+            "to": 502.24,
+            "text": "怎么没早点发现"
+          },
+          {
+            "from": 502.24,
+            "to": 504.88,
+            "text": "如果大家还知道更多猫和老鼠中有趣的设定"
+          }
+        ],
+        "startUncertainty": [
+          486.34,
+          486.34
+        ],
+        "endUncertainty": [
+          502.24,
+          502.24
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 7.8,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 8.45,
+        "end": 13.01,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 19.04,
+        "end": 22.6,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 23.68,
+        "end": 27.83,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 28.53,
+        "end": 30.2,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 34.76,
+        "end": 62.74,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 66.96,
+        "end": 79.32,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 84.06,
+        "end": 110.03,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 111.46,
+        "end": 113.34,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 117.04,
+        "end": 119.56,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 123.06,
+        "end": 128.58,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 131.48,
+        "end": 137.72,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 137.94,
+        "end": 144.66,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 146.24,
+        "end": 149.37,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 149.73,
+        "end": 157.48,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 162,
+        "end": 167.62,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 172.08,
+        "end": 174.08,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 176.34,
+        "end": 218.84,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 224.86,
+        "end": 239.63,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 240.11,
+        "end": 247.47,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 250.94,
+        "end": 253.42,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 255.22,
+        "end": 259.98,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 314.03,
+        "end": 330.18,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 339.34,
+        "end": 370.36,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 377.68,
+        "end": 413.42,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 420.26,
+        "end": 425.34,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 429.14,
+        "end": 437.98,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 440.54,
+        "end": 444.78,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 447,
+        "end": 450.44,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 453.92,
+        "end": 457.64,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 459.68,
+        "end": 464.24,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 465.37,
+        "end": 486.34,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 502.24,
+        "end": 510.4,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 511.47,
+        "end": 516.03,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      },
+      {
+        "start": 516.43,
+        "end": 520.1,
+        "reason": "全文阅读后的主题正文；已排除广告标注范围。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；全文阅读228行字幕，并实际查看三个谐音位置的31个抽取帧（含重叠时段），没有连续观看全片或逐帧审核，未听取音频。",
+      "ASR把“拼好姆”误写为“金航母/拼航母”，原字幕证据保持原文，纠错依据单列于visualObservations。语音与硬字幕可能不完全同步，边界保留区间。其他无字幕间隔和视觉信息仍受字幕及有限抽帧覆盖限制。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 228,
+      "firstIndex": 0,
+      "lastIndex": 227,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": [
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frames.json",
+      "framesManifestSha256": "b2760160a83e27ae5fc2f0be16eaf9c6e75f2ea13c15fbc0f7fa800f67034f4f",
+      "framesViewed": 7,
+      "times": [
+        63.0,
+        64.0,
+        65.0,
+        66.0,
+        67.0,
+        68.0,
+        69.0
+      ],
+      "observation": "63–69秒围绕汤姆碎片动画；较稀帧用于定位，细读边界见first-pun-dense。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun-dense/frames.json",
+      "framesManifestSha256": "0e58cf75aba574253dc83f6069d6d12f4deaae87b49d4c8a20809ac657b93bdd",
+      "framesViewed": 8,
+      "times": [
+        65.267,
+        65.533,
+        65.8,
+        66.067,
+        66.333,
+        66.6,
+        66.867,
+        67.133
+      ],
+      "observation": "65.267–66.067秒为汤姆碎片动画；66.333、66.6、66.867秒粉色“拼好姆”加“是吧”，67.133秒已切“本视频总结了”。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/second-pun/frames.json",
+      "framesManifestSha256": "7710dcc3e7ff81ef97f143453f8171a55f54325bac64f1965c64964f2e225f38",
+      "framesViewed": 7,
+      "times": [
+        159.0,
+        160.0,
+        161.0,
+        162.0,
+        163.0,
+        164.0,
+        165.0
+      ],
+      "observation": "159–160秒汤姆被分割的水中动画，161秒硬字幕“拼好姆again”，162秒已切台球桌动画与“离谱的是”，163–165秒继续前摇示例。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/third-pun/frames.json",
+      "framesManifestSha256": "0467f33dea63dec0fec6554fe6bb177b31ffc8e27429751653d36329b58dc99a",
+      "framesViewed": 9,
+      "times": [
+        265.0,
+        265.5,
+        266.0,
+        266.5,
+        267.0,
+        267.5,
+        268.0,
+        268.5,
+        269.0
+      ],
+      "observation": "265–266.5秒剑客汤姆被分割，267、267.5秒“依旧拼好姆”，268–269秒转“虽然汤姆前摇长／非常烦恼”，随后进入字幕已确认的独立广告。"
+    }
+  ]
+}

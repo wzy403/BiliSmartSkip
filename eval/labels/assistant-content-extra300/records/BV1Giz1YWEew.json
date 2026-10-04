@@ -1,0 +1,113 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 104,
+    "inputLineSha256": "7e8bafd0d07940118ba28e4f89430c3b09c71132234e4f9134beea221731e425",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1Giz1YWEew-27157989221.json",
+    "acquisitionSha256": "95e643148538562a95ea32418067bd551c0c26180f290c6337a294f39b107219",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Giz1YWEew/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Giz1YWEew.json",
+    "transcriptSha256": "2b3b7cda4b75a652f50cd1b2681398f377c57ca73daae4251348adf64616d09c"
+  },
+  "record": {
+    "bvid": "BV1Giz1YWEew",
+    "cid": 27157989221,
+    "duration": 833,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "《熊出没》猛男光头强剧情：光头强想请假，李老板寄药扣工资；他误读强身指南、晒太阳暴食而生病，熊大熊二纠正饮食并督促运动，恢复后又追熊。其后有歌曲、少儿频道口号和大量字幕空白。可辨识剧情里的药品并非独立商业推荐，但尾部缺少充分内容，不能判定全片无应跳广告。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 46.9,
+        "end": 109.23,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "老板寄补药并扣工资、角色读强身指南是动画情节的一部分，后文明确吃假药的反讽，不是面向观众销售。",
+        "startUncertainty": [
+          46.9,
+          46.9
+        ],
+        "endUncertainty": [
+          109.23,
+          111.86
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 46.9,
+            "to": 48.52,
+            "text": "喂李老板吗"
+          },
+          {
+            "from": 52.78,
+            "to": 54.06,
+            "text": "我是在贴膏药"
+          },
+          {
+            "from": 67.16,
+            "to": 69.72,
+            "text": "腰疼也不是什么大病吗"
+          },
+          {
+            "from": 69.72,
+            "to": 72.18,
+            "text": "我给你寄点补药吃吃就好啦"
+          },
+          {
+            "from": 73.58,
+            "to": 75.51,
+            "text": "钱要从工资里扣啊"
+          },
+          {
+            "from": 83.68,
+            "to": 88.34,
+            "text": "哎发工资不及时寄药倒挺快的"
+          },
+          {
+            "from": 90.61,
+            "to": 94.37,
+            "text": "看来这个月的工资又扣光了"
+          },
+          {
+            "from": 105.9,
+            "to": 109.23,
+            "text": "嗯嗯强身指南"
+          },
+          {
+            "from": 371.22,
+            "to": 377.079,
+            "text": "这强身药俺明白了诶"
+          },
+          {
+            "from": 377.079,
+            "to": 379.039,
+            "text": "光头强一定是吃了假药"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "剧情后段尤其669.54–720.78、726.58–778.7与781.44–833秒缺字幕；当前仅知道其中出现少儿频道口号及少量歌声，需查看这部分画面/音频排除额外片段或广告。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "首末字幕0–781.44秒，视频时长833秒，片尾51.56秒未有字幕。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 209,
+      "firstIndex": 0,
+      "lastIndex": 208,
+      "allRowsRead": true
+    }
+  }
+}

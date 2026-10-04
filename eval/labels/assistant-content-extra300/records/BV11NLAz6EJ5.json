@@ -1,0 +1,132 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 4,
+    "inputLineSha256": "10b9599dc565583d1d1ad12922be3892d024ae1949519d533989a661ba9bb097",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV11NLAz6EJ5-29519252896.json",
+    "acquisitionSha256": "d5a969ccd129e0e0e2d63167e85283bc8851a7f41a209f37e4bd4f4a386436db",
+    "sourceUrl": "https://www.bilibili.com/video/BV11NLAz6EJ5/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV11NLAz6EJ5.json",
+    "transcriptSha256": "5dd2c4bc909c7fd7ad7a1564d05c0b5000926d3b17cbf1c369fc8d781be563d4"
+  },
+  "record": {
+    "bvid": "BV11NLAz6EJ5",
+    "cid": 29519252896,
+    "duration": 544,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "叙述1995年墨西哥卡拉维拉天坑洞潜事故，介绍洞穴地形、向导带队违规、失踪搜救和事后安全教训。中途从潜水不能省钱转到手机换新，插入转转回收服务广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 178.48,
+        "end": 219.82,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从何时可以省钱的转折开始，介绍手机二手回收、回收师培训、上门验机打款、支持品类、搜索码和回收红包，到说完转转结束；随后明确返回洞穴故事。",
+        "evidence": [
+          {
+            "from": 175.42,
+            "to": 177.38,
+            "text": "但这种事还考虑省钱的话"
+          },
+          {
+            "from": 177.38,
+            "to": 178.48,
+            "text": "将会非常危险"
+          },
+          {
+            "from": 178.48,
+            "to": 180.3,
+            "text": "那什么时候可以省钱呢"
+          },
+          {
+            "from": 183.96,
+            "to": 185.42,
+            "text": "像我那台IPHONE13"
+          },
+          {
+            "from": 185.42,
+            "to": 187.88,
+            "text": "旧的转转上门回收了2500多"
+          },
+          {
+            "from": 196.44,
+            "to": 198.32,
+            "text": "回收师最快一小时上门"
+          },
+          {
+            "from": 212.06,
+            "to": 213.34,
+            "text": "搜索11472"
+          },
+          {
+            "from": 213.34,
+            "to": 215.3,
+            "text": "领取580元回收红包"
+          },
+          {
+            "from": 217.68,
+            "to": 219.14,
+            "text": "赶紧上转转google价吧"
+          },
+          {
+            "from": 219.14,
+            "to": 219.82,
+            "text": "说完转转"
+          },
+          {
+            "from": 219.82,
+            "to": 221.48,
+            "text": "我们正式进入洞穴探险"
+          },
+          {
+            "from": 221.48,
+            "to": 223.34,
+            "text": "1995年8月17日"
+          }
+        ],
+        "startUncertainty": [
+          178.48,
+          178.48
+        ],
+        "endUncertainty": [
+          219.82,
+          219.82
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.06,
+        "end": 178.48,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 219.82,
+        "end": 543.14,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 306,
+      "firstIndex": 0,
+      "lastIndex": 305,
+      "allRowsRead": true
+    }
+  }
+}

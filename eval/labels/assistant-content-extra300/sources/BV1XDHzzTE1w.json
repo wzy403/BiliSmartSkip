@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1XDHzzTE1w",
+  "cid": 32327667582,
+  "title": "【断网补全计划99】丝瓜汤，爱情酒吧，宝妈自学中医，AI包鱼塘，开学趣闻，纸质火车票消失，白城阿姨，月全食，全民枪战黑客，站台禁烟，肥娟小吃后续等",
+  "duration": 779,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:13:12.603Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:32:16.774Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 265,
+    "inputLineSha256": "a60e35089079a274984d1116ca34b9ed49d170a19778fceebf048e00d5f1474a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1XDHzzTE1w-32327667582.json",
+    "acquisitionSha256": "7d8b09a099ed523fefd222cd03c6ac61b78e38494dd29ca0979f563feeb7276f",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XDHzzTE1w/?p=1"
+  }
+}

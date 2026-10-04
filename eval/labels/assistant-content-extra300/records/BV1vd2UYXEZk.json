@@ -1,0 +1,207 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 252,
+    "inputLineSha256": "39c5e77b36bee0a1152a1ef1d26f714681835cd62ae9a873524512bd438dd0ae",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1vd2UYXEZk-26243629115.json",
+    "acquisitionSha256": "eaf3d059f2a71969f45585cb6d2ce9d1c1ea2f2cf441b0584022585c4e1112f1",
+    "sourceUrl": "https://www.bilibili.com/video/BV1vd2UYXEZk/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1vd2UYXEZk.json",
+    "transcriptSha256": "c99d0fcc78571425f36b9ebfb018dc5b4ba6b205c660b9f5747b562503ba7aa4"
+  },
+  "record": {
+    "bvid": "BV1vd2UYXEZk",
+    "cid": 26243629115,
+    "duration": 914,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "阅读全文462行。正文对照欧洲与中国油脂、冶铁和铁锅普及、动物肉食与蔬菜结构、农业禀赋及烹饪劳动成本，解释西餐少有中式爆炒。698.91秒起在总结之后转入油烟PM2.5健康问题与传统抽油烟机不足，为米家净烟机P1/P2功能、销量、微粒捕集和健康安全背书；最后再次以中式炒菜守护者收束。字幕0.04–908.44秒，距914秒结束5.56秒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 698.91,
+        "end": 897.7,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "正文论点已总结，完整广告从中式炒菜油烟危害铺垫开始，包含研究引用、传统油烟机贬比、P1销量背书、P2功能参数与安全卖点，并延伸至历史文明和守护者的品牌收尾；可独立跳过，不能只取745.01秒开始的商品名称或缩掉末段文化包装。",
+        "evidence": [
+          {
+            "from": 695.7,
+            "to": 698.91,
+            "text": "炒菜依旧在中国人餐桌上独领风骚"
+          },
+          {
+            "from": 698.91,
+            "to": 700.41,
+            "text": "奈何中式炒菜"
+          },
+          {
+            "from": 700.41,
+            "to": 703.9,
+            "text": "尤其是爆炒会产生大量的油烟与有害物质"
+          },
+          {
+            "from": 707.78,
+            "to": 711.18,
+            "text": "家庭烹饪产生的pm2.5防护指南中显示"
+          },
+          {
+            "from": 724.72,
+            "to": 726.98,
+            "text": "而作为西方舶来品的油烟机"
+          },
+          {
+            "from": 737.96,
+            "to": 739.52,
+            "text": "很难做到有效吸除"
+          },
+          {
+            "from": 741.3,
+            "to": 743.08,
+            "text": "那么面对厨房的油烟问题"
+          },
+          {
+            "from": 743.08,
+            "to": 745.01,
+            "text": "我们就无计可施了吗"
+          },
+          {
+            "from": 745.01,
+            "to": 748.67,
+            "text": "米家智能净烟机为我们提供了中式高温烹饪"
+          },
+          {
+            "from": 754.35,
+            "to": 756.23,
+            "text": "研发出的米家净烟机P1"
+          },
+          {
+            "from": 759.94,
+            "to": 760.86,
+            "text": "在今年618"
+          },
+          {
+            "from": 771.56,
+            "to": 773.42,
+            "text": "销售量与销售额双料第一"
+          },
+          {
+            "from": 773.42,
+            "to": 775.9,
+            "text": "而全新升级推出的米家净烟机P2"
+          },
+          {
+            "from": 781.16,
+            "to": 783.82,
+            "text": "先从源头抓住pm2.5与油烟"
+          },
+          {
+            "from": 792.26,
+            "to": 795.38,
+            "text": "保障我们在热油爆香爆炒颠勺的时候"
+          },
+          {
+            "from": 797.54,
+            "to": 798.98,
+            "text": "不扩散的禁烟效果"
+          },
+          {
+            "from": 811.829,
+            "to": 814.64,
+            "text": "还有全新升级的负离子净化功能"
+          },
+          {
+            "from": 829.07,
+            "to": 832.78,
+            "text": "还升级了搭载一氧化碳传感器与甲烷传感器"
+          },
+          {
+            "from": 853.54,
+            "to": 856.96,
+            "text": "为中国家庭带来了安全健康的烹饪环境"
+          },
+          {
+            "from": 856.96,
+            "to": 858.64,
+            "text": "自宋代普及以来啊"
+          },
+          {
+            "from": 869.16,
+            "to": 871.94,
+            "text": "却因产生油烟pm2.5而遭到诟病"
+          },
+          {
+            "from": 873.7,
+            "to": 877.45,
+            "text": "以拥有动态微粒捕集技术的米家净烟机为代表"
+          },
+          {
+            "from": 892.5,
+            "to": 894.7,
+            "text": "更续了中国炒菜的历史脉络"
+          },
+          {
+            "from": 894.7,
+            "to": 897.7,
+            "text": "成为了中式烹饪的守护者"
+          },
+          {
+            "from": 898.04,
+            "to": 900,
+            "text": "这里是赛博实录"
+          }
+        ],
+        "startUncertainty": [
+          698.91,
+          698.91
+        ],
+        "endUncertainty": [
+          897.7,
+          898.04
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 68.119,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 70.159,
+        "end": 85.93,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 86.45,
+        "end": 698.91,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 898.04,
+        "end": 908.44,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 462,
+      "firstIndex": 0,
+      "lastIndex": 461,
+      "allRowsRead": true
+    }
+  }
+}

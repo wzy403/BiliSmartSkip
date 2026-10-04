@@ -1,0 +1,32 @@
+{
+  "bvid": "BV1EZiRYJEFy",
+  "cid": 27190756051,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1EZiRYJEFy/?p=1",
+  "checkedAt": "2026-10-04T23:51:28.947Z",
+  "responseSha256": "fe9c717d746d600ea950d3f367b1175b4f46039c720ffc02d0403399f2a0e172",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1EZiRYJEFy-excerpt-0-564.mp4",
+  "sha256": "d231bf2c4cf08f7aae2cee9dd97f05335d11e4781b915e545e676f2f5073051a",
+  "bytes": 30548679,
+  "status": "excerpt-preserved-and-identity-verified",
+  "sourceTimeRange": [
+    0,
+    564
+  ],
+  "hasAudio": false,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "format": {
+      "duration": "564.000000"
+    }
+  },
+  "method": "原CID校验后的公开DASH已下载视频流前564秒无重编码保存为片段；未下载全片，不含音频，仅作指定字幕缺口画面审核。"
+}

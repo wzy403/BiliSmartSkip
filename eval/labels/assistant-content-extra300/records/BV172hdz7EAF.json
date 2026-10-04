@@ -1,0 +1,241 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-selected-local-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 31,
+    "inputLineSha256": "6a9ff3510543bd2f5f92b6a4da1e2a3a5619ee1abbca81d0728ac32f9333fa4f",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV172hdz7EAF-32028624173.json",
+    "acquisitionSha256": "6dbcc12b17ee84219ffb8403d0222f1fa76296389f5d99467b07d87f2a12c1fc",
+    "sourceUrl": "https://www.bilibili.com/video/BV172hdz7EAF/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV172hdz7EAF.json",
+    "transcriptSha256": "9374e4e444b162f5d7d93a9242d593696157bfe6118e4e2a1c89f7278c34d18a"
+  },
+  "record": {
+    "bvid": "BV172hdz7EAF",
+    "cid": 32028624173,
+    "duration": 175,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "猫和老鼠画面改编的大学新生学编程短剧：课堂理解困难、找课后题答案受阻，插入腾讯元宝搜题及学习建议推广，随后回到IDE下载、调试、指针和考试笑话。独立功能推介含完整需求铺垫与视觉收尾；后续AI使用的剧情回顾保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 63,
+        "end": 116,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "完整字幕与实际抽取画面共同确认：63秒“这课后题”起，没答案、搜索失败/付费压缩包、聚餐求助连续为元宝搜题推广铺垫；随后单题/整页搜题演示、试用号召、一键下载，以及元宝给学习建议的收尾持续到115秒，116秒转回下载IDE的编程笑话。不能把102.3秒口播结束当作广告结束。",
+        "startUncertainty": [
+          62,
+          63
+        ],
+        "endUncertainty": [
+          115,
+          116
+        ],
+        "boundaryConfidence": "subtitle-plus-selected-frames",
+        "evidence": [
+          {
+            "from": 77.84,
+            "to": 79.47,
+            "text": "Oh come on"
+          },
+          {
+            "from": 80.07,
+            "to": 82.01,
+            "text": "这有啥让腾讯元宝来解决"
+          },
+          {
+            "from": 82.01,
+            "to": 82.93,
+            "text": "打开腾讯元宝"
+          },
+          {
+            "from": 84.51,
+            "to": 87.29,
+            "text": "将想搜索的题目框选到框里进行点击拍照"
+          },
+          {
+            "from": 96.86,
+            "to": 99.22,
+            "text": "这样一来一整页的题目也只需要一分钟不到"
+          },
+          {
+            "from": 100.6,
+            "to": 102.3,
+            "text": "还不快来试一试"
+          }
+        ],
+        "visualEvidence": [
+          {
+            "time": 63,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/setup/frame-005.jpg",
+            "sha256": "aea27cc5af73910f1804b39cea4907ba7b7e593f5bad3e86ad9566baafaedc59",
+            "observation": "硬字幕“这课后题”，开始课后题无答案的需求铺垫。"
+          },
+          {
+            "time": 67,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/setup/frame-009.jpg",
+            "sha256": "812f8947e515ee88b219cc1f2be58538e175b9e1547809de4ecf50f9eecbdeb8",
+            "observation": "搜索引擎“找了一早上”。"
+          },
+          {
+            "time": 72,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/setup/frame-014.jpg",
+            "sha256": "d6d6433c7c011904192370c91fde1aaeec87342c48db3b320b3b93d7a7396f86",
+            "observation": "付费压缩包“咋还要钱？”；后接聚餐求助。"
+          },
+          {
+            "time": 81,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-010.jpg",
+            "sha256": "f976f0b90fc91191bb2e09c8622d9382652084cca618ef1e03903b3da1cbc952",
+            "observation": "腾讯元宝图标、硬字幕“让腾讯元宝来解决”。"
+          },
+          {
+            "time": 104,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-033.jpg",
+            "sha256": "93cdac783b6cba73150afe8169c5652bbd9148576c570e3eb7adf42a4937eae0",
+            "observation": "元宝标识及“一键下载”，口播结束后的推广收尾。"
+          },
+          {
+            "time": 115,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-044.jpg",
+            "sha256": "b34af10916fef860ce635591051d33766e900844d30a45603a43c9fb4637438a",
+            "observation": "元宝界面给出学习建议，硬字幕“还得多实操！”"
+          },
+          {
+            "time": 116,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-045.jpg",
+            "sha256": "b59466c43d9f9a64509561a2f0b3f3347ea3b0356b75a2878e9592d4d758c0fa",
+            "observation": "转入Visual Studio下载太慢的编程剧情。"
+          }
+        ]
+      },
+      {
+        "start": 130,
+        "end": 143,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "selected-frames",
+        "startUncertainty": [
+          129,
+          130
+        ],
+        "endUncertainty": [
+          142,
+          143
+        ],
+        "reason": "指针抽象难理解→问问AI→代码输出→学习虽能用AI但考试得靠自己，构成前文商业工具使用的剧情回顾。它直接连接编程学习与考试的主题，保留完整情节；无独立购买/下载号召。广告属性依据同片元宝推广的上下文与工具画面，商业关系并未另行核实。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 130,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-059.jpg",
+            "sha256": "bc8d03b476b561a88af2ef0a4e7c08ec5a405ddc914b18a40f61264d953dce01",
+            "observation": "指针的应用，硬字幕“抽象概念！”"
+          },
+          {
+            "time": 136,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-065.jpg",
+            "sha256": "57b86ba68a29e858aaa51d30e396c00abbfd2e59998c64d5cb5545becdf62ffe",
+            "observation": "硬字幕“问问AI！”"
+          },
+          {
+            "time": 138,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-067.jpg",
+            "sha256": "bc00bba21555470d5a5d77e2b462037041b21d638956b358a5c2951a84641634",
+            "observation": "AI界面显示代码输出。"
+          },
+          {
+            "time": 140,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-069.jpg",
+            "sha256": "7805b886c1d2ad480f290a4dcbff6dc7dc2be1cf5d8148bfadc9d3a5e54e84d6",
+            "observation": "硬字幕“学习虽能用AI”。"
+          },
+          {
+            "time": 142,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-071.jpg",
+            "sha256": "1c9725adb547b736deaee27e03ce5070fc59deac64f3e3a547875a3f71e68784",
+            "observation": "硬字幕“考试得靠自己啊”。"
+          },
+          {
+            "time": 143,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frame-072.jpg",
+            "sha256": "5ac686e41edd98de672da0486c4a7ef4ac2d95258028243d5fa18d764aa196c3",
+            "observation": "转入考场/人肉编译器的后续情节。"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "助手完整阅读24行字幕，并实际查看全片每5秒抽帧、59–73秒及72–145秒每1秒抽帧；未听音频，未声称逐帧或连续全片观看。抽帧间的瞬时画面仍可能遗漏。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 24,
+      "firstIndex": 0,
+      "lastIndex": 23,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "assistant-extra300-root",
+    "fullTranscriptRead": true,
+    "subtitleRows": 24,
+    "firstIndex": 0,
+    "lastIndex": 23,
+    "allRowsRead": true,
+    "decision": "补看画面将主广告从仅口播80.07–102.3扩大为含需求铺垫与视觉收尾的63–116；后续AI剧情回顾广告保留。"
+  },
+  "visualObservations": {
+    "reviewer": "assistant-extra300-root",
+    "media": {
+      "bvid": "BV172hdz7EAF",
+      "cid": 32028624173,
+      "page": 1,
+      "duration": 175,
+      "sourceUrl": "https://www.bilibili.com/video/BV172hdz7EAF/?p=1",
+      "responseSha256": "41813dce6252f1597558581c4727d7d8abfecc6b9a62ff73c04befa5aff95424",
+      "checkedAt": "2026-10-04T23:18:35.542Z",
+      "status": "downloaded-and-verified",
+      "extractorId": "BV172hdz7EAF_p1",
+      "file": "eval/labels/assistant-content-extra300/acquisition/media/BV172hdz7EAF.mp4",
+      "sha256": "3d316b6ee2012f49543d66cc6091dacaf7ec30cdc45570d0e259c33ae022bb46",
+      "bytes": 8483853,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "av1",
+            "width": 960,
+            "height": 720
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "174.033651"
+        }
+      },
+      "method": "yt-dlp anonymous public media; original BV/CID/page independently checked with existing public parser",
+      "previousCheckCorrection": "Initial post-download check required plain BV; explicit ?p=1 yields extractor ID with _p1. Download itself had succeeded."
+    },
+    "frameIndexes": [
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/setup/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV172hdz7EAF/boundaries/frames.json"
+    ],
+    "method": "Selected decoded still frames at 5-second and 1-second intervals; no audio listened and no continuous/full-frame viewing claim."
+  }
+}

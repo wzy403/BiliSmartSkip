@@ -1,0 +1,637 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 226,
+    "inputLineSha256": "047cd8af2fbd5f45e05ad85704f397737ad5c5bc3bb0cd4bfba223ab609efc2a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Sw411C7Kj-1303489691.json",
+    "acquisitionSha256": "de90f827c68e428a66dfc0d33b16f692f501c15f55fee02b66f39cdfb4da82d3",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Sw411C7Kj/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Sw411C7Kj.json",
+    "transcriptSha256": "183257fe46e4de1f06e7942b1220fb3a1e816a2fefa23bcb7e22a053eaeca64f"
+  },
+  "record": {
+    "bvid": "BV1Sw411C7Kj",
+    "cid": 1303489691,
+    "duration": 1194,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "大众ID.4 CROZZ沿海自驾系列第二集，游静山、采访并体验潍坊剪纸与葫芦烙画、逛山东大集和青岛赶海，同时介绍纯电车使用。实际掉头、回收模式及车道保持体验与整期自驾主题紧密相关，广告但保留；品牌历史、续航可靠性收束及路况包装的电池安全口播背书可分离跳过。非遗实践心得虽用作品牌类比铺垫，也保留叙事功能。已完整阅读516行并经独立全文二审，未实际观看或听取。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 1,
+        "end": 6.66,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "纯电车长途自驾认知改变的片头摘句具有推广框架，同时说明整期沿海自驾和用车体验的主题，保留为主题引子。",
+        "startUncertainty": [
+          0,
+          1
+        ],
+        "endUncertainty": [
+          6.66,
+          6.959
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1,
+            "to": 4.2,
+            "text": "这次旅程完全让我改变了对纯电车"
+          },
+          {
+            "from": 4.2,
+            "to": 6.66,
+            "text": "长途自驾的一个认知"
+          }
+        ]
+      },
+      {
+        "start": 34.4,
+        "end": 51.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "开场在回顾旅行后独立为一汽大众伙伴、续航与充电做正面背书，可从旅游进展中分离。",
+        "startUncertainty": [
+          34.4,
+          34.4
+        ],
+        "endUncertainty": [
+          51.58,
+          51.58
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 34.4,
+            "to": 35.54,
+            "text": "那同样值得一提的"
+          },
+          {
+            "from": 36.98,
+            "to": 38.96,
+            "text": "就是一汽大众的id4cross"
+          },
+          {
+            "from": 41.48,
+            "to": 44.9,
+            "text": "在我们这次长途的旅行当中也都充分验证了"
+          },
+          {
+            "from": 44.9,
+            "to": 46.91,
+            "text": "我觉得还是值得委以重任的"
+          },
+          {
+            "from": 46.91,
+            "to": 50.32,
+            "text": "确实这次旅程完全让我改变了对纯电车"
+          },
+          {
+            "from": 50.32,
+            "to": 51.58,
+            "text": "长途自驾的一个认知"
+          }
+        ]
+      },
+      {
+        "start": 107.08,
+        "end": 191.29,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "品牌推广明确，保留完整走错路、掉头情境和收尾；包含转向机构原理、现场一把掉头及工作车对比，属于本期电车沿海自驾兼用车体验的实际展示，应保留，不因商业框架将主题体验跳过。",
+        "startUncertainty": [
+          100.98,
+          107.08
+        ],
+        "endUncertainty": [
+          191.29,
+          208.92
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 107.08,
+            "to": 108.24,
+            "text": "唉不好意思啊"
+          },
+          {
+            "from": 111.74,
+            "to": 113.24,
+            "text": "咱们前面挑个头吧"
+          },
+          {
+            "from": 119.58,
+            "to": 121.2,
+            "text": "只有4.85米"
+          },
+          {
+            "from": 128.88,
+            "to": 132.02,
+            "text": "啊这主要根据它这个转向机的设计啊"
+          },
+          {
+            "from": 133.1,
+            "to": 135.44,
+            "text": "因为它这个转向机是在前轴的前方"
+          },
+          {
+            "from": 162.7,
+            "to": 165.52,
+            "text": "你看这个这一把一把就过了"
+          },
+          {
+            "from": 169.45,
+            "to": 172.3,
+            "text": "对你看咱们后面工作车就就正倒呢"
+          },
+          {
+            "from": 184.06,
+            "to": 186.22,
+            "text": "咱们要不稍微慢点等等"
+          },
+          {
+            "from": 186.22,
+            "to": 191.29,
+            "text": "后面的那个工作车行行行"
+          }
+        ]
+      },
+      {
+        "start": 597.249,
+        "end": 613.29,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "刚完成葫芦烙画后回顾美术功底、细心和匠人精神，随后被用于汽车品牌类比，广告铺垫性质保留；这一前半也直接总结观众正在观看的非遗实践，应保留。",
+        "startUncertainty": [
+          597.249,
+          597.249
+        ],
+        "endUncertainty": [
+          613.29,
+          613.29
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 595.599,
+            "to": 597.249,
+            "text": "你可以给镜头展示一下"
+          },
+          {
+            "from": 597.249,
+            "to": 599.46,
+            "text": "你看其实在刻的时候"
+          },
+          {
+            "from": 599.46,
+            "to": 601.26,
+            "text": "我感觉这个刻葫芦呢"
+          },
+          {
+            "from": 601.26,
+            "to": 603.48,
+            "text": "它还需要有一定的美术功底"
+          },
+          {
+            "from": 603.48,
+            "to": 605.859,
+            "text": "而且一定要有匠人精神"
+          },
+          {
+            "from": 605.859,
+            "to": 608.439,
+            "text": "因为他是一个非常费心的活儿"
+          },
+          {
+            "from": 608.439,
+            "to": 610.059,
+            "text": "你需要细心的去弄它啊"
+          },
+          {
+            "from": 610.059,
+            "to": 613.29,
+            "text": "慢慢的还真是专业的人干专业的事"
+          },
+          {
+            "from": 613.29,
+            "to": 614.16,
+            "text": "要造车嘛"
+          }
+        ]
+      },
+      {
+        "start": 613.29,
+        "end": 629.92,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "由造车话题明确转入大众八十年历史、底蕴和品牌可信赖的独立推介，缺少本段现场检验；从非遗实践中可分离，完整收尾至值得信赖后可跳过。",
+        "startUncertainty": [
+          613.29,
+          613.29
+        ],
+        "endUncertainty": [
+          629.92,
+          629.92
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 610.059,
+            "to": 613.29,
+            "text": "慢慢的还真是专业的人干专业的事"
+          },
+          {
+            "from": 613.29,
+            "to": 614.16,
+            "text": "要造车嘛"
+          },
+          {
+            "from": 614.16,
+            "to": 616.74,
+            "text": "你看大众有80多年的造车历史"
+          },
+          {
+            "from": 616.74,
+            "to": 619.58,
+            "text": "而且也是非常具有一种匠心精神"
+          },
+          {
+            "from": 620.42,
+            "to": 622.31,
+            "text": "我觉得就像我今天开的这台车"
+          },
+          {
+            "from": 622.31,
+            "to": 626.14,
+            "text": "一汽大众的爱id cross确实品牌历史很悠久"
+          },
+          {
+            "from": 626.14,
+            "to": 628.3,
+            "text": "造车底蕴也很深厚啊"
+          },
+          {
+            "from": 628.3,
+            "to": 629.92,
+            "text": "我觉得还是值得信赖的啊"
+          },
+          {
+            "from": 629.92,
+            "to": 631.3,
+            "text": "那放了这么长时间录这个"
+          }
+        ]
+      },
+      {
+        "start": 671.03,
+        "end": 749.98,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "广告性质明确，同时有驾驶者实际旋转换挡、D/B挡松电门感受、打灯与不打灯的车道保持反馈及原理说明；这些具体操作回应纯电长途自驾体验主题，应保留完整商业体验内容。",
+        "startUncertainty": [
+          671.03,
+          671.03
+        ],
+        "endUncertainty": [
+          749.98,
+          749.98
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 671.03,
+            "to": 674.16,
+            "text": "咱这个车的这个换挡机构就特别有趣"
+          },
+          {
+            "from": 680.76,
+            "to": 684.08,
+            "text": "这个传统车企做的这个动能回收啊"
+          },
+          {
+            "from": 690.69,
+            "to": 692.66,
+            "text": "你可以松一下电门"
+          },
+          {
+            "from": 698.42,
+            "to": 699.92,
+            "text": "那我们还可以调到B档"
+          },
+          {
+            "from": 709.92,
+            "to": 712.38,
+            "text": "但是又不像某些新势力品牌"
+          },
+          {
+            "from": 727.2,
+            "to": 730.71,
+            "text": "这就说明电车的这个iq drive功能在起作用"
+          },
+          {
+            "from": 737.36,
+            "to": 739.16,
+            "text": "如果你并线不打灯"
+          },
+          {
+            "from": 745.42,
+            "to": 748.87,
+            "text": "这其实也是提升良好驾驶习惯的一个方式"
+          },
+          {
+            "from": 748.87,
+            "to": 749.98,
+            "text": "想得挺周到的"
+          }
+        ]
+      },
+      {
+        "start": 861.8,
+        "end": 935.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从赶海道路颠簸引入电池担心，随后集中宣称197项测试、各国评级和侧柱碰撞成绩，最后以无需担心安全收束；这是借路况包装的独立安全背书，字幕并未呈现电池或碰撞测试的实际过程。与掉头和回收模式实操不同，可从旅行中分离跳过，完整保留路况铺垫、宣传与放心收尾。",
+        "startUncertainty": [
+          836.1,
+          861.8
+        ],
+        "endUncertainty": [
+          935.64,
+          935.64
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 861.8,
+            "to": 864.22,
+            "text": "去赶海的路上要经过一段非铺装路面"
+          },
+          {
+            "from": 867.52,
+            "to": 870.4,
+            "text": "会不会对咱这车的电池造成损伤"
+          },
+          {
+            "from": 877.36,
+            "to": 881.22,
+            "text": "它是经过了197项的一个测试"
+          },
+          {
+            "from": 881.22,
+            "to": 883.77,
+            "text": "已经超越了国标的18项测试"
+          },
+          {
+            "from": 892.7,
+            "to": 895.61,
+            "text": "比如说北美的ii hs是good"
+          },
+          {
+            "from": 909.62,
+            "to": 912.36,
+            "text": "这电池呢就在我们的底盘的这个下方"
+          },
+          {
+            "from": 930.78,
+            "to": 933.6,
+            "text": "不会出现任何安全问题哦"
+          },
+          {
+            "from": 934.62,
+            "to": 935.64,
+            "text": "我就放心了"
+          }
+        ]
+      },
+      {
+        "start": 1098.24,
+        "end": 1106.88,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "旅游回顾中再次单独点名伙伴品牌并肯定可靠，独立推广收束。",
+        "startUncertainty": [
+          1098.24,
+          1098.24
+        ],
+        "endUncertainty": [
+          1106.88,
+          1106.88
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1098.24,
+            "to": 1100.37,
+            "text": "还有值得一提的就是我们今天的伙伴"
+          },
+          {
+            "from": 1100.37,
+            "to": 1102.38,
+            "text": "一汽大众的id4cross"
+          },
+          {
+            "from": 1102.38,
+            "to": 1104.75,
+            "text": "确实整个长途自驾游的过程当中"
+          },
+          {
+            "from": 1104.75,
+            "to": 1106.55,
+            "text": "也是可以去信赖它的"
+          },
+          {
+            "from": 1106.55,
+            "to": 1106.88,
+            "text": "是的"
+          }
+        ]
+      },
+      {
+        "start": 1132.38,
+        "end": 1156.66,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "从一路开车总结转为同款车可靠性与新能源汽车长途选择的正面背书，并以未来选择纯电车作推荐收尾，之后转一般行车安全提醒。",
+        "startUncertainty": [
+          1125.56,
+          1132.38
+        ],
+        "endUncertainty": [
+          1156.66,
+          1156.66
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1132.38,
+            "to": 1134.3,
+            "text": "嗯那就一路开车过来"
+          },
+          {
+            "from": 1134.3,
+            "to": 1137.72,
+            "text": "一汽大众id4cross的可靠性也确实让我们相信"
+          },
+          {
+            "from": 1137.72,
+            "to": 1141.62,
+            "text": "开新能源汽车长途自驾也是一个靠谱的选择"
+          },
+          {
+            "from": 1146.01,
+            "to": 1149.13,
+            "text": "我们呢还试了一下它的乌龟模式"
+          },
+          {
+            "from": 1149.13,
+            "to": 1151.54,
+            "text": "那最终的结果呢也确实打消了我们的顾虑"
+          },
+          {
+            "from": 1151.54,
+            "to": 1154.54,
+            "text": "也许今后呢我们真的会选择一辆纯电车"
+          },
+          {
+            "from": 1154.54,
+            "to": 1156.66,
+            "text": "去我们的长途自驾嗯"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 208.92,
+        "end": 221.7,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 222.66,
+        "end": 294.9,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 310.46,
+        "end": 332.38,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 332.52,
+        "end": 341.46,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 349.42,
+        "end": 381.53,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 381.615,
+        "end": 419,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 424.299,
+        "end": 553.96,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 554.74,
+        "end": 561.06,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 588.66,
+        "end": 597.249,
+        "reason": "静山地理文化、剪纸与葫芦烙画访谈体验，匠人的产品展示服务于手工艺探访。"
+      },
+      {
+        "start": 760.86,
+        "end": 793,
+        "reason": "赶集食物介绍和采买，属于当地生活见闻。"
+      },
+      {
+        "start": 794.02,
+        "end": 799.1,
+        "reason": "赶集食物介绍和采买，属于当地生活见闻。"
+      },
+      {
+        "start": 800.12,
+        "end": 803.02,
+        "reason": "赶集食物介绍和采买，属于当地生活见闻。"
+      },
+      {
+        "start": 809.36,
+        "end": 829.78,
+        "reason": "赶集食物介绍和采买，属于当地生活见闻。"
+      },
+      {
+        "start": 830.24,
+        "end": 836.1,
+        "reason": "赶集食物介绍和采买，属于当地生活见闻。"
+      },
+      {
+        "start": 954.14,
+        "end": 1002.78,
+        "reason": "赶海准备、挖蛏教学与成果回顾。"
+      },
+      {
+        "start": 1006.36,
+        "end": 1052.74,
+        "reason": "赶海准备、挖蛏教学与成果回顾。"
+      },
+      {
+        "start": 1066.84,
+        "end": 1098.24,
+        "reason": "赶海准备、挖蛏教学与成果回顾。"
+      },
+      {
+        "start": 1156.66,
+        "end": 1189.88,
+        "reason": "通用出行安全提醒及致谢道别。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "561.06–588.66 秒为尝试烙画至展示成果之间、836.1–861.8 秒为赶集至赶海途中，均为无字幕间隙，纯画面未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 516,
+      "firstIndex": 0,
+      "lastIndex": 515,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_content_001_100",
+    "modality": "full-cached-subtitles",
+    "fullTranscriptRead": true,
+    "subtitleRows": 516,
+    "readCoverage": {
+      "subtitleRows": 516,
+      "firstIndex": 0,
+      "lastIndex": 515,
+      "allRowsRead": true
+    },
+    "decision": "全文阅读后保留掉头和D/B挡及车道保持实际操作体验；电池段只有检测资历和安全背书，未呈现实测，完整861.8–935.64改ad/skip。葫芦心得及匠人桥接597.249–613.29保留为ad/keep，613.29–629.92品牌资历推介ad/skip，其他纯背书维持skip。首末字幕和中间间隙已检查，561.06–588.66与836.1–861.8画面未知在限制中保存，未冒称视听核验。"
+  }
+}

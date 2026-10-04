@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1tB4y1S71H",
+  "cid": 748800153,
+  "title": "抗战时的驻华美军是如何《物理吃垮》国府财政的——驼峰航线究竟养了谁？",
+  "duration": 1014,
+  "desc": "感谢历史研究者@白冰老师的指导和资料支持！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:55.565Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:28:28.881Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 231,
+    "inputLineSha256": "10a36c5677a7aa6eaa1e7d3fa3f6ca73e9ef6724f0813967f9c1af2ad6ad33aa",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1tB4y1S71H-748800153.json",
+    "acquisitionSha256": "ad263e3e24b149bef7d755eb667627af08bca4765ae7e522b850ec13e4073763",
+    "sourceUrl": "https://www.bilibili.com/video/BV1tB4y1S71H/?p=1"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 186,
+    "inputLineSha256": "f2f75987246d8639557b3b7ea4cc1a2227ad3aa8e4cb7bc4afade0f3a1d42c57",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1oQEe6gEFg-39034947709.json",
+    "acquisitionSha256": "747541ff18bdad666ced95d4a836192f7f1707b95fdacb1e433361355f1dc6a1",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oQEe6gEFg/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1oQEe6gEFg.json",
+    "transcriptSha256": "30ff2da317284d38f25bcfac2ed05e5705ce971e754b3b90b0f969cb5fafe6c0"
+  },
+  "record": {
+    "bvid": "BV1oQEe6gEFg",
+    "cid": 39034947709,
+    "duration": 1122,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕CIA官员大卫拉什藏金条与履历造假事件作新闻评论，梳理资金项目、监管与政治任命的关系及庭审争辩；中间从被诽谤气到出油引出海洋至尊男士洁面推广。金条、劳力士、买文凭等属于案件叙述。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 382.38,
+        "end": 471.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "‘气得我脸都出油了’已是洁面广告需求铺垫，随后介绍海洋至尊三棱镜洁面及多效乳的控油成分、使用感、容量、便利性、618价格赠品和购买号召，至‘冲好了’结束。471.64秒明确‘再回到正题’，前面为案件人物辩解正文。",
+        "evidence": [
+          {
+            "from": 380.02,
+            "to": 382.38,
+            "text": "这都是媒体的恶意抹黑诽谤"
+          },
+          {
+            "from": 382.38,
+            "to": 383.74,
+            "text": "气得我脸都出油了"
+          },
+          {
+            "from": 383.74,
+            "to": 386.28,
+            "text": "我高低得拿出海洋至尊好好洗洗脸"
+          },
+          {
+            "from": 387.54,
+            "to": 390.02,
+            "text": "一到夏天脸上出油直接失控"
+          },
+          {
+            "from": 396.42,
+            "to": 398.88,
+            "text": "我一直在用的海洋至尊三棱镜洁面"
+          },
+          {
+            "from": 398.88,
+            "to": 400.64,
+            "text": "专为男生油痘肌研制"
+          },
+          {
+            "from": 400.64,
+            "to": 403.08,
+            "text": "足足43%的氨基酸表活"
+          },
+          {
+            "from": 414.12,
+            "to": 417.2,
+            "text": "安诺因是品牌联合中科院博士团队研发的"
+          },
+          {
+            "from": 417.2,
+            "to": 418.88,
+            "text": "足足手握11项专利"
+          },
+          {
+            "from": 420.56,
+            "to": 423.78,
+            "text": "试油能量源四小时油脂改善44.5%"
+          },
+          {
+            "from": 425.92,
+            "to": 428.66,
+            "text": "28天持续改善率高达70.5%"
+          },
+          {
+            "from": 438.14,
+            "to": 440.4,
+            "text": "三棱镜三角瓶加上按压泵设计"
+          },
+          {
+            "from": 443.38,
+            "to": 444.78,
+            "text": "150克大容量"
+          },
+          {
+            "from": 449.9,
+            "to": 452.04,
+            "text": "洗完搭配他们家多效乳一瓶"
+          },
+          {
+            "from": 456.66,
+            "to": 457.78,
+            "text": "现在618大促"
+          },
+          {
+            "from": 459.46,
+            "to": 461.26,
+            "text": "评论区置顶链接给大家准备好了"
+          },
+          {
+            "from": 461.26,
+            "to": 462.28,
+            "text": "专属大额券"
+          },
+          {
+            "from": 462.28,
+            "to": 464,
+            "text": "两瓶到手不到90块"
+          },
+          {
+            "from": 464,
+            "to": 465.95,
+            "text": "还送超多礼赠小样"
+          },
+          {
+            "from": 465.95,
+            "to": 468.47,
+            "text": "海洋至尊是专业做男士护肤的品牌"
+          },
+          {
+            "from": 468.47,
+            "to": 469.55,
+            "text": "大家可以放心"
+          },
+          {
+            "from": 469.55,
+            "to": 471.64,
+            "text": "冲好了"
+          },
+          {
+            "from": 471.64,
+            "to": 472.6,
+            "text": "我们再回到正题"
+          }
+        ],
+        "startUncertainty": [
+          382.38,
+          382.38
+        ],
+        "endUncertainty": [
+          471.64,
+          471.64
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 5.94,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 9.74,
+        "end": 48.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 51.48,
+        "end": 104.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 106.74,
+        "end": 132.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 135.58,
+        "end": 200.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 203.02,
+        "end": 373.4,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 376.3,
+        "end": 382.38,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 471.64,
+        "end": 714.68,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 717.2,
+        "end": 1039.159,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1040.73,
+        "end": 1121.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 624,
+      "firstIndex": 0,
+      "lastIndex": 623,
+      "allRowsRead": true
+    }
+  }
+}

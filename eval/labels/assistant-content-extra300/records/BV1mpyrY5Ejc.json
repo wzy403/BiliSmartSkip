@@ -1,0 +1,274 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 168,
+    "inputLineSha256": "35138ce7199ee2dbd1615ea20c802f93e0e1bd78d0f980d2b13dfbda67d0548d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1mpyrY5Ejc-26440567553.json",
+    "acquisitionSha256": "a03f53b66eaa74fac21c399faa3bd6e29b7641e24638f516728a181eb52b9955",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mpyrY5Ejc/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1mpyrY5Ejc.json",
+    "transcriptSha256": "6bc08247b312516ffe8e68d735f74ec97b9ed9f561263b960da89cbd4b06d956"
+  },
+  "record": {
+    "bvid": "BV1mpyrY5Ejc",
+    "cid": 26440567553,
+    "duration": 591,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕初学者做第一首歌，讲题材、风格、购买伴奏与自行编曲、词曲顺序、录音混音、音乐史及保持创作习惯。中间从编曲需要电脑和作者爱玩游戏的故事转入华硕 ProArt RTX 4080 Super、RTX AI 功能和机箱集中推荐；结尾再以学习与创作灵感为铺垫做双十一显卡推荐。购买伴奏的成本和工具网站说明直接服务于音乐入门正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 169.02,
+        "end": 380.18,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从“学习编曲需要强劲电脑”起，经 ROG 笔记本、爱玩游戏和创作电脑经历铺垫，详细介绍 ProArt 显卡 AI/导出/散热/外观、游戏助手和机箱，收在买好电脑不要偷懒要学编曲；之后才继续如何学编曲。",
+        "startUncertainty": [
+          169.02,
+          172.38
+        ],
+        "endUncertainty": [
+          374.92,
+          380.18
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 169.02,
+            "to": 172.38,
+            "text": "而且学习编曲你就需要一台强劲的电脑啊"
+          },
+          {
+            "from": 177.16,
+            "to": 180.8,
+            "text": "我自信的拿出了一台ROG的枪神七超竞plus啊"
+          },
+          {
+            "from": 187.44,
+            "to": 189.56,
+            "text": "我选择windows的原因就是我爱打游戏"
+          },
+          {
+            "from": 206.56,
+            "to": 209.89,
+            "text": "不过呢那我的这个创作主力电脑啊"
+          },
+          {
+            "from": 214.06,
+            "to": 216.9,
+            "text": "都是搭载了华硕pro art RTX"
+          },
+          {
+            "from": 221.46,
+            "to": 224.16,
+            "text": "4080super16G显卡的鼎力支持"
+          },
+          {
+            "from": 252.46,
+            "to": 256.48,
+            "text": "而4080super的AI top10有836"
+          },
+          {
+            "from": 278.1,
+            "to": 282.14,
+            "text": "新一代轴流风扇加大20%以上的风量"
+          },
+          {
+            "from": 297.8,
+            "to": 300.36,
+            "text": "这次还加入了CHARARTX的功能"
+          },
+          {
+            "from": 315.64,
+            "to": 318.88,
+            "text": "直接在游戏内支持一个AI攻略小助手"
+          },
+          {
+            "from": 334.8,
+            "to": 337.08,
+            "text": "为什么我选择了pro art这条产品"
+          },
+          {
+            "from": 367.88,
+            "to": 369.76,
+            "text": "这里我再私心推荐我最喜欢的"
+          },
+          {
+            "from": 369.76,
+            "to": 372.58,
+            "text": "pro2的pa602机箱"
+          },
+          {
+            "from": 374.92,
+            "to": 376.3,
+            "text": "那么有了这么一台电脑啊"
+          },
+          {
+            "from": 376.3,
+            "to": 378.7,
+            "text": "千万不要偷偷的偷懒玩游戏啊"
+          },
+          {
+            "from": 378.7,
+            "to": 380.18,
+            "text": "还是要老实学习编曲的"
+          }
+        ]
+      },
+      {
+        "start": 529.48,
+        "end": 562.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "学习枯燥、创作需要刺激构成双十一购买电脑的完整铺垫，随后明确推荐同款显卡及光追 AI，最后以好生活好创作的倡议收尾。",
+        "startUncertainty": [
+          529.48,
+          535.7
+        ],
+        "endUncertainty": [
+          558.06,
+          562.34
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 529.48,
+            "to": 532.22,
+            "text": "学习呢是一个漫长而且枯燥的过程"
+          },
+          {
+            "from": 532.22,
+            "to": 535.7,
+            "text": "但是创作呢又是需要灵感和一些特别刺激的"
+          },
+          {
+            "from": 535.7,
+            "to": 537.5,
+            "text": "所以马上趁着双11来临"
+          },
+          {
+            "from": 540.4,
+            "to": 545.1,
+            "text": "比如双11实力升级的华硕RTX pro art"
+          },
+          {
+            "from": 549.06,
+            "to": 551.18,
+            "text": "还有全景光线追踪技术"
+          },
+          {
+            "from": 553.38,
+            "to": 556.12,
+            "text": "让你的游戏还有创作都如虎添翼"
+          },
+          {
+            "from": 558.06,
+            "to": 559.1,
+            "text": "只有好好的生活"
+          },
+          {
+            "from": 559.1,
+            "to": 560.42,
+            "text": "才能好好的创作"
+          },
+          {
+            "from": 560.42,
+            "to": 562.34,
+            "text": "别让娱乐成为一种负担"
+          }
+        ]
+      },
+      {
+        "start": 107.64,
+        "end": 146.94,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "比较请制作人和使用成品伴奏的路径、价格及版权误会，属于怎样完成歌曲的必要教学，没有针对某一卖家的导购。",
+        "startUncertainty": [
+          107.64,
+          107.64
+        ],
+        "endUncertainty": [
+          146.94,
+          146.94
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 107.64,
+            "to": 108.8,
+            "text": "如果你是富哥们儿"
+          },
+          {
+            "from": 108.8,
+            "to": 111.26,
+            "text": "可以直接速通上网联系一个制作人"
+          },
+          {
+            "from": 118.62,
+            "to": 119.9,
+            "text": "那就是万元起步了"
+          },
+          {
+            "from": 122.88,
+            "to": 124.68,
+            "text": "BILISTAR上还有网易云呢"
+          },
+          {
+            "from": 135.72,
+            "to": 138.1,
+            "text": "几乎300~500就能买到很不错的伴奏"
+          },
+          {
+            "from": 142.74,
+            "to": 144.74,
+            "text": "千万不要像个傻子一样去评论抄袭"
+          },
+          {
+            "from": 144.74,
+            "to": 146.94,
+            "text": "说不定只是买了同一个作者的伴奏啊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 169.02,
+        "reason": "自学经历、歌曲主题与风格及编曲入门。"
+      },
+      {
+        "start": 380.18,
+        "end": 529.48,
+        "reason": "编曲学习、词曲、混音录音、音乐史和创作习惯。"
+      },
+      {
+        "start": 562.34,
+        "end": 589.43,
+        "reason": "音乐表达方式和留言交流结语。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 309,
+      "firstIndex": 0,
+      "lastIndex": 308,
+      "allRowsRead": true
+    }
+  }
+}

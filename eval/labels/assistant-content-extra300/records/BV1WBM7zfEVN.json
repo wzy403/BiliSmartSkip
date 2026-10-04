@@ -1,0 +1,202 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 258,
+    "inputLineSha256": "a80c08e818eeeb6eeff1693f7c42c24a066f3ca3ed7e9e8954b6890002af33d4",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1WBM7zfEVN-30435511125.json",
+    "acquisitionSha256": "b80b609a0564554f27bab3548d2b985b6653bd254439eae3ec454e38a288f07b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WBM7zfEVN/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1WBM7zfEVN.json",
+    "transcriptSha256": "5ea5f8b7e0651310cd91fd776b2754dc4c61137a1e377b34f8155150dc51b9e0"
+  },
+  "record": {
+    "bvid": "BV1WBM7zfEVN",
+    "cid": 30435511125,
+    "duration": 378,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "阅读全文187行。以行车记录片段评论故意别车、抢道、报复与碰撞，用葫芦娃头铁类比转入肩颈按摩仪广告，再继续其他路怒片段。宝马X5等车名用于辨认事故车辆，不是商品推介。0.1–376.9秒字幕覆盖378秒视频，个别事故播放短间隙，未视听核验。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 133.8,
+        "end": 195.04,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从上次见头铁是葫芦娃三娃的包袱开始，接铁头让脖子痛、作者不适的广告铺垫，完整介绍妙界按摩头、热敷、背带、多部位用途、门店价格比较及618券/售后/父亲节推荐，之后回到行车记录，应跳完整广告。",
+        "evidence": [
+          {
+            "from": 131.72,
+            "to": 133.8,
+            "text": "一路给推到了应急车道里"
+          },
+          {
+            "from": 133.8,
+            "to": 135.7,
+            "text": "上一次见到这么头铁的人"
+          },
+          {
+            "from": 135.7,
+            "to": 137.28,
+            "text": "还是葫芦娃里的三娃"
+          },
+          {
+            "from": 137.28,
+            "to": 139.04,
+            "text": "整天顶着这么铁的头"
+          },
+          {
+            "from": 139.04,
+            "to": 140.38,
+            "text": "开车横冲直撞"
+          },
+          {
+            "from": 140.38,
+            "to": 142.35,
+            "text": "你的脖子难道不会痛吗"
+          },
+          {
+            "from": 142.35,
+            "to": 144.19,
+            "text": "说着说着脖子又不舒服了"
+          },
+          {
+            "from": 144.19,
+            "to": 146.72,
+            "text": "赶紧上老朋友妙借肩颈按摩仪"
+          },
+          {
+            "from": 150.7,
+            "to": 154.02,
+            "text": "不愧是热销好评回购三榜第一的按摩仪"
+          },
+          {
+            "from": 154.02,
+            "to": 155.64,
+            "text": "这个巴蒂按摩头绝了"
+          },
+          {
+            "from": 163.36,
+            "to": 164.68,
+            "text": "再配上热敷功能"
+          },
+          {
+            "from": 168.72,
+            "to": 170.66,
+            "text": "还是妙界能按到点子上"
+          },
+          {
+            "from": 176.08,
+            "to": 177.82,
+            "text": "用的时候扣上背带就行"
+          },
+          {
+            "from": 182.08,
+            "to": 182.8,
+            "text": "去按摩店"
+          },
+          {
+            "from": 185.96,
+            "to": 187.68,
+            "text": "618活动已经开始了"
+          },
+          {
+            "from": 187.68,
+            "to": 188.8,
+            "text": "领券叠加优惠"
+          },
+          {
+            "from": 189.74,
+            "to": 190.74,
+            "text": "还送运费险"
+          },
+          {
+            "from": 190.74,
+            "to": 192,
+            "text": "一年以换代修"
+          },
+          {
+            "from": 192,
+            "to": 195.04,
+            "text": "自己用或父亲节送老爸都是很不错的选择"
+          },
+          {
+            "from": 195.04,
+            "to": 197.36,
+            "text": "咱们再来到这台视频车的视角"
+          }
+        ],
+        "startUncertainty": [
+          133.8,
+          133.8
+        ],
+        "endUncertainty": [
+          195.04,
+          195.04
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 40.23,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 44.94,
+        "end": 102.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 103.42,
+        "end": 106.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 112.63,
+        "end": 133.8,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 195.04,
+        "end": 270.24,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 275.18,
+        "end": 300.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 302.74,
+        "end": 352.54,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 358.04,
+        "end": 376.9,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 187,
+      "firstIndex": 0,
+      "lastIndex": 186,
+      "allRowsRead": true
+    }
+  }
+}

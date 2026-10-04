@@ -1,0 +1,115 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 50,
+    "inputLineSha256": "461f6ba0b0aea7aca24453f773eead9168905f52d380e88b820f45c03e927447",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1aLdvBsEWs-37561961600.json",
+    "acquisitionSha256": "c743461c2d26f94d0f465fa042a0992c4903366f18adab762b3c61983953fec7",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aLdvBsEWs/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1aLdvBsEWs.json",
+    "transcriptSha256": "797efb2862b5fe35efeebab85ab925e3e05c617998f3842223dd4872b2c0c1c3"
+  },
+  "record": {
+    "bvid": "BV1aLdvBsEWs",
+    "cid": 37561961600,
+    "duration": 177,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "多则国际新闻口播，涉及伊朗防御与制裁、巴基斯坦、中国学者入境、使馆恐吓及以黎停火；播报结束后插入油头、头痒、头屑困扰铺垫和海洋至尊洗发水购买推广。新闻中的贸易和消博会表态属于报道内容。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 161.2,
+        "end": 174.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "末尾话题从后续消息转到头发油腻、头皮问题，随后推荐海洋至尊洗发水并要求评论区下单。起始字幕同一行混有新闻收尾，保留该行级边界不确定性。",
+        "startUncertainty": [
+          161.2,
+          163.54
+        ],
+        "endUncertainty": [
+          174.98,
+          174.98
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 158.42,
+            "to": 160.38,
+            "text": "后续消息正在整理中"
+          },
+          {
+            "from": 160.38,
+            "to": 161.2,
+            "text": "马上更新"
+          },
+          {
+            "from": 161.2,
+            "to": 163.54,
+            "text": "咱们看后续有没有兄弟跟我一样"
+          },
+          {
+            "from": 163.54,
+            "to": 164.84,
+            "text": "头发刚洗完没多久"
+          },
+          {
+            "from": 164.84,
+            "to": 166.12,
+            "text": "又油得能炒菜了"
+          },
+          {
+            "from": 166.12,
+            "to": 167.16,
+            "text": "头皮还痒的要命"
+          },
+          {
+            "from": 167.16,
+            "to": 168.72,
+            "text": "头屑飘的跟下雪似的"
+          },
+          {
+            "from": 168.72,
+            "to": 170.42,
+            "text": "可以试试这款海洋至尊"
+          },
+          {
+            "from": 171.58,
+            "to": 172.84,
+            "text": "专治各种头皮不爽"
+          },
+          {
+            "from": 172.84,
+            "to": 174.98,
+            "text": "直接戳评论区置顶蓝链下单"
+          },
+          {
+            "from": 174.98,
+            "to": 176.06,
+            "text": "后续我继续探"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 75,
+      "firstIndex": 0,
+      "lastIndex": 74,
+      "allRowsRead": true
+    }
+  }
+}

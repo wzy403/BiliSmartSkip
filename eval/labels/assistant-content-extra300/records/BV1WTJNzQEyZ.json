@@ -1,0 +1,43 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 262,
+    "inputLineSha256": "493c4d5a1bc1097b463e47fac15f281df8f5e4be563e5d646ab72afe19e4530c",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1WTJNzQEyZ-30009657718.json",
+    "acquisitionSha256": "ead408841057e62081379e27954a2214faec4dfa815ee3a6a83ab74a46a8609e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1WTJNzQEyZ/?p=80",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1WTJNzQEyZ.json",
+    "transcriptSha256": "bb946a98d52080e7b46fac9b06dfe515557fa4df0b5a680903b8c8c9dc4ea86b"
+  },
+  "record": {
+    "bvid": "BV1WTJNzQEyZ",
+    "cid": 30009657718,
+    "duration": 959,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读215行。前半为穆桂英被家人下迷魂药仍坚持与田壮士比武、王爷劝解、父亲提醒攻下盘的电视剧剧情，没有可确定的商品推介。512.66秒后主要为主题歌或无意义音乐转写，无法据其判断后半约446秒的实际画面内容。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "最后清晰剧情对白至512.66秒，之后约446.34秒到959秒总长主要为歌曲/无有效对白。670.62–736.48缺65.86秒，740.44–874.94缺134.5秒，尾段音乐也无法判断画面，需实际视频核实，不能判全片无广告。"
+    ],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 215,
+      "firstIndex": 0,
+      "lastIndex": 214,
+      "allRowsRead": true
+    }
+  }
+}

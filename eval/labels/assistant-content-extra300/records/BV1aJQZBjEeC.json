@@ -1,0 +1,156 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 49,
+    "inputLineSha256": "69dc8ce36669138426e9ce5e45d904a71444ac1e59fccc98aeca6bf37e3e5ac0",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1aJQZBjEeC-36913613589.json",
+    "acquisitionSha256": "2011c2645d64ee8d699bfdd86ac6c75f7cb0a20b00e087c333e8c78490ed409a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1aJQZBjEeC/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1aJQZBjEeC.json",
+    "transcriptSha256": "dc3c8549b6b2bc3d5e6a4ec63aac906e4e61ac827869633ac9d0ea5b069ab784"
+  },
+  "record": {
+    "bvid": "BV1aJQZBjEeC",
+    "cid": 36913613589,
+    "duration": 303,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "青岛街头询问单身和已婚受访者的职业、收入、住房与养娃开支、储蓄及理想工资；中间从多赚一笔切入拼多多现金抽奖，穿插假设获得现金后的用途问题，再给领取链接和名额紧迫感。其他收入数字与健身房经营内容是采访对象的生活叙述。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 98,
+        "end": 132.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从“想多赚一笔”铺垫转入自述中奖、现金提现、假设奖金用途，再向观众介绍置顶链接和限量参与，完整形成拼多多活动推广；132.48秒恢复开支采访。",
+        "startUncertainty": [
+          97.72,
+          98
+        ],
+        "endUncertainty": [
+          132.48,
+          132.48
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 95.4,
+            "to": 97.72,
+            "text": "一年下来也落不了什么钱了"
+          },
+          {
+            "from": 98,
+            "to": 99.36,
+            "text": "其实想多赚一笔真的不难"
+          },
+          {
+            "from": 99.36,
+            "to": 100.44,
+            "text": "我最近在拼多多抽奖"
+          },
+          {
+            "from": 100.44,
+            "to": 102.42,
+            "text": "直接抽中了2026元现金津贴"
+          },
+          {
+            "from": 103,
+            "to": 103.94,
+            "text": "微信能提现"
+          },
+          {
+            "from": 105.64,
+            "to": 107.98,
+            "text": "那如果你多了2260元"
+          },
+          {
+            "from": 111.649,
+            "to": 114.99,
+            "text": "存下来想抽2026元现金津贴的手有吧"
+          },
+          {
+            "from": 116.23,
+            "to": 118.27,
+            "text": "我这个视频下方和评论区置顶链接"
+          },
+          {
+            "from": 118.79,
+            "to": 120.79,
+            "text": "点进去就有2026元现金红包"
+          },
+          {
+            "from": 124.04,
+            "to": 126.72,
+            "text": "26年新上的活动概率还是非常高的"
+          },
+          {
+            "from": 130.64,
+            "to": 131.38,
+            "text": "就是还能抢"
+          },
+          {
+            "from": 131.38,
+            "to": 132.48,
+            "text": "抓紧去试试吧"
+          },
+          {
+            "from": 132.48,
+            "to": 135.019,
+            "text": "你最想砍掉生活哪部分开支"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 38.68,
+        "reason": "青岛工作收入和家庭开支街访。"
+      },
+      {
+        "start": 39.52,
+        "end": 50.81,
+        "reason": "青岛工作收入和家庭开支街访。"
+      },
+      {
+        "start": 52.17,
+        "end": 85.4,
+        "reason": "青岛工作收入和家庭开支街访。"
+      },
+      {
+        "start": 85.96,
+        "end": 97.72,
+        "reason": "青岛工作收入和家庭开支街访。"
+      },
+      {
+        "start": 132.48,
+        "end": 233.31,
+        "reason": "继续采访生活开支、游戏充值及健身房经营收入，无具体商家导流。"
+      },
+      {
+        "start": 234.61,
+        "end": 302.92,
+        "reason": "继续采访生活开支、游戏充值及健身房经营收入，无具体商家导流。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 158,
+      "firstIndex": 0,
+      "lastIndex": 157,
+      "allRowsRead": true
+    }
+  }
+}

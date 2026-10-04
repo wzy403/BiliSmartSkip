@@ -1,0 +1,175 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 152,
+    "inputLineSha256": "6fbbf8fe8da31b729c1fa1ff5e778b0ad8271b871f06b8ea1fbb3518d60b64d5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1KuSFYrEJp-26840271501.json",
+    "acquisitionSha256": "1936d61400592b59c70dbf206ef8f1037d38834c74af1724bb7136365492f280",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KuSFYrEJp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1KuSFYrEJp.json",
+    "transcriptSha256": "1f9cea327ec9c417ed3482ec9b99c27447686e7babf6e208b4086429f1e879d4"
+  },
+  "record": {
+    "bvid": "BV1KuSFYrEJp",
+    "cid": 26840271501,
+    "duration": 893,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "前半从MMORPG的买量成本、LTV369与大额付费依赖讲到玩家流失，再比较SLG稀缺土地、开服竞争、快速回本与卡牌游戏的差异。后半以新人是否能玩SLG为桥段，单独推荐三谋，强调68元投入、高抽卡回报、不锁卡、普通玩家体验及S2/S3新玩法，之后回到品类发展总结和下一期预告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 650.06,
+        "end": 858.17,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从假设观众担心氪金的提问铺垫进入特定游戏推荐，持续用个人低付费高战力、抽卡福利、普通玩家体验和新玩法作推介，并以呼吁其他游戏学习其设计收尾。该段虽借行业分析讲锁卡和玩法，但独立集中导向三谋产品好处，可与前后SLG付费机制讲解分开；边界不能只从福利或产品名称开始。",
+        "startUncertainty": [
+          648.4,
+          650.06
+        ],
+        "endUncertainty": [
+          858.17,
+          858.17
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 644.68,
+            "to": 648.4,
+            "text": "但开服的速度是超出所有人的想象力的"
+          },
+          {
+            "from": 650.06,
+            "to": 653.12,
+            "text": "那说到这里有的小可爱就会发出疑问了"
+          },
+          {
+            "from": 653.12,
+            "to": 655.6,
+            "text": "这么氪金SLG游戏还能玩吗"
+          },
+          {
+            "from": 657.46,
+            "to": 661.36,
+            "text": "其实呢如果是新人想尝试SLG的话"
+          },
+          {
+            "from": 661.36,
+            "to": 664.87,
+            "text": "我还是推荐今年B站输出新出的三模"
+          },
+          {
+            "from": 664.87,
+            "to": 667.59,
+            "text": "大家可能看到三模的广告都看腻了"
+          },
+          {
+            "from": 675.24,
+            "to": 676.9,
+            "text": "我已经玩了一个多月了"
+          },
+          {
+            "from": 676.9,
+            "to": 678.22,
+            "text": "就充了68块钱"
+          },
+          {
+            "from": 683.81,
+            "to": 686.11,
+            "text": "系统就送了将近400抽"
+          },
+          {
+            "from": 712.02,
+            "to": 714.48,
+            "text": "我在盟里打架输出排行第三"
+          },
+          {
+            "from": 714.48,
+            "to": 716.72,
+            "text": "全服战力排行第21名"
+          },
+          {
+            "from": 726.12,
+            "to": 728.84,
+            "text": "也就是说三谋他不锁卡"
+          },
+          {
+            "from": 757.12,
+            "to": 760.84,
+            "text": "三某我心测不锁卡概率没有限制"
+          },
+          {
+            "from": 772.36,
+            "to": 775.85,
+            "text": "是普通玩家体验最好的SLG游戏了"
+          },
+          {
+            "from": 816.01,
+            "to": 818.35,
+            "text": "所以很多玩家觉得S2很好玩"
+          },
+          {
+            "from": 821.7,
+            "to": 825.36,
+            "text": "在S3呢三模更加注重了弱势方的保护"
+          },
+          {
+            "from": 830.37,
+            "to": 832.81,
+            "text": "不过呢创新也是有风险的"
+          },
+          {
+            "from": 833.99,
+            "to": 836.78,
+            "text": "最终还是要大家玩了之后才能下结论"
+          },
+          {
+            "from": 838,
+            "to": 840.26,
+            "text": "三谋今年的数据是相当好的"
+          },
+          {
+            "from": 842.56,
+            "to": 844.72,
+            "text": "确确实实得到了玩家的认可"
+          },
+          {
+            "from": 844.72,
+            "to": 848.34,
+            "text": "希望老SLG游戏也能在玩法上进行一些突破"
+          },
+          {
+            "from": 856.7,
+            "to": 858.17,
+            "text": "大家的钱包"
+          },
+          {
+            "from": 858.17,
+            "to": 859.37,
+            "text": "总结一下"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 401,
+      "firstIndex": 0,
+      "lastIndex": 400,
+      "allRowsRead": true
+    }
+  }
+}

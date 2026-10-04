@@ -1,0 +1,246 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 249,
+    "inputLineSha256": "f1a581024fc9ef06cbbf10a806647cdfe1a89ad0ce7c1cf8eba0c4b5360b34f1",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1UY5VzMEEd-29867311500.json",
+    "acquisitionSha256": "26245267161f84a9325349252320b569ddd5dd97ba797e4cf9396b9c8829710a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UY5VzMEEd/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1UY5VzMEEd.json",
+    "transcriptSha256": "972e88123f16afff42054a1a22d8aaa02065fc321b4748e86ea6cfb3ec5b2d90"
+  },
+  "record": {
+    "bvid": "BV1UY5VzMEEd",
+    "cid": 29867311500,
+    "duration": 465,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕共享单车涨价，比较哈啰、美团、青桔的单次计费和月卡，分析短程停车困难、调度制造折旧研发成本和盈利问题，再评论联名广告、充电宝助力车等增收办法。200.209秒以休息和肩颈酸痛为铺垫推广妙界按摩器。平台价格比较与肯德基联名广告引文属于商业模式分析，应保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 200.209,
+        "end": 278.61,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从休息时间到、看视频肩颈僵硬开始铺垫，介绍妙界按摩器力度、热敷、身体使用部位、销量和颈椎健康恐惧诉求，领券保价、换新保障及母亲节送礼收尾，之后返回共享单车盈利矛盾。",
+        "startUncertainty": [
+          200.209,
+          200.209
+        ],
+        "endUncertainty": [
+          278.61,
+          279.17
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 198.67,
+            "to": 200.209,
+            "text": "我们都是比较抠门的嘛"
+          },
+          {
+            "from": 200.209,
+            "to": 201.829,
+            "text": "咕咕休息时间到"
+          },
+          {
+            "from": 201.829,
+            "to": 202.809,
+            "text": "大家看视频久了"
+          },
+          {
+            "from": 202.809,
+            "to": 203.989,
+            "text": "是不是肩膀有点僵硬"
+          },
+          {
+            "from": 203.989,
+            "to": 205.129,
+            "text": "脖子有点酸痛啊"
+          },
+          {
+            "from": 205.649,
+            "to": 207.8,
+            "text": "快点试一下雪姬手上这款妙界吧"
+          },
+          {
+            "from": 209.24,
+            "to": 210.48,
+            "text": "上次推荐给小伙伴之后"
+          },
+          {
+            "from": 211.64,
+            "to": 213.72,
+            "text": "再也不去那些死贵死贵的按摩店了"
+          },
+          {
+            "from": 219.389,
+            "to": 221.229,
+            "text": "都会背上它按摩巴黎按摩头"
+          },
+          {
+            "from": 223.769,
+            "to": 227.12,
+            "text": "从后颈肉到肩胛骨斜方肌都被狠狠拿捏"
+          },
+          {
+            "from": 227.12,
+            "to": 228.8,
+            "text": "搭配上热敷活络气血"
+          },
+          {
+            "from": 239.28,
+            "to": 241.76,
+            "text": "它的配置和手法真的比同类高很多"
+          },
+          {
+            "from": 244.18,
+            "to": 246.24,
+            "text": "按摩类第一名确实名不虚传"
+          },
+          {
+            "from": 249.48,
+            "to": 250.5,
+            "text": "长时间低头玩手机"
+          },
+          {
+            "from": 258.9,
+            "to": 261.12,
+            "text": "颈椎病一旦形成就很难治愈了"
+          },
+          {
+            "from": 264.74,
+            "to": 266.04,
+            "text": "真心安利大家试一下"
+          },
+          {
+            "from": 266.04,
+            "to": 268.1,
+            "text": "妙姐日常按摩完全可以满足"
+          },
+          {
+            "from": 269.18,
+            "to": 271.2,
+            "text": "需要的小伙伴呢记得在评论区里面领券"
+          },
+          {
+            "from": 272.38,
+            "to": 274.2,
+            "text": "一年之内质量问题免费换新"
+          },
+          {
+            "from": 274.2,
+            "to": 275.48,
+            "text": "马上就是母亲节了"
+          },
+          {
+            "from": 276.12,
+            "to": 278.61,
+            "text": "送给长辈也是一个不错的选择哦"
+          },
+          {
+            "from": 279.17,
+            "to": 281.01,
+            "text": "而在这样的矛盾和纠结背后"
+          }
+        ]
+      },
+      {
+        "start": 385.78,
+        "end": 389.35,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "共享单车与肯德基联名的广告声音引文，是商业模式分析所需例证，紧随其后是观众评价及作者评论，应保留。",
+        "startUncertainty": [
+          385.78,
+          385.78
+        ],
+        "endUncertainty": [
+          389.35,
+          389.35
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 380.12,
+            "to": 381.76,
+            "text": "我们来看一下他们都是怎么做的"
+          },
+          {
+            "from": 381.76,
+            "to": 384.6,
+            "text": "前阵子阿罗在上海和肯德基联名做了个广告"
+          },
+          {
+            "from": 384.6,
+            "to": 385.78,
+            "text": "大家来听一下效果"
+          },
+          {
+            "from": 385.78,
+            "to": 387.26,
+            "text": "又要去打工"
+          },
+          {
+            "from": 387.26,
+            "to": 389.35,
+            "text": "谁能不发方啊"
+          },
+          {
+            "from": 389.35,
+            "to": 390.07,
+            "text": "觉得怎么样呢"
+          },
+          {
+            "from": 391.77,
+            "to": 392.91,
+            "text": "还有早上本来就烦了"
+          },
+          {
+            "from": 392.91,
+            "to": 396.05,
+            "text": "打工人听完之后想连夜暗杀肯德基老爷爷"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 200.209,
+        "reason": "实际字幕覆盖的共享单车计费和消费者行为分析，不是平台促销。"
+      },
+      {
+        "start": 279.17,
+        "end": 385.78,
+        "reason": "实际字幕覆盖的制造调度成本、亏损和广告变现机制。"
+      },
+      {
+        "start": 389.35,
+        "end": 455.52,
+        "reason": "实际字幕覆盖的联名广告评价、助力车产品批评和涨价结论。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "455.52–465秒尾部9.48秒无字幕，片头0–0.2秒及其他短缺口未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 264,
+      "firstIndex": 0,
+      "lastIndex": 263,
+      "allRowsRead": true
+    }
+  }
+}

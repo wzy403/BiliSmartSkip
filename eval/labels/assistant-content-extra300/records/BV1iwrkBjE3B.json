@@ -1,0 +1,120 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 128,
+    "inputLineSha256": "2d60632c3413678ecf9bd945e8bb50016cda2248deac2cc20435eef3d9b6bac6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1iwrkBjE3B-35422930482.json",
+    "acquisitionSha256": "89b8864019954d93b6da8ba7b7783cecddece3bd36489ea5e6ce4cc213175ebd",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iwrkBjE3B/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1iwrkBjE3B.json",
+    "transcriptSha256": "e967e84bfa982f5eaac5f5804565d81c64ec1cf4749e890d6c298e71584fefca"
+  },
+  "record": {
+    "bvid": "BV1iwrkBjE3B",
+    "cid": 35422930482,
+    "duration": 383,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "完整讲解《辛普森一家》巴特化身蝙蝠侠式英雄的复仇故事、警方和丽莎对其行为的反应，再逐项解释诺兰与伯顿版蝙蝠侠、反派、爵士乐、佐罗与金刚等致敬和彩蛋。中段以有趣的视频应配新手机观看为铺垫，插入转转旧手机及其他闲置回收服务的独立推销，之后回到巴特复仇的剧情。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 159.3,
+        "end": 198.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从观看视频与更换手机的过渡进入个人旧手机回收价格、上门时效、覆盖城市、当面打款及多品类回收服务，最后明确号召找转转；与辛普森剧情及彩蛋解析无关，完整保留该铺垫及收尾为可跳广告范围。首行含剧情感叹与广告转场，具体句内边界需视听细化。",
+        "startUncertainty": [
+          159.3,
+          164.22
+        ],
+        "endUncertainty": [
+          198.64,
+          198.64
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 157.81,
+            "to": 159.3,
+            "text": "Who killed my parents"
+          },
+          {
+            "from": 159.3,
+            "to": 164.22,
+            "text": "哈哈呃呃呜这么有趣的视频"
+          },
+          {
+            "from": 164.22,
+            "to": 166.18,
+            "text": "当然用我新换的手机看才爽"
+          },
+          {
+            "from": 166.18,
+            "to": 168.4,
+            "text": "不知道大家买了新的旧的都在怎么处理"
+          },
+          {
+            "from": 169.66,
+            "to": 171.72,
+            "text": "就找转转上门回收了1700多"
+          },
+          {
+            "from": 172.84,
+            "to": 174.36,
+            "text": "回收是最快一小时上门"
+          },
+          {
+            "from": 179.32,
+            "to": 181.82,
+            "text": "全国400多个城市都支持上门回收"
+          },
+          {
+            "from": 182.56,
+            "to": 183.44,
+            "text": "现场打钱"
+          },
+          {
+            "from": 192.12,
+            "to": 194.2,
+            "text": "一键下单就能通通打包带走"
+          },
+          {
+            "from": 194.8,
+            "to": 196.76,
+            "text": "要我说轻松处理闲置物品"
+          },
+          {
+            "from": 196.76,
+            "to": 198.64,
+            "text": "找转转这种大平台准没错"
+          },
+          {
+            "from": 198.64,
+            "to": 200.3,
+            "text": "虽然巴特复仇成功"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 200,
+      "firstIndex": 0,
+      "lastIndex": 199,
+      "allRowsRead": true
+    }
+  }
+}

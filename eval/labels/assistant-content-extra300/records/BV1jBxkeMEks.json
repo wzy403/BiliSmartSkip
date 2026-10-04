@@ -1,0 +1,264 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 133,
+    "inputLineSha256": "6935e112d67b955682ad73ad890ed113d164ff1f2d3ef7bbbed1579c50a471d9",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1jBxkeMEks-26077233732.json",
+    "acquisitionSha256": "28cb317b2c4a432db8bb6808a80b3487dc2863dd76d50bb388bb2f90eefced20",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jBxkeMEks/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1jBxkeMEks.json",
+    "transcriptSha256": "f825775f2a54425191b8d1d2c6846c9b0c707a92c9da35b6eae2db912e48d224"
+  },
+  "record": {
+    "bvid": "BV1jBxkeMEks",
+    "cid": 26077233732,
+    "duration": 944,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从古代粪坑、夜壶、罗马公厕和下水道，讲到中世纪欧洲卫生、抽水马桶改进、霍乱与现代污水系统，再讨论当代非洲、印度及中国卫生设施的社会作用，末尾补充粪便健康观察。历史讲到家庭马桶后，以马桶病菌、飞溅、手机污染和老人儿童风险作长铺垫，推介瑞尔特A60杀菌、冲水和安全设计；总结处再次点名使用该马桶。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 571.7,
+        "end": 734.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "medium",
+        "reason": "从已解决排污转向“马桶本身卫生未解决”的问题，连续铺陈细菌飞溅、疾病与家庭风险，再把杀菌马桶作为解决方案，引入瑞尔特A60并系统宣传泡沫盾、双杀菌、自动开盖、静音、水电安全、售后和装修适配，最后推荐安家年轻人了解。开头有通用卫生知识，但整段问题—产品方案形成独立推广链，需包含铺垫，不能只从品牌出现计广告；本片其余卫生史仍保留。",
+        "startUncertainty": [
+          569.14,
+          575.02
+        ],
+        "endUncertainty": [
+          734.64,
+          735.89
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 564.24,
+            "to": 566.2,
+            "text": "当越来越多房屋进入下水道系统"
+          },
+          {
+            "from": 566.2,
+            "to": 569.14,
+            "text": "设计师开始想方设法的把马桶塞进家庭厕所"
+          },
+          {
+            "from": 569.14,
+            "to": 571.7,
+            "text": "可以说从源头上解决了粪便处理的问题"
+          },
+          {
+            "from": 571.7,
+            "to": 573.62,
+            "text": "但至今依然没有很好解决的是"
+          },
+          {
+            "from": 573.62,
+            "to": 575.02,
+            "text": "马桶本身的卫生问题"
+          },
+          {
+            "from": 575.02,
+            "to": 576.84,
+            "text": "尤其冲水期间不关马桶盖"
+          },
+          {
+            "from": 582.24,
+            "to": 584.5,
+            "text": "柜子和牙刷上都找到过人类粪便"
+          },
+          {
+            "from": 590.54,
+            "to": 592.5,
+            "text": "卫生间这种相对湿润的环境下"
+          },
+          {
+            "from": 600.6,
+            "to": 603.02,
+            "text": "比如金黄色葡萄球菌能坚持小半个月"
+          },
+          {
+            "from": 624.2,
+            "to": 626.42,
+            "text": "大家应该能够想象马桶中的细菌含量"
+          },
+          {
+            "from": 631.58,
+            "to": 633.26,
+            "text": "而且现在应该没人上厕所"
+          },
+          {
+            "from": 635.5,
+            "to": 636.84,
+            "text": "手机上的细菌怎么办呢"
+          },
+          {
+            "from": 636.84,
+            "to": 639.46,
+            "text": "所以尤其是家里住老人小孩的情况下"
+          },
+          {
+            "from": 639.46,
+            "to": 641.96,
+            "text": "有一个能高效杀菌的马桶就显得尤为重要"
+          },
+          {
+            "from": 641.96,
+            "to": 643.56,
+            "text": "作为深耕卫浴行业25年"
+          },
+          {
+            "from": 646.2,
+            "to": 648.92,
+            "text": "瑞尔特智能马桶A60就考虑到杀菌问题"
+          },
+          {
+            "from": 656.5,
+            "to": 659.26,
+            "text": "此外瑞尔特A60还内置了两套杀菌系统"
+          },
+          {
+            "from": 660.98,
+            "to": 663.2,
+            "text": "瞬间杀死99.99%的细菌"
+          },
+          {
+            "from": 676.72,
+            "to": 679.5,
+            "text": "瑞尔特A60还拥有两种无接触开盖方式"
+          },
+          {
+            "from": 681.62,
+            "to": 683.54,
+            "text": "独家研发的轻音净冲系统"
+          },
+          {
+            "from": 685.76,
+            "to": 688.32,
+            "text": "声音最小能低至45.5db"
+          },
+          {
+            "from": 705.86,
+            "to": 706.8,
+            "text": "停电也能使用"
+          },
+          {
+            "from": 714.06,
+            "to": 716.86,
+            "text": "马桶内部的水路和电路模块是相互分离的"
+          },
+          {
+            "from": 722.6,
+            "to": 723.48,
+            "text": "售后成本低"
+          },
+          {
+            "from": 723.48,
+            "to": 726.52,
+            "text": "如果屏幕前的你是正好打算安置新家的年轻人"
+          },
+          {
+            "from": 726.52,
+            "to": 727.64,
+            "text": "不妨仔细了解一下"
+          },
+          {
+            "from": 727.64,
+            "to": 729.92,
+            "text": "这款集科技与颜值于神的智能马桶"
+          },
+          {
+            "from": 731.28,
+            "to": 734.64,
+            "text": "傻瓜几乎可以无缝适配任何装修风格"
+          },
+          {
+            "from": 735.89,
+            "to": 737.05,
+            "text": "2007年"
+          }
+        ]
+      },
+      {
+        "start": 911,
+        "end": 917.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "卫生设施幸福感总结之后转为点名瑞尔特A60并邀请享受如厕、放空，是品牌召回；917.58秒开始另行粪便健康知识，边界完整保留召回话术。",
+        "startUncertainty": [
+          911,
+          912.46
+        ],
+        "endUncertainty": [
+          917.58,
+          917.58
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 905.76,
+            "to": 907.56,
+            "text": "所以当你肚子疼或尿急的时候"
+          },
+          {
+            "from": 907.56,
+            "to": 909.48,
+            "text": "能很快找到一个干净卫生的厕所"
+          },
+          {
+            "from": 909.48,
+            "to": 911,
+            "text": "这真的已经非常幸福了"
+          },
+          {
+            "from": 911,
+            "to": 912.46,
+            "text": "在小心痔疮的前提下"
+          },
+          {
+            "from": 912.46,
+            "to": 914.06,
+            "text": "好好坐在瑞尔特A60上"
+          },
+          {
+            "from": 914.06,
+            "to": 915.42,
+            "text": "享受你的如厕时间吧"
+          },
+          {
+            "from": 915.42,
+            "to": 917.58,
+            "text": "思考一会人生来个灵魂的放空"
+          },
+          {
+            "from": 917.58,
+            "to": 918.7,
+            "text": "最后给大家分享一点"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 561,
+      "firstIndex": 0,
+      "lastIndex": 560,
+      "allRowsRead": true
+    }
+  }
+}

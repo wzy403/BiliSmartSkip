@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1rAHxepEZD",
+  "cid": 25718620897,
+  "title": "在上海出租屋花23块吃碳水夜宵，有肉还有快乐水太爽啦",
+  "duration": 418,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:25.376Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:25:08.883Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 205,
+    "inputLineSha256": "61a3e463e697625b0fcd8633547b8c688a3907009b8a771c83c90b6dcdf104d3",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1rAHxepEZD-25718620897.json",
+    "acquisitionSha256": "fddea03baf6477e1210ae8434d391803ab7dca06be1c54b777bc97681b959bd6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rAHxepEZD/?p=1"
+  }
+}

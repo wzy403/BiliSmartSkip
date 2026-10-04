@@ -1,0 +1,1334 @@
+{
+  "bvid": "BV1mx411M75v",
+  "inputLine": 170,
+  "originalCid": 25427412,
+  "attemptedAt": "2026-10-04T23:37:04.564Z",
+  "url": "https://www.bilibili.com/video/BV1mx411M75v/?p=1",
+  "httpStatus": 200,
+  "pageResponseSha256": "4f87c24c44949089eddad93c0bda58498032e6ff035af030f9f86df698121083",
+  "returnedBvid": "BV1mx411M75v",
+  "pages": [
+    {
+      "page": 1,
+      "cid": 25427403,
+      "duration": 91
+    },
+    {
+      "page": 2,
+      "cid": 25427404,
+      "duration": 513
+    },
+    {
+      "page": 3,
+      "cid": 25427405,
+      "duration": 513
+    },
+    {
+      "page": 4,
+      "cid": 25427406,
+      "duration": 513
+    },
+    {
+      "page": 5,
+      "cid": 25427407,
+      "duration": 513
+    },
+    {
+      "page": 6,
+      "cid": 25427408,
+      "duration": 516
+    },
+    {
+      "page": 7,
+      "cid": 25427409,
+      "duration": 513
+    },
+    {
+      "page": 8,
+      "cid": 25427410,
+      "duration": 511
+    },
+    {
+      "page": 9,
+      "cid": 25427411,
+      "duration": 518
+    },
+    {
+      "page": 10,
+      "cid": 25427412,
+      "duration": 511
+    },
+    {
+      "page": 11,
+      "cid": 25427413,
+      "duration": 509
+    },
+    {
+      "page": 12,
+      "cid": 25427414,
+      "duration": 511
+    },
+    {
+      "page": 13,
+      "cid": 25427415,
+      "duration": 511
+    },
+    {
+      "page": 14,
+      "cid": 25427416,
+      "duration": 511
+    },
+    {
+      "page": 15,
+      "cid": 25427417,
+      "duration": 511
+    },
+    {
+      "page": 16,
+      "cid": 25427418,
+      "duration": 513
+    },
+    {
+      "page": 17,
+      "cid": 25427419,
+      "duration": 511
+    },
+    {
+      "page": 18,
+      "cid": 25427420,
+      "duration": 505
+    },
+    {
+      "page": 19,
+      "cid": 25427421,
+      "duration": 511
+    },
+    {
+      "page": 20,
+      "cid": 25427422,
+      "duration": 511
+    },
+    {
+      "page": 21,
+      "cid": 25427423,
+      "duration": 511
+    },
+    {
+      "page": 22,
+      "cid": 25427424,
+      "duration": 507
+    },
+    {
+      "page": 23,
+      "cid": 25427425,
+      "duration": 511
+    },
+    {
+      "page": 24,
+      "cid": 25427426,
+      "duration": 511
+    },
+    {
+      "page": 25,
+      "cid": 25427427,
+      "duration": 511
+    },
+    {
+      "page": 26,
+      "cid": 25427428,
+      "duration": 511
+    },
+    {
+      "page": 27,
+      "cid": 25427429,
+      "duration": 511
+    },
+    {
+      "page": 28,
+      "cid": 25427430,
+      "duration": 511
+    },
+    {
+      "page": 29,
+      "cid": 25427431,
+      "duration": 511
+    },
+    {
+      "page": 30,
+      "cid": 25427432,
+      "duration": 511
+    },
+    {
+      "page": 31,
+      "cid": 25427433,
+      "duration": 511
+    },
+    {
+      "page": 32,
+      "cid": 25427434,
+      "duration": 511
+    },
+    {
+      "page": 33,
+      "cid": 25427435,
+      "duration": 511
+    },
+    {
+      "page": 34,
+      "cid": 25427436,
+      "duration": 511
+    },
+    {
+      "page": 35,
+      "cid": 25427437,
+      "duration": 511
+    },
+    {
+      "page": 36,
+      "cid": 25427438,
+      "duration": 511
+    },
+    {
+      "page": 37,
+      "cid": 25427439,
+      "duration": 511
+    },
+    {
+      "page": 38,
+      "cid": 25427440,
+      "duration": 511
+    },
+    {
+      "page": 39,
+      "cid": 25427441,
+      "duration": 511
+    },
+    {
+      "page": 40,
+      "cid": 25427442,
+      "duration": 511
+    },
+    {
+      "page": 41,
+      "cid": 25427443,
+      "duration": 511
+    },
+    {
+      "page": 42,
+      "cid": 25427444,
+      "duration": 509
+    },
+    {
+      "page": 43,
+      "cid": 25427445,
+      "duration": 509
+    },
+    {
+      "page": 44,
+      "cid": 25427446,
+      "duration": 511
+    },
+    {
+      "page": 45,
+      "cid": 25427447,
+      "duration": 511
+    },
+    {
+      "page": 46,
+      "cid": 25427448,
+      "duration": 511
+    },
+    {
+      "page": 47,
+      "cid": 25427449,
+      "duration": 511
+    },
+    {
+      "page": 48,
+      "cid": 25427450,
+      "duration": 511
+    },
+    {
+      "page": 49,
+      "cid": 25427451,
+      "duration": 511
+    },
+    {
+      "page": 50,
+      "cid": 25427452,
+      "duration": 509
+    },
+    {
+      "page": 51,
+      "cid": 25427453,
+      "duration": 509
+    },
+    {
+      "page": 52,
+      "cid": 25427454,
+      "duration": 511
+    },
+    {
+      "page": 53,
+      "cid": 25427455,
+      "duration": 511
+    },
+    {
+      "page": 54,
+      "cid": 25427456,
+      "duration": 721
+    },
+    {
+      "page": 55,
+      "cid": 25427457,
+      "duration": 721
+    },
+    {
+      "page": 56,
+      "cid": 25427458,
+      "duration": 721
+    },
+    {
+      "page": 57,
+      "cid": 25427459,
+      "duration": 721
+    },
+    {
+      "page": 58,
+      "cid": 25427460,
+      "duration": 721
+    },
+    {
+      "page": 59,
+      "cid": 25427461,
+      "duration": 721
+    },
+    {
+      "page": 60,
+      "cid": 25427462,
+      "duration": 721
+    },
+    {
+      "page": 61,
+      "cid": 25427463,
+      "duration": 721
+    },
+    {
+      "page": 62,
+      "cid": 25427464,
+      "duration": 721
+    },
+    {
+      "page": 63,
+      "cid": 25427465,
+      "duration": 721
+    },
+    {
+      "page": 64,
+      "cid": 25427466,
+      "duration": 721
+    },
+    {
+      "page": 65,
+      "cid": 25427467,
+      "duration": 721
+    },
+    {
+      "page": 66,
+      "cid": 25427468,
+      "duration": 721
+    },
+    {
+      "page": 67,
+      "cid": 25427469,
+      "duration": 721
+    },
+    {
+      "page": 68,
+      "cid": 25427470,
+      "duration": 721
+    },
+    {
+      "page": 69,
+      "cid": 25427471,
+      "duration": 721
+    },
+    {
+      "page": 70,
+      "cid": 25427472,
+      "duration": 721
+    },
+    {
+      "page": 71,
+      "cid": 25427473,
+      "duration": 721
+    },
+    {
+      "page": 72,
+      "cid": 25427474,
+      "duration": 721
+    },
+    {
+      "page": 73,
+      "cid": 25427475,
+      "duration": 721
+    },
+    {
+      "page": 74,
+      "cid": 25427476,
+      "duration": 721
+    },
+    {
+      "page": 75,
+      "cid": 25427477,
+      "duration": 721
+    },
+    {
+      "page": 76,
+      "cid": 25427478,
+      "duration": 721
+    },
+    {
+      "page": 77,
+      "cid": 25427479,
+      "duration": 721
+    },
+    {
+      "page": 78,
+      "cid": 25427480,
+      "duration": 721
+    },
+    {
+      "page": 79,
+      "cid": 25427481,
+      "duration": 721
+    },
+    {
+      "page": 80,
+      "cid": 25427482,
+      "duration": 721
+    },
+    {
+      "page": 81,
+      "cid": 25427483,
+      "duration": 721
+    },
+    {
+      "page": 82,
+      "cid": 25427484,
+      "duration": 721
+    },
+    {
+      "page": 83,
+      "cid": 25427485,
+      "duration": 721
+    },
+    {
+      "page": 84,
+      "cid": 25427486,
+      "duration": 721
+    },
+    {
+      "page": 85,
+      "cid": 25427487,
+      "duration": 721
+    },
+    {
+      "page": 86,
+      "cid": 25427488,
+      "duration": 721
+    },
+    {
+      "page": 87,
+      "cid": 25427489,
+      "duration": 721
+    },
+    {
+      "page": 88,
+      "cid": 25427490,
+      "duration": 721
+    },
+    {
+      "page": 89,
+      "cid": 25427491,
+      "duration": 722
+    },
+    {
+      "page": 90,
+      "cid": 25427492,
+      "duration": 721
+    },
+    {
+      "page": 91,
+      "cid": 25427493,
+      "duration": 721
+    },
+    {
+      "page": 92,
+      "cid": 25427494,
+      "duration": 721
+    },
+    {
+      "page": 93,
+      "cid": 25427495,
+      "duration": 721
+    },
+    {
+      "page": 94,
+      "cid": 25427496,
+      "duration": 721
+    },
+    {
+      "page": 95,
+      "cid": 25427497,
+      "duration": 721
+    },
+    {
+      "page": 96,
+      "cid": 25427498,
+      "duration": 721
+    },
+    {
+      "page": 97,
+      "cid": 25427499,
+      "duration": 685
+    },
+    {
+      "page": 98,
+      "cid": 25427500,
+      "duration": 721
+    },
+    {
+      "page": 99,
+      "cid": 25427501,
+      "duration": 721
+    },
+    {
+      "page": 100,
+      "cid": 25427502,
+      "duration": 721
+    },
+    {
+      "page": 101,
+      "cid": 25427503,
+      "duration": 721
+    },
+    {
+      "page": 102,
+      "cid": 25427504,
+      "duration": 721
+    },
+    {
+      "page": 103,
+      "cid": 25427505,
+      "duration": 721
+    },
+    {
+      "page": 104,
+      "cid": 25427506,
+      "duration": 721
+    },
+    {
+      "page": 105,
+      "cid": 25427507,
+      "duration": 721
+    },
+    {
+      "page": 106,
+      "cid": 25427508,
+      "duration": 79
+    },
+    {
+      "page": 107,
+      "cid": 25427509,
+      "duration": 81
+    },
+    {
+      "page": 108,
+      "cid": 25427510,
+      "duration": 720
+    },
+    {
+      "page": 109,
+      "cid": 25427511,
+      "duration": 720
+    },
+    {
+      "page": 110,
+      "cid": 25427512,
+      "duration": 720
+    },
+    {
+      "page": 111,
+      "cid": 25427513,
+      "duration": 720
+    },
+    {
+      "page": 112,
+      "cid": 25427514,
+      "duration": 720
+    },
+    {
+      "page": 113,
+      "cid": 25427515,
+      "duration": 720
+    },
+    {
+      "page": 114,
+      "cid": 25427516,
+      "duration": 720
+    },
+    {
+      "page": 115,
+      "cid": 25427517,
+      "duration": 720
+    },
+    {
+      "page": 116,
+      "cid": 25427518,
+      "duration": 720
+    },
+    {
+      "page": 117,
+      "cid": 25427519,
+      "duration": 720
+    },
+    {
+      "page": 118,
+      "cid": 25427520,
+      "duration": 720
+    },
+    {
+      "page": 119,
+      "cid": 25427521,
+      "duration": 720
+    },
+    {
+      "page": 120,
+      "cid": 25427522,
+      "duration": 720
+    },
+    {
+      "page": 121,
+      "cid": 25427523,
+      "duration": 720
+    },
+    {
+      "page": 122,
+      "cid": 25427524,
+      "duration": 720
+    },
+    {
+      "page": 123,
+      "cid": 25427525,
+      "duration": 720
+    },
+    {
+      "page": 124,
+      "cid": 25427526,
+      "duration": 720
+    },
+    {
+      "page": 125,
+      "cid": 25427527,
+      "duration": 720
+    },
+    {
+      "page": 126,
+      "cid": 25427528,
+      "duration": 720
+    },
+    {
+      "page": 127,
+      "cid": 25427529,
+      "duration": 720
+    },
+    {
+      "page": 128,
+      "cid": 25427530,
+      "duration": 720
+    },
+    {
+      "page": 129,
+      "cid": 25427531,
+      "duration": 720
+    },
+    {
+      "page": 130,
+      "cid": 25427532,
+      "duration": 720
+    },
+    {
+      "page": 131,
+      "cid": 25427533,
+      "duration": 720
+    },
+    {
+      "page": 132,
+      "cid": 25427534,
+      "duration": 720
+    },
+    {
+      "page": 133,
+      "cid": 25427535,
+      "duration": 720
+    },
+    {
+      "page": 134,
+      "cid": 25427536,
+      "duration": 720
+    },
+    {
+      "page": 135,
+      "cid": 25427537,
+      "duration": 720
+    },
+    {
+      "page": 136,
+      "cid": 25427538,
+      "duration": 720
+    },
+    {
+      "page": 137,
+      "cid": 25427539,
+      "duration": 720
+    },
+    {
+      "page": 138,
+      "cid": 25427540,
+      "duration": 720
+    },
+    {
+      "page": 139,
+      "cid": 25427541,
+      "duration": 720
+    },
+    {
+      "page": 140,
+      "cid": 25427542,
+      "duration": 720
+    },
+    {
+      "page": 141,
+      "cid": 25427543,
+      "duration": 720
+    },
+    {
+      "page": 142,
+      "cid": 25427544,
+      "duration": 720
+    },
+    {
+      "page": 143,
+      "cid": 25427545,
+      "duration": 720
+    },
+    {
+      "page": 144,
+      "cid": 25427546,
+      "duration": 720
+    },
+    {
+      "page": 145,
+      "cid": 25427547,
+      "duration": 720
+    },
+    {
+      "page": 146,
+      "cid": 25427548,
+      "duration": 720
+    },
+    {
+      "page": 147,
+      "cid": 25427549,
+      "duration": 720
+    },
+    {
+      "page": 148,
+      "cid": 25427550,
+      "duration": 720
+    },
+    {
+      "page": 149,
+      "cid": 25427551,
+      "duration": 720
+    },
+    {
+      "page": 150,
+      "cid": 25427552,
+      "duration": 720
+    },
+    {
+      "page": 151,
+      "cid": 25427553,
+      "duration": 720
+    },
+    {
+      "page": 152,
+      "cid": 25427554,
+      "duration": 720
+    },
+    {
+      "page": 153,
+      "cid": 25427555,
+      "duration": 720
+    },
+    {
+      "page": 154,
+      "cid": 25427556,
+      "duration": 720
+    },
+    {
+      "page": 155,
+      "cid": 25427557,
+      "duration": 720
+    },
+    {
+      "page": 156,
+      "cid": 25427558,
+      "duration": 720
+    },
+    {
+      "page": 157,
+      "cid": 25427559,
+      "duration": 720
+    },
+    {
+      "page": 158,
+      "cid": 25427560,
+      "duration": 720
+    },
+    {
+      "page": 159,
+      "cid": 25427561,
+      "duration": 720
+    },
+    {
+      "page": 160,
+      "cid": 25427562,
+      "duration": 64
+    },
+    {
+      "page": 161,
+      "cid": 25427563,
+      "duration": 479
+    },
+    {
+      "page": 162,
+      "cid": 25427564,
+      "duration": 456
+    },
+    {
+      "page": 163,
+      "cid": 25427565,
+      "duration": 468
+    },
+    {
+      "page": 164,
+      "cid": 25427566,
+      "duration": 499
+    },
+    {
+      "page": 165,
+      "cid": 25427567,
+      "duration": 522
+    },
+    {
+      "page": 166,
+      "cid": 25427568,
+      "duration": 690
+    },
+    {
+      "page": 167,
+      "cid": 25427569,
+      "duration": 394
+    },
+    {
+      "page": 168,
+      "cid": 25427570,
+      "duration": 469
+    },
+    {
+      "page": 169,
+      "cid": 25427571,
+      "duration": 573
+    },
+    {
+      "page": 170,
+      "cid": 25427572,
+      "duration": 468
+    },
+    {
+      "page": 171,
+      "cid": 25427573,
+      "duration": 415
+    },
+    {
+      "page": 172,
+      "cid": 25427574,
+      "duration": 548
+    },
+    {
+      "page": 173,
+      "cid": 25427575,
+      "duration": 429
+    },
+    {
+      "page": 174,
+      "cid": 25427576,
+      "duration": 365
+    },
+    {
+      "page": 175,
+      "cid": 25427577,
+      "duration": 421
+    },
+    {
+      "page": 176,
+      "cid": 25427578,
+      "duration": 335
+    },
+    {
+      "page": 177,
+      "cid": 25427579,
+      "duration": 504
+    },
+    {
+      "page": 178,
+      "cid": 25427580,
+      "duration": 484
+    },
+    {
+      "page": 179,
+      "cid": 25427581,
+      "duration": 550
+    },
+    {
+      "page": 180,
+      "cid": 25427582,
+      "duration": 511
+    },
+    {
+      "page": 181,
+      "cid": 25427583,
+      "duration": 464
+    },
+    {
+      "page": 182,
+      "cid": 25427584,
+      "duration": 417
+    },
+    {
+      "page": 183,
+      "cid": 25427585,
+      "duration": 453
+    },
+    {
+      "page": 184,
+      "cid": 25427586,
+      "duration": 491
+    },
+    {
+      "page": 185,
+      "cid": 25427587,
+      "duration": 454
+    },
+    {
+      "page": 186,
+      "cid": 25427588,
+      "duration": 473
+    },
+    {
+      "page": 187,
+      "cid": 25427589,
+      "duration": 470
+    },
+    {
+      "page": 188,
+      "cid": 25427590,
+      "duration": 500
+    },
+    {
+      "page": 189,
+      "cid": 25427591,
+      "duration": 524
+    },
+    {
+      "page": 190,
+      "cid": 25427592,
+      "duration": 438
+    },
+    {
+      "page": 191,
+      "cid": 25427593,
+      "duration": 452
+    },
+    {
+      "page": 192,
+      "cid": 25427594,
+      "duration": 487
+    },
+    {
+      "page": 193,
+      "cid": 25427595,
+      "duration": 485
+    },
+    {
+      "page": 194,
+      "cid": 25427596,
+      "duration": 448
+    },
+    {
+      "page": 195,
+      "cid": 25427597,
+      "duration": 506
+    },
+    {
+      "page": 196,
+      "cid": 25427598,
+      "duration": 407
+    },
+    {
+      "page": 197,
+      "cid": 25427599,
+      "duration": 448
+    },
+    {
+      "page": 198,
+      "cid": 25427600,
+      "duration": 412
+    },
+    {
+      "page": 199,
+      "cid": 25427601,
+      "duration": 405
+    },
+    {
+      "page": 200,
+      "cid": 25427602,
+      "duration": 531
+    },
+    {
+      "page": 201,
+      "cid": 25427603,
+      "duration": 485
+    },
+    {
+      "page": 202,
+      "cid": 25427604,
+      "duration": 467
+    },
+    {
+      "page": 203,
+      "cid": 25427605,
+      "duration": 423
+    },
+    {
+      "page": 204,
+      "cid": 25427606,
+      "duration": 446
+    },
+    {
+      "page": 205,
+      "cid": 25427607,
+      "duration": 457
+    },
+    {
+      "page": 206,
+      "cid": 25427608,
+      "duration": 488
+    },
+    {
+      "page": 207,
+      "cid": 25427609,
+      "duration": 483
+    },
+    {
+      "page": 208,
+      "cid": 25427610,
+      "duration": 451
+    },
+    {
+      "page": 209,
+      "cid": 25427611,
+      "duration": 479
+    },
+    {
+      "page": 210,
+      "cid": 25427612,
+      "duration": 424
+    },
+    {
+      "page": 211,
+      "cid": 25427613,
+      "duration": 484
+    },
+    {
+      "page": 212,
+      "cid": 25427614,
+      "duration": 449
+    },
+    {
+      "page": 213,
+      "cid": 25427615,
+      "duration": 478
+    },
+    {
+      "page": 214,
+      "cid": 25427616,
+      "duration": 487
+    },
+    {
+      "page": 215,
+      "cid": 25427617,
+      "duration": 495
+    },
+    {
+      "page": 216,
+      "cid": 25427618,
+      "duration": 492
+    },
+    {
+      "page": 217,
+      "cid": 25427619,
+      "duration": 470
+    },
+    {
+      "page": 218,
+      "cid": 25427620,
+      "duration": 501
+    },
+    {
+      "page": 219,
+      "cid": 25427621,
+      "duration": 463
+    },
+    {
+      "page": 220,
+      "cid": 25427622,
+      "duration": 501
+    },
+    {
+      "page": 221,
+      "cid": 25427623,
+      "duration": 497
+    },
+    {
+      "page": 222,
+      "cid": 25427624,
+      "duration": 432
+    },
+    {
+      "page": 223,
+      "cid": 25427625,
+      "duration": 473
+    },
+    {
+      "page": 224,
+      "cid": 25427626,
+      "duration": 521
+    },
+    {
+      "page": 225,
+      "cid": 25427627,
+      "duration": 511
+    },
+    {
+      "page": 226,
+      "cid": 25427628,
+      "duration": 454
+    },
+    {
+      "page": 227,
+      "cid": 25427629,
+      "duration": 522
+    },
+    {
+      "page": 228,
+      "cid": 25427630,
+      "duration": 604
+    },
+    {
+      "page": 229,
+      "cid": 25427631,
+      "duration": 447
+    },
+    {
+      "page": 230,
+      "cid": 25427632,
+      "duration": 492
+    },
+    {
+      "page": 231,
+      "cid": 25427633,
+      "duration": 499
+    },
+    {
+      "page": 232,
+      "cid": 25427634,
+      "duration": 552
+    },
+    {
+      "page": 233,
+      "cid": 25427635,
+      "duration": 430
+    },
+    {
+      "page": 234,
+      "cid": 25427636,
+      "duration": 431
+    },
+    {
+      "page": 235,
+      "cid": 25427637,
+      "duration": 470
+    },
+    {
+      "page": 236,
+      "cid": 25427638,
+      "duration": 479
+    },
+    {
+      "page": 237,
+      "cid": 25427639,
+      "duration": 454
+    },
+    {
+      "page": 238,
+      "cid": 25427640,
+      "duration": 471
+    },
+    {
+      "page": 239,
+      "cid": 25427641,
+      "duration": 436
+    },
+    {
+      "page": 240,
+      "cid": 25427642,
+      "duration": 467
+    },
+    {
+      "page": 241,
+      "cid": 25427643,
+      "duration": 464
+    },
+    {
+      "page": 242,
+      "cid": 25427644,
+      "duration": 453
+    },
+    {
+      "page": 243,
+      "cid": 25427645,
+      "duration": 434
+    },
+    {
+      "page": 244,
+      "cid": 25427646,
+      "duration": 473
+    },
+    {
+      "page": 245,
+      "cid": 25427647,
+      "duration": 526
+    },
+    {
+      "page": 246,
+      "cid": 25427648,
+      "duration": 411
+    },
+    {
+      "page": 247,
+      "cid": 25427649,
+      "duration": 406
+    },
+    {
+      "page": 248,
+      "cid": 25427650,
+      "duration": 428
+    },
+    {
+      "page": 249,
+      "cid": 25427651,
+      "duration": 747
+    },
+    {
+      "page": 250,
+      "cid": 25427652,
+      "duration": 680
+    },
+    {
+      "page": 251,
+      "cid": 25427653,
+      "duration": 748
+    },
+    {
+      "page": 252,
+      "cid": 25427654,
+      "duration": 687
+    },
+    {
+      "page": 253,
+      "cid": 25427655,
+      "duration": 654
+    },
+    {
+      "page": 254,
+      "cid": 25427656,
+      "duration": 654
+    },
+    {
+      "page": 255,
+      "cid": 25427657,
+      "duration": 590
+    },
+    {
+      "page": 256,
+      "cid": 25427658,
+      "duration": 664
+    },
+    {
+      "page": 257,
+      "cid": 25427659,
+      "duration": 573
+    },
+    {
+      "page": 258,
+      "cid": 25427660,
+      "duration": 601
+    },
+    {
+      "page": 259,
+      "cid": 25427661,
+      "duration": 620
+    },
+    {
+      "page": 260,
+      "cid": 25427662,
+      "duration": 598
+    },
+    {
+      "page": 261,
+      "cid": 25427663,
+      "duration": 536
+    },
+    {
+      "page": 262,
+      "cid": 25427664,
+      "duration": 515
+    },
+    {
+      "page": 263,
+      "cid": 25427665,
+      "duration": 495
+    },
+    {
+      "page": 264,
+      "cid": 25427666,
+      "duration": 522
+    }
+  ],
+  "status": "identity-diagnostic-only",
+  "visualInspectionPerformed": false
+}

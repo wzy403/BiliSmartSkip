@@ -1,0 +1,127 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 150,
+    "inputLineSha256": "d0b15444efd70846a76d7c5be6581fdaa16a9539b0b92ed71801136c0532ff14",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1KKhpziEEn-31420383551.json",
+    "acquisitionSha256": "639aafcde11b635e0eab6c5fd7cf6e13f2e20620c8787309c7e155a71c9cc969",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KKhpziEEn/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1KKhpziEEn.json",
+    "transcriptSha256": "19cf9c7e7a7e9d9272d7e968b3bb3435732573d4d7a351a05ba8981158424af8"
+  },
+  "record": {
+    "bvid": "BV1KKhpziEEn",
+    "cid": 31420383551,
+    "duration": 717,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从湘西水下洞穴的结构、失去方向及发现气穴讲起，叙述被困者五天生存困难、家人报警、广西潜水员系统搜索气穴、供氧及最终救援，并以避免野外大水域游泳的安全提醒结尾。中间由被困者装备不足和应急用品不能省，转入转转二手数码价格、质检保障及领券推广，随后明确回到救援故事。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 172.079,
+        "end": 221.93,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "装备不足和用品不能省形成购买二手设备的铺垫，随后集中介绍转转数码价格、质检、退货保修和评论区优惠券，直到“逛完转转，我们继续今天的故事”的品牌收尾；完整保留过渡，不仅标领券句。",
+        "startUncertainty": [
+          172.079,
+          177.32
+        ],
+        "endUncertainty": [
+          220.34,
+          221.93
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 172.079,
+            "to": 174.079,
+            "text": "当时他身上的装备应该不多"
+          },
+          {
+            "from": 177.32,
+            "to": 179.52,
+            "text": "其实有些东西啊还是不能省的"
+          },
+          {
+            "from": 180.48,
+            "to": 182.06,
+            "text": "可以到二手平台看看"
+          },
+          {
+            "from": 182.06,
+            "to": 185.06,
+            "text": "像我这台转转上买的九五新A级的IPHONE13"
+          },
+          {
+            "from": 191.46,
+            "to": 193.72,
+            "text": "转转是个专业的官方验二手平台"
+          },
+          {
+            "from": 200.94,
+            "to": 203.92,
+            "text": "支持七天无理由退货和一年保修啊"
+          },
+          {
+            "from": 212.34,
+            "to": 215.74,
+            "text": "现在点击评论区蓝链还能领最高千元优惠券"
+          },
+          {
+            "from": 219.68,
+            "to": 220.34,
+            "text": "逛完转转"
+          },
+          {
+            "from": 220.34,
+            "to": 221.93,
+            "text": "我们继续今天的故事"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.38,
+        "end": 2.56,
+        "reason": "洞穴环境、潜水者失踪和气穴位置构成救援事件正文；50 秒“去转转”是游览景点的普通措辞。"
+      },
+      {
+        "start": 4.08,
+        "end": 172.079,
+        "reason": "洞穴环境、潜水者失踪和气穴位置构成救援事件正文；50 秒“去转转”是游览景点的普通措辞。"
+      },
+      {
+        "start": 221.93,
+        "end": 294.7,
+        "reason": "救援队搜索、供氧、出洞及游泳安全提醒，属于事件解说和安全知识。"
+      },
+      {
+        "start": 298.14,
+        "end": 711.46,
+        "reason": "救援队搜索、供氧、出洞及游泳安全提醒，属于事件解说和安全知识。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "最后字幕到 711.46 秒，视频时长 717 秒；尾部 5.54 秒无字幕，纯画面未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 373,
+      "firstIndex": 0,
+      "lastIndex": 372,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 44,
+    "inputLineSha256": "dd596894351188af6216dc052b3322bdf7e967bae91f55f59f6d419c38620166",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV19swqzmE8o-25982474868.json",
+    "acquisitionSha256": "74f2e5e80f7ee9addef640a121b67206450533d720419c6c3032e8b17b722c9e",
+    "sourceUrl": "https://www.bilibili.com/video/BV19swqzmE8o/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV19swqzmE8o.json",
+    "transcriptSha256": "1c3859da1b763610b41fba0854891416b11cf688e090dea43bc1f92b4a8f404b"
+  },
+  "record": {
+    "bvid": "BV19swqzmE8o",
+    "cid": 25982474868,
+    "duration": 667,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "逐段讨论《蜘蛛侠4》预告、帕克关系和孤独、战衣特效、变异能力、惩罚者和多名反派，含对电影营销与三星折叠机道具植入的观察。170.87秒由赶制预告解析和换电脑引入转转回收推广，210.92秒回到帕克剧情。标题的“逐帧解析”是视频内容主题，本审核只读字幕。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 170.87,
+        "end": 210.92,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "预告突然发布、用新电脑剪辑和旧机处理构成转转推广铺垫，随后介绍上门回收、回收品类、速度及成交价，最后号召把闲置卖给转转；210.92秒恢复剧情分析。",
+        "startUncertainty": [
+          170.87,
+          174.96
+        ],
+        "endUncertainty": [
+          210.92,
+          210.92
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 169.81,
+            "to": 170.87,
+            "text": "一会你们就知道了"
+          },
+          {
+            "from": 170.87,
+            "to": 173.57,
+            "text": "然后我也没有想到这一次预告这么突然就出了"
+          },
+          {
+            "from": 173.57,
+            "to": 174.96,
+            "text": "所以我才马上开测"
+          },
+          {
+            "from": 174.96,
+            "to": 176.64,
+            "text": "而且多亏了我搞了这台新电脑"
+          },
+          {
+            "from": 177.72,
+            "to": 179.56,
+            "text": "大大换新后旧了都怎么处理呢"
+          },
+          {
+            "from": 179.56,
+            "to": 182.14,
+            "text": "乔那台旧的办公本找转转上门"
+          },
+          {
+            "from": 182.14,
+            "to": 183.52,
+            "text": "回收了3100多"
+          },
+          {
+            "from": 186.24,
+            "to": 187.52,
+            "text": "而且变现特别快"
+          },
+          {
+            "from": 199.24,
+            "to": 201.72,
+            "text": "特别适合我这种想快速变现又图省事的人"
+          },
+          {
+            "from": 203.9,
+            "to": 206.68,
+            "text": "我之前那款欧米茄还卖了2万4000多的"
+          },
+          {
+            "from": 208.36,
+            "to": 209.46,
+            "text": "就直接卖给转转"
+          },
+          {
+            "from": 209.46,
+            "to": 210.92,
+            "text": "钱到手才是硬道理"
+          },
+          {
+            "from": 210.92,
+            "to": 211.88,
+            "text": "帕克一直很孤独"
+          }
+        ]
+      },
+      {
+        "start": 96.38,
+        "end": 119.399,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "三星型号、机身特征和疑似植入是电影镜头道具分析，未向观众推销手机；属于预告解读正文。",
+        "startUncertainty": [
+          96.38,
+          96.38
+        ],
+        "endUncertainty": [
+          119.399,
+          123.38
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 94.47,
+            "to": 96.38,
+            "text": "第一天在麻省理工上课的短视频"
+          },
+          {
+            "from": 96.38,
+            "to": 100.3,
+            "text": "而帕克手里拿的手机应该是三星z flip7"
+          },
+          {
+            "from": 101.6,
+            "to": 104.02,
+            "text": "放大时能看到非常有特点的双后置摄像头"
+          },
+          {
+            "from": 105.62,
+            "to": 107.66,
+            "text": "翻过来这边也能看到折叠的转轴"
+          },
+          {
+            "from": 111.22,
+            "to": 114.58,
+            "text": "然后我们再加上最后这一个盒盖子的动作"
+          },
+          {
+            "from": 115.679,
+            "to": 117.319,
+            "text": "三星这一次应该给了很多"
+          },
+          {
+            "from": 117.319,
+            "to": 118.279,
+            "text": "只能说太稀有了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 359,
+      "firstIndex": 0,
+      "lastIndex": 358,
+      "allRowsRead": true
+    }
+  }
+}

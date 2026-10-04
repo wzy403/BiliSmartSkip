@@ -1,0 +1,135 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 282,
+    "inputLineSha256": "bd423120479d0da753750ed8e4e08eb53eaa68b9ae3987052689a521ee03a8b7",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1yHSKYdEqp-26853246956.json",
+    "acquisitionSha256": "a473310ef550f1f08b27213c2894ef007f42af094cc41e93fcf632b5497016c1",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yHSKYdEqp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1yHSKYdEqp.json",
+    "transcriptSha256": "861924b81aca905632c1698d4ce7e39773331a91267c851b9bd8c393528e8ad3"
+  },
+  "record": {
+    "bvid": "BV1yHSKYdEqp",
+    "cid": 26853246956,
+    "duration": 995,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以讽刺评论方式讨论特朗普新政、马斯克与政府开支裁撤，最后以虚构段子收尾。中途从警察换季执行任务转到西木源男士护肤套装，再明确“话说回来”接回就业与财政讨论。政治观点、引用旧广告口号作比喻不等于实际商品推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 515.26,
+        "end": 594.31,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          515.26,
+          517.98
+        ],
+        "endUncertainty": [
+          591.83,
+          594.31
+        ],
+        "reason": "警察换季/皮肤问题的铺垫开始，连续介绍西木源洁面水乳成分、效果、品牌能力、价格优惠券和售后，直到整套选择号召；随后明确回到美国政府支出正文。",
+        "evidence": [
+          {
+            "from": 512.22,
+            "to": 515.26,
+            "text": "那可不就是百万曹公衣食所系了吗"
+          },
+          {
+            "from": 515.26,
+            "to": 517.98,
+            "text": "而经常在美国当警察清空弹夹的朋友啊"
+          },
+          {
+            "from": 517.98,
+            "to": 521.189,
+            "text": "都知道在外面执行任务最烦的就是换季啊"
+          },
+          {
+            "from": 522.709,
+            "to": 524.18,
+            "text": "皮肤就容易出问题"
+          },
+          {
+            "from": 524.18,
+            "to": 526.3,
+            "text": "这里呢就给大家推荐我们的老朋友"
+          },
+          {
+            "from": 526.3,
+            "to": 528.19,
+            "text": "西木园男士专研套装"
+          },
+          {
+            "from": 540.03,
+            "to": 542.33,
+            "text": "洁面里是专为咱男性调配的"
+          },
+          {
+            "from": 555.52,
+            "to": 558.8,
+            "text": "那这套里的水乳就能有效保湿焕亮皮肤了"
+          },
+          {
+            "from": 571.62,
+            "to": 574.42,
+            "text": "一套下来3分钟就能让皮肤恢复细腻透亮"
+          },
+          {
+            "from": 584.28,
+            "to": 586.2,
+            "text": "现在置顶领大额优惠券"
+          },
+          {
+            "from": 586.2,
+            "to": 587.66,
+            "text": "全套到手仅需200多"
+          },
+          {
+            "from": 588.8,
+            "to": 590.71,
+            "text": "还承诺过敏包退"
+          },
+          {
+            "from": 590.71,
+            "to": 591.83,
+            "text": "售后服务有保障"
+          },
+          {
+            "from": 591.83,
+            "to": 594.31,
+            "text": "日常护肤咱们男生选这套就足够了啊"
+          },
+          {
+            "from": 594.31,
+            "to": 595.49,
+            "text": "好了话说回来呢"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 492,
+      "firstIndex": 0,
+      "lastIndex": 491,
+      "allRowsRead": true
+    }
+  }
+}

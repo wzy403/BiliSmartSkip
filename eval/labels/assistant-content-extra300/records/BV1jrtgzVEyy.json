@@ -1,0 +1,175 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 139,
+    "inputLineSha256": "717b0186d45afea85fb427c5a1d6e08a09cd0771afda2e7c7eeed0e33d2d99b6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1jrtgzVEyy-31476746460.json",
+    "acquisitionSha256": "3c845282eaa5296f9295c584238ad17d53d4239cb59b0c5242d5604026112e89",
+    "sourceUrl": "https://www.bilibili.com/video/BV1jrtgzVEyy/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1jrtgzVEyy.json",
+    "transcriptSha256": "386949867643f1d52d4be76abcb39e58aee98332cc08054aa11b56ad18cef2ee"
+  },
+  "record": {
+    "bvid": "BV1jrtgzVEyy",
+    "cid": 31476746460,
+    "duration": 478,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "逐步复盘一局军棋，使用粉丝布局，通过试探、调兵、伪装与连续追抓司令推演对方棋子，最终逼对手投降。中段从炸弹与“老铁”的玩笑转到腰硬如铁、久坐酸痛，介绍妙界按摩护腰坐姿椅，之后明确欢迎回来并复述棋局。结尾感谢充电粉丝、说明2P复盘位置和点赞为普通频道收尾。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 216.18,
+        "end": 288.35,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "用棋局炸弹与老铁双关铺垫，再说腰硬酸痛，完整介绍妙界坐姿椅的按摩、护腰、矫姿热敷、承托设计、坐垫与健康风险，优惠质保后邀请试用；288.35秒明确欢迎回来。应包含双关与疼痛铺垫，不把军棋本身的司令/炸弹推理误标。",
+        "startUncertainty": [
+          216.18,
+          219.54
+        ],
+        "endUncertainty": [
+          288.35,
+          288.35
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 213.3,
+            "to": 216.18,
+            "text": "我们则试出了一个疑似脚炸弹"
+          },
+          {
+            "from": 216.18,
+            "to": 218.1,
+            "text": "是炸弹总会发光的啊"
+          },
+          {
+            "from": 218.1,
+            "to": 219.54,
+            "text": "但是他是老铁呀"
+          },
+          {
+            "from": 219.54,
+            "to": 220.48,
+            "text": "说到铁"
+          },
+          {
+            "from": 220.48,
+            "to": 222.68,
+            "text": "最近柜子的腰硬得像块铁"
+          },
+          {
+            "from": 222.68,
+            "to": 224.34,
+            "text": "坐久了就酸痛的不行"
+          },
+          {
+            "from": 224.34,
+            "to": 225.7,
+            "text": "还好我有妙计"
+          },
+          {
+            "from": 225.7,
+            "to": 227.25,
+            "text": "按摩护腰坐姿椅"
+          },
+          {
+            "from": 227.25,
+            "to": 228.97,
+            "text": "创新设计了按摩护腰"
+          },
+          {
+            "from": 228.97,
+            "to": 230.33,
+            "text": "矫姿热敷四合一"
+          },
+          {
+            "from": 239.05,
+            "to": 240.91,
+            "text": "妙界做了六大分区设计"
+          },
+          {
+            "from": 242.63,
+            "to": 244.54,
+            "text": "260斤的兄弟都能撑住"
+          },
+          {
+            "from": 256.74,
+            "to": 258.62,
+            "text": "妙界可以边按摩边热敷"
+          },
+          {
+            "from": 262.57,
+            "to": 264.19,
+            "text": "像我最近下棋坐久了"
+          },
+          {
+            "from": 268.63,
+            "to": 269.99,
+            "text": "坐姿也能被改善"
+          },
+          {
+            "from": 273.77,
+            "to": 275.42,
+            "text": "发展成脊椎病可就晚了"
+          },
+          {
+            "from": 277,
+            "to": 278.98,
+            "text": "不如早点拿尿界养护起来"
+          },
+          {
+            "from": 278.98,
+            "to": 281.02,
+            "text": "现在评论区领券保价大促"
+          },
+          {
+            "from": 281.74,
+            "to": 283.95,
+            "text": "一年内有质量问题免费换新"
+          },
+          {
+            "from": 283.95,
+            "to": 285.37,
+            "text": "三种颜色都很赞"
+          },
+          {
+            "from": 285.37,
+            "to": 288.35,
+            "text": "真可以弄个试试好了"
+          },
+          {
+            "from": 288.35,
+            "to": 289.11,
+            "text": "欢迎回来"
+          },
+          {
+            "from": 289.11,
+            "to": 293.17,
+            "text": "刚刚说到对面贪吃我们一线营长而被司令抓死"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 264,
+      "firstIndex": 0,
+      "lastIndex": 263,
+      "allRowsRead": true
+    }
+  }
+}

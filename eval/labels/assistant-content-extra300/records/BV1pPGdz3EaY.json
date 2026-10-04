@@ -1,0 +1,44 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 193,
+    "inputLineSha256": "414b08ac7454986583b5fd8ffa612a8864d2926ea50b76629fb49fad0bb5c98d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1pPGdz3EaY-25794845364.json",
+    "acquisitionSha256": "8cefea6b11305a3c13803aecb409289b7685d0ac4670fda6925bb9dc61ca5e73",
+    "sourceUrl": "https://www.bilibili.com/video/BV1pPGdz3EaY/?p=5",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1pPGdz3EaY.json",
+    "transcriptSha256": "f9f092923ce72e7364a0db54af6537743ad39af8389f6dd8b02bead2e9d542bc"
+  },
+  "record": {
+    "bvid": "BV1pPGdz3EaY",
+    "cid": 25794845364,
+    "duration": 1188,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "《珀尔》电影片段，现有可理解字幕涉及电影梦想、离开农场、照护父亲、与母亲就舞蹈试镜及自身行为冲突；后半字幕几乎只剩音乐占位，影片完整内容无法恢复。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "完整阅读116行，约578.37秒后至883.24秒几乎全是‘音乐’占位，不能判断实际对白和剧情是否缺失；883.24–1188秒连续304.76秒完全没有字幕。",
+      "前段也有30.22–98.16、277.74–351.88、354.96–415.76等长空白，无法凭现有字幕判全片无广告，需原始完整字幕或视听核验。"
+    ],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 116,
+      "firstIndex": 0,
+      "lastIndex": 115,
+      "allRowsRead": true
+    }
+  }
+}

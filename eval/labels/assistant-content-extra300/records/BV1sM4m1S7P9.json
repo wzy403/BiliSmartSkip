@@ -1,0 +1,232 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 222,
+    "inputLineSha256": "c4ee3e4dcce72f22c5d7c46a2a26dd1ff55e9cbf5291debe2c6d15c3321be304",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1sM4m1S7P9-1574349248.json",
+    "acquisitionSha256": "fd7d45a6919ffee3dddcf11b84ba84103581e0a37303af20e32e52a654b00135",
+    "sourceUrl": "https://www.bilibili.com/video/BV1sM4m1S7P9/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1sM4m1S7P9.json",
+    "transcriptSha256": "47405d402147b8d1860565070a8e348b13fde96fe4e9ed9ea999206c7b510fd6"
+  },
+  "record": {
+    "bvid": "BV1sM4m1S7P9",
+    "cid": 1574349248,
+    "duration": 1312,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讲述 420–422 年南北朝开端的西凉灭亡、北凉与西秦交战、刘裕处置晋恭帝及病逝托孤，以及北魏拓跋嗣安排继承后决定南征；用刘裕睡不安宁衔接神气小鹿小冰被促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 526.519,
+        "end": 600.74,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "由“让刘裕连睡觉不得安宁”接现代夏季睡眠改善，转入神气小鹿小冰被，包含冷热痛点、凉感、机洗、纤维和双面材质、适用人群、价格、券及售后，最后“别错过了”；600.74 秒恢复司马德文禅让后遭遇。睡眠桥段已纳入，不只标券价。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          524.619,
+          528.779
+        ],
+        "endUncertainty": [
+          600.74,
+          600.74
+        ],
+        "evidence": [
+          {
+            "from": 520.58,
+            "to": 523.559,
+            "text": "这一年正月刘裕开局有一个大赦"
+          },
+          {
+            "from": 523.559,
+            "to": 524.619,
+            "text": "这是要说一下的"
+          },
+          {
+            "from": 526.519,
+            "to": 528.779,
+            "text": "恐怕让刘裕连睡觉都不得安宁"
+          },
+          {
+            "from": 528.779,
+            "to": 531.46,
+            "text": "如果你也想在炎热的夏季提升睡眠质量"
+          },
+          {
+            "from": 531.46,
+            "to": 534.18,
+            "text": "我就要来推荐一下神器小鹿小冰贝了"
+          },
+          {
+            "from": 534.18,
+            "to": 535.96,
+            "text": "前几日气温升高不少"
+          },
+          {
+            "from": 535.96,
+            "to": 537.44,
+            "text": "开着空调不盖被子冷"
+          },
+          {
+            "from": 537.44,
+            "to": 538.84,
+            "text": "盖着被子又闷又热"
+          },
+          {
+            "from": 539.9,
+            "to": 543.34,
+            "text": "现如今我每晚都与神气小鹿的小冰贝相拥入眠"
+          },
+          {
+            "from": 548.12,
+            "to": 549.8,
+            "text": "新品到手168起"
+          },
+          {
+            "from": 556.759,
+            "to": 559.079,
+            "text": "它能整条机洗干净又卫生"
+          },
+          {
+            "from": 563.46,
+            "to": 564.9,
+            "text": "它里面是生物基"
+          },
+          {
+            "from": 573.56,
+            "to": 575.74,
+            "text": "双面材质一面爽滑更清凉"
+          },
+          {
+            "from": 583.5,
+            "to": 585.4,
+            "text": "被子是A类母婴级面料"
+          },
+          {
+            "from": 589.3,
+            "to": 590.88,
+            "text": "夏天想要睡个好觉的谋士"
+          },
+          {
+            "from": 590.88,
+            "to": 592.62,
+            "text": "一定要入手两种尺寸"
+          },
+          {
+            "from": 593.24,
+            "to": 595,
+            "text": "双人床都有合适的领券"
+          },
+          {
+            "from": 595,
+            "to": 596.16,
+            "text": "下单168起"
+          },
+          {
+            "from": 596.16,
+            "to": 596.84,
+            "text": "保价大促"
+          },
+          {
+            "from": 596.84,
+            "to": 597.81,
+            "text": "还送运费险"
+          },
+          {
+            "from": 597.81,
+            "to": 599.81,
+            "text": "两年内质量问题免费换新"
+          },
+          {
+            "from": 599.81,
+            "to": 600.74,
+            "text": "别错过了"
+          },
+          {
+            "from": 600.74,
+            "to": 603.72,
+            "text": "司马德文在禅让之后被封为零陵王"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 0.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 3.84,
+        "end": 14.72,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 16.81,
+        "end": 67.75,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 72.16,
+        "end": 119.88,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 122.68,
+        "end": 289.99,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 293.13,
+        "end": 516.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 520.08,
+        "end": 524.619,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 600.74,
+        "end": 690.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 691.68,
+        "end": 1008.75,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1011.99,
+        "end": 1190.38,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1194.14,
+        "end": 1311.12,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 689,
+      "firstIndex": 0,
+      "lastIndex": 688,
+      "allRowsRead": true
+    }
+  }
+}

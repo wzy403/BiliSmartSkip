@@ -1,0 +1,26 @@
+{
+  "bvid": "BV17RuAz1EsR",
+  "cid": 31021466771,
+  "title": "上海菜馆——日本东京的一家中华料理店，名为「上海菜馆」，店内招牌菜也是上海套餐三件套，却几乎有名无实，跟正宗的上海菜几乎毫无瓜葛，但却依然深受日本当地民众的好评",
+  "duration": 348,
+  "desc": "上海菜馆——日本东京的一家中华料理店，名为「上海菜馆」，店内招牌菜也是上海套餐三件套，却几乎有名无实，跟正宗的上海菜几乎毫无瓜葛，但却依然深受日本当地民众的好评和热爱。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:12:40.003Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:18.671Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 35,
+    "inputLineSha256": "181621c770a7ffc1055faa94c9077bbd7987bef0fbe17ecad9a5310bbffe0529",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV17RuAz1EsR-31021466771.json",
+    "acquisitionSha256": "48400aa4de283640a9c80efea187fa1262decf8c2c453f707dba5ca4585efaf3",
+    "sourceUrl": "https://www.bilibili.com/video/BV17RuAz1EsR/?p=1"
+  }
+}

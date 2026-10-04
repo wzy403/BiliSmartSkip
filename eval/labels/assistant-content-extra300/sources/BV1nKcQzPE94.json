@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1nKcQzPE94",
+  "cid": 36678468129,
+  "title": "美国国防部长到底有多抽象？【军事榨菜46.5】",
+  "duration": 1044,
+  "desc": "文案：机械王工、花家\n\n配音：花岗岩\n\n制作：机械王工\n\n本视频根据主观视角及相关资料制作，有误欢迎指正。 \n\n素材均来源于互联网公开合法资料，且仅作为科普素材使用。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:19.861Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:21:52.995Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 171,
+    "inputLineSha256": "84b4914450b0a9d4720df1eb6b1ecefd7687cb00a9448d615d62e29807476c36",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1nKcQzPE94-36678468129.json",
+    "acquisitionSha256": "e6e4fc6466b378e7d38badbaec5eb1de5c88cf170b26e38e1143a8bc7ff89ab2",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nKcQzPE94/?p=1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Qmuw6nEuJ",
+  "cid": 40583432829,
+  "title": "【达尔文奖】俄罗斯男子自制炸药炸取款机，结果炸药提前引爆！",
+  "duration": 274,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:27.857Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:24:56.779Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 202,
+    "inputLineSha256": "80332af4861f7aea0f2329e2e257625231a87e8fa5a4f2baea9ecced5edb3228",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Qmuw6nEuJ-40583432829.json",
+    "acquisitionSha256": "ffdc4f2db41321c6e38fc866b0bd8c0478b9a8317a9721076d193da02369cfc1",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Qmuw6nEuJ/?p=1"
+  }
+}

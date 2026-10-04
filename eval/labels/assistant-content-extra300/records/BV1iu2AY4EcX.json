@@ -1,0 +1,186 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 125,
+    "inputLineSha256": "2289c01c1b71fbc204a1e3253a6e577ed5fcbe28e8093ecd5bc27a69d9d1ede9",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1iu2AY4EcX-26219710147.json",
+    "acquisitionSha256": "e12159c91bda841c81d8ba022630211e1b9d99ac811b65124ed9aa8d85b3d5c0",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iu2AY4EcX/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1iu2AY4EcX.json",
+    "transcriptSha256": "a2bd70119179a6bbeef67300758addc0cf10645890114daa2a65fd8a22c8e9dc"
+  },
+  "record": {
+    "bvid": "BV1iu2AY4EcX",
+    "cid": 26219710147,
+    "duration": 875,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "完整为天玑9400首发量产机性能能效评测：交代OPPO Find X8 Pro样机和root协助、未解禁范围，依次讲SPEC单核、制程与架构对比、GB6多核、GPU驱动/缓存/剔除技术，最后实测多款游戏帧率、功耗和温度并总结。有性能赞扬，也说明整数仍逊A16、多核未胜A18、工艺进步有限和跨平台分辨率不可直接比较；未出现独立推广或购买导流段。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0,
+        "end": 871.52,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "reason": "品牌和游戏均为本视频的评测对象或测试载荷。感谢厂商协助root属于测试条件披露，所有参数、优势限制及换机感叹均在主题评测语境中，不能因品牌频繁出现或评价积极而判为应跳广告。",
+        "startUncertainty": [
+          0,
+          0
+        ],
+        "endUncertainty": [
+          871.52,
+          875
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 0,
+            "to": 3.72,
+            "text": "前面我们已经和大家聊了天玑9400的技术实现"
+          },
+          {
+            "from": 8.36,
+            "to": 11.41,
+            "text": "我就用手上的这台OPPO Find X8 Pro"
+          },
+          {
+            "from": 44.89,
+            "to": 47.26,
+            "text": "天玑9400的性能能效表现"
+          },
+          {
+            "from": 47.26,
+            "to": 49.8,
+            "text": "不过这一次真的得感谢OPPO的同学"
+          },
+          {
+            "from": 49.8,
+            "to": 52.53,
+            "text": "各种帮忙搞定了root权限"
+          },
+          {
+            "from": 72.56,
+            "to": 76.26,
+            "text": "所以还是端出行业测试标准SPEC 2017"
+          },
+          {
+            "from": 152.6,
+            "to": 155.66,
+            "text": "但依旧惜败给了苹果A16的大核"
+          },
+          {
+            "from": 158.12,
+            "to": 161.16,
+            "text": "整数方面姑且只能算是正常迭代"
+          },
+          {
+            "from": 190.42,
+            "to": 193.79,
+            "text": "不过和今年外星科技一般的A18比起来"
+          },
+          {
+            "from": 302.33,
+            "to": 304.62,
+            "text": "所以峰值功耗还是蛮吓人的"
+          },
+          {
+            "from": 330.93,
+            "to": 332.58,
+            "text": "能效上这个8核处理器"
+          },
+          {
+            "from": 332.58,
+            "to": 336.37,
+            "text": "还是没有打赢苹果的6核A18兄弟"
+          },
+          {
+            "from": 359.96,
+            "to": 364.8,
+            "text": "这部分的提升要比怼满功耗冲击那个最高跑分有意义得多"
+          },
+          {
+            "from": 501.38,
+            "to": 505.42,
+            "text": "替代了原本的early zs + forward pixel kill的流程"
+          },
+          {
+            "from": 522.75,
+            "to": 527.79,
+            "text": "应该说这次天玑9400改进的重点就是GPU驱动的效率"
+          },
+          {
+            "from": 651.75,
+            "to": 655.02,
+            "text": "最高最高没有超过44.3度"
+          },
+          {
+            "from": 694.43,
+            "to": 697.8,
+            "text": "这甚至比iPhone 16 Pro Max还低！"
+          },
+          {
+            "from": 697.8,
+            "to": 700.87,
+            "text": "当然 iPhone在这里的分辨率要来得更高一点"
+          },
+          {
+            "from": 700.87,
+            "to": 702.33,
+            "text": "很难直接比较"
+          },
+          {
+            "from": 812.39,
+            "to": 815.53,
+            "text": "可惜电池容量 包括续航时长这些"
+          },
+          {
+            "from": 815.53,
+            "to": 817.67,
+            "text": "现在还没解禁"
+          },
+          {
+            "from": 832.03,
+            "to": 835.02,
+            "text": "即便光从CPU多核能效曲线来看"
+          },
+          {
+            "from": 837.85,
+            "to": 839.39,
+            "text": "并没有强那么多"
+          },
+          {
+            "from": 864.41,
+            "to": 866.78,
+            "text": "一定要长按点赞一键三连"
+          },
+          {
+            "from": 868.58,
+            "to": 871.52,
+            "text": "我们下次再见了 拜拜"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "没有根据品牌配合或样机提供推断付费赞助关系；只判字幕中没有可独立跳过的广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 301,
+      "firstIndex": 0,
+      "lastIndex": 300,
+      "allRowsRead": true
+    }
+  }
+}

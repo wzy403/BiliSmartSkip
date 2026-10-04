@@ -1,0 +1,300 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 225,
+    "inputLineSha256": "b039f18c88d6e938f2c3a3376f89b7238635583a5b071daee4533da58c066f7d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1SudJBVEjL-37596760828.json",
+    "acquisitionSha256": "15f88584b0c28f955d5c044c2ff9d4494471a783168fd62e4451c83d7f6d7dcb",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SudJBVEjL/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1SudJBVEjL.json",
+    "transcriptSha256": "5193e8123ef57ce7a9f9c0380c59f7025941a9ae5773a241bf36db7df415da47"
+  },
+  "record": {
+    "bvid": "BV1SudJBVEjL",
+    "cid": 37596760828,
+    "duration": 778,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "分析小马宝莉大电影的制作流程、视觉设计、票房与玩具商业背景，并批评电影世界观扩充对后续剧集的影响；有得物短口号与完整平台促销，以及作者参与的逐梦庆典展会宣传。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 7.34,
+        "end": 8.98,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "电影视觉评价中突然插入“推荐好物，我选得物”的平台口号，之后马上恢复对电影未来的疑问；此短推广与后面的正式得物广告呼应，独立标出而不漏计。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          7.34,
+          7.34
+        ],
+        "endUncertainty": [
+          8.98,
+          8.98
+        ],
+        "evidence": [
+          {
+            "from": 5.38,
+            "to": 6.12,
+            "text": "影视作品了"
+          },
+          {
+            "from": 6.12,
+            "to": 7.34,
+            "text": "漂亮滴很呐"
+          },
+          {
+            "from": 7.34,
+            "to": 8.2,
+            "text": "推荐好物"
+          },
+          {
+            "from": 8.2,
+            "to": 8.98,
+            "text": "我选得物"
+          },
+          {
+            "from": 8.98,
+            "to": 9.98,
+            "text": "但有时我也在想"
+          },
+          {
+            "from": 9.98,
+            "to": 11.18,
+            "text": "如果没有这部电影的话"
+          }
+        ]
+      },
+      {
+        "start": 145.03,
+        "end": 177.2,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "以电影成本仍贵作桥段转到“得物东西不贵”，介绍作者音箱、优惠券包、抽奖、正品鉴别、价格走势和降价提醒，最后引导置顶链接专属会场；177.2 秒恢复 G5/G4 电影制作规格对比。完整纳入价贵反衬的铺垫。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          145.03,
+          145.03
+        ],
+        "endUncertainty": [
+          177.2,
+          177.2
+        ],
+        "evidence": [
+          {
+            "from": 142.72,
+            "to": 145.03,
+            "text": "这总收入连祭祀大电影的成本都没有"
+          },
+          {
+            "from": 145.03,
+            "to": 145.39,
+            "text": "好吧"
+          },
+          {
+            "from": 145.39,
+            "to": 146.35,
+            "text": "也许就算这样说"
+          },
+          {
+            "from": 146.35,
+            "to": 147.67,
+            "text": "一部电影的成本依旧很贵"
+          },
+          {
+            "from": 147.67,
+            "to": 149.55,
+            "text": "但我们得物的东西可一点都不贵"
+          },
+          {
+            "from": 149.55,
+            "to": 151.23,
+            "text": "这是我在得物买的无线音箱"
+          },
+          {
+            "from": 152.59,
+            "to": 154.46,
+            "text": "叠加新优优惠券后一单才几十"
+          },
+          {
+            "from": 154.46,
+            "to": 156.76,
+            "text": "现在新人登录立领520优惠券包"
+          },
+          {
+            "from": 158.1,
+            "to": 159.66,
+            "text": "最少到手都是十几块的券"
+          },
+          {
+            "from": 159.66,
+            "to": 160.9,
+            "text": "还有各种零元抽活动"
+          },
+          {
+            "from": 163.2,
+            "to": 164.72,
+            "text": "周周开奖拿到手软"
+          },
+          {
+            "from": 164.72,
+            "to": 166.76,
+            "text": "得物可是专业鉴别正品保障"
+          },
+          {
+            "from": 166.76,
+            "to": 168.64,
+            "text": "更实用的是还能看商品价格走势"
+          },
+          {
+            "from": 168.64,
+            "to": 169.5,
+            "text": "设置降价提醒"
+          },
+          {
+            "from": 170.54,
+            "to": 171.7,
+            "text": "帮你避开高价坑"
+          },
+          {
+            "from": 171.7,
+            "to": 173.22,
+            "text": "现在点我评论区置顶链接"
+          },
+          {
+            "from": 173.22,
+            "to": 176.1,
+            "text": "跟着蓝色箭头进得物专属会场就能领新人福利"
+          },
+          {
+            "from": 176.1,
+            "to": 177.2,
+            "text": "大家赶紧去看看吧"
+          },
+          {
+            "from": 177.2,
+            "to": 177.7,
+            "text": "要知道"
+          },
+          {
+            "from": 177.7,
+            "to": 179.82,
+            "text": "G5大电影与祭祀大电影的制作规格"
+          }
+        ]
+      },
+      {
+        "start": 212.84,
+        "end": 219.74,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "电影制作软件论证后顺便推介作者参与的逐梦庆典和特邀同人嘉宾，邀请动画制作兴趣者关注；219.74 秒明确回到正题。虽然与小马圈相关，当前内容是独立展会宣传，不是电影制作证据所必需。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          212.84,
+          212.84
+        ],
+        "endUncertainty": [
+          219.74,
+          219.74
+        ],
+        "evidence": [
+          {
+            "from": 207.1,
+            "to": 208.48,
+            "text": "真的软件都大差不差"
+          },
+          {
+            "from": 208.48,
+            "to": 211.8,
+            "text": "足以证明小马祭司大顶的工作流程有多么呃"
+          },
+          {
+            "from": 211.8,
+            "to": 212.84,
+            "text": "平易近人了"
+          },
+          {
+            "from": 212.84,
+            "to": 213.52,
+            "text": "顺便说一句啊"
+          },
+          {
+            "from": 213.52,
+            "to": 216.36,
+            "text": "波根大神也是今年老乐参与的小马同人展会"
+          },
+          {
+            "from": 216.36,
+            "to": 217.68,
+            "text": "逐梦庆典的特邀嘉宾"
+          },
+          {
+            "from": 217.68,
+            "to": 219.74,
+            "text": "对动画制作感兴趣的朋友们欢迎关注哦"
+          },
+          {
+            "from": 219.74,
+            "to": 220.54,
+            "text": "啊不管怎样"
+          },
+          {
+            "from": 220.54,
+            "to": 221.18,
+            "text": "回到正题"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 7.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 8.98,
+        "end": 145.03,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 177.2,
+        "end": 212.84,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 219.74,
+        "end": 322.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 324.88,
+        "end": 773.36,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 464,
+      "firstIndex": 0,
+      "lastIndex": 463,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 250,
+    "inputLineSha256": "1e8563a3a25f2e76e6b30fdd19cd55a32313029e0fd13756138ecc9410e18b47",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1uZECzMEdv-29970730058.json",
+    "acquisitionSha256": "794a766198c1535cdea2554997aab9c7a25ec0908ebc41801a08283b45b2908b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uZECzMEdv/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1uZECzMEdv.json",
+    "transcriptSha256": "5bc108fa4288406d28edac999218af01aaa4415a773520155ddfc5646b7f2823"
+  },
+  "record": {
+    "bvid": "BV1uZECzMEdv",
+    "cid": 29970730058,
+    "duration": 708,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "前段是5月15日国际局势新闻串讲：俄乌谈判与油轮对峙、印巴演习和科考船、日本教练机坠毁、韩国护卫舰、高超音速武器、特朗普中东行与加沙战况。204.23–280.46秒插入舒润康氨糖小白管推广。431.94秒后几乎只剩零星不可理解转写，不能确定剩余新闻原片或其他内容。",
+    "adPresence": "uncertain",
+    "segments": [
+      {
+        "start": 204.23,
+        "end": 280.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从全球局势转入家人健康，讲母亲膝盖疼、补充氨糖需求，再介绍舒润康小白管的成分、功效、用法、实验和活动价格，最后引导评论区下单，280.46秒恢复中东新闻。广告里的健康功效仅记录为推广话术。",
+        "startUncertainty": [
+          204.23,
+          204.23
+        ],
+        "endUncertainty": [
+          280.46,
+          280.46
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 201.9,
+            "to": 204.23,
+            "text": "And other global military giants"
+          },
+          {
+            "from": 204.23,
+            "to": 205.27,
+            "text": "说到这里"
+          },
+          {
+            "from": 205.27,
+            "to": 207.37,
+            "text": "除了全球局势值得关注外"
+          },
+          {
+            "from": 207.37,
+            "to": 209.54,
+            "text": "家人的健康其实也同样重要"
+          },
+          {
+            "from": 209.54,
+            "to": 211.16,
+            "text": "最近跟老妈出去散步"
+          },
+          {
+            "from": 211.84,
+            "to": 213.52,
+            "text": "发现她的膝盖咔咔作响"
+          },
+          {
+            "from": 218.22,
+            "to": 219.57,
+            "text": "心里很不是滋味"
+          },
+          {
+            "from": 227.259,
+            "to": 229.799,
+            "text": "最后才发现补充氨糖才是关键"
+          },
+          {
+            "from": 234.76,
+            "to": 238.04,
+            "text": "我妈现在坚持用这款舒润康氨糖小白管"
+          },
+          {
+            "from": 241.32,
+            "to": 243.16,
+            "text": "专门修复关节软骨"
+          },
+          {
+            "from": 257.08,
+            "to": 259.51,
+            "text": "涂一涂三到5分钟立马缓解"
+          },
+          {
+            "from": 263.389,
+            "to": 265.049,
+            "text": "能改善关节问题"
+          },
+          {
+            "from": 269.37,
+            "to": 271.19,
+            "text": "现在活动价超划算"
+          },
+          {
+            "from": 271.19,
+            "to": 272.929,
+            "text": "拍两只立减200架"
+          },
+          {
+            "from": 276.289,
+            "to": 278.049,
+            "text": "家里有老人关节不适的"
+          },
+          {
+            "from": 278.049,
+            "to": 279.369,
+            "text": "直接拖评论区链接"
+          },
+          {
+            "from": 279.369,
+            "to": 280.46,
+            "text": "按需下单吧"
+          },
+          {
+            "from": 280.46,
+            "to": 282.98,
+            "text": "下面继续更新特朗普的中东之行"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.02,
+        "end": 17.99,
+        "reason": "实际字幕覆盖的国际新闻报道和引述片段。"
+      },
+      {
+        "start": 20.15,
+        "end": 42.38,
+        "reason": "实际字幕覆盖的国际新闻报道和引述片段。"
+      },
+      {
+        "start": 42.93,
+        "end": 122.795,
+        "reason": "实际字幕覆盖的国际新闻报道和引述片段。"
+      },
+      {
+        "start": 123.65,
+        "end": 204.23,
+        "reason": "实际字幕覆盖的国际新闻报道和引述片段。"
+      },
+      {
+        "start": 280.46,
+        "end": 286.54,
+        "reason": "实际字幕覆盖的中东外交、交易和冲突新闻，采购与投资不是商业推广。"
+      },
+      {
+        "start": 288.58,
+        "end": 295.94,
+        "reason": "实际字幕覆盖的中东外交、交易和冲突新闻，采购与投资不是商业推广。"
+      },
+      {
+        "start": 298.77,
+        "end": 355.06,
+        "reason": "实际字幕覆盖的中东外交、交易和冲突新闻，采购与投资不是商业推广。"
+      },
+      {
+        "start": 357.78,
+        "end": 390.24,
+        "reason": "实际字幕覆盖的中东外交、交易和冲突新闻，采购与投资不是商业推广。"
+      },
+      {
+        "start": 390.52,
+        "end": 410.38,
+        "reason": "实际字幕覆盖的中东外交、交易和冲突新闻，采购与投资不是商业推广。"
+      },
+      {
+        "start": 410.66,
+        "end": 431.94,
+        "reason": "实际字幕覆盖的中东外交、交易和冲突新闻，采购与投资不是商业推广。"
+      }
+    ],
+    "pendingReasons": [
+      "431.94–545.28秒连续113.34秒无字幕；随后到656.2秒只有零星语义不通转写，656.2–708秒尾部51.8秒完全无字幕。后段约276秒资料不足，需实际视听核实。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "开头0–3.02秒未知；不能将严重缺失后段自动判无广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 228,
+      "firstIndex": 0,
+      "lastIndex": 227,
+      "allRowsRead": true
+    }
+  }
+}

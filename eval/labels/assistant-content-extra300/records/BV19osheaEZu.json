@@ -1,0 +1,195 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 42,
+    "inputLineSha256": "99529946f97c8a88b662f056e87ed63bc2d6a0e2645d8c401b41ee60356153e2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV19osheaEZu-25980766224.json",
+    "acquisitionSha256": "5d4b4a7507a1136612ada090f20625e33b4a55c738cdcd1c1dc407e14f20093f",
+    "sourceUrl": "https://www.bilibili.com/video/BV19osheaEZu/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV19osheaEZu.json",
+    "transcriptSha256": "1b3b1b0be98bf52dba7614a1d2990f25255405f731f28e8478ecc584a5b6650c"
+  },
+  "record": {
+    "bvid": "BV19osheaEZu",
+    "cid": 25980766224,
+    "duration": 396,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从强迫儿童吃猪油渣及饺子的事件切入，批评家庭服从测试与控制，引用心理书中的案例并讨论食物厌恶、尊重儿童选择。108.36秒借难吃但健康与好吃营养的对照转入淘宝活动，展示茶、牛腱、魔芋面及价格和优惠；末尾再提醒活动搜索。书名及心理学家引用用于论述，未构成卖书广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 108.36,
+        "end": 174.39,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "童年被逼吃难吃食物与长大后健康零食选择形成广告铺垫，随后连续推广淘宝活动和三类具体商品、价格赠品、置顶链接，174.39秒“话说回来”恢复正文。",
+        "startUncertainty": [
+          108.36,
+          108.36
+        ],
+        "endUncertainty": [
+          174.39,
+          174.39
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 106.58,
+            "to": 108.36,
+            "text": "还是不肯正视他的意愿"
+          },
+          {
+            "from": 108.36,
+            "to": 110.8,
+            "text": "孩童时期总是被家长逼着吃"
+          },
+          {
+            "from": 110.8,
+            "to": 113.56,
+            "text": "很多难吃却美其名曰对身体好的食物"
+          },
+          {
+            "from": 113.56,
+            "to": 114.64,
+            "text": "长大后才知道"
+          },
+          {
+            "from": 114.64,
+            "to": 117.35,
+            "text": "原来有那么多好吃又营养健康的选择"
+          },
+          {
+            "from": 117.35,
+            "to": 119.67,
+            "text": "我就喜欢在淘宝上购买一些养生"
+          },
+          {
+            "from": 124.78,
+            "to": 128.02,
+            "text": "只要在淘宝搜索11go go go就能进入会场"
+          },
+          {
+            "from": 134.18,
+            "to": 137.38,
+            "text": "比如我在乐品乐茶旗舰店买的缤纷冷泡茶"
+          },
+          {
+            "from": 144.18,
+            "to": 146.5,
+            "text": "还有袋鼠先生家的清卤牛腱肉"
+          },
+          {
+            "from": 154.02,
+            "to": 155.84,
+            "text": "而阿宽家的这款魔芋凉面"
+          },
+          {
+            "from": 167,
+            "to": 169.66,
+            "text": "感兴趣的现在点击评论区置顶链接"
+          },
+          {
+            "from": 172.66,
+            "to": 174.39,
+            "text": "那必须还是淘宝箱"
+          },
+          {
+            "from": 174.39,
+            "to": 175.23,
+            "text": "话说回来"
+          }
+        ]
+      },
+      {
+        "start": 382.37,
+        "end": 389.13,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "正文共勉结束后再次要求淘宝搜索活动词并去会场购物，389.13秒转作者告别。",
+        "startUncertainty": [
+          382.37,
+          382.37
+        ],
+        "endUncertainty": [
+          389.13,
+          389.13
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 381.69,
+            "to": 382.37,
+            "text": "共勉"
+          },
+          {
+            "from": 382.37,
+            "to": 385.21,
+            "text": "另外大家记得淘宝搜索1000000000go go go"
+          },
+          {
+            "from": 385.21,
+            "to": 387.69,
+            "text": "可以去淘宝11活动会场逛逛淘宝"
+          },
+          {
+            "from": 387.69,
+            "to": 389.13,
+            "text": "这波羊毛一定得薅"
+          },
+          {
+            "from": 389.13,
+            "to": 390.17,
+            "text": "我是小椰子"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 108.36,
+        "reason": "强迫进食及家庭服从的社会事件评论。"
+      },
+      {
+        "start": 174.39,
+        "end": 193.17,
+        "reason": "宠物案例、家庭控制心理和尊重儿童选择的讨论，书籍仅为论据来源。"
+      },
+      {
+        "start": 193.25,
+        "end": 204.6,
+        "reason": "宠物案例、家庭控制心理和尊重儿童选择的讨论，书籍仅为论据来源。"
+      },
+      {
+        "start": 207.44,
+        "end": 382.37,
+        "reason": "宠物案例、家庭控制心理和尊重儿童选择的讨论，书籍仅为论据来源。"
+      },
+      {
+        "start": 389.13,
+        "end": 395.54,
+        "reason": "作者身份与普通关注告别。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 213,
+      "firstIndex": 0,
+      "lastIndex": 212,
+      "allRowsRead": true
+    }
+  }
+}

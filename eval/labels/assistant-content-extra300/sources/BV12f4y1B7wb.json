@@ -1,0 +1,26 @@
+{
+  "bvid": "BV12f4y1B7wb",
+  "cid": 247887595,
+  "title": "【Scott Manley/双语】一些有史以来最丑的火箭设计_搬运",
+  "duration": 727,
+  "desc": "youtu.be/nl0QDkAwxWY\n原视频标题：The Worst Looking Rockets Ever Designed!\n原作者名：Scott Manley\n原视频发布时间：20201013\nScott Manley解读最丑的火箭，与局座所说的不好看就飞不起来一个道理\n因为在葱酱发布视频av842446424之前就做了大概90%，所以今天还是挤出一点时间做完发布吧\n字幕下载github.com/Bourshevik0/subtitle_works",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:12:26.702Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:14:50.636Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 9,
+    "inputLineSha256": "81f1ced9cc743990e5d0b7ffa356e75089babc800b88e3da743f59d525f44964",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV12f4y1B7wb-247887595.json",
+    "acquisitionSha256": "7cc21be4a5fb050269e233e36c2c4f31f609258b4e628b4f5232acb98be91002",
+    "sourceUrl": "https://www.bilibili.com/video/BV12f4y1B7wb/?p=1"
+  }
+}

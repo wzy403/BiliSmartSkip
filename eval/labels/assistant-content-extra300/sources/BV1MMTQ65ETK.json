@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1MMTQ65ETK",
+  "cid": 39701447761,
+  "title": "100日元早餐可是日本贫穷大学生的救世主啊😭！埼玉大学食堂活动暖心暖胃：虽然但是吃这么点东西真的不会饿死吗（2026年6月29日报道）",
+  "duration": 267,
+  "desc": "【来源】https://youtu.be/D0Wvq3vopU0\n关注﻿@幽默老日 ﻿，更了解日本。\n每天更新霓虹政治、经济、文化、生活各类抽象新闻！😎",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:10:36.149Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:21:24.906Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 167,
+    "inputLineSha256": "6ad24c03e02ed8f4f8a346c5e12bd2c5db75e9d9b7f9e0d42116f9e617bab712",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1MMTQ65ETK-39701447761.json",
+    "acquisitionSha256": "884f70f55d7189b21a8851c95679058d29a88f2c5772efab0e8f2dad48897e39",
+    "sourceUrl": "https://www.bilibili.com/video/BV1MMTQ65ETK/?p=1"
+  }
+}

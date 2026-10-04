@@ -1,0 +1,275 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-and-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 240,
+    "inputLineSha256": "307ab718e978213ec60f605558895621169f6e14ea783bd6a8e08a1f3c6a6746",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1U5PjzQEPd-36395813161.json",
+    "acquisitionSha256": "3d55cef4b1194b83c0c38483b4525492c12de120b861c22419d8ef7b6f75708b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1U5PjzQEPd/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1U5PjzQEPd.json",
+    "transcriptSha256": "fd0297784932566c1fb4d85bd45d50748d6e60e033833420fce36d0556439b5d",
+    "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1U5PjzQEPd.mp4",
+    "mediaSha256": "51a2859c3523f6b28fb6d0f5a9e4bee69f5e23f04a11a4711fcebc6ed5c824c9",
+    "mediaVerificationFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1U5PjzQEPd-verified.json",
+    "mediaVerificationSha256": "299670a93980c09b0a36c17a4aba867ed4f5cb923fc4cd225d80e816e1d7aec4"
+  },
+  "record": {
+    "bvid": "BV1U5PjzQEPd",
+    "cid": 36395813161,
+    "duration": 152,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "穿越火线语音频道放背后刀人音效的实验，展示导入音效和快捷键，之后连续呈现实战中队友回头反应。约70.53–92.8秒转转回收推广；原英文字幕缺失的中间和片尾，经覆盖全片的实际抽帧确认仍为实战剪辑。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 17.7,
+        "end": 24.978,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "reason": "导入音效与快捷键使用是实现标题恶作剧的必要方法，字幕没有明确售卖或推广应用，不能仅因提到 app 就标应跳。 实际18–22秒画面为导入音效的软件操作界面，没有价目、购买或独立促销页，确认保留。",
+        "startUncertainty": [
+          17.7,
+          18
+        ],
+        "endUncertainty": [
+          24.978,
+          26
+        ],
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "evidence": [
+          {
+            "from": 17.7,
+            "to": 18.905,
+            "text": "record the audio as usual,"
+          },
+          {
+            "from": 18.905,
+            "to": 19.878,
+            "text": "drag it into this app"
+          },
+          {
+            "from": 19.878,
+            "to": 22.289,
+            "text": "that lets you play sound effects in voice channels,"
+          },
+          {
+            "from": 22.289,
+            "to": 24.978,
+            "text": "then hit the shortcut key in-game and players will hear it"
+          }
+        ]
+      },
+      {
+        "start": 70.53,
+        "end": 92.8,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从游戏动作流畅联系新电脑，继而讲旧本回收价格、多品类和快速变现，以回收闲置号召收尾；字幕止92.52秒但广告硬字幕实际至92.667秒仍可见，故完整覆盖视觉收尾至约92.8秒。",
+        "startUncertainty": [
+          70.53,
+          73.78
+        ],
+        "endUncertainty": [
+          92.667,
+          92.933
+        ],
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "evidence": [
+          {
+            "from": 70.53,
+            "to": 71.144,
+            "text": "As you can see,"
+          },
+          {
+            "from": 71.144,
+            "to": 73.78,
+            "text": "this trick still draws a high repeat rate—such smooth moves"
+          },
+          {
+            "from": 73.78,
+            "to": 75.01,
+            "text": "owe much to my new PC setup."
+          },
+          {
+            "from": 75.09,
+            "to": 76.213,
+            "text": "the old gaming laptop,"
+          },
+          {
+            "from": 76.213,
+            "to": 78.89,
+            "text": "I had Zhuanzhuan collect it right away for ¥5,600+"
+          },
+          {
+            "from": 79.02,
+            "to": 81.127,
+            "text": "Zhuanzhuan Buy-Back is great—it takes all types,"
+          },
+          {
+            "from": 83.526,
+            "to": 86.247,
+            "text": "RAM sticks, and builds can be turned into cash there too,"
+          },
+          {
+            "from": 86.247,
+            "to": 87.9,
+            "text": "with fairer prices than elsewhere"
+          },
+          {
+            "from": 88.16,
+            "to": 91.066,
+            "text": "so if you have unused gadgets, don't delay—try Zhuanzhuan;"
+          },
+          {
+            "from": 91.066,
+            "to": 92.52,
+            "text": "cash in hand is what counts"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；二审完整阅读29行英文翻译字幕，并实际查看覆盖0–150秒76帧及广告尾界19帧；未连续播放全片或逐帧审核，未听取音频。",
+      "中文硬字幕用于复核广告尾界和画面主题，但没有把它伪装成原始采集字幕；游戏语音与抽帧间短暂信息未完整覆盖。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 29,
+      "firstIndex": 0,
+      "lastIndex": 28,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": [
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/full-context/frames.json",
+      "framesManifestSha256": "300fd0274bf872ad01169b5a6ba7f005a7042c394f2b24800194cc38426105da",
+      "framesViewed": 76,
+      "times": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0,
+        18.0,
+        20.0,
+        22.0,
+        24.0,
+        26.0,
+        28.0,
+        30.0,
+        32.0,
+        34.0,
+        36.0,
+        38.0,
+        40.0,
+        42.0,
+        44.0,
+        46.0,
+        48.0,
+        50.0,
+        52.0,
+        54.0,
+        56.0,
+        58.0,
+        60.0,
+        62.0,
+        64.0,
+        66.0,
+        68.0,
+        70.0,
+        72.0,
+        74.0,
+        76.0,
+        78.0,
+        80.0,
+        82.0,
+        84.0,
+        86.0,
+        88.0,
+        90.0,
+        92.0,
+        94.0,
+        96.0,
+        98.0,
+        100.0,
+        102.0,
+        104.0,
+        106.0,
+        108.0,
+        110.0,
+        112.0,
+        114.0,
+        116.0,
+        118.0,
+        120.0,
+        122.0,
+        124.0,
+        126.0,
+        128.0,
+        130.0,
+        132.0,
+        134.0,
+        136.0,
+        138.0,
+        140.0,
+        142.0,
+        144.0,
+        146.0,
+        148.0,
+        150.0
+      ],
+      "observation": "实际查看覆盖0–150秒的76帧：先解释CF语音频道播放刀人音效方法，18–22秒展示软件导入界面，后为实际对局和玩家回头反应；72–92秒游戏画面叠转转回收口播硬字幕及上门回收插画面；94–150秒持续为不同武器实战与声音按钮、回头反应，没有出现另一个商品推介画面。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frames.json",
+      "framesManifestSha256": "0746dc59b896c37fda5a2448346cba17e8956714de4a29a29ef199a5d275a61b",
+      "framesViewed": 19,
+      "times": [
+        90.0,
+        90.267,
+        90.533,
+        90.8,
+        91.067,
+        91.333,
+        91.6,
+        91.867,
+        92.133,
+        92.4,
+        92.667,
+        92.933,
+        93.2,
+        93.467,
+        93.733,
+        94.0,
+        94.267,
+        94.533,
+        94.8
+      ],
+      "observation": "90.267–91.067秒“我推荐转转”，91.333–92.667秒“钱到手才是硬道理”，92.933秒该广告硬字幕消失，93.2–93.733秒同一游戏镜头无广告字幕，94秒恢复下个实战镜头。"
+    }
+  ],
+  "secondaryReview": {
+    "reviewer": "extra300_content_001_100",
+    "fullTranscriptRead": true,
+    "subtitleRows": 29,
+    "decision": "完整读字幕后实际查看95帧，缺口均为CF实战与音效实验，广告视觉尾界延长到约92.8秒，工具演示保留，消除原缺口pending。"
+  }
+}

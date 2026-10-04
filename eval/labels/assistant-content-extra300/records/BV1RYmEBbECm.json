@@ -1,0 +1,414 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 216,
+    "inputLineSha256": "b0f136f5cce28d36879f7a31f85225db8612cb2aaa7082f37e09df2e4935f643",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1RYmEBbECm-34690434751.json",
+    "acquisitionSha256": "68286c0f8d06971dd117df72e6115a34197386d9bc60ad925901b7e145502edc",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RYmEBbECm/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1RYmEBbECm.json",
+    "transcriptSha256": "465ccd10b16142302eca995fde573d1866005b11c8c8af36d2f45e71bded0471"
+  },
+  "record": {
+    "bvid": "BV1RYmEBbECm",
+    "cid": 34690434751,
+    "duration": 236,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾方舟从写实恐龙生存向魔幻生物与模组扩展的变化，讨论画质、硬件门槛与玩家流失；多处交织新换显示器的尺寸、4K、刷新率、对比度及色域推介，部分与游戏画质论证混合。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 46.92,
+        "end": 65.019,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "主旨介绍后以“刚好可以用我新换的”插入具体显示器，集中介绍尺寸、4K 240Hz、外观与灯效，旧显示器丢掉的笑话结束后回到游戏十年变化，是明确可分离的设备推介。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          46.92,
+          46.92
+        ],
+        "endUncertainty": [
+          65.019,
+          65.019
+        ],
+        "evidence": [
+          {
+            "from": 43.2,
+            "to": 46.04,
+            "text": "这期视频就让我们来重新认识一下现在的方舟"
+          },
+          {
+            "from": 46.04,
+            "to": 46.92,
+            "text": "生存计划和飞升"
+          },
+          {
+            "from": 46.92,
+            "to": 49.92,
+            "text": "刚好可以用我这台新皇的穿深cs是3A显示器"
+          },
+          {
+            "from": 49.92,
+            "to": 50.54,
+            "text": "32寸"
+          },
+          {
+            "from": 50.54,
+            "to": 52.78,
+            "text": "最高支持4K240赫兹的刷新率"
+          },
+          {
+            "from": 52.78,
+            "to": 54.28,
+            "text": "能更直观的向各位展示"
+          },
+          {
+            "from": 54.86,
+            "to": 57.34,
+            "text": "这还是我第一次用32寸的传声显示器"
+          },
+          {
+            "from": 59.8,
+            "to": 61.98,
+            "text": "纯黑的外观加上一贯的RGB灯效"
+          },
+          {
+            "from": 61.98,
+            "to": 62.96,
+            "text": "真的很帅啊"
+          },
+          {
+            "from": 62.96,
+            "to": 65.019,
+            "text": "你问我旧的呢啊丢丢了"
+          },
+          {
+            "from": 65.019,
+            "to": 67.419,
+            "text": "那首先大家觉得方舟游戏过去了10年"
+          }
+        ]
+      },
+      {
+        "start": 87.5,
+        "end": 110.68,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "独立第二审连续读完全部 129 行后确认：含商业性显示器展示，但 4K/1080P 对比解释本期方舟从模糊到清楚的实质变化，是主题论据，应保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          87.5,
+          87.5
+        ],
+        "endUncertainty": [
+          110.68,
+          110.68
+        ],
+        "evidence": [
+          {
+            "from": 85.16,
+            "to": 87.5,
+            "text": "王者的全局光照拉满了贴图杂物"
+          },
+          {
+            "from": 87.5,
+            "to": 89.96,
+            "text": "方舟搭配32寸4K的显示效果"
+          },
+          {
+            "from": 89.96,
+            "to": 91.82,
+            "text": "即便这个游戏已经发布10年之久"
+          },
+          {
+            "from": 91.82,
+            "to": 93.66,
+            "text": "画质方面还是依旧抗打的"
+          },
+          {
+            "from": 96.94,
+            "to": 98.98,
+            "text": "你用的是1080P的显示分辨率"
+          },
+          {
+            "from": 98.98,
+            "to": 102,
+            "text": "那么用同一个显示器开启4K和1080P"
+          },
+          {
+            "from": 103.2,
+            "to": 106.26,
+            "text": "但只要近看1080P简直糊的没法看"
+          },
+          {
+            "from": 106.26,
+            "to": 108.22,
+            "text": "特别是在你用过4K1些日记之后"
+          },
+          {
+            "from": 108.22,
+            "to": 110.68,
+            "text": "对于清晰度这方面那是十分敏感的"
+          },
+          {
+            "from": 112.68,
+            "to": 115.44,
+            "text": "可实际上却是玩家配置迭代所带来的提升"
+          }
+        ]
+      },
+      {
+        "start": 150.66,
+        "end": 167.68,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "包含“观众觉得只是画质特效好”的完整铺垫，虽推介对比度、色域，但承担虚幻五与进化视觉效果区别的主题论证，商业内容应保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          150.66,
+          150.66
+        ],
+        "endUncertainty": [
+          167.68,
+          167.68
+        ],
+        "evidence": [
+          {
+            "from": 148.3,
+            "to": 150.66,
+            "text": "现在都已经被内置在游戏本体之中"
+          },
+          {
+            "from": 150.66,
+            "to": 152.4,
+            "text": "在视频里大家可能觉得哎呀"
+          },
+          {
+            "from": 152.4,
+            "to": 154.82,
+            "text": "感觉飞升的模组不就是画质好了一点嘛"
+          },
+          {
+            "from": 154.82,
+            "to": 155.7,
+            "text": "特效好了一点"
+          },
+          {
+            "from": 155.7,
+            "to": 156.4,
+            "text": "这有啥可"
+          },
+          {
+            "from": 156.4,
+            "to": 158.16,
+            "text": "当你用上这款有3000比一高"
+          },
+          {
+            "from": 158.16,
+            "to": 158.84,
+            "text": "静态对比度"
+          },
+          {
+            "from": 158.84,
+            "to": 161.24,
+            "text": "149.18的SHB色域的显示器"
+          },
+          {
+            "from": 161.24,
+            "to": 163.5,
+            "text": "你就会发现在虚幻五引擎下的企业"
+          },
+          {
+            "from": 163.5,
+            "to": 166.18,
+            "text": "这游戏画风随便一种特效所带来的压迫感"
+          },
+          {
+            "from": 166.18,
+            "to": 167.68,
+            "text": "是进化无法比拟的"
+          },
+          {
+            "from": 167.68,
+            "to": 168.88,
+            "text": "即便不加模组"
+          }
+        ]
+      },
+      {
+        "start": 189.32,
+        "end": 195.38,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "承接 5090 在高画质下仍需 DLSS 和补帧的限制，指出 240Hz 显示器也无法跑满，是主题性能门槛的一部分；虽重复商品规格，但不独立跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          189.32,
+          189.32
+        ],
+        "endUncertainty": [
+          195.38,
+          195.38
+        ],
+        "evidence": [
+          {
+            "from": 181.74,
+            "to": 184.7,
+            "text": "缺点嘛就是现在的方舟飞升配置依旧不减"
+          },
+          {
+            "from": 184.7,
+            "to": 185.82,
+            "text": "4K高画质下"
+          },
+          {
+            "from": 185.82,
+            "to": 187.26,
+            "text": "就算是5090来了"
+          },
+          {
+            "from": 187.26,
+            "to": 189.32,
+            "text": "也得开启迪奥SS和补帧来玩"
+          },
+          {
+            "from": 189.32,
+            "to": 191.68,
+            "text": "即便我的显示器有240HZ的刷新率"
+          },
+          {
+            "from": 191.68,
+            "to": 193.82,
+            "text": "也没有办法发挥一句话怎么说来着"
+          },
+          {
+            "from": 193.82,
+            "to": 194.46,
+            "text": "我可以不用"
+          },
+          {
+            "from": 194.46,
+            "to": 195.38,
+            "text": "但不能没有对吧"
+          },
+          {
+            "from": 195.38,
+            "to": 197.3,
+            "text": "最后一个变化仅代表我个人观点"
+          }
+        ]
+      },
+      {
+        "start": 225.1,
+        "end": 232.54,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "结尾提出用已有三块 4K 屏幕串联玩游戏的实验设想，未再点名品牌或推介交易，当前字幕不足以认定为另一个广告段。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          225.1,
+          225.1
+        ],
+        "endUncertainty": [
+          232.54,
+          232.54
+        ],
+        "evidence": [
+          {
+            "from": 225.1,
+            "to": 226.06,
+            "text": "嘿嘿不说了"
+          },
+          {
+            "from": 226.06,
+            "to": 228.3,
+            "text": "我现在手里有三块4K屏幕"
+          },
+          {
+            "from": 228.3,
+            "to": 229.54,
+            "text": "我突然灵光一现"
+          },
+          {
+            "from": 229.54,
+            "to": 231.42,
+            "text": "要是我把他们串起来玩飞升"
+          },
+          {
+            "from": 231.42,
+            "to": 232.54,
+            "text": "那岂不是"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 46.92,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 65.019,
+        "end": 87.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 112.68,
+        "end": 150.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 167.68,
+        "end": 189.32,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 195.38,
+        "end": 225.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。",
+      "显示器型号的自动识别文本失真；未查看商品画面，不凭猜测补全型号。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 129,
+      "firstIndex": 0,
+      "lastIndex": 128,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_root",
+    "modality": "full-cached-subtitles",
+    "fullTranscriptRead": true,
+    "readCoverage": {
+      "subtitleRows": 129,
+      "firstIndex": 0,
+      "lastIndex": 128,
+      "allRowsRead": true
+    },
+    "decision": "独立全文复核商业段与主题画质论据的边界。保留87.5–110.68、150.66–167.68、189.32–195.38的商业主题内容，46.92–65.019独立设备推介可跳；其余游戏玩法、硬件门槛与结尾多屏设想保留。",
+    "algorithmPredictionsSeen": false,
+    "danmakuJumpTimesSeen": false,
+    "communityAdLabelsSeen": false
+  }
+}

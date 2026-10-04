@@ -1,0 +1,25 @@
+{
+  "bvid": "BV1XgKdzyEna",
+  "cid": 30703683167,
+  "title": "",
+  "duration": 207,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:12:38.687Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "failed",
+    "error": "Reference CID not present in this video",
+    "subtitles": "unavailable",
+    "subtitleReason": "not-exposed-in-public-page"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 269,
+    "inputLineSha256": "e8fc6ee8ff6d08e6b245c8e026062b36ffac267112ace3ba20fcd1c9323b77d1",
+    "acquisitionFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "acquisitionSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XgKdzyEna/?p=1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV18vjrztEqA",
+  "cid": 30202921424,
+  "title": "【中字】想要成为百万富翁——电视史上最大最恶诈骗事件",
+  "duration": 1139,
+  "desc": "https://www.youtube.com/watch?v=4uGfFYzxWEg\n原作者:fern\n发布日期:2024/04/10\n翻译:sakulik 校对:你\n--------------------------------\n孩子们，我回来了\n有问题（或者想看别的）请发评论:)\n其实我也是联合体成员\n有广告，不剪 嘻嘻:)",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:08:11.121Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:26.670Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 40,
+    "inputLineSha256": "976ca217e9e97464cac7a2be6aaa04db605872edad68d833d52dddae90bb83d2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV18vjrztEqA-30202921424.json",
+    "acquisitionSha256": "21a801125815c512fd668967a504d055d087b5257638e320669b36627f35c994",
+    "sourceUrl": "https://www.bilibili.com/video/BV18vjrztEqA/?p=1"
+  }
+}

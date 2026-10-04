@@ -1,0 +1,319 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-and-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 148,
+    "inputLineSha256": "53b37f17cd78ebc5efc66b0d26878908aab60a03490e27819ff9d621750bb430",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1KHxazUEeG-32848612141.json",
+    "acquisitionSha256": "8ce926e6b349f596371ed0e5a8c6c142d394e07e959ba2f4c60748a6c7788a32",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KHxazUEeG/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1KHxazUEeG.json",
+    "transcriptSha256": "6b5837d00892df8ac1c90c166ed27e78beabb84fa6242818000f0c91e4d15c93",
+    "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1KHxazUEeG.mp4",
+    "mediaSha256": "8b239ad872683ea608f22bc6b4623506f8c2445e3248da41659b56734bac6bcf",
+    "mediaVerificationFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1KHxazUEeG-verified.json",
+    "mediaVerificationSha256": "3372368b73656253d53e8908d9dde3f7db70e1ea7295d8e0f88248e42d667278"
+  },
+  "record": {
+    "bvid": "BV1KHxazUEeG",
+    "cid": 32848612141,
+    "duration": 180,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "明日方舟次生预案二创短动画：资源生产、干员任命、敌人过多和游戏场景负载笑点，手机过热爆炸接转转回收广告，之后以回收袋里的游戏资源接回干员部署作战。全部13行口播是转转广告，缺字幕部分经覆盖首尾与广告边界的实际抽帧核实为上述动画。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 89.3,
+        "end": 98.2,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "sampled_frames",
+        "reason": "游戏建筑和敌人过多后，手机运行游戏而过热爆炸，直接铺垫后续换新手机与回收广告；这一无口播短动画同时是次生预案负载的主题笑点，应保留剧情。将完整广告铺垫单列为ad/keep，广告主体仍ad/skip。",
+        "startUncertainty": [
+          89.001,
+          89.534
+        ],
+        "endUncertainty": [
+          98.057,
+          98.59
+        ],
+        "evidence": [
+          {
+            "from": 98.2,
+            "to": 99.36,
+            "text": "最近换了新手机"
+          },
+          {
+            "from": 99.36,
+            "to": 100.48,
+            "text": "刷视频流畅多了"
+          }
+        ]
+      },
+      {
+        "start": 98.2,
+        "end": 120.0,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "98.2秒换新手机口播进入转转回收，含价格、多品类、一键打包和推荐；口播117.88秒后回收角色仍举袋至119.757秒，完整保留广告视觉收尾到约120秒，之后开袋游戏资源笑点恢复正文。",
+        "startUncertainty": [
+          98.057,
+          98.59
+        ],
+        "endUncertainty": [
+          119.757,
+          120.29
+        ],
+        "boundaryConfidence": "subtitle_and_sampled_frames",
+        "evidence": [
+          {
+            "from": 98.2,
+            "to": 99.36,
+            "text": "最近换了新手机"
+          },
+          {
+            "from": 99.36,
+            "to": 100.48,
+            "text": "刷视频流畅多了"
+          },
+          {
+            "from": 100.48,
+            "to": 102.73,
+            "text": "大家换新后旧的都是怎么处理的"
+          },
+          {
+            "from": 102.73,
+            "to": 103.89,
+            "text": "像我的IPHONE14"
+          },
+          {
+            "from": 103.89,
+            "to": 105.65,
+            "text": "找转转上门回收了1700多"
+          },
+          {
+            "from": 105.65,
+            "to": 107.75,
+            "text": "而且他家现在回收品类很丰富"
+          },
+          {
+            "from": 107.75,
+            "to": 108.81,
+            "text": "小到耳机手表"
+          },
+          {
+            "from": 110.14,
+            "to": 111.46,
+            "text": "甚至就连VR眼镜"
+          },
+          {
+            "from": 111.46,
+            "to": 112.98,
+            "text": "包包和腕表都能回收"
+          },
+          {
+            "from": 112.98,
+            "to": 114.8,
+            "text": "一键下单通通打包带走"
+          },
+          {
+            "from": 114.8,
+            "to": 116.24,
+            "text": "总之有东西要回收"
+          },
+          {
+            "from": 116.24,
+            "to": 117.88,
+            "text": "我首先推荐转转"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；二审完整阅读13行字幕，实际查看覆盖0–178.138秒的89帧及两个广告边界共41帧；不是连续播放或逐帧审核，未听取音频。",
+      "纯画面内容判断基于约2秒间隔抽帧与广告边界约0.53秒间隔抽帧；更短暂视觉信息可能未覆盖。广告正文字幕仅98.2–117.88秒，新增铺垫与收尾依据单列的visualObservations，不冒充字幕。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 13,
+      "firstIndex": 0,
+      "lastIndex": 12,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": [
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1KHxazUEeG/full-context/frames.json",
+      "framesManifestSha256": "6eb13106d5e306979b075129aaa7419463fe2b4b623dcb50fe0f9c6776eeb5bf",
+      "framesViewed": 89,
+      "times": [
+        0.0,
+        2.024,
+        4.049,
+        6.073,
+        8.097,
+        10.122,
+        12.146,
+        14.171,
+        16.195,
+        18.219,
+        20.244,
+        22.268,
+        24.292,
+        26.317,
+        28.341,
+        30.365,
+        32.39,
+        34.414,
+        36.439,
+        38.463,
+        40.487,
+        42.512,
+        44.536,
+        46.56,
+        48.585,
+        50.609,
+        52.633,
+        54.658,
+        56.682,
+        58.707,
+        60.731,
+        62.755,
+        64.78,
+        66.804,
+        68.828,
+        70.853,
+        72.877,
+        74.901,
+        76.926,
+        78.95,
+        80.975,
+        82.999,
+        85.023,
+        87.048,
+        89.072,
+        91.096,
+        93.121,
+        95.145,
+        97.169,
+        99.194,
+        101.218,
+        103.243,
+        105.267,
+        107.291,
+        109.316,
+        111.34,
+        113.364,
+        115.389,
+        117.413,
+        119.437,
+        121.456,
+        123.48,
+        125.505,
+        127.529,
+        129.553,
+        131.578,
+        133.602,
+        135.626,
+        137.651,
+        139.675,
+        141.7,
+        143.724,
+        145.748,
+        147.773,
+        149.797,
+        151.821,
+        153.846,
+        155.87,
+        157.894,
+        159.919,
+        161.943,
+        163.968,
+        165.992,
+        168.016,
+        170.041,
+        172.065,
+        174.089,
+        176.114,
+        178.138
+      ],
+      "observation": "实际查看覆盖0–178.138秒的89帧：0–89秒为次生预案标题、干员与植物装置、敌人过多警报、资源和任命等二创动画；89秒后手机运转发热爆炸，98秒后转转推广；120秒后开袋发现游戏资源，继而继续干员任命、部署和作战动画至片尾。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1KHxazUEeG/ad-entry/frames.json",
+      "framesManifestSha256": "cf4f43c7b000e4c3f9df367042da4edd91640719b84e7052b164f3e008a2d541",
+      "framesViewed": 27,
+      "times": [
+        89.001,
+        89.534,
+        90.066,
+        90.599,
+        91.132,
+        91.665,
+        92.197,
+        92.73,
+        93.263,
+        93.796,
+        94.328,
+        94.861,
+        95.394,
+        95.926,
+        96.459,
+        96.992,
+        97.525,
+        98.057,
+        98.59,
+        99.123,
+        99.656,
+        100.188,
+        100.721,
+        101.254,
+        101.786,
+        102.319,
+        102.852
+      ],
+      "observation": "89.001秒仍是大量游戏建筑，89.534–91.665秒手机显示复杂游戏场景，92.197–94.328秒发热变红，94.861秒爆炸，95.394–98.057秒角色举空手；98.59秒已有“最近换了新手机刷视频流畅多了”，100.188秒回收角色入场。"
+    },
+    {
+      "method": "view_image contact sheets; actual visual inspection",
+      "framesManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1KHxazUEeG/ad-exit/frames.json",
+      "framesManifestSha256": "d81605bda8a3a6412debd04738f09efd4959824a7cc3e74c53cfa7ae1ee9e37f",
+      "framesViewed": 14,
+      "times": [
+        116.028,
+        116.561,
+        117.093,
+        117.626,
+        118.159,
+        118.692,
+        119.224,
+        119.757,
+        120.29,
+        120.817,
+        121.349,
+        121.882,
+        122.415,
+        122.948
+      ],
+      "observation": "116.028–117.626秒回收角色举袋且硬字幕推荐转转；118.159–119.757秒仍在递袋收尾，120.29秒切到主角打开袋子，随后转入游戏资源笑点。"
+    }
+  ],
+  "secondaryReview": {
+    "reviewer": "extra300_content_001_100",
+    "fullTranscriptRead": true,
+    "subtitleRows": 13,
+    "decision": "读取全部字幕后实际查看130帧，补齐广告前后动画语境，确认89.3–98.2铺垫ad/keep、98.2–120.0主体和视觉收尾ad/skip。"
+  }
+}

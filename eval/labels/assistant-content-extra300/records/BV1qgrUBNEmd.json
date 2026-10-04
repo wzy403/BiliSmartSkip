@@ -1,0 +1,222 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 200,
+    "inputLineSha256": "6edb66eb05c2c9a346da79b9886c91c5e70c0b2cb650c1c5dadcc89f51ecdfd2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1qgrUBNEmd-35438527158.json",
+    "acquisitionSha256": "eb1749d10ceaddb62bd78ce6f332280e6b9268f7e3ca1bb6e61aea20f5c82dd8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1qgrUBNEmd/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1qgrUBNEmd.json",
+    "transcriptSha256": "d24571cc19b76786cffe09adff3f4a15b70eec977c6e4a318e0dd73d040b465e"
+  },
+  "record": {
+    "bvid": "BV1qgrUBNEmd",
+    "cid": 35438527158,
+    "duration": 492,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "带初中辍学的朋友游览大学，与在校朋友喝饮料、看教学楼做数学题、跑操场、逛图书馆和吃食堂，最后聊另一种求学人生的想象。湖边拍照桥段转入转转回收旧手机推广，蜜雪冰城及食堂餐食为行程普通消费对话。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 100.259,
+        "end": 143.56,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从去教学楼前先在湖边拍照的安排、摆拍和拍得好看的反馈逐步铺垫新手机拍摄效果，再转为转转回收旧iPhone16的价格、丰富品类、上门打款和省事优势，最后推荐大平台。143.56秒恢复带朋友进教室的大学体验。照片桥段是这条广告的可确认引入，不能只标回收平台名称之后。",
+        "evidence": [
+          {
+            "from": 100.259,
+            "to": 103.019,
+            "text": "那副歌副歌副歌小妹去教学楼前"
+          },
+          {
+            "from": 103.019,
+            "to": 104.42,
+            "text": "先给你拍张照吧"
+          },
+          {
+            "from": 104.42,
+            "to": 105.72,
+            "text": "这湖边这么美"
+          },
+          {
+            "from": 105.72,
+            "to": 107.8,
+            "text": "然后很多人在这边露营啊"
+          },
+          {
+            "from": 109.72,
+            "to": 111.12,
+            "text": "给你拍一张吧"
+          },
+          {
+            "from": 111.12,
+            "to": 113.15,
+            "text": "好来朝我这边看一下"
+          },
+          {
+            "from": 113.15,
+            "to": 114.55,
+            "text": "我去你拍这么好看"
+          },
+          {
+            "from": 114.55,
+            "to": 115.35,
+            "text": "多好看的呀"
+          },
+          {
+            "from": 115.35,
+            "to": 116.39,
+            "text": "最近换的这新手机"
+          },
+          {
+            "from": 116.39,
+            "to": 117.47,
+            "text": "拍照果然好看多了"
+          },
+          {
+            "from": 117.47,
+            "to": 119.19,
+            "text": "大家换新后旧的都是怎么处理"
+          },
+          {
+            "from": 119.19,
+            "to": 120.9,
+            "text": "像我那台IPHONE16就早转转上门"
+          },
+          {
+            "from": 120.9,
+            "to": 122.02,
+            "text": "回收了3700多"
+          },
+          {
+            "from": 127.54,
+            "to": 129.599,
+            "text": "甚至就连黄金奢侈品都上门回收"
+          },
+          {
+            "from": 130.199,
+            "to": 130.859,
+            "text": "现场打钱"
+          },
+          {
+            "from": 132.959,
+            "to": 133.919,
+            "text": "既不用拍照修图"
+          },
+          {
+            "from": 133.919,
+            "to": 135.48,
+            "text": "又不用跟人扯皮讲价"
+          },
+          {
+            "from": 135.48,
+            "to": 137.64,
+            "text": "特别适合我这种想卖闲置又怕麻烦的人"
+          },
+          {
+            "from": 137.64,
+            "to": 139.62,
+            "text": "像我这次一共收拾出了七八件闲置"
+          },
+          {
+            "from": 139.62,
+            "to": 140.76,
+            "text": "总共卖了1万多呢"
+          },
+          {
+            "from": 140.76,
+            "to": 142.04,
+            "text": "总之有东西要回收"
+          },
+          {
+            "from": 142.04,
+            "to": 143.56,
+            "text": "早转转这种大平台就对了"
+          },
+          {
+            "from": 143.56,
+            "to": 145.82,
+            "text": "现在带小咪去大学的教室看一下"
+          }
+        ],
+        "startUncertainty": [
+          100.259,
+          100.259
+        ],
+        "endUncertainty": [
+          143.56,
+          143.56
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 100.259,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 143.56,
+        "end": 171.4,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 172.72,
+        "end": 205.139,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 205.94,
+        "end": 216.9,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 217.46,
+        "end": 288.43,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 289.31,
+        "end": 313.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 313.8,
+        "end": 316.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 317.2,
+        "end": 329.309,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 330.309,
+        "end": 490.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 301,
+      "firstIndex": 0,
+      "lastIndex": 300,
+      "allRowsRead": true
+    }
+  }
+}

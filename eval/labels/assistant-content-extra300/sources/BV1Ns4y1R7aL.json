@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Ns4y1R7aL",
+  "cid": 1112377701,
+  "title": "日本崛起：从亚洲之光到世界公敌【文明的故事】",
+  "duration": 1608,
+  "desc": "本期我们聊一下日本崛起的的故事",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:09:12.686Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:22:28.073Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 177,
+    "inputLineSha256": "364caf65599cbdf1ceb049f2583e038144096261792d8da385b3bf5f803082f3",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Ns4y1R7aL-1112377701.json",
+    "acquisitionSha256": "52a1a6b76f882763609d358149089f7c1ce82907ec16d96f3a70cfab89f1e04d",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ns4y1R7aL/?p=1"
+  }
+}

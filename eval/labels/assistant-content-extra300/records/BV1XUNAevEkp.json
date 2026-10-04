@@ -1,0 +1,125 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 276,
+    "inputLineSha256": "cfb7ad5572b4de5a453c36cfe2dc3002b82d931cb377414b46ff997b09e2f0dc",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1XUNAevEkp-28211544429.json",
+    "acquisitionSha256": "42df2b94b2505a8b2fafb5667246373ec734ffd56fecb2c12099d26d830fcc0e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1XUNAevEkp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1XUNAevEkp.json",
+    "transcriptSha256": "9826b09b0047142dba2dc57b0f93666405bdfc0d4e3dd6d8e75e3ada1c258226"
+  },
+  "record": {
+    "bvid": "BV1XUNAevEkp",
+    "cid": 28211544429,
+    "duration": 321,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "由蒸汽吹火的反直觉现象讲解蒸汽机车诱导通风、喷气发动机喷水加力以及中冷器原理。中途借风暴一词转入魔兽世界玩法与回归福利推广，然后回归工程科普；普惠J75等品牌/型号是技术实例，属于正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 127.1,
+        "end": 186.48,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          127.1,
+          128.14
+        ],
+        "endUncertainty": [
+          185.36,
+          186.48
+        ],
+        "reason": "从“说起风暴”的转场铺垫到魔兽世界新玩法、游戏体验卖点、用户热度、回归免费时长与置顶福利号召，形成独立于蒸汽科普的完整推广；186.48秒回到诱导通风和发动机。",
+        "evidence": [
+          {
+            "from": 123.44,
+            "to": 127.1,
+            "text": "送来一场蒸汽和空气混合的风暴进行助燃"
+          },
+          {
+            "from": 127.1,
+            "to": 128.14,
+            "text": "说起风暴"
+          },
+          {
+            "from": 128.14,
+            "to": 132.19,
+            "text": "那就不得不提起暴雪游戏旗下的魔兽世界"
+          },
+          {
+            "from": 140.86,
+            "to": 143.26,
+            "text": "此次上线的魔术版吃鸡霸业风暴"
+          },
+          {
+            "from": 146.74,
+            "to": 148.66,
+            "text": "节日和朋友开黑超合适"
+          },
+          {
+            "from": 154.92,
+            "to": 156.74,
+            "text": "还有稀有幻化铁钩爪"
+          },
+          {
+            "from": 163.78,
+            "to": 164.98,
+            "text": "难度大幅优化"
+          },
+          {
+            "from": 177.86,
+            "to": 179.64,
+            "text": "不愧是MMO天花板"
+          },
+          {
+            "from": 179.64,
+            "to": 181.42,
+            "text": "现在老玩家回归游戏"
+          },
+          {
+            "from": 181.42,
+            "to": 183.32,
+            "text": "直接送三天免费时长"
+          },
+          {
+            "from": 183.32,
+            "to": 185.36,
+            "text": "超值福利就在评论区置顶"
+          },
+          {
+            "from": 185.36,
+            "to": 186.48,
+            "text": "千万别错过"
+          },
+          {
+            "from": 186.48,
+            "to": 190.12,
+            "text": "既然蒸汽流能够通过诱导送风使燃烧更剧烈"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 154,
+      "firstIndex": 0,
+      "lastIndex": 153,
+      "allRowsRead": true
+    }
+  }
+}

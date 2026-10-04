@@ -1,0 +1,187 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 235,
+    "inputLineSha256": "10b2a5ecd8e9badbe55c3989ee9a63f32a9cfbeeb2869b6161477ab8ea8c5642",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1todgBEEyK-38183177994.json",
+    "acquisitionSha256": "c642979e0e24b0357bbe7078660a28738f24e4d9c0e8d3d53ac7771657f41bff",
+    "sourceUrl": "https://www.bilibili.com/video/BV1todgBEEyK/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1todgBEEyK.json",
+    "transcriptSha256": "9492566bf721b5cd29f8ba16d5980300a0302bdc4ed7ae85acd2f57b5da7e948"
+  },
+  "record": {
+    "bvid": "BV1todgBEEyK",
+    "cid": 38183177994,
+    "duration": 942,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讲宋徽宗为太湖巨石封侯、苏杭应奉局搜罗花石和朱勔强征民力运输，分析拆桥劫粮与北宋由盛转衰，最终巨石被砸作守城武器。中间以宋徽宗偏执作类比，推广远明老酒掌门人的坚持、酿造质量、低价和下方购买入口，之后接回运石难题。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 286.32,
+        "end": 441.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "把徽宗行为概括为偏执并解释其含义，是对比酒厂掌门人的整段铺垫；随后用人物信誉、获奖、原粮工艺、检测数据、定价及国标背书推荐远明老酒，末尾再次与徽宗对照并引导尝酒购买后回正文。",
+        "startUncertainty": [
+          280.99,
+          292.26
+        ],
+        "endUncertainty": [
+          441.34,
+          441.34
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 286.32,
+            "to": 288.26,
+            "text": "说白了就是偏执"
+          },
+          {
+            "from": 288.26,
+            "to": 289.68,
+            "text": "喜欢一个东西啊"
+          },
+          {
+            "from": 292.26,
+            "to": 293.46,
+            "text": "说到偏执"
+          },
+          {
+            "from": 299.78,
+            "to": 302.55,
+            "text": "主不过人家是把偏执用对了地方"
+          },
+          {
+            "from": 303.15,
+            "to": 305.82,
+            "text": "远明老酒的掌门人任远明"
+          },
+          {
+            "from": 321.47,
+            "to": 324.11,
+            "text": "一个敢把脸印在酒瓶上的人"
+          },
+          {
+            "from": 334.54,
+            "to": 337.58,
+            "text": "前不久福布斯评选中国杰出匠人"
+          },
+          {
+            "from": 352.28,
+            "to": 356.32,
+            "text": "老爷子还给自己定了套比新国标更严的规矩"
+          },
+          {
+            "from": 371.46,
+            "to": 374.34,
+            "text": "远明实测才0.144"
+          },
+          {
+            "from": 384.44,
+            "to": 388.439,
+            "text": "可人家偏不价格连那些大牌的零头都不到"
+          },
+          {
+            "from": 406.04,
+            "to": 410,
+            "text": "为什么把远明这个民酒厂请去参与制定呢"
+          },
+          {
+            "from": 418.38,
+            "to": 420.88,
+            "text": "这人跟宋徽宗就是一对反义词"
+          },
+          {
+            "from": 425.32,
+            "to": 427.32,
+            "text": "而任远明把偏执给了酒"
+          },
+          {
+            "from": 436.84,
+            "to": 438.82,
+            "text": "不如你亲口尝尝链接"
+          },
+          {
+            "from": 440.46,
+            "to": 441.34,
+            "text": "可以去看看"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 28.219,
+        "reason": "太湖石文化、宋徽宗园林和官员搜罗的历史正文。"
+      },
+      {
+        "start": 30.219,
+        "end": 240.79,
+        "reason": "太湖石文化、宋徽宗园林和官员搜罗的历史正文。"
+      },
+      {
+        "start": 249.2,
+        "end": 286.32,
+        "reason": "太湖石文化、宋徽宗园林和官员搜罗的历史正文。"
+      },
+      {
+        "start": 441.34,
+        "end": 715.09,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      },
+      {
+        "start": 716.37,
+        "end": 719.25,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      },
+      {
+        "start": 721.89,
+        "end": 829.04,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      },
+      {
+        "start": 830.24,
+        "end": 895.85,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      },
+      {
+        "start": 899.43,
+        "end": 901.239,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      },
+      {
+        "start": 904.2,
+        "end": 911.529,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      },
+      {
+        "start": 914.489,
+        "end": 939.44,
+        "reason": "巨石运输、民生代价和北宋灭亡分析与道别歌词。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "字幕中具体史学人名和品牌成分有 ASR 错写，记录仅判内容用途，不核实史实或酒类宣传主张。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 413,
+      "firstIndex": 0,
+      "lastIndex": 412,
+      "allRowsRead": true
+    }
+  }
+}

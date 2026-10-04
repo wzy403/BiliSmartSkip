@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1nY4Ee7Ek3",
+  "cid": 25868765950,
+  "title": "这是你们说的那个黑神话吗？总感觉不太对劲",
+  "duration": 509,
+  "desc": "游戏名：黑神话吉吉国王 作者@纯情小鸭鸭丶  \n感谢各位的支持，凯蜂会继续努力！\n希望大家可以投币，点赞，收藏，关注！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:27.208Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:22:52.036Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 182,
+    "inputLineSha256": "33b0bee2b6cf0b53aca75c8c5991981fcb8654ce5dd56039f03b4ac560bfb915",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1nY4Ee7Ek3-25868765950.json",
+    "acquisitionSha256": "85a595a0e7c0adc511162a27716ed7686f5f4cf8da9eeb9d6915dcfda79ad234",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nY4Ee7Ek3/?p=1"
+  }
+}

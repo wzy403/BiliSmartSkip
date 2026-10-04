@@ -1,0 +1,44 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 256,
+    "inputLineSha256": "54d1048850037357959a7958fa7d3a61d45ffedf9fd250ab6a3dbe004c130a96",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1W4421X76c-1566012015.json",
+    "acquisitionSha256": "2c2224335a53de967e53e1d65b2d85405dbea01c0a4b77af34eafcb4a06a8379",
+    "sourceUrl": "https://www.bilibili.com/video/BV1W4421X76c/?p=44",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1W4421X76c.json",
+    "transcriptSha256": "d2406e5d54fc22286fdf4cb936609db0882b9265b8a8c38674ab90d731d5a5f8"
+  },
+  "record": {
+    "bvid": "BV1W4421X76c",
+    "cid": 1566012015,
+    "duration": 847,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "阅读全文119行。前半是爆龙战队调查偶像歌曲影响儿童及电视台怪物阴谋，唱片和饮料赞助为剧情内部线索，不能据词语判为片外广告。后半大量仅零散词或歌曲近音，无法可靠理解内容，不能认定全片无广告。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "约450.7秒后对白严重破碎，如460.3–462.58“多少钱”、491.68–493.78“高级活动”无法结合语境判断；493.78–533.64、589.75–645.16、715.55–775.86均有长字幕缺口。",
+      "后半775.86–830秒主要是难以辨认的音译碎句或歌曲，需要实际听看片段辨别正文/片尾及可能推广；未核实前不算完成。"
+    ],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 119,
+      "firstIndex": 0,
+      "lastIndex": 118,
+      "allRowsRead": true
+    }
+  }
+}

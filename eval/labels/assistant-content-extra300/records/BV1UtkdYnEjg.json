@@ -1,0 +1,177 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 248,
+    "inputLineSha256": "3e8c7ccb7791a4e10579d01abf177f0e05b5547f45dcb8580eec734e6d8d0fe2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1UtkdYnEjg-27508934857.json",
+    "acquisitionSha256": "f1698a363036d2ba7aace23569784a5fa472cab2ed270c83419c0f488740b900",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UtkdYnEjg/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1UtkdYnEjg.json",
+    "transcriptSha256": "6603a094f05d1a884e7fc712ffc1b7b74c883ec9f8b21e426cc80e6b513e6671"
+  },
+  "record": {
+    "bvid": "BV1UtkdYnEjg",
+    "cid": 27508934857,
+    "duration": 556,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "复述2004年佛罗里达鹰巢天坑约翰与西蒙洞潜事故：洞穴结构、伙伴关系与既往恐慌症、进入下游、约翰擅入岔路并因推进器搅浑而迷失、西蒙寻找时被绳缠住、后续搜救与尸检，结尾预告其余案例。浑浊水质后插入海洋至尊护肤乳推广，潜水装备的技术利弊则是事故机制正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 181.17,
+        "end": 243.63,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "以潜水后要保养皮肤铺垫引出海洋至尊多效乳，介绍销量、成分、功效、肤感及评论区购买优惠，含有了它放心潜水的收尾，随后恢复潜水时间线。",
+        "startUncertainty": [
+          181.17,
+          181.17
+        ],
+        "endUncertainty": [
+          243.63,
+          243.63
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 178.2,
+            "to": 181.17,
+            "text": "不知名的虫子尸体在池塘处随处可见"
+          },
+          {
+            "from": 181.17,
+            "to": 183.79,
+            "text": "所以潜完水一定要好好保养一下皮肤"
+          },
+          {
+            "from": 183.79,
+            "to": 184.59,
+            "text": "说到这里啊"
+          },
+          {
+            "from": 184.59,
+            "to": 186.07,
+            "text": "又懒又想变帅的兄弟们"
+          },
+          {
+            "from": 186.07,
+            "to": 188.59,
+            "text": "海洋至尊就为咱们专门研究了一款新品"
+          },
+          {
+            "from": 191.6,
+            "to": 193.58,
+            "text": "粗糙暗沉还是干燥紧绷"
+          },
+          {
+            "from": 193.58,
+            "to": 195.86,
+            "text": "它都能帮你全面改善肌肤状态"
+          },
+          {
+            "from": 201.72,
+            "to": 203.58,
+            "text": "这是一款六效合一的产品"
+          },
+          {
+            "from": 203.58,
+            "to": 206.62,
+            "text": "核心成分神经酰胺粒子依克多因和泛醇"
+          },
+          {
+            "from": 206.62,
+            "to": 209.24,
+            "text": "真正做到28天有效改善肌肤屏障"
+          },
+          {
+            "from": 213.22,
+            "to": 216.04,
+            "text": "另外还有2%的自研专利控油组合物"
+          },
+          {
+            "from": 224,
+            "to": 226.38,
+            "text": "一抹化开上脸感受冰冰凉凉"
+          },
+          {
+            "from": 232.18,
+            "to": 233.9,
+            "text": "不管你是干皮还是油皮"
+          },
+          {
+            "from": 236.88,
+            "to": 238.68,
+            "text": "购买链接放在评论区置顶啊"
+          },
+          {
+            "from": 238.68,
+            "to": 240.38,
+            "text": "还有大额优惠券可以领"
+          },
+          {
+            "from": 240.38,
+            "to": 240.96,
+            "text": "放心冲"
+          },
+          {
+            "from": 241.44,
+            "to": 241.98,
+            "text": "有了它"
+          },
+          {
+            "from": 241.98,
+            "to": 243.63,
+            "text": "您就可以放心潜水了"
+          },
+          {
+            "from": 243.63,
+            "to": 245.47,
+            "text": "经过一个小时的准备后"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 181.17,
+        "reason": "实际字幕覆盖的洞穴地理和遇难者背景、入水准备。"
+      },
+      {
+        "start": 243.63,
+        "end": 509.52,
+        "reason": "实际字幕覆盖的洞潜经过、装备风险、搜救及后续预告。"
+      },
+      {
+        "start": 512.7,
+        "end": 523.809,
+        "reason": "实际字幕覆盖的洞潜经过、装备风险、搜救及后续预告。"
+      },
+      {
+        "start": 526.98,
+        "end": 554.38,
+        "reason": "实际字幕覆盖的洞潜经过、装备风险、搜救及后续预告。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "尸检处509.52–512.7秒和523.809–526.98秒存在短缺口，未据此补造具体内容；尾部554.38–556秒未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 295,
+      "firstIndex": 0,
+      "lastIndex": 294,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Mj411E7c2",
+  "cid": 1346313297,
+  "title": "凡尔登战役：一代法国人是如何毁掉的？【一战的故事】",
+  "duration": 1726,
+  "desc": "本期我们将讲述凡尔登战役的故事",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:47.115Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:21:08.986Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 164,
+    "inputLineSha256": "34f017fbef629fffc52d1c5dc00149ce3fa372be0181b7f72d7b1637d85785a5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Mj411E7c2-1346313297.json",
+    "acquisitionSha256": "65bd23c75cd3fabfcc162451c50a993eb30d749e66e8c757e98c65f6e875291e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Mj411E7c2/?p=1"
+  }
+}

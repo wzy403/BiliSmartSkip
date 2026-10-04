@@ -1,0 +1,140 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 46,
+    "inputLineSha256": "f2ca88a48fddb10d2695f77a4afaa0d0fcb14a2844da88c9fe9dabf35588249e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1a5vAzwEKy-31951422312.json",
+    "acquisitionSha256": "45a2edee522d88e79c51e6b122031f8fb2ffe1337199ae2f2a47548004874209",
+    "sourceUrl": "https://www.bilibili.com/video/BV1a5vAzwEKy/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1a5vAzwEKy.json",
+    "transcriptSha256": "3f15672a84095acc19d3db9f04c67b9801a21ecea1db8cb0d5f1fd1c43552481"
+  },
+  "record": {
+    "bvid": "BV1a5vAzwEKy",
+    "cid": 31951422312,
+    "duration": 1404,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "《大明王朝》收尾剧情解说，解释嘉靖驾崩、裕王继位、海瑞获释和悲痛，再延伸介绍帝王年号、谥号、庙号及历史评价方法。197.86秒看到海瑞憔悴引出妙界肩颈按摩器推广，包含功能、健康焦虑、价格保障和七夕赠礼，269.68秒回到剧情。其余历史举例及书中剧情均为正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 197.86,
+        "end": 269.68,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“看海瑞这个憔悴的样子”是分享按摩器的明确铺垫，随后持续推销妙界按摩、热敷、使用便利与券/质保/礼卡；“千万不要错过”后立即回剧。",
+        "startUncertainty": [
+          197.86,
+          197.86
+        ],
+        "endUncertainty": [
+          269.68,
+          269.68
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 196.66,
+            "to": 197.86,
+            "text": "他是一身便服"
+          },
+          {
+            "from": 197.86,
+            "to": 199.5,
+            "text": "看海瑞这个憔悴的样子"
+          },
+          {
+            "from": 199.5,
+            "to": 201.1,
+            "text": "真的很想跟他分享一下"
+          },
+          {
+            "from": 201.1,
+            "to": 202.92,
+            "text": "我一直在用的这款妙界肩颈啊"
+          },
+          {
+            "from": 208.1,
+            "to": 211.34,
+            "text": "热销好评回购三榜第一的实力果然不容小觑"
+          },
+          {
+            "from": 211.34,
+            "to": 214,
+            "text": "他的8D按摩头跟老师傅的虎口一样"
+          },
+          {
+            "from": 226.6,
+            "to": 228.6,
+            "text": "导致颈椎承受的压力越来越大"
+          },
+          {
+            "from": 228.6,
+            "to": 230.04,
+            "text": "再不及时拯救颈椎"
+          },
+          {
+            "from": 231.88,
+            "to": 232.88,
+            "text": "要去医院动手术了"
+          },
+          {
+            "from": 243.08,
+            "to": 245.06,
+            "text": "妙界的两档恒温热敷一开"
+          },
+          {
+            "from": 256.959,
+            "to": 258.819,
+            "text": "天天用就跟白嫖子SPA似的啊"
+          },
+          {
+            "from": 259.959,
+            "to": 263.2,
+            "text": "妙界是全网销量百万家的按摩类top one品牌"
+          },
+          {
+            "from": 263.2,
+            "to": 264.76,
+            "text": "现在评论区领券保价"
+          },
+          {
+            "from": 267.44,
+            "to": 268.84,
+            "text": "七夕送礼还能代写贺卡"
+          },
+          {
+            "from": 268.84,
+            "to": 269.68,
+            "text": "千万不要错过了"
+          },
+          {
+            "from": 269.68,
+            "to": 270.89,
+            "text": "那我们继续说句啊"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 673,
+      "firstIndex": 0,
+      "lastIndex": 672,
+      "allRowsRead": true
+    }
+  }
+}

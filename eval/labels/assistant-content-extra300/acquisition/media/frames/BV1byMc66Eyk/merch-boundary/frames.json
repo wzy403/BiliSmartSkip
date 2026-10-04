@@ -1,0 +1,77 @@
+[
+  {
+    "time": 270.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-001.jpg",
+    "sha256": "091c7f0d3bdc7f79d2b49842f3e6e3595d246255c6794580011aa8b1e25f8270"
+  },
+  {
+    "time": 270.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-002.jpg",
+    "sha256": "2b4e8d19733c5ea36947a4eb898acd59e9fe0c8f4175660d5a8acb421f4e7acf"
+  },
+  {
+    "time": 271.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-003.jpg",
+    "sha256": "feb73e7866fc072bb7959228cba5387786c62c18abc36ad8326ab25d438fd51b"
+  },
+  {
+    "time": 271.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-004.jpg",
+    "sha256": "cc7ce097eaa338eeea1092301af0d7218b78722aa6162672d84207e8ada67047"
+  },
+  {
+    "time": 272.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-005.jpg",
+    "sha256": "885eb7966e96bcf4673dfbe3d674a5195a59b2b33974a7e4afac16ad94096303"
+  },
+  {
+    "time": 272.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-006.jpg",
+    "sha256": "b8a5b9f4529a8101917cc1492e1eb4f9b6afb8ac6caf3a2362436ed30f278ffb"
+  },
+  {
+    "time": 273.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-007.jpg",
+    "sha256": "22d106c67530a3b6b37284ac73db111eefcb180f2bc2599107a337c57ad58027"
+  },
+  {
+    "time": 273.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-008.jpg",
+    "sha256": "d42ae51dcc8e38f5823d68325fad8bb4627056a02a5bf7f444b93bdeb5afc5db"
+  },
+  {
+    "time": 274.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-009.jpg",
+    "sha256": "911d57141b759aed444bedc3634bb6079c8f1cff8e32dd80ad6357d75b76ba60"
+  },
+  {
+    "time": 274.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-010.jpg",
+    "sha256": "b52580b83d9f0ef0e311d2f3bec6cdbad5186bfeab96780ef034d9a39d2fb909"
+  },
+  {
+    "time": 275.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-011.jpg",
+    "sha256": "99893afa9d7502e3dd72558aea8ab603a1047c526971a1b36255f6ed93085c95"
+  },
+  {
+    "time": 275.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-012.jpg",
+    "sha256": "57e1a5eab9bcfe82440127a5b90b403c362d1264e29633a262f4743a40dd5dc4"
+  },
+  {
+    "time": 276.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-013.jpg",
+    "sha256": "d828804b7a51349f91aee04f098546fd4e436abc4c6e3effb63cf0d37480198a"
+  },
+  {
+    "time": 276.5,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-014.jpg",
+    "sha256": "bb8feb180b8ae1f4f8f86810fe354cfaf2002b59ff2212ce7e8d26a590fc6f80"
+  },
+  {
+    "time": 277.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1byMc66Eyk/merch-boundary/frame-015.jpg",
+    "sha256": "25a0a324f9cd706b2e98fc1c9c0ba29e4d9d40c28f313e3aee7853ca57e5317e"
+  }
+]

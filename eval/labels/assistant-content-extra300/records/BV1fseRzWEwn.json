@@ -1,0 +1,142 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 98,
+    "inputLineSha256": "576760ef1fe85969b2a25519fe618460840c5c3049f981246598b2c2930d5444",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1fseRzWEwn-31937987648.json",
+    "acquisitionSha256": "c6d9717340bb3beb9da52c38dc48f5f04ef8fa10bb55ce2ccc2a4a60141c79a6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1fseRzWEwn/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1fseRzWEwn.json",
+    "transcriptSha256": "ac2556c0b3b48cfa23a3bd38fc9b2b2e8a47c2186b0e9ba83ed281bbbb6e872c"
+  },
+  "record": {
+    "bvid": "BV1fseRzWEwn",
+    "cid": 31937987648,
+    "duration": 142,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "三角洲行动消音器配件选择指南，比较共鸣、PBS、俄系和霰弹枪专用配件的属性、适配武器与游戏内价格；中段以观众询问游戏操作转入电脑换新后的转转回收广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 53.02,
+        "end": 86.55,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从对主播游戏表现的发问搭桥，接换新电脑更流畅、旧华硕转转回收经历，再介绍上门速度、覆盖城市、各类回收品目与打包下单便利，最后推荐大平台后回到AK消音器。游戏内配件价格属于攻略正文。",
+        "evidence": [
+          {
+            "from": 51.32,
+            "to": 53.02,
+            "text": "但是用得上的地方比较少"
+          },
+          {
+            "from": 53.02,
+            "to": 53.74,
+            "text": "boss主播"
+          },
+          {
+            "from": 53.74,
+            "to": 55.06,
+            "text": "你这波怎么看见的诶"
+          },
+          {
+            "from": 55.06,
+            "to": 57.02,
+            "text": "最近换了新电脑玩游戏流畅多了"
+          },
+          {
+            "from": 57.02,
+            "to": 58.72,
+            "text": "大家买了新的旧的怎么处理"
+          },
+          {
+            "from": 60.04,
+            "to": 62.16,
+            "text": "就找转转上门回收的5200多"
+          },
+          {
+            "from": 67.24,
+            "to": 69.26,
+            "text": "而且转转是专业的二手回收平台"
+          },
+          {
+            "from": 69.26,
+            "to": 71.46,
+            "text": "全国400多个城市都支持上门回收"
+          },
+          {
+            "from": 77.26,
+            "to": 78.78,
+            "text": "腕表这种奢侈品也收"
+          },
+          {
+            "from": 80.74,
+            "to": 82.38,
+            "text": "一键下单都能通通打包带走"
+          },
+          {
+            "from": 84.78,
+            "to": 86.55,
+            "text": "找转转这种大平台准没错"
+          },
+          {
+            "from": 86.55,
+            "to": 87.87,
+            "text": "AK永火消音"
+          }
+        ],
+        "startUncertainty": [
+          53.02,
+          53.02
+        ],
+        "endUncertainty": [
+          86.55,
+          86.55
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 15.9,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 18.24,
+        "end": 53.02,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 86.55,
+        "end": 102.09,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 102.61,
+        "end": 139.62,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 85,
+      "firstIndex": 0,
+      "lastIndex": 84,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 149,
+    "inputLineSha256": "d2ea7a4d4c9e76a2ce13bf2a0b255e983c455237d192e5db830dace6e823b0e1",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1KKcczwEdz-35909076965.json",
+    "acquisitionSha256": "a154210826d77be642c0bfb8544c75381708e0636c5f81c0dee14efb219cc41a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1KKcczwEdz/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1KKcczwEdz.json",
+    "transcriptSha256": "61ab350a507ce5da13f1be746ab4c8abc95f1ad4b041affc80d6f363d173201e"
+  },
+  "record": {
+    "bvid": "BV1KKcczwEdz",
+    "cid": 35909076965,
+    "duration": 152,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "植物大战僵尸改版实况，围绕会消失或生成僵尸的花盆、结出小菜僵尸的树、可跳跃的大蒜和爆炸西瓜等新机制吐槽并操作。开头短暂点名得物好装备，中段从身体感受转到天气冷需添装备，完整推介得物鞋服、新人券补贴抽奖和鉴别保障，随后回到游戏道具说明。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 3.34,
+        "end": 5.64,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "游戏开场内单独说生活需要好装备、上得物，是简短品牌预告；后面立刻恢复对游戏花盆的反应。",
+        "startUncertainty": [
+          3.34,
+          3.34
+        ],
+        "endUncertainty": [
+          5.64,
+          5.64
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 0,
+            "to": 3.34,
+            "text": "半夜卷心菜头走不断上升"
+          },
+          {
+            "from": 3.34,
+            "to": 5.06,
+            "text": "生活中也需要好装备"
+          },
+          {
+            "from": 5.06,
+            "to": 5.64,
+            "text": "上得物"
+          },
+          {
+            "from": 5.64,
+            "to": 7.88,
+            "text": "看看这是他妈什么配"
+          },
+          {
+            "from": 8.18,
+            "to": 9.34,
+            "text": "这牌干啥呀"
+          }
+        ]
+      },
+      {
+        "start": 42.649,
+        "end": 77.6,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从玩得脑门湿和天气冷引出添置装备，宣传得物联名鞋、面包服、价格、520元新人券、抽奖、鉴别正品及降价提醒，77.6秒回到游戏树的说明。完整纳入场景铺垫与服务卖点收尾。",
+        "startUncertainty": [
+          42.649,
+          44.009
+        ],
+        "endUncertainty": [
+          77.6,
+          77.6
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 40.729,
+            "to": 42.649,
+            "text": "它会出僵尸玩的"
+          },
+          {
+            "from": 42.649,
+            "to": 44.009,
+            "text": "我脑门也有点湿"
+          },
+          {
+            "from": 44.009,
+            "to": 46.54,
+            "text": "天气太冷了"
+          },
+          {
+            "from": 46.54,
+            "to": 47.72,
+            "text": "得添置点新装备"
+          },
+          {
+            "from": 47.72,
+            "to": 49.68,
+            "text": "我在头部买的这双联名款板鞋"
+          },
+          {
+            "from": 51.98,
+            "to": 55.32,
+            "text": "领了520元新人优惠券包到手只要几十块"
+          },
+          {
+            "from": 55.32,
+            "to": 56.84,
+            "text": "还有这件厚实的面包服"
+          },
+          {
+            "from": 58.78,
+            "to": 59.98,
+            "text": "只用37元"
+          },
+          {
+            "from": 60.76,
+            "to": 62.78,
+            "text": "活动念旧官方下方置顶评论了"
+          },
+          {
+            "from": 62.78,
+            "to": 65.34,
+            "text": "新人点开登录就有直达新人补贴会场"
+          },
+          {
+            "from": 65.34,
+            "to": 68.97,
+            "text": "还能零元抽2888元现金或IPHONE17得物"
+          },
+          {
+            "from": 68.97,
+            "to": 70.67,
+            "text": "有专业鉴别加正品保障"
+          },
+          {
+            "from": 70.67,
+            "to": 72.15,
+            "text": "大牌潮牌实时展示"
+          },
+          {
+            "from": 72.15,
+            "to": 73.81,
+            "text": "app内居低价得物"
+          },
+          {
+            "from": 73.81,
+            "to": 75.49,
+            "text": "买东西还能设置降价提醒"
+          },
+          {
+            "from": 75.49,
+            "to": 76.21,
+            "text": "不用比价"
+          },
+          {
+            "from": 76.21,
+            "to": 77.6,
+            "text": "也不用担心买贵了"
+          },
+          {
+            "from": 77.6,
+            "to": 82.18,
+            "text": "千子树结出小菜僵尸或魅惑小菜僵尸"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 73,
+      "firstIndex": 0,
+      "lastIndex": 72,
+      "allRowsRead": true
+    }
+  }
+}

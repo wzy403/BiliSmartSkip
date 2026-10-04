@@ -1,0 +1,2383 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 69,
+    "inputLineSha256": "e60cea2371e8bb141309c0e598e674c582954365c5d3b443d26a0b606d12a331",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1cYe4zLE55-31868456371.json",
+    "acquisitionSha256": "c911fa9b7ffdb08730f9741225f3aa75ad1c818093768b66a3d7b010ccb74f9f",
+    "sourceUrl": "https://www.bilibili.com/video/BV1cYe4zLE55/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1cYe4zLE55.json",
+    "transcriptSha256": "1dd406e330be2408a8f7c78b3f686b956d1ecf990e7294edb1b4d4c54e3fce74"
+  },
+  "record": {
+    "bvid": "BV1cYe4zLE55",
+    "cid": 31868456371,
+    "duration": 1673,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "生活vlog从松茸鸡汤和排骨焖饭、游泳，转到早餐司康试吃、生活用品及衣服开箱，再到与朋友外出、装修燃气灶除胶和工作日外卖。淘宝美妆补贴在冲牙器/洗面奶开箱中展开，片尾明确重申赞助；衣服试穿、餐饮和司康优缺点评价属于题目承诺的日常分享。已实际补看17处明显字幕缺口的193张约3秒间隔画面，确认为烹饪、游泳、喂猫、咖啡、工作打包、聚餐、除胶和片尾日常照片。另19张加密画面补全片尾淘宝推广的视觉收尾至1635.467秒；主题开箱广告继续保留。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 486.49,
+        "end": 603.79,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "reason": "这段确定属于淘宝平台商业推广，同时也是标题“小小开箱”和465.65–486.06生活用品开箱预告承诺的主题内容。冲牙器的就医与啃骨头经历、洗面奶的回购与清洁体验、面膜的懒人使用习惯构成连续开箱体验，补贴推荐融入其中，应完整保留主题商业内容，不单抽优惠CTA做人为缩短的可跳段。486.49从第一件冲牙器进入这一美妆个护商业开箱，603.79转入kitty与朋友礼物，结束该块；之前新家零碎及购物分享预告也引出后续非广告开箱，不全并入广告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          486.06,
+          486.49
+        ],
+        "endUncertainty": [
+          603.79,
+          603.79
+        ],
+        "evidence": [
+          {
+            "from": 465.65,
+            "to": 467.45,
+            "text": "来拆几个快递吧"
+          },
+          {
+            "from": 467.45,
+            "to": 470.81,
+            "text": "准备9月份的时候给大家好好录一个购物分享"
+          },
+          {
+            "from": 486.49,
+            "to": 488.99,
+            "text": "这个是我买的一个冲牙器"
+          },
+          {
+            "from": 501.799,
+            "to": 504.839,
+            "text": "我买了小米的这款冲牙器"
+          },
+          {
+            "from": 504.839,
+            "to": 507.119,
+            "text": "因为最近天猫有大牌美妆补贴"
+          },
+          {
+            "from": 507.119,
+            "to": 508.679,
+            "text": "感觉活动价格也很划算"
+          },
+          {
+            "from": 531.329,
+            "to": 535.71,
+            "text": "这只是这只three plus的洗面奶"
+          },
+          {
+            "from": 549.8,
+            "to": 551.98,
+            "text": "我是建议一定要在官方的渠道买"
+          },
+          {
+            "from": 554.52,
+            "to": 558.32,
+            "text": "但是最近天猫有美妆各户观其爆款补贴专场"
+          },
+          {
+            "from": 561.4,
+            "to": 564.28,
+            "text": "现在可以直接上淘宝搜索大牌美妆补贴"
+          },
+          {
+            "from": 567.4,
+            "to": 568.74,
+            "text": "到手八五折起"
+          },
+          {
+            "from": 571.94,
+            "to": 575.03,
+            "text": "也可以点击视频下方置顶蓝链直达会场"
+          },
+          {
+            "from": 575.03,
+            "to": 576.71,
+            "text": "然后是我买的一个面膜"
+          },
+          {
+            "from": 589.729,
+            "to": 592.84,
+            "text": "这种颗粒式的涂抹面膜就会比较适合懒人"
+          },
+          {
+            "from": 602.16,
+            "to": 603.79,
+            "text": "这一款我特别喜欢"
+          },
+          {
+            "from": 603.79,
+            "to": 605.91,
+            "text": "接着还有两个没什么用的"
+          }
+        ]
+      },
+      {
+        "start": 718.51,
+        "end": 913.26,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "明确延续题目中的新衣服开箱，试穿白长袖、粉外套、格子衬衫和背心，讨论面料、配色、价格以及抬手受限、要不要退留等实际体验；没有独立平台购买号召，不因服装品牌出现就跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          718.51,
+          718.51
+        ],
+        "endUncertainty": [
+          913.26,
+          1053.7
+        ],
+        "evidence": [
+          {
+            "from": 718.51,
+            "to": 720.03,
+            "text": "再跟大家讲两件衣服吧"
+          },
+          {
+            "from": 730.6,
+            "to": 731.95,
+            "text": "都是AAAD的"
+          },
+          {
+            "from": 743.84,
+            "to": 746.24,
+            "text": "然后他的脖子这一块我觉得也很舒服"
+          },
+          {
+            "from": 772.94,
+            "to": 775.22,
+            "text": "现在这个天气穿肯定是太热了"
+          },
+          {
+            "from": 813.04,
+            "to": 816.54,
+            "text": "这件衣服就属于是有一点小贵"
+          },
+          {
+            "from": 860.75,
+            "to": 862.67,
+            "text": "虽然我觉得他是有点小贵啦"
+          },
+          {
+            "from": 865.38,
+            "to": 867.44,
+            "text": "就是不太方便"
+          },
+          {
+            "from": 869.02,
+            "to": 870.9,
+            "text": "它就是会一直会往上跑"
+          },
+          {
+            "from": 870.9,
+            "to": 873.38,
+            "text": "然后我手也抬不起来"
+          },
+          {
+            "from": 888.71,
+            "to": 890.89,
+            "text": "其实本来我还蛮喜欢那件衬衫的"
+          },
+          {
+            "from": 892.17,
+            "to": 894.12,
+            "text": "我发现我还是更喜欢背心一点"
+          },
+          {
+            "from": 899.91,
+            "to": 901.77,
+            "text": "在想要不要留一件呢"
+          },
+          {
+            "from": 910.14,
+            "to": 913.26,
+            "text": "跟这条裤子还挺搭的呢"
+          }
+        ]
+      },
+      {
+        "start": 1620.46,
+        "end": 1635.467,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "结束日常内容后，以即将七夕为铺垫重新点名本期赞助，明确要求淘宝搜索大牌美妆补贴并说明淘金币抵扣，以节日祝福收尾；为单独的赞助重申与消费号召。补看发现淘宝促销浮层在“拜拜”时仍显示并逐渐淡出，因此包含告别与遮镜头收尾至1635.467秒黑场；实际抽帧边界在1635.2–1635.467秒之间，随后为吃面日常片尾。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_plus_targeted_visual_samples_0.267s",
+        "startUncertainty": [
+          1620.46,
+          1620.46
+        ],
+        "endUncertainty": [
+          1635.2,
+          1635.467
+        ],
+        "evidence": [
+          {
+            "from": 1617.48,
+            "to": 1620.46,
+            "text": "这期视频就先录到这里吧"
+          },
+          {
+            "from": 1620.46,
+            "to": 1622.48,
+            "text": "下周五也就是七夕节了"
+          },
+          {
+            "from": 1622.48,
+            "to": 1625.2,
+            "text": "最后口袋看一下本期视频的赞助"
+          },
+          {
+            "from": 1625.2,
+            "to": 1627.02,
+            "text": "淘宝搜索大牌美妆补贴"
+          },
+          {
+            "from": 1627.02,
+            "to": 1629.56,
+            "text": "可以给自己和她也准备一个七夕节礼物"
+          },
+          {
+            "from": 1629.56,
+            "to": 1631.28,
+            "text": "有淘金币抵扣更划算"
+          },
+          {
+            "from": 1631.28,
+            "to": 1633.44,
+            "text": "提前预祝大家七夕节快乐啦"
+          },
+          {
+            "from": 1633.44,
+            "to": 1634.48,
+            "text": "拜拜"
+          }
+        ],
+        "visualEvidence": [
+          {
+            "time": 1632.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-001.jpg",
+            "sha256": "3159ffda74e8542c8222fd2c13234f2b04cf0a79aaee8a144978be5fd88738b2",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1632.267,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-002.jpg",
+            "sha256": "f6595e5999db923667bb75fa058e93206ad151adbae349bf050a2b850f0172a1",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1632.533,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-003.jpg",
+            "sha256": "33babcd611806adc37f46e3dc71b0090196d762b6dc4503dc6fd28f740d3d17a",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1632.8,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-004.jpg",
+            "sha256": "d0875a4cdc1acb495d8d79d5c5804dbbc36b8215b29cfb8e9fd64e99bfc680aa",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1633.067,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-005.jpg",
+            "sha256": "b611c11fdff53fcf68b6593d6843a139d69638add46ba90bbe9f9091428fe672",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1633.333,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-006.jpg",
+            "sha256": "cf6fb10a82b57351b0d713f23a32551072042889f437359f2be8c200f464fa42",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1633.6,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-007.jpg",
+            "sha256": "7558e09f402cfb33be08edd1a3742d6ae81c2ed537c77ab294134dba3114b1af",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1633.867,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-008.jpg",
+            "sha256": "98f8bef41048e1fe4454214cff06238a4795879fad004cbca9246cb6574a056a",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1634.133,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-009.jpg",
+            "sha256": "180fe789b14c8d0d535c16efd8705f159615085cde1c77c4aad2203182bb3d5c",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1634.4,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-010.jpg",
+            "sha256": "3e8eb27b2c155b751f9d433c103d1c96ae3d6b83076350e37db5acf1ce0c601b",
+            "observation": "淘宝搜索大牌美妆补贴的促销浮层仍出现，伴随七夕祝福及挥手告别。"
+          },
+          {
+            "time": 1634.667,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-011.jpg",
+            "sha256": "e2286a2c5a7075748336ed8541dbc1634521a43886a549fef9c122eaf73565b0",
+            "observation": "促销浮层逐渐淡出，告别后手遮镜头转黑场。"
+          },
+          {
+            "time": 1634.933,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-012.jpg",
+            "sha256": "ff8ea3c5220c3ad64460fac079f7318aed054f9389781c584eb880521af8061b",
+            "observation": "促销浮层逐渐淡出，告别后手遮镜头转黑场。"
+          },
+          {
+            "time": 1635.2,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-013.jpg",
+            "sha256": "430362daeacd530f0bf38ff3a44cc4bcdb6776cfe34a56eeb2dd278c4f31c7c8",
+            "observation": "促销浮层逐渐淡出，告别后手遮镜头转黑场。"
+          },
+          {
+            "time": 1635.467,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-014.jpg",
+            "sha256": "a9cdc4b6632b4302180f7e3f143e2d88a4b30a53216a7b6a9aaa2c01c1517e03",
+            "observation": "促销浮层逐渐淡出，告别后手遮镜头转黑场。"
+          },
+          {
+            "time": 1635.733,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-015.jpg",
+            "sha256": "95b4b6eb292a3a3be7ed557ea911f62029cb8feea18f8fddf75ea8811171d188",
+            "observation": "促销浮层逐渐淡出，告别后手遮镜头转黑场。"
+          },
+          {
+            "time": 1636.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-016.jpg",
+            "sha256": "c64d69fc7c485602de7b87f1ee52dd0a84c3e936f39434cfe1da7952266a2a3b",
+            "observation": "黑场后回到吃面日常，画面显示下周见，没有促销浮层。"
+          },
+          {
+            "time": 1636.267,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-017.jpg",
+            "sha256": "a2c779ece2ad139cf9570159137ae90ee2f0c388e131114e1194512cbc55fa6c",
+            "observation": "黑场后回到吃面日常，画面显示下周见，没有促销浮层。"
+          },
+          {
+            "time": 1636.533,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-018.jpg",
+            "sha256": "e6d5c5e714e84c22309c524a150c982fd1fc8d52ba4a3f5fbf43a400565dd3b9",
+            "observation": "黑场后回到吃面日常，画面显示下周见，没有促销浮层。"
+          },
+          {
+            "time": 1636.8,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frame-019.jpg",
+            "sha256": "05a833a8d73bdaee020aa6cc252fce26d80fe5da7353f6bb572ec6c02904f701",
+            "observation": "黑场后回到吃面日常，画面显示下周见，没有促销浮层。"
+          }
+        ]
+      },
+      {
+        "start": 135.239,
+        "end": 150.66,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 134.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-001.jpg",
+            "sha256": "e2ea5a9ee549c5f2db927bf0f33f2ba762aab98dde289c8886d48b3902dba36e",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          },
+          {
+            "time": 137.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-002.jpg",
+            "sha256": "d2d0c0774de0024d701cfba0325b580e8254d760bfd4a641a750db167f80543f",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          },
+          {
+            "time": 140.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-003.jpg",
+            "sha256": "67c7b3f303b39ae6e0fa3e1448ae8d90825bdbd61a17086ef1a1ff47373d0a3c",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          },
+          {
+            "time": 143.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-004.jpg",
+            "sha256": "3050de77e07fe17b4203a2c42a855b2dd3957670acb81923378d3dc20e2cd083",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          },
+          {
+            "time": 146.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-005.jpg",
+            "sha256": "bba3fd5c0ff0b33fd057eff2f800ced4289f8eba80b8e8aa2ec835287cf1abe3",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          },
+          {
+            "time": 149.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-006.jpg",
+            "sha256": "474aff1b7095742601a3dd59e2f767f515599973a6354bbc271b5bbfa60858b8",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          },
+          {
+            "time": 152.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-007.jpg",
+            "sha256": "4dd9d69bf36d0374bc44e64310df32eb1d7976b62416bdd1adec9982681b6b82",
+            "observation": "打开焖饭锅，放松茸、淋酱油、盖锅继续焖煮，是食谱制作过程。"
+          }
+        ],
+        "startUncertainty": [
+          134.0,
+          135.239
+        ],
+        "endUncertainty": [
+          150.66,
+          152
+        ]
+      },
+      {
+        "start": 153.98,
+        "end": 168.34,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 155.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-008.jpg",
+            "sha256": "46c322d1a92c451d3ae237709ebbf4f4c0b049770e0ad8787a0cc2f9f7e655d5",
+            "observation": "展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。"
+          },
+          {
+            "time": 158.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-009.jpg",
+            "sha256": "9521eaf5305afb074b805ff5bcdfd68a34c21a8ab7e32f9106ce5a1b7058f589",
+            "observation": "展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。"
+          },
+          {
+            "time": 161.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-010.jpg",
+            "sha256": "5f3accee6398e84822ce9c33e4319793ecc8b9281af58f76d1643818046cffbb",
+            "observation": "展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。"
+          },
+          {
+            "time": 164.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-011.jpg",
+            "sha256": "30814b65fffe49832460a471c794d0e779c0c5151bd408ae0a7816c967dd89a9",
+            "observation": "展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。"
+          },
+          {
+            "time": 167.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-012.jpg",
+            "sha256": "56fc0f649e083a6cb523aeb2be2b1ea4364e5ec5fffe0b47ebd15211297d60db",
+            "observation": "展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。"
+          },
+          {
+            "time": 170.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-013.jpg",
+            "sha256": "add0cb659496297ce2dbca20a2cdc1b64f26ef7d33b949f9dbb841f7d607e327",
+            "observation": "展示并翻拌松茸排骨焖饭、盛出锅巴，是料理成品过程。"
+          }
+        ],
+        "startUncertainty": [
+          153.98,
+          153.98
+        ],
+        "endUncertainty": [
+          168.34,
+          170
+        ]
+      },
+      {
+        "start": 182.78,
+        "end": 196.92,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 182.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-014.jpg",
+            "sha256": "1a8b740f9fae0c1830de291683101f4b2741d79a8521850a356da3232965e4c2",
+            "observation": "展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。"
+          },
+          {
+            "time": 185.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-015.jpg",
+            "sha256": "0d406814d01baee894623985075f1df3fe8201fb9870a96c717e72968ac185c4",
+            "observation": "展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。"
+          },
+          {
+            "time": 188.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-016.jpg",
+            "sha256": "9e71f3f4efa85c7d5b8560d6c81a737760d6a7583e145f2d2089bd2e88c2df7a",
+            "observation": "展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。"
+          },
+          {
+            "time": 191.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-017.jpg",
+            "sha256": "c898c2ce1219675f742bb0a3083f66e8ac1a3ba8e98b2790d79ed694f707e4ae",
+            "observation": "展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。"
+          },
+          {
+            "time": 194.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-018.jpg",
+            "sha256": "843330cf71a018624b40118120dfa4eaf59439343b941eb7d92e25d904de8904",
+            "observation": "展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。"
+          },
+          {
+            "time": 197.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-019.jpg",
+            "sha256": "dab0ccef926a337359df4647fe269882f24d31f7aa645f6db4c677f420d63d80",
+            "observation": "展示松茸鸡汤及调味、舀汤，与前后烹饪和用餐主题连贯。"
+          }
+        ],
+        "startUncertainty": [
+          182.0,
+          182.78
+        ],
+        "endUncertainty": [
+          196.92,
+          199
+        ]
+      },
+      {
+        "start": 204.94,
+        "end": 221.66,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 204.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-020.jpg",
+            "sha256": "21c8397c2d1f0f867bbadbdbbeb8f81117ab101b21bf6e6dec8b169d050d8371",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          },
+          {
+            "time": 207.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-021.jpg",
+            "sha256": "bdc629ad7666da80e688ca9f350206812b631c5cbdb2b222363eca1714ce5345",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          },
+          {
+            "time": 210.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-022.jpg",
+            "sha256": "128ea257d6cbca36da9fbe500fc1948d53d739057a171794073657200f3adc08",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          },
+          {
+            "time": 213.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-023.jpg",
+            "sha256": "59bc8fe316b1f185101ac4a0231f21837b927a9b501ef9b2cd3b19c0a610e86b",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          },
+          {
+            "time": 216.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-024.jpg",
+            "sha256": "4fb7e15aaccbe7ae5f3da8204efbdb5c0ae30107ca4e833a35bdca8606fb2b95",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          },
+          {
+            "time": 219.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-025.jpg",
+            "sha256": "da5b927c66d9b0c92c85261da02b865efbadd4329c8404bc8746c9519d455c81",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          },
+          {
+            "time": 222.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-026.jpg",
+            "sha256": "decedf9a8c7373672af1993f463f299bc1e1bb8101351d3726c84eb6e734cf7d",
+            "observation": "鸡汤放葱花，餐桌摆出焖饭、鸡汤与蔬菜，属于制作和吃饭正文。"
+          }
+        ],
+        "startUncertainty": [
+          204.0,
+          204.94
+        ],
+        "endUncertainty": [
+          221.66,
+          223
+        ]
+      },
+      {
+        "start": 276.7,
+        "end": 349.16,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 276.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-027.jpg",
+            "sha256": "eed6ec8f1724e503a95f478003f7b5bda5490f55566ccc66bdfaf6ed8437a54e",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 279.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-028.jpg",
+            "sha256": "31f9c546f920dc6fa63bd61b637af9fb5d71cc180f33f2d0edd3656d5400e5fc",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 282.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-029.jpg",
+            "sha256": "36faa94cea069bfc1d4d09fbedcdacb8d7fd782a19b5ffc3fd9e082b9155db2d",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 285.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-030.jpg",
+            "sha256": "5089a10af5a266e6a703fe3d1f3ac8fc77e4401ee9e130e3235b7db3dc6ca3d6",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 288.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-031.jpg",
+            "sha256": "f413edf10f1a9d377159887e7cfce0907427b0e49db52dcc7d6ff2b2236d3500",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 291.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-032.jpg",
+            "sha256": "2dafbeb73aaaccd444a4c64ac445974169cf4ab8b399edfa10907e60b6c83211",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 294.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-033.jpg",
+            "sha256": "4a910a7e3276544269f2ae71a757bd86124aafb7137673b1c0b522507383de48",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 297.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-034.jpg",
+            "sha256": "32759b5d6eb4ccd5057d175c05eeb52bd64f24f3ff36430db7984636f055c4d4",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 300.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-035.jpg",
+            "sha256": "a7324db22d04fd6b09583e3de13d8c627d761bb384f72a849fe51f176b88489c",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 303.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-036.jpg",
+            "sha256": "d1b613b99d68693aa2a67810dc3ce24f912acc05586bdf04fc2bb169fdbe031f",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 306.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-037.jpg",
+            "sha256": "38b84e44f2924f44de019d27e6fbac2c3c98a7f8918e2d691f6ddf2f056343a4",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 309.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-038.jpg",
+            "sha256": "36378df209708fe05d9a8530a3c04a1c0d2107ffa02988c6df19866f1e33947a",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 312.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-039.jpg",
+            "sha256": "ea1501124e50feb50a374710a82e45005bc80aba354b98f75198743317cfdb6f",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 315.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-040.jpg",
+            "sha256": "3f6f0a6e049f9a99abd917a826fff2c4c1695f8a36dd360f711d11e0ac3fcd86",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 318.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-041.jpg",
+            "sha256": "02bc912f87c52d2bbf10f91c486dbd93b2b67a26c30bd58dbd32a298c512a2a4",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 321.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-042.jpg",
+            "sha256": "bba045ee6f53a207dcc98c5492d11aaca26cab3f914a7c26714b043ffb7d90ab",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 324.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-043.jpg",
+            "sha256": "b9eec81f592a49f5eb41571af98f52f6ede99e83f652180fd05d0e5e81a9cc20",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 327.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-044.jpg",
+            "sha256": "78346461a3f548716b588de6578f25f4d0ee938fe7d662e17a80287f444180a2",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 330.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-045.jpg",
+            "sha256": "df1125afb9ec08515d211eda26618631b3e609d2e762bc442fe0d724fcf4647c",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 333.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-046.jpg",
+            "sha256": "16c4f886977da55a7072c51dff134097ac7ab8258579d34321fd8d4f560798b0",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 336.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-047.jpg",
+            "sha256": "5be876dcaff255a2f0fdfec38c964ac736aa32bd408efeae11f2378c5de4bc9b",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 339.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-048.jpg",
+            "sha256": "829ca362776ff50dd2f4368242d85372eff27b5dcdea6c492389ac706bbc6e41",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 342.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-049.jpg",
+            "sha256": "8667368e65fb158c5e8f4bc61c3836e5c086b003a57cbd58a03859bf40018a17",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 345.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-050.jpg",
+            "sha256": "b3e51dec92ec1013728767a08515ed369c0b4721ae3bd64439757c77ea377ed3",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 348.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-051.jpg",
+            "sha256": "66498a96bc4a4c56ee16c10fcd8e71882fa901ccef54e79900cceabe3c0d8078",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          },
+          {
+            "time": 351.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-052.jpg",
+            "sha256": "9591a272f95900fc8f9a56be6ed3f1561ce89215cf75f24a50d9253ebdcd353d",
+            "observation": "先去迪卡侬试泳帽，再游泳、看窗外风景、吹头发、展示运动数据，隔日制作挂耳咖啡、加热司康。属于日常活动实录，泳帽与咖啡设备未形成独立购买号召。"
+          }
+        ],
+        "startUncertainty": [
+          276.0,
+          276.7
+        ],
+        "endUncertainty": [
+          349.16,
+          351
+        ]
+      },
+      {
+        "start": 441.02,
+        "end": 460.38,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 440.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-053.jpg",
+            "sha256": "8ca12101b35beaab08d8850ddbeec29006aa903ef027af2272155f347385f6a4",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 443.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-054.jpg",
+            "sha256": "d64fa2e6cefd2c8b8089023dcaf5d48ccfada6a9595d18e197de962c4b85eede",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 446.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-055.jpg",
+            "sha256": "e504327c2e0aba300990d65b12c97c9ea2a7cbcee28cc6cc326347bab2a62ca7",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 449.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-056.jpg",
+            "sha256": "be6f7091716d6d9ff428753f178504d8ebfa2c34c15bdc6e876e65426b3d1ee0",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 452.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-057.jpg",
+            "sha256": "cefe83a894b03aa36e6d2457433b6e0f1559059e422b33589ed4a6fe25159d35",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 455.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-058.jpg",
+            "sha256": "c3d8045a13a293da3a1ddfb440a95a85e5ce0da487464d1317441d206d166a19",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 458.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-059.jpg",
+            "sha256": "969d218d70bc6bbb2ac658991f14de532dd78bfbf3e8bf6d1106ace12102b891",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          },
+          {
+            "time": 461.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-060.jpg",
+            "sha256": "abe19506b26522c20eee29ccff67afe8a3b505bde5139c2614d9e0941f957174",
+            "observation": "坐在窗边吃早餐、看手机、与猫相处，画面文字讨论猫毛过敏和周末让猫进房间，没有新增推广。"
+          }
+        ],
+        "startUncertainty": [
+          440.0,
+          441.02
+        ],
+        "endUncertainty": [
+          460.38,
+          462
+        ]
+      },
+      {
+        "start": 913.26,
+        "end": 1053.7,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 912.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-061.jpg",
+            "sha256": "2ecd2df40129d3fff6594bcb5dc6763971a021f21a4355c124676105780af92e",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 915.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-062.jpg",
+            "sha256": "a78c047a0d42e42dc3f94d868f4465f63ddf0d6c1508d9c2878aa2d4a7d9dd52",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 918.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-063.jpg",
+            "sha256": "6ab77b3db59851218830e62fe7e1ce18a953b3b6a96d29e6eba8a407acd03d63",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 921.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-064.jpg",
+            "sha256": "5280b5cbadd0ac7e54399cca3fb66f193b583dfc566d747ff30cb6f9946946e4",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 924.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-065.jpg",
+            "sha256": "65fff6f111f4b8af3e01b2bfe03d6416b72cc72fb8dcd6ce67af8a3c63555f2c",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 927.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-066.jpg",
+            "sha256": "3b4d14859521f14cd550cb653d55741e9135e2645419efe097138e90d5983d80",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 930.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-067.jpg",
+            "sha256": "4bb7c8e3d2ee6b33885c7751c0121a4296575ffc942652b32a1fdba2854ebf57",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 933.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-068.jpg",
+            "sha256": "caab65c5e506a17655aa7e9f845cb9691ea59deba1210143278920bff281fb18",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 936.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-069.jpg",
+            "sha256": "bb28ec9f64ce7e39867702e8503338e0b97a0ca658c7ea68dc427cb369b269e0",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 939.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-070.jpg",
+            "sha256": "f32fde9d5c103505e6ca12a35e3f452348579dc90196aaceaaf9da42c4e04829",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 942.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-071.jpg",
+            "sha256": "de7e03ae29c8b3f6e30cb5074616d4ff1b115b10d7fe7082e7160a1c23a8aa18",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 945.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-072.jpg",
+            "sha256": "bc03bb3cb6132a8f734e2b6034532e5163c12b3e97f13c564f4a44d27d21b8ed",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 948.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-073.jpg",
+            "sha256": "fee5822c77e92ddd582faaa497e79bcef8ddcfafb6ec3340022d844164fa14b3",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 951.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-074.jpg",
+            "sha256": "30b397c6835df7e4b6dd26a03c29524e44d5d62df15190165502a06092adfdd1",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 954.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-075.jpg",
+            "sha256": "d0b06e1efc914f99c10baca34b65036ad784abf936aa7c8595b77d5b928ce935",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 957.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-076.jpg",
+            "sha256": "5940962b3295971b5b81854d9c26e4e52cd476fade8e16351520fa22f92726da",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 960.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-077.jpg",
+            "sha256": "8ea84ca9da7f1c8039644797b88d864dfa25c56ff29ed6b0a1b6f9b9445911c8",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 963.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-078.jpg",
+            "sha256": "754a6f3b5cf5b98c19e96eb9ba5abfd52d3c3609c56685c284a2ebedc2b19854",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 966.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-079.jpg",
+            "sha256": "90ea3852b09fe77a15e28a900b43363834b268f90d1fb6961b811a36c9a405a8",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 969.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-080.jpg",
+            "sha256": "9ab5014a958165fec0d1881262ad092ac358229adf29e444f016a52e6c16b871",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 972.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-081.jpg",
+            "sha256": "7886e3c1b40afaf129ec426ed54c0d501442f9d721cce4a6b7becfa72c085334",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 975.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-082.jpg",
+            "sha256": "eb061d0c639a23cfd42ec04d721755141e8421fabc234b7f6c15a88e21f717d3",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 978.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-083.jpg",
+            "sha256": "d37f9f594ceb1f92b06092856b95522ab77f65b21d03df5dd4f113dda43a4cdb",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 981.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-084.jpg",
+            "sha256": "5f5abb65baa26b1d1550b306cfd73b7ed86c1a1faddc9632b99059d22aeadbea",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 984.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-085.jpg",
+            "sha256": "6cb3015bd3befe007802a48a42445668d9e24602ce8db29bd59045711fa9e827",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 987.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-086.jpg",
+            "sha256": "ef902b90205974802d5ddc9185a7176b4b0c4615760fc3966401d3727d658eaa",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 990.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-087.jpg",
+            "sha256": "07d5a1d99603f10ca537119364e47173051175e55406824d3d6b6d8998c8957c",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 993.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-088.jpg",
+            "sha256": "231871fb1e54f7a3cf9304707f5bf53a54ea88d87144f8540c9b8f1c312edc73",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 996.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-089.jpg",
+            "sha256": "c83be667f2f5484739efee65701f0811e8791a5baf0183e254c3bbaec9992eaa",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 999.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-090.jpg",
+            "sha256": "3d6f8e2a883322e21977b614e3e09297bf2e57c4c9da0142d028718eae600094",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1002.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-091.jpg",
+            "sha256": "558374edbf9ee6bf89d89dd80f869084894d14ca419599b83fb32cc17f5fb932",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1005.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-092.jpg",
+            "sha256": "b2901fdb2cd689966eca1465f4a3ae67a0336773d322aef9f8f225b0377bc531",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1008.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-093.jpg",
+            "sha256": "19ac4ea8dfd5bb7c46b29d3ba6693ef7008eefbf51737242e14caadeb80efade",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1011.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-094.jpg",
+            "sha256": "bc94047ba5a10a5ca672d5a2de3e821ba403ab75aad749f9705cc761b5dc5f1f",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1014.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-095.jpg",
+            "sha256": "1d4e0ddaa189ccb774a38ab812232fee7020dfbebdeb50cf58b92f8aa858ddd9",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1017.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-096.jpg",
+            "sha256": "7c69fabceea93de0c63045319e1b42407d5fd569e5297c3a125dffb9b6a95da2",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1020.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-097.jpg",
+            "sha256": "5dabff0888435d5b313f5a1cadb927293816c53b735567bcc88708d5f73c4680",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1023.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-098.jpg",
+            "sha256": "8fa39036bd0519c40821ec048169d8a0ded35e6c8815bc48c66c7a3092e3c451",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1026.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-099.jpg",
+            "sha256": "c5e62557e6e476a76df303564c9eeefda6a44170ca51b96234fbfcddc844a868",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1029.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-100.jpg",
+            "sha256": "7f5caca378e89cea6bd77ff33fe8681b72891c6324b48f5172c1abb229b72214",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1032.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-101.jpg",
+            "sha256": "2e2298acaf3c9db999a63e9c5be6bc48838ec578b641ff9a437c4b506059a9dc",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1035.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-102.jpg",
+            "sha256": "abbee1aeb6964b39cb3081fda5b8b82a097d2c538e5475edf22124781ba0c67e",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1038.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-103.jpg",
+            "sha256": "4e92c23a39d82d44f4204b395558e892830c2d557126f3d57962792eca189970",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1041.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-104.jpg",
+            "sha256": "1d54ea34872ace9fb45f06d7174a120597f760cdb131876c21b858eca9f3ab72",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1044.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-105.jpg",
+            "sha256": "efa9d82de64a7e229a3162487d2d183b533bf73f5b3533567c5bc48896840207",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1047.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-106.jpg",
+            "sha256": "b3755463798d905e3a0b0221136de09821d3f0bd4c04fccaa7197990deae09fa",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1050.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-107.jpg",
+            "sha256": "082592ed8d95d555db5100657f175fe4f36349d8ea248052253901c865ed2556",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          },
+          {
+            "time": 1053.017,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-108.jpg",
+            "sha256": "133872ddaae3d1a45a26e99e59da8203858ad5c1feb44387699376edb5a95b35",
+            "observation": "试衣收尾后转8月18日喂猫，接着选咖啡豆、研磨萃取、饮用、办公、打包coxxee纸袋和公司食堂午餐。包装品牌是工作记录中的商业露出，画面未见商品卖点、价格或独立购买号召；与日常工作主题连贯，应保留。"
+          }
+        ],
+        "startUncertainty": [
+          912.017,
+          913.26
+        ],
+        "endUncertainty": [
+          1053.7,
+          1056
+        ]
+      },
+      {
+        "start": 1196.58,
+        "end": 1209.28,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1195.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-109.jpg",
+            "sha256": "5cb95c187dea9eda19c3a03c46bdbe68a531bc57095356d8f6966581e2cd3ae2",
+            "observation": "与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。"
+          },
+          {
+            "time": 1198.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-110.jpg",
+            "sha256": "7d973ea3beb2df628b266291b03387f0c8e63e604e71a9201f2ed8dd3c896f19",
+            "observation": "与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。"
+          },
+          {
+            "time": 1201.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-111.jpg",
+            "sha256": "10ec346187f91f9438a9d8bd91bdee7b9a439cbce9baf0a87c08bc80af2705d1",
+            "observation": "与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。"
+          },
+          {
+            "time": 1204.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-112.jpg",
+            "sha256": "186d5f24ccfee95a41ef59d8369cbc0d0d557f9d5f1f6a519915aff6a4ff494a",
+            "observation": "与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。"
+          },
+          {
+            "time": 1207.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-113.jpg",
+            "sha256": "7641eb0780436c90f6fb3066c4a3790b1eab54c77e8529c31608b9459f882375",
+            "observation": "与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。"
+          },
+          {
+            "time": 1210.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-114.jpg",
+            "sha256": "f5c5f7383e0b347f5b8ae2b358dc951f5dbb15e6ce251671ae39c4764bbd2053",
+            "observation": "与好友外出后展示上海街头和骑车，画面文字表达喜爱上海及毕业后工作回忆。"
+          }
+        ],
+        "startUncertainty": [
+          1195.0,
+          1196.58
+        ],
+        "endUncertainty": [
+          1209.28,
+          1211
+        ]
+      },
+      {
+        "start": 1221.11,
+        "end": 1240.46,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1220.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-115.jpg",
+            "sha256": "0552ce087a26a35bbf22d36179347f328934a666f0c94dbd08bbefc7fcb5f7d1",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1223.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-116.jpg",
+            "sha256": "4b6c02ce5458acd3d14880729fcadd4a472c0619842a09dd82afbd5a88512d5b",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1226.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-117.jpg",
+            "sha256": "c819353c01ba891b294d83db12b85da69616a090aece9d7508c4dc1ad83161f0",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1229.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-118.jpg",
+            "sha256": "65260f3ec025af8bb6c55b74ff6a798f6717b8044f3775a56130f71da4567574",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1232.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-119.jpg",
+            "sha256": "570124c945edf5e22cfffec234104d409a8c4809e8b6c43f34e418f85d02500c",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1235.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-120.jpg",
+            "sha256": "542c2977a392a18a377092e11f7a4dbe6b6cfc49d5864626f2f99e1a1ac857be",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1238.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-121.jpg",
+            "sha256": "788e3d1435ceb323a5df164bdda8fdcdaf4a453f604387033ef8584d9bb722e1",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          },
+          {
+            "time": 1241.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-122.jpg",
+            "sha256": "77500a9e41fe9c419970638b6b3decbfa881fae75e4114248a3edf5c8deb98d3",
+            "observation": "温州菜餐厅看海鲜点单、展示菜肴与赠送杏仁豆腐，属于与好友聚餐体验，无独立促销。"
+          }
+        ],
+        "startUncertainty": [
+          1220.0,
+          1221.11
+        ],
+        "endUncertainty": [
+          1240.46,
+          1242
+        ]
+      },
+      {
+        "start": 1288.6,
+        "end": 1319.12,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1287.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-123.jpg",
+            "sha256": "4f83df3df19d06b7bc33cb2fa0c13476646719a66228c388055a4587435e1752",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1290.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-124.jpg",
+            "sha256": "85f6cc566f04c2b49e02e6e543b339ce7c67c1d72bb1b9987bc807bb3f159852",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1293.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-125.jpg",
+            "sha256": "a74acf6648b9534821208e475af08c088f190cf57d33d1ae1feb1e685d72b1f3",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1296.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-126.jpg",
+            "sha256": "186253ed489ff5f90dbf0d45aa56f151780245501fd674f69b3519184fb55dbd",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1299.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-127.jpg",
+            "sha256": "1774cf75d633f5a07e7a6879cf97030a9bed24caf3fac9ab2dca4c75a8f5a68a",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1302.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-128.jpg",
+            "sha256": "565f703bd897a7067266248b3bfa2734eb5117c8338901bf69d0539f380b274a",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1305.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-129.jpg",
+            "sha256": "82f4371c5bb3dc5bfc33f55b54d1d3da3db9bb735b4738881b556dbd6b424f8a",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1308.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-130.jpg",
+            "sha256": "bf8ce232fe0ff61084215d647f803379abcf12bd56bedc44a2d5b819bf7ed7c5",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1311.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-131.jpg",
+            "sha256": "a912eb0e983b135616f92aebeaedc09a605ea1fdbb85e9af8fc94f33f874b55a",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1314.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-132.jpg",
+            "sha256": "0856e9dd3937663b80ede501c69bb0e8db7830958ffa7e9efa832bf265c9bc76",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1317.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-133.jpg",
+            "sha256": "d471d3b4cfda07b4d932d29c29a84aea512aa7a802de99a77426c5bff825147f",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          },
+          {
+            "time": 1320.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-134.jpg",
+            "sha256": "5bf646973a416bee4c75ff9963e5f5997f9ee531c8f14551d3809c6493367f21",
+            "observation": "与朋友吃蛋糕、聊天，展示蘑菇造型甜点，随后日期变为8月19日并回家喂猫；属于朋友相处和生活记录。"
+          }
+        ],
+        "startUncertainty": [
+          1287.0,
+          1288.6
+        ],
+        "endUncertainty": [
+          1319.12,
+          1321
+        ]
+      },
+      {
+        "start": 1331.82,
+        "end": 1357.7,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1330.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-135.jpg",
+            "sha256": "f624e9941b899092e2c8657b6f691a58939ab0d10c06bc3811925fff10bed50b",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1333.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-136.jpg",
+            "sha256": "f17a3818b1a2dc3a5747a23e5560440067224af1605e800b1c0ca9a1b6aaecbc",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1336.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-137.jpg",
+            "sha256": "370071be2d35c3076198cbf844e548e6d610866b2e343e7a54e1f09cfda29668",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1339.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-138.jpg",
+            "sha256": "46439cc52c34d71c0aa420d49a7c17b378da53e3706dee5deea9b5565e7feb2f",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1342.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-139.jpg",
+            "sha256": "dd4669e485bc29b7f67767c3bfc18a64f95fa648fbb2e8934f2645471b423fca",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1345.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-140.jpg",
+            "sha256": "e660845705c274526097738fd73d19d0d712c9edce7bb2bb1d67c61e4aa2fcb5",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1348.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-141.jpg",
+            "sha256": "6d15573f82459aa47f543cee3bdda247d95e5b859c5f7a1321f62bfb93879574",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1351.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-142.jpg",
+            "sha256": "e79e578dccb079ff0671e0654b88910c20114f94de7007843c8f82d579eda571",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1354.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-143.jpg",
+            "sha256": "5bb3de6d116d53ff766431935206b6ffec911b1b43748786e73cba6987ff0b58",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1357.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-144.jpg",
+            "sha256": "68a5576ee5fe53660793aa5eec8a9a219a8bbd38e8374701a102ef08393632f3",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          },
+          {
+            "time": 1360.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-145.jpg",
+            "sha256": "0d67b02bec9e090687b18c17572ea1e0c37c26b4a6f71bc512619f16b46263f0",
+            "observation": "猫咪添粮、摸刚洗澡的猫和自拍，画面文字说猫胖又心软喂了一点，与养猫生活主题连贯。"
+          }
+        ],
+        "startUncertainty": [
+          1330.0,
+          1331.82
+        ],
+        "endUncertainty": [
+          1357.7,
+          1360
+        ]
+      },
+      {
+        "start": 1363.58,
+        "end": 1379.15,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1363.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-146.jpg",
+            "sha256": "05fe4a84d62b0f82b65eae60f95d58f0672638d5d6d62249f7558fa7cc08250a",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          },
+          {
+            "time": 1366.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-147.jpg",
+            "sha256": "3e798ef0ba1156a555010d35cb186b11b9c463c3e5a6413deb4e6e401badd975",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          },
+          {
+            "time": 1369.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-148.jpg",
+            "sha256": "7028bcbec8efa8aa510993dca6fb9ace6fe2f92179e7f7a3a8383d935c4e1b42",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          },
+          {
+            "time": 1372.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-149.jpg",
+            "sha256": "6b25f18b9b4dc0a98969e4d3de7801be47356d800eb89758b88bcbef53a1f600",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          },
+          {
+            "time": 1375.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-150.jpg",
+            "sha256": "3c995e62e87c3e17cfc540d927cbf37f9b4c7a48f603b1d438eb4b2255ddde75",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          },
+          {
+            "time": 1378.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-151.jpg",
+            "sha256": "67059ed2771d25619214fc28c373fb79c256021a84be1920852c8f7652e22dea",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          },
+          {
+            "time": 1381.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-152.jpg",
+            "sha256": "e113ec16089266c8a047b3f27777fc9be4328b365805ff4536c77f94757ba8c6",
+            "observation": "穿搭照后到公司工作，展示杯子打样不符合海浪设想，与工作生活主题连贯。"
+          }
+        ],
+        "startUncertainty": [
+          1363.0,
+          1363.58
+        ],
+        "endUncertainty": [
+          1379.15,
+          1381
+        ]
+      },
+      {
+        "start": 1382.36,
+        "end": 1409.68,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1384.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-153.jpg",
+            "sha256": "a8dc2dab412510aa04788ef7c5af70b39e3bfa3125424a78ca2d0b09d988f872",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1387.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-154.jpg",
+            "sha256": "ac14ded7d4103a8076efeaaa0c6748199041583fd1315c932f27fa20b59f70d4",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1390.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-155.jpg",
+            "sha256": "8cb83905a7c98c826e10608ca5dd642625f0e5b8953fefe51ac45bf09e644d2f",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1393.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-156.jpg",
+            "sha256": "365c3913d4e42d3a04512e6745ed2124125d4431eed780de0fbd659352708ccc",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1396.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-157.jpg",
+            "sha256": "98181552df0a3354477d71757c4ed32a96b2c27ac57045f19b3e8f0dbe2167da",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1399.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-158.jpg",
+            "sha256": "d3d8ea5f29f60ada407e478286c5d22b8069b14364498faa0e205a96ad7272c1",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1402.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-159.jpg",
+            "sha256": "bf052e26c7bd66fd8b89f1b444d12faeae5edac44bc8e4e6a681f6c07a6de1b6",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1405.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-160.jpg",
+            "sha256": "29bb2b0470be085e56411066adb50b32d80c903db656f52b6015495cd54d6d23",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1408.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-161.jpg",
+            "sha256": "acd9fcc0d99a4d2a35ce0d28be9c51e46c6388e2ced6db37d40c93757245664b",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          },
+          {
+            "time": 1411.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-162.jpg",
+            "sha256": "0d0599a5b6c22ef57d163c45403dc18f3eec19591f1e1df55ae17d5baef9c758",
+            "observation": "展示需要重做的杯子打样、制作冰咖啡继续工作，手机聊天约晚饭；不是独立产品售卖段。"
+          }
+        ],
+        "startUncertainty": [
+          1382.36,
+          1382.36
+        ],
+        "endUncertainty": [
+          1409.68,
+          1412
+        ]
+      },
+      {
+        "start": 1411.74,
+        "end": 1424.44,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1411.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-162.jpg",
+            "sha256": "0d0599a5b6c22ef57d163c45403dc18f3eec19591f1e1df55ae17d5baef9c758",
+            "observation": "晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。"
+          },
+          {
+            "time": 1414.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-163.jpg",
+            "sha256": "9a5450c822bffa313e84b186835b7ee9f69c9dfd74ce7cf91af7ce013df4f549",
+            "observation": "晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。"
+          },
+          {
+            "time": 1417.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-164.jpg",
+            "sha256": "dba21f441250cfb7cd439f598abeff83467d463549451a7e446c6a709d996a60",
+            "observation": "晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。"
+          },
+          {
+            "time": 1420.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-165.jpg",
+            "sha256": "00abcf65ff2412eb1bed80ba756d849ce8c8baf642ccb7b35673502156e0142a",
+            "observation": "晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。"
+          },
+          {
+            "time": 1423.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-166.jpg",
+            "sha256": "62e3c49f60d1bfc51e8ec5b410dc27b2aa8b77ad7d0f7b14bba177441d92376c",
+            "observation": "晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。"
+          },
+          {
+            "time": 1426.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-167.jpg",
+            "sha256": "4907f8b74cc40e0ebd9c79dfff82478b38fc0fcf3102b1ad2efb4f33b72c844c",
+            "observation": "晚霞、行车和城市路景，字幕建议下班不要晚于日落，是日常转场。"
+          }
+        ],
+        "startUncertainty": [
+          1411.0,
+          1411.74
+        ],
+        "endUncertainty": [
+          1424.44,
+          1426
+        ]
+      },
+      {
+        "start": 1485.22,
+        "end": 1499.54,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1484.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-168.jpg",
+            "sha256": "54a53fd177869c2f50240a96ba64944add3abab54cba7841aa3b5a8dc1d00517",
+            "observation": "继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。"
+          },
+          {
+            "time": 1487.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-169.jpg",
+            "sha256": "8aff128611ea3b23a8a8b6beb19ae06c83828f5d8f77dc0b9abde276a20009c4",
+            "observation": "继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。"
+          },
+          {
+            "time": 1490.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-170.jpg",
+            "sha256": "72c95c39fcdeac962f9b9c33918ae3edcdcd311928f39ba0a11292ad7333837e",
+            "observation": "继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。"
+          },
+          {
+            "time": 1493.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-171.jpg",
+            "sha256": "bbeb3c8ed0160b3762f5b94235e727ff6aa7e72d757231edac1d3bdf4d12646f",
+            "observation": "继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。"
+          },
+          {
+            "time": 1496.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-172.jpg",
+            "sha256": "6eaf11a92f33bd8299eaeb14983063d9d768db8f72f5ef29dd16e4934094f341",
+            "observation": "继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。"
+          },
+          {
+            "time": 1499.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-173.jpg",
+            "sha256": "a2ecba6280a194e507545c08dbf532eb5d338dadc3b9ee79b626e21256ebbdc4",
+            "observation": "继续刮去燃气灶残胶并擦拭，后转8月20日拆外卖袋，属于装修清洁和用餐。"
+          }
+        ],
+        "startUncertainty": [
+          1484.0,
+          1485.22
+        ],
+        "endUncertainty": [
+          1499.54,
+          1501
+        ]
+      },
+      {
+        "start": 1590.98,
+        "end": 1604.22,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1590.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-174.jpg",
+            "sha256": "f28f9b864d9b6bc854a7ebc8d6aba7635768689522ae390f3ed76d78bf246334",
+            "observation": "筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。"
+          },
+          {
+            "time": 1593.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-175.jpg",
+            "sha256": "5f3c23352adcd18a987f89974dae6200d7e86876ad40379e2dec43727ce35445",
+            "observation": "筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。"
+          },
+          {
+            "time": 1596.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-176.jpg",
+            "sha256": "49da777df8c57d2cb74c00c937d73145b729cfb38579637a9a3bfe31f2b71bec",
+            "observation": "筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。"
+          },
+          {
+            "time": 1599.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-177.jpg",
+            "sha256": "aa7f0460f13db7af9cf92d89763c80117d87b0b2d12da2fd1be32e429281f438",
+            "observation": "筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。"
+          },
+          {
+            "time": 1602.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-178.jpg",
+            "sha256": "809cf73fa66cc518e3999ce177481a7137af13362b1bf7242a95d0d24914f897",
+            "observation": "筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。"
+          },
+          {
+            "time": 1605.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-179.jpg",
+            "sha256": "7cdf571dcb86d49856b9a67b5691b2cb03e15ff3eea77d17f1f2baffaa969e1f",
+            "observation": "筷子挑面、吃面、端碗喝汤，延续外卖午餐。衣服标识是穿着中的露出。"
+          }
+        ],
+        "startUncertainty": [
+          1590.0,
+          1590.98
+        ],
+        "endUncertainty": [
+          1604.22,
+          1606
+        ]
+      },
+      {
+        "start": 1635.467,
+        "end": 1673,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_3s",
+        "reason": "已读全470行字幕，实际查看该缺口及前后约3秒间隔抽帧。片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 1636.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-181.jpg",
+            "sha256": "c64d69fc7c485602de7b87f1ee52dd0a84c3e936f39434cfe1da7952266a2a3b",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1639.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-182.jpg",
+            "sha256": "d47c48e83092893d770ee5829e1e77139f0d892800fd7beeb8f6a2239bee4e27",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1642.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-183.jpg",
+            "sha256": "9ad07f1c1722c5f8bd329acca5a5afa2ecdd488c098c1fd93171018d1dd9d3d6",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1645.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-184.jpg",
+            "sha256": "dfce60e54dc62e10d3b8d9797566d73339c359d7095eb4264272a7368bb13bee",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1648.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-185.jpg",
+            "sha256": "eb52a93eadfd87e21f51190d2cd963ae1cee1d8bbcb59f557e661e67183e26da",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1651.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-186.jpg",
+            "sha256": "35b12b3a217ad84d1b9c235769709a9498db0ddf924e88b3a6903ea0a6d853f5",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1654.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-187.jpg",
+            "sha256": "4fe4f3fe084b04b1df041ca286c08902fdab9f976895dc6ec24e435ac98f98c2",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1657.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-188.jpg",
+            "sha256": "0e495e071e340798ee6bf51572e94d39eca0d4a729e321d8bbcdf28e2a6dbfd9",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1660.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-189.jpg",
+            "sha256": "494f1b85b792058a3f7afc4fc3bfadf2b2864b3322a5993ca3dc0afa0532d139",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1663.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-190.jpg",
+            "sha256": "f7226c037d742f110ca87879f73004a9bbae47f96f7aa1a92f54ce5999934a6b",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1666.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-191.jpg",
+            "sha256": "30ebfc49bb9ce66040e6d5ee745609b283afb6fe3aea0524e92e1bb0293ff4ad",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1669.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-192.jpg",
+            "sha256": "683ff41a14b93405a3c7186a4ca3aa35831ae740e0405ae9ebc05bb5a7146ef8",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          },
+          {
+            "time": 1672.0,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frame-193.jpg",
+            "sha256": "a8ffb1ac24c0ae39fb2877215d9d383e6cd6fb4d2b0798959833257ac866c5de",
+            "observation": "片尾淘宝推广淡出黑场后，回到吃面的下周见镜头，然后焖饭、猫咪、与好友合照和穿搭照片组成生活回顾，尾部黑场；未见新增商品推广。"
+          }
+        ],
+        "startUncertainty": [
+          1635.467,
+          1635.467
+        ],
+        "endUncertainty": [
+          1673,
+          1673
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 23.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 25.02,
+        "end": 32.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 35.54,
+        "end": 62.71,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 69.84,
+        "end": 79.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 81.4,
+        "end": 86,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 87.809,
+        "end": 93.729,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 96.14,
+        "end": 117.12,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 121.24,
+        "end": 129.73,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 131.439,
+        "end": 135.239,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 150.66,
+        "end": 153.98,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 168.34,
+        "end": 175.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 178.74,
+        "end": 182.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 196.92,
+        "end": 198.8,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 199.96,
+        "end": 201.32,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 201.56,
+        "end": 204.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 221.66,
+        "end": 241.13,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 242.35,
+        "end": 247.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 248.06,
+        "end": 276.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 349.16,
+        "end": 357.28,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 358.24,
+        "end": 377.84,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 379.46,
+        "end": 381.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 383.66,
+        "end": 389.15,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 389.63,
+        "end": 409.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 416.74,
+        "end": 425.909,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 425.96,
+        "end": 429.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 429.74,
+        "end": 441.02,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 460.38,
+        "end": 464.42,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 465.65,
+        "end": 473.45,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 473.69,
+        "end": 486.06,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 603.79,
+        "end": 615.39,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 615.63,
+        "end": 640.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 641.88,
+        "end": 657.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 662.02,
+        "end": 666.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 666.94,
+        "end": 675.829,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 676.149,
+        "end": 694.37,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 694.96,
+        "end": 718.51,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1053.7,
+        "end": 1057.72,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1062.78,
+        "end": 1065.3,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1066.86,
+        "end": 1068.62,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1077.62,
+        "end": 1119.3,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1130.1,
+        "end": 1132.78,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1133.98,
+        "end": 1135.28,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1135.92,
+        "end": 1137.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1138.2,
+        "end": 1144.68,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1148.92,
+        "end": 1155.44,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1156.6,
+        "end": 1160,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1161,
+        "end": 1165.08,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1165.51,
+        "end": 1168.39,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1172.66,
+        "end": 1179.18,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1180.61,
+        "end": 1193.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1195.02,
+        "end": 1196.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1209.28,
+        "end": 1216.23,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1216.59,
+        "end": 1221.11,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1240.46,
+        "end": 1256.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1268.02,
+        "end": 1288.6,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1319.12,
+        "end": 1321.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1326.46,
+        "end": 1331.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1357.7,
+        "end": 1363.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1379.15,
+        "end": 1382.36,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1409.68,
+        "end": 1411.74,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1424.44,
+        "end": 1433.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1438.22,
+        "end": 1450.69,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1451.05,
+        "end": 1468.12,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1471.84,
+        "end": 1475.08,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1479.1,
+        "end": 1481.22,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1483.46,
+        "end": 1485.22,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1499.54,
+        "end": 1510.62,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1512.5,
+        "end": 1516.99,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1518.03,
+        "end": 1522.27,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1523.18,
+        "end": 1532.26,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1532.38,
+        "end": 1557.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1561.259,
+        "end": 1570.28,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1570.46,
+        "end": 1573.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1575.34,
+        "end": 1580.48,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1586.22,
+        "end": 1590.98,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1604.22,
+        "end": 1620.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读470行字幕，并实际查看17处明显缺口193张抽帧及片尾广告边界19张加密帧；未听音频、未逐帧看全片，不能冒称全片视听核验。",
+      "普通缺口采样约3秒，片尾边界约0.267秒。更短画面、其他未抽帧的小间隙及ASR误识仍有不确定；助手内容参考不是用户人工标签。",
+      "商业露出与应跳分开判断：餐厅/品牌衣物/杯子打样/工作打包是生活主题；此前二审确认486.49–603.79淘宝开箱广告保留，片尾独立促销应跳。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 470,
+      "firstIndex": 0,
+      "lastIndex": 469,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:49:22.222860+00:00",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1cYe4zLE55.mp4",
+      "mediaSha256": "98bc7e97337689ffd9efc573cb18ee393484bd3750cafb4458ab457e9a40c42a",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1cYe4zLE55-verified.json",
+      "frameManifests": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/subtitle-gaps-middle/frames.json",
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1cYe4zLE55/sponsor-tail-boundary-middle/frames.json"
+      ],
+      "sampleRanges": [
+        [
+          134,
+          152
+        ],
+        [
+          153,
+          170
+        ],
+        [
+          182,
+          199
+        ],
+        [
+          204,
+          223
+        ],
+        [
+          276,
+          351
+        ],
+        [
+          440,
+          462
+        ],
+        [
+          912,
+          1056
+        ],
+        [
+          1195,
+          1211
+        ],
+        [
+          1220,
+          1242
+        ],
+        [
+          1287,
+          1321
+        ],
+        [
+          1330,
+          1360
+        ],
+        [
+          1363,
+          1381
+        ],
+        [
+          1382,
+          1412
+        ],
+        [
+          1411,
+          1426
+        ],
+        [
+          1484,
+          1501
+        ],
+        [
+          1590,
+          1606
+        ],
+        [
+          1636,
+          1673
+        ]
+      ],
+      "sampleEverySeconds": 3,
+      "boundarySampleRange": [
+        1632,
+        1637
+      ],
+      "boundarySampleEverySecondsApprox": 0.267,
+      "framesActuallyViewed": 212,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_content_001_100",
+    "fullTranscriptRead": true,
+    "subtitleRows": 470,
+    "readCoverage": {
+      "firstIndex": 0,
+      "lastIndex": 469,
+      "allRowsRead": true
+    },
+    "modality": "full-cached-subtitles",
+    "decision": "独立盲读全文后，同意淘宝商品开箱486.49–603.79为ad/keep；开箱是标题及正文明确承诺的主要内容，不能因植入补贴而把整段主题体验跳过，也不能只截下单话术。衣服试穿718.51–913.26含价格、抬手不便、退留选择，是non_ad/keep。片尾1620.46–1633.44独立淘宝七夕促销为ad/skip。内容分类争议已解决，但140.44秒等长字幕空档未视听核验，维持待核实。",
+    "followUpResolution": "以上为二审时的历史结论，保留广告与保留决定的语义判断。后续 visualReview 已实际补看17处缺口及片尾加密画面，消除了原缺口待核实项，并将片尾独立淘宝推广的完整视觉收尾更新为1635.467秒（边界不确定1635.2–1635.467秒）；当前审核状态与时间边界以 record 为准。"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV18S411w7Lh",
+  "cid": 1637029566,
+  "title": "安东诺夫机场之战：俄乌冲突最重要的战斗 一场失利的现代空突作战",
+  "duration": 468,
+  "desc": "两年前，俄罗斯空突旅的小伙子们坐着米-8空降在安东诺夫机场时，他们还想不到，接下来会陷入一场怎样残酷的苦战。这场全球瞩目的突袭作战，成为揭开俄军真实战斗力遮羞布的标志性一幕，同时也毁掉了一个航空史上的奇迹。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:09:29.411Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:22.840Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 39,
+    "inputLineSha256": "2e71cce2b315219ed8a4a83d5e2912fb4e1eaf2e4b7f4770da78c52e273f6ed6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV18S411w7Lh-1637029566.json",
+    "acquisitionSha256": "7d037345f23a205d690139817f47574d7d381b303ddd70ea618d35c817a8e92e",
+    "sourceUrl": "https://www.bilibili.com/video/BV18S411w7Lh/?p=1"
+  }
+}

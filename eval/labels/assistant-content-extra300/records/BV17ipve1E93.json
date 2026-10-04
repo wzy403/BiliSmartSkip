@@ -1,0 +1,116 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 33,
+    "inputLineSha256": "466b2f6486fd9df87b1b0435311808013258ea0f6a2df4cabce7db34cd461690",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV17ipve1E93-25631333002.json",
+    "acquisitionSha256": "f76c1a1ba1bd3388f850ae56628409b8d179898f60a7f52452a0a5a9e0bd8b54",
+    "sourceUrl": "https://www.bilibili.com/video/BV17ipve1E93/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV17ipve1E93.json",
+    "transcriptSha256": "ff74e054b7133240cea6f922600791d2c44cb9510fb32497ca09e75433d10279"
+  },
+  "record": {
+    "bvid": "BV17ipve1E93",
+    "cid": 25631333002,
+    "duration": 303,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "先用烟囱倒塌解释转动惯量与角加速度，再以拖车模型、发电机重心后移解释死亡摇摆及装载建议。中间明确暂停分析推荐几米/吉米工具箱，讲工具配置、促销秒杀和点击购买，随后恢复拖车物理讲解。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 86.18,
+        "end": 137.14,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "明确“在分析之前”转入工具箱推荐，连续商品介绍、价格和秒杀引流，至“赶紧冲吧”结束；137.14秒恢复死亡摇摆正文。",
+        "startUncertainty": [
+          86.18,
+          86.18
+        ],
+        "endUncertainty": [
+          137.14,
+          137.14
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 82.32,
+            "to": 85.16,
+            "text": "但是这一原理和半挂拖车的死亡摇摆"
+          },
+          {
+            "from": 85.16,
+            "to": 86.18,
+            "text": "有什么关系呢"
+          },
+          {
+            "from": 86.18,
+            "to": 89.68,
+            "text": "在分析之前要向同学们推荐几米工具箱"
+          },
+          {
+            "from": 100.76,
+            "to": 103.46,
+            "text": "包含几十种维修和制作的常用工具"
+          },
+          {
+            "from": 115.04,
+            "to": 117.38,
+            "text": "但是大几百的价格还是有点贵"
+          },
+          {
+            "from": 122.7,
+            "to": 125.76,
+            "text": "只要一元就有机会秒杀同款吉米工具箱"
+          },
+          {
+            "from": 130.82,
+            "to": 133.9,
+            "text": "点击视频下方或评论区置顶链接开抢"
+          },
+          {
+            "from": 136.38,
+            "to": 137.14,
+            "text": "赶紧冲吧"
+          },
+          {
+            "from": 137.14,
+            "to": 138.94,
+            "text": "说到拖车的死亡摇摆"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 86.18,
+        "reason": "烟囱倒塌与拖车摇摆的物理问题和前段推导。"
+      },
+      {
+        "start": 137.14,
+        "end": 298.12,
+        "reason": "拖车模型、重心位置、回正力矩及安全装载知识讲解。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 141,
+      "firstIndex": 0,
+      "lastIndex": 140,
+      "allRowsRead": true
+    }
+  }
+}

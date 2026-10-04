@@ -1,0 +1,177 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 25,
+    "inputLineSha256": "bef85e259484c8bce717484192298a923485bc6adee71bf330793b1aec44f58b",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV161421x7qn-1659154920.json",
+    "acquisitionSha256": "e57d172e371b12499a61efefd707affe252466d594799e86f2916faa61defdcc",
+    "sourceUrl": "https://www.bilibili.com/video/BV161421x7qn/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV161421x7qn.json",
+    "transcriptSha256": "c7f76a249bb92f9c91ae0cca5dbdb9ac10f69261d49834b57357b020a4029fe3"
+  },
+  "record": {
+    "bvid": "BV161421x7qn",
+    "cid": 1659154920,
+    "duration": 1410,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "《哈利波特与混血王子》原著与电影比较，讲魁地奇比赛、罗恩与赫敏情感冲突、圣诞晚宴、马尔福与斯内普秘密谈话、陋居圣诞及部长游说哈利。哈利失眠剧情后插入瑷尔博士益生菌面膜推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 267.419,
+        "end": 351.44,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以我们和哈利一样会失眠熬夜的对照开始，完整铺垫成年人皮肤问题，介绍面膜榜单与成分修护、膜布体验、性价比，再引导置顶购买囤货；话分两头后恢复罗恩剧情。",
+        "evidence": [
+          {
+            "from": 265.299,
+            "to": 266.019,
+            "text": "转天早上起来"
+          },
+          {
+            "from": 266.019,
+            "to": 267.419,
+            "text": "精神状态和脸色都不太好"
+          },
+          {
+            "from": 267.419,
+            "to": 268.059,
+            "text": "和harry一样"
+          },
+          {
+            "from": 268.059,
+            "to": 270.46,
+            "text": "我们也经常因为各种原因失眠熬夜"
+          },
+          {
+            "from": 272.28,
+            "to": 273.82,
+            "text": "二三十岁的人只要一熬夜"
+          },
+          {
+            "from": 275.52,
+            "to": 276.64,
+            "text": "皮肤粗糙暗沉"
+          },
+          {
+            "from": 284.6,
+            "to": 286.92,
+            "text": "但最近我在用的爱尔博士益生菌面膜"
+          },
+          {
+            "from": 286.92,
+            "to": 289.12,
+            "text": "2.0真的帮我有效排解了斑味"
+          },
+          {
+            "from": 297.92,
+            "to": 300.66,
+            "text": "不仅添加了四重高纯度的积雪草提取物"
+          },
+          {
+            "from": 308.52,
+            "to": 310.98,
+            "text": "再配合3%的泛醇和三重玻尿酸"
+          },
+          {
+            "from": 317.04,
+            "to": 318.82,
+            "text": "它的膜布是一种淡黄色的"
+          },
+          {
+            "from": 332,
+            "to": 334.52,
+            "text": "但爱尔博士的效果和性价比确实深得我心"
+          },
+          {
+            "from": 348.48,
+            "to": 350.14,
+            "text": "购买链接我放在评论区置顶"
+          },
+          {
+            "from": 350.14,
+            "to": 351.44,
+            "text": "大家快点囤起来吧"
+          },
+          {
+            "from": 351.44,
+            "to": 352.18,
+            "text": "话分两头"
+          }
+        ],
+        "startUncertainty": [
+          267.419,
+          267.419
+        ],
+        "endUncertainty": [
+          351.44,
+          351.44
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 78.8,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 81.44,
+        "end": 267.419,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 351.44,
+        "end": 539.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 541.88,
+        "end": 1284.139,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1285.199,
+        "end": 1308.74,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1310.06,
+        "end": 1369.72,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1371.52,
+        "end": 1392.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1392.3,
+        "end": 1407.48,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 929,
+      "firstIndex": 0,
+      "lastIndex": 928,
+      "allRowsRead": true
+    }
+  }
+}

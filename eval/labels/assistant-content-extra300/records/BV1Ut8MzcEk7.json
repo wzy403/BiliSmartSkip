@@ -1,0 +1,162 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 247,
+    "inputLineSha256": "b9f08701c9215b118726e1f592de3623d5fc22b90fbcfceda5714cda62abde0f",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Ut8MzcEk7-31249469239.json",
+    "acquisitionSha256": "19d6876bf0070e71804c2c3110bd8e3463053bc62d2eb208771419dab0185b17",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Ut8MzcEk7/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Ut8MzcEk7.json",
+    "transcriptSha256": "60878d8f0728d3451738dfd36840bc11f9aa240943bedf753e3fc7a51dd5584e"
+  },
+  "record": {
+    "bvid": "BV1Ut8MzcEk7",
+    "cid": 31249469239,
+    "duration": 689,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "用春节、清明与闰月问题引入历法，解释阴阳历、立杆观影与水滴计时、朔望月、郭守敬圭表和景符、置闰与中气，再讲唐代日食预报、岁差及历法修正，最后讨论科学观测。中途从月圆展开比喻转为三星 Z Fold7 折叠手机的配色、拍摄、轻薄和 AI 功能展示，再返回古代计时。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 147.27,
+        "end": 205.2,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从月中月亮慢慢展开、绽放的专门比喻铺垫接手机展开，完整介绍三星 Z Fold7 外观、影像、厚重、AI 功能，至手机的事就说到这收尾。不是历法知识必要内容。",
+        "startUncertainty": [
+          147.27,
+          148.39
+        ],
+        "endUncertainty": [
+          205.2,
+          205.2
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 145.45,
+            "to": 147.27,
+            "text": "而望则是完整的圆月"
+          },
+          {
+            "from": 147.27,
+            "to": 148.39,
+            "text": "每到农历月中"
+          },
+          {
+            "from": 148.39,
+            "to": 151.12,
+            "text": "月亮总会慢慢展开到最饱满的状态"
+          },
+          {
+            "from": 151.12,
+            "to": 153.08,
+            "text": "像是悄然完成了一次绽放"
+          },
+          {
+            "from": 153.08,
+            "to": 155.66,
+            "text": "就像我手上这台三星z fold七一样"
+          },
+          {
+            "from": 158.22,
+            "to": 159.62,
+            "text": "我这台星夜银的配色"
+          },
+          {
+            "from": 164.44,
+            "to": 167.42,
+            "text": "这次搭载了配置拉满的2亿像素的大底主摄"
+          },
+          {
+            "from": 174.9,
+            "to": 176.68,
+            "text": "也几乎能够完全消除噪点"
+          },
+          {
+            "from": 186.38,
+            "to": 187.88,
+            "text": "重量只有215克"
+          },
+          {
+            "from": 190.38,
+            "to": 192.5,
+            "text": "展开状态下厚度只有4.2mm"
+          },
+          {
+            "from": 195.18,
+            "to": 197.34,
+            "text": "强大的AI功能也在我平时的生活中"
+          },
+          {
+            "from": 198.64,
+            "to": 201.06,
+            "text": "我可以直接用BIGP或者集全集搜"
+          },
+          {
+            "from": 202.16,
+            "to": 203.86,
+            "text": "让他帮我梳理各类信息"
+          },
+          {
+            "from": 203.86,
+            "to": 205.2,
+            "text": "手机的事就说到这"
+          },
+          {
+            "from": 205.2,
+            "to": 206.76,
+            "text": "让我们重新回到古人的视角"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 29.4,
+        "reason": "实际字幕覆盖的历法问题、日和月观测方法。"
+      },
+      {
+        "start": 32.12,
+        "end": 147.27,
+        "reason": "实际字幕覆盖的历法问题、日和月观测方法。"
+      },
+      {
+        "start": 205.2,
+        "end": 432.62,
+        "reason": "实际字幕覆盖的古代天文观测、置闰、岁差、历史与结语。"
+      },
+      {
+        "start": 435.88,
+        "end": 674.38,
+        "reason": "实际字幕覆盖的古代天文观测、置闰、岁差、历史与结语。"
+      },
+      {
+        "start": 674.66,
+        "end": 687.08,
+        "reason": "实际字幕覆盖的古代天文观测、置闰、岁差、历史与结语。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "自动字幕将历法、圭表等词误识，但上下文完整可理解。尾部687.08–689秒无字幕。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 362,
+      "firstIndex": 0,
+      "lastIndex": 361,
+      "allRowsRead": true
+    }
+  }
+}

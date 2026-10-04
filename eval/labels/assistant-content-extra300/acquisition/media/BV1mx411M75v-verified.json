@@ -1,0 +1,27 @@
+{
+  "bvid": "BV1mx411M75v",
+  "cid": 25427412,
+  "page": 10,
+  "sourceUrl": "https://www.bilibili.com/video/BV1mx411M75v/?p=10",
+  "checkedAt": "2026-10-04T23:37:50.508Z",
+  "responseSha256": "853f397e31325896df706a0de97f7f5ab04fdafb66f38fa5160188b87dd9ccca",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1mx411M75v.mp4",
+  "sha256": "30a30796033e992ac320ec4a2732b9552b9e17ad3396ab272c5a14a72cc17d47",
+  "bytes": 9298272,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 640,
+        "height": 344
+      }
+    ],
+    "format": {
+      "duration": "510.850000"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media at matching original CID page; original BV/CID/page independently checked; selected video stream only for actual frame inspection; audio not reviewed"
+}

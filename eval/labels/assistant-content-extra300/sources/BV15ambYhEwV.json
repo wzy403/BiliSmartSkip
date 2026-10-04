@@ -1,0 +1,26 @@
+{
+  "bvid": "BV15ambYhEwV",
+  "cid": 26728005890,
+  "title": "很好开的Model 3P使我们裂开！",
+  "duration": 1408,
+  "desc": "铁秀终于拍特斯拉了！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:10:03.370Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:02.675Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 22,
+    "inputLineSha256": "5b58eab563364bf8949399df68da47d1ec0a42a283d92c79858f1e42e21a4acc",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV15ambYhEwV-26728005890.json",
+    "acquisitionSha256": "26808af6df9de12dd013107f2e6bca8c1a04ddd9f9125e0b4ed8a4e1bff6568a",
+    "sourceUrl": "https://www.bilibili.com/video/BV15ambYhEwV/?p=1"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 108,
+    "inputLineSha256": "47a401e32745ee7ca2c0e44bbd8b6780c67c3522031b34290598050b2e6d812d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1GLnAzaEBD-32553369765.json",
+    "acquisitionSha256": "9cc8f2fd73ec708270b388f52d10ee816a8dc7f5876f8f1cb92dbeb653eecabf",
+    "sourceUrl": "https://www.bilibili.com/video/BV1GLnAzaEBD/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1GLnAzaEBD.json",
+    "transcriptSha256": "a33252878345da4a1ff147b42b0b7eca2428c445ddd7ff31c6180f23834304ab"
+  },
+  "record": {
+    "bvid": "BV1GLnAzaEBD",
+    "cid": 32553369765,
+    "duration": 442,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "炉石传说对局素材混剪，由卡牌台词、主播反应和战斗音效组成。328.74秒用关键一波、发现神卡及回血免疫的游戏比喻转入小鹿护颈枕，讲价格、分区记忆棉、不同枕型和售后优惠，399.68秒结束，401.9秒恢复对局指挥。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 328.74,
+        "end": 399.68,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从“兄弟们这波很关键”引出所谓神卡的游戏化铺垫起，后续均在推荐小鹿护颈枕的价格、功能、赠礼和评论区券，至“这波必冲”收尾。",
+        "startUncertainty": [
+          325.13,
+          328.74
+        ],
+        "endUncertainty": [
+          399.68,
+          401.9
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 321.39,
+            "to": 325.13,
+            "text": "棘刺的力量面前颤抖吧"
+          },
+          {
+            "from": 328.74,
+            "to": 329.42,
+            "text": "兄弟们"
+          },
+          {
+            "from": 329.42,
+            "to": 330.6,
+            "text": "这波很关键啊"
+          },
+          {
+            "from": 330.6,
+            "to": 331.66,
+            "text": "三分靠打拼"
+          },
+          {
+            "from": 331.66,
+            "to": 332.6,
+            "text": "七分靠发现"
+          },
+          {
+            "from": 332.6,
+            "to": 333.86,
+            "text": "居然开出了张神卡"
+          },
+          {
+            "from": 333.86,
+            "to": 334.56,
+            "text": "又能能回血"
+          },
+          {
+            "from": 335.18,
+            "to": 335.88,
+            "text": "这神器"
+          },
+          {
+            "from": 335.88,
+            "to": 337.64,
+            "text": "小鹿的双面承托护颈枕"
+          },
+          {
+            "from": 337.64,
+            "to": 339.66,
+            "text": "妥妥的外挂才188的价格"
+          },
+          {
+            "from": 341.8,
+            "to": 344.24,
+            "text": "一躺上去直接发动科学分区"
+          },
+          {
+            "from": 344.24,
+            "to": 346.24,
+            "text": "加深太空记忆棉组合技"
+          },
+          {
+            "from": 376.38,
+            "to": 379.28,
+            "text": "但你们看这小鹿神卡两边都有枕舌"
+          },
+          {
+            "from": 383.08,
+            "to": 384.32,
+            "text": "它有两款枕型"
+          },
+          {
+            "from": 389.6,
+            "to": 391.62,
+            "text": "评论区领券抄底价入手"
+          },
+          {
+            "from": 396.56,
+            "to": 398.1,
+            "text": "中秋国庆送礼也合适"
+          },
+          {
+            "from": 398.1,
+            "to": 399.68,
+            "text": "这波必冲"
+          },
+          {
+            "from": 401.9,
+            "to": 403.82,
+            "text": "那我感觉得先点这一手"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "游戏素材字幕主要为零散语音，64.52–92.9等间隔无字幕；只确认可听文字中的广告，未把空白判为正文或视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 110,
+      "firstIndex": 0,
+      "lastIndex": 109,
+      "allRowsRead": true
+    }
+  }
+}

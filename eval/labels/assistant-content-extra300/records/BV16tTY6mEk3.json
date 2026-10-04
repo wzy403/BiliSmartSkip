@@ -1,0 +1,352 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 29,
+    "inputLineSha256": "f320ec61fbea9734cceee4b060a4c9cf300f038fc92739c1ce597c36b90f0169",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV16tTY6mEk3-39554580671.json",
+    "acquisitionSha256": "e859aa5b7c67be045abbcfdc952b13a5d2797d34b76c631a4b39e4adb662511c",
+    "sourceUrl": "https://www.bilibili.com/video/BV16tTY6mEk3/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV16tTY6mEk3.json",
+    "transcriptSha256": "3973b15506b3993092598e49450f5f967793255d3b17011b936c2be97b57feaa"
+  },
+  "record": {
+    "bvid": "BV16tTY6mEk3",
+    "cid": 39554580671,
+    "duration": 302,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "回顾CS叠人架点的战术价值、经典比赛、地图高低差与反架点设计，以及Valve的机制修改；中途转向FPS耳机音频定位卖点和SIMGOT EG280价格推荐。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 148.88,
+        "end": 195.92,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从听音乐或打游戏需要好耳机的需求铺垫起，介绍SIMGOT EG280单元、专业调音、游戏EQ、脚步定位、麦克风与299价格，到明确购买推荐结束；随后回到地图设计。",
+        "evidence": [
+          {
+            "from": 139.06,
+            "to": 142.22,
+            "text": "which let players “Stacking” to snag a non pre aimed spot."
+          },
+          {
+            "from": 148.88,
+            "to": 150.952,
+            "text": "So folks, whether for music or gaming,"
+          },
+          {
+            "from": 150.952,
+            "to": 152.68,
+            "text": "a good headset is a must have!"
+          },
+          {
+            "from": 156.46,
+            "to": 158.22,
+            "text": "the SIMGOT EG two hundred and eighty."
+          },
+          {
+            "from": 160.82,
+            "to": 163.354,
+            "text": "It uses single sided dynamic plus planar dual drivers"
+          },
+          {
+            "from": 165.14,
+            "to": 166.932,
+            "text": "Its dedicated app features one tap EQ"
+          },
+          {
+            "from": 168.7,
+            "to": 170.62,
+            "text": "Truly wide soundstage, with pinpoint positioning."
+          },
+          {
+            "from": 180.78,
+            "to": 182.683,
+            "text": "The app has pro player tuned, bespoke game EQs;"
+          },
+          {
+            "from": 189.44,
+            "to": 190.28,
+            "text": "two hundred and ninety nine bucks!"
+          },
+          {
+            "from": 193.76,
+            "to": 195.92,
+            "text": "an essential tool for FPS players— a no brainer buy!"
+          },
+          {
+            "from": 197.51,
+            "to": 200.19,
+            "text": "Now, map designers have learned their lesson."
+          }
+        ],
+        "startUncertainty": [
+          142.22,
+          148.88
+        ],
+        "endUncertainty": [
+          195.92,
+          197.51
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 4.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 4.65,
+        "end": 10.13,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 10.42,
+        "end": 15.5,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 20.96,
+        "end": 24.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 25.88,
+        "end": 33.14,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 33.34,
+        "end": 39.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 39.58,
+        "end": 42.26,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 42.77,
+        "end": 49.69,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 50.05,
+        "end": 51.929,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 52.29,
+        "end": 58.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 58.92,
+        "end": 66.29,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 66.57,
+        "end": 69.77,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 70.07,
+        "end": 76.31,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 84.02,
+        "end": 87.3,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 87.66,
+        "end": 92.82,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 93.3,
+        "end": 95.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 95.42,
+        "end": 98.94,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 99.22,
+        "end": 103.23,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 103.39,
+        "end": 104.71,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 105.07,
+        "end": 107.03,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 107.39,
+        "end": 111.649,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 112.01,
+        "end": 114.69,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 114.96,
+        "end": 117.76,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 118.12,
+        "end": 122.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 122.54,
+        "end": 126.14,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 126.38,
+        "end": 127.7,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 129.15,
+        "end": 131.15,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 131.43,
+        "end": 138.58,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 139.06,
+        "end": 142.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 197.51,
+        "end": 200.19,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 200.45,
+        "end": 208.349,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 208.67,
+        "end": 215.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 215.46,
+        "end": 218.54,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 218.86,
+        "end": 223.819,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 224.1,
+        "end": 232.48,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 232.73,
+        "end": 244.279,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 244.79,
+        "end": 252.34,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 252.7,
+        "end": 255.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 255.58,
+        "end": 260.5,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 260.82,
+        "end": 267.73,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 268.21,
+        "end": 273.15,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 273.39,
+        "end": 277.91,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 278.14,
+        "end": 283.7,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 284.28,
+        "end": 290.76,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 290.8,
+        "end": 292.04,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 292.31,
+        "end": 294.949,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 295.07,
+        "end": 299.63,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 144,
+      "firstIndex": 0,
+      "lastIndex": 143,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles-plus-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 74,
+    "inputLineSha256": "5c05b323a17449d514dd39e64e5d9e40161ca25a7bc62a8dc1b030eed242aa3d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1daSeYXEoL-26531924922.json",
+    "acquisitionSha256": "ca8069f05ca44a241526062e09462e50e89feca27d1f996aad4ee9f855652000",
+    "sourceUrl": "https://www.bilibili.com/video/BV1daSeYXEoL/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1daSeYXEoL.json",
+    "transcriptSha256": "f538ea93ea0c79e4c490bb0068807cff19d757c95ace36503c4c89addb49447d"
+  },
+  "record": {
+    "bvid": "BV1daSeYXEoL",
+    "cid": 26531924922,
+    "duration": 344,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "英雄联盟14.22版本更新介绍，主要通过游戏演示叠加屏幕文字讲解英雄、装备、召唤师技能及小兵移动速度的改动。已读全部47条字幕，并补看覆盖全片的选定画面确认此前长字幕空档为版本说明、结尾为关注提示；108.12–144.85秒卓威网吧包厢插播含看S赛铺垫、线下配置和微信门店查询，是唯一确认的应跳广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 108.12,
+        "end": 144.85,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从每年如何看S赛的提问铺垫起，引出好友线下卓威包厢、环境外设、配置、共同观赛及微信查询附近门店，直到约人体验的完整收尾。已实际看见网吧、ZOWIE显示器和微信小程序推广；与版本改动说明无必要主题关系，适合跳过。108.12秒采用字幕提问起点，画面110秒才出现该句硬字幕且仍叠在版本正文上；143秒仍是约玩收尾，144秒已切回艾尼维亚改动。因未听音频且字幕/画面边界略不同，保留结束144.85秒并记录边界不确定性，未因未来容差裁短。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle-plus-selected-frames",
+        "startUncertainty": [
+          108,
+          110
+        ],
+        "endUncertainty": [
+          143,
+          144.85
+        ],
+        "evidence": [
+          {
+            "from": 108.12,
+            "to": 111.5,
+            "text": "不知道兄弟们每年都怎么看S赛"
+          },
+          {
+            "from": 113.44,
+            "to": 115.84,
+            "text": "一起去线下卓威包厢上了一下午的网"
+          },
+          {
+            "from": 121.82,
+            "to": 124.5,
+            "text": "三两好友一起卓威包厢一聚打打游戏"
+          },
+          {
+            "from": 126.12,
+            "to": 128.16,
+            "text": "而且卓威包厢配置还很高"
+          },
+          {
+            "from": 133.24,
+            "to": 135.78,
+            "text": "给你们看看山东这边的卓威包厢配置"
+          },
+          {
+            "from": 137.64,
+            "to": 140.98,
+            "text": "微信搜同名小程序就可以查到附近的门店了"
+          },
+          {
+            "from": 140.98,
+            "to": 144.85,
+            "text": "想感受氛围的兄弟们真可以约着去玩玩"
+          }
+        ],
+        "visualEvidence": [
+          {
+            "time": 110,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frame-007.jpg",
+            "sha256": "5fbdeb7e9d0233486940164ffb88dc5ce72df1e8642237bdbbba5e5e6dec1148",
+            "observation": "贝蕾亚版本改动画面下出现“不知道兄弟们每年都怎么看S赛”广告引入。"
+          },
+          {
+            "time": 112,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frame-009.jpg",
+            "sha256": "26425a946de07a044dc3f0224c93e696938a0a8cac6b6d903529d3660ea5de33",
+            "observation": "切真人电脑环境，硬字幕称好友一起去线下卓威包厢。"
+          },
+          {
+            "time": 115,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frame-012.jpg",
+            "sha256": "49a9c81a1249293c8f1fd24a124b8d03d71ce64fa216f380fcf71a16ef4ef470",
+            "observation": "ZOWIE GEAR显示器及“外设”展示。"
+          },
+          {
+            "time": 138,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frame-035.jpg",
+            "sha256": "6a553f599316aaa455145ebdb015587b49d743a8d42c1e89db8ae152bdea0d95",
+            "observation": "微信搜索卓威包厢的小程序/公众号入口，硬字幕提示查附近门店。"
+          },
+          {
+            "time": 143,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frame-040.jpg",
+            "sha256": "5fe700b32c0f42138b4728b4b203a61c0df4277b70b56c3af1ad3eba0a0d0f6e",
+            "observation": "卓威包厢朋友共玩画面，硬字幕仍为约人来体验的收尾。"
+          },
+          {
+            "time": 144,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frame-041.jpg",
+            "sha256": "3e4140123f48315e72f2880a87a7b89a4eb8e2587b8a566f4562df8c17561318",
+            "observation": "已切回游戏训练场艾尼维亚成长护甲、E法强加成改动，未继续出现推广硬字幕。"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.44,
+        "end": 4.29,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 4.89,
+        "end": 6.97,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 8.57,
+        "end": 10.25,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 11.34,
+        "end": 17.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 18.82,
+        "end": 25.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 53.98,
+        "end": 58.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 65.92,
+        "end": 67.48,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 69.36,
+        "end": 72.24,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 86.28,
+        "end": 96.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 151.84,
+        "end": 153.72,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 160.44,
+        "end": 165.92,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 178.12,
+        "end": 183.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 199.1,
+        "end": 207.93,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 241.64,
+        "end": 244,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 251.78,
+        "end": 254.42,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 261.38,
+        "end": 265.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 266.62,
+        "end": 274.22,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "已连续完整阅读47条可用字幕，并实际查看原BV/CID核验后下载媒体的选定画面（5秒概览、广告边界与片尾1秒选帧）；未听音频，未逐帧或连续视听全片，抽样帧之间的瞬间画面没有作穷尽保证。",
+      "视频实际媒体时长343.829秒、输入元数据344秒；广告边界结合字幕和已见硬字幕/画面，保留两者时间差异而非按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 47,
+      "firstIndex": 0,
+      "lastIndex": 46,
+      "allRowsRead": true
+    }
+  },
+  "visualObservations": {
+    "reviewer": "extra300_full_content_c",
+    "media": "eval/labels/assistant-content-extra300/acquisition/media/BV1daSeYXEoL-verified.json",
+    "frameIndexes": [
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/overview/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/boundary/frames.json",
+      "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/final-tail/frames.json"
+    ],
+    "method": "实际查看全部69张每5秒概览帧、104–147秒每1秒44帧、330–343秒每1秒14帧的接触表；未听音频，未逐帧或连续播放整片。",
+    "observations": [
+      {
+        "time": 0,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/overview/frame-001.jpg",
+        "sha256": "2ee56953a88205b909c7397c63d1503ba2f891d91387b8c4725378a938474ef1",
+        "observation": "标题为英雄联盟14.22版本完整改动及更新时间；左上lvmao标识与作者绿毛资讯名称一致。"
+      },
+      {
+        "time": 100,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/overview/frame-021.jpg",
+        "sha256": "f5326bf45c5908e20b8a94b3790f2ef546af36ae3c74aa7c5f7e567b18c65081",
+        "observation": "斯维因Q/E/R数值改动在游戏训练场画面中展示，解释字幕轨未收录的正文。"
+      },
+      {
+        "time": 275,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/overview/frame-056.jpg",
+        "sha256": "d297895ff42362e4ad57691de2a9a429487a64a6579be50e2be6af829e5d7ea7",
+        "observation": "斯塔缇克电刃装备改动及游戏内数值，属于版本更新内容。"
+      },
+      {
+        "time": 305,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/overview/frame-062.jpg",
+        "sha256": "a797005febe7a80262f29e195938b89b13002c87200ac9341233b7628bb7dd0b",
+        "observation": "禁忌时机近/远程穿甲改动的物品说明界面。"
+      },
+      {
+        "time": 325,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/overview/frame-066.jpg",
+        "sha256": "f2bef6a22991f953035af6e577fdd2200ebe96746522ef8c73ce70220a79a9d6",
+        "observation": "14.22版本小兵移动速度变化解释，长尾空白字幕区仍为正文屏幕文字。"
+      },
+      {
+        "time": 334,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/final-tail/frame-005.jpg",
+        "sha256": "7b1a46a8045f084d3b14d0d5dc7db80e10ef5e80bc7cfb1045e0533745d816e9",
+        "observation": "转作者关注提示：关注绿毛获取联盟资讯；展示界面包含充电按钮，但主体文字和动作均是免费关注，无付费号召。"
+      },
+      {
+        "time": 343,
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1daSeYXEoL/final-tail/frame-014.jpg",
+        "sha256": "d48dc56cb45a1e313e0adf09b8ed76f3eb87562d9417e11097c4783603b3e3e0",
+        "observation": "结尾仍为相同作者关注提示，未见新商业插播。"
+      }
+    ]
+  }
+}

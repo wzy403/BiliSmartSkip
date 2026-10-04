@@ -1,0 +1,136 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 112,
+    "inputLineSha256": "8afbf51d36f015af1ddbc7554fb8a2d319cdd88acbcd8d5856d0b2f10845652c",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1gw4m1i7HA-1574442574.json",
+    "acquisitionSha256": "3b97c4b9715e3e98e26df480ab774ed74ecfe2d802d9b481b9a6e033f9654b3b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1gw4m1i7HA/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1gw4m1i7HA.json",
+    "transcriptSha256": "0bc76958d45cdc931eba5e58d967660ac96282fa028541642c72f2b16f731b2c"
+  },
+  "record": {
+    "bvid": "BV1gw4m1i7HA",
+    "cid": 1574442574,
+    "duration": 749,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "按历史脉络讲述日本军粮药丸、鸦片管制与扩张、军用兴奋剂、海陆军使用、二战末期特攻、战后民间及黑帮传播和社会影响，结尾以投机与泡沫经济作比喻。讲日俄战争后用不能靠药物一直胜利、普通人致富不能做梦的转场，插入喵喵记账自动记账、消费复盘及存钱计划推荐，随后返回觉醒剂历史。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 130.699,
+        "end": 189.7,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从战争不能只靠觉醒剂的类比铺垫转到普通人存钱致富，继而介绍喵喵记账、个人体验、自动记账及周期计划，结尾要求点击置顶链接下载；与日本药物史主体独立，包含完整转场和下载收尾。",
+        "startUncertainty": [
+          130.699,
+          133.679
+        ],
+        "endUncertainty": [
+          189.7,
+          189.7
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 128.92,
+            "to": 130.699,
+            "text": "他们才勉强打败了沙俄"
+          },
+          {
+            "from": 130.699,
+            "to": 133.679,
+            "text": "靠觉醒技就想一直赢得战争总会输的"
+          },
+          {
+            "from": 133.679,
+            "to": 136.279,
+            "text": "就像我们普通人想要变富也不能靠做梦"
+          },
+          {
+            "from": 136.279,
+            "to": 137.26,
+            "text": "要学会存钱"
+          },
+          {
+            "from": 137.26,
+            "to": 138.54,
+            "text": "养成记账的好习惯"
+          },
+          {
+            "from": 139.64,
+            "to": 141.7,
+            "text": "如果你平时存钱又懒得记账"
+          },
+          {
+            "from": 143.76,
+            "to": 145.54,
+            "text": "就一定要试试喵喵记账"
+          },
+          {
+            "from": 149.56,
+            "to": 151.8,
+            "text": "好在喵喵记账有自动记账功能"
+          },
+          {
+            "from": 158.36,
+            "to": 160.7,
+            "text": "每个月都会把花销梳理的特别清晰"
+          },
+          {
+            "from": 172.78,
+            "to": 175.8,
+            "text": "还可以在喵喵记账设计各种周期存钱计划"
+          },
+          {
+            "from": 178.96,
+            "to": 182.2,
+            "text": "我的365天存钱计划已经存了10万多了"
+          },
+          {
+            "from": 183.84,
+            "to": 186.78,
+            "text": "如果你也需要一款方便好上手的记账软件"
+          },
+          {
+            "from": 186.78,
+            "to": 188.38,
+            "text": "点击评论区置顶链接"
+          },
+          {
+            "from": 188.38,
+            "to": 189.7,
+            "text": "赶快下载试试吧"
+          },
+          {
+            "from": 189.7,
+            "to": 193.06,
+            "text": "其实觉醒记中的并不是什么神药"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "字幕中部分毒品名称或敏感词缺失，但历史叙述整体连续可辨；仅作广告内容参考，不核验历史事实。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 378,
+      "firstIndex": 0,
+      "lastIndex": 377,
+      "allRowsRead": true
+    }
+  }
+}

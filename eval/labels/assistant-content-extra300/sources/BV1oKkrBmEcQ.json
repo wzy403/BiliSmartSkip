@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1oKkrBmEcQ",
+  "cid": 33910885263,
+  "title": "把黄油炸至金黄做成甜品，美国人真疯了！",
+  "duration": 427,
+  "desc": "可以，但没必要",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:05:22.555Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:23:04.254Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 184,
+    "inputLineSha256": "929b0bbd7de254f873ab438b9afb1394fd490d11147e258f052a85af037f8516",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1oKkrBmEcQ-33910885263.json",
+    "acquisitionSha256": "fbb428524b3b2292366ef306989b1cbef5e09e7ac30fb487741819529c50db16",
+    "sourceUrl": "https://www.bilibili.com/video/BV1oKkrBmEcQ/?p=1"
+  }
+}

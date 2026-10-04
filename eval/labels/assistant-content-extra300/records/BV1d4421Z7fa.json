@@ -1,0 +1,132 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 72,
+    "inputLineSha256": "f02ce611b5891cc020458629a49e403cec2cf32b1a85a3b980c02f906dfd5155",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1d4421Z7fa-1639212284.json",
+    "acquisitionSha256": "899542dc0b20c21ed1ea4d241ac55b8db1969beaadd1a6290d57657cf9e71c40",
+    "sourceUrl": "https://www.bilibili.com/video/BV1d4421Z7fa/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1d4421Z7fa.json",
+    "transcriptSha256": "c8a00bdd16ab13bff1606b7a988f2203d38825783458565edbf407511b9881a5"
+  },
+  "record": {
+    "bvid": "BV1d4421Z7fa",
+    "cid": 1639212284,
+    "duration": 305,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "介绍江浙沪等地极端高温，以及台风胚胎与西风槽共同削弱副高的过程和各地降温预期，结尾谈其他洋区风暴。高温描述之后插入颐莲保湿喷雾与面膜促销，再回到南方雷雨和环流分析。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 69.58,
+        "end": 128.61,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从高温下保湿成为重中之重的需求铺垫开始，连续推荐颐莲喷雾和面膜的成分、功效、搭配与价格，并以置顶链接下单收尾；128.61秒切回高温松动及天气正文。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          69.58,
+          69.58
+        ],
+        "endUncertainty": [
+          128.61,
+          128.61
+        ],
+        "evidence": [
+          {
+            "from": 68.42,
+            "to": 69.58,
+            "text": "它还要持续很久"
+          },
+          {
+            "from": 69.58,
+            "to": 72,
+            "text": "这个时候保湿又成了重中之重"
+          },
+          {
+            "from": 72,
+            "to": 73.68,
+            "text": "我们的国产品牌移联"
+          },
+          {
+            "from": 75.48,
+            "to": 78.64,
+            "text": "这里我要首先推荐颐莲玻尿酸深层保湿喷雾"
+          },
+          {
+            "from": 93.2,
+            "to": 95.16,
+            "text": "另外搭配一脸小耳朵面膜"
+          },
+          {
+            "from": 103.32,
+            "to": 105.36,
+            "text": "能高保湿稳修护速退红"
+          },
+          {
+            "from": 121.32,
+            "to": 124.44,
+            "text": "要保湿的朋友选择银联这两种产品准没错"
+          },
+          {
+            "from": 124.44,
+            "to": 125.7,
+            "text": "最重要的是价格便宜"
+          },
+          {
+            "from": 125.7,
+            "to": 128.61,
+            "text": "有需要的朋友点击置顶链接下单吧"
+          },
+          {
+            "from": 128.61,
+            "to": 130.85,
+            "text": "不过高温已经有了松动的迹象"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.2,
+        "end": 6.16,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 7.96,
+        "end": 69.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 128.61,
+        "end": 242.08,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 244.2,
+        "end": 297.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 162,
+      "firstIndex": 0,
+      "lastIndex": 161,
+      "allRowsRead": true
+    }
+  }
+}

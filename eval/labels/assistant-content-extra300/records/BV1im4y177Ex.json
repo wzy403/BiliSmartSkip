@@ -1,0 +1,209 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 122,
+    "inputLineSha256": "e5f5798198a122720ed55e56c5d99437eede0987ff4cad47681b92e91925db3c",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1im4y177Ex-1204961988.json",
+    "acquisitionSha256": "e6205e66b2a30fed2ca671b00e1ee49c599c2ed880bdd34aea5c3989775b8db6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1im4y177Ex/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1im4y177Ex.json",
+    "transcriptSha256": "83626cd11143e64cc4d3615efc10d91405f03cc08723c97038ec7b193eb9d24f"
+  },
+  "record": {
+    "bvid": "BV1im4y177Ex",
+    "cid": 1204961988,
+    "duration": 1338,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "分析日本航母机动舰队指挥官选择，比较南云、小泽、山口的航空履历与资历、吊床号和舰队管理能力，再说明日本未建独立空军的作战、技术与政治原因。中段用无线电静默航行十天会错过什么作桥，推介拼多多百亿补贴和数码商品比价；片尾再次提醒搜索和链接。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 649.799,
+        "end": 712.35,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“此刻我们可以先设想”把历史上的断通讯转成观众断网十天会错过商品的铺垫，后面连续活动搜索、笔记本/手机/手表价格与保障、评论区引流；712.35秒回到历史成绩与吊床号。",
+        "startUncertainty": [
+          649.799,
+          658.599
+        ],
+        "endUncertainty": [
+          712.35,
+          712.35
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 646.739,
+            "to": 649.799,
+            "text": "咱们以后一定会有一个大系列为大家介绍的"
+          },
+          {
+            "from": 649.799,
+            "to": 651.539,
+            "text": "此刻我们可以先设想一下"
+          },
+          {
+            "from": 651.539,
+            "to": 652.48,
+            "text": "没有通讯"
+          },
+          {
+            "from": 652.48,
+            "to": 653.38,
+            "text": "没有消息"
+          },
+          {
+            "from": 655.119,
+            "to": 658.599,
+            "text": "南云还有全舰队的官兵会是一种什么样的心态"
+          },
+          {
+            "from": 658.599,
+            "to": 660.38,
+            "text": "换了大家就说今天吧"
+          },
+          {
+            "from": 660.38,
+            "to": 662.24,
+            "text": "风雨途中还断网"
+          },
+          {
+            "from": 663.779,
+            "to": 665.219,
+            "text": "你会错过多少"
+          },
+          {
+            "from": 665.219,
+            "to": 667.559,
+            "text": "拼多多百亿补贴的爆款商品"
+          },
+          {
+            "from": 671.7,
+            "to": 672.9,
+            "text": "打开拼多多搜索"
+          },
+          {
+            "from": 672.9,
+            "to": 673.74,
+            "text": "86694"
+          },
+          {
+            "from": 676.56,
+            "to": 678.54,
+            "text": "就能直达百亿补贴活动会场"
+          },
+          {
+            "from": 678.54,
+            "to": 680.82,
+            "text": "比如联想拯救者R7000P"
+          },
+          {
+            "from": 685.44,
+            "to": 688.8,
+            "text": "苹果IPHONE14pro官网上价格要7999"
+          },
+          {
+            "from": 691.46,
+            "to": 694.64,
+            "text": "apple watch series8官网价格2999"
+          },
+          {
+            "from": 698.76,
+            "to": 701.34,
+            "text": "所有百亿补贴商品承诺假一赔十"
+          },
+          {
+            "from": 709.48,
+            "to": 711.24,
+            "text": "赶快点击评论区置顶链"
+          },
+          {
+            "from": 711.24,
+            "to": 712.35,
+            "text": "比一比价吧好"
+          },
+          {
+            "from": 712.35,
+            "to": 714.66,
+            "text": "那为什么也要把成绩标出来呢"
+          }
+        ]
+      },
+      {
+        "start": 1320.6,
+        "end": 1333.38,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "在下期预告后另作活动提醒，重复拼多多搜索码及置顶链接，结束后普通署名告别。",
+        "startUncertainty": [
+          1320.6,
+          1320.6
+        ],
+        "endUncertainty": [
+          1333.38,
+          1333.38
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1318.42,
+            "to": 1320.6,
+            "text": "这个小系列的最后一期视频了"
+          },
+          {
+            "from": 1320.6,
+            "to": 1322.82,
+            "text": "在更新之前还需要提醒大家一下"
+          },
+          {
+            "from": 1322.82,
+            "to": 1326.9,
+            "text": "这段日子呢正值拼多多百亿补贴暑期大放假"
+          },
+          {
+            "from": 1326.9,
+            "to": 1329.36,
+            "text": "打开拼多多搜索86694"
+          },
+          {
+            "from": 1329.36,
+            "to": 1331.58,
+            "text": "或者点击评论区置顶链接"
+          },
+          {
+            "from": 1331.58,
+            "to": 1333.38,
+            "text": "就可享受大放假福利"
+          },
+          {
+            "from": 1333.38,
+            "to": 1334.46,
+            "text": "好的我是新雨"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 617,
+      "firstIndex": 0,
+      "lastIndex": 616,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles-with-selected-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 297,
+    "inputLineSha256": "8a30219bdb76fe1ffbb612dcebd667171b060ab2ed72bb42ee9ca9dd7552d01e",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Zw4m1k7mZ-1654632621.json",
+    "acquisitionSha256": "0546cc41dbceac4822293f21ab30b49ea907801dee9985c5fab67856370a05cd",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Zw4m1k7mZ/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Zw4m1k7mZ.json",
+    "transcriptSha256": "b42f07838b74e46d0ce7855f0a238b644e20b0d3a331a58a6fa4fa49c75c6492"
+  },
+  "record": {
+    "bvid": "BV1Zw4m1k7mZ",
+    "cid": 1654632621,
+    "duration": 808,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "实测不同口径有无消音器的响度，介绍协助拍摄者和器材，穿插拼多多促销并在结尾重复。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 454.2,
+        "end": 510.18,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "测试前的好消息铺垫后完整进入拼多多暑期补贴、数字口令、产品价格、保障与购买建议，510.18秒恢复器材测试。",
+        "startUncertainty": [
+          454.2,
+          454.2
+        ],
+        "endUncertainty": [
+          510.18,
+          510.18
+        ],
+        "evidence": [
+          {
+            "from": 454.2,
+            "to": 456.48,
+            "text": "不过在打556的消音器之前呢"
+          },
+          {
+            "from": 456.48,
+            "to": 458.48,
+            "text": "告诉大家一个非常好的消息啊"
+          },
+          {
+            "from": 458.48,
+            "to": 462.1,
+            "text": "最近拼多多的百亿补贴暑期大促还在继续"
+          },
+          {
+            "from": 464.74,
+            "to": 467.8,
+            "text": "现在呢就可以去拼多多搜索866744"
+          },
+          {
+            "from": 467.8,
+            "to": 470.92,
+            "text": "点击banner或者是直接点击评论区的置顶链接"
+          },
+          {
+            "from": 474.54,
+            "to": 477.32,
+            "text": "你像IPHONE15pro max256GB"
+          },
+          {
+            "from": 482.26,
+            "to": 486.68,
+            "text": "任天堂的switch olol补贴后只要1586元"
+          },
+          {
+            "from": 489,
+            "to": 491.44,
+            "text": "苹果的顶尖手表apple watch ultra"
+          },
+          {
+            "from": 495.52,
+            "to": 497.28,
+            "text": "那么除了数码产品以外呢"
+          },
+          {
+            "from": 501.36,
+            "to": 504.6,
+            "text": "都有正品险和假一赔十的这个双重保障"
+          },
+          {
+            "from": 508.58,
+            "to": 510.18,
+            "text": "把想买的赶紧入手"
+          },
+          {
+            "from": 510.18,
+            "to": 514.29,
+            "text": "它这个消音器呢是show fire的这个RC2"
+          }
+        ]
+      },
+      {
+        "start": 796.66,
+        "end": 804.28,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "片尾独立重复拼多多搜索口令和百亿补贴链接，不承载实测结论。",
+        "startUncertainty": [
+          796.66,
+          796.66
+        ],
+        "endUncertainty": [
+          804.28,
+          804.28
+        ],
+        "evidence": [
+          {
+            "from": 796.14,
+            "to": 796.66,
+            "text": "同时呢"
+          },
+          {
+            "from": 796.66,
+            "to": 798,
+            "text": "兄弟们别忘了去拼"
+          },
+          {
+            "from": 798,
+            "to": 799.54,
+            "text": "多多搜索86674"
+          },
+          {
+            "from": 799.54,
+            "to": 800.28,
+            "text": "点击binder"
+          },
+          {
+            "from": 800.28,
+            "to": 802.52,
+            "text": "或者是直接点击评论区的置顶链接"
+          },
+          {
+            "from": 802.52,
+            "to": 804.28,
+            "text": "去百亿补贴比比价格"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已全文阅读312条字幕并实际查看开场缺口20帧；没有听音频或声称全片视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 312,
+      "firstIndex": 0,
+      "lastIndex": 311,
+      "allRowsRead": true
+    },
+    "visualObservations": {
+      "reviewer": "assistant-extra300-root",
+      "method": "实际查看28–66秒每2秒20帧的全部三张接触表；非连续或逐帧观看，未听音频。",
+      "media": {
+        "bvid": "BV1Zw4m1k7mZ",
+        "cid": 1654632621,
+        "page": 1,
+        "sourceUrl": "https://www.bilibili.com/video/BV1Zw4m1k7mZ/?p=1",
+        "checkedAt": "2026-10-04T23:42:33.942Z",
+        "responseSha256": "71d5cf2fa3a72b2cb87e43b7e609874e232f0c6f8801b5ff222778b705cd81e2",
+        "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1Zw4m1k7mZ.mp4",
+        "sha256": "f1d2a9bcf4d341eefdfc0d8ae2789d3ad433d06ce57d03c77cc2e87955e03d4f",
+        "bytes": 39701800,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "hevc",
+              "width": 1280,
+              "height": 720
+            },
+            {
+              "codec_name": "aac"
+            }
+          ],
+          "format": {
+            "duration": "807.423667"
+          }
+        },
+        "status": "downloaded-and-verified",
+        "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+      },
+      "frameIndexes": [
+        "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1Zw4m1k7mZ/intro_gap/frames.json"
+      ],
+      "observations": [
+        "32–62秒为参与者靶场使用测试器材的蒙太奇，与题目实测衔接；64秒回作者介绍，未见独立商品促销或插片。",
+        "器材型号、价格及感谢提供器材的其他UP主在全文语境中属于本期实测来源和对象，保留；拼多多两次独立促销标为应跳。"
+      ]
+    }
+  }
+}

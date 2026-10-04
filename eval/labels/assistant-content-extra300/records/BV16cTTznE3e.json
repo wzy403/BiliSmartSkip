@@ -1,0 +1,214 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 26,
+    "inputLineSha256": "ae89106d5645326e2e802b5f9639664f040577a7750f25e10d474e7e6c1095b1",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV16cTTznE3e-30349528667.json",
+    "acquisitionSha256": "5ea6576f402928bdb9bda41e4a2e3d6533439cb67a53195b8a1e2dbbd21debbb",
+    "sourceUrl": "https://www.bilibili.com/video/BV16cTTznE3e/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV16cTTznE3e.json",
+    "transcriptSha256": "7bb804536434bc778c5d0bb1e6a5f724eb39289fd3c77f0e5e7dc152a51c88ec"
+  },
+  "record": {
+    "bvid": "BV16cTTznE3e",
+    "cid": 30349528667,
+    "duration": 819,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕鸿蒙电脑像手机的争议，回顾Windows Mobile、Windows 8和macOS历史，讨论安装更新权限痛点、多端融合，并演示鸿蒙AI、文件管理、跨设备协作；最后论证交互简单化与新系统竞争。完整主题产品体验和观点分析应保留，无可分离的应跳插播。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 0,
+        "end": 804.15,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "全片围绕PC与手机终端趋同开展主题讲解和鸿蒙电脑体验评测；Win/Mac历史与短板、鸿蒙文件管理/权限/AI/跨端体验及软件适配回应都在题目范围。未见独立广告插播或下单优惠号召；正面品牌评价本身不能证明广告，主题评测正文应保留。商务合作关系未被字幕证实，属于来源限制而非据此推断内容性质。",
+        "evidence": [
+          {
+            "from": 0,
+            "to": 0.82,
+            "text": "5月19号"
+          },
+          {
+            "from": 0.82,
+            "to": 2.08,
+            "text": "华为鸿蒙电脑发布"
+          },
+          {
+            "from": 12.619,
+            "to": 15.18,
+            "text": "虹膜电脑怎么用起来像个大号手机系统"
+          },
+          {
+            "from": 15.18,
+            "to": 16.5,
+            "text": "为了验证大伙的说法"
+          },
+          {
+            "from": 16.5,
+            "to": 18.14,
+            "text": "我实际上手体验了一段时间"
+          },
+          {
+            "from": 31.489,
+            "to": 33.459,
+            "text": "对于鸿蒙电脑不同的看法"
+          },
+          {
+            "from": 40.63,
+            "to": 44.33,
+            "text": "历史上微软和苹果都试图向类手机系统靠近"
+          },
+          {
+            "from": 207.19,
+            "to": 210.38,
+            "text": "答案或许就藏在传统PC天然的短板之上"
+          },
+          {
+            "from": 331.57,
+            "to": 333.13,
+            "text": "当然前面讲到的情况"
+          },
+          {
+            "from": 358.33,
+            "to": 361.93,
+            "text": "微软和苹果都先后推出过UWP和Mac catalyst"
+          },
+          {
+            "from": 394.85,
+            "to": 397.87,
+            "text": "华为官方的说法是通过鸿蒙操作系统实现手机"
+          },
+          {
+            "from": 412.789,
+            "to": 414.389,
+            "text": "像是前面提到的软件安装"
+          },
+          {
+            "from": 434.46,
+            "to": 435.94,
+            "text": "鸿蒙的系统调度策略"
+          },
+          {
+            "from": 513.25,
+            "to": 514.77,
+            "text": "鸿蒙电脑的多端融合"
+          },
+          {
+            "from": 523.5,
+            "to": 525.69,
+            "text": "与其他PC截然不同的AI功能"
+          },
+          {
+            "from": 574.09,
+            "to": 576.09,
+            "text": "鸿蒙电脑软件上新的速度也很快"
+          },
+          {
+            "from": 629.7,
+            "to": 632.68,
+            "text": "用我们手上的nova14和Macbook pro来展示"
+          },
+          {
+            "from": 657.34,
+            "to": 659.06,
+            "text": "鸿蒙设备的跨设备互联"
+          },
+          {
+            "from": 709.06,
+            "to": 711.88,
+            "text": "好现在我们再回头看开头抛出的问题"
+          },
+          {
+            "from": 715.26,
+            "to": 716.26,
+            "text": "请下一个暴论"
+          },
+          {
+            "from": 716.26,
+            "to": 718.25,
+            "text": "更简单的操作就是更先进"
+          },
+          {
+            "from": 776.55,
+            "to": 779.56,
+            "text": "当然现在还有人担心鸿蒙电脑的软件适配不行"
+          },
+          {
+            "from": 793.24,
+            "to": 794.48,
+            "text": "最后我想说"
+          },
+          {
+            "from": 798.95,
+            "to": 800.71,
+            "text": "停滞了20多年的PC市场"
+          },
+          {
+            "from": 800.71,
+            "to": 802.37,
+            "text": "能够迎来一位新的搅局者"
+          },
+          {
+            "from": 802.37,
+            "to": 804.15,
+            "text": "怎么看都是好事"
+          },
+          {
+            "from": 804.43,
+            "to": 804.91,
+            "text": "好了"
+          }
+        ],
+        "startUncertainty": [
+          0,
+          0
+        ],
+        "endUncertainty": [
+          804.15,
+          804.43
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 804.43,
+        "end": 804.91,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 805.79,
+        "end": 817.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。",
+      "是否存在未披露的商务合作未知；本次按可观察到的主题评测正文判断，未据正面品牌评价反推合作。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 455,
+      "firstIndex": 0,
+      "lastIndex": 454,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "assistant-extra300-root",
+    "fullTranscriptRead": true,
+    "subtitleRows": 455,
+    "decision": "同意全片为主题讲解与体验评测正文，non_ad/keep；没有独立推广插播或购买号召。商务关系未知仅作为限制，公众号结尾常规关注保留。"
+  }
+}

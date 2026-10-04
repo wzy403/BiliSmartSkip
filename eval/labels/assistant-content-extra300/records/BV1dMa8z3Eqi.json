@@ -1,0 +1,162 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 78,
+    "inputLineSha256": "32ade8ebf17d087f8a962898ad7dc58472f0819d63623cb106690f5adf56f116",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1dMa8z3Eqi-32175687360.json",
+    "acquisitionSha256": "a09c17ab6d715bf86fbc0bcc68748dc306ef761bed94324a67d7edf404519ee7",
+    "sourceUrl": "https://www.bilibili.com/video/BV1dMa8z3Eqi/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1dMa8z3Eqi.json",
+    "transcriptSha256": "2e22890b6425aabcf615708457c8799596b8e84513d12ddfc76892072b93944d"
+  },
+  "record": {
+    "bvid": "BV1dMa8z3Eqi",
+    "cid": 32175687360,
+    "duration": 598,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "复盘俄罗斯潜水员伊戈尔在达哈卜蓝洞挑战150米后快速上浮死亡，介绍其速成训练、气体规划失误、教练责任及行业认证问题。由潜水不该省的钱引入转转二手数码平台推广，再回到潜水过程。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 190.03,
+        "end": 233.46,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从‘不管潜水还是日常生活’转为二手消费建议，介绍转转手机价格、质检与保修、多种数码商品及优惠券，至‘逛完转转’完成广告转场，下一句恢复潜水叙事。之前250欧元、省掉应急保障属于事故原因正文。",
+        "evidence": [
+          {
+            "from": 188.85,
+            "to": 190.03,
+            "text": "医疗支持等"
+          },
+          {
+            "from": 190.03,
+            "to": 192.49,
+            "text": "其实不管是潜水还是日常生活"
+          },
+          {
+            "from": 192.49,
+            "to": 194.16,
+            "text": "有些东西是不能省的"
+          },
+          {
+            "from": 194.16,
+            "to": 195.94,
+            "text": "如果您觉得买新的不划算"
+          },
+          {
+            "from": 195.94,
+            "to": 197.66,
+            "text": "那可以到二手平台看看"
+          },
+          {
+            "from": 197.66,
+            "to": 200.68,
+            "text": "我这台转转上买的IPHONE13只要2000多"
+          },
+          {
+            "from": 205.72,
+            "to": 207.98,
+            "text": "转转是个专业的官方验二手平台"
+          },
+          {
+            "from": 209.64,
+            "to": 213.44,
+            "text": "只有经过专业工程师全面检验的正品手机才会上架售卖"
+          },
+          {
+            "from": 214.72,
+            "to": 217.4,
+            "text": "支持七天无理由退货和一年保修"
+          },
+          {
+            "from": 220.02,
+            "to": 222.2,
+            "text": "IPAD价格只要1500多"
+          },
+          {
+            "from": 222.2,
+            "to": 224.68,
+            "text": "拯救的R9000P价格也只要3000多"
+          },
+          {
+            "from": 225.7,
+            "to": 228.98,
+            "text": "现在点击评论区蓝链还能领最高千元优惠券"
+          },
+          {
+            "from": 230.38,
+            "to": 231.26,
+            "text": "大家快去转转"
+          },
+          {
+            "from": 231.26,
+            "to": 232.76,
+            "text": "更新一波数码产品吧"
+          },
+          {
+            "from": 232.76,
+            "to": 233.46,
+            "text": "逛完转转"
+          },
+          {
+            "from": 233.46,
+            "to": 234.88,
+            "text": "我们准备开始潜水"
+          }
+        ],
+        "startUncertainty": [
+          190.03,
+          190.03
+        ],
+        "endUncertainty": [
+          233.46,
+          233.46
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 83.41,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 85.949,
+        "end": 190.03,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 233.46,
+        "end": 289.51,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 292.2,
+        "end": 597,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 293,
+      "firstIndex": 0,
+      "lastIndex": 292,
+      "allRowsRead": true
+    }
+  }
+}

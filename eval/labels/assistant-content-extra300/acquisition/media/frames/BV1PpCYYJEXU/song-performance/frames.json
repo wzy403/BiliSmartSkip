@@ -1,0 +1,337 @@
+[
+  {
+    "time": 618.034,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-001.jpg",
+    "sha256": "e707573903cd608980a5d13b2357cd1542e8c27a478e6ad8c1a9fddc99538156"
+  },
+  {
+    "time": 622.038,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-002.jpg",
+    "sha256": "7396c02b542675d40e7200cc0bcacd4b77992d315d4db1f970efeea6097b7c68"
+  },
+  {
+    "time": 626.042,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-003.jpg",
+    "sha256": "008115c399431b3f226f60904fc0469d4549c5cfd155db8b68e9127b2bd59529"
+  },
+  {
+    "time": 630.046,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-004.jpg",
+    "sha256": "b9efd04899714935143111ab6c2f53cc4f8826b4f7c1272cc7af2914511dbcbd"
+  },
+  {
+    "time": 634.05,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-005.jpg",
+    "sha256": "693b352d592e1d165728f4245ef3bbb28632f906b45bcd2d49397348b7c0988b"
+  },
+  {
+    "time": 638.054,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-006.jpg",
+    "sha256": "4420520d59a45d743ec88747e5cd14ac41374fabfc90cf9450d2d63b8e16db81"
+  },
+  {
+    "time": 642.058,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-007.jpg",
+    "sha256": "6a9ad6481fd06f1731740cb8b7bc4bcf88dcbaba863fe68adac5c1099b6c637f"
+  },
+  {
+    "time": 646.062,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-008.jpg",
+    "sha256": "ad4397baa0d5f81bd7d9cdfce2fed22f201984d6cc749d850e0bc84e553106bb"
+  },
+  {
+    "time": 650.066,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-009.jpg",
+    "sha256": "f4fb6550f7b086c4a5baa808999584164bd2d2516426faccd07a652f4374aa65"
+  },
+  {
+    "time": 654.07,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-010.jpg",
+    "sha256": "f988f62ae4838a9490246f9a524dd3e487e33d959bbec078e70e5a58c7d06b29"
+  },
+  {
+    "time": 658.074,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-011.jpg",
+    "sha256": "50432b21116a72cd9860a4c8a8026f39653a71b0ab154b260718aaa99dc678ca"
+  },
+  {
+    "time": 662.078,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-012.jpg",
+    "sha256": "54b725ee79ff6873eb7813eec4cffdfc53d7c20dcbffac827c13343dace918d1"
+  },
+  {
+    "time": 666.082,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-013.jpg",
+    "sha256": "9b725c0a3c8a5b4082efcac5584fd56fd29a2a86641a09439c6fe76181af1c4c"
+  },
+  {
+    "time": 670.086,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-014.jpg",
+    "sha256": "a228c443dfc427489e734edbb5782f0c3e50e0d3d185bbbc488526cf783f8446"
+  },
+  {
+    "time": 674.09,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-015.jpg",
+    "sha256": "3bc32f926f30d0ded0532e28e78ea868c661e9c7ad8d5f6de09312e7672262fd"
+  },
+  {
+    "time": 678.094,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-016.jpg",
+    "sha256": "e361c6bb931c2309fa97d201a878750938ada038de9586f1fb301d7736b25ec1"
+  },
+  {
+    "time": 682.098,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-017.jpg",
+    "sha256": "3302c5cbf7b4d1eeb2cacb7ebf55451c53d19b92d73943b8b36058769c9f8639"
+  },
+  {
+    "time": 686.102,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-018.jpg",
+    "sha256": "26ec780a11d30272a3671f00a73f091621975ad4773fcdce2756b7dd73ee4943"
+  },
+  {
+    "time": 690.106,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-019.jpg",
+    "sha256": "f1b4c7c5fc7c179425b1da035aa7669cc58b360fd26f2459ddfff3d6e975391e"
+  },
+  {
+    "time": 694.11,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-020.jpg",
+    "sha256": "72adcec1fef0f317e7e179b867a8944b6cd2c8b04920a18eee03a98ca19aec67"
+  },
+  {
+    "time": 698.114,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-021.jpg",
+    "sha256": "4532e945afa25ab191471878a20cfc9c0152623266e30f2e81f65cf091e73c06"
+  },
+  {
+    "time": 702.118,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-022.jpg",
+    "sha256": "9e53b8ac2a5053991c2f05aec49f6d06d92d79add462a910dc5d5bd1a7ce24fb"
+  },
+  {
+    "time": 706.122,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-023.jpg",
+    "sha256": "3444fb8bd914416a7881ab0a7cbb62e0e203ac42e064fc1feb3e5aeff5b2eca3"
+  },
+  {
+    "time": 710.126,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-024.jpg",
+    "sha256": "935daf8699f42ab39a8acee645cde1c669d1ddeb269f3276e16504a907881107"
+  },
+  {
+    "time": 714.13,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-025.jpg",
+    "sha256": "ada6780ae6190ac2174ca72c5c13dfa6fed7e77653d1f92103d536bb5354e7d8"
+  },
+  {
+    "time": 718.134,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-026.jpg",
+    "sha256": "3bfea18aceeb9369ea6bc516d1937f548ebf766c0c854d09f3691cf9048fb5a4"
+  },
+  {
+    "time": 722.138,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-027.jpg",
+    "sha256": "e9272ca41007dc9ef81c88cfcdfc243bdc789746ed525a57a93dd5fef7796a15"
+  },
+  {
+    "time": 726.142,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-028.jpg",
+    "sha256": "b2e55d9c29ee038ede8d0f76e208627c0dba52c2b9682aae3c5eb546115072e3"
+  },
+  {
+    "time": 730.146,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-029.jpg",
+    "sha256": "15c7e95e9f5d52f3e62e15dc162e77313d7e943327aaeec3e65f7f3eee026bd0"
+  },
+  {
+    "time": 734.15,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-030.jpg",
+    "sha256": "61548afb036bb272bf30d74019385ee03eace312efd47b7248491605d1d4eb30"
+  },
+  {
+    "time": 738.154,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-031.jpg",
+    "sha256": "c6973f7c0824a769792991dff2a4ca3e2847ca81cd4647d5e3c7145685fbba2d"
+  },
+  {
+    "time": 742.158,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-032.jpg",
+    "sha256": "26d724c54f95d99c15919b6e118d9785ebcaf2fe8e5aa2fc820d53f5ba6e63ca"
+  },
+  {
+    "time": 746.162,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-033.jpg",
+    "sha256": "f3a29eaf207c03a10c19178bcc86d3dfa4f1feba727bc13fb9dcab5fd0dac029"
+  },
+  {
+    "time": 750.166,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-034.jpg",
+    "sha256": "869f96682f6ab173587db93333a8dcb95e3f781a1fa7cdcfd6614f4b5dd09103"
+  },
+  {
+    "time": 754.17,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-035.jpg",
+    "sha256": "34709417cdd9c6cc73dd819d6ca1f3dc7e64adabdd95cdf1c9eb5ba6e04d33c0"
+  },
+  {
+    "time": 758.174,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-036.jpg",
+    "sha256": "a989785bef15d3eda12af84515226669d37cca0f89891f627de45bef0d6d2381"
+  },
+  {
+    "time": 762.178,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-037.jpg",
+    "sha256": "1a3d86b1a355785977d388064a22f01fa90c0a78777c19830c4809ee9278e5f8"
+  },
+  {
+    "time": 766.182,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-038.jpg",
+    "sha256": "6e38b1935d12160b5b990119599305e94143e91fd5d45363546c5567e3a131e5"
+  },
+  {
+    "time": 770.186,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-039.jpg",
+    "sha256": "19db2316ed22affdff7f32d939b6d4b2e9fdae5d01b333e289859d829a198b6d"
+  },
+  {
+    "time": 774.19,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-040.jpg",
+    "sha256": "b28dcb1079c42d06053f1ac4f352f8ef034d85a86db3dcbec6793fe13d2bd89e"
+  },
+  {
+    "time": 778.194,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-041.jpg",
+    "sha256": "18aca60e1655241c02cba5cc080902220a49e050a3548f8067cf9cae3fe8ca25"
+  },
+  {
+    "time": 782.198,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-042.jpg",
+    "sha256": "05f5344e4db85877ce4db921384c8eef75677a4ad9080de9586a863ce7872764"
+  },
+  {
+    "time": 786.202,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-043.jpg",
+    "sha256": "e3d59f2fa8cdfea358e95c4f026fb2b53fdac50015c270cf913a690afb5a4754"
+  },
+  {
+    "time": 790.206,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-044.jpg",
+    "sha256": "593b3a9eeab4c0f4f353c2195d42c6b98a4f3a6c56ed03a18da523faf89f816f"
+  },
+  {
+    "time": 794.21,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-045.jpg",
+    "sha256": "883900acff70ad9428ec12a458b89611ac49cb5bf7cf368498b2ac5b69637ac2"
+  },
+  {
+    "time": 798.214,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-046.jpg",
+    "sha256": "b70cfb6046b171f11747a4e4e54a457395bf5118b54163fbda207a872a86c6b3"
+  },
+  {
+    "time": 802.218,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-047.jpg",
+    "sha256": "26447433b8260fbb29984af347134afd900a15b8fecc09644c0379702dd6d574"
+  },
+  {
+    "time": 806.222,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-048.jpg",
+    "sha256": "4d82ad2cfcafe19705a4f1edc2f0ddef61d78b7e67c6b094a24e54e9b15fac36"
+  },
+  {
+    "time": 810.226,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-049.jpg",
+    "sha256": "7872933cedc25c07e4df4eb1b1fa9fc01f0bd3b3c0c3b532765c50b84f63cdca"
+  },
+  {
+    "time": 814.23,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-050.jpg",
+    "sha256": "22d992cb5e27d22e0c7497909885025bbf32c52ae1510f799981f6cdb8b08402"
+  },
+  {
+    "time": 818.234,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-051.jpg",
+    "sha256": "1a15518c64d630d4c0e23839c4605f1690b900d12dc9af3c5cec2586b5e3829f"
+  },
+  {
+    "time": 822.238,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-052.jpg",
+    "sha256": "4dc923d3d57707da2d000df5a1051bf1e8bc20c501d5162063ea5009465412bd"
+  },
+  {
+    "time": 826.242,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-053.jpg",
+    "sha256": "46b649c40acf2fc407f101db02ee91418a9f8c590173edc1dfbbca3ec506efac"
+  },
+  {
+    "time": 830.246,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-054.jpg",
+    "sha256": "80f81a089afb2d887eb2189a9adffe2d27a5c45d332323b02104fbbb96e7d6ad"
+  },
+  {
+    "time": 834.25,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-055.jpg",
+    "sha256": "3181a770da6224bdb9cb8cb7e99375449c02e3d3022ca2a963a8ee45a95397e4"
+  },
+  {
+    "time": 838.254,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-056.jpg",
+    "sha256": "2d133bdf439ddf995c9502c71b200f68d330a432d919527212436ac57d4a602f"
+  },
+  {
+    "time": 842.258,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-057.jpg",
+    "sha256": "a6584fb3969555252170aa18c635bf2436c4725570f001697ea83d14da927114"
+  },
+  {
+    "time": 846.262,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-058.jpg",
+    "sha256": "d19d864151ef4ecb48fbec69aac55720b7c5a656ecaba53aef8961ce29432dae"
+  },
+  {
+    "time": 850.266,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-059.jpg",
+    "sha256": "fa321a5c0349070a4c49857624a4ab979b1f0d7b2e582ad434ea18ab6e9c212c"
+  },
+  {
+    "time": 854.27,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-060.jpg",
+    "sha256": "9d666f5912d33d3b2df73c372bfd99d8919cc11564ddd823f200a122c78ab572"
+  },
+  {
+    "time": 858.274,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-061.jpg",
+    "sha256": "21678dae192fcec26fc10e55418faae03576fa8c2dd2e794d5ea18841a32902c"
+  },
+  {
+    "time": 862.278,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-062.jpg",
+    "sha256": "5addea03157a3b173e61d3eb950fd11413497519d78e39ca7060b21b7ef13990"
+  },
+  {
+    "time": 866.282,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-063.jpg",
+    "sha256": "1246d212899fe4983149d426249690055de4ea15a99403a8c902c7203426ca78"
+  },
+  {
+    "time": 870.286,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-064.jpg",
+    "sha256": "058d545196360516ac1fd37484f4c9f02a262e8fa4d7866c18cf4e753dcae0fa"
+  },
+  {
+    "time": 874.29,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-065.jpg",
+    "sha256": "a5032e3394afc2615186510eb3e357413227056664654ddee359368f48ae8ee6"
+  },
+  {
+    "time": 878.294,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-066.jpg",
+    "sha256": "95b18a275a11575d264f142c27e9c89d270c2ae2f674b8be4b2faa2685086608"
+  },
+  {
+    "time": 882.298,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/song-performance/frame-067.jpg",
+    "sha256": "8eb38dd93d0832cffb06ee26e1aca38550c357302cc12b37fe5720675e9c596b"
+  }
+]

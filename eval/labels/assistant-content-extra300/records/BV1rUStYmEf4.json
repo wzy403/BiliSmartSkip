@@ -1,0 +1,217 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 213,
+    "inputLineSha256": "1e7187889377c0ede486321c0c3c5e34f24a6d5433a8905997eb14659fa337af",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1rUStYmEf4-26515800264.json",
+    "acquisitionSha256": "b9dcc8af5ec8e6a083eb2eed5ac1bb4cf780236b25c651db9447e03b41d959d0",
+    "sourceUrl": "https://www.bilibili.com/video/BV1rUStYmEf4/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1rUStYmEf4.json",
+    "transcriptSha256": "99a8d3355b44c7711fcb55e7bfdc6ba2009b89de6059316393ee4e8cd576d2c4"
+  },
+  "record": {
+    "bvid": "BV1rUStYmEf4",
+    "cid": 26515800264,
+    "duration": 539,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "按职业、日常、配饰、模仿及超能力等类别回顾灰太狼在动画中的服装与造型，得出 445 套统计；完成动画统计后借“还漏了一件”转入逆水寒联动游戏宣传，最后预告下一期统计小羊服装。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 490.72,
+        "end": 519.299,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "动画服装统计在 490.72 秒已得出结论；随后“少了一件/数漏”专为引出逆水寒联动设置转场，介绍联动人物外观、平底锅动作立体重制及游戏内唱跳的怀旧体验，邀请观众在游戏草原找快乐。它借用视频主题，但内容转为另一产品的集中推广，删除不破坏此前动画分类统计；519.299 秒另起下期内容预告。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          490.72,
+          490.72
+        ],
+        "endUncertainty": [
+          519.299,
+          519.299
+        ],
+        "evidence": [
+          {
+            "from": 487.28,
+            "to": 490.72,
+            "text": "灰太狼在动画播出至今共有cos445套"
+          },
+          {
+            "from": 490.72,
+            "to": 492,
+            "text": "不过不过最近我发现"
+          },
+          {
+            "from": 492,
+            "to": 493.98,
+            "text": "这个数字可能还真少了一件"
+          },
+          {
+            "from": 493.98,
+            "to": 495.6,
+            "text": "原来属漏的这件衣服"
+          },
+          {
+            "from": 495.6,
+            "to": 498.22,
+            "text": "穿在逆水寒和喜羊南海灰太狼的联动中"
+          },
+          {
+            "from": 498.22,
+            "to": 500.96,
+            "text": "不仅灰太狼红太狼的衣服有了翻新款"
+          },
+          {
+            "from": 500.96,
+            "to": 503.72,
+            "text": "喜羊羊美羊羊也是变身男大女大了"
+          },
+          {
+            "from": 503.72,
+            "to": 506.88,
+            "text": "最经典的红太狼用平底锅打飞灰太狼的动作"
+          },
+          {
+            "from": 506.88,
+            "to": 508.92,
+            "text": "在游戏中也有立体重制版"
+          },
+          {
+            "from": 508.92,
+            "to": 510.86,
+            "text": "光是在变听着歌跳着舞"
+          },
+          {
+            "from": 510.86,
+            "to": 514.22,
+            "text": "我就感觉找回了小时候在电视机前的那份快乐"
+          },
+          {
+            "from": 514.22,
+            "to": 517.619,
+            "text": "希望大家都能在这片在草原上放下生活的重担"
+          },
+          {
+            "from": 517.619,
+            "to": 519.299,
+            "text": "重新找回儿时的快乐吧"
+          },
+          {
+            "from": 519.299,
+            "to": 520.74,
+            "text": "另外很多人说"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 31.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 32.82,
+        "end": 64.36,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 64.96,
+        "end": 74,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 75.29,
+        "end": 76.77,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 78.37,
+        "end": 106.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 114.7,
+        "end": 124.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 124.85,
+        "end": 137.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 139,
+        "end": 147.91,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 149.29,
+        "end": 177.29,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 177.84,
+        "end": 249.329,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 250.579,
+        "end": 300.8,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 303.12,
+        "end": 342.24,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 342.25,
+        "end": 347.98,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 353.409,
+        "end": 402.2,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 405.74,
+        "end": 461.06,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 462.75,
+        "end": 490.72,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 519.299,
+        "end": 537,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 270,
+      "firstIndex": 0,
+      "lastIndex": 269,
+      "allRowsRead": true
+    }
+  }
+}

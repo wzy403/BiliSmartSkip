@@ -1,0 +1,242 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 7,
+    "inputLineSha256": "f85df41eb9a2d5d3c5f744a353ba1741c9bf44610ecad7b41422adf7b40f6856",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV122YAzWE2E-32260359739.json",
+    "acquisitionSha256": "3b81a9ee8e3fef9c70583cffe03631ef53001b4946684223f25323303db12440",
+    "sourceUrl": "https://www.bilibili.com/video/BV122YAzWE2E/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV122YAzWE2E.json",
+    "transcriptSha256": "e215b3557fde446b801c77bac1bc08f23b8b94d0f496b9e605c5ea75d3496e0f"
+  },
+  "record": {
+    "bvid": "BV122YAzWE2E",
+    "cid": 32260359739,
+    "duration": 1151,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以调侃评论形式梳理日美关税谈判、石破茂党内压力与辞职、日本对印合作及投资协议，期间借忍受关税的比喻切入妙界肩颈按摩仪推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 357.96,
+        "end": 428.65,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "以石破茂只能忍受关税的回扣搭桥，转为观众不必忍受颈椎酸痛，随后连续介绍妙界至尊版揉捏、热敷、家人使用、销量质保及领券抄底价，到别错过收尾并返回主题。",
+        "evidence": [
+          {
+            "from": 356.9,
+            "to": 357.96,
+            "text": "我先耗不住了"
+          },
+          {
+            "from": 357.96,
+            "to": 361.04,
+            "text": "石破茂现在是被美国的关税逼得不得不受着"
+          },
+          {
+            "from": 361.04,
+            "to": 363.32,
+            "text": "但我们不像她颈椎酸痛的话"
+          },
+          {
+            "from": 364.34,
+            "to": 367.12,
+            "text": "最近老用妙界颈椎按摩仪至尊版"
+          },
+          {
+            "from": 378.66,
+            "to": 380.62,
+            "text": "还升级了大师揉捏模式"
+          },
+          {
+            "from": 396.3,
+            "to": 398.7,
+            "text": "这个艾灸探技术更是把我迷得不行"
+          },
+          {
+            "from": 418.6,
+            "to": 420.82,
+            "text": "妙界作为按摩类的销量top1"
+          },
+          {
+            "from": 422.12,
+            "to": 423.98,
+            "text": "喜欢的朋友可以去评论区领券"
+          },
+          {
+            "from": 426.5,
+            "to": 428.65,
+            "text": "走过路过别错过"
+          },
+          {
+            "from": 428.65,
+            "to": 430.47,
+            "text": "好了咱们再说回主题啊"
+          }
+        ],
+        "startUncertainty": [
+          357.96,
+          357.96
+        ],
+        "endUncertainty": [
+          428.65,
+          428.65
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 7.859,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 10.52,
+        "end": 77.4,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 79.02,
+        "end": 107.74,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 109.72,
+        "end": 114.24,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 117.36,
+        "end": 198.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 199.96,
+        "end": 202.4,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 203.56,
+        "end": 257.839,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 260.759,
+        "end": 311.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 314.06,
+        "end": 318.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 320.76,
+        "end": 334.62,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 336.78,
+        "end": 357.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 428.65,
+        "end": 469.28,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 470.86,
+        "end": 587.04,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 590.2,
+        "end": 679.04,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 680.22,
+        "end": 703.94,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 705.52,
+        "end": 713.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 715.16,
+        "end": 730.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 735.3,
+        "end": 740.54,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 741.54,
+        "end": 758.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 759.58,
+        "end": 917.36,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 919.62,
+        "end": 947.2,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 949.6,
+        "end": 981.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 984.86,
+        "end": 1022.44,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1025.48,
+        "end": 1035.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1038.74,
+        "end": 1133.5,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 1136.56,
+        "end": 1150.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 664,
+      "firstIndex": 0,
+      "lastIndex": 663,
+      "allRowsRead": true
+    }
+  }
+}

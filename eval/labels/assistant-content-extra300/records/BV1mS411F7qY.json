@@ -1,0 +1,157 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 169,
+    "inputLineSha256": "426a86dab7059f8c6b0a175bace0159c1401acd5c9675c1c4eb1cc5c599cbc61",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1mS411F7qY-1540355532.json",
+    "acquisitionSha256": "313974911ca5dff97bbe1a96aa2293076b7172f02367ab754fce90dcd5bffeb0",
+    "sourceUrl": "https://www.bilibili.com/video/BV1mS411F7qY/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1mS411F7qY.json",
+    "transcriptSha256": "505f9bff7af48c7d90561751f288f1ef37b68de35a6d22b0776a901113a7eb28"
+  },
+  "record": {
+    "bvid": "BV1mS411F7qY",
+    "cid": 1540355532,
+    "duration": 1070,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解说柯南烹饪教室停电杀人案：铺陈四名嫌疑人动机，毛利连续排除嫌疑，柯南通过深色隐形眼镜、戒指顶针和针藏笔芯破解手法。解题灵感处插入从脑子灵光、血管通畅到高血脂生活方式的铺垫，转为海力生鱼油完整推广，随后继续案件推理。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 685.95,
+        "end": 839.8,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“聪明的小脑瓜一转”开始连串畅通、眼亮及血脂类比，构成鱼油功效的铺垫；继而介绍生活风险、omega-3、品牌研发历史、两款规格及优惠赠送，直到行动号召后明确回柯南。",
+        "startUncertainty": [
+          685.95,
+          697.36
+        ],
+        "endUncertainty": [
+          839.8,
+          839.8
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 685.95,
+            "to": 688.56,
+            "text": "但是只要我磕那聪明的小脑瓜"
+          },
+          {
+            "from": 689.46,
+            "to": 691.519,
+            "text": "你看恍然大悟了吗"
+          },
+          {
+            "from": 693.349,
+            "to": 694.279,
+            "text": "大脑灵光"
+          },
+          {
+            "from": 697.36,
+            "to": 698.32,
+            "text": "就像高血脂"
+          },
+          {
+            "from": 700.48,
+            "to": 702.04,
+            "text": "说起高血脂啊"
+          },
+          {
+            "from": 719.78,
+            "to": 723.14,
+            "text": "我身边就有好多个朋友不到30就高血脂"
+          },
+          {
+            "from": 733.03,
+            "to": 737.319,
+            "text": "那就来试试这款海底生家的鱼油吧"
+          },
+          {
+            "from": 760.44,
+            "to": 763.47,
+            "text": "从此一游就成了风靡世界的保健品"
+          },
+          {
+            "from": 789.6,
+            "to": 793.05,
+            "text": "此次海医生研究团队采用了最好的RTG结构"
+          },
+          {
+            "from": 807.17,
+            "to": 810.18,
+            "text": "小蓝瓶1EPA纯度高达90%"
+          },
+          {
+            "from": 824.27,
+            "to": 827.69,
+            "text": "大家可以在评论区领取麦子的专属优惠券"
+          },
+          {
+            "from": 835.5,
+            "to": 837.45,
+            "text": "折下来每天才两块钱"
+          },
+          {
+            "from": 837.45,
+            "to": 839.8,
+            "text": "大家心动不如行动呀"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.24,
+        "end": 28.08,
+        "reason": "柯南案件起因、关系与证据梳理；食谱发布、培训班都是案件情节。"
+      },
+      {
+        "start": 34.03,
+        "end": 341.94,
+        "reason": "柯南案件起因、关系与证据梳理；食谱发布、培训班都是案件情节。"
+      },
+      {
+        "start": 344.84,
+        "end": 685.95,
+        "reason": "柯南案件起因、关系与证据梳理；食谱发布、培训班都是案件情节。"
+      },
+      {
+        "start": 839.8,
+        "end": 999.56,
+        "reason": "破解凶手的黑暗视力手法、凶器及动机，并以节目互动结束。"
+      },
+      {
+        "start": 1000.229,
+        "end": 1043.31,
+        "reason": "破解凶手的黑暗视力手法、凶器及动机，并以节目互动结束。"
+      },
+      {
+        "start": 1057.54,
+        "end": 1066.18,
+        "reason": "破解凶手的黑暗视力手法、凶器及动机，并以节目互动结束。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "1043.31–1057.54 秒提示小柯升华后的无字幕片段未视听核验，保留未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 541,
+      "firstIndex": 0,
+      "lastIndex": 540,
+      "allRowsRead": true
+    }
+  }
+}

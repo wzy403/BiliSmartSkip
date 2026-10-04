@@ -1,0 +1,182 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 201,
+    "inputLineSha256": "24adda049013b9f785f71a7968568d5a1e186db675e3d6efb4c4f09a0635c78d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1QKymBfEFK-33508167132.json",
+    "acquisitionSha256": "bb66d7f64231a7e9c2316143a8a25ee0d6178ca1e5801b133bec05f4a95b043b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1QKymBfEFK/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1QKymBfEFK.json",
+    "transcriptSha256": "ebb459414101e63987b5a1c42884d6ff512fb3dbdacef7d14c58acf445a9dea1"
+  },
+  "record": {
+    "bvid": "BV1QKymBfEFK",
+    "cid": 33508167132,
+    "duration": 783,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "给《战地6》新玩家介绍支援兵被动、医疗/火力分支、救援与补给机制，逐项讲各配备和投掷物优缺点。技能讲解与配备介绍之间转入暗影精灵MAX游戏本的完整性能、屏幕、散热和AI功能推广；游戏技巧与兵种介绍是正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 257.54,
+        "end": 411.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从游戏画面与240帧需求铺垫问装备够不够，独立推介暗影精灵MAX的CPU/GPU、显示、灯效、性能模式、散热、耳机及OMEN AI，直到心动去看、战场见的促销收尾；414.06秒恢复支援兵八个配备的教程。虽使用战地作为演示场景，该长硬件推介可从兵种知识教程独立移除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          257.54,
+          257.54
+        ],
+        "endUncertainty": [
+          411.5,
+          414.06
+        ],
+        "evidence": [
+          {
+            "from": 251.83,
+            "to": 255.51,
+            "text": "以上便是支援兵的主动技能与分支"
+          },
+          {
+            "from": 257.54,
+            "to": 258.38,
+            "text": "朋友们"
+          },
+          {
+            "from": 258.38,
+            "to": 260.78,
+            "text": "战地六这地图爆炸特效载具"
+          },
+          {
+            "from": 262.34,
+            "to": 264.46,
+            "text": "但你想顶着240帧的丝滑"
+          },
+          {
+            "from": 265.94,
+            "to": 267.699,
+            "text": "你的装备够格吗"
+          },
+          {
+            "from": 269.839,
+            "to": 271.81,
+            "text": "暗影精灵max"
+          },
+          {
+            "from": 281.63,
+            "to": 284.47,
+            "text": "它搭载了英特尔酷睿ultra7处理器"
+          },
+          {
+            "from": 311.55,
+            "to": 313.19,
+            "text": "搭配RTX5060"
+          },
+          {
+            "from": 374.68,
+            "to": 377.44,
+            "text": "配合这个飓风炫彩版无线RGB游戏耳机"
+          },
+          {
+            "from": 385.08,
+            "to": 388.21,
+            "text": "这个欧盟AI目前支持cs2无畏契约"
+          },
+          {
+            "from": 403.05,
+            "to": 404.57,
+            "text": "那么这台暗影精灵max"
+          },
+          {
+            "from": 408.54,
+            "to": 411.5,
+            "text": "赶紧去看看我们战场上见"
+          },
+          {
+            "from": 414.06,
+            "to": 416.74,
+            "text": "志愿兵在当前版本中拥有八个配备"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 29.3,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 31.54,
+        "end": 33.26,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 35.54,
+        "end": 38.25,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 39.13,
+        "end": 42.72,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 43.36,
+        "end": 45.16,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 47.08,
+        "end": 50.24,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 51.12,
+        "end": 85.95,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 86.27,
+        "end": 129.88,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 131.94,
+        "end": 255.51,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 414.06,
+        "end": 769.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 776.64,
+        "end": 781.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 377,
+      "firstIndex": 0,
+      "lastIndex": 376,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1itRhY4E64",
+  "cid": 28777514220,
+  "title": "【梗百科】卖掉了是啥梗？本期含“莓”量很大？",
+  "duration": 106,
+  "desc": "祝大家都“莓”烦恼，“莓”问题～\nCV：吱毛 文案：大金鱼 后期：MrChenBeta ＆ 谢华鑫\n若发现视频中存在问题,欢迎附上能证明问题的材料,发邮件到gengwiki@sina.com,一经查实会给予第一位抓虫的朋友纠错辛苦费，希望能和大家一起做出更好更全面的梗科普类节目",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:03:57.135Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:17:42.762Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 124,
+    "inputLineSha256": "1a5e3f727594af4c575dfabd8f3272801afaef4ac5f829ae0c9e9379bb020cb6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1itRhY4E64-28777514220.json",
+    "acquisitionSha256": "05ee930a9b897c2673fb91d0a4ed5a6596e1086ee497f8790f1a9143b38506a3",
+    "sourceUrl": "https://www.bilibili.com/video/BV1itRhY4E64/?p=1"
+  }
+}

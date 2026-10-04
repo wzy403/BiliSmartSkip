@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Q6KwzsEDQ",
+  "cid": 30600792951,
+  "title": "说最狠的话，挨最毒的打，伊朗也开始印度化？",
+  "duration": 1174,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:13:26.960Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:24:15.834Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 196,
+    "inputLineSha256": "f2e841eefe4ba5b9a3289ddbdff30b3457966a2de30138c701bf54c6e2e9fa70",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Q6KwzsEDQ-30600792951.json",
+    "acquisitionSha256": "280825416c39c7337d58c4ed8e6eb5be47fb0af9f402a3207d9544bbb9d63750",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Q6KwzsEDQ/?p=1"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 62,
+    "inputLineSha256": "c98b61796fdbec2ec34dd768016819c2364e202f45ead91ebbeb8b491a1ffdf5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1c6d5BmE3E-37581752645.json",
+    "acquisitionSha256": "9184184714ae39087229b070be6f80d065ad7875442eb06610f89013de4b261b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1c6d5BmE3E/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1c6d5BmE3E.json",
+    "transcriptSha256": "5de3a66d5ead5dafeaec221a8ac47f4990247e88f1b86ef238e9a5c0ac9a82a5"
+  },
+  "record": {
+    "bvid": "BV1c6d5BmE3E",
+    "cid": 37581752645,
+    "duration": 1171,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "解说《锻刀大赛》以三种钢材铁罐大马与三枚合结构为题的竞赛，依次讲材料、脱模、淬火翘曲、断刀晋级和德国梅塞尔刀组决赛，讨论折断小刀仍获胜的综合评判。中间借立可白的重要性引入小鹿护颈枕促销；后文老狼锻造坊狼头护手是参赛刀具设计说明。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 233.28,
+        "end": 316.58,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从立可白不可或缺的类比铺垫转到小鹿护颈枕，介绍睡眠体验、科学分区、记忆棉、178元券价、保价运险及换新，直至评论区领券催单；316.58秒回到坦纳脱模与比赛过程，包含完整转场和收尾。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          233.28,
+          235.72
+        ],
+        "endUncertainty": [
+          316.58,
+          316.58
+        ],
+        "evidence": [
+          {
+            "from": 231.1,
+            "to": 233.28,
+            "text": "完全可以看出来这里头是什么材料"
+          },
+          {
+            "from": 233.28,
+            "to": 234.28,
+            "text": "要是没有立刻白"
+          },
+          {
+            "from": 234.28,
+            "to": 235.72,
+            "text": "这比赛都得黄啊"
+          },
+          {
+            "from": 235.72,
+            "to": 238.04,
+            "text": "重要程度不亚于墨子的神奇小鹿"
+          },
+          {
+            "from": 240.28,
+            "to": 242.46,
+            "text": "墨子可没有这么好的精神肝视频"
+          },
+          {
+            "from": 258.719,
+            "to": 260.139,
+            "text": "促销价178"
+          },
+          {
+            "from": 275.42,
+            "to": 277.5,
+            "text": "而小鹿的科学分区呢一高一矮"
+          },
+          {
+            "from": 307.44,
+            "to": 310.46,
+            "text": "主打一个方便下单就有保价送运险"
+          },
+          {
+            "from": 313.22,
+            "to": 315.3,
+            "text": "优惠券都给大家放评论区了"
+          },
+          {
+            "from": 315.3,
+            "to": 316.58,
+            "text": "冲就完事了"
+          },
+          {
+            "from": 316.58,
+            "to": 319.28,
+            "text": "而此时的坦娜呀竟还在脱模"
+          }
+        ]
+      },
+      {
+        "start": 835.62,
+        "end": 845,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "解释选手为何把护手做成狼头并呼应其锻造坊店名，是评价参赛作品外观的正文。解说者“打个广告”是对署名设计的评论，没有转入面向观众的购买推介，不应跳过刀具设计情节。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          835.62,
+          835.62
+        ],
+        "endUncertainty": [
+          845,
+          845
+        ],
+        "evidence": [
+          {
+            "from": 832.92,
+            "to": 835.62,
+            "text": "在可控范围内还加了点自己的小巧思"
+          },
+          {
+            "from": 835.62,
+            "to": 838.08,
+            "text": "老爷子的店叫老狼锻造坊"
+          },
+          {
+            "from": 838.08,
+            "to": 841.24,
+            "text": "所以说他特地将护手打磨成了狼头的模样"
+          },
+          {
+            "from": 841.24,
+            "to": 843.1,
+            "text": "就是抽空他还能打个广告"
+          },
+          {
+            "from": 843.1,
+            "to": 845,
+            "text": "这算是有效的花活"
+          },
+          {
+            "from": 845,
+            "to": 845.98,
+            "text": "第三天的时候吧"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.02,
+        "end": 233.28,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 316.58,
+        "end": 376.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 378.65,
+        "end": 396.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 398.44,
+        "end": 466.36,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 467.12,
+        "end": 474.75,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 474.83,
+        "end": 481.75,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 483.44,
+        "end": 577.36,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 577.9,
+        "end": 624.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 634.48,
+        "end": 649.089,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 659.46,
+        "end": 671,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 681.2,
+        "end": 696.55,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 700.94,
+        "end": 709.819,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 715.96,
+        "end": 725.86,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 731.64,
+        "end": 835.62,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 845,
+        "end": 859.98,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 862.78,
+        "end": 877.7,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 878,
+        "end": 908.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 912.92,
+        "end": 914.8,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 923.9,
+        "end": 945.61,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 963.9,
+        "end": 978.94,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 979.18,
+        "end": 989.489,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1017.58,
+        "end": 1038.26,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1055.76,
+        "end": 1064.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1081.54,
+        "end": 1095.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1121.96,
+        "end": 1170.34,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 577,
+      "firstIndex": 0,
+      "lastIndex": 576,
+      "allRowsRead": true
+    }
+  }
+}

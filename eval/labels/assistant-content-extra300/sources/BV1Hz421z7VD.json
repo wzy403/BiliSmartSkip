@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Hz421z7VD",
+  "cid": 1600807595,
+  "title": "罗小黑战记要如何打赢复活赛？",
+  "duration": 1245,
+  "desc": "-",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:15:06.202Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:17:34.882Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 119,
+    "inputLineSha256": "58bf578beceaf13d7e271942d7e7a0e0ff07ccc5ffc8890fb8b94237700da361",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Hz421z7VD-1600807595.json",
+    "acquisitionSha256": "d17b247b387c4dfe7b7b4505598f51b6786f290c12f10570db931f597dd1582c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Hz421z7VD/?p=1"
+  }
+}

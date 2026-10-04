@@ -1,0 +1,157 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 246,
+    "inputLineSha256": "4b23819bad7ff2147f787cc2f1e640e324e33c5cc7160b33d2fea4ea79bb61e3",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1ut63YRE6f-27609532584.json",
+    "acquisitionSha256": "a54f32d56a73023ba1b963a73138fdbe5b27079713b4c8d96fc99a2abe0fef97",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ut63YRE6f/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1ut63YRE6f.json",
+    "transcriptSha256": "9d6019a3d8d1b0ba5a21ded0ba5feda5119d1999a6a874fc19a7121f69b98b84"
+  },
+  "record": {
+    "bvid": "BV1ut63YRE6f",
+    "cid": 27609532584,
+    "duration": 730,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "评述2024起点十二天王榜单及评选倾向，逐本介绍天才俱乐部、长剑两晋、仙工开物、炮火弧线、我的超能力每周刷新、万世之名、我有一个修仙世界等的剧情、长短处和受众，后讲万历明君与小渔村并吐槽榜单提前发布。小说推荐及负面批评属于视频主题；轻小说消费超额的个人经历转入喵喵记账推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 324.62,
+        "end": 383.51,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从买实体轻小说花费超额铺垫，引出喵喵记账的预算、自动记账、365天存钱计划和下载链接，最后好回到视频明确返回书评。",
+        "startUncertainty": [
+          324.62,
+          324.62
+        ],
+        "endUncertainty": [
+          383.51,
+          383.51
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 322.56,
+            "to": 324.62,
+            "text": "不可不品鉴诶"
+          },
+          {
+            "from": 324.62,
+            "to": 326.02,
+            "text": "说起轻小说"
+          },
+          {
+            "from": 326.02,
+            "to": 328.16,
+            "text": "最近我也是非常热衷于买实体书"
+          },
+          {
+            "from": 328.16,
+            "to": 330.4,
+            "text": "结果不知不觉间支出就超额了"
+          },
+          {
+            "from": 330.4,
+            "to": 332.92,
+            "text": "好在我有一款属于自己的独门法宝"
+          },
+          {
+            "from": 332.92,
+            "to": 334.44,
+            "text": "喵喵记账哎"
+          },
+          {
+            "from": 334.44,
+            "to": 337.6,
+            "text": "一到月初我就会在喵喵上分类设置好消费额度"
+          },
+          {
+            "from": 353.32,
+            "to": 355.7,
+            "text": "喵喵的自动记账省下了我不少功夫"
+          },
+          {
+            "from": 366.04,
+            "to": 369.2,
+            "text": "就坚持跟着喵喵的365天存钱计划打卡"
+          },
+          {
+            "from": 375.76,
+            "to": 377.28,
+            "text": "完成下一个小目标吧"
+          },
+          {
+            "from": 377.28,
+            "to": 378.88,
+            "text": "那么如果观看视频的"
+          },
+          {
+            "from": 378.88,
+            "to": 380.98,
+            "text": "你也有一些省钱记这样的需求"
+          },
+          {
+            "from": 380.98,
+            "to": 383.51,
+            "text": "赶紧点击评论区置顶链接下载吧"
+          },
+          {
+            "from": 383.51,
+            "to": 387.09,
+            "text": "好回到视频下一部作品就非常重量级了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 13.94,
+        "end": 57.28,
+        "reason": "实际字幕覆盖的奖项介绍与前五部网文评论。"
+      },
+      {
+        "start": 57.56,
+        "end": 281.3,
+        "reason": "实际字幕覆盖的奖项介绍与前五部网文评论。"
+      },
+      {
+        "start": 281.74,
+        "end": 324.62,
+        "reason": "实际字幕覆盖的奖项介绍与前五部网文评论。"
+      },
+      {
+        "start": 383.51,
+        "end": 561.78,
+        "reason": "实际字幕覆盖的其余作品评论及制作过程和结尾。"
+      },
+      {
+        "start": 562.3,
+        "end": 729.2,
+        "reason": "实际字幕覆盖的其余作品评论及制作过程和结尾。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "0–13.94 秒开头无字幕，末尾729.2–730秒未知；书名和部分专名有自动转写误差。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 358,
+      "firstIndex": 0,
+      "lastIndex": 357,
+      "allRowsRead": true
+    }
+  }
+}

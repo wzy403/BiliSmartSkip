@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "3a8ea94f92570efec17201eb48776407e6c1ba775b62dec784903621fce78e31"
+    },
+    {
+      "file": "metadata-recovery-sandbox-attempt.json",
+      "sha256": "f3741326585ba8e2925154c3eb7a5c34b75837c67098adc774b18e2361023c9d"
+    },
+    {
+      "file": "metadata-recovery-summary.json",
+      "sha256": "f7e4548996a67b22bc267072f629a95404f2db8b2949af9658126edab11008ad"
+    },
+    {
+      "file": "recover-metadata.cjs",
+      "sha256": "f83f35070e11ccf1d748f48ed20e26fe04c62a63b4225ff4651f84a1666e1967"
+    },
+    {
+      "file": "recovered-for-subtitles.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

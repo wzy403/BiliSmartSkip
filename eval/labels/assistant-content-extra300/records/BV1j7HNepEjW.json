@@ -1,0 +1,190 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 131,
+    "inputLineSha256": "f83eb130213d2d2e812ec6348d5c734d2219705093e5dc3d95a36a8d79a1c40b",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1j7HNepEjW-25683561118.json",
+    "acquisitionSha256": "4336146fa4fc35ea9c7edf98045230392bbba55162c3a87455ce4bbdef7bc7b6",
+    "sourceUrl": "https://www.bilibili.com/video/BV1j7HNepEjW/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1j7HNepEjW.json",
+    "transcriptSha256": "5c59f097712b6e68efdfa4a48c08d7642c03db6ca9a85a3cc47554c3b15be174"
+  },
+  "record": {
+    "bvid": "BV1j7HNepEjW",
+    "cid": 25683561118,
+    "duration": 914,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "前段逐题讲图形推理：对称轴旋转、内外位置移动、九宫格加减求异、数量和三角形元素、旋转拼合及相邻球关系，包含尝试错误后换思路。题目结束后另起面向粉丝的自我介绍、教学资历和权益说明，销售9.9元学习资料及长期咨询答疑，最后扫码联系号召。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 688.68,
+        "end": 909.72,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "解题已结束后从重新问候粉丝、感谢关注和培训资历铺垫，逐项介绍资料、笔记、导图与持续好友咨询权益，报价9.9元并要求扫码联系，属于独立付费资料/服务自我推广。不能把前面的实际知识讲解标广告，也不能只截最后报价。",
+        "startUncertainty": [
+          683.65,
+          688.68
+        ],
+        "endUncertainty": [
+          909.72,
+          914
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 680.47,
+            "to": 683.65,
+            "text": "这种这种位置的就可以了"
+          },
+          {
+            "from": 688.68,
+            "to": 690.08,
+            "text": "好各位B友们"
+          },
+          {
+            "from": 690.72,
+            "to": 694.3,
+            "text": "我非常开心呃"
+          },
+          {
+            "from": 702.91,
+            "to": 704.67,
+            "text": "非常感谢大家能关注我"
+          },
+          {
+            "from": 706.85,
+            "to": 710.75,
+            "text": "然后呢首先也做一下自我的介绍吧"
+          },
+          {
+            "from": 714.45,
+            "to": 718.19,
+            "text": "也是摸爬滚打多年嗯"
+          },
+          {
+            "from": 719.83,
+            "to": 722.75,
+            "text": "后来也是一个也培训啊"
+          },
+          {
+            "from": 736.159,
+            "to": 737.819,
+            "text": "经验是比较丰富的"
+          },
+          {
+            "from": 762.68,
+            "to": 765.56,
+            "text": "也给大家推出了一个权益啊"
+          },
+          {
+            "from": 768.84,
+            "to": 772.6,
+            "text": "第一个是我自己总结的一个行测和申论"
+          },
+          {
+            "from": 778.819,
+            "to": 782.599,
+            "text": "还有一个就是我的一个自己总结的一个笔记"
+          },
+          {
+            "from": 784.469,
+            "to": 786.709,
+            "text": "一共下来有200页左右吧"
+          },
+          {
+            "from": 813.14,
+            "to": 816.26,
+            "text": "大家有需要的也可以找我要第二个点"
+          },
+          {
+            "from": 819.38,
+            "to": 823.97,
+            "text": "就是提供一个考公方面的咨询答疑"
+          },
+          {
+            "from": 825.1,
+            "to": 828.41,
+            "text": "嗯9.9元你买了之后呃"
+          },
+          {
+            "from": 828.41,
+            "to": 829.93,
+            "text": "我会把资料发给你吧"
+          },
+          {
+            "from": 829.93,
+            "to": 832.45,
+            "text": "然后这个好友呢我会一直保留下去"
+          },
+          {
+            "from": 863.099,
+            "to": 865.139,
+            "text": "我都可以给你答疑啊"
+          },
+          {
+            "from": 875.95,
+            "to": 879.93,
+            "text": "所以大家有需求的就可以去呃"
+          },
+          {
+            "from": 879.93,
+            "to": 881.19,
+            "text": "扫码去"
+          },
+          {
+            "from": 881.19,
+            "to": 885.48,
+            "text": "我会把我这些资料啦去发给你好"
+          },
+          {
+            "from": 887.84,
+            "to": 890.04,
+            "text": "我只要9.9元啊"
+          },
+          {
+            "from": 890.04,
+            "to": 893.26,
+            "text": "我觉得价格也是性价比比较高了"
+          },
+          {
+            "from": 905.04,
+            "to": 906.2,
+            "text": "大家有需要的啊"
+          },
+          {
+            "from": 906.2,
+            "to": 907.76,
+            "text": "有需要的可以去联系我"
+          },
+          {
+            "from": 907.76,
+            "to": 909.72,
+            "text": "嗯到此为止"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 337,
+      "firstIndex": 0,
+      "lastIndex": 336,
+      "allRowsRead": true
+    }
+  }
+}

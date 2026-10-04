@@ -1,0 +1,193 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 214,
+    "inputLineSha256": "e77fdd1286435c1ef350ea747643dea25d7cb8fa0715af5f4849c5a6aaac0870",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1RVsXzDEFN-33372309746.json",
+    "acquisitionSha256": "4ab36815953bb8950d4e2b585c9217e17fe094e2526d936db5448032f140f001",
+    "sourceUrl": "https://www.bilibili.com/video/BV1RVsXzDEFN/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1RVsXzDEFN.json",
+    "transcriptSha256": "bd7c8f1b736cafa206f2097a0358f93180760add351a47ddb8d90d54a98f81dd"
+  },
+  "record": {
+    "bvid": "BV1RVsXzDEFN",
+    "cid": 33372309746,
+    "duration": 1381,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "复述 1942 年波士顿椰林俱乐部大火，从报警、受困与救援到建筑材料、封闭出口等事故原因，以及追责和幸存者后续；正式叙事前插入转转上门回收赞助。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 82.98,
+        "end": 116.94,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从“节目正式开始之前”宣布感谢转转赞助起，介绍回收物品范围、上门服务、现场打款和作者回收金额，最后推荐找大平台；116.94 秒回到 1942 年火灾前的时间线。整段与灾难叙事无关，完整保留广告开头及收尾。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          82.98,
+          82.98
+        ],
+        "endUncertainty": [
+          116.94,
+          116.94
+        ],
+        "evidence": [
+          {
+            "from": 80.3,
+            "to": 82.82,
+            "text": "野野岭俱乐部大火"
+          },
+          {
+            "from": 82.98,
+            "to": 84.44,
+            "text": "节目正式开始之前"
+          },
+          {
+            "from": 84.44,
+            "to": 86.5,
+            "text": "先感谢我们老朋友转转的赞助"
+          },
+          {
+            "from": 86.5,
+            "to": 89.38,
+            "text": "想问下大家平时的闲置物品都是怎么处理"
+          },
+          {
+            "from": 89.38,
+            "to": 91.34,
+            "text": "像我都会叫个转转上门回收"
+          },
+          {
+            "from": 97.64,
+            "to": 100.36,
+            "text": "甚至就连黄金奢侈品都能上门回收"
+          },
+          {
+            "from": 101.08,
+            "to": 101.88,
+            "text": "现场打钱"
+          },
+          {
+            "from": 101.88,
+            "to": 103.94,
+            "text": "这比我挨个挂网上卖效率高多了"
+          },
+          {
+            "from": 106.76,
+            "to": 109.6,
+            "text": "特别适合我这种想卖闲置又怕麻烦的人"
+          },
+          {
+            "from": 109.6,
+            "to": 111.78,
+            "text": "像我这次收拾出了七八件闲置"
+          },
+          {
+            "from": 111.78,
+            "to": 112.94,
+            "text": "总共卖了1万多呢"
+          },
+          {
+            "from": 112.94,
+            "to": 114.46,
+            "text": "总之有东西要回收"
+          },
+          {
+            "from": 114.46,
+            "to": 116.94,
+            "text": "找转转这种大平台就对了"
+          },
+          {
+            "from": 116.94,
+            "to": 120.86,
+            "text": "1942年11月28日晚上9.15分"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.84,
+        "end": 82.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 116.94,
+        "end": 377.16,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 377.44,
+        "end": 493.82,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 494.1,
+        "end": 722.28,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 722.56,
+        "end": 780.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 781.68,
+        "end": 815.87,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 817.47,
+        "end": 960.66,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 963.32,
+        "end": 1211.46,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1212.1,
+        "end": 1233.789,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1236.089,
+        "end": 1263.09,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1263.24,
+        "end": 1300.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 1300.84,
+        "end": 1370.98,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。",
+      "最后一条叙事字幕结束于 1370.98 秒，视频标称 1381 秒；未实际查看其后画面，不能对无字幕片尾视觉信息作结论。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 574,
+      "firstIndex": 0,
+      "lastIndex": 573,
+      "allRowsRead": true
+    }
+  }
+}

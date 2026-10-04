@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1CjVi65ERn",
+  "cid": 38786108445,
+  "title": "一战战壕的邪恶设计 | Atrium",
+  "duration": 1368,
+  "desc": "一名叫史密斯的英国中尉冲向前线，目标是摧毁德军长程火炮，这些火炮正在轰炸盟军补给线。如果失败，数千士兵将挨饿。\n\n史密斯跳进战壕，发现遍地尸体。要到达火炮，他必须穿过四层防线：前线战壕、支援战壕、预备战壕和后方区域。第一层前线战壕每英里驻守约800士兵，呈锯齿形设计防止敌人直线扫射。他遇到同乡的柯林斯中士，两人分头行动。史密斯用李-恩菲尔德步枪击毙一名德军，找到连接第二层支援战壕的交通壕。交通壕长250英尺，他负伤后简单包扎。\n\n进入支援战壕后，这里更危险，每英里驻守1100人。史密斯用米尔斯手榴弹炸死三名德军，但一个逃进地下宿舍。他发现德军宿舍条件比英军好得多，有电灯和金属墙壁。继续前进，看到急救站、军官室和弹药库。德军地下指挥所深埋地面30英尺，是整条战壕的神经中枢。\n\n最后一段交通壕长1000英尺，史密斯发现柯林斯被一名装死的德军军官射中腹部。他打死军官，但柯林斯失血过多死亡。史密斯独自冲进后方区域，那里有铁路和卡车运送补给。跑了三英里，在树林里找到伪装网下的45吨重长程火炮。德军投降，火炮被摧毁。视频中还插播了UDO财务软件的广告，但核心故事是史密斯在50分钟德军援军到达前完成了任务。\n\n\ntitle: The Evil Design of WW1 Trenches\nurl: https://www.youtube.com/watch?v=Pmtp5sKmmQ0\nuploader: Atrium \npublish_timestamp: 2026-05-31 20:03:41 UTC+8\nduration: 22:48\n原视频描述(中文翻译):\n本视频灵感来源于亚眠战役的真实事件。\n\n一战战壕对战争至关重要，但寻找关于其布局的清晰、全面信息却异常困难。为了解决这个问题，我们创建了一个故事情节，带你深入战壕系统，揭示其结构、主要房间和位置，以及士兵们如何生活。\n\n本视频中探索的战壕系统是德军的。德军战壕通常更为完善和坚固，拥有广泛的掩体、加固阵地和复杂的支援设施。相比之下，英军和协约国的战壕系统通常更为临时和简陋，导致士兵的生活条件更为艰苦。\n\n我们的动画师在Unreal Engine中从头建模了整个视频，耗时超过一百小时。我们还测试了一个AI工具来帮助创建更自然的角色动作，以提供更高品质。希望你喜欢！\n\n感谢我们出色的团队！\n\nLouix（联合创始人）\nSol（前期制作主管）\nJamie（研究员）\nNacho（剧本作者）\nGabriel（动画师）\nMarcos（动画师）\nFelipe（摄影）\nShevina（摄影）\nThales（剪辑师）\nLuciano（音效设计师）\nRaul（旁白）\nAndre（缩略图）\n\n此内容现提供多种语言版本。",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:10:33.767Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:50.665Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 64,
+    "inputLineSha256": "4e27faa16b674f096f59d38d46b6d5b940e66650d321988700e22b05f2e97fb4",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1CjVi65ERn-38786108445.json",
+    "acquisitionSha256": "8287e0edc7e4a7f523eb3f635d0a19c580c1a9dca25886b6b232566c0ff3547e",
+    "sourceUrl": "https://www.bilibili.com/video/BV1CjVi65ERn/?p=1"
+  }
+}

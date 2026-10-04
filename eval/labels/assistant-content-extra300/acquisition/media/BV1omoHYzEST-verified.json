@@ -1,0 +1,30 @@
+{
+  "bvid": "BV1omoHYzEST",
+  "cid": 29424355021,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1omoHYzEST/?p=1",
+  "checkedAt": "2026-10-04T23:48:25.744Z",
+  "responseSha256": "74f8d94a2bf700bfd20222c2b9f22b2a88fe762789b60ec157b0260e97ca0e3b",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1omoHYzEST.mp4",
+  "sha256": "7b460df9bd4af449f61366ddc8f135533578399dde638304c3fa8b9b333ce644",
+  "bytes": 99409379,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac"
+      }
+    ],
+    "format": {
+      "duration": "1238.250333"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media; original BV/CID/page independently checked with existing public parser"
+}

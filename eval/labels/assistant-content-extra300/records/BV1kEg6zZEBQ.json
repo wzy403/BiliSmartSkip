@@ -1,0 +1,170 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 145,
+    "inputLineSha256": "4202f46c3993338d1581e9d7d921da9370420e9e8ee728c6b78bbc2d08cdc261",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1kEg6zZEBQ-25819485865.json",
+    "acquisitionSha256": "662bc4d5279d900008232bb1fd11d385f29ffd62b325309d4f9ccae84e407fbb",
+    "sourceUrl": "https://www.bilibili.com/video/BV1kEg6zZEBQ/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1kEg6zZEBQ.json",
+    "transcriptSha256": "7f6da12c2f30d6632f99371cb06a626d426cb8e385edde7a8f48356e5a25881c"
+  },
+  "record": {
+    "bvid": "BV1kEg6zZEBQ",
+    "cid": 25819485865,
+    "duration": 594,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "国际简讯依次涉及俄乌空袭与战机损失、退禁雷公约、塞尔维亚抗议封路、加沙战况、英国音乐节支持巴勒斯坦的现场讲话和演唱、美国消防员遭袭及乌军无人机战场片段。塞尔维亚报道后用局势令人火热转到天气热，插入神奇小鹿星空被推介，再返回加沙新闻。音乐节中的政治口号为新闻素材，未见商品推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 218.18,
+        "end": 293.839,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "以局势看得浑身火热、说到热转场，完整介绍小鹿被子双面凉感、薄荷醇、玻尿酸、吸汗与母婴材质，配色尺寸、机洗及评论区券质保后号召购买，随后直接关注加沙，属独立床品广告。",
+        "startUncertainty": [
+          214.37,
+          218.18
+        ],
+        "endUncertainty": [
+          293.839,
+          293.839
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 211.85,
+            "to": 214.37,
+            "text": "其中38人面临刑事指控"
+          },
+          {
+            "from": 218.18,
+            "to": 220.66,
+            "text": "当前这局势真是看得我浑身火热"
+          },
+          {
+            "from": 220.66,
+            "to": 220.98,
+            "text": "对了"
+          },
+          {
+            "from": 220.98,
+            "to": 221.54,
+            "text": "说到热"
+          },
+          {
+            "from": 221.54,
+            "to": 223.54,
+            "text": "这天气真的也是越来越热了"
+          },
+          {
+            "from": 223.54,
+            "to": 224.7,
+            "text": "还好我有神气"
+          },
+          {
+            "from": 224.7,
+            "to": 228.54,
+            "text": "小鹿玻尿酸星空背它ab双面凉乳感加薄荷醇"
+          },
+          {
+            "from": 232.1,
+            "to": 233.65,
+            "text": "还特别细腻润肤"
+          },
+          {
+            "from": 238.29,
+            "to": 241.27,
+            "text": "像现在这会儿天气打开空调睡觉冷得直打颤"
+          },
+          {
+            "from": 241.27,
+            "to": 243.13,
+            "text": "盖被子又好似在火焰山"
+          },
+          {
+            "from": 243.13,
+            "to": 246.61,
+            "text": "还好有神器小鹿他做了AB双面量入感设计"
+          },
+          {
+            "from": 246.61,
+            "to": 248.89,
+            "text": "A面q max值高达0.33"
+          },
+          {
+            "from": 259.16,
+            "to": 261.36,
+            "text": "还往背心里添加了天然薄荷醇"
+          },
+          {
+            "from": 268.06,
+            "to": 270.22,
+            "text": "但它里面填充了莱赛尔纤维"
+          },
+          {
+            "from": 274.76,
+            "to": 276.06,
+            "text": "里面真的有玻尿酸"
+          },
+          {
+            "from": 278.4,
+            "to": 280.82,
+            "text": "洗衣机抗菌防螨加A类母婴面料"
+          },
+          {
+            "from": 286.42,
+            "to": 288.58,
+            "text": "他家有两种尺寸和颜色可选"
+          },
+          {
+            "from": 288.58,
+            "to": 289.06,
+            "text": "老样子"
+          },
+          {
+            "from": 289.06,
+            "to": 290.12,
+            "text": "评论区领优惠券"
+          },
+          {
+            "from": 290.12,
+            "to": 291.34,
+            "text": "运费险和质保都有"
+          },
+          {
+            "from": 291.34,
+            "to": 293.839,
+            "text": "有需要的司令赶紧冲好"
+          },
+          {
+            "from": 293.839,
+            "to": 295.379,
+            "text": "司令们再来关注架沙方面"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 259,
+      "firstIndex": 0,
+      "lastIndex": 258,
+      "allRowsRead": true
+    }
+  }
+}

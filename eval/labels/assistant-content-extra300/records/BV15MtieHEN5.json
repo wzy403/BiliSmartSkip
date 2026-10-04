@@ -1,0 +1,44 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 23,
+    "inputLineSha256": "9395f6e309a80d604e5b443a4af79bd144403ec65a94caa511f3720d7f82e843",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV15MtieHEN5-25899631349.json",
+    "acquisitionSha256": "55ad2696f577c3a309b8e39cba28b5eb6a0d31535632628a65f03f0d2faf6f71",
+    "sourceUrl": "https://www.bilibili.com/video/BV15MtieHEN5/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV15MtieHEN5.json",
+    "transcriptSha256": "53723ea3a829b6f77b110199173d0779859e036885d07da5c10d75f93fd030c1"
+  },
+  "record": {
+    "bvid": "BV15MtieHEN5",
+    "cid": 25899631349,
+    "duration": 1392,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "《战争雷霆》新战列舰轮流实战，比较田纳西、德日战列舰的装甲、火炮和操控，穿插战斗反应及收尾讨论。427行可用字幕已全部阅读，未读到清楚的独立推广，但翻译多处破碎且有较长无字幕画面，暂不能完成广告判断。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "需视听核验9.14–46.88秒开场无字幕段及1365.71–1392秒尾段；仅凭现有字幕不能确定这些段落是片头/片尾还是商业内容。",
+      "机翻严重失真，如548.24–550.88秒“他们现在卖一些机械设备”缺少可理解的指代，无法仅凭词面可靠区分游戏评论与推介；需对应音频或更完整原文字幕。"
+    ],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 427,
+      "firstIndex": 0,
+      "lastIndex": 426,
+      "allRowsRead": true
+    }
+  }
+}

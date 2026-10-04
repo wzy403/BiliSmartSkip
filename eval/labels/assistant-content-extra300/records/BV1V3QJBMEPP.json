@@ -1,0 +1,251 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 251,
+    "inputLineSha256": "9400ed5b846282a6d98990e990c845476c09b61443bdaef985b76db0602a3d0d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1V3QJBMEPP-37524604453.json",
+    "acquisitionSha256": "e4bc8d32b35c9f5924e428fcd155afd1b3e768d52683405c4dac3aebeadb2b2c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1V3QJBMEPP/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1V3QJBMEPP.json",
+    "transcriptSha256": "927aad678e5b725121ee1df0304a9e8488eb2652f74a07e373b263ed2ab65117"
+  },
+  "record": {
+    "bvid": "BV1V3QJBMEPP",
+    "cid": 37524604453,
+    "duration": 602,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "阅读全文284行。先讲电脑手机算力争论与辅助驾驶模型迭代，再在合肥体验搭载高算力芯片的与众08：城市变道、行人让行、两次接管失误、人车共驾、记忆车位和自定义泊车、语义交互及乘坐空间，回答标题高算力是否更好开。技术讲解和实车体验均为主题正文；后段有明确品牌推介和上市价格关注号召。字幕0.04–600.2秒覆盖602秒视频，只有短演示间隙，未看画面或听音。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 227.47,
+        "end": 584.56,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "medium",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "由理论转入具名车型的整期实车体验，具有围绕上市车型推广的商业结构，但它具体回答高算力是否转化为驾驶体验，包含接管失败、操作过程和限制提醒；应保留主题评测，不能因为品牌与正面评价跳过整段。商务合作关系本身未另核实。",
+        "evidence": [
+          {
+            "from": 224.45,
+            "to": 227.47,
+            "text": "都必须转化成实际体验才有意义"
+          },
+          {
+            "from": 227.47,
+            "to": 230.75,
+            "text": "所以这次我们就来到了我的家乡合肥"
+          },
+          {
+            "from": 230.75,
+            "to": 233.22,
+            "text": "试驾的这台最新发布的鱼冻零八"
+          },
+          {
+            "from": 233.22,
+            "to": 236.7,
+            "text": "它搭载了两颗750TP的图灵AI芯片"
+          },
+          {
+            "from": 258.459,
+            "to": 259.699,
+            "text": "这是在公共道路上"
+          },
+          {
+            "from": 333.2,
+            "to": 334.94,
+            "text": "其实刚才还可以哈"
+          },
+          {
+            "from": 364.75,
+            "to": 365.75,
+            "text": "我开了两天"
+          },
+          {
+            "from": 365.75,
+            "to": 366.95,
+            "text": "只接管过两次"
+          },
+          {
+            "from": 366.95,
+            "to": 368.19,
+            "text": "一次是施工道路"
+          },
+          {
+            "from": 368.19,
+            "to": 369.27,
+            "text": "他多变了一次道"
+          },
+          {
+            "from": 369.27,
+            "to": 369.99,
+            "text": "当时车多"
+          },
+          {
+            "from": 369.99,
+            "to": 370.88,
+            "text": "我就接管了"
+          },
+          {
+            "from": 370.88,
+            "to": 371.32,
+            "text": "一次"
+          },
+          {
+            "from": 371.32,
+            "to": 373.52,
+            "text": "是在没有中间护栏的路上掉头后"
+          },
+          {
+            "from": 373.52,
+            "to": 374.7,
+            "text": "没有识别到正确车道"
+          },
+          {
+            "from": 374.7,
+            "to": 375.72,
+            "text": "我也接管了"
+          },
+          {
+            "from": 393.9,
+            "to": 395.26,
+            "text": "另外还有一个很好的点"
+          },
+          {
+            "from": 430.47,
+            "to": 433.11,
+            "text": "我们也体验了宇宙零八车位到车位的功能"
+          },
+          {
+            "from": 506.8,
+            "to": 508.18,
+            "text": "当然还是要提醒一下大家"
+          },
+          {
+            "from": 510.5,
+            "to": 512.26,
+            "text": "这个地方到底是不是真的能停车"
+          },
+          {
+            "from": 561.16,
+            "to": 563.62,
+            "text": "这次我们主要体验的是辅助驾驶功能"
+          },
+          {
+            "from": 581.949,
+            "to": 584.56,
+            "text": "然后辅助驾驶的能力你也看到了"
+          },
+          {
+            "from": 584.56,
+            "to": 586.68,
+            "text": "宇宙零八会在4月16日上市"
+          }
+        ],
+        "startUncertainty": [
+          227.47,
+          227.47
+        ],
+        "endUncertainty": [
+          584.56,
+          584.56
+        ]
+      },
+      {
+        "start": 584.56,
+        "end": 593.5,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "实车体验已经结束，独立公布上市日期、预售价并明确邀请有兴趣的观众关注，为完整销售导向收尾，可跳。",
+        "evidence": [
+          {
+            "from": 581.949,
+            "to": 584.56,
+            "text": "然后辅助驾驶的能力你也看到了"
+          },
+          {
+            "from": 584.56,
+            "to": 586.68,
+            "text": "宇宙零八会在4月16日上市"
+          },
+          {
+            "from": 586.68,
+            "to": 588.6,
+            "text": "预售价是23.99万元"
+          },
+          {
+            "from": 588.6,
+            "to": 590.24,
+            "text": "到29.99万元"
+          },
+          {
+            "from": 590.24,
+            "to": 591.56,
+            "text": "那如果你有兴趣的话"
+          },
+          {
+            "from": 591.56,
+            "to": 593.5,
+            "text": "一定要记得关注一下"
+          },
+          {
+            "from": 593.5,
+            "to": 595.44,
+            "text": "下期见"
+          }
+        ],
+        "startUncertainty": [
+          584.56,
+          584.56
+        ],
+        "endUncertainty": [
+          593.5,
+          593.5
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 63.7,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 64.22,
+        "end": 227.47,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 593.5,
+        "end": 595.44,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 596.8,
+        "end": 600.2,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 284,
+      "firstIndex": 0,
+      "lastIndex": 283,
+      "allRowsRead": true
+    }
+  }
+}

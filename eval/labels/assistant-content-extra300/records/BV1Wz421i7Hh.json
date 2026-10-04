@@ -1,0 +1,266 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 263,
+    "inputLineSha256": "01702264cadf307065f8a60c3836022c0de3775ac7c769f371eec7a11a96f37d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Wz421i7Hh-1654382423.json",
+    "acquisitionSha256": "6451e7ecf2d919ea04b11a543b21b0da4a2f051a628f28972025b1994a38f461",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Wz421i7Hh/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Wz421i7Hh.json",
+    "transcriptSha256": "334523296697e5c92759b1bb96c2a87f9446756955599f91b1391377d58568b1"
+  },
+  "record": {
+    "bvid": "BV1Wz421i7Hh",
+    "cid": 1654382423,
+    "duration": 851,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读403行。以CF18弹射案例串起逃生座椅从弹簧、压缩空气、火药到火箭助推器的发展、测试者、超音速减速、包覆座舱与姿态控制。马丁贝克公司是技术史主体而非面向观众销售。火箭话题转坦克助推器、坦克世界周年活动是中插广告，片尾再次提醒活动。字幕0.04–850.44秒覆盖851秒。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 439.1,
+        "end": 513.57,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从坦克泥滩脱困的火箭助推器历史方案完整铺垫，转现实看不到但游戏可体验，再介绍BZ坦克性能、周年活动、关羽皮肤与下载号召；相对弹射座椅主题可分离，广告范围包含知识外壳的坦克桥接，不只截下载话术。",
+        "evidence": [
+          {
+            "from": 434.38,
+            "to": 437.08,
+            "text": "让螺旋桨飞机也可以短距离起飞"
+          },
+          {
+            "from": 439.1,
+            "to": 441.48,
+            "text": "为了提高坦克在泥滩地面上的通过性"
+          },
+          {
+            "from": 441.48,
+            "to": 443.43,
+            "text": "甚至把火箭助推器搬了上去"
+          },
+          {
+            "from": 443.43,
+            "to": 446.57,
+            "text": "可这种方案虽然说可以提高坦克的脱困性"
+          },
+          {
+            "from": 446.57,
+            "to": 448.33,
+            "text": "但生存能力大大降低"
+          },
+          {
+            "from": 448.33,
+            "to": 450.41,
+            "text": "火箭助推器挨一发就得GG"
+          },
+          {
+            "from": 450.41,
+            "to": 452.86,
+            "text": "最终还是只停留在了设计阶段"
+          },
+          {
+            "from": 452.86,
+            "to": 454.42,
+            "text": "虽然说现实中看不到了"
+          },
+          {
+            "from": 454.42,
+            "to": 458.039,
+            "text": "但这样的设计却能在游戏中体验到坦克世界里"
+          },
+          {
+            "from": 458.039,
+            "to": 459.459,
+            "text": "C系的BZ系列坦克"
+          },
+          {
+            "from": 470.41,
+            "to": 471.99,
+            "text": "称得上是力大砖飞了"
+          },
+          {
+            "from": 471.99,
+            "to": 473.05,
+            "text": "8月20日"
+          },
+          {
+            "from": 473.05,
+            "to": 475.43,
+            "text": "坦克世界国服周年庆活动已上线"
+          },
+          {
+            "from": 476.21,
+            "to": 478.669,
+            "text": "参与活动即有机会获取丰富奖励"
+          },
+          {
+            "from": 492.229,
+            "to": 494.769,
+            "text": "更不用说这款全新的关羽皮肤"
+          },
+          {
+            "from": 499.58,
+            "to": 501.32,
+            "text": "想要在真实的坦克作战中"
+          },
+          {
+            "from": 506.4,
+            "to": 509.49,
+            "text": "一发入魂的坦克世界是你最好的选择"
+          },
+          {
+            "from": 509.49,
+            "to": 511.17,
+            "text": "快来下载坦克世界国服"
+          },
+          {
+            "from": 511.17,
+            "to": 513.57,
+            "text": "体验精彩刺激的坦克对决吧"
+          },
+          {
+            "from": 514.23,
+            "to": 516.37,
+            "text": "那说回弹射座椅"
+          }
+        ],
+        "startUncertainty": [
+          437.08,
+          439.1
+        ],
+        "endUncertainty": [
+          513.57,
+          514.23
+        ]
+      },
+      {
+        "start": 844.069,
+        "end": 848.669,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "观众互动之后再次独立提醒坦克世界周年庆及新老玩家奖励，为促活广告，应跳完整三句。",
+        "evidence": [
+          {
+            "from": 842.99,
+            "to": 844.069,
+            "text": "评论区告诉我"
+          },
+          {
+            "from": 844.069,
+            "to": 844.949,
+            "text": "别忘了"
+          },
+          {
+            "from": 844.949,
+            "to": 846.849,
+            "text": "8月20号坦克世界周年庆"
+          },
+          {
+            "from": 846.849,
+            "to": 848.669,
+            "text": "新老玩家都有超多奖励哦"
+          },
+          {
+            "from": 848.669,
+            "to": 850.44,
+            "text": "那我们下期视频再见"
+          }
+        ],
+        "startUncertainty": [
+          844.069,
+          844.069
+        ],
+        "endUncertainty": [
+          848.669,
+          848.669
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 88.93,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 92.45,
+        "end": 192.81,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 194.1,
+        "end": 266.479,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 267.519,
+        "end": 300.2,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 301.86,
+        "end": 437.08,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 514.23,
+        "end": 607.58,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 609.32,
+        "end": 668.73,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 670.06,
+        "end": 679.16,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 679.23,
+        "end": 726.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 727.14,
+        "end": 793.75,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 794.899,
+        "end": 844.069,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 848.669,
+        "end": 850.44,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 403,
+      "firstIndex": 0,
+      "lastIndex": 402,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 286,
+    "inputLineSha256": "9e17742ba0d698bec314d22cdb33ebafa8d221500c49b818bec098079bef47d6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1YRPCzuEih-36472491388.json",
+    "acquisitionSha256": "ba1c10024ba5b60fb5636c8a4eb664a7c6b92f6f765c2dcf9b57916146a92953",
+    "sourceUrl": "https://www.bilibili.com/video/BV1YRPCzuEih/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1YRPCzuEih.json",
+    "transcriptSha256": "9a125018c196bbe36919c135e5e81d69bb0b6581c8f6c790ccaa809c60334a92"
+  },
+  "record": {
+    "bvid": "BV1YRPCzuEih",
+    "cid": 36472491388,
+    "duration": 153,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "维修者吐槽客户反复以“刚修好/昨晚还好”代替故障诊断的沟通误区。中间以被气到想躺下为铺垫介绍神奇小鹿护颈枕，之后继续第二个维修沟通故事。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 57,
+        "end": 103.82,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          57,
+          58.48
+        ],
+        "endUncertainty": [
+          102.44,
+          103.82
+        ],
+        "reason": "从气到需要躺下的承接开始，完整包含小鹿护颈枕、多姿势使用卖点、材料、款式、专属券和售后赠送，独立于电脑维修故事；103.82秒“还有这哥们”回归另一案例。",
+        "evidence": [
+          {
+            "from": 55.54,
+            "to": 57,
+            "text": "只知道无限复读呢"
+          },
+          {
+            "from": 57,
+            "to": 58.48,
+            "text": "我跟你治不了那气"
+          },
+          {
+            "from": 58.48,
+            "to": 60.4,
+            "text": "我要躺在神奇小路上面了"
+          },
+          {
+            "from": 60.4,
+            "to": 62.04,
+            "text": "有神奇小鹿夜猫霍金0pro"
+          },
+          {
+            "from": 63.44,
+            "to": 65.86,
+            "text": "他一整顶护颈枕工学腰靠趴睡枕"
+          },
+          {
+            "from": 73.82,
+            "to": 76.44,
+            "text": "不如小陆七大科学分区加软硬双驱"
+          },
+          {
+            "from": 86.88,
+            "to": 88.68,
+            "text": "睡着头颈肩齐平很省力"
+          },
+          {
+            "from": 88.68,
+            "to": 90.54,
+            "text": "七一级抗菌A类面料的枕套"
+          },
+          {
+            "from": 93.5,
+            "to": 94.62,
+            "text": "这枕头一共俩配色"
+          },
+          {
+            "from": 96.5,
+            "to": 97.98,
+            "text": "趁三八节领我专属券"
+          },
+          {
+            "from": 99.84,
+            "to": 101.68,
+            "text": "两年内开裂变形"
+          },
+          {
+            "from": 101.68,
+            "to": 102.44,
+            "text": "免费换新"
+          },
+          {
+            "from": 102.44,
+            "to": 103.82,
+            "text": "大家自用送礼都很"
+          },
+          {
+            "from": 103.82,
+            "to": 104.82,
+            "text": "还有这哥们跟我说"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 107,
+      "firstIndex": 0,
+      "lastIndex": 106,
+      "allRowsRead": true
+    }
+  }
+}

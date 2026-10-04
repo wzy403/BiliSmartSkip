@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1yyC3Y9EKT",
+  "cid": 27490060918,
+  "title": "一口气看懂《史记》：史家之绝唱，无韵之离骚，它凭什么？",
+  "duration": 880,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:07.396Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:34:37.028Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 288,
+    "inputLineSha256": "69b17c4c8292610f16894e131fc1135f7f9739cc5c5a613348eff9ef9ac1b5e0",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1yyC3Y9EKT-27490060918.json",
+    "acquisitionSha256": "9c80f0d5da4c28cde7f8e11e93689b8e78a8b7a62660c55613370104276891e4",
+    "sourceUrl": "https://www.bilibili.com/video/BV1yyC3Y9EKT/?p=1"
+  }
+}

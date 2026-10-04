@@ -1,0 +1,27 @@
+{
+  "bvid": "BV1gUQtYvEFC",
+  "cid": 28883290337,
+  "page": 1,
+  "sourceUrl": "https://www.bilibili.com/video/BV1gUQtYvEFC/?p=1",
+  "checkedAt": "2026-10-04T23:45:19.377Z",
+  "responseSha256": "7b5f82759463d90cdcfd42186de6f28414f407765af996b460f083f863b73742",
+  "file": "eval/labels/assistant-content-extra300/acquisition/media/BV1gUQtYvEFC.mp4",
+  "sha256": "8147b9b09481e721bdea1bf1870ed65922b2fdeca69a4d8f895e0edbea792568",
+  "bytes": 19761730,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "width": 852,
+        "height": 480
+      }
+    ],
+    "format": {
+      "duration": "624.804000"
+    }
+  },
+  "status": "downloaded-and-verified",
+  "method": "anonymous public media at matching original CID page; original BV/CID/page independently checked; selected video stream only for actual frame inspection; audio not reviewed"
+}

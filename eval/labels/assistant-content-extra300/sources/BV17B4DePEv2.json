@@ -1,0 +1,26 @@
+{
+  "bvid": "BV17B4DePEv2",
+  "cid": 25875382838,
+  "title": "探索金字塔神秘内部，走进埃及法老陵墓，进去的人都后悔了？",
+  "duration": 753,
+  "desc": "提到埃及，大家都会想到什么呢？金字塔，法老，木乃伊，还有各种未解之谜？\n那今天我们来到了四大文明古国的埃及，一同前往埃及金字塔，去探索神秘金字塔的内部，近距离走进法老的陵墓，看看千年的木乃伊到底长啥样？据说很多人进去就后悔了，看看究竟是为什么？\n另外在埃及有一道法老都爱吃的美食，到现在已经流传了有4000多年，今天我们就一起去尝尝吧！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:14:38.380Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:15:14.656Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 32,
+    "inputLineSha256": "5ef8b7906f5ec3bd4582e014fbd879b4eadc342810ffccc249be7c19f945c5ae",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV17B4DePEv2-25875382838.json",
+    "acquisitionSha256": "727776c8fa7a79ff1858fd8cde50196aafc9894d32002c52f24fe9f993a9524f",
+    "sourceUrl": "https://www.bilibili.com/video/BV17B4DePEv2/?p=1"
+  }
+}

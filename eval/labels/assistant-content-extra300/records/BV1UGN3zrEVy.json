@@ -1,0 +1,414 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles-plus-targeted-sampled-video-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 242,
+    "inputLineSha256": "8fd0dfe549f75e1bbe2d37d6ba8247459f3e433ccd7dfcb1b6585ca3eab7f7f0",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1UGN3zrEVy-36548577728.json",
+    "acquisitionSha256": "d7e0ed18a391b5dcf422b30d816a096e21b1afb596ea7d64a6e6b4735604a272",
+    "sourceUrl": "https://www.bilibili.com/video/BV1UGN3zrEVy/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1UGN3zrEVy.json",
+    "transcriptSha256": "6b4e2095b159b29b880d7055e1e84af05bc1baba8f2fde6ec872a24b2e35b32a"
+  },
+  "record": {
+    "bvid": "BV1UGN3zrEVy",
+    "cid": 36548577728,
+    "duration": 1709,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "STN 游戏新闻评论与讽刺短剧：生化危机九样板剧情及玩家预期、刺客信条老角色回归风险、宝可梦技术与成年玩家情怀、多人游戏投票与合作矛盾、马拉松搜打撤的属性和经济设计、任天堂硬件与 IP 创新。游戏购买、抽象酒交易与末尾支持黄昏之许均在游戏评论或戏仿上下文，未发现独立商品推广。开场三连笑话后至首则新闻之间有 29.081 秒无字幕，尚不能排除画面广告。 补看33–65秒每2秒抽帧共17张，原开场缺口为STN工作室像素角色动画与星期梗片头，61秒出现STN快报标志，随后进入主持人新闻；未见独立商品推广。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 34.899,
+        "end": 63.98,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "targeted_visual_samples_2s",
+        "reason": "实际查看的连续间隔抽帧显示节目自身像素动画片头及STN快报标志，再接主持人；并非商品广告。",
+        "evidence": [],
+        "visualEvidence": [
+          {
+            "time": 33,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-001.jpg",
+            "sha256": "71407095a9e586343a6b6816c870fc8aa3728eca5a7ff63d02d1719abdc03745",
+            "observation": "主持人三连笑话尾部转场。"
+          },
+          {
+            "time": 35,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-002.jpg",
+            "sha256": "9b2d2e9af43a3b2d51f556c4c7de672e3dde482e6b012e882025941ea4ee351b",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 37,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-003.jpg",
+            "sha256": "1a6c27cc158e4c8a1a01ad6a8aa5b31e2ad6df414f886a5f01c9d54faa16aa64",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 39,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-004.jpg",
+            "sha256": "2a3553c906485674029ca208a287959b32e73a6309c4169cec58532f81902d39",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 41,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-005.jpg",
+            "sha256": "6a8b805acfb5b8cbe92f1993e5b538271566a878317b8080de34cbaeebc6db09",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 43,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-006.jpg",
+            "sha256": "28b01aa8275728999b9cc858f6304bb240eeb8c401610fb439bd1b53c767a011",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 45,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-007.jpg",
+            "sha256": "86bd20e57090fec0d868ffbdec3fb7285d41f2befd1b78c4cfd7391ee5aea2df",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 47,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-008.jpg",
+            "sha256": "85c14ac58b62372f6638c9578cd82fd58932e6cdc96696bd2a5e84f41f2b537e",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 49,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-009.jpg",
+            "sha256": "e1c61bf4cc69f2d923e8868066d5032df43e3a9e42d2927a145ff6996bc9486e",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 51,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-010.jpg",
+            "sha256": "a42195ebf79f01479f0912f9e7b0c170a3210fd6c950a1948c398b523d21c09f",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 53,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-011.jpg",
+            "sha256": "2adc7f1e4618172c58b575f3a2eb406d1f77be1c776849547cf383f45921ee47",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 55,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-012.jpg",
+            "sha256": "25767aaca663596bd98f613ee980a5d7c8dcca6f89f55eaa8abf677f9e51f6e9",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 57,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-013.jpg",
+            "sha256": "6e3453eab470e6921908dcd17557995eefd34c8e28a4c4ca51111b41d5b3a9be",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 59,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-014.jpg",
+            "sha256": "9954dda5357bc78ca9bcb6f91f96bbb19ff09438bc969e55affe47823601b20d",
+            "observation": "STN工作室像素人物和场景动画；含星期主题文字梗。"
+          },
+          {
+            "time": 61,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-015.jpg",
+            "sha256": "4132500cd068cd44f6b7e2847451cdf209c7c325766f592cc5d2aa4a6acb8aff",
+            "observation": "STN快报片头标志。"
+          },
+          {
+            "time": 63,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-016.jpg",
+            "sha256": "d6ad8d6c1ca12acd19648d89cc5c04565b94f1aa0a8813f18034c192d53bbef9",
+            "observation": "片头收束转主持人新闻。"
+          },
+          {
+            "time": 65,
+            "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frame-017.jpg",
+            "sha256": "78ad0889e46eba08199cb7658de1627dac69b18e821f2c20f1ee0af635136210",
+            "observation": "片头收束转主持人新闻。"
+          }
+        ],
+        "startUncertainty": [
+          34.899,
+          35
+        ],
+        "endUncertainty": [
+          63,
+          63.98
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 30.03,
+        "reason": "实际字幕覆盖的价格笑话、尊严无价与三连梗。"
+      },
+      {
+        "start": 30.939,
+        "end": 34.899,
+        "reason": "实际字幕覆盖的价格笑话、尊严无价与三连梗。"
+      },
+      {
+        "start": 63.98,
+        "end": 96.32,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 96.84,
+        "end": 102.58,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 104.34,
+        "end": 164.04,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 165.72,
+        "end": 176.37,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 180.61,
+        "end": 181.77,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 183.15,
+        "end": 234.26,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 235.2,
+        "end": 243.07,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 243.19,
+        "end": 246.67,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 248.84,
+        "end": 271.37,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 272.61,
+        "end": 301.66,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 302.7,
+        "end": 342.1,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 344.46,
+        "end": 352.34,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 356.18,
+        "end": 385.94,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 394.48,
+        "end": 403.15,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 403.8,
+        "end": 407.04,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 419.5,
+        "end": 425.14,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 425.54,
+        "end": 525.78,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 526.74,
+        "end": 717.99,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 718.35,
+        "end": 745.72,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 748.26,
+        "end": 749.29,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 750.69,
+        "end": 805.82,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 814.84,
+        "end": 855.55,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 857.41,
+        "end": 886.84,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 887.95,
+        "end": 908.5,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 908.98,
+        "end": 959.29,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 961.68,
+        "end": 964.32,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 965.22,
+        "end": 969.1,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 970,
+        "end": 972.81,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 973.21,
+        "end": 976.43,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 979.81,
+        "end": 1122.12,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1123.24,
+        "end": 1180.68,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1182,
+        "end": 1258.61,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1264.3,
+        "end": 1335.33,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1336.17,
+        "end": 1351.78,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1352.26,
+        "end": 1380.96,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1382.02,
+        "end": 1423.24,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1426.36,
+        "end": 1460.69,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1461.01,
+        "end": 1513.67,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1514.87,
+        "end": 1556.78,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1557.89,
+        "end": 1572.98,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1577.9,
+        "end": 1604.28,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1608.56,
+        "end": 1614.93,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1615.03,
+        "end": 1617.82,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1621.54,
+        "end": 1703.429,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      },
+      {
+        "start": 1704.72,
+        "end": 1708.2,
+        "reason": "实际字幕覆盖的游戏新闻、批评、角色短剧和结尾讨论；品牌和游戏名均属主题内容。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "其他字幕短缺口及结尾 1708.2–1709 秒仍未知；未因提及游戏购买而认定广告。",
+      "完整阅读888行字幕并实际查看33–65秒每2秒抽帧17张；未听音频、非逐帧核验，采样间短暂画面保持采样限制。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 888,
+      "firstIndex": 0,
+      "lastIndex": 887,
+      "allRowsRead": true
+    },
+    "visualReview": {
+      "reviewer": "assistant-extra300-middle",
+      "performedAt": "2026-10-04T23:39:49.737Z",
+      "mediaFile": "eval/labels/assistant-content-extra300/acquisition/media/BV1UGN3zrEVy.mp4",
+      "mediaSha256": "fec787fb5efde7607eba78450de23b11c8174f2a04a44e95367a15612e03933b",
+      "identityEvidence": "eval/labels/assistant-content-extra300/acquisition/media/BV1UGN3zrEVy-verified.json",
+      "frameManifest": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1UGN3zrEVy/intro-gap-middle/frames.json",
+      "sampleStart": 33,
+      "sampleEnd": 65,
+      "sampleEverySeconds": 2,
+      "framesActuallyViewed": 17,
+      "audioReviewed": false,
+      "frameByFrameReviewed": false
+    }
+  }
+}

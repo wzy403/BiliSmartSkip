@@ -1,0 +1,42 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 123,
+    "inputLineSha256": "900b36a1b6d99415fe7b5076b42366b6a4ab582e57470dfba0c8fd5c3314f017",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1iSBKY7E7p-27370327694.json",
+    "acquisitionSha256": "dd9f27864283a6174006b9f95aad29f35aa48f391289f001c94e9fbea589e081",
+    "sourceUrl": "https://www.bilibili.com/video/BV1iSBKY7E7p/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1iSBKY7E7p.json",
+    "transcriptSha256": "76820d0afb071baa23bf9dad81abfb30f88c5a9352a5739ad8baea0ddd2dca15"
+  },
+  "record": {
+    "bvid": "BV1iSBKY7E7p",
+    "cid": 27370327694,
+    "duration": 722,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "谢伊·亚历山大篮球人物混剪，结合选秀、个人采访、科比/乔丹式励志台词及球星评论，讨论训练、MVP、球风、雷霆经历和加拿大篮球身份。可辨识部分未出现独立商品推荐，但字幕看似自动翻译，存在大量残缺句和“音乐”占位，不能依此判定整片无广告。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "字幕多处翻译失真与歌词/音乐占位；97–124秒、250.92–324.56秒的混剪及480.1–504.38秒残缺对白无法完整辨识，需视听核实，未将该片计为无应跳广告。"
+    ],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 329,
+      "firstIndex": 0,
+      "lastIndex": 328,
+      "allRowsRead": true
+    }
+  }
+}

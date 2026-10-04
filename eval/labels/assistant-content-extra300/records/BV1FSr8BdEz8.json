@@ -1,0 +1,231 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles-plus-selected-browser-frames",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 99,
+    "inputLineSha256": "2e3972dff4cecd1d7bf1b8d5213cc7fac7b9c1ef0974f25e9b3a91dd74597642",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1FSr8BdEz8-35330654839.json",
+    "acquisitionSha256": "4d4ed042b72ad2bd198bc820a90a0a3345688e054433c730d4802411867c58f4",
+    "sourceUrl": "https://www.bilibili.com/video/BV1FSr8BdEz8/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1FSr8BdEz8.json",
+    "transcriptSha256": "489afe674691bbb1e545abca3e68f86e490bce47d66895eb02c33997ccf75732"
+  },
+  "record": {
+    "bvid": "BV1FSr8BdEz8",
+    "cid": 35330654839,
+    "duration": 134,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "宠物生活片段：猫占据女友枕头不肯离开，男友将其带走；中段为得物新人补贴与咖啡及实用好物广告。开头唯一残缺字幕疑似另有品牌口号，需要视听确认。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 6.18,
+        "end": 8.02,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle-and-selected-frames",
+        "reason": "6.18–8.02秒是得物品牌短标语；实际约7.01秒画面仍是猫咪在床上互动，约2.24/12.01秒也为同一主题情节。广告叠在主题画面上、没有独立商品介绍，保留猫咪互动；中段独立商品推介另标应跳。品牌标语口述边界按字幕，非逐帧确认。",
+        "evidence": [
+          {
+            "from": 6.18,
+            "to": 8.02,
+            "text": "尚德物的好物"
+          },
+          {
+            "from": 8.609,
+            "to": 11.309,
+            "text": "我都没发现我的枕头这么柔软"
+          }
+        ],
+        "startUncertainty": [
+          2.24312,
+          6.18
+        ],
+        "endUncertainty": [
+          8.02,
+          8.609
+        ]
+      },
+      {
+        "start": 51.84,
+        "end": 95.199,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从熬夜需咖啡的生活铺垫开始，推荐得物购买咖啡、新人券包与一元水杯、价格提醒及鉴定保障，并引导置顶购买与现金抽奖，到提现承诺结束；随后返回猫的情节。",
+        "evidence": [
+          {
+            "from": 49.54,
+            "to": 51.84,
+            "text": "他只喜欢烦别人"
+          },
+          {
+            "from": 51.84,
+            "to": 53.42,
+            "text": "这段时间熬夜频繁"
+          },
+          {
+            "from": 53.42,
+            "to": 55.2,
+            "text": "急需咖啡来唤醒精神"
+          },
+          {
+            "from": 55.2,
+            "to": 58.18,
+            "text": "最近我在得物买了鲨鱼菲特云南黑咖啡"
+          },
+          {
+            "from": 58.18,
+            "to": 60.3,
+            "text": "才花了九块钱就包邮到家"
+          },
+          {
+            "from": 62.02,
+            "to": 64.39,
+            "text": "因为现在得物有新人首单补贴"
+          },
+          {
+            "from": 64.39,
+            "to": 66.63,
+            "text": "登录就送520大额优惠券包"
+          },
+          {
+            "from": 73.32,
+            "to": 75.52,
+            "text": "得物最牛的是先鉴定再发货"
+          },
+          {
+            "from": 81.26,
+            "to": 81.92,
+            "text": "假一赔三"
+          },
+          {
+            "from": 84.88,
+            "to": 86.68,
+            "text": "现在点我评论区置顶链接"
+          },
+          {
+            "from": 87.46,
+            "to": 90.28,
+            "text": "还能参加零元抽2888元现金活动"
+          },
+          {
+            "from": 93.639,
+            "to": 95.199,
+            "text": "还能提现"
+          },
+          {
+            "from": 100.44,
+            "to": 102.96,
+            "text": "爸爸话也不听啊"
+          }
+        ],
+        "startUncertainty": [
+          51.84,
+          51.84
+        ],
+        "endUncertainty": [
+          95.199,
+          100.44
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 8.609,
+        "end": 13.209,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 14.17,
+        "end": 18.52,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 20.16,
+        "end": 21.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 32.18,
+        "end": 38.12,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 39.28,
+        "end": 49.11,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 49.54,
+        "end": 51.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 100.44,
+        "end": 102.96,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 105.8,
+        "end": 112.38,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 116.9,
+        "end": 119.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 128.36,
+        "end": 132.94,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已阅读全文46行并查看约2.24、7.01、12.01秒的实际浏览器画面；未听音频，未逐帧观看全片。",
+      "品牌短标语属于商业内容但叠在猫咪互动正文上保留。标语画面边界未逐帧核验；字幕缺口和未查看画面仍未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 46,
+      "firstIndex": 0,
+      "lastIndex": 45,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "assistant-extra300-root",
+    "fullTranscriptRead": true,
+    "subtitleRows": 46,
+    "decision": "全文46行及选定片头画面复核：得物短标语叠在猫咪互动正文上，广告性质确认但保留；中段独立平台商品推介应跳。",
+    "audioListened": false,
+    "frameByFrameReview": false
+  },
+  "visualObservations": [
+    {
+      "time": 2.24312,
+      "sourceUrl": "https://www.bilibili.com/video/BV1FSr8BdEz8/",
+      "observation": "两只猫在床上互动，画面硬字幕“刚关灯叮当就跑我枕头上就位”，无商品插页。"
+    },
+    {
+      "time": 7.010816,
+      "sourceUrl": "https://www.bilibili.com/video/BV1FSr8BdEz8/",
+      "observation": "画面仍为两只猫在床上，硬字幕显示“上得物 得好物”，确认ASR残句为平台品牌标语。"
+    },
+    {
+      "time": 12.010816,
+      "sourceUrl": "https://www.bilibili.com/video/BV1FSr8BdEz8/",
+      "observation": "仍是两只猫与枕头，硬字幕“凹下去了”，与主题正文字幕对应。"
+    }
+  ]
+}

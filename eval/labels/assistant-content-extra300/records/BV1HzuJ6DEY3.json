@@ -1,0 +1,36 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": null,
+  "modality": "not-reviewed",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 120,
+    "inputLineSha256": "6c2daadbbe4d9367b27c7baff212976b739b508de0d862997baa9976fb954cc9",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1HzuJ6DEY3-40654733495.json",
+    "acquisitionSha256": "a46c28881e2f876266e22a6ffff8ad5805936424795648c250d11202c6fc77a7",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HzuJ6DEY3/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1HzuJ6DEY3.json",
+    "transcriptSha256": "06cc647cc247ffac549fa5fb04073ab2126cf9c86c9287158466eabff030e929"
+  },
+  "record": {
+    "bvid": "BV1HzuJ6DEY3",
+    "cid": 40654733495,
+    "duration": 956,
+    "reviewStatus": "needs-source",
+    "fullTranscriptRead": false,
+    "videoSummary": null,
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+    ],
+    "limitations": [
+      "助手内容参考；尚未完成内容审核，未观看视频或听取音频。"
+    ]
+  }
+}

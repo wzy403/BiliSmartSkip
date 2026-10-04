@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1EUm1Y9Esh",
+  "cid": 26711820504,
+  "title": "谁家的“五代机”杂交出问题了？【军事榨菜17】",
+  "duration": 936,
+  "desc": "文案：民宣department（原南昌第一深情、现花岗岩第二深情🌹）、花家（正在金湾）\n\n配音：花岗岩（正在去珠海）\n\n制作：民宣department、花家\n\n本视频根据主观视角及相关资料制作，有误欢迎指正。 素材均来源于互联网公开合法资料，且仅作为科普素材使用。\n\n空军节快乐！",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:13:01.714Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:14.657Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 90,
+    "inputLineSha256": "9332236cd99e0369f5795e6aacb26633311b9f3ebbd0783d8ee6d1fa5f0c7cc8",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1EUm1Y9Esh-26711820504.json",
+    "acquisitionSha256": "43f8c8f243b09ca7710d5c33ff7c6052e950f40f58f303aba518de725f4d5b99",
+    "sourceUrl": "https://www.bilibili.com/video/BV1EUm1Y9Esh/?p=1"
+  }
+}

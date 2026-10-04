@@ -1,0 +1,162 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 266,
+    "inputLineSha256": "0b15cb956cc1aa8ec7e63662651df69c182f1f6dae884ac5a00628a073c43358",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1xecKz7Eff-35927886811.json",
+    "acquisitionSha256": "15680f1ced6b4463f5599e2f1f2d1eaaea61426e51d2b61197c63e6956b78579",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xecKz7Eff/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1xecKz7Eff.json",
+    "transcriptSha256": "9ed1564f594ab3a31f5c7b271c7ed1881add269a96be14893492068d52958751"
+  },
+  "record": {
+    "bvid": "BV1xecKz7Eff",
+    "cid": 35927886811,
+    "duration": 255,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读154行。用两宗死缓执行中再犯罪案件说明故意犯罪与情节恶劣的条件、监狱霸凌背景影响，结尾请观众评论及拜年。中间从守法才能看手机内容转入转转二手数码平台推介。此审核不核验法律主张准确性；字幕0.16–254.66秒覆盖255秒，未视听。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 104.1,
+        "end": 147.79,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "完整铺垫从遵纪守法、进监狱无手机看不了视频开始，接说到手机、作者购二手小米旗舰、预算性能、验机保障、春节发货、其他数码价格与领券蓝链，之后接着讲回正文；整个可分离商业插播应跳。",
+        "evidence": [
+          {
+            "from": 102.66,
+            "to": 104.1,
+            "text": "他最终求锤得锤"
+          },
+          {
+            "from": 104.1,
+            "to": 105.7,
+            "text": "所以大家要遵纪守法啊"
+          },
+          {
+            "from": 105.7,
+            "to": 107.02,
+            "text": "进了监狱没有手机"
+          },
+          {
+            "from": 107.02,
+            "to": 109.2,
+            "text": "连法术的普法视频都没法看"
+          },
+          {
+            "from": 109.2,
+            "to": 109.92,
+            "text": "说到手机"
+          },
+          {
+            "from": 109.92,
+            "to": 110.96,
+            "text": "法叔最近在转转"
+          },
+          {
+            "from": 110.96,
+            "to": 114.1,
+            "text": "淘了一个二手小米17pro max徕卡影像"
+          },
+          {
+            "from": 115.08,
+            "to": 117.02,
+            "text": "其实我也就4700多预算"
+          },
+          {
+            "from": 123.349,
+            "to": 126.52,
+            "text": "关键是专门上的二手商品都有专属的验机报告"
+          },
+          {
+            "from": 130.9,
+            "to": 133.46,
+            "text": "还支持七天无理由退货和一年保修"
+          },
+          {
+            "from": 133.46,
+            "to": 134.54,
+            "text": "而且现在下单"
+          },
+          {
+            "from": 134.54,
+            "to": 135.94,
+            "text": "春节期间正常发货"
+          },
+          {
+            "from": 137.5,
+            "to": 139.32,
+            "text": "转转上其他数码也挺能打的"
+          },
+          {
+            "from": 139.32,
+            "to": 141.18,
+            "text": "3900就能拿下ipad pro"
+          },
+          {
+            "from": 141.18,
+            "to": 144.6,
+            "text": "3200就能买个索尼VLOG相机ZGE10"
+          },
+          {
+            "from": 144.6,
+            "to": 147.79,
+            "text": "现在点击评论区蓝链最高可领千元优惠券哦"
+          },
+          {
+            "from": 147.79,
+            "to": 148.49,
+            "text": "接着讲"
+          }
+        ],
+        "startUncertainty": [
+          104.1,
+          104.1
+        ],
+        "endUncertainty": [
+          147.79,
+          147.79
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.16,
+        "end": 95.3,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 99.92,
+        "end": 104.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 147.79,
+        "end": 254.66,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 154,
+      "firstIndex": 0,
+      "lastIndex": 153,
+      "allRowsRead": true
+    }
+  }
+}

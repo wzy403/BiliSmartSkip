@@ -1,0 +1,257 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 79,
+    "inputLineSha256": "5a416a8e43f0610c6c12a729d3697a97c8a0850c1e87a689570bf1bf3bf49703",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1DmEjzFEmL-29920987884.json",
+    "acquisitionSha256": "a5cf282de8197feb0b380270d154f2850ad921b13325df4f036f79251744dd55",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DmEjzFEmL/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1DmEjzFEmL.json",
+    "transcriptSha256": "ac6f590c4d61422a9c269e4832366f1f30c2980402d8e4ae0411dce905c1eb63"
+  },
+  "record": {
+    "bvid": "BV1DmEjzFEmL",
+    "cid": 29920987884,
+    "duration": 375,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "街头购买14元加满配料的熏肉大饼，记录煎饼、配料、结账补差价与口味体验；等餐时插入赫恩冷水沐浴露和洗护礼盒推广。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 116.12,
+        "end": 159.6,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从天热汗多、后背油痒长痘的完整铺垫开始，介绍赫恩沐浴露的祛痘控油、清凉配方、香味及配套洗护礼盒，最终领券下单；之后恢复摊主翻饼交流。",
+        "evidence": [
+          {
+            "from": 114.1,
+            "to": 116.12,
+            "text": "荷包蛋你别着急诶"
+          },
+          {
+            "from": 116.12,
+            "to": 117.8,
+            "text": "这天是真热呀"
+          },
+          {
+            "from": 117.8,
+            "to": 119.56,
+            "text": "像一到夏天就汗流浃背"
+          },
+          {
+            "from": 119.56,
+            "to": 120.74,
+            "text": "后背又油又痒"
+          },
+          {
+            "from": 120.74,
+            "to": 121.6,
+            "text": "长了一堆痘痘"
+          },
+          {
+            "from": 122.62,
+            "to": 125.22,
+            "text": "不妨试试我自用的赫恩冷水沐浴露"
+          },
+          {
+            "from": 125.22,
+            "to": 127.44,
+            "text": "她做了28天祛痘加控油报告"
+          },
+          {
+            "from": 132.36,
+            "to": 134.76,
+            "text": "夏日定制冷水配方里面的清洁"
+          },
+          {
+            "from": 139.12,
+            "to": 141.18,
+            "text": "搭配三重氨基酸清洁体系"
+          },
+          {
+            "from": 150.63,
+            "to": 152.18,
+            "text": "他家还送了夏日礼盒"
+          },
+          {
+            "from": 153.82,
+            "to": 155.48,
+            "text": "赫恩是十多年的老国货"
+          },
+          {
+            "from": 157.2,
+            "to": 159.6,
+            "text": "评论区领券下单买一套更划算"
+          },
+          {
+            "from": 159.6,
+            "to": 160.86,
+            "text": "一会已经给你发过来"
+          }
+        ],
+        "startUncertainty": [
+          116.12,
+          116.12
+        ],
+        "endUncertainty": [
+          159.6,
+          159.6
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.06,
+        "end": 17.739,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 18.859,
+        "end": 20.75,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 21.12,
+        "end": 39.2,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 41.68,
+        "end": 52.325,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 53.719,
+        "end": 57.199,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 58.38,
+        "end": 78.18,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 80.84,
+        "end": 89.35,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 89.37,
+        "end": 111.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 112.3,
+        "end": 116.12,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 159.6,
+        "end": 163.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 165.14,
+        "end": 177.02,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 177.78,
+        "end": 193.86,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 196,
+        "end": 203.26,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 203.27,
+        "end": 210.42,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 210.86,
+        "end": 213,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 213.44,
+        "end": 215.24,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 216.32,
+        "end": 221.18,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 223.92,
+        "end": 227.56,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 229.1,
+        "end": 240.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 243.18,
+        "end": 245.1,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 246.26,
+        "end": 331.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 332.64,
+        "end": 351.929,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 354.48,
+        "end": 359.84,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 361.4,
+        "end": 363.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 365.24,
+        "end": 366.98,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 368.8,
+        "end": 374.22,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 185,
+      "firstIndex": 0,
+      "lastIndex": 184,
+      "allRowsRead": true
+    }
+  }
+}

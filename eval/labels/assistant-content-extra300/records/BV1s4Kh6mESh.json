@@ -1,0 +1,162 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 219,
+    "inputLineSha256": "8d5f70bd73d0e1a3c4a04c471c5bb08713a1cfd3b27b9599f38f0aff2a290b63",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1s4Kh6mESh-40163542358.json",
+    "acquisitionSha256": "90342af61eae2de91f1d035bb6ed24dd1fe9a1418a9d8143cc5bf2df48868f16",
+    "sourceUrl": "https://www.bilibili.com/video/BV1s4Kh6mESh/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1s4Kh6mESh.json",
+    "transcriptSha256": "0a68adc35bef9c5b9cf66c81fdee31e60bc82168ed4a8030be2895c59bb3dcac"
+  },
+  "record": {
+    "bvid": "BV1s4Kh6mESh",
+    "cid": 40163542358,
+    "duration": 902,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕网传日本专家“投降”文章，分析来源、日语表达、反串传播及旧文改写，再讨论高市内阁支持率变化与日本评论；全篇为时事评论，未见独立商品或服务推介。",
+    "adPresence": "no_ad_in_transcript",
+    "segments": [
+      {
+        "start": 319.54,
+        "end": 453.2,
+        "contentType": "non_ad",
+        "skipDecision": "keep",
+        "reason": "此段复述被批评对象自称经济专家、咨询公司 CEO、科技突破及吸引股东等言论，叙述立场是质疑骗局和辨析文章来源，不是作者替这些公司招揽消费或投资；品牌和商业术语属于评论对象，应保留。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          319.54,
+          319.54
+        ],
+        "endUncertainty": [
+          453.2,
+          453.2
+        ],
+        "evidence": [
+          {
+            "from": 317.64,
+            "to": 319.54,
+            "text": "写这篇文章的人后来干什么去了"
+          },
+          {
+            "from": 319.54,
+            "to": 322.38,
+            "text": "当时他自封啊叫做经济专家"
+          },
+          {
+            "from": 330,
+            "to": 334.519,
+            "text": "事实上他说自己是一个什么公司搞咨询的CEO"
+          },
+          {
+            "from": 340.499,
+            "to": 341.16,
+            "text": "光伏啊"
+          },
+          {
+            "from": 343.2,
+            "to": 345.08,
+            "text": "他就说自己已经取得了重大突破"
+          },
+          {
+            "from": 352.14,
+            "to": 353.6,
+            "text": "确实很容易骗"
+          },
+          {
+            "from": 353.6,
+            "to": 355.74,
+            "text": "不知道里面门道的普通观众啊"
+          },
+          {
+            "from": 359.66,
+            "to": 361.18,
+            "text": "我们把涉及这个公司的"
+          },
+          {
+            "from": 383.54,
+            "to": 387.4,
+            "text": "世界上第一个也是迄今为止唯一一个公开指出"
+          },
+          {
+            "from": 395.24,
+            "to": 397.42,
+            "text": "意思就是说这些股东啊赶紧给他钱"
+          },
+          {
+            "from": 422.779,
+            "to": 426.419,
+            "text": "反正我也不是看太看得懂什么量子创业啊之类"
+          },
+          {
+            "from": 427.06,
+            "to": 429.26,
+            "text": "作者就是当初写一项美国头像的这个人"
+          },
+          {
+            "from": 431.2,
+            "to": 432.96,
+            "text": "人类未来100年只有他懂"
+          },
+          {
+            "from": 451.66,
+            "to": 453.2,
+            "text": "但反正就是这么一个人"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 2.48,
+        "end": 319.54,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 453.2,
+        "end": 586.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 590.04,
+        "end": 776.31,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 779.96,
+        "end": 805.75,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 807.99,
+        "end": 817.06,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 819.02,
+        "end": 901.5,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 483,
+      "firstIndex": 0,
+      "lastIndex": 482,
+      "allRowsRead": true
+    }
+  }
+}

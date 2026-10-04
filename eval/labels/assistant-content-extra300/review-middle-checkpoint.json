@@ -1,0 +1,1112 @@
+{
+  "kind": "assistant-review-progress-snapshot",
+  "at": "2026-10-04T23:44:12.790Z",
+  "scope": "31–50,101–175,226–250,291–292; sources and second reviews may update records later; not final freeze.",
+  "counts": {
+    "assigned": 122,
+    "fullTranscriptRead": 84,
+    "completed": 72,
+    "withSkippableAd": 67,
+    "withoutSkippableAd": 5,
+    "pending": 50
+  },
+  "records": [
+    {
+      "inputLine": 31,
+      "bvid": "BV172hdz7EAF",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "60812a0252cd8a335ccc6c0bca4480057ed3c2941d16c39de9f2c0d8a62836a9",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 32,
+      "bvid": "BV17B4DePEv2",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "6aaa03bd5a07905636ce5b3e8828406cf6001bfaa6126cdad41b1085aea42e12",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 33,
+      "bvid": "BV17ipve1E93",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "2c6a2eff4ad8d5dabeb62c49f9035b3bb432ac92fc348171b10cbbb68a24cc72",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 34,
+      "bvid": "BV17jexzTEFu",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "1826f782717e99705af72b6fde68e7ea33d3d5a6eb09b740327797031b2251ff",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 35,
+      "bvid": "BV17RuAz1EsR",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "52e63300fb6be685b198b09076dab703edf83769d7c8dc2f4e81514e9105d72b",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 36,
+      "bvid": "BV17uN9zyEyW",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "9b41434a22428d7b5106ed2dd914ab4f8e8b6cb38f287a901b878b95ff428483",
+      "pendingReasons": [
+        "全文重新复核后，160.2–168.2秒主页/置顶评论导流和安全担保可确认推广，但其具体服务名称及160.2秒前的衔接在字幕中不清楚，需要看听该段。",
+        "片尾267.02–287.01、335.405–355.56秒及370.77–393秒缺字幕，其余后半多为误识歌词/游戏声音；需视听这些段落，不能以全文读完字幕替代全片内容判断。"
+      ]
+    },
+    {
+      "inputLine": 37,
+      "bvid": "BV183X5BdEXw",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "34e14f2b6493d77d2c19c3c4d1f36d145e94e574d74c644a8f6de1b42bee2e18",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 38,
+      "bvid": "BV18i9hBqEAS",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "2c6a7271eadbdd4b75b2f715da83c8c514f42c4bd74f83f941af46429fd91d4f",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采 HTTP 200，但未取得与原 BV/CID 一致的视频身份（返回 BV：缺失）；HTTP 成功不代表视频资料可用，也不能据此推定删除或无广告。"
+      ]
+    },
+    {
+      "inputLine": 39,
+      "bvid": "BV18S411w7Lh",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "fe84ebd4dbf0833e74dbc80f1bf18d479ba78d02c8d7688d2d0b88de449292b5",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 40,
+      "bvid": "BV18vjrztEqA",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "ea64d3adbc40979caf3adf7fb3bc0a43050c3535bef22dffae6b78b8034a3a85",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 41,
+      "bvid": "BV19cbxzUE5e",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "dd9f988f02430679abcdacf5de6e32cdda4b37c424824dfe5229bc5de8ed892c",
+      "pendingReasons": [
+        "908.49–953.48秒赞助线索与真实受访者学习经历混合，ad/keep判断需另一内容审核者复核。",
+        "161.16–368.54秒外语访谈字幕大量失真，225.51–241.5、299.039–328.36等区间无字幕，需视听核对是否有未被识别的商业内容；未声称全片视听核验。"
+      ]
+    },
+    {
+      "inputLine": 42,
+      "bvid": "BV19osheaEZu",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5b5ed0ca2abbf7b4af3071b3e542571a2c459783c1caa281c4d0c20582e9c3a4",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 43,
+      "bvid": "BV19pLJzAERb",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "afc362fa456fbe543354a717818b591a7310b5ed3a99dfb2d9325ee86d32af82",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采 HTTP 200，但未取得与原 BV/CID 一致的视频身份（返回 BV：缺失）；HTTP 成功不代表视频资料可用，也不能据此推定删除或无广告。"
+      ]
+    },
+    {
+      "inputLine": 44,
+      "bvid": "BV19swqzmE8o",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "3f2351f8916693c606272b6984fe8360cb90cb8ba1922d2cb38657c733eae726",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 45,
+      "bvid": "BV1A4xazLECD",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "1e9e5852686081e170b5b63a4ab1f26d84d43b1a684d1011492cac410a9250d1",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 46,
+      "bvid": "BV1a5vAzwEKy",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "ce29f3bb00ca1d9b771d4d9461bf84cf73d4113c3cfebb0bc8a77b10352ee003",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 47,
+      "bvid": "BV1abY96ZE2e",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "40d8ff7785a5dc8a41184e76b5de60a3c364b45cf1e7f257430b130bec2a9a04",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采返回了原 BV，但原 CID 41820619350 不在当前分 P 列表；当前列出的 CID 为 41824357456。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+      ]
+    },
+    {
+      "inputLine": 48,
+      "bvid": "BV1AfKw6AEDe",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "d8707e92b26f0bfdb0a96d680bac1c63469fc9df65d61f3cd7a57b77e586c3cc",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 49,
+      "bvid": "BV1aJQZBjEeC",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "8b9b348b5f36857d3820a9b73d877e925e18ce351d93b6fa36a9e4a1203b677b",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 50,
+      "bvid": "BV1aLdvBsEWs",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "402a2275f9eab537f39be0329f56115ae64d54cfeaf7a72acccb09416aacd2ae",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 101,
+      "bvid": "BV1geFszTE9Z",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "1209be2ba64f06ddb2654093553c640e340af73c35d6e712d377d51b89158fad",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 102,
+      "bvid": "BV1gGb8zZEme",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "cb01a7c8c705d540683a40df798c918fa4bdad8ef0919c79438952fbd144cf9a",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 103,
+      "bvid": "BV1GhPKzcEcX",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "f713ee2509bcffe32de21248ca55efa77ddcd5d695edfc0a927a69ca50861a71",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 104,
+      "bvid": "BV1Giz1YWEew",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "68f899f52534da7ffa575f57954bcfc2a1e70161b10b2219ab17376f97da9be7",
+      "pendingReasons": [
+        "剧情后段尤其669.54–720.78、726.58–778.7与781.44–833秒缺字幕；当前仅知道其中出现少儿频道口号及少量歌声，需查看这部分画面/音频排除额外片段或广告。"
+      ]
+    },
+    {
+      "inputLine": 105,
+      "bvid": "BV1gJ4m1h7vd",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "04195693168e7498e14f3b12dba7744c848191af24eaee8ada29bd3f3eb32e3a",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 106,
+      "bvid": "BV1GJEfzJEMw",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "b248ff398f976d0ab9e771ec615f2da1aa3c8cb2a378c9c9ec3a05a59ea1cd67",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 107,
+      "bvid": "BV1gKjV6eEBv",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "733fd818a40bee5e267c4286b3a10782b8b6602e464f0fcb529e5c54f195ef5a",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 108,
+      "bvid": "BV1GLnAzaEBD",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "0c7ad72ccc5f50a97f573d19c458302faa81d9268b712944b6703b4be2c3e692",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 109,
+      "bvid": "BV1gM4m1y7jT",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5993d6cf060d039b39f1fed9534e58adc0eabfd4da217fb8d17dd80237cbb123",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 110,
+      "bvid": "BV1gnPFzCE9f",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "7ae124e1ace8a83f8da7bfa1e87a81ce56b25058d41fdf52d2a3292182ffea7e",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 111,
+      "bvid": "BV1gUQtYvEFC",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "1a41a1bf27970533ee3bac11081eea3bd5fd86a17f524f9012cdc4172eb2ace5",
+      "pendingReasons": [
+        "191.7–293.94秒、348.6–417.88秒、442.26–483.28秒等进食计时区间无可用字幕，需查看画面/音频确认是否夹带无字幕商业内容，不能据字幕单独确定全片已完成。"
+      ]
+    },
+    {
+      "inputLine": 112,
+      "bvid": "BV1gw4m1i7HA",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5fabbb2124239d0ab3fe1c0c2ed0f92eb2e4bd93ccaf3a48def5ad6dc8393de2",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 113,
+      "bvid": "BV1gXL86VErp",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "b53ab4f7df7acd0e4cfa96bc7ad040b7acc97bca2b8de676e4d2d619b10791d3",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 114,
+      "bvid": "BV1GyVS6YEQ8",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5b831f62a69f49298b51eec29d11aef39c8e6fb30782192e3646cabfa81dd8cf",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 115,
+      "bvid": "BV1H94y16722",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "36b14ef6f10655f0778c6b87cc32e61e208162cbb15531b8240d4fc92af79605",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 116,
+      "bvid": "BV1HAUjBKEzT",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "68d20d505c38be2088ac107762aaa387061acc95a44df6470053a5e272933bb8",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 117,
+      "bvid": "BV1HUkPBsErb",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "238ab1d8a578190a9c44a43ac728002b1a9888ef54b31e4dc3aef879184541ef",
+      "pendingReasons": [
+        "需视听58.769–109.28秒：加速器广告明确，但77.64秒之后突接保号卡、另一张流量卡和30元话题，字幕不足以确认这是否广告收尾或已回到游戏直播聊天。",
+        "游戏回放大量背景歌与讲话混识，315.72–335.62、677.12–694.76、747.01–763.51等空档及后半零散发言不足以独立确认全部内容性质；未实际看画面，暂不计完成。"
+      ]
+    },
+    {
+      "inputLine": 118,
+      "bvid": "BV1HyCnY1E4e",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "70e40c84f64f06fb04389e6b29547a2d840cb9a60ff7122c4b564e78cce107fc",
+      "pendingReasons": [
+        "字幕619.89–640.48、669.54–720.78、726.58–778.7秒存在空档，最后781.44–833秒亦无字幕，片尾超过两分钟只有少量歌曲/频道口号，必须补看或听后确认有无节目间宣传。",
+        "全文221行已读，未实际观看画面；不能把动画剧情内未见商品推销等同全片无广告。"
+      ]
+    },
+    {
+      "inputLine": 119,
+      "bvid": "BV1Hz421z7VD",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "49af315bb24829ea6bea9adf9ce1a2820a76d6dfea7c9db5f9d5f9ef4a2e5cad",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 120,
+      "bvid": "BV1HzuJ6DEY3",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "8dc854ddea7998c0e4177fff84296bfaf4e4e674bf988e8833ccb098e248f8c8",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 121,
+      "bvid": "BV1iaVfzkEyZ",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "794c3c2c6c83d9555002424fcef6b02a0af0c1cd813fbf47e4f3a98696ca6136",
+      "pendingReasons": [
+        "粤语对白识别失真；114.18–185.68秒无字幕，373.16–443秒片尾无字幕，后半主要歌词不能解释画面。需要实际视听核对原片与拼接部分。"
+      ]
+    },
+    {
+      "inputLine": 122,
+      "bvid": "BV1im4y177Ex",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "87f57689695c8cd9c934ccc8bf309c57a13edd6e020d479f4b47550b9f567904",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 123,
+      "bvid": "BV1iSBKY7E7p",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "b7fca07833491311f6fa1a4203f6434d10be135c24a7ac7037c26996954a8da0",
+      "pendingReasons": [
+        "字幕多处翻译失真与歌词/音乐占位；97–124秒、250.92–324.56秒的混剪及480.1–504.38秒残缺对白无法完整辨识，需视听核实，未将该片计为无应跳广告。"
+      ]
+    },
+    {
+      "inputLine": 124,
+      "bvid": "BV1itRhY4E64",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "5d4d492efbcafc0f0e030ef8d0fc739186aa6bef6610de9d59d7372b67e18fb0",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 125,
+      "bvid": "BV1iu2AY4EcX",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "ae683d274784d197da2cd5ad3f0ba83083f25f264b90cc5b3dad93d9c9ed6a0f",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 126,
+      "bvid": "BV1iVuc6REfh",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "692af88cc0c987f4ec44b2e5df153f7deae13a5ed795a8f1f7f4c79e061f1457",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 127,
+      "bvid": "BV1iW42197E6",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "526110bbaf694b1ed685a908ae32367c17c2e7ca80bb39830bda51596c2c3de8",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 128,
+      "bvid": "BV1iwrkBjE3B",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "f45c3cd2843df27460343696c5ef862bf3c5857be7f5c18b295763403c0aee1d",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 129,
+      "bvid": "BV1j47PzAETt",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "f973dd81958e6d1d1d5bf3b7e2200ae83da612e8bab63b861cc64988f6388a7b",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 130,
+      "bvid": "BV1J6YezfEFb",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "ed24a4e02cce41f04c885b71d9773c1ec7fc5faf6bfa17240c78cff01024abc3",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 131,
+      "bvid": "BV1j7HNepEjW",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9d9ac9064de8d8219647796bacdaf1deadcf5fe7995755fe7a352f828847f111",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 132,
+      "bvid": "BV1J7qDBeEg5",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "7930e85d7e7cb35a4db690c496a8ece2b3dc7f820f814da1b8769e3326cb62cf",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 133,
+      "bvid": "BV1jBxkeMEks",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "a15222bb7b52630376a02a23b897d40c8152aab924daa26fa461aa62e7dfd70b",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 134,
+      "bvid": "BV1JF4m1T7h5",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5a4308e1a214927032572fc92630c063157b2e970776610121f6caac5af789d8",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 135,
+      "bvid": "BV1JGx9zNEU6",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "24f7e6bb2c6b00361ec111b5ea151ef0712b6e566dcfa6853aa4139de10fec14",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 136,
+      "bvid": "BV1JJUsB4E21",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "e74b811c4bbb959eefa346a865cd3c0456eb54f70b7aee093512a39449967344",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 137,
+      "bvid": "BV1JjyEB8ESn",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "017b8ee2214c7b874b0f8081c393550f6e17ff74c250e63fe9a9766910273a19",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 138,
+      "bvid": "BV1JLsjeNEr8",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "d23a8743dc5150b73ed2e2b37a26dbea3947feddd84680a21b3029b2dd87a02f",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 139,
+      "bvid": "BV1jrtgzVEyy",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "da9aea173f1c122ce1d056aa13275a0a98a3e7f7b78248c8de1e269845f7f733",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 140,
+      "bvid": "BV1jrWaeBEpc",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5cac0504c4aa2d7f723eb23a6e3c284a8905f021a5140f6ba0912f66d16b162d",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 141,
+      "bvid": "BV1JWyaBAE8q",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "38aebc59414090cc204c3a1301928720f9f754d09bd57f100112a28c694d5c13",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采返回了原 BV，但原 CID 33544407143 不在当前分 P 列表；当前列出的 CID 为 34334050717。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+      ]
+    },
+    {
+      "inputLine": 142,
+      "bvid": "BV1jz421i7Bc",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "fb9eca243ea63ab39763ae0f4b9c6e78dda4a2f0fa7d9b703e59dc2261209c20",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 143,
+      "bvid": "BV1k44y1W7w6",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "6dadcd6b6f6d1474c075753e512773d276e2c249a0e302c272d448fc821beadf",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 144,
+      "bvid": "BV1Kb3RzGEnq",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "a47c7862424e6855a0271c8109b936b4df68b815018551794ce661c64e666bb1",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 145,
+      "bvid": "BV1kEg6zZEBQ",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "970bc53491f5ab7f961f207fe6a1b3e83c16e30f6d6606cd568f9548c58c7564",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 146,
+      "bvid": "BV1kEjn6BEFA",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "ee9054b1c10a69473e0446276f6fdeef1fbcf05047c54de985b27566f7c3c12c",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 147,
+      "bvid": "BV1kfdSBHEBQ",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "afd760a8205e1831cf79ce4a062eed6d743b2fc94f18c54762b628857656bd38",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 148,
+      "bvid": "BV1KHxazUEeG",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "5d83636182fd0cd6f3339b2223d54839ceec003b3d2e00d231b6f82e6df87286",
+      "pendingReasons": [
+        "180秒视频只有98.2–117.88秒13行广告字幕；0–98.2和117.88–180秒共160.32秒无字幕。必须补看/听完整其余内容及广告衔接，不能算全片内容审核完成。"
+      ]
+    },
+    {
+      "inputLine": 149,
+      "bvid": "BV1KKcczwEdz",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "fa2321683f8b61fd43dfec6ad6d4349c08cf21c56675296998cf69c77dacabb7",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 150,
+      "bvid": "BV1KKhpziEEn",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "4f4cafb3c678bbf9d0f0da1606da19bf619be7cd73727b0c9d7ad2dc6d5d1816",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 151,
+      "bvid": "BV1KuaK6VEFc",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9ec6f99018662b527c83c1f2f929239335ff53a217139ca386bd90b4ea2421c2",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 152,
+      "bvid": "BV1KuSFYrEJp",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "03916c2c6ec332ef967387eb5bcaea58b2784420488adc0c7c3b73b7f66fffb0",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 153,
+      "bvid": "BV1L1816NED4",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "8a652d70948467976a240963566bc0f4d0871be1122b230054049f541d34f51f",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 154,
+      "bvid": "BV1Lf421B7RZ",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9b3aac96b247fd5d7f71263dee4b03c06bd98f8c463f7d7ce31638adac59e3ec",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 155,
+      "bvid": "BV1LgFTzfE2H",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9aca0f232ecd8d7ad0c8ff3f68d8c58d28a3a630b3a637e157650948d3b69bbd",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 156,
+      "bvid": "BV1LppWzNEMT",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "fbc3998c8feb5fa342e0b7e84a1b6799aa974e685314975ea645f5029afb02d0",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采返回了原 BV，但原 CID 32434490925 不在当前分 P 列表；当前列出的 CID 为 39826950252。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+      ]
+    },
+    {
+      "inputLine": 157,
+      "bvid": "BV1LQwkzvEtZ",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "5bccf09fe53d886cae7411a26978b0d9a41b70087c096e274551afc912134a06",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 158,
+      "bvid": "BV1Ls421K7L7",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "e1bb30c4d0548bf85d3bf3751273888fd3f49e64c4b7f7c8e64b053e9dc3e8be",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 159,
+      "bvid": "BV1M1421t7fr",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9d876fd2c53d2e65efbcbab1aa1d72d5ceb0aea59875c82c208c1494a17196bf",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 160,
+      "bvid": "BV1MfAczrE83",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "527b55ee93c4ba4bcb2436ce5764774256ff72ddf1b9e3ba94d9ef2104164d7a",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 161,
+      "bvid": "BV1mfLu6mErm",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "6f6738d57010444e4afad5420b0b25762adccc9980fa777307b145ef4c11bdbb",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 162,
+      "bvid": "BV1MiGy66E5S",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "766daeb0adff73bbb4a9d977bac5e7266594917580a4ff4298b216160d7fd191",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 163,
+      "bvid": "BV1Miz7BFEhY",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5e73f5694b2a47bb33a9d40141d5817b6ad8626e13de0e043f8517c96b5408f6",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 164,
+      "bvid": "BV1Mj411E7c2",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "e441ca0fb1345ee91b23792d1b2b7128a0773f9c6d0b2883a4ce8dd172ca7897",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 165,
+      "bvid": "BV1Mj411R7kq",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "886c2c62e11834d37b92ffc537a9b55bb3cbebaaddbe8ac3b29039a2d7685638",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 166,
+      "bvid": "BV1Mm411y7Q2",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "c510307721ff0335f201fa8d2090c1dfa7a4526cc5b26625e867378b7f8e0120",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 167,
+      "bvid": "BV1MMTQ65ETK",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "8230862da8bb2805de1cd19275b23865f9cac06dd8361a0da3fdf93e5ae7cba7",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 168,
+      "bvid": "BV1mpyrY5Ejc",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "12522e9589c45573ae26e910ec60f83925d47c9e612b98cc37206b6986ed087d",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 169,
+      "bvid": "BV1mS411F7qY",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "e34f70ae13303201a76dc0df27b4ada1dd870a4c365887e8e27fffce04f1e616",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 170,
+      "bvid": "BV1mx411M75v",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "e557004f124db899d06bddfcbc272a1b789133eb1f5465e8f88baead4a3984af",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 171,
+      "bvid": "BV1nKcQzPE94",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "4ebb8b7c8aea3df81f7c9892899e30a549535aefdc325a77ecb66da8bb264ce0",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 172,
+      "bvid": "BV1NLKBzEEbj",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "ba8835e3d91d594e1a0957a99727df8b739ad1b6bded07731a8e1bfdcc1900c0",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 173,
+      "bvid": "BV1nm421G7jA",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "59d816cb0cc2edb64aa68c53edf1a87c405aec661c6206cb002230bb5aeabf2a",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采 HTTP 200，但未取得与原 BV/CID 一致的视频身份（返回 BV：缺失）；HTTP 成功不代表视频资料可用，也不能据此推定删除或无广告。"
+      ]
+    },
+    {
+      "inputLine": 174,
+      "bvid": "BV1nmeH6JEDq",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "4474ebce13858efb3995bc9f72877aef3767ace4be21dd5223ac020d7b24d775",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 175,
+      "bvid": "BV1nRCcB2EHX",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "bd1a3babbc3bf053ede6de0c3d8d75e017ddeb98d914d8ea612afac9089b42fe",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 226,
+      "bvid": "BV1Sw411C7Kj",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "d3c85ce99ef108c0119c43ad6e0f63330bcb747ad53c4e7b6db24cb17eecd948",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 227,
+      "bvid": "BV1T6AwzyEhq",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "859e4e2dabe7aebf2966579411cbdc8f203c78f1a4477036f638f606f4ce75a7",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 228,
+      "bvid": "BV1T8qcBGE8W",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9eaf410897828429074d2e4d20065830c574293315c25173ce5f61f71917702b",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 229,
+      "bvid": "BV1T997YuE1K",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "2368f247fe94f67750ea06260f082c5b1139c364128961837495c9acae6be63f",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 230,
+      "bvid": "BV1Ta411K72v",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "91db9a3c76ae3a193ebbfbd4ad53410585211e77b7995e643614159edff827ba",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 231,
+      "bvid": "BV1tB4y1S71H",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "94fc9e837e52631a8376d6e1d2bd35b1c1832377d4d7c4a38dffd7e1c98b7346",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 232,
+      "bvid": "BV1TduLzYEov",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "e6f2272348c528b92b7395ac98a058cf23c1d0ee5190762e9eef9ce502b0481b",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采 HTTP 200，既有 initialState 解析器未找到视频元数据，原 BV/CID 身份仍未核实；未将页面请求成功计为恢复成功。"
+      ]
+    },
+    {
+      "inputLine": 233,
+      "bvid": "BV1Tj7H6XErp",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "0bf221722e629e94995662d307418131029e6612c1dfc1b879e912af8d7b658f",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 234,
+      "bvid": "BV1tnZqYTEx6",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "f0cd856ba0ffc43d3a1218ec9c641d4b4e297bba34e9c565eb6acbfc6fc5e321",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 unavailable，原因 not-exposed-in-public-page。未据此判定无广告。",
+        "公开元数据或BV/CID身份核验尚未成功。",
+        "元数据补采诊断：公开页补采返回了原 BV，但原 CID 29145498914 不在当前分 P 列表；当前列出的 CID 为 29181414442。未以新 CID 替换原身份，仍缺原视频可核实资料。"
+      ]
+    },
+    {
+      "inputLine": 235,
+      "bvid": "BV1todgBEEyK",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "5f214eede3681856d530db69f65be8de326c422b1bd5ef05569321607e4fd512",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 236,
+      "bvid": "BV1TPXBBSEr9",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "8fde7168a08ed7d9c9b512168a0188bbb22f1e3b09e31fde6b03e80680dbb147",
+      "pendingReasons": [
+        "全片粤语 ASR 大量严重误识，如 0–55.319、128.17–270.999 及 456.63 秒后的评分讨论多处不可连贯理解；必须补听或获取可靠字幕，不能以全部行读过视为内容可判断。",
+        "0.02–5.21 秒开场提神句是否也是广告预告，以及 85.059–128.17 秒购物推广准确铺垫边界需视听复核。"
+      ]
+    },
+    {
+      "inputLine": 237,
+      "bvid": "BV1tr421G7by",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "3e2f0ff986ba27c4ecf68b14b72e93c0a2412d07a40b180a413fa421210e0a7f",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 238,
+      "bvid": "BV1tT421k7S1",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "7b2037b3ece8802bfbcbbcbb28502e202b5205a844bf9b783c5cdded33d98496",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 239,
+      "bvid": "BV1TZjw6FEqW",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "249f212773e098568dcc3474034ddc26d0b3464d91b8f8774ca59b15a798b07f",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 240,
+      "bvid": "BV1U5PjzQEPd",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "990da63ec3fea96d97bde8e49c35b735dbf139d3a8e7b10153cb11f6585a16f8",
+      "pendingReasons": [
+        "111.74–152 秒结尾连续 40.26 秒无字幕；另 47.6–70.53 和 92.52–110.3 秒有较长间隙，需查看游戏画面或听声音判断是否还有推广与广告视觉收尾。"
+      ]
+    },
+    {
+      "inputLine": 241,
+      "bvid": "BV1u9oqBcEbS",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "6c2a1aabaab36e6b8a011c46b4b635b178ec016b7fb3924b53c64ff084444843",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 242,
+      "bvid": "BV1UGN3zrEVy",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "2204bad1b7328468aa6fc136f876f4f174f66b8877c8ad9e0d0064f394ce6ab4",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 243,
+      "bvid": "BV1uMNdeCETP",
+      "reviewStatus": "needs-source",
+      "fullTranscriptRead": false,
+      "sha256": "8d1046eec3f78b711352a1e292cab8e80b46c79df19be9d19e95f56d6fc67d02",
+      "pendingReasons": [
+        "没有可审阅字幕；采集状态 empty，原因 legacy-api-no-tracks-not-proof-of-no-subtitles。未据此判定无广告。"
+      ]
+    },
+    {
+      "inputLine": 244,
+      "bvid": "BV1uqJNzwEnc",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "c3f90cdf9c0ee5c7fdd81e275e34b7c233e1bc8ff33f04471efa3211d6c02450",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 245,
+      "bvid": "BV1usQvByEJS",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "ce2ea79769083c4d64769a8940927eeb690474a992913416c92094f90157a0f3",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 246,
+      "bvid": "BV1ut63YRE6f",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "9c41e1d4b809109ba1c86a480b20aba248096d44b297adc15ab17be733a454bc",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 247,
+      "bvid": "BV1Ut8MzcEk7",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "2910dd4f8f0c4e4c4217d7a02d299819d9ae770bae7a0378d69e361c604c4f1b",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 248,
+      "bvid": "BV1UtkdYnEjg",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "223ffac8894787489e8b16f0a4551846e5e03890c448acf5367be85332e28dd7",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 249,
+      "bvid": "BV1UY5VzMEEd",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "06b01486cff75c7bcebdc0ebd4ab72f77c368d19716800217896952f3351a3eb",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 250,
+      "bvid": "BV1uZECzMEdv",
+      "reviewStatus": "needs-verification",
+      "fullTranscriptRead": true,
+      "sha256": "58b19a24ab324b2a8723016fed19d522ce2bd1da19ee51cf28718996f4a6c0b6",
+      "pendingReasons": [
+        "431.94–545.28秒连续113.34秒无字幕；随后到656.2秒只有零星语义不通转写，656.2–708秒尾部51.8秒完全无字幕。后段约276秒资料不足，需实际视听核实。"
+      ]
+    },
+    {
+      "inputLine": 291,
+      "bvid": "BV1zdE76YEW3",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "93087d14869b19454422dab4ab258b2946e4ca754ab10ee781751512a39c4321",
+      "pendingReasons": []
+    },
+    {
+      "inputLine": 292,
+      "bvid": "BV1zM4m1z7pT",
+      "reviewStatus": "reviewed",
+      "fullTranscriptRead": true,
+      "sha256": "1cfc2527b311964ef9500fbc8c97c6e53aeda9d053038678a7793bc80c301410",
+      "pendingReasons": []
+    }
+  ]
+}

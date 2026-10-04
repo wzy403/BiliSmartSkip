@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Mj411R7kq",
+  "cid": 1205851158,
+  "title": "《老阎》河北沧州，宾馆诡异房间传来的哭声",
+  "duration": 1342,
+  "desc": "本故事纯属虚构，如有雷同纯属巧合",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:11:58.003Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:21:12.770Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 165,
+    "inputLineSha256": "914e77cecb459c6ff3854d7cf50d99b7c8df8683ae4a8f840a414c348ef89f23",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Mj411R7kq-1205851158.json",
+    "acquisitionSha256": "0c24f9a453e048a8ac5ca1a3b12015fbf9716142ff7262d3a7e8887e081bcc2c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Mj411R7kq/?p=1"
+  }
+}

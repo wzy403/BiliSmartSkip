@@ -1,0 +1,180 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 116,
+    "inputLineSha256": "ad29ca6604fa30fbaa8ee87509fe4bf75972bdb27b3311797f77c1d611ad449a",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1HAUjBKEzT-34162082353.json",
+    "acquisitionSha256": "44236395483c828db522b4dd05cc33b071fa97eacc2f77b229d479242b7ceb06",
+    "sourceUrl": "https://www.bilibili.com/video/BV1HAUjBKEzT/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1HAUjBKEzT.json",
+    "transcriptSha256": "e0e72fae743264a4fc0367b25e590de3ccae81249263f917a8137d34e7817efe"
+  },
+  "record": {
+    "bvid": "BV1HAUjBKEzT",
+    "cid": 34162082353,
+    "duration": 680,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕Stegra绿色氢冶钢项目，解释欧盟减碳政策、融资供应链和瑞典选址，随后讲氢还原技术、能源与矿石障碍、成员国内部利益、施工资金缺口、更名和自行施工困境。技术规模论述后转入环保供应链与企业社会责任，集中宣传三星W26折叠手机，再用“话说回来”返回钢厂问题。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 265.03,
+        "end": 339.3,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从环保目标、社会责任和跨国企业供应链铺垫到三星，再集中讲W26再生材料、机身铰链屏幕、AI翻译卫星通信及公益价值，以成熟可持续路径、巅峰之作收尾。虽借环保主题衔接，但手机功能宣传是独立推广，不是绿色炼钢论证所需，应完整跳过而不只截产品名称之后。",
+        "startUncertainty": [
+          265.03,
+          265.03
+        ],
+        "endUncertainty": [
+          339.3,
+          339.3
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 262.96,
+            "to": 265.03,
+            "text": "这在技术上确定可行吗"
+          },
+          {
+            "from": 265.03,
+            "to": 266.61,
+            "text": "而为了达成环保的目标"
+          },
+          {
+            "from": 266.61,
+            "to": 267.99,
+            "text": "履行企业社会责任"
+          },
+          {
+            "from": 267.99,
+            "to": 270.55,
+            "text": "众多跨国企业已经将打造环保供应链"
+          },
+          {
+            "from": 271.77,
+            "to": 273.41,
+            "text": "例如我们熟知的三星电子"
+          },
+          {
+            "from": 275.93,
+            "to": 277.49,
+            "text": "现在生产的电子产品中"
+          },
+          {
+            "from": 280.18,
+            "to": 281.68,
+            "text": "像我常用的心系天下"
+          },
+          {
+            "from": 281.68,
+            "to": 282.84,
+            "text": "三星W26"
+          },
+          {
+            "from": 283.92,
+            "to": 286.59,
+            "text": "技术与社会责任层面均已成熟的杰作"
+          },
+          {
+            "from": 286.59,
+            "to": 288.89,
+            "text": "打造这款手机采用了多种再生材料"
+          },
+          {
+            "from": 291.67,
+            "to": 293.39,
+            "text": "215克的超轻薄机身"
+          },
+          {
+            "from": 303.98,
+            "to": 306.68,
+            "text": "而真正让W26超越传统旗舰的是"
+          },
+          {
+            "from": 307.97,
+            "to": 309.77,
+            "text": "新升级的BIXBY智能助理"
+          },
+          {
+            "from": 314.07,
+            "to": 316.33,
+            "text": "轻松实现20多种语言即时互译"
+          },
+          {
+            "from": 316.33,
+            "to": 318.27,
+            "text": "还支持了天通卫星通信服务"
+          },
+          {
+            "from": 321.24,
+            "to": 324.6,
+            "text": "W26手机延续了将利润用于公益项目的传统"
+          },
+          {
+            "from": 327.78,
+            "to": 328.34,
+            "text": "如果说"
+          },
+          {
+            "from": 328.34,
+            "to": 330.92,
+            "text": "STAGGA代表的是一种尚在探索的技术蓝图"
+          },
+          {
+            "from": 330.92,
+            "to": 332.38,
+            "text": "那么三星已经提供了一条"
+          },
+          {
+            "from": 332.38,
+            "to": 333.98,
+            "text": "可持续发展的成熟路径"
+          },
+          {
+            "from": 333.98,
+            "to": 335.74,
+            "text": "W26超轻薄折叠屏"
+          },
+          {
+            "from": 337.34,
+            "to": 339.3,
+            "text": "也能温暖社会的巅峰之作"
+          },
+          {
+            "from": 339.3,
+            "to": 340.39,
+            "text": "话说回来"
+          },
+          {
+            "from": 340.39,
+            "to": 343.29,
+            "text": "STAGGRES所代表的是一种尚在探索的技术蓝图"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 368,
+      "firstIndex": 0,
+      "lastIndex": 367,
+      "allRowsRead": true
+    }
+  }
+}

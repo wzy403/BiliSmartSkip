@@ -1,0 +1,237 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 272,
+    "inputLineSha256": "c30d422684dd1704c7f0380fd2078795796d422cf390a4c5c7aed47c5f7a7a48",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Xm421g7ED-1629314960.json",
+    "acquisitionSha256": "63d2b90e467b8b969448d826d1922035d2004544213d268c686c1dc7ce84c3f8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Xm421g7ED/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Xm421g7ED.json",
+    "transcriptSha256": "fc4e5e605e8eb3023bcbd151d9e2de7779949c9b356cb976b836c37a5b0e7a1d"
+  },
+  "record": {
+    "bvid": "BV1Xm421g7ED",
+    "cid": 1629314960,
+    "duration": 902,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "全文读436行。介绍库兹涅佐夫号的舰载机与武装、苏联航母设计取舍、改名与归属、部署及缺水、推进故障、黑烟、坠机、维修事故，最后讨论象征意义。中间在舰载机起飞说明后借驾驶战斗机疲劳出汗转入赫恩沐浴露与礼盒推广，再回到航母出海经历。字幕3.48–895.26秒，902秒末尾6.74秒无字幕，未视听。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 408,
+        "end": 463.409,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "reason": "从那说到飞机引入开战斗机疲劳和夏天出汗的完整铺垫，介绍赫恩品牌销量、冠军同款、冰凉配方、祛痘功效、香味容量，再到礼盒与评论区领券；与航母主题独立，完整可跳。",
+        "evidence": [
+          {
+            "from": 406.24,
+            "to": 408,
+            "text": "一次只能起飞一架飞机"
+          },
+          {
+            "from": 408,
+            "to": 409.04,
+            "text": "那说到飞机"
+          },
+          {
+            "from": 409.04,
+            "to": 413.42,
+            "text": "就不得不说经常开战斗机的兄弟们肯定都知道"
+          },
+          {
+            "from": 413.42,
+            "to": 414.62,
+            "text": "开久了很累的"
+          },
+          {
+            "from": 414.62,
+            "to": 417.32,
+            "text": "尤其是夏天汗流浃背是常有的事"
+          },
+          {
+            "from": 417.32,
+            "to": 419.65,
+            "text": "还好我有这款赫恩冷水沐浴露"
+          },
+          {
+            "from": 419.65,
+            "to": 420.83,
+            "text": "10年老国货"
+          },
+          {
+            "from": 420.83,
+            "to": 422.27,
+            "text": "还是运动冠军同款"
+          },
+          {
+            "from": 422.27,
+            "to": 424.01,
+            "text": "难怪某宝卖爆了70万"
+          },
+          {
+            "from": 427.04,
+            "to": 429.54,
+            "text": "里面加了冰川水加清凉薄荷"
+          },
+          {
+            "from": 431.47,
+            "to": 434.45,
+            "text": "这款沐浴露还做了28天真人祛痘测试"
+          },
+          {
+            "from": 436.03,
+            "to": 439.2,
+            "text": "温和舒缓保湿五大功效报告"
+          },
+          {
+            "from": 449.879,
+            "to": 452.33,
+            "text": "撩妹香妹子一闻就走不动道"
+          },
+          {
+            "from": 452.33,
+            "to": 454.96,
+            "text": "500克大容量一瓶能用大半年"
+          },
+          {
+            "from": 454.96,
+            "to": 455.56,
+            "text": "对了"
+          },
+          {
+            "from": 455.56,
+            "to": 457.76,
+            "text": "他家还出了冠军同款礼盒套装"
+          },
+          {
+            "from": 457.76,
+            "to": 459.46,
+            "text": "洗头洗脸都给你配齐了"
+          },
+          {
+            "from": 459.46,
+            "to": 461.22,
+            "text": "评论区领我的专属大额券"
+          },
+          {
+            "from": 461.22,
+            "to": 463.409,
+            "text": "一套买更划算"
+          },
+          {
+            "from": 463.809,
+            "to": 466.69,
+            "text": "那下面我们来说说固件的出海经历"
+          }
+        ],
+        "startUncertainty": [
+          408,
+          408
+        ],
+        "endUncertainty": [
+          463.409,
+          463.809
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 3.48,
+        "end": 32.31,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 32.71,
+        "end": 114.32,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 116.38,
+        "end": 152.68,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 154.14,
+        "end": 160.64,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 162.49,
+        "end": 183.6,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 186.72,
+        "end": 239.93,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 241.16,
+        "end": 288.289,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 288.689,
+        "end": 321.18,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 322.42,
+        "end": 385.45,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 386.35,
+        "end": 408,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 463.809,
+        "end": 658.95,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 659.27,
+        "end": 774.81,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 776.119,
+        "end": 822.43,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 825.71,
+        "end": 838,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      },
+      {
+        "start": 838.88,
+        "end": 895.26,
+        "reason": "已全文阅读；此范围仅含实际字幕覆盖的主题正文或节目交流，未见独立广告诉求。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 436,
+      "firstIndex": 0,
+      "lastIndex": 435,
+      "allRowsRead": true
+    }
+  }
+}

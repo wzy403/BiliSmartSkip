@@ -1,0 +1,13 @@
+# Login artifacts and transient process output are not reusable audit evidence.
+acquisition/*qr*.png
+acquisition/*login*
+**/*cookie*
+**/*credential*
+**/*qrcode*
+**/*session-state*
+**/*auth-state*
+**/*.log
+**/*.part
+**/*.part.*
+**/*.tmp
+**/*.ytdl

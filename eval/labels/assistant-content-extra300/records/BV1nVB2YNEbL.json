@@ -1,0 +1,44 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_content_001_100",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 180,
+    "inputLineSha256": "b4eda724f0173207c1da3872a5630d87388c36ccc499df78e8a37be4a1cda8b6",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1nVB2YNEbL-26938835161.json",
+    "acquisitionSha256": "7c42a7d4340d788a897e6ab3f853a06e213c66ce3205a879e35e1315fbc6fe67",
+    "sourceUrl": "https://www.bilibili.com/video/BV1nVB2YNEbL/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1nVB2YNEbL.json",
+    "transcriptSha256": "06d256e74d9a06b2345222ded467e2b6123ea14ef247d0d6fcd554f190db0d04"
+  },
+  "record": {
+    "bvid": "BV1nVB2YNEbL",
+    "cid": 26938835161,
+    "duration": 889,
+    "reviewStatus": "needs-verification",
+    "fullTranscriptRead": true,
+    "videoSummary": "《求偶敢死队》粤语电影片段，现有自动字幕可辨认人物争执、恋爱和电话节目等零散场景，并有大量歌曲，但大多数对白被错误识别为不连贯普通话，无法可靠重建完整剧情与广告边界。",
+    "adPresence": "uncertain",
+    "segments": [],
+    "normalSpeechRanges": [],
+    "pendingReasons": [
+      "已逐行读完224行，粤语对白严重误识，如121.98–137.18、526.65–538.72、567.46–582.23等整段语义不完整；不能据没有识别到购买话术就判无广告，需要可用粤语/中文字幕或实际视听核验。",
+      "存在248.92–277.56、695.52–722.82等长字幕空白，电影片段及可能的无声/画面插入未核实。"
+    ],
+    "limitations": [
+      "助手内容参考；已完整阅读现有字幕，未观看视频画面或听取音频。",
+      "AI字幕可能误识别；只判断可用字幕表达的内容，未证实无字幕区间或视觉广告。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 224,
+      "firstIndex": 0,
+      "lastIndex": 223,
+      "allRowsRead": true
+    }
+  }
+}

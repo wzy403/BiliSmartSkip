@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1k44y1W7w6",
+  "cid": 487124795,
+  "title": "当《超阈限空间》的开发人员观看速通 Superliminal Developers React to 23 Minute Speedrun",
+  "duration": 1617,
+  "desc": "https://www.youtube.com/watch?v=yfJKkUh6rvA\nSuperliminal Developers React to 23 Minute Speedrun",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:04:31.924Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:19:15.373Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 143,
+    "inputLineSha256": "4dd68ccba2d88368816299431fd61003dcc80a80015cba67d2871a4e27aae267",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1k44y1W7w6-487124795.json",
+    "acquisitionSha256": "0ed239135f466396bd18885e28b0a5a7135fe3cebbe7988a80166317908cbdfe",
+    "sourceUrl": "https://www.bilibili.com/video/BV1k44y1W7w6/?p=1"
+  }
+}

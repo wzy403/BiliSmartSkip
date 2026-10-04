@@ -1,0 +1,126 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 229,
+    "inputLineSha256": "fd4f561d24a3ed6eac160deeeaabce12d088663e2b5fb91b29be5f9b7125f9b5",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1T997YuE1K-28682555020.json",
+    "acquisitionSha256": "f97e870770f42b19fc1db6e58ba9d3dc9203bb694d844e30f755b2dd5a1650c9",
+    "sourceUrl": "https://www.bilibili.com/video/BV1T997YuE1K/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1T997YuE1K.json",
+    "transcriptSha256": "2a6303c6bf1c26dfc89799178787ca99f43fdec250313964c830b468a39b5632"
+  },
+  "record": {
+    "bvid": "BV1T997YuE1K",
+    "cid": 28682555020,
+    "duration": 288,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "点评多段司机反制远光灯、逆行和变道的行车记录，前后均是道路冲突视频解说。中间由夸视频车有种、帅转到作者如何变帅，插入海洋至尊多效乳的成分功效、销量、质地和优惠购买，随后恢复远光灯案例。宾利、特斯拉仅识别涉事车辆。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 112.78,
+        "end": 168.26,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "从“帅到我、仅限于没收拾之前”引出懒人变帅需求，介绍海洋至尊多效乳及六效功效、成分、体验、购买链接优惠，直到放心冲后回到交通案例。",
+        "startUncertainty": [
+          109.94,
+          114.66
+        ],
+        "endUncertainty": [
+          168.26,
+          168.26
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 112.78,
+            "to": 114.66,
+            "text": "确实是有点帅到我了"
+          },
+          {
+            "from": 114.66,
+            "to": 116.76,
+            "text": "可也仅限于在我没收拾之前"
+          },
+          {
+            "from": 116.76,
+            "to": 118.48,
+            "text": "对于如何变帅来说"
+          },
+          {
+            "from": 119.86,
+            "to": 121.32,
+            "text": "又懒又想变帅的兄弟们"
+          },
+          {
+            "from": 121.32,
+            "to": 123.62,
+            "text": "海洋至尊为咱们专门研究了一款新产品"
+          },
+          {
+            "from": 134.68,
+            "to": 136.16,
+            "text": "这是一款六效合一的产品"
+          },
+          {
+            "from": 144.72,
+            "to": 147.28,
+            "text": "另外还有2%的自研专利控油组合物"
+          },
+          {
+            "from": 156.44,
+            "to": 158.86,
+            "text": "涂完之后皮肤轻松变得水润有光泽"
+          },
+          {
+            "from": 164.32,
+            "to": 165.74,
+            "text": "购买链接放评论区置顶了"
+          },
+          {
+            "from": 165.74,
+            "to": 166.98,
+            "text": "还有大额优惠券可以领"
+          },
+          {
+            "from": 166.98,
+            "to": 168.26,
+            "text": "兄弟们放心冲就行了"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 4.1,
+        "end": 112.78,
+        "reason": "远光灯反制的行车场面评论。"
+      },
+      {
+        "start": 168.26,
+        "end": 287.68,
+        "reason": "继续远光灯与事故片段，车型名称用于叙述场面，不是品牌促销。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 157,
+      "firstIndex": 0,
+      "lastIndex": 156,
+      "allRowsRead": true
+    }
+  }
+}

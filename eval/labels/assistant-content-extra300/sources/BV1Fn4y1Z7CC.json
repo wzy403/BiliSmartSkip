@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1Fn4y1Z7CC",
+  "cid": 25714101070,
+  "title": "如何零基础培养一位阿根廷总统？",
+  "duration": 1059,
+  "desc": "",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:54.749Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:16:22.674Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 96,
+    "inputLineSha256": "181a87e9d17fefebbaf348122ad915e3ab56e40133769868c129fa433ecef7d9",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Fn4y1Z7CC-25714101070.json",
+    "acquisitionSha256": "0339705ee9423c587d935f2bd6142e71cd5c5b6afe71d4ebc881cb5c3f7da2b8",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Fn4y1Z7CC/?p=1"
+  }
+}

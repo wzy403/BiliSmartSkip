@@ -1,0 +1,136 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 244,
+    "inputLineSha256": "94d925b96c5f8dfc5575635f020ff2b80f1bba1d5306dadee286d4b774b5fa93",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1uqJNzwEnc-30009656179.json",
+    "acquisitionSha256": "d253ba8c6eadba34b8a99937758e47fefc019facee6d0fb13c6fba84ee65cf38",
+    "sourceUrl": "https://www.bilibili.com/video/BV1uqJNzwEnc/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1uqJNzwEnc.json",
+    "transcriptSha256": "bb569d482929842f69e52c784aa2f07c7d8d18d04c0378a28a12f612fe94ce0e"
+  },
+  "record": {
+    "bvid": "BV1uqJNzwEnc",
+    "cid": 30009656179,
+    "duration": 394,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讨论地摊提拉米苏从新手少量试卖到固定摊位、冰柜和混合经营的三阶段，分析成本控制、隔夜处理、保温、供应链预制品及原料宣传的问题，结尾讨论花生染色冒充开心果的想法并澄清不是已证实个案。中途借有保障转入转转二手数码广告。甜点价格、原料品牌和淘宝公版摊布为消费分析正文。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 79.29,
+        "end": 118.19,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "由买大公司有保障铺垫切至转转，介绍 iPhone、iPad、Pocket3 二手价、检测和退保服务，最后搜索口令领券更新数码产品；118.19 秒恢复摊主经营分析。",
+        "startUncertainty": [
+          79.29,
+          81.57
+        ],
+        "endUncertainty": [
+          118.19,
+          118.19
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 76.91,
+            "to": 79.29,
+            "text": "东西也一般也就没什么意思了"
+          },
+          {
+            "from": 79.29,
+            "to": 81.57,
+            "text": "还不如买大公司有保障的"
+          },
+          {
+            "from": 81.57,
+            "to": 83.75,
+            "text": "说起有保障还得看转转"
+          },
+          {
+            "from": 87.72,
+            "to": 91.6,
+            "text": "这台九五新的IPHONE14pro只要3728元"
+          },
+          {
+            "from": 95.96,
+            "to": 98.9,
+            "text": "IPAD和大疆pocket3也很实惠"
+          },
+          {
+            "from": 98.9,
+            "to": 101.6,
+            "text": "转转是专业的官方验二手平台"
+          },
+          {
+            "from": 106.94,
+            "to": 109.82,
+            "text": "并支持七天无理由退货和一年保障"
+          },
+          {
+            "from": 109.82,
+            "to": 111.54,
+            "text": "现在去转转搜索口令"
+          },
+          {
+            "from": 111.54,
+            "to": 114.02,
+            "text": "大牌补贴还能领最高千元优惠券"
+          },
+          {
+            "from": 115.22,
+            "to": 116.18,
+            "text": "大家快去转转"
+          },
+          {
+            "from": 116.18,
+            "to": 118.19,
+            "text": "更新一波数码产品吧"
+          },
+          {
+            "from": 118.19,
+            "to": 121.92,
+            "text": "越是那种看起来那个特别怂的那种店主"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.04,
+        "end": 79.29,
+        "reason": "实际字幕覆盖的摆摊新手与规模经营成本讨论。"
+      },
+      {
+        "start": 118.19,
+        "end": 207.59,
+        "reason": "实际字幕覆盖的摊位经营阶段、食品质量和供应链分析。"
+      },
+      {
+        "start": 210.08,
+        "end": 393.82,
+        "reason": "实际字幕覆盖的摊位经营阶段、食品质量和供应链分析。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 209,
+      "firstIndex": 0,
+      "lastIndex": 208,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "time": 90.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-001.jpg",
+    "sha256": "009e4a9b1944d30206a0c1c9cab6c06d17f6704cc8bc2759f122d716f681a875"
+  },
+  {
+    "time": 90.267,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-002.jpg",
+    "sha256": "b84d4e413371c4c8e0f6201a573ea74762d1aaf5c3f4ec6d1f11bf62fc14c506"
+  },
+  {
+    "time": 90.533,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-003.jpg",
+    "sha256": "fcf8ff4b0f5d2dd09b12da62010ecd2a3cc4d9e5f5ca2cc35374f2046fc43ba3"
+  },
+  {
+    "time": 90.8,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-004.jpg",
+    "sha256": "77b5a45e47f8d81c19b4197a4581a60c11d654d5202fef70f05defa8efe80137"
+  },
+  {
+    "time": 91.067,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-005.jpg",
+    "sha256": "b8b745e2d4193fd2c736a2aacd32f3b2d9d4ca2009d9ed5fdb2e2b353d87cec6"
+  },
+  {
+    "time": 91.333,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-006.jpg",
+    "sha256": "5e82990a045e5bf6b968ec42ebf0ca6a4701a9bf8b9e303a035e6cc125482c4e"
+  },
+  {
+    "time": 91.6,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-007.jpg",
+    "sha256": "86b91b6eba30bfe1119407c31ab41536f06db8748b90ae16c7066c1888a2b7be"
+  },
+  {
+    "time": 91.867,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-008.jpg",
+    "sha256": "9ebe29132cca555eaa299df8d3ff66c2dab26c1fcb73cdaa69d2e6d91f342090"
+  },
+  {
+    "time": 92.133,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-009.jpg",
+    "sha256": "86088603578d0a0442b5f43e47c4e799d7d358a83b8b217a60e73d93d368e621"
+  },
+  {
+    "time": 92.4,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-010.jpg",
+    "sha256": "b4762fe8f811704b72e85b77e48826ab20c7e4c77f4c1574d8bcf9691f67252d"
+  },
+  {
+    "time": 92.667,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-011.jpg",
+    "sha256": "58264d1fe319e49a150e8e038a78b3c609781a0373dd506bd519a0846b6a1d93"
+  },
+  {
+    "time": 92.933,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-012.jpg",
+    "sha256": "79b12a020ce95ac1d2f44db4746f28f7a51929a3f5e1a376fc65b71000b36a4d"
+  },
+  {
+    "time": 93.2,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-013.jpg",
+    "sha256": "b61f075025f6aafc90eef65b94e7cce8ed5ab46aca07d9c785036f4c70d6c795"
+  },
+  {
+    "time": 93.467,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-014.jpg",
+    "sha256": "13a10d1b3df9338efd967f739c954b2a8d886510cb4ffbcfb8ae8830f32cdd5d"
+  },
+  {
+    "time": 93.733,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-015.jpg",
+    "sha256": "6e9f4746092f503de2a08b980a2cd6e14b4b390db9ad23355fc67b3fcea8b4fa"
+  },
+  {
+    "time": 94.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-016.jpg",
+    "sha256": "678ed58d79d4fcddf896e5ca1a479f3e2f114c2f53020b25d44e79fc68ee65cd"
+  },
+  {
+    "time": 94.267,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-017.jpg",
+    "sha256": "15c2d908ac1e52e092d859215ec6c804dcd8fad28ccc19c752a6790f78879ca1"
+  },
+  {
+    "time": 94.533,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-018.jpg",
+    "sha256": "64f1814b3563be70e55cd62592dc383f16245e45575421612dddd44ab94263a8"
+  },
+  {
+    "time": 94.8,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1U5PjzQEPd/ad-exit/frame-019.jpg",
+    "sha256": "c655da23524a0158dd28b5f90595aed30a7f3f5aa85dcac69702696590d2aaec"
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 75,
+    "inputLineSha256": "7791a1365fd78fd9628147d860eb82b1c55f3fd4dc70e678f927a0fe761e7121",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-authenticated.jsonl.checkpoints/BV1DeqEBaEUt-34811412600.json",
+    "acquisitionSha256": "d912d4f3f5359947638b513ad366de4b20b3d62744c2a578229139bf0f0e4050",
+    "sourceUrl": "https://www.bilibili.com/video/BV1DeqEBaEUt/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1DeqEBaEUt.json",
+    "transcriptSha256": "a1cbfc85a140526595ef507c4d231d98e5d9679f42549481c25aeca242721cd5"
+  },
+  "record": {
+    "bvid": "BV1DeqEBaEUt",
+    "cid": 34811412600,
+    "duration": 483,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "围绕西格绍尔手枪故障讨论品牌公司发展、美军采购与P320系列设计和品控问题；其他枪械品牌是对比评论对象，应保留。公司历史展开前以肚子饿和海外中国胃切入拉面说十盒一元促销，之后回到SIG历史。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 72.039,
+        "end": 132.03,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "从讲饿了、在美国仍想中国味的需求铺垫开始，转入拉面说周年大促、蟹黄原料、口味、1元抢十盒、评论区专属链接和8000名额催单；132.03秒重新介绍西格绍尔起源，广告可以整段独立移除。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          72.039,
+          72.039
+        ],
+        "endUncertainty": [
+          132.03,
+          132.03
+        ],
+        "evidence": [
+          {
+            "from": 69.939,
+            "to": 72.039,
+            "text": "还得从他的公司历史讲起"
+          },
+          {
+            "from": 72.039,
+            "to": 73.539,
+            "text": "说到这有点饿了"
+          },
+          {
+            "from": 73.539,
+            "to": 75.559,
+            "text": "就像我在美国生活了这么多年"
+          },
+          {
+            "from": 75.559,
+            "to": 76.599,
+            "text": "其实还是中国味"
+          },
+          {
+            "from": 78.339,
+            "to": 80.46,
+            "text": "说这么多面只花了我一块钱"
+          },
+          {
+            "from": 84.3,
+            "to": 87.28,
+            "text": "推出一元秒杀十盒多口味拉面说的活动"
+          },
+          {
+            "from": 100.549,
+            "to": 103.169,
+            "text": "他们家用的都是二两以上的活蟹制成"
+          },
+          {
+            "from": 120.43,
+            "to": 121.89,
+            "text": "一块钱能抢十盒"
+          },
+          {
+            "from": 121.89,
+            "to": 125.06,
+            "text": "活动链接就放在视频下方和评论区置顶了"
+          },
+          {
+            "from": 125.06,
+            "to": 127.14,
+            "text": "我特地让品牌方给我的链接"
+          },
+          {
+            "from": 127.14,
+            "to": 128.7,
+            "text": "配置了8000个中奖名额"
+          },
+          {
+            "from": 131.14,
+            "to": 132.03,
+            "text": "赶紧冲"
+          },
+          {
+            "from": 132.03,
+            "to": 133.59,
+            "text": "西格绍尔起源于瑞士"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.1,
+        "end": 3.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 3.8,
+        "end": 35.49,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 38.15,
+        "end": 66.979,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 67.539,
+        "end": 72.039,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 132.03,
+        "end": 417.95,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 421.53,
+        "end": 472.56,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 474,
+        "end": 481.96,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 219,
+      "firstIndex": 0,
+      "lastIndex": 218,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "time": 63.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-001.jpg",
+    "sha256": "f3369282c9833300a55fd9ec9e2f123a9797d1445ed526f092d2e85d3cd5667b"
+  },
+  {
+    "time": 64.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-002.jpg",
+    "sha256": "448340dfe0c72de553a6e1475ae020c3e04a1768fe40670973ec5edbb6fd8fd0"
+  },
+  {
+    "time": 65.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-003.jpg",
+    "sha256": "9be30a00eafab96821c91056c17abb6a84f15f61a51c86ecb5e3908da404792c"
+  },
+  {
+    "time": 66.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-004.jpg",
+    "sha256": "971299d905de16bee4aeec03e1deffe26548951879739d1e3f046551b65ae93d"
+  },
+  {
+    "time": 67.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-005.jpg",
+    "sha256": "d162f6dae2ba6ee45b065db5e2e9bbd8c5452980857a25db5597f9232fe8b4a3"
+  },
+  {
+    "time": 68.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-006.jpg",
+    "sha256": "a7cd847c4c96f53bef60f9a8b6382978b3329b269809105336478e69e6d12d79"
+  },
+  {
+    "time": 69.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1VimuBiELP/first-pun/frame-007.jpg",
+    "sha256": "75bc26bcbb015069336b1237bf4147264d5c05cd5c4ef562f4667e0ba963caa1"
+  }
+]

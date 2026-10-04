@@ -1,0 +1,316 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 292,
+    "inputLineSha256": "de51f3ba70e67703804e6b5f7598986ad97948d8856e78abe69bfbda99bdb3d2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1zM4m1z7pT-1572896953.json",
+    "acquisitionSha256": "331c19561fd67cd64b0e8e3a5c829fdb05f67a75b8153be2bfc59bbccb5d5e5c",
+    "sourceUrl": "https://www.bilibili.com/video/BV1zM4m1z7pT/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1zM4m1z7pT.json",
+    "transcriptSha256": "c800056636d8980b5ce41a2d705dc8cd841b564fb44c0826cb7d65153dba9f4a"
+  },
+  "record": {
+    "bvid": "BV1zM4m1z7pT",
+    "cid": 1572896953,
+    "duration": 1403,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "转述天涯导游的马来家庭养小鬼、文莱加油站白衣女子、后姥姥左手写反字等恐怖故事，再复述走近科学中老人写天书的调查结论，并有结尾猫咪闲聊。385.48秒从故事里的家转入作者新家家电和淘宝百亿补贴促销，1273.12秒又有喝水时的淘宝品牌回提。故事中相机、PSP、油价和民俗配药都是叙事情节。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 385.48,
+        "end": 509.12,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "完整包含作者搬新家与新小区的铺垫，展示自购物品，引出淘宝618百亿补贴，列手机、平板、体重秤价格和红包、专属会场、买贵必赔、置顶链接与比价号召，至返回楼主故事之前。",
+        "startUncertainty": [
+          385.48,
+          385.48
+        ],
+        "endUncertainty": [
+          509.12,
+          512.039
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 381.34,
+            "to": 385.48,
+            "text": "从此我便再也不去马来人家里做客"
+          },
+          {
+            "from": 385.48,
+            "to": 387.8,
+            "text": "说到家呀啊向大家汇报一下"
+          },
+          {
+            "from": 387.8,
+            "to": 390.06,
+            "text": "我最近呀也正在准备得搬入新家"
+          },
+          {
+            "from": 390.06,
+            "to": 390.98,
+            "text": "但是大家放心啊"
+          },
+          {
+            "from": 392.78,
+            "to": 395.5,
+            "text": "不存在之前房主什么死了的问题啊"
+          },
+          {
+            "from": 395.5,
+            "to": 399.12,
+            "text": "之前啊总跟大家推荐淘宝百亿补贴邓肯啊"
+          },
+          {
+            "from": 403.44,
+            "to": 406.37,
+            "text": "大家看这是我新买的净水机啊"
+          },
+          {
+            "from": 410.18,
+            "to": 413.1,
+            "text": "都是在淘宝百亿补贴里选购的"
+          },
+          {
+            "from": 413.58,
+            "to": 416.44,
+            "text": "最近淘宝618年终狂欢"
+          },
+          {
+            "from": 424.88,
+            "to": 427.48,
+            "text": "看这款苹果15手机256G版本"
+          },
+          {
+            "from": 427.48,
+            "to": 429.84,
+            "text": "5458元就能入手了"
+          },
+          {
+            "from": 432.7,
+            "to": 436.74,
+            "text": "而且IPHONE15全系列至高补贴1300加"
+          },
+          {
+            "from": 438.22,
+            "to": 442.3,
+            "text": "大家现在上淘宝首页搜索淘补贴343货"
+          },
+          {
+            "from": 443.62,
+            "to": 445.78,
+            "text": "进入邓肯的专属补贴会场"
+          },
+          {
+            "from": 445.78,
+            "to": 448.32,
+            "text": "至高还能再领1000元大红包"
+          },
+          {
+            "from": 451.64,
+            "to": 455.2,
+            "text": "苹果pad11英寸平板电脑M2芯片驱动"
+          },
+          {
+            "from": 468.24,
+            "to": 472.12,
+            "text": "小米智能体重秤二代原价95.9元"
+          },
+          {
+            "from": 482.64,
+            "to": 483.72,
+            "text": "淘宝补贴"
+          },
+          {
+            "from": 486.7,
+            "to": 490.48,
+            "text": "淘宝对百亿补贴的商品把关也相当严格"
+          },
+          {
+            "from": 490.48,
+            "to": 491.66,
+            "text": "买贵必赔"
+          },
+          {
+            "from": 494.2,
+            "to": 495.6,
+            "text": "618限时抢购"
+          },
+          {
+            "from": 497.62,
+            "to": 499.08,
+            "text": "点击评论区置顶链接"
+          },
+          {
+            "from": 501.8,
+            "to": 503.12,
+            "text": "大家赶紧冲吧"
+          },
+          {
+            "from": 503.12,
+            "to": 505.4,
+            "text": "记得买什么之前都先上淘宝"
+          },
+          {
+            "from": 505.4,
+            "to": 509.12,
+            "text": "百亿补贴比比价划算太多了"
+          },
+          {
+            "from": 512.039,
+            "to": 515.559,
+            "text": "楼主又讲起了他在东南亚时遭遇的一件怪事"
+          }
+        ]
+      },
+      {
+        "start": 1273.12,
+        "end": 1277,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "在天书调查揭晓前暂停，以喝水话题再次提淘宝百亿补贴，是独立品牌回提，随即回到1989年老人经历。",
+        "startUncertainty": [
+          1272.25,
+          1273.12
+        ],
+        "endUncertainty": [
+          1277,
+          1277
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 1261.98,
+            "to": 1265.8,
+            "text": "最后经过记者专家教授一系列调查研究"
+          },
+          {
+            "from": 1265.8,
+            "to": 1272.25,
+            "text": "终于对文盲老人唐庚秀能写天书一事得出结论"
+          },
+          {
+            "from": 1273.12,
+            "to": 1274.2,
+            "text": "对啊"
+          },
+          {
+            "from": 1274.2,
+            "to": 1277,
+            "text": "这水啊是在淘宝百亿补贴买的"
+          },
+          {
+            "from": 1277,
+            "to": 1278.56,
+            "text": "原来1989年"
+          },
+          {
+            "from": 1278.56,
+            "to": 1281.63,
+            "text": "也就是老人所谓撞见神仙的前一年"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 9.24,
+        "reason": "实际字幕覆盖的马来家庭恐怖传说叙述。"
+      },
+      {
+        "start": 11.82,
+        "end": 385.48,
+        "reason": "实际字幕覆盖的马来家庭恐怖传说叙述。"
+      },
+      {
+        "start": 512.039,
+        "end": 824.12,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 826.6,
+        "end": 1132.87,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1133.89,
+        "end": 1140.97,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1141.899,
+        "end": 1232.98,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1233.38,
+        "end": 1236.79,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1237.43,
+        "end": 1240.91,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1242.11,
+        "end": 1248.68,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1251.32,
+        "end": 1272.25,
+        "reason": "实际字幕覆盖的加油站和后姥姥故事，以及老人写天书调查。"
+      },
+      {
+        "start": 1277,
+        "end": 1346.33,
+        "reason": "实际字幕覆盖的调查揭晓、同情评论、告别与猫咪闲聊。"
+      },
+      {
+        "start": 1353.46,
+        "end": 1362.9,
+        "reason": "实际字幕覆盖的调查揭晓、同情评论、告别与猫咪闲聊。"
+      },
+      {
+        "start": 1364.18,
+        "end": 1376.49,
+        "reason": "实际字幕覆盖的调查揭晓、同情评论、告别与猫咪闲聊。"
+      },
+      {
+        "start": 1377.22,
+        "end": 1390.57,
+        "reason": "实际字幕覆盖的调查揭晓、同情评论、告别与猫咪闲聊。"
+      },
+      {
+        "start": 1395.04,
+        "end": 1400.9,
+        "reason": "实际字幕覆盖的调查揭晓、同情评论、告别与猫咪闲聊。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "部分方言采访和片尾拟声有自动转写误差；前后叙述明确为故事与调查引文，短缺口保持未知。广告首段末尾509.12–512.039秒未见字幕，实际画面转场边界未核实。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 675,
+      "firstIndex": 0,
+      "lastIndex": 674,
+      "allRowsRead": true
+    }
+  }
+}

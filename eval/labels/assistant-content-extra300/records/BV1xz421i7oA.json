@@ -1,0 +1,205 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 278,
+    "inputLineSha256": "cf82707cb145501b0d4383d05e290e52d24f46f157909a1e0355deee44cf247d",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1xz421i7oA-1640361176.json",
+    "acquisitionSha256": "6c5ace74fd98e58954ce5a8f09f5a0246a44ea0d1fd1905f844edde6d988056b",
+    "sourceUrl": "https://www.bilibili.com/video/BV1xz421i7oA/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1xz421i7oA.json",
+    "transcriptSha256": "10aad1b0e6e63e01bf8dfce25529090b7f61e05941c6223f2e7bdf8f8e902de1"
+  },
+  "record": {
+    "bvid": "BV1xz421i7oA",
+    "cid": 1640361176,
+    "duration": 519,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以法军1862年条例和战例讲解线膛枪时代散兵与密集队形并存的原因，纠正仅因射击不准才排队的解释；末尾推荐相关史料和译著，再告知自营模型掉色、下架更换和售后处理。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 469.76,
+        "end": 489.539,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_transition",
+        "startUncertainty": [
+          469.76,
+          471.62
+        ],
+        "endUncertainty": [
+          486.54,
+          489.539
+        ],
+        "reason": "中文译著推荐含出版社与购买链接，具有商业导流性质，但两本书正是本期线列战术主题的扩展资料，解释译者/文献来源，对有意进一步理解主题者应保留。",
+        "evidence": [
+          {
+            "from": 469.76,
+            "to": 471.62,
+            "text": "如果想要中文资料的话"
+          },
+          {
+            "from": 471.62,
+            "to": 474.77,
+            "text": "那我推荐有指纹出版社出版的这几套图书"
+          },
+          {
+            "from": 474.77,
+            "to": 477.21,
+            "text": "目前国内有关18世纪系列战术"
+          },
+          {
+            "from": 477.21,
+            "to": 478.43,
+            "text": "最好的两本书籍"
+          },
+          {
+            "from": 478.43,
+            "to": 480.19,
+            "text": "皇帝的刺刀和制胜的科学"
+          },
+          {
+            "from": 481.96,
+            "to": 484.52,
+            "text": "本期视频文献的提供者古斯塔夫"
+          },
+          {
+            "from": 484.52,
+            "to": 486.54,
+            "text": "正好也是这两本书的翻译者"
+          },
+          {
+            "from": 486.54,
+            "to": 489.539,
+            "text": "所以我会把购买链接挂在视频的评论区里"
+          },
+          {
+            "from": 489.539,
+            "to": 490.899,
+            "text": "在上期视频的末尾"
+          }
+        ]
+      },
+      {
+        "start": 489.539,
+        "end": 517.12,
+        "contentType": "ad",
+        "skipDecision": "keep",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_with_small_gap",
+        "startUncertainty": [
+          489.539,
+          490.899
+        ],
+        "endUncertainty": [
+          517.12,
+          519
+        ],
+        "reason": "自营淘宝模型有商业关系并提重新上架，但整段核心是告知旧商品掉色问题、紧急下架、改进版本、道歉与免费更换；这属于应保留的质量和售后信息，不仅因为提店铺便跳过。",
+        "evidence": [
+          {
+            "from": 489.539,
+            "to": 490.899,
+            "text": "在上期视频的末尾"
+          },
+          {
+            "from": 490.899,
+            "to": 493.21,
+            "text": "我挂了自己淘宝店的宣传视频"
+          },
+          {
+            "from": 493.21,
+            "to": 495.07,
+            "text": "然而在视频发出去后不久"
+          },
+          {
+            "from": 495.07,
+            "to": 498.52,
+            "text": "我就发现之前卖的那些模型存在掉色的问题"
+          },
+          {
+            "from": 498.52,
+            "to": 501.08,
+            "text": "所以紧急下架了淘宝店里的所有商品"
+          },
+          {
+            "from": 501.08,
+            "to": 504.54,
+            "text": "并找厂商重新打印了一批不会掉色的武器模型"
+          },
+          {
+            "from": 504.54,
+            "to": 506.419,
+            "text": "现在已经重新上架了"
+          },
+          {
+            "from": 506.419,
+            "to": 509.539,
+            "text": "至于那些已经购买过产品并发生掉色的朋友"
+          },
+          {
+            "from": 509.539,
+            "to": 510.88,
+            "text": "这里我深表歉意"
+          },
+          {
+            "from": 514.24,
+            "to": 517.12,
+            "text": "或者免费赠送数量相同的最新款"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.12,
+        "end": 171.69,
+        "reason": "已全文阅读；仅标记字幕实际覆盖的历史讲解及史料说明。"
+      },
+      {
+        "start": 172.36,
+        "end": 460.63,
+        "reason": "已全文阅读；仅标记字幕实际覆盖的历史讲解及史料说明。"
+      },
+      {
+        "start": 463.17,
+        "end": 469.76,
+        "reason": "已全文阅读；仅标记字幕实际覆盖的历史讲解及史料说明。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 227,
+      "firstIndex": 0,
+      "lastIndex": 226,
+      "allRowsRead": true
+    }
+  },
+  "secondaryReview": {
+    "reviewer": "extra300_full_content_c",
+    "modality": "full-cached-subtitles",
+    "fullTranscriptRead": true,
+    "readCoverage": {
+      "subtitleRows": 227,
+      "firstIndex": 0,
+      "lastIndex": 226,
+      "allRowsRead": true
+    },
+    "decision": "独立按顺序读完全部 227 行后再查看初审记录，确认两段 ad/keep：469.76–489.539 译著虽然有购买导流，但紧接第一手史料获取的方法，给中文读者提供与本期战术直接相关的读物且说明译者就是本期文献提供者；489.539–517.12 自营商品虽提重新上架，但主体是明确披露掉色、下架整改、道歉和免费补偿，保留质量及售后告知。未发现需要另拆出来跳过的纯促销句群。",
+    "algorithmPredictionsSeen": false,
+    "communityAdLabelsSeen": false,
+    "danmakuJumpTimesSeen": false
+  }
+}

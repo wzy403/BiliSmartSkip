@@ -1,0 +1,105 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-root",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 295,
+    "inputLineSha256": "721632a3462928a74d9d5e38391f611297dfe34765e6982197f8c77d1ec0fd94",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Zu4m1u7hH-1464167821.json",
+    "acquisitionSha256": "9a8e217d3d97894a99252ac50f34b3cf8d9abe17be3b7275bcf1e0e67b621508",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Zu4m1u7hH/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Zu4m1u7hH.json",
+    "transcriptSha256": "df83f0873eeff26875b151d85ab72b804abfaa639c0b4ac6808a2bfd64b04fff"
+  },
+  "record": {
+    "bvid": "BV1Zu4m1u7hH",
+    "cid": 1464167821,
+    "duration": 1155,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "完整讲述《寄生虫》贫富家庭的交错、暴雨和生日宴悲剧，并分析上下空间和阶层意象。人物赠手机桥段转为拼多多促销。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 134.78,
+        "end": 172.77,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "boundaryConfidence": "medium",
+        "reason": "敏赫知道对方没有好手机是广告的剧情化铺垫，随后脱离电影叙事介绍 iPhone、拼多多开学补贴、限量福利及领取链接；直到重新回到酒馆剧情才结束。",
+        "startUncertainty": [
+          134.78,
+          140.57
+        ],
+        "endUncertainty": [
+          172.77,
+          172.77
+        ],
+        "evidence": [
+          {
+            "from": 134.78,
+            "to": 138.77,
+            "text": "我不想去敏赫知道他们家连一部好手机都没有"
+          },
+          {
+            "from": 138.77,
+            "to": 140.57,
+            "text": "于是又给他们带来一则消息"
+          },
+          {
+            "from": 140.57,
+            "to": 144.36,
+            "text": "不用花一分钱就有机会得到全新正版IPHONE15pro"
+          },
+          {
+            "from": 144.36,
+            "to": 145.98,
+            "text": "IOS系统久用不卡"
+          },
+          {
+            "from": 149.74,
+            "to": 150.88,
+            "text": "这次拼多多下血本"
+          },
+          {
+            "from": 157.06,
+            "to": 158.14,
+            "text": "大平台的福利力度"
+          },
+          {
+            "from": 164.06,
+            "to": 166.88,
+            "text": "链接被我放在了视频下方和评论区置顶"
+          },
+          {
+            "from": 170.7,
+            "to": 172.77,
+            "text": "心动的小伙伴赶紧拼手速吧"
+          },
+          {
+            "from": 172.77,
+            "to": 174.66,
+            "text": "之后基与何敏和来到街头"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "已完整阅读全部可用字幕；未观看画面或听取音频，不声称逐帧/完整视听核验。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 639,
+      "firstIndex": 0,
+      "lastIndex": 638,
+      "allRowsRead": true
+    }
+  }
+}

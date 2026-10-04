@@ -1,0 +1,92 @@
+[
+  {
+    "time": 542.0,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-001.jpg",
+    "sha256": "d2417fc3c84cb1233313b7db0865915fe84bd6a796abf3f6be0c444b791459f5"
+  },
+  {
+    "time": 544.002,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-002.jpg",
+    "sha256": "3a207cabbbc80d799bf23d5d93ab4053bbfeb31da0423ff6bcd5340a566e0fdd"
+  },
+  {
+    "time": 546.004,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-003.jpg",
+    "sha256": "1dfccfc9c3e7a4347d8941cb90d9ed96b6b4ebc7fc79b372444837d66acd5bae"
+  },
+  {
+    "time": 548.006,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-004.jpg",
+    "sha256": "d2a6425ef941dfce06147fd772a8c5af8b2b889eafe7b1dc05333cc8780d0e10"
+  },
+  {
+    "time": 550.008,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-005.jpg",
+    "sha256": "3e04318c2cd321de673e40e8fdd00c7b0f1793c966ac85d95fe5ebf14c0943cc"
+  },
+  {
+    "time": 552.01,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-006.jpg",
+    "sha256": "c3d565e04ad5a78d43eb358381a972a6e6ce33d9bdc8726a14c24545b628363c"
+  },
+  {
+    "time": 554.012,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-007.jpg",
+    "sha256": "a96b761569b0db668db18c25f383861e9accb85841b3617e9a485ccfae7f1476"
+  },
+  {
+    "time": 556.014,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-008.jpg",
+    "sha256": "2bcda0d099123e4b4cde6a6160854cbd3e4b39d030fa4f2408ccac7e4c4ab1d2"
+  },
+  {
+    "time": 558.016,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-009.jpg",
+    "sha256": "93edac8297c9d69f49825d3d4a0083afb8c59eec6568dbcd12f82f19f1ac896b"
+  },
+  {
+    "time": 560.018,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-010.jpg",
+    "sha256": "2efef7ddc46ead486139dcd79f0176a39e54af2f2dd5475815a595df50783cdb"
+  },
+  {
+    "time": 562.02,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-011.jpg",
+    "sha256": "7e112c5579e24ad8fd11f8620bf544bc03f295cc5d67b4ed87491eb968e3f4ba"
+  },
+  {
+    "time": 564.022,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-012.jpg",
+    "sha256": "61651724b30dea453c257e2257567ba298db64eb77023605047c0b09e882cb83"
+  },
+  {
+    "time": 566.024,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-013.jpg",
+    "sha256": "3f89ce15ffdeaa1025f60bbecbc44e489efa38a143d9140231cf71012781473f"
+  },
+  {
+    "time": 568.026,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-014.jpg",
+    "sha256": "65dc1e602d8c05fc0ea65838e7acb543e4f1b180df1bd45f114c7e45f1bfb494"
+  },
+  {
+    "time": 570.028,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-015.jpg",
+    "sha256": "830a19abb825f673036a1c059bc408810abc015f27df8a8332318eeef2c28e43"
+  },
+  {
+    "time": 572.03,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-016.jpg",
+    "sha256": "67f7ba94ebd870b2b2410902888188f2d99ee123c45c34311e64c724097bf906"
+  },
+  {
+    "time": 574.032,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-017.jpg",
+    "sha256": "c19159e1fb8148d4eb621fd802915785ffee06278f7b77567149bd10f3d44c8a"
+  },
+  {
+    "time": 576.034,
+    "file": "eval/labels/assistant-content-extra300/acquisition/media/frames/BV1PpCYYJEXU/drum-demo/frame-018.jpg",
+    "sha256": "6d2391eb83082e89ee88bccd53f30ca40e8c0d6344a141ae8e1195737da2183e"
+  }
+]

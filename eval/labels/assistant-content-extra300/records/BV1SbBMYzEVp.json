@@ -1,0 +1,192 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 220,
+    "inputLineSha256": "c75702f4ab4c581a32a576957f55ca5ca7e113e4006892b02546ccbf8b05e9a2",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1SbBMYzEVp-27321237578.json",
+    "acquisitionSha256": "4b9dbb1bfc2ea8ed157551950dbd54e299aa3e6aa86b3143f057caff2af0f09a",
+    "sourceUrl": "https://www.bilibili.com/video/BV1SbBMYzEVp/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1SbBMYzEVp.json",
+    "transcriptSha256": "25da7ab37006ad68f37db7508c806dc175994dba3aedb97a8a2e52329ac385a4"
+  },
+  "record": {
+    "bvid": "BV1SbBMYzEVp",
+    "cid": 27321237578,
+    "duration": 549,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "按创立、奶制品与麦片、咖啡、糖果和收购品牌梳理雀巢的企业史及产品故事，并讨论规模与风评；中间有西木源小刘鸭限定护肤礼盒的独立节日送礼广告。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 280.14,
+        "end": 343.44,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "“中场休息时间到”明确离开雀巢历史，从节日送女友礼物的需求转入西木源联名礼盒、周边和山茶花护肤套装的外观功能、口碑、专利及优惠券，至“千万可别错过”结束；347.04 秒回到雀巢糖果业务。其余雀巢产品与营销历史是标题承诺的知识内容，不因品牌密集而跳过。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          280.14,
+          280.14
+        ],
+        "endUncertainty": [
+          343.44,
+          343.44
+        ],
+        "evidence": [
+          {
+            "from": 275.82,
+            "to": 280.14,
+            "text": "都足见其在雀巢帝国中所占据的重要地位了"
+          },
+          {
+            "from": 280.14,
+            "to": 282.18,
+            "text": "电视中场休息时间到接下来的日子"
+          },
+          {
+            "from": 282.18,
+            "to": 284.46,
+            "text": "节日连着节日给女朋友礼物都挑好了吗"
+          },
+          {
+            "from": 284.46,
+            "to": 285.08,
+            "text": "不用发愁"
+          },
+          {
+            "from": 285.08,
+            "to": 287.3,
+            "text": "选这套新物园和小刘鸭限定礼盒"
+          },
+          {
+            "from": 287.3,
+            "to": 289.76,
+            "text": "试试可爱的冬日温馨主题礼盒设计"
+          },
+          {
+            "from": 299.12,
+            "to": 301.94,
+            "text": "我想没有女生能够拒绝让她在收到的一瞬间"
+          },
+          {
+            "from": 307.28,
+            "to": 308.68,
+            "text": "而且冬季寒冷干燥"
+          },
+          {
+            "from": 310.88,
+            "to": 313.28,
+            "text": "而这款礼盒配套的是西木源家的明星"
+          },
+          {
+            "from": 313.28,
+            "to": 314.1,
+            "text": "山茶花系列"
+          },
+          {
+            "from": 316.34,
+            "to": 318.78,
+            "text": "他还拿下了面部套装回购榜和好评榜"
+          },
+          {
+            "from": 321.4,
+            "to": 323.26,
+            "text": "帮女友搞定冬日日常护肤"
+          },
+          {
+            "from": 327.04,
+            "to": 328.96,
+            "text": "另外还有五大敏基专利加持"
+          },
+          {
+            "from": 330.06,
+            "to": 332.32,
+            "text": "新牧源品牌也是凭借卓越的科研实力"
+          },
+          {
+            "from": 335.32,
+            "to": 336.6,
+            "text": "现在点击置顶评论"
+          },
+          {
+            "from": 336.6,
+            "to": 337.28,
+            "text": "领大优惠券"
+          },
+          {
+            "from": 337.28,
+            "to": 339.56,
+            "text": "四件全套礼盒到手仅需300多"
+          },
+          {
+            "from": 339.56,
+            "to": 341.26,
+            "text": "有需要送礼给女生的朋友们"
+          },
+          {
+            "from": 341.26,
+            "to": 343.44,
+            "text": "千万可别错过了"
+          },
+          {
+            "from": 347.04,
+            "to": 348.82,
+            "text": "在雀巢的食品帝国中"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.08,
+        "end": 64.02,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 67.16,
+        "end": 154.04,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 156.3,
+        "end": 241.1,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 242.96,
+        "end": 280.14,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 347.04,
+        "end": 443.9,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 446.93,
+        "end": 537.86,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 250,
+      "firstIndex": 0,
+      "lastIndex": 249,
+      "allRowsRead": true
+    }
+  }
+}

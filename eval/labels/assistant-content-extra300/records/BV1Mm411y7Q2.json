@@ -1,0 +1,127 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 166,
+    "inputLineSha256": "86eefa4d74a4ed9f591c3830becf220bc6bbf35be9abb56c24db1cba6b123cb8",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Mm411y7Q2-1529822584.json",
+    "acquisitionSha256": "0f97e18e04a5b5100b7e74b1031c020ea087fe57df1879899cc06386cd57ef3d",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Mm411y7Q2/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Mm411y7Q2.json",
+    "transcriptSha256": "bd81c1dd1dfeae6a036b6734166586818e954b64873c80abac1f902fa1449db9"
+  },
+  "record": {
+    "bvid": "BV1Mm411y7Q2",
+    "cid": 1529822584,
+    "duration": 1300,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "讨论意识与无意识处理、向前遮盖和盲视实验、全局工作空间及元认知，再用 AI 作比较说明主观感质问题，介绍综合信息理论、信息结构与意识程度，最后讨论人工智能意识的不同观点和未来可能性。中间暂停正文感谢高露洁赞助，说明牙釉质损伤、牙膏功效和购买价格链接。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 540.78,
+        "end": 606.74,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“等等”暂停科学正文并明确感谢赞助商，牙齿三重攻击的知识铺垫服务于牙膏配方功效、价格香味与评论区链接推荐，完整属于独立广告段。",
+        "startUncertainty": [
+          540.78,
+          542.28
+        ],
+        "endUncertainty": [
+          606.74,
+          611.9
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 540.78,
+            "to": 542.28,
+            "text": "等等"
+          },
+          {
+            "from": 542.28,
+            "to": 544.92,
+            "text": "我们先来感谢一下本期赞助商高露洁"
+          },
+          {
+            "from": 545.88,
+            "to": 548.1,
+            "text": "我们的牙齿会遭受三重攻击"
+          },
+          {
+            "from": 555.78,
+            "to": 557.28,
+            "text": "牙釉质就很容易受损"
+          },
+          {
+            "from": 562,
+            "to": 565,
+            "text": "而高露洁每日光泽牙膏独有的专利配方"
+          },
+          {
+            "from": 581.26,
+            "to": 583.64,
+            "text": "14天四倍修护齿面受损"
+          },
+          {
+            "from": 593.26,
+            "to": 596.86,
+            "text": "相当于从生物化学物理三方面修复和防御"
+          },
+          {
+            "from": 598.04,
+            "to": 601.16,
+            "text": "14.9元就可以买到160克的大包装"
+          },
+          {
+            "from": 602.81,
+            "to": 606.74,
+            "text": "有想要的小伙伴评论区链接直接拿走"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0,
+        "end": 525.799,
+        "reason": "意识相关实验和神经信息处理的主题讲解及栏目开场。"
+      },
+      {
+        "start": 534.22,
+        "end": 539.38,
+        "reason": "意识相关实验和神经信息处理的主题讲解及栏目开场。"
+      },
+      {
+        "start": 611.9,
+        "end": 1262.185,
+        "reason": "AI、主观体验和意识理论讨论，片尾为本栏目后续内容与关注提示。"
+      },
+      {
+        "start": 1263.08,
+        "end": 1282.96,
+        "reason": "AI、主观体验和意识理论讨论，片尾为本栏目后续内容与关注提示。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。",
+      "1282.96–1300 秒结尾没有字幕，可能包括开头所说的资料来源展示，但未实际观看，故不确认画面内容。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 623,
+      "firstIndex": 0,
+      "lastIndex": 622,
+      "allRowsRead": true
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "assistant-extra300-middle",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 134,
+    "inputLineSha256": "41b2da618173f8bebd5307570e99411f9b47a696d038d8c4bb509b8b55de1471",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1JF4m1T7h5-1501006231.json",
+    "acquisitionSha256": "8dc7945fa0c08521e354eedcfdd9565694658386ef0e7278515c58f0c328424f",
+    "sourceUrl": "https://www.bilibili.com/video/BV1JF4m1T7h5/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1JF4m1T7h5.json",
+    "transcriptSha256": "70e9dd1df8a7136cb3bf9bc426ad46c5a6122d52aa60c093fd0ed0936a8f2a32"
+  },
+  "record": {
+    "bvid": "BV1JF4m1T7h5",
+    "cid": 1501006231,
+    "duration": 748,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "以朝鲜火星16B试射为主题，比较其外形与高超音速乘波体的基本概念、热防护和研发条件，进而讨论技术来源、试射范围、朝鲜与其他国家的合作以及小国研发资源限制。讲解中明确暂停，吐槽写稿看电脑引起肩颈不适，插入妙界按摩仪推介后回到乘波体设计。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 159.29,
+        "end": 218.27,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "confidence": "high",
+        "reason": "“聊设计之前”先吐槽肩颈作为显式转场，随后宣传妙界按摩头、热敷、解放双手、多用途、健康风险、评论区券与保价质保，最后建议给自己家人备上。整段与军事技术解说独立，应包括肩颈痛铺垫和家庭购买收尾。",
+        "startUncertainty": [
+          159.29,
+          159.29
+        ],
+        "endUncertainty": [
+          218.27,
+          218.27
+        ],
+        "boundaryConfidence": "subtitle_only",
+        "evidence": [
+          {
+            "from": 158.06,
+            "to": 159.29,
+            "text": "以获得更高的升力"
+          },
+          {
+            "from": 159.29,
+            "to": 161.22,
+            "text": "不过在聊乘波体设计之前"
+          },
+          {
+            "from": 161.22,
+            "to": 163.14,
+            "text": "我要先吐槽一下我的肩颈"
+          },
+          {
+            "from": 163.14,
+            "to": 165.12,
+            "text": "经常低头对着电脑写稿子"
+          },
+          {
+            "from": 165.12,
+            "to": 166.38,
+            "text": "肩颈是越来越酸"
+          },
+          {
+            "from": 167.18,
+            "to": 169.04,
+            "text": "再不用上妙界肩颈按摩仪"
+          },
+          {
+            "from": 169.91,
+            "to": 172.57,
+            "text": "妙界8D按摩头长得像人手上方"
+          },
+          {
+            "from": 176.41,
+            "to": 177.49,
+            "text": "还有热敷功能"
+          },
+          {
+            "from": 180.89,
+            "to": 181.64,
+            "text": "一搭一扣"
+          },
+          {
+            "from": 182.3,
+            "to": 183.5,
+            "text": "完全不影响剪视频"
+          },
+          {
+            "from": 187.46,
+            "to": 188.26,
+            "text": "一机多用"
+          },
+          {
+            "from": 188.26,
+            "to": 190,
+            "text": "肩颈是人体的第二大脑"
+          },
+          {
+            "from": 199.19,
+            "to": 201.05,
+            "text": "更严重还会引发颈椎病"
+          },
+          {
+            "from": 205.78,
+            "to": 207.75,
+            "text": "也不用费钱费时间去按摩店了"
+          },
+          {
+            "from": 207.75,
+            "to": 209.43,
+            "text": "都来我评论区领优惠券"
+          },
+          {
+            "from": 211.35,
+            "to": 213.26,
+            "text": "一年内有质量问题都能换新"
+          },
+          {
+            "from": 213.26,
+            "to": 214.94,
+            "text": "还有运费险和保价大促"
+          },
+          {
+            "from": 214.94,
+            "to": 216.56,
+            "text": "用它日常养护很有必要"
+          },
+          {
+            "from": 216.56,
+            "to": 218.27,
+            "text": "快给自己和家人都备上吧"
+          },
+          {
+            "from": 218.27,
+            "to": 220.63,
+            "text": "为了打造出合格的乘波体飞行器"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [],
+    "pendingReasons": [],
+    "limitations": [
+      "仅完整阅读可用字幕，未观看画面或听取音频；字幕缺口与纯画面内容保持未知。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 368,
+      "firstIndex": 0,
+      "lastIndex": 367,
+      "allRowsRead": true
+    }
+  }
+}

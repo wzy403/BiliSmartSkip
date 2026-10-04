@@ -1,0 +1,201 @@
+{
+  "kind": "assistant-content-review",
+  "reviewer": "extra300_full_content_c",
+  "modality": "full-cached-subtitles",
+  "algorithmPredictionsSeen": false,
+  "communityAdLabelsSeen": false,
+  "danmakuJumpTimesSeen": false,
+  "source": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 212,
+    "inputLineSha256": "67a9a51265162f6106ba99c01464b812d2e0b3cd033b3c2ac853cddde54f0d17",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1Rt421c7vd-1527309584.json",
+    "acquisitionSha256": "deb48951f35cabaa0ecf2ab74fb47a17b6c6be4e9d5e73d1c08b58a241391fe2",
+    "sourceUrl": "https://www.bilibili.com/video/BV1Rt421c7vd/?p=1",
+    "transcriptFile": "eval/labels/assistant-content-extra300/sources/BV1Rt421c7vd.json",
+    "transcriptSha256": "34ab954ee81001faf4e8267986affca64e7d2b20f12b3ecdbd2638e39353b0ac"
+  },
+  "record": {
+    "bvid": "BV1Rt421c7vd",
+    "cid": 1527309584,
+    "duration": 531,
+    "reviewStatus": "reviewed",
+    "fullTranscriptRead": true,
+    "videoSummary": "从 VR 重投影、主机手柄、独占硬件技术与 PS5 Pro 传闻讨论主机差异化、用户需求和游戏开发方向；其中穿插拼多多数码促销并在结尾再呼应赞助渠道。",
+    "adPresence": "ad",
+    "segments": [
+      {
+        "start": 133.019,
+        "end": 170.019,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "133.019 秒“不过不要怕”转入本期福利和明确承认接广告，随后拼多多 PS5 秒杀、优惠券、点击填写及包邮促销，至平台打低价格的收尾。前文两种手柄需求仍是差异化论证正文，170.019 秒恢复主机成本问答。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          133.019,
+          133.019
+        ],
+        "endUncertainty": [
+          170.019,
+          170.019
+        ],
+        "evidence": [
+          {
+            "from": 129.96,
+            "to": 133.019,
+            "text": "用来体验特别适配的游戏的那些细腻震动"
+          },
+          {
+            "from": 133.019,
+            "to": 133.859,
+            "text": "不过不要怕"
+          },
+          {
+            "from": 133.859,
+            "to": 135.359,
+            "text": "本期视频不仅要科普"
+          },
+          {
+            "from": 135.359,
+            "to": 136.289,
+            "text": "还带着福利"
+          },
+          {
+            "from": 136.289,
+            "to": 138.449,
+            "text": "因为拼多多目前正有数码机大促"
+          },
+          {
+            "from": 138.449,
+            "to": 139.919,
+            "text": "这边小唐第一次接广告"
+          },
+          {
+            "from": 139.919,
+            "to": 141.76,
+            "text": "联合拼多多给粉丝准备了福利"
+          },
+          {
+            "from": 141.76,
+            "to": 144.67,
+            "text": "特意拿出一批全新正品的索尼PS5做秒杀"
+          },
+          {
+            "from": 144.67,
+            "to": 145.54,
+            "text": "只要九块九"
+          },
+          {
+            "from": 153.98,
+            "to": 154.64,
+            "text": "赶快抢吧"
+          },
+          {
+            "from": 155.42,
+            "to": 156.2,
+            "text": "就是还没抢完"
+          },
+          {
+            "from": 156.74,
+            "to": 158.4,
+            "text": "还有我给大家准备的只减优惠券"
+          },
+          {
+            "from": 159.36,
+            "to": 162.15,
+            "text": "点击下方链接或者评论区置顶的暗蓝色连接"
+          },
+          {
+            "from": 162.15,
+            "to": 164.49,
+            "text": "两三秒填显示或定就能包邮到家"
+          },
+          {
+            "from": 164.49,
+            "to": 165.75,
+            "text": "领一份就是少一份"
+          },
+          {
+            "from": 167.15,
+            "to": 170.019,
+            "text": "好了高的3A就比对拼多多给打下来"
+          },
+          {
+            "from": 170.019,
+            "to": 172.119,
+            "text": "如果这个时候有小伙伴要问我"
+          }
+        ]
+      },
+      {
+        "start": 522.02,
+        "end": 526.34,
+        "contentType": "ad",
+        "skipDecision": "skip",
+        "reason": "结论已在 522.02 秒完成；随后再次以降低门槛为由点名拼多多渠道，将正文结尾导向赞助商卖点，是可独立跳过的短尾段推广。",
+        "confidence": "high",
+        "boundaryConfidence": "subtitle_only",
+        "startUncertainty": [
+          522.02,
+          522.02
+        ],
+        "endUncertainty": [
+          526.34,
+          526.34
+        ],
+        "evidence": [
+          {
+            "from": 517.68,
+            "to": 520.32,
+            "text": "创造御三家或者更多主机的需求"
+          },
+          {
+            "from": 520.32,
+            "to": 522.02,
+            "text": "成了唯一的破局之道"
+          },
+          {
+            "from": 522.02,
+            "to": 523.76,
+            "text": "而至于门槛太高的问题"
+          },
+          {
+            "from": 523.76,
+            "to": 526.34,
+            "text": "还是留给拼多多这类渠道商砍下来吧"
+          }
+        ]
+      }
+    ],
+    "normalSpeechRanges": [
+      {
+        "start": 0.46,
+        "end": 133.019,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 170.019,
+        "end": 388.58,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      },
+      {
+        "start": 389.9,
+        "end": 522.02,
+        "reason": "已连续阅读全文；这里只断言实际字幕覆盖的正文，未将字幕空白归为正文。"
+      }
+    ],
+    "pendingReasons": [],
+    "limitations": [
+      "仅连续完整阅读当前缓存字幕；未观看视频画面或听音频，不能排除无字幕画面商业信息。",
+      "自动字幕可能错识；广告边界依据连续上下文和字幕时间，未按未来评估容差缩短。"
+    ],
+    "readCoverage": {
+      "subtitleRows": 269,
+      "firstIndex": 0,
+      "lastIndex": 268,
+      "allRowsRead": true
+    }
+  }
+}

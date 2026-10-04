@@ -1,0 +1,26 @@
+{
+  "bvid": "BV1j47PzAETt",
+  "cid": 25805264081,
+  "title": "【BA】漫威连残疾聋哑人都不放过！史上最强正确剧！千字赤石《回声》！",
+  "duration": 1428,
+  "desc": "请仔细阅读产品说明书，活在医务人员的指导下购买和使用\n文案、剪輯、配音等：BA\n電影立項與劇本閱讀整理： ﻿﻿@字母编辑",
+  "subtitles": [],
+  "acquisition": {
+    "capturedAt": "2026-10-01T16:06:35.738Z",
+    "method": "anonymous-public-page-and-xml",
+    "metadata": "available",
+    "subtitles": "empty",
+    "subtitleReason": "legacy-api-no-tracks-not-proof-of-no-subtitles",
+    "subtitleFetchedAt": "2026-10-04T23:17:46.713Z",
+    "subtitleMethod": "cli-legacy-player-api"
+  },
+  "provenance": {
+    "inputFile": "eval/data/danmaku-audit-20261001/new-public.jsonl",
+    "inputSha256": "47313ea513bc15b8b1219dd27319aa17b88d1de811697fb0439f562e0f924fa5",
+    "inputLine": 129,
+    "inputLineSha256": "1280bc61a35535b9df702c8d19b3730f24712f3b0e8e9c37c6d56ccd6a36be71",
+    "acquisitionFile": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl.checkpoints/BV1j47PzAETt-25805264081.json",
+    "acquisitionSha256": "ca6f854549acac31c0b9bb2bd853b3e5259fdb53388a31bd403f219302864c57",
+    "sourceUrl": "https://www.bilibili.com/video/BV1j47PzAETt/?p=1"
+  }
+}
