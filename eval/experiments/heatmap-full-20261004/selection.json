@@ -1,0 +1,52 @@
+{
+  "policy": "keyword-context-25",
+  "lockedAt": "2026-10-05T03:07:56.773Z",
+  "userPreference": "prioritize no loss of correctly matched ads",
+  "reason": "development correct112 unchanged, wrong-keep23 to19, automatic intervals unchanged; all broader candidates lose correct ads",
+  "development": {
+    "reviewedVideos": 413,
+    "videosWithSkipAds": 347,
+    "totalMarkings": 252,
+    "correctMarkings": 112,
+    "correctPercent": 44.44444444444444,
+    "wrongKeepMarkings": 19,
+    "wrongKeepPercent": 7.5396825396825395,
+    "partialOrBoundary": 118,
+    "unknown": 3,
+    "videosWithAllAdsCorrect": 97,
+    "videosWithUnresolvedAds": 13,
+    "extraKeepSeconds": 684.2930000000002,
+    "automatic": {
+      "count": 95,
+      "correct": 57,
+      "wrongKeep": 4
+    }
+  },
+  "baseline": {
+    "reviewedVideos": 413,
+    "videosWithSkipAds": 347,
+    "totalMarkings": 256,
+    "correctMarkings": 112,
+    "correctPercent": 43.75,
+    "wrongKeepMarkings": 23,
+    "wrongKeepPercent": 8.984375,
+    "partialOrBoundary": 118,
+    "unknown": 3,
+    "videosWithAllAdsCorrect": 97,
+    "videosWithUnresolvedAds": 13,
+    "extraKeepSeconds": 888.3710000000003,
+    "automatic": {
+      "count": 95,
+      "correct": 57,
+      "wrongKeep": 4
+    }
+  },
+  "verifierSha256": "58f837593221001bf4b82bc85711e07b10761ede142012d812a5402ca5e19dd8",
+  "comparisonSha256": "4bbb1c8b0737ddebc28694cd35ecb3554b91a85cad918d9b912eeca4fffd6f77",
+  "policyPlanSha256": "51b6f6ce93d6108037956fc0d0c0f593ef83822ede0e6bcd850e521f1a7e4cee",
+  "validationUsedForSelection": false,
+  "originalVerifierSha256": "9636f123d0936a76b372d1213516eb1b3a2609cbfc0488bbbc8a991c468852d5",
+  "postLockRepairs": [
+    "Malformed subtitle item guard and eligibility exception fallback only; policy/threshold/selection unchanged."
+  ]
+}

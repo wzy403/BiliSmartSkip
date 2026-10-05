@@ -1,0 +1,1372 @@
+{
+  "schemaVersion": 1,
+  "kind": "identity-and-coverage-only-pbp-audit",
+  "checkedAt": "2026-10-05T03:11:44.175Z",
+  "manifestSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+  "collectorSha256": "b738e6a53b07c5c3a25a2fc8b40a625449ae8d5dca71d82f869ae8909bfe48c4",
+  "acquisitionSha256": "2e683653f3672d14ff9013246c4f9ce9d1467953b24a63667265d01b266d2b51",
+  "acquisitionStartedAt": "2026-10-05T02:59:17.605Z",
+  "acquisitionCompletedAt": "2026-10-05T03:04:25.514Z",
+  "stoppedEarly": false,
+  "totals": {
+    "total": 438,
+    "fetched": 414,
+    "reused": 24,
+    "available": 308,
+    "unavailable": 130,
+    "flat": 0,
+    "incompleteOrError": 0,
+    "partialVideoCoverage": 17,
+    "changedPageDuration": 0
+  },
+  "splits": {
+    "development": {
+      "total": 413,
+      "fetched": 389,
+      "reused": 24,
+      "available": 287,
+      "unavailable": 126,
+      "flat": 0,
+      "incompleteOrError": 0,
+      "partialVideoCoverage": 14,
+      "changedPageDuration": 0
+    },
+    "validation": {
+      "total": 25,
+      "fetched": 25,
+      "reused": 0,
+      "available": 21,
+      "unavailable": 4,
+      "flat": 0,
+      "incompleteOrError": 0,
+      "partialVideoCoverage": 3,
+      "changedPageDuration": 0
+    }
+  },
+  "details": [
+    {
+      "bvid": "BV11m421n75Q",
+      "status": "unavailable",
+      "reason": "not enough seek info:15",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 841,
+      "currentPageDuration": 841
+    },
+    {
+      "bvid": "BV12d79zxEQn",
+      "status": "unavailable",
+      "reason": "not enough seek info:149",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1328,
+      "currentPageDuration": 1328
+    },
+    {
+      "bvid": "BV12H4y1N7Tp",
+      "status": "unavailable",
+      "reason": "not enough seek info:11",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 603,
+      "currentPageDuration": 603
+    },
+    {
+      "bvid": "BV12hvhe1Esf",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 352,
+      "currentPageDuration": 352
+    },
+    {
+      "bvid": "BV12u2WB4EfP",
+      "status": "unavailable",
+      "reason": "not enough seek info:6",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 325,
+      "currentPageDuration": 325
+    },
+    {
+      "bvid": "BV139gZzZEXa",
+      "status": "unavailable",
+      "reason": "not enough seek info:1",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 292,
+      "currentPageDuration": 292
+    },
+    {
+      "bvid": "BV15wtdzqErJ",
+      "status": "unavailable",
+      "reason": "not enough seek info:29",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1688,
+      "currentPageDuration": 1688
+    },
+    {
+      "bvid": "BV16cTTznE3e",
+      "status": "unavailable",
+      "reason": "not enough seek info:91",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 819,
+      "currentPageDuration": 819
+    },
+    {
+      "bvid": "BV172hdz7EAF",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 175,
+      "currentPageDuration": 175
+    },
+    {
+      "bvid": "BV17ipve1E93",
+      "status": "unavailable",
+      "reason": "not enough seek info:8",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 303,
+      "currentPageDuration": 303
+    },
+    {
+      "bvid": "BV1aLdvBsEWs",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 177,
+      "currentPageDuration": 177
+    },
+    {
+      "bvid": "BV1B241epEZC",
+      "status": "unavailable",
+      "reason": "not enough seek info:1518",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 423,
+      "currentPageDuration": 423
+    },
+    {
+      "bvid": "BV1b3uSzhEkS",
+      "status": "unavailable",
+      "reason": "not enough dm:12",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 397,
+      "currentPageDuration": 397
+    },
+    {
+      "bvid": "BV1BH4y177SC",
+      "status": "unavailable",
+      "reason": "not enough seek info:2",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 323,
+      "currentPageDuration": 323
+    },
+    {
+      "bvid": "BV1BKJJzUEtK",
+      "status": "unavailable",
+      "reason": "not enough seek info:236",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 874,
+      "currentPageDuration": 874
+    },
+    {
+      "bvid": "BV1bm421T75S",
+      "status": "unavailable",
+      "reason": "not enough seek info:27",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 267,
+      "currentPageDuration": 267
+    },
+    {
+      "bvid": "BV1BTSdYJEfZ",
+      "status": "unavailable",
+      "reason": "not enough seek info:231",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 299,
+      "currentPageDuration": 299
+    },
+    {
+      "bvid": "BV1Bw41177PQ",
+      "status": "unavailable",
+      "reason": "not enough dm:5",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 895,
+      "currentPageDuration": 895
+    },
+    {
+      "bvid": "BV1bY4y1v7Mb",
+      "status": "unavailable",
+      "reason": "not enough seek info:20",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 679,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1CnH5zDEMu",
+      "status": "unavailable",
+      "reason": "not enough dm:7",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 847,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1cW421R7Gy",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 144,
+      "currentPageDuration": 144
+    },
+    {
+      "bvid": "BV1cYe4zLE55",
+      "status": "unavailable",
+      "reason": "not enough seek info:318",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1673,
+      "currentPageDuration": 1673
+    },
+    {
+      "bvid": "BV1D1421q77H",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 343,
+      "currentPageDuration": 343
+    },
+    {
+      "bvid": "BV1d4421Z7fa",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 305,
+      "currentPageDuration": 305
+    },
+    {
+      "bvid": "BV1daSeYXEoL",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 344,
+      "currentPageDuration": 344
+    },
+    {
+      "bvid": "BV1dH4y1A7FL",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 934,
+      "currentPageDuration": 934
+    },
+    {
+      "bvid": "BV1DnpEeDE6T",
+      "status": "unavailable",
+      "reason": "not enough seek info:3",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 978,
+      "currentPageDuration": 978
+    },
+    {
+      "bvid": "BV1DoL36oEuH",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 258,
+      "currentPageDuration": 258
+    },
+    {
+      "bvid": "BV1dw4m1i7kD",
+      "status": "unavailable",
+      "reason": "not enough seek info:10",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 713,
+      "currentPageDuration": 713
+    },
+    {
+      "bvid": "BV1DxsYehEcU",
+      "status": "unavailable",
+      "reason": "not enough seek info:16",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 164,
+      "currentPageDuration": 164
+    },
+    {
+      "bvid": "BV1DYDwYdEBh",
+      "status": "unavailable",
+      "reason": "not enough seek info:303",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 884,
+      "currentPageDuration": 884
+    },
+    {
+      "bvid": "BV1dZ421Y7X7",
+      "status": "unavailable",
+      "reason": "not enough seek info:36",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 597,
+      "currentPageDuration": 597
+    },
+    {
+      "bvid": "BV1dz4y1p7Jw",
+      "status": "unavailable",
+      "reason": "not enough dm:28",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1005,
+      "currentPageDuration": 1005
+    },
+    {
+      "bvid": "BV1Eb2PYYEE7",
+      "status": "unavailable",
+      "reason": "not enough seek info:29",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 754,
+      "currentPageDuration": 754
+    },
+    {
+      "bvid": "BV1er421K7Fe",
+      "status": "unavailable",
+      "reason": "not enough seek info:276",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 710,
+      "currentPageDuration": 710
+    },
+    {
+      "bvid": "BV1F44izREmT",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 353,
+      "currentPageDuration": 353
+    },
+    {
+      "bvid": "BV1FKWAzJEBT",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 652,
+      "currentPageDuration": 652
+    },
+    {
+      "bvid": "BV1fseRzWEwn",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 138,
+      "frozenDuration": 142,
+      "currentPageDuration": 142
+    },
+    {
+      "bvid": "BV1FSr8BdEz8",
+      "status": "unavailable",
+      "reason": "not enough dm:7",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 134,
+      "currentPageDuration": 134
+    },
+    {
+      "bvid": "BV1GA411X7T8",
+      "status": "unavailable",
+      "reason": "not enough seek info:33",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 188,
+      "currentPageDuration": 188
+    },
+    {
+      "bvid": "BV1GKpceMEcD",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 273,
+      "currentPageDuration": 273
+    },
+    {
+      "bvid": "BV1GLnAzaEBD",
+      "status": "unavailable",
+      "reason": "not enough seek info:3",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 442,
+      "currentPageDuration": 442
+    },
+    {
+      "bvid": "BV1gM4m1y7jT",
+      "status": "unavailable",
+      "reason": "not enough seek info:45",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 599,
+      "currentPageDuration": 599
+    },
+    {
+      "bvid": "BV1H94y16722",
+      "status": "unavailable",
+      "reason": "not enough dm:25",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 476,
+      "currentPageDuration": 476
+    },
+    {
+      "bvid": "BV1Hbs2zjEoN",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 784,
+      "frozenDuration": 785,
+      "currentPageDuration": 785
+    },
+    {
+      "bvid": "BV1Hr421F7Bb",
+      "status": "unavailable",
+      "reason": "not enough dm:3",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1530,
+      "currentPageDuration": 1530
+    },
+    {
+      "bvid": "BV1hRoQYjES3",
+      "status": "unavailable",
+      "reason": "not enough seek info:1517",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1011,
+      "currentPageDuration": 1011
+    },
+    {
+      "bvid": "BV1HRYdzfExw",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 105,
+      "currentPageDuration": 105
+    },
+    {
+      "bvid": "BV1HVCfYHEef",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1209,
+      "currentPageDuration": 1209
+    },
+    {
+      "bvid": "BV1iW42197E6",
+      "status": "unavailable",
+      "reason": "not enough seek info:4",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 937,
+      "currentPageDuration": 937
+    },
+    {
+      "bvid": "BV1iw4m1v7PT",
+      "status": "unavailable",
+      "reason": "not enough seek info:101",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 859,
+      "currentPageDuration": 859
+    },
+    {
+      "bvid": "BV1j7HNepEjW",
+      "status": "unavailable",
+      "reason": "not enough dm:28",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 914,
+      "currentPageDuration": 914
+    },
+    {
+      "bvid": "BV1JF4m1T7h5",
+      "status": "unavailable",
+      "reason": "not enough seek info:1125",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 748,
+      "currentPageDuration": 748
+    },
+    {
+      "bvid": "BV1JGx9zNEU6",
+      "status": "unavailable",
+      "reason": "not enough seek info:21",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1512,
+      "currentPageDuration": 1512
+    },
+    {
+      "bvid": "BV1JJUsB4E21",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1558,
+      "currentPageDuration": 1558
+    },
+    {
+      "bvid": "BV1JLDoYoE6m",
+      "status": "unavailable",
+      "reason": "not enough seek info:10",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 164,
+      "currentPageDuration": 164
+    },
+    {
+      "bvid": "BV1JM411v74G",
+      "status": "unavailable",
+      "reason": "not enough seek info:126",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 536,
+      "currentPageDuration": 536
+    },
+    {
+      "bvid": "BV1jrWaeBEpc",
+      "status": "unavailable",
+      "reason": "not enough seek info:23",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 295,
+      "currentPageDuration": 295
+    },
+    {
+      "bvid": "BV1JZsPz4EvJ",
+      "status": "unavailable",
+      "reason": "not enough seek info:104",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 301,
+      "currentPageDuration": 301
+    },
+    {
+      "bvid": "BV1kEg6zZEBQ",
+      "status": "unavailable",
+      "reason": "not enough seek info:7",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 594,
+      "currentPageDuration": 594
+    },
+    {
+      "bvid": "BV1KKcczwEdz",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 148,
+      "frozenDuration": 152,
+      "currentPageDuration": 152
+    },
+    {
+      "bvid": "BV1KuSFYrEJp",
+      "status": "unavailable",
+      "reason": "not enough seek info:35",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 893,
+      "currentPageDuration": 893
+    },
+    {
+      "bvid": "BV1KV1MB1E9p",
+      "status": "unavailable",
+      "reason": "not enough seek info:127",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 345,
+      "currentPageDuration": 345
+    },
+    {
+      "bvid": "BV1L7tye7ECP",
+      "status": "unavailable",
+      "reason": "not enough seek info:288",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 207,
+      "currentPageDuration": 207
+    },
+    {
+      "bvid": "BV1Lb421E7zH",
+      "status": "unavailable",
+      "reason": "not enough seek info:13",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 891,
+      "currentPageDuration": 891
+    },
+    {
+      "bvid": "BV1LH4y1F7Tx",
+      "status": "unavailable",
+      "reason": "not enough seek info:77",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 633,
+      "currentPageDuration": 633
+    },
+    {
+      "bvid": "BV1LQwaeLEvr",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 386,
+      "currentPageDuration": 386
+    },
+    {
+      "bvid": "BV1Ls421K7L7",
+      "status": "unavailable",
+      "reason": "not enough seek info:111",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 682,
+      "currentPageDuration": 682
+    },
+    {
+      "bvid": "BV1M1421t7fr",
+      "status": "unavailable",
+      "reason": "not enough seek info:384",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1093,
+      "currentPageDuration": 1093
+    },
+    {
+      "bvid": "BV1mpyrY5Ejc",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 588,
+      "frozenDuration": 591,
+      "currentPageDuration": 591
+    },
+    {
+      "bvid": "BV1ND421T7zS",
+      "status": "unavailable",
+      "reason": "not enough seek info:5",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1040,
+      "currentPageDuration": 1040
+    },
+    {
+      "bvid": "BV1ni421C7So",
+      "status": "unavailable",
+      "reason": "not enough seek info:19",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 262,
+      "currentPageDuration": 262
+    },
+    {
+      "bvid": "BV1NRP5z2E9a",
+      "status": "unavailable",
+      "reason": "not enough seek info:1",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 401,
+      "currentPageDuration": 401
+    },
+    {
+      "bvid": "BV1Nv4czhEzn",
+      "status": "unavailable",
+      "reason": "not enough seek info:60",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 297,
+      "currentPageDuration": 297
+    },
+    {
+      "bvid": "BV1o1AmetEnH",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 846,
+      "frozenDuration": 963,
+      "currentPageDuration": 963
+    },
+    {
+      "bvid": "BV1oM4m1m73a",
+      "status": "unavailable",
+      "reason": "not enough dm:12",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1294,
+      "currentPageDuration": 1294
+    },
+    {
+      "bvid": "BV1oWS8YkE7S",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1400,
+      "currentPageDuration": 1400
+    },
+    {
+      "bvid": "BV1ozDpBQEHU",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 412,
+      "currentPageDuration": 412
+    },
+    {
+      "bvid": "BV1p64y1K7sa",
+      "status": "unavailable",
+      "reason": "not enough dm:11",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1375,
+      "currentPageDuration": 1375
+    },
+    {
+      "bvid": "BV1p9xsePELp",
+      "status": "unavailable",
+      "reason": "not enough seek info:897",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1332,
+      "currentPageDuration": 1332
+    },
+    {
+      "bvid": "BV1pd49eJEMD",
+      "status": "unavailable",
+      "reason": "not enough seek info:10",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 115,
+      "currentPageDuration": 115
+    },
+    {
+      "bvid": "BV1PqNkzdEth",
+      "status": "unavailable",
+      "reason": "not enough seek info:814",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 128,
+      "currentPageDuration": 128
+    },
+    {
+      "bvid": "BV1ProjYuEqQ",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 164,
+      "currentPageDuration": 164
+    },
+    {
+      "bvid": "BV1Ps421P7eF",
+      "status": "unavailable",
+      "reason": "not enough seek info:55",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 755,
+      "currentPageDuration": 755
+    },
+    {
+      "bvid": "BV1PvtKeHEnr",
+      "status": "unavailable",
+      "reason": "not enough seek info:1719",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 626,
+      "currentPageDuration": 626
+    },
+    {
+      "bvid": "BV1Q6YqzxEWD",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 301,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1qb421J77u",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 609,
+      "frozenDuration": 610,
+      "currentPageDuration": 610
+    },
+    {
+      "bvid": "BV1qCEu6zEdQ",
+      "status": "unavailable",
+      "reason": "not enough dm:2",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1753,
+      "currentPageDuration": 1753
+    },
+    {
+      "bvid": "BV1QgDpBrEoQ",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 200,
+      "frozenDuration": 202,
+      "currentPageDuration": 202
+    },
+    {
+      "bvid": "BV1qha9zCEyC",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 609,
+      "currentPageDuration": 609
+    },
+    {
+      "bvid": "BV1qiEtzTE4b",
+      "status": "unavailable",
+      "reason": "not enough seek info:507",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 954,
+      "currentPageDuration": 954
+    },
+    {
+      "bvid": "BV1QKymBfEFK",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 760,
+      "frozenDuration": 783,
+      "currentPageDuration": 783
+    },
+    {
+      "bvid": "BV1qv8ezHEhE",
+      "status": "unavailable",
+      "reason": "not enough dm:6",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1084,
+      "currentPageDuration": 1084
+    },
+    {
+      "bvid": "BV1qxCPY9ERS",
+      "status": "unavailable",
+      "reason": "not enough seek info:582",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 942,
+      "currentPageDuration": 942
+    },
+    {
+      "bvid": "BV1Rf421v7As",
+      "status": "unavailable",
+      "reason": "not enough seek info:11",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 128,
+      "currentPageDuration": 128
+    },
+    {
+      "bvid": "BV1rqP3zhEJe",
+      "status": "unavailable",
+      "reason": "not enough dm:10",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1481,
+      "currentPageDuration": 1481
+    },
+    {
+      "bvid": "BV1Rt421c7vd",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 531,
+      "currentPageDuration": 531
+    },
+    {
+      "bvid": "BV1RxfnBwEd9",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1541,
+      "currentPageDuration": 1541
+    },
+    {
+      "bvid": "BV1RYmEBbECm",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 236,
+      "currentPageDuration": 236
+    },
+    {
+      "bvid": "BV1SA66YeEN5",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 734,
+      "currentPageDuration": 734
+    },
+    {
+      "bvid": "BV1Si42117FA",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 376,
+      "frozenDuration": 380,
+      "currentPageDuration": 380
+    },
+    {
+      "bvid": "BV1Sj411b7ap",
+      "status": "unavailable",
+      "reason": "not enough dm:1",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1210,
+      "currentPageDuration": 1210
+    },
+    {
+      "bvid": "BV1SrsrepEWF",
+      "status": "unavailable",
+      "reason": "not enough seek info:367",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 683,
+      "currentPageDuration": 683
+    },
+    {
+      "bvid": "BV1Sw411C7Kj",
+      "status": "unavailable",
+      "reason": "not enough seek info:37",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1194,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1SZ421y7Bi",
+      "status": "unavailable",
+      "reason": "not enough dm:2",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 559,
+      "currentPageDuration": 559
+    },
+    {
+      "bvid": "BV1TD42177i1",
+      "status": "unavailable",
+      "reason": "not enough seek info:100",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 868,
+      "currentPageDuration": 868
+    },
+    {
+      "bvid": "BV1tKUAYjEu5",
+      "status": "unavailable",
+      "reason": "not enough dm:3",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1715,
+      "currentPageDuration": 1715
+    },
+    {
+      "bvid": "BV1tm42137Fa",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 225,
+      "currentPageDuration": 225
+    },
+    {
+      "bvid": "BV1TnVb6bEwG",
+      "status": "unavailable",
+      "reason": "not enough dm:1",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 617,
+      "currentPageDuration": 617
+    },
+    {
+      "bvid": "BV1todgBEEyK",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 940,
+      "frozenDuration": 942,
+      "currentPageDuration": 942
+    },
+    {
+      "bvid": "BV1Tz421Y7QW",
+      "status": "unavailable",
+      "reason": "not enough seek info:14",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 296,
+      "currentPageDuration": 296
+    },
+    {
+      "bvid": "BV1uL411X7YB",
+      "status": "unavailable",
+      "reason": "not enough dm:11",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 370,
+      "currentPageDuration": 370
+    },
+    {
+      "bvid": "BV1Ut8MzcEk7",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 686,
+      "frozenDuration": 689,
+      "currentPageDuration": 689
+    },
+    {
+      "bvid": "BV1UY5VzMEEd",
+      "status": "unavailable",
+      "reason": "not enough seek info:22",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 465,
+      "currentPageDuration": 465
+    },
+    {
+      "bvid": "BV1V3QJBMEPP",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 600,
+      "frozenDuration": 602,
+      "currentPageDuration": 602
+    },
+    {
+      "bvid": "BV1v9UPYAEX7",
+      "status": "unavailable",
+      "reason": "not enough seek info:53",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 348,
+      "currentPageDuration": 348
+    },
+    {
+      "bvid": "BV1vE421N7x4",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 398,
+      "currentPageDuration": 398
+    },
+    {
+      "bvid": "BV1Vi421Y7bx",
+      "status": "unavailable",
+      "reason": "not enough dm:5",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1427,
+      "currentPageDuration": 1427
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "status": "unavailable",
+      "reason": "not enough dm:10",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 874,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1WGGtzwEEX",
+      "status": "unavailable",
+      "reason": "not enough seek info:175",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1043,
+      "currentPageDuration": 1043
+    },
+    {
+      "bvid": "BV1WJ4m1E718",
+      "status": "unavailable",
+      "reason": "not enough seek info:5",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 909,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1wLwrz3E4C",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 154,
+      "frozenDuration": 156,
+      "currentPageDuration": 156
+    },
+    {
+      "bvid": "BV1Wm42137Af",
+      "status": "unavailable",
+      "reason": "not enough dm:2",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1117,
+      "currentPageDuration": 1117
+    },
+    {
+      "bvid": "BV1x84y1m7rj",
+      "status": "unavailable",
+      "reason": "not enough dm:18",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1618,
+      "currentPageDuration": 1618
+    },
+    {
+      "bvid": "BV1xdmdYfEdT",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 882,
+      "frozenDuration": 884,
+      "currentPageDuration": 884
+    },
+    {
+      "bvid": "BV1xnpvedEiH",
+      "status": "unavailable",
+      "reason": "not enough seek info:17",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 361,
+      "currentPageDuration": 361
+    },
+    {
+      "bvid": "BV1XoA7eBEdV",
+      "status": "unavailable",
+      "reason": "not enough seek info:162",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1658,
+      "currentPageDuration": 1658
+    },
+    {
+      "bvid": "BV1XS421X7Vp",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 987,
+      "currentPageDuration": 987
+    },
+    {
+      "bvid": "BV1XUNAevEkp",
+      "status": "unavailable",
+      "reason": "not enough seek info:20",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 321,
+      "currentPageDuration": 321
+    },
+    {
+      "bvid": "BV1xz421i7oA",
+      "status": "unavailable",
+      "reason": "not enough seek info:1238",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 519,
+      "currentPageDuration": 519
+    },
+    {
+      "bvid": "BV1ya84z3EaS",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 637,
+      "frozenDuration": 643,
+      "currentPageDuration": 643
+    },
+    {
+      "bvid": "BV1yC411t7cm",
+      "status": "unavailable",
+      "reason": "not enough seek info:29",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 588,
+      "currentPageDuration": 588
+    },
+    {
+      "bvid": "BV1yHSKYdEqp",
+      "status": "unavailable",
+      "reason": "not enough seek info:624",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 995,
+      "currentPageDuration": 995
+    },
+    {
+      "bvid": "BV1yMQrBSE5H",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 400,
+      "frozenDuration": 404,
+      "currentPageDuration": null
+    },
+    {
+      "bvid": "BV1yT421r7N1",
+      "status": "unavailable",
+      "reason": "not enough seek info:21",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 506,
+      "currentPageDuration": 506
+    },
+    {
+      "bvid": "BV1ytNmzTE65",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1605,
+      "currentPageDuration": 1605
+    },
+    {
+      "bvid": "BV1YV4y1z7eP",
+      "status": "unavailable",
+      "reason": "not enough seek info:85",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 803,
+      "currentPageDuration": 803
+    },
+    {
+      "bvid": "BV1Z6421Z7kV",
+      "status": "unavailable",
+      "reason": "not enough seek info:122",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1295,
+      "currentPageDuration": 1295
+    },
+    {
+      "bvid": "BV1zA1jBsEC1",
+      "status": "unavailable",
+      "reason": "not enough dm:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1435,
+      "currentPageDuration": 1435
+    },
+    {
+      "bvid": "BV1zAER6eEme",
+      "status": "unavailable",
+      "reason": "not enough dm:24",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1014,
+      "currentPageDuration": 1014
+    },
+    {
+      "bvid": "BV1zEzMBDEdv",
+      "status": "available",
+      "reason": null,
+      "partial": true,
+      "coveredUntil": 651,
+      "frozenDuration": 656,
+      "currentPageDuration": 656
+    },
+    {
+      "bvid": "BV1zf421v7BC",
+      "status": "unavailable",
+      "reason": "not enough seek info:33",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 353,
+      "currentPageDuration": 353
+    },
+    {
+      "bvid": "BV1ZHdZYuEv1",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 48,
+      "currentPageDuration": 48
+    },
+    {
+      "bvid": "BV1zRXAY7EmG",
+      "status": "unavailable",
+      "reason": "not enough seek info:263",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 908,
+      "currentPageDuration": 908
+    },
+    {
+      "bvid": "BV1zw4m1e7F8",
+      "status": "unavailable",
+      "reason": "not enough seek info:300",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 478,
+      "currentPageDuration": 478
+    },
+    {
+      "bvid": "BV1ZyC5YHEmR",
+      "status": "unavailable",
+      "reason": "not enough seek info:540",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 1272,
+      "currentPageDuration": 1272
+    },
+    {
+      "bvid": "BV1zzs7eqEDS",
+      "status": "unavailable",
+      "reason": "not enough seek info:0",
+      "partial": false,
+      "coveredUntil": null,
+      "frozenDuration": 122,
+      "currentPageDuration": 122
+    }
+  ],
+  "limits": "Existing 24 responses retain original hashes/dates; their original view response bodies were not retained. No label/prediction inspection. Available curves still need candidate-specific coverage checks. Current curves are side data acquired after the frozen detector input snapshots."
+}

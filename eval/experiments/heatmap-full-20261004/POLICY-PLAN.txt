@@ -1,0 +1,43 @@
+Predeclared development-only policy comparison, 2026-10-04
+Production detector before heatmap: c5f1aac. Existing frozen scorer and labels unchanged.
+Only development 413 may select a policy. Collecting validation curve identities is permitted,
+but validation labels/results will not be scored until one selected policy is frozen.
+
+User preference clarified: prioritize retaining correct ads, not the earlier default 95% allowance.
+Prefer policies with zero loss of existing correct matches and no new automatic wrong-keep marks.
+Among those, minimize wrong-keep count, then extra known keep seconds, then use the simpler policy.
+If none improves without loss, report the tradeoff; do not silently ship the aggressive alternative.
+The baseline off policy is always available. Report complete-ad video count and true seek effects.
+
+Finite comparison (no threshold search):
+A cold-25 / cold-50: untrusted non-author candidates may be suppressed if interval peak is below
+25% / 50% of this video's peak. Diagnostic simple filter, does not protect other strong text evidence.
+B weighted-25 / weighted-50: ordinal evidence level E=2 for concrete ad timestamp wording,
+explicit skip time plus >=2 ad reactions, or a sponsor identity with >=2 commercial subtitle lines;
+otherwise E=1. Author-labelled chapters/descriptions exempt. Heat weight H=-1 only if both interval
+and destination +/-10s are below threshold; H=+0.5 if either >=75%; otherwise H=0. Only manual
+candidates with E+H<1 can be suppressed. Heat is not an ad probability and never upgrades auto.
+C weighted-50-review: B plus review-only downgrade for generic auto timestamps, extreme cold
+(<25% in both windows), no independent ad evidence, and enough observed noncommercial subtitles.
+Downgrading is still a detected marking, never count it as removed wrong-keep.
+
+Before any development scoring, coordinate handling corrected against the official renderer:
+PBP _calculatePercentage uses wPercentage=i/pointCount, so sample times are duration*i/pointCount,
+not nominal i*step_sec. Many real responses legitimately contain a longer nominal span.
+Use normalized point positions with linear interpolation at window edges; retain source step_sec
+only to detect missing nominal coverage, never invent zeros for truncated data.
+Missing, invalid, flat, truncated curves are neutral. No temporal boundary is moved.
+Large peaks can dilute real ads elsewhere; positive heat cannot establish reliable boundaries.
+Historical content and newly acquired heat may differ in date. No BV/creator special cases.
+
+Second development iteration, before inspecting validation:
+The first six finite policies lost 7–12 correct ads. Inspection of development losses found
+short sponsor acknowledgements, natural promotions with only one commercial line, and a
+hardware promotion whose subtitles matched none of the existing commercial patterns.
+Do not change heat thresholds or add brand/BV/length exceptions to rescue these cases.
+Add one narrower evidence policy: keyword-context-25. Negative heat weight only applies to
+danmaku-keywords proposals with sufficient observed subtitles and no detected commercial roles;
+other sources keep their prior decision. Positive heat remains bounded at +0.5. This tests
+corroboration of the weakest crowd-keyword inference, preserving explicit destination intent
+and subtitle-backed proposals. No automatic interval can be downgraded or enlarged by it.
+The first comparison is preserved as development-round1.json; all variants will be reported.

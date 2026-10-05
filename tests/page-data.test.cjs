@@ -20,7 +20,7 @@ test('exports only public metadata and per-part identifiers for the matching BV'
   const result = readBridge({
     account: { token: 'private' },
     videoData: {
-      bvid, cid: 101, title: 'Video', desc: '00:10 advertisement', duration: 500,
+      bvid, aid: 12345, cid: 101, title: 'Video', desc: '00:10 advertisement', duration: 500,
       owner: { mid: 123 },
       pages: [
         { page: 1, cid: 101, duration: 200, part: 'part 1', extra: 'excluded' },
@@ -29,7 +29,7 @@ test('exports only public metadata and per-part identifiers for the matching BV'
     }
   });
   assert.deepEqual(result, {
-    bvid, cid: 101, title: 'Video', desc: '00:10 advertisement', duration: 500,
+    bvid, aid: 12345, cid: 101, title: 'Video', desc: '00:10 advertisement', duration: 500,
     pages: [{ page: 1, cid: 101, duration: 200 }, { page: 2, cid: 102, duration: 300 }]
   });
 });
@@ -51,10 +51,10 @@ test('does not serialize unexpected nested objects in metadata fields', () => {
   const nested = { private: 'excluded' };
   nested.self = nested;
   assert.deepEqual(readBridge({ videoData: {
-    bvid, cid: nested, title: nested, desc: nested, duration: Infinity,
+    bvid, aid: nested, cid: nested, title: nested, desc: nested, duration: Infinity,
     pages: [null, { page: '2', cid: '102', duration: '300', extra: nested }]
   } }), {
-    bvid, cid: null, title: '', desc: '', duration: null,
+    bvid, aid: null, cid: null, title: '', desc: '', duration: null,
     pages: [{ page: '2', cid: '102', duration: '300' }]
   });
 });

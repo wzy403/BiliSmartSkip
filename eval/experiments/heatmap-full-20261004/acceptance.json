@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-05T03:12:41.655Z",
+  "sourceSha256": "12efd047d065d54ad0dd6c11083969ac73a0573108f5add7752c9d273f31e18a",
+  "reportSha256": "38a8d4d19ee95a10be712d6add0b28d95a893823de61d8698f62ed77872c24ec",
+  "benchmarkSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+  "scorerUnchanged": true,
+  "releaseRowsReproduced": 438,
+  "correctRetained": 113,
+  "automaticUnchanged": 97,
+  "validationUnchanged": 25,
+  "missingHeatmapFallbackUnchanged": 438,
+  "removed": [
+    {
+      "bvid": "BV1ApkmYQEXc",
+      "start": 97.905,
+      "end": 159.786,
+      "source": "danmaku-keywords",
+      "extraKeepSeconds": 56.84,
+      "status": "wrong-keep"
+    },
+    {
+      "bvid": "BV1BVyBY9EEw",
+      "start": 710.721,
+      "end": 747.09,
+      "source": "danmaku-keywords",
+      "extraKeepSeconds": 36.36900000000003,
+      "status": "wrong-keep"
+    },
+    {
+      "bvid": "BV1fmn5zuEcT",
+      "start": 65.099,
+      "end": 153.266,
+      "source": "danmaku-keywords",
+      "extraKeepSeconds": 66.82699999999997,
+      "status": "wrong-keep"
+    },
+    {
+      "bvid": "BV1vAjP6yE9J",
+      "start": 139.448,
+      "end": 183.49,
+      "source": "danmaku-keywords",
+      "extraKeepSeconds": 44.042,
+      "status": "wrong-keep"
+    }
+  ],
+  "extraKnownKeepSecondsRemoved": 204.078,
+  "note": "Removed manual prompts only; known-keep seconds are potential marked overlap, not automatically saved viewing time."
+}

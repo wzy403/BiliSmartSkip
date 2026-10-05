@@ -14,11 +14,13 @@ function loadProduction(ref, { sourceDir } = {}) {
   const commit = ref ? execFileSync('git', ['rev-parse', '--verify', '--end-of-options', `${ref}^{commit}`],
     { cwd: repoRoot, encoding: 'utf8' }).trim() : null;
   const scripts = ['constants', 'utils', 'detectors', 'skipper', 'content'];
-  const hasSegments = commit
-    ? JSON.parse(execFileSync('git', ['show', `${commit}:manifest.json`], { cwd: repoRoot, encoding: 'utf8' }))
-      .content_scripts.some(script => script.js?.some(filename => filename.endsWith('/segment-detector.js')))
-    : fs.existsSync(path.join(directory || path.join(repoRoot, 'scr'), 'segment-detector.js'));
-  if (hasSegments) scripts.splice(3, 0, 'segment-detector');
+  const manifest = commit ? JSON.parse(execFileSync('git', ['show', `${commit}:manifest.json`],
+    { cwd: repoRoot, encoding: 'utf8' })) : null;
+  const hasModule = name => manifest
+    ? manifest.content_scripts.some(script => script.js?.some(filename => filename.endsWith(`/${name}.js`)))
+    : fs.existsSync(path.join(directory || path.join(repoRoot, 'scr'), `${name}.js`));
+  if (hasModule('segment-detector')) scripts.splice(3, 0, 'segment-detector');
+  if (hasModule('heatmap-verifier')) scripts.splice(scripts.indexOf('content'), 0, 'heatmap-verifier');
   const sources = new Map(scripts.map(name => {
     const filename = path.join(repoRoot, 'scr', `${name}.js`);
     const source = commit
@@ -50,10 +52,11 @@ function loadProduction(ref, { sourceDir } = {}) {
   return { createHarness: harnessModule.exports.createHarness, commit, sourceSha256, sourceDir: directory, codeSize };
 }
 
-async function runVideo(record, production) {
+async function runVideo(record, production, { heatmap } = {}) {
   const h = production.createHarness({
-    videoInfo: { cid: record.cid, duration: record.duration, desc: record.desc || '', title: record.title || '' },
-    chapters: record.chapters || [], subtitles: record.subtitles || [], danmaku: record.danmaku || []
+    videoInfo: { cid: record.cid, duration: record.duration, desc: record.desc || '', title: record.title || '',
+      ...(record.aid === undefined ? {} : { aid: record.aid }) },
+    chapters: record.chapters || [], subtitles: record.subtitles || [], danmaku: record.danmaku || [], heatmap
   });
   h.context.getBvidFromPage = () => record.bvid;
   const traces = [];

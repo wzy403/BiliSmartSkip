@@ -1,0 +1,23 @@
+{
+  "productionCommit": "d212a8434d189afab496bb4d60a86887b3433ab6",
+  "productionBranch": "fix/improve-detction-rate",
+  "tests": {
+    "passed": 320,
+    "failed": 0,
+    "skipped": 0,
+    "command": "BILISMARTSKIP_SOURCE_DIR=/Users/woshiyingyan/files/project/BiliSmartSkip/scr node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs"
+  },
+  "productionFileSha256": {
+    "manifest.json": "8d034d087f47909872904a82e7182a382b3c210079e5c0db7a4c1a6efa426f93",
+    "scr/api.js": "c364ee1fd7b4ba9a168c63667140e96fdd3c9f56936059aca053c45404feb606",
+    "scr/content.js": "fda134ca1a5197b19b6abecb317afd0bd96a01c0807cca071a811ed071209523",
+    "scr/page-data.js": "83704da4bc6796cb8cd9d2b8705e4766b3f100f0a7d0f3869a047fa9a4f191f5",
+    "scr/heatmap-verifier.js": "58f837593221001bf4b82bc85711e07b10761ede142012d812a5402ca5e19dd8"
+  },
+  "validationUsedForTuning": false,
+  "liveExtensionReloadTested": false,
+  "notes": [
+    "All 438 no-heatmap replays exactly reproduce the before version candidates, automatic segments and seeks.",
+    "Final full replay rerun after malformed-subtitle and eligibility exception fallback repairs; policy and thresholds unchanged."
+  ]
+}

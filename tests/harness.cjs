@@ -53,6 +53,7 @@ function createHarness(fixture = {}, { debug } = {}) {
   let nextTimer = 1;
   let now = 0;
   let subtitleFetches = 0;
+  let heatmapFetches = 0;
   const schedule = (callback, delay, repeat) => {
     const id = nextTimer++;
     timers.set(id, { callback, delay, repeat, due: now + delay });
@@ -88,10 +89,12 @@ function createHarness(fixture = {}, { debug } = {}) {
     }),
     fetchDanmakuWithTime: async () => fixture.danmaku || [],
     fetchSubtitleBody: async () => { subtitleFetches++; return fixture.subtitles || []; },
+    fetchVideoHeatmap: async () => { heatmapFetches++; return fixture.heatmap ?? null; },
     __video: video
   });
   const scripts = ['constants', 'utils', 'detectors', 'skipper', 'content'];
   if (fs.existsSync(path.join(sourceDirectory, 'segment-detector.js'))) scripts.splice(3, 0, 'segment-detector');
+  if (fs.existsSync(path.join(sourceDirectory, 'heatmap-verifier.js'))) scripts.splice(scripts.indexOf('content'), 0, 'heatmap-verifier');
   for (const file of scripts) {
     const filename = path.join(sourceDirectory, `${file}.js`);
     let source = fs.readFileSync(filename, 'utf8');
@@ -106,6 +109,7 @@ function createHarness(fixture = {}, { debug } = {}) {
     video, logs, context, evaluate,
     get button() { return evaluate('btn'); },
     get subtitleFetches() { return subtitleFetches; },
+    get heatmapFetches() { return heatmapFetches; },
     setMode(mode) {
       storageListeners.forEach(listener => listener({ skipMode: { newValue: mode } }, 'local'));
     },
