@@ -1,34 +1,50 @@
-请独立接手 BiliSmartSkip，从 2.1.0 重新优化广告检测。
+请接手 BiliSmartSkip，直接使用已整理好的内容基准，从原版 2.1.0 开始优化广告检测算法。基准核对、合并加载、人工意见冲突处理和发布版回放都已完成。本次任务是算法优化，不是重新审核或采集全部视频。
 
 项目：wzy403/BiliSmartSkip
-主目录：/Users/woshiyingyan/files/project/BiliSmartSkip，目前是 test-branch。
-生产基线：master，2.1.0 提交 3ce86faffab16a881640fc27dea5f53bf7b219ee。
-另一对照版本：Git 标签 v2.0.1。
-生产优化分支：fix/improve-detction-rate，目前与上述 2.1.0 一致；工作目录：
-/Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip
-先确认 Git 状态，不要修改 master。
+测试工作目录：/Users/woshiyingyan/files/project/BiliSmartSkip，分支 test-branch。
+生产优化工作目录：/Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip
+生产优化分支：fix/improve-detction-rate（保留这个拼写）。
+master 是生产分支，2.1.0 固定提交为 3ce86faffab16a881640fc27dea5f53bf7b219ee；优化分支在交接时与它一致。上一轮算法补丁已经撤销，不要恢复。
+2.0.1 对照固定提交为 88652cdd6152f7652a7b21731d53c0942264ca86。
+开始前检查两个目录的 Git 状态，保留已有用户改动，不修改 master。
 
-上一轮算法补丁已经撤销，但内容审核和测试资料保留。请复用这些资料，不要从零重采，也不要恢复被撤销的补丁或沿用旧算法结论。
+先读 eval/benchmarks/content-438-v1/README.md，然后直接开始使用基准：
+- eval/content-benchmark.cjs 已接入旧批 250 个＋新增批真正 reviewed 的 188 个，共 438 个不重复视频。新增目录虽然有 300 份记录，另 112 个仍未完成，不能计分；旧批另外 101 个资料不足也已排除。原 48 份包含在旧 250 中，不重复计数。
+- manifest.json 固定成员、标签/输入哈希及作者分组。原资料在 eval/labels/assistant-content-351-20261004 和 eval/labels/assistant-content-extra300。
+- 两处旧助手判断与人工意见冲突已在 user-decision-overrides.json 显式修正，由加载器应用，原记录未覆盖。用户明确的跳过/保留意见优先；属于广告不等于应该跳过。不确定范围仍未知。
+- 这些是以完整字幕为主、部分视频补充选定画面的助手参考，不是全部逐帧视听或独立人工金标准。不要声称已逐帧看完。
 
-已完成的内容判断：
-- eval/labels/assistant-content-351-20261004/records/：250 个视频的完整字幕内容参考，包含广告起止、是否应跳过、原文依据、正文范围和不确定性。
-- 同目录 review-index.md 是逐视频索引；manifest.json、freeze.json 固定数据和标签的哈希。发现标签问题要单独记录、复核并版本化，不能为了匹配预测而偷偷修改。
-- 这些是助手根据字幕做的参考，不是逐帧视听核验或独立人工金标准。需要时核实有争议的边界。
-- 原 351 条记录中，101 个资料不足。额外 300 个视频没有逐个内容审核，不能直接用于计算正确率。
-- eval/labels/human/ 保存用户标注和纠正，优先尊重用户明确的保留/跳过决定。
-
-在主目录运行：
+在测试目录运行：
 node eval/restore-content-inputs.cjs
-node eval/audit-full-content.cjs check
-node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr
+node eval/content-benchmark.cjs check
+node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr eval/output/content-438-development.json development
 
-目标：比 2.0.1、2.1.0 标得更准，误跳正文更少，正确识别的广告更多。不能只靠减少标记数量或者缩短真实广告范围来宣称优化。
+评分已固定，不要通过改评分来优化数字：
+评价全部候选标记，主要表格不拆自动/手动。一个原始标记对应一个完整应跳广告，起点和终点各允许前后 5 秒且实际相交即合格；无 90% 附加门槛，不拼接碎片、不缩短真实广告。
+标记正确率＝正确标记数÷全部标记数。误标正文比例＝标到边界容差以外已知应保留内容的标记数÷全部标记数，不是全站无广告视频误报率。部分广告、边界偏差、完全漏检和未知分别处理。逐视频 boundaries 可直接查看开头/结尾差多少秒。
+所有标记的正确率不等于自动跳转正确率；若调整自动策略，继续验证自动区间与实际 seek，不能只检查触发词。
 
-评价所有标记的质量，不按自动/手动模式拆散主要结果。广告起点、终点各允许前后 5 秒误差，不附加必须覆盖 90% 的限制，也不拼接多个片段冒充一次完整跳过。
-标记正确率＝合格标记数÷总标记数。误标正文、只标到部分广告、完全漏检和未知资料分别处理。广告不一定应该跳过，保留类广告不能当可跳内容。
-同一批参考、同一套规则比较三个版本。原有验证结果已经看过，不要称为全新的保留集；新增独立验证样本再证明泛化。
+完整 438 个视频已验收的基线在 release-baselines.json：
+2.0.1：正确标记 32/274，11.7%；误标正文 39.1%；广告基本跳完整 29 个视频。
+2.1.0：正确标记 46/292，15.8%；误标正文 14.4%；广告基本跳完整 42 个视频。
+交接时优化分支的 438 条结果与 2.1.0 逐条一致。247 项测试通过，但这不是广告准确率。
 
-算法修改只放生产优化分支；测试、采集、标注、评估及相关说明只放 test-branch。算法必须轻量、本地运行，不接大模型或外部推理 API。优先批量脚本，必要时才用浏览器；不要启动原 HTML 服务。普通日志使用已有 log() 并尊重 DEBUG。不要擅自推送、发布或回复 Issue。
+目标：比 2.0.1 和 2.1.0 正确标记更多广告、误跳正文更少、用户体验更好。不能只靠减少输出提高百分比，也不能只跳广告末尾几秒制造改善。我接受较大的算法调整，但必须用同一冻结基准说明真实收益；没有收益就继续改或撤销该轮补丁，不要包装成成功。
 
-先验证两个发布版本的内容标记结果，再逐轮修改、回归。不要把找到触发词或能够发生跳转当成标记正确。
-向我只展示：版本｜正确标记数/总标记数｜标记正确率｜误标正文的比例｜能基本跳完全部应跳广告的视频数，再一句话说明是否真的优于旧版。部分广告没跳完整时，说明还差多少秒、差在开头还是结尾，不要堆报告和术语。
+请现在开始实做：从 development 的内容参考及逐视频回放中归纳漏检、误标和边界缺失的原因，提出少量有证据的假设，再修改算法、回归、比较。改通用逻辑，禁止按 BV、CID、UP 主或标签中的精确时间硬编码。标签只交给评估器，不能进入检测输入。不要把重新审核全部视频作为优化前置；遇到确实有争议的个别标签时，保存证据、单独版本化，并对所有版本同样重新计分。
+
+已固定 413 个 development、25 个 validation，作者不跨组；旧 250 曾参与优化，全部归 development。迭代只用 development，方案确定后运行：
+node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr eval/output/content-438-all.json all
+这会输出全部 438 个的对照，validation 在报告内单列。历史采集池以前做过弹幕分析，旧版验证结果也已算出，不可称为完全未见的新样本。若再据 validation 调参，明确记录它已经用于开发。
+
+两个原用户案例另做回归，不冒充完整审核样本：
+BV1r1421r7am：广告约 351–372 秒。用户已撤回最初“没有广告”的说法，人工更正在 eval/labels/human/review-2026-10-04-v3.json。它因缺字幕没纳入 438 个完整参考。
+BV1Kra36oEr3：约 145–190 秒为自然接入的拼多多促销，无标准赞助开场。登录后的真实弹幕曾有“310认证成功”“3.10工程”；匿名子集不能代表登录浏览器数据。不能把广告结束后的“感谢310工程”构造为向前跳转。它也不在 438 基准中，使用 /private/tmp 旧复现资料前先确认存在。
+
+工作约定：
+算法代码只放 fix/improve-detction-rate；测试、评估、采集、标注及说明只放 test-branch，不混进生产或发布包，不把 test-branch 整支合入生产。测试分支要能保存在原 GitHub 仓库，不只留在 .codex。
+算法必须轻量、本地运行，不接大模型或外部推理 API。日志用已有 log() 并尊重 DEBUG，不加重复 console.info。优先批量脚本，必要时再确认浏览器行为，不启动已关闭的 HTML 服务。不要擅自推送、发布或回复 Issue。提交说明参照近期风格。
+完整测试命令：
+node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
+
+向我主要展示一个小表：版本｜正确标记数/总标记数｜标记正确率｜误标正文比例｜广告基本跳完整的视频数；再一两句话说明比两个旧版改善在哪里、有无代价。最终比较用完整 438 个视频，同一输入同一规则。不要堆术语和报告；详细证据保存文件，具体失败就说明广告开头漏了几秒、结尾多跳或少跳了几秒。

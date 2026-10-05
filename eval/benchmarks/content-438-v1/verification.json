@@ -1,0 +1,83 @@
+{
+  "kind": "content-benchmark-handoff-verification",
+  "verifiedAt": "2026-10-05T00:18:15.656Z",
+  "inventory": {
+    "inventory": 651,
+    "reviewed": 438,
+    "oldReviewed": 250,
+    "extraReviewed": 188,
+    "excluded": 213,
+    "oldExcluded": 101,
+    "extraExcluded": 112,
+    "highConfidenceSkipSegments": 441,
+    "videosWithHighConfidenceSkip": 368,
+    "unscoredSkipSegments": 6,
+    "development": 413,
+    "validation": 25
+  },
+  "checks": {
+    "crossCorpusDuplicateBvid": 0,
+    "crossCorpusDuplicateCid": 0,
+    "all438IdentityAndReferenceHashesPassed": true,
+    "extra300RecordAndTranscriptHashesPassed": 300,
+    "extraReviewedReadCoveragePassed": 188,
+    "existingHumanVideosCompared": 14,
+    "explicitDecisionCorrections": 2,
+    "remainingContradictoryHumanDecisions": 0,
+    "validationAuthorsOverlapDevelopment": 0,
+    "currentEquals210PerVideo": 438,
+    "currentAnd210SourceHashesEqual": true,
+    "unitAndRegressionTests": {
+      "passed": 247,
+      "failed": 0
+    },
+    "productionAlgorithmsModified": false
+  },
+  "scope": "Integrity/completion/source integration audit of existing reviews, not another full content or audiovisual review. Scoring inputs and all record/transcript files verified; heavy media are not required to run this benchmark.",
+  "protectedRefs": {
+    "master": "3ce86faffab16a881640fc27dea5f53bf7b219ee",
+    "fix/improve-detction-rate": "3ce86faffab16a881640fc27dea5f53bf7b219ee"
+  },
+  "files": [
+    {
+      "file": "eval/benchmarks/content-438-v1/manifest.json",
+      "sha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a"
+    },
+    {
+      "file": "eval/benchmarks/content-438-v1/user-decision-overrides.json",
+      "sha256": "6662b9044d0c0b44379fe2942ffdb0d6f1058a11a7dea17a02419ff922d3a8f2"
+    },
+    {
+      "file": "eval/benchmarks/content-438-v1/release-baselines.json",
+      "sha256": "8e7bc736578d00739a60b998e256c3a16cd6c84ebe669adf6709c98530a5d1df"
+    },
+    {
+      "file": "eval/content-benchmark.cjs",
+      "sha256": "022e4cff36e3a27130d8ac8799a7bebcac3c01358f1aaa4b57c9e1459d7cbc43"
+    },
+    {
+      "file": "eval/compare-release-markings.cjs",
+      "sha256": "7612153f4bd21f32c9e8b31c2d8832d33f15c0117aa15b17e553558f2ebceb7d"
+    },
+    {
+      "file": "eval/audit-content-review.cjs",
+      "sha256": "9ccd4725f05aaf3b5519a6427226e910865817ba46a377c28331b7cd97c6cad0"
+    },
+    {
+      "file": "eval/audit-full-content.cjs",
+      "sha256": "9c822b36943d6d766adb456e16601f1a978afd97cdede2bb88bb5bad5652bf0b"
+    },
+    {
+      "file": "eval/evaluate-segments.cjs",
+      "sha256": "297945881c104095880ad0fccaf204d6400f9631487709c8e535b99eddd206c3"
+    },
+    {
+      "file": "eval/runner.cjs",
+      "sha256": "b41bb8f920e555c6351062dbd336369b1c0e724850c5c8946e6709f6771eb117"
+    },
+    {
+      "file": "tests/harness.cjs",
+      "sha256": "9c5885affdd70dd7362e6fee793a45a6aa04408fd31d750fdc1df0ba4b071492"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "explicit-user-decision-corrections",
+  "version": 1,
+  "humanSource": "eval/labels/human/review-2026-10-04-v3.json",
+  "humanSourceSha256": "b3aa335a0a71a77ac577d996be40dce23b6ffae435593734e7549b457c6f9ca9",
+  "policy": "Resolve only contradictory decisions using existing human feedback. Preserve original assistant files and full ad spans where partial human confirmations agree. No algorithm predictions used to choose corrections.",
+  "decisions": [
+    {
+      "bvid": "BV15GyYB8ESg",
+      "humanSegmentIndex": 1,
+      "start": 35.899,
+      "end": 57.55,
+      "skipDecision": "skip",
+      "replaces": {
+        "start": 31.259,
+        "end": 56.51,
+        "skipDecision": "keep"
+      },
+      "reason": "Human explicitly confirmed this Quark AI promotion should be skipped; retain the preceding kept content."
+    },
+    {
+      "bvid": "BV1JucQzwEiP",
+      "humanSegmentIndex": 1,
+      "start": 119.18,
+      "end": 160.46,
+      "skipDecision": "keep",
+      "replaces": {
+        "start": 119.18,
+        "end": 160.46,
+        "skipDecision": "skip"
+      },
+      "reason": "User explicitly wants this product-theme soft advertisement preserved."
+    }
+  ]
+}

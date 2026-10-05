@@ -46,3 +46,14 @@ test('unobserved time stays unknown and is not counted as correct', () => {
   assert.equal(summary.correctMarkings, 0);
   assert.equal(summary.unknown, 1);
 });
+test('a matched confirmed ad does not prove all ads are covered when another skip is unresolved', () => {
+  const result = assess(ref, [range(10, 30)], { allAdsAssessable: false });
+  assert.equal(result.markings[0].status, 'correct');
+  assert.equal(result.allAdsCorrect, false);
+});
+test('boundary diagnostics preserve the full reference and separate missing starts and ends', () => {
+  const result = assess(ref, [range(18, 27)]);
+  assert.deepEqual(result.boundaries[0], { referenceIndex: 0, start: 10, end: 30, matched: false,
+    predictionIndex: 0, startErrorSeconds: 8, endErrorSeconds: -3, missingStartSeconds: 8, missingEndSeconds: 3 });
+  assert.equal(assess(ref, []).boundaries[0].predictionIndex, null);
+});

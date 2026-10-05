@@ -4,17 +4,17 @@
 
 ## 从 2.1.0 重新优化
 
-按用户要求，只撤销算法补丁，保留已经完成的内容审核数据。250 份全文字幕参考、原始字幕/弹幕压缩包、用户纠正和内容评分工具已恢复；旧算法实验报告和旧候选输出不作为新一轮输入。
+按用户要求，只撤销算法补丁，保留内容审核。两批已核对并接入统一基准：旧 250 个＋新增已审核的 188 个，共 438 个无重复视频。新增目录另 112 份未完记录不计分；两处旧助手判断与人工意见冲突已有独立修正，不覆盖原标签。
 
-交接用 [RESTART-PROMPT.txt](RESTART-PROMPT.txt)。先阅读[内容参考说明](labels/assistant-content-351-20261004/README.md)，再运行：
+交接用 [RESTART-PROMPT.txt](RESTART-PROMPT.txt)。先阅读[已接通的 438 视频基准](benchmarks/content-438-v1/README.md)，再运行：
 
 ```sh
 node eval/restore-content-inputs.cjs
-node eval/audit-full-content.cjs check
-node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr
+node eval/content-benchmark.cjs check
+node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr eval/output/content-438-development.json development
 ```
 
-这个入口重新执行 v2.0.1、固定 2.1.0 和指定目录的当前算法，以同一批内容标签评估所有标记。起止各允许 5 秒偏差，不附加 90% 覆盖门槛。未知资料不算无广告；新增 300 个未做内容审核的视频不参与准确率计算。
+这个入口重新执行固定 2.0.1、2.1.0 和指定目录的当前算法。默认用 413 个 development 迭代；方案确定后将末尾 scope 改为 `all`，比较完整 438 个，并在报告中单列 25 个 validation。起止各允许 5 秒偏差，不附加 90% 门槛。未知资料不算无广告。数据接入和发布版基线已完成，新一轮可以直接优化算法。
 
 下方是原有工具的说明；其中按秒计分、内部边界收缩和原始快照对比是不同用途，不能拿来替代上面的标记正确率。当前原有生产回归仍对应 2.1.0；上一轮依赖撤销补丁的专用断言没有恢复。
 
