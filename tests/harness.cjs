@@ -59,6 +59,11 @@ function createHarness(fixture = {}, { debug } = {}) {
     return id;
   };
   const context = vm.createContext({
+    Date: class extends Date {
+      constructor(...args) { super(...(args.length ? args : [now])); }
+      static now() { return now; }
+    },
+    performance: { now: () => now },
     document,
     location: { href: 'https://www.bilibili.com/video/BV_fixture' },
     MutationObserver: class { observe() {} disconnect() {} },

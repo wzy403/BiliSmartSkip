@@ -1,0 +1,150 @@
+{
+  "kind": "skip-button-ui-regression",
+  "createdAt": "2026-10-05T00:54:02.874Z",
+  "previousProductionCommit": "0d1883723ff7f43bc29fe3b3ec52f81f00ca131e",
+  "sourceSha256": "e807e8dec8a1d56b0d1849c24e428b87215b6680c23749d46ba9eceadc923c1b",
+  "benchmarkSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+  "evaluatorSha256": "7612153f4bd21f32c9e8b31c2d8832d33f15c0117aa15b17e553558f2ebceb7d",
+  "baselineReport": "eval/experiments/content-438-optimization-20261004/all-markings.json",
+  "baselineReportSha256": "b2d38f36df5086af169bb25a5209f5ebaa5555f83927a2607f64beb99308a0f0",
+  "replayReport": "eval/output/content-438-button-ui.json",
+  "replayReportSha256": "c6e72e3a88596c5d14fe31997b86c157b2bc6134a6218123b3b585d9580a9a6f",
+  "tests": {
+    "passed": 284,
+    "failed": 0,
+    "newButtonTests": 19
+  },
+  "comparison": {
+    "videos": 438,
+    "allRowsExactlyEqual": true,
+    "groupedExactlyEqual": true,
+    "automaticSegments": 97,
+    "seekDestinations": 97
+  },
+  "grouped": {
+    "all": {
+      "2.0.1": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 274,
+        "correctMarkings": 32,
+        "correctPercent": 11.678832116788321,
+        "wrongKeepMarkings": 107,
+        "wrongKeepPercent": 39.051094890510946,
+        "partialOrBoundary": 132,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 29,
+        "videosWithUnresolvedAds": 13
+      },
+      "2.1.0": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 292,
+        "correctMarkings": 46,
+        "correctPercent": 15.753424657534246,
+        "wrongKeepMarkings": 42,
+        "wrongKeepPercent": 14.383561643835616,
+        "partialOrBoundary": 199,
+        "unknown": 5,
+        "videosWithAllAdsCorrect": 42,
+        "videosWithUnresolvedAds": 13
+      },
+      "current": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 269,
+        "correctMarkings": 113,
+        "correctPercent": 42.00743494423792,
+        "wrongKeepMarkings": 24,
+        "wrongKeepPercent": 8.921933085501859,
+        "partialOrBoundary": 128,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 97,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    "development": {
+      "2.0.1": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 260,
+        "correctMarkings": 32,
+        "correctPercent": 12.307692307692308,
+        "wrongKeepMarkings": 101,
+        "wrongKeepPercent": 38.84615384615385,
+        "partialOrBoundary": 124,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 29,
+        "videosWithUnresolvedAds": 13
+      },
+      "2.1.0": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 277,
+        "correctMarkings": 45,
+        "correctPercent": 16.24548736462094,
+        "wrongKeepMarkings": 41,
+        "wrongKeepPercent": 14.8014440433213,
+        "partialOrBoundary": 187,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 42,
+        "videosWithUnresolvedAds": 13
+      },
+      "current": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 256,
+        "correctMarkings": 112,
+        "correctPercent": 43.75,
+        "wrongKeepMarkings": 23,
+        "wrongKeepPercent": 8.984375,
+        "partialOrBoundary": 118,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 97,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    "validation": {
+      "2.0.1": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 14,
+        "correctMarkings": 0,
+        "correctPercent": 0,
+        "wrongKeepMarkings": 6,
+        "wrongKeepPercent": 42.857142857142854,
+        "partialOrBoundary": 8,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      },
+      "2.1.0": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 15,
+        "correctMarkings": 1,
+        "correctPercent": 6.666666666666667,
+        "wrongKeepMarkings": 1,
+        "wrongKeepPercent": 6.666666666666667,
+        "partialOrBoundary": 12,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      },
+      "current": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 13,
+        "correctMarkings": 1,
+        "correctPercent": 7.6923076923076925,
+        "wrongKeepMarkings": 1,
+        "wrongKeepPercent": 7.6923076923076925,
+        "partialOrBoundary": 10,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      }
+    }
+  },
+  "productionCommit": "c5f1aac66053f43dc4df416ec4e47a75f4db9870"
+}
