@@ -14,6 +14,7 @@
       ? value : typeof value === 'string' && /^\d+$/.test(value) ? value : null;
     const data = {
       bvid: video.bvid,
+      aid: numericValue(video.aid),
       cid: numericValue(video.cid),
       title: typeof video.title === 'string' ? video.title : '',
       desc: typeof video.desc === 'string' ? video.desc : '',

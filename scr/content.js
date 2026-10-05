@@ -186,7 +186,7 @@ async function getSkipSegment(inputs = null) {
   log('videoInfo:', videoInfo);
   if (!videoInfo || !videoInfo.cid) return null;
 
-  const { cid, desc, duration } = videoInfo;
+  const { aid, cid, desc, duration } = videoInfo;
   const selectSegment = (segment, source, requiresConfirmation = segment.requiresConfirmation !== false) => {
     const result = {
       ...segment, source, requiresConfirmation,
@@ -203,7 +203,7 @@ async function getSkipSegment(inputs = null) {
   ]);
 
   const { viewPoints, subtitles } = playerInfo;
-  if (inputs) Object.assign(inputs, { bvid, cid, duration, title: videoInfo.title || '',
+  if (inputs) Object.assign(inputs, { bvid, aid, cid, duration, title: videoInfo.title || '',
     chapters: viewPoints, danmaku, subtitleTracks: subtitles });
   log('viewPoints:', viewPoints);
   log('subtitles available:', subtitles.length);
@@ -286,6 +286,7 @@ async function getSkipSegments() {
   let primary = await getSkipSegment(inputs);
   const fallback = primary ? [primary] : [];
   if (!inputs.cid || typeof BiliSegmentDetector === 'undefined') return fallback;
+  let segments;
   try {
     if (!inputs.subtitles) {
       const tracks = inputs.subtitleTracks || [];
@@ -296,14 +297,26 @@ async function getSkipSegments() {
     const proposals = BiliSegmentDetector.detectSegments(inputs, {
       getSubtitleEvidence, extractTimeFromText, getTimestampSkipCues, getAdLabelEvidence
     });
-    const segments = combineSkipSegments(primary, proposals);
+    segments = combineSkipSegments(primary, proposals);
     log('segments:', { bvid: inputs.bvid, cid: inputs.cid,
       segments, retainedContent: proposals.filter(segment => segment.skipDecision === 'keep') });
-    return segments;
   } catch (error) {
     console.warn('[BiliSmartSkip] complete-segment detection failed; primary fallback:', String(error));
     return primary ? [primary] : [];
   }
+  if (typeof BiliHeatmapVerifier !== 'undefined' && typeof fetchVideoHeatmap === 'function') {
+    try {
+      if (!BiliHeatmapVerifier.needsHeatmap(segments, inputs, { getSubtitleEvidence })) return segments;
+      const heatmap = await fetchVideoHeatmap(inputs.bvid, inputs.aid, inputs.cid);
+      const verified = BiliHeatmapVerifier.verify(segments, inputs, heatmap, undefined, { getSubtitleEvidence });
+      log('heatmap verification:', { bvid: inputs.bvid, cid: inputs.cid,
+        available: verified.available, decisions: verified.decisions });
+      return verified.segments;
+    } catch (error) {
+      log('heatmap verification unavailable:', String(error));
+    }
+  }
+  return segments;
 }
 
 function combineSkipSegments(primary, proposals) {

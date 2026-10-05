@@ -8,6 +8,7 @@
     "https://www.bilibili.com/*",
     "https://comment.bilibili.com/*",
     "https://api.bilibili.com/*",
+    "https://bvc.bilivideo.com/*",
     "https://i0.hdslb.com/*",
     "https://aisubtitle.hdslb.com/*"
   ],
@@ -21,6 +22,7 @@
         "/scr/detectors.js",
         "/scr/segment-detector.js",
         "/scr/skipper.js",
+        "/scr/heatmap-verifier.js",
         "/scr/content.js"
       ],
       "run_at": "document_idle"
