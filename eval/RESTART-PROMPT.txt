@@ -1,3 +1,5 @@
+热度辅助验证补充（2026-10-04）：用户提出用高能进度条核验FP，已查B站一手资料并补采固定24个development样本及BV1r1421r7am的公开PBP曲线。低热度硬过滤会误删正确广告：50%片内峰值门槛去掉6个误报同时删3个正确广告；24份中18份可用，6份拖动信息不足保持原判。只保存实验，生产仍c5f1aac，不可说已接入热度或提升438成绩。见 eval/experiments/heatmap-verification-20261004/NOTES.txt。没有重新审核或更改冻结评分/标签，validation未用于实验。
+
 最新工作区与按钮修复（2026-10-04）：用户要求解除 .codex 工作树占用，算法分支 fix/improve-detction-rate 现位于原目录 /Users/woshiyingyan/files/project/BiliSmartSkip；不要重建旧挂载。已提交 c5f1aac66053f43dc4df416ec4e47a75f4db9870 修复 BV1Fgaa6BEbM 所示短疑似提示提前消失/后续广告重复弹窗，用户明确选择自动模式在可信广告开始时跳过。284项测试通过，438全部逐视频标记/自动区间/seek与0d18837完全一致。详情 eval/experiments/skip-button-20261004/NOTES.txt。测试记录留在 test-branch，临时测试工作树验收后移除；不占用用户在VS Code切换分支。下方旧工作树路径仅属历史说明。
 
 本轮进度补充（2026-10-04）：已完成一次算法优化，生产 fix/improve-detction-rate 本地提交 0d1883723ff7f43bc29fe3b3ec52f81f00ca131e；不要把下方历史交接中的“与2.1.0一致”当作当前状态，也不要撤销本轮补丁。完整438结果：113/269正确（42.0%），误标正文8.9%，97个视频广告基本跳完整。265项回归通过。详细收益、4个退化、25个validation未新增正确的限制，以及复现命令见 eval/experiments/content-438-optimization-20261004/NOTES.txt。未推送或发布；只按development迭代，最后评过validation，未据此继续调参。

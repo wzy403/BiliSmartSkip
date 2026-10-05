@@ -1,0 +1,1733 @@
+{
+  "schemaVersion": 1,
+  "kind": "development-only-heatmap-hypothesis-analysis",
+  "policy": {
+    "evaluatedCandidates": "Exactly one preselected current candidate per sampled development video, 12 correct and 12 wrong-keep.",
+    "rejection": "Candidate interval maximum / whole-video maximum is strictly below the fixed threshold.",
+    "thresholds": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "endWindowSeconds": 10,
+    "binConvention": "Exploratory approximation: treat each events.default sample as a flat window [i * step_sec, (i + 1) * step_sec), clipped to duration. This is not a reconstruction of the smoothed player graphic.",
+    "mean": "Overlap-duration-weighted within the candidate interval; percentile is the fraction of video bins <= the statistic.",
+    "missingPolicy": "Missing, invalid, flat, or incomplete candidate coverage is retained (abstain).",
+    "limits": [
+      "Stratified small diagnostic sample, not an estimate of population precision or recall.",
+      "Published curve semantics and collection dates may differ from viewer seek activity and stored detector inputs.",
+      "The player renders normalized points; nominal step windows here do not verify frame-accurate ad boundaries.",
+      "The ending ±10 second window is descriptive only, not used to select or tune the rejection thresholds.",
+      "Auxiliary user cases are displayed separately and excluded from correct/wrong-keep totals.",
+      "No production code, fixed labels, evaluator, or validation predictions are changed or run."
+    ]
+  },
+  "groups": {
+    "correct": {
+      "sampled": 12,
+      "decisionAvailable": 9,
+      "unavailableKept": 3,
+      "metrics": {
+        "interval": {
+          "maxRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.678072,
+            "median": 0.88518,
+            "p25": 0.435943,
+            "p75": 0.976908
+          },
+          "meanRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.42938,
+            "median": 0.415332,
+            "p25": 0.30381,
+            "p75": 0.58326
+          },
+          "maxVideoPercentile": {
+            "count": 9,
+            "mean": 0.979265,
+            "median": 0.978261,
+            "p25": 0.97561,
+            "p75": 0.989899
+          },
+          "meanVideoPercentile": {
+            "count": 9,
+            "mean": 0.906267,
+            "median": 0.910112,
+            "p25": 0.89011,
+            "p75": 0.926316
+          }
+        },
+        "endWindow": {
+          "maxRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.750143,
+            "median": 0.976908,
+            "p25": 0.523811,
+            "p75": 1
+          },
+          "meanRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.623032,
+            "median": 0.766667,
+            "p25": 0.452231,
+            "p75": 0.859279
+          },
+          "maxVideoPercentile": {
+            "count": 9,
+            "mean": 0.985522,
+            "median": 0.989899,
+            "p25": 0.977528,
+            "p75": 1
+          },
+          "meanVideoPercentile": {
+            "count": 9,
+            "mean": 0.958266,
+            "median": 0.967391,
+            "p25": 0.93617,
+            "p75": 0.97561
+          }
+        }
+      },
+      "thresholds": {
+        "0.25": {
+          "filtered": 2,
+          "retained": 10,
+          "filteredPredictionIds": [
+            "BV1kYVg6qEDx:current:0",
+            "BV13ptjzSETZ:current:0"
+          ]
+        },
+        "0.5": {
+          "filtered": 3,
+          "retained": 9,
+          "filteredPredictionIds": [
+            "BV1kYVg6qEDx:current:0",
+            "BV1B37E6bE7x:current:0",
+            "BV13ptjzSETZ:current:0"
+          ]
+        },
+        "0.75": {
+          "filtered": 4,
+          "retained": 8,
+          "filteredPredictionIds": [
+            "BV1seFHeFE8L:current:0",
+            "BV1kYVg6qEDx:current:0",
+            "BV1B37E6bE7x:current:0",
+            "BV13ptjzSETZ:current:0"
+          ]
+        }
+      }
+    },
+    "wrong-keep": {
+      "sampled": 12,
+      "decisionAvailable": 9,
+      "unavailableKept": 3,
+      "metrics": {
+        "interval": {
+          "maxRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.374206,
+            "median": 0.344044,
+            "p25": 0.243648,
+            "p75": 0.506503
+          },
+          "meanRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.215658,
+            "median": 0.213358,
+            "p25": 0.15352,
+            "p75": 0.3025
+          },
+          "maxVideoPercentile": {
+            "count": 9,
+            "mean": 0.843246,
+            "median": 0.929293,
+            "p25": 0.917526,
+            "p75": 0.979167
+          },
+          "meanVideoPercentile": {
+            "count": 9,
+            "mean": 0.71139,
+            "median": 0.742268,
+            "p25": 0.686869,
+            "p75": 0.91
+          }
+        },
+        "endWindow": {
+          "maxRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.465657,
+            "median": 0.243648,
+            "p25": 0.176195,
+            "p75": 1
+          },
+          "meanRelativeToVideoMax": {
+            "count": 9,
+            "mean": 0.319531,
+            "median": 0.186173,
+            "p25": 0.138294,
+            "p75": 0.476084
+          },
+          "maxVideoPercentile": {
+            "count": 9,
+            "mean": 0.7673,
+            "median": 0.929293,
+            "p25": 0.651163,
+            "p75": 1
+          },
+          "meanVideoPercentile": {
+            "count": 9,
+            "mean": 0.694499,
+            "median": 0.787879,
+            "p25": 0.534884,
+            "p75": 0.96
+          }
+        }
+      },
+      "thresholds": {
+        "0.25": {
+          "filtered": 3,
+          "retained": 9,
+          "filteredPredictionIds": [
+            "BV1fmn5zuEcT:current:0",
+            "BV1rNV56VERu:current:0",
+            "BV14ipFeZEub:current:0"
+          ]
+        },
+        "0.5": {
+          "filtered": 6,
+          "retained": 6,
+          "filteredPredictionIds": [
+            "BV1BVyBY9EEw:current:0",
+            "BV1fmn5zuEcT:current:0",
+            "BV167imYYEiP:current:0",
+            "BV1oewVzWEia:current:0",
+            "BV1rNV56VERu:current:0",
+            "BV14ipFeZEub:current:0"
+          ]
+        },
+        "0.75": {
+          "filtered": 8,
+          "retained": 4,
+          "filteredPredictionIds": [
+            "BV1BVyBY9EEw:current:0",
+            "BV1fmn5zuEcT:current:0",
+            "BV167imYYEiP:current:0",
+            "BV1oewVzWEia:current:0",
+            "BV1rNV56VERu:current:0",
+            "BV1yMQrBSE5H:current:0",
+            "BV14ipFeZEub:current:0",
+            "BV16y411v7qU:current:0"
+          ]
+        }
+      }
+    }
+  },
+  "videos": [
+    {
+      "bvid": "BV1BVyBY9EEw",
+      "cid": 26392005924,
+      "duration": 1030,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 12,
+        "coveredUntil": 1030,
+        "video": {
+          "bins": 86,
+          "minimum": 0,
+          "maximum": 3828,
+          "mean": 766.465116,
+          "median": 573.5,
+          "p25": 402.5,
+          "p75": 828.5,
+          "p90": 1245
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1BVyBY9EEw:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 710.721,
+          "end": 747.09,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 36.36900000000003,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 710.721,
+            "end": 747.09,
+            "bins": 4,
+            "coveredSeconds": 36.369,
+            "coverageFraction": 1,
+            "maximum": 1317,
+            "mean": 816.732987,
+            "maxRelativeToVideoMax": 0.344044,
+            "meanRelativeToVideoMax": 0.213358,
+            "maxVideoPercentile": 0.918605,
+            "meanVideoPercentile": 0.72093
+          },
+          "endWindow": {
+            "start": 737.09,
+            "end": 757.09,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 756,
+            "mean": 614.7165,
+            "maxRelativeToVideoMax": 0.197492,
+            "meanRelativeToVideoMax": 0.160584,
+            "maxVideoPercentile": 0.651163,
+            "meanVideoPercentile": 0.534884
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1fmn5zuEcT",
+      "cid": 32657772521,
+      "duration": 983,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 10,
+        "coveredUntil": 983,
+        "video": {
+          "bins": 99,
+          "minimum": 0,
+          "maximum": 4802,
+          "mean": 740.651515,
+          "median": 574,
+          "p25": 459.75,
+          "p75": 819.5,
+          "p90": 1077.6
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1fmn5zuEcT:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 65.099,
+          "end": 153.266,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 66.82699999999997,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 65.099,
+            "end": 153.266,
+            "bins": 10,
+            "coveredSeconds": 88.167,
+            "coverageFraction": 1,
+            "maximum": 1170,
+            "mean": 737.200977,
+            "maxRelativeToVideoMax": 0.243648,
+            "meanRelativeToVideoMax": 0.15352,
+            "maxVideoPercentile": 0.929293,
+            "meanVideoPercentile": 0.686869
+          },
+          "endWindow": {
+            "start": 143.266,
+            "end": 163.266,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 1170,
+            "mean": 894.00185,
+            "maxRelativeToVideoMax": 0.243648,
+            "meanRelativeToVideoMax": 0.186173,
+            "maxVideoPercentile": 0.929293,
+            "meanVideoPercentile": 0.787879
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": true,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV19swqzmE8o",
+      "cid": 25982474868,
+      "duration": 667,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 7,
+        "coveredUntil": 667,
+        "video": {
+          "bins": 96,
+          "minimum": 0,
+          "maximum": 18378,
+          "mean": 2122.723958,
+          "median": 1169.5,
+          "p25": 883,
+          "p75": 1909.875,
+          "p90": 3240.75
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV19swqzmE8o:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 106.651,
+          "end": 209.983,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 11.649000000000001,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 106.651,
+            "end": 209.983,
+            "bins": 15,
+            "coveredSeconds": 103.332,
+            "coverageFraction": 1,
+            "maximum": 14757,
+            "mean": 4263.458769,
+            "maxRelativeToVideoMax": 0.802971,
+            "meanRelativeToVideoMax": 0.231987,
+            "maxVideoPercentile": 0.989583,
+            "meanVideoPercentile": 0.916667
+          },
+          "endWindow": {
+            "start": 199.983,
+            "end": 219.983,
+            "bins": 4,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 18378,
+            "mean": 15200.2443,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.827089,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.989583
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV167imYYEiP",
+      "cid": 27173913360,
+      "duration": 955,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 10,
+        "coveredUntil": 955,
+        "video": {
+          "bins": 96,
+          "minimum": 0,
+          "maximum": 5172,
+          "mean": 909.354167,
+          "median": 632.75,
+          "p25": 458.875,
+          "p75": 1124.375,
+          "p90": 2008
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV167imYYEiP:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 178.66,
+          "end": 332,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 152.51999999999998,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 178.66,
+            "end": 332,
+            "bins": 17,
+            "coveredSeconds": 153.34,
+            "coverageFraction": 1,
+            "maximum": 2280,
+            "mean": 1564.532281,
+            "maxRelativeToVideoMax": 0.440835,
+            "meanRelativeToVideoMax": 0.3025,
+            "maxVideoPercentile": 0.979167,
+            "meanVideoPercentile": 0.84375
+          },
+          "endWindow": {
+            "start": 322,
+            "end": 342,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 5172,
+            "mean": 2035.65,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.39359,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.916667
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1oewVzWEia",
+      "cid": 36731291895,
+      "duration": 1252,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 13,
+        "coveredUntil": 1252,
+        "video": {
+          "bins": 97,
+          "minimum": 0,
+          "maximum": 14632,
+          "mean": 2223.979381,
+          "median": 1386,
+          "p25": 881,
+          "p75": 2730.5,
+          "p90": 3972.8
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1oewVzWEia:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 156.36,
+          "end": 245,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 88.63999999999999,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 156.36,
+            "end": 245,
+            "bins": 7,
+            "coveredSeconds": 88.64,
+            "coverageFraction": 1,
+            "maximum": 4110,
+            "mean": 2721.642599,
+            "maxRelativeToVideoMax": 0.280891,
+            "meanRelativeToVideoMax": 0.186006,
+            "maxVideoPercentile": 0.917526,
+            "meanVideoPercentile": 0.742268
+          },
+          "endWindow": {
+            "start": 235,
+            "end": 255,
+            "bins": 2,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 908.5,
+            "mean": 873.7,
+            "maxRelativeToVideoMax": 0.06209,
+            "meanRelativeToVideoMax": 0.059712,
+            "maxVideoPercentile": 0.340206,
+            "meanVideoPercentile": 0.247423
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1WJ4m1E718",
+      "cid": 1525504087,
+      "duration": 909,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "unavailable",
+        "reason": "not enough seek info:5"
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1WJ4m1E718:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 68.32,
+          "end": 165,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0.539999999999992,
+          "status": "wrong-keep",
+          "interval": null,
+          "endWindow": null,
+          "decisionAvailable": false,
+          "abstentionReason": "unavailable",
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1bY4y1v7Mb",
+      "cid": 564881041,
+      "duration": 679,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "unavailable",
+        "reason": "not enough seek info:20"
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1bY4y1v7Mb:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 61.89,
+          "end": 75,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 13.11,
+          "status": "wrong-keep",
+          "interval": null,
+          "endWindow": null,
+          "decisionAvailable": false,
+          "abstentionReason": "unavailable",
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1rNV56VERu",
+      "cid": 38724570727,
+      "duration": 1052,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 14,
+        "coveredUntil": 1052,
+        "video": {
+          "bins": 76,
+          "minimum": 0,
+          "maximum": 293067,
+          "mean": 35447.078947,
+          "median": 12036,
+          "p25": 8505.125,
+          "p75": 34770.375,
+          "p90": 103835.5
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1rNV56VERu:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 452.031,
+          "end": 535.29,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 62.20100000000025,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 452.031,
+            "end": 535.29,
+            "bins": 7,
+            "coveredSeconds": 83.259,
+            "coverageFraction": 1,
+            "maximum": 51637,
+            "mean": 17162.123326,
+            "maxRelativeToVideoMax": 0.176195,
+            "meanRelativeToVideoMax": 0.05856,
+            "maxVideoPercentile": 0.815789,
+            "meanVideoPercentile": 0.565789
+          },
+          "endWindow": {
+            "start": 525.29,
+            "end": 545.29,
+            "bins": 2,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 51637,
+            "mean": 40529.266,
+            "maxRelativeToVideoMax": 0.176195,
+            "meanRelativeToVideoMax": 0.138294,
+            "maxVideoPercentile": 0.815789,
+            "meanVideoPercentile": 0.776316
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": true,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1yMQrBSE5H",
+      "cid": 36947034543,
+      "duration": 404,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 4,
+        "coveredUntil": 400,
+        "video": {
+          "bins": 100,
+          "minimum": 0,
+          "maximum": 2155,
+          "mean": 327.63,
+          "median": 199.5,
+          "p25": 117.75,
+          "p75": 354,
+          "p90": 602.3
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1yMQrBSE5H:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 137.42,
+          "end": 156,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 7.320000000000022,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 137.42,
+            "end": 156,
+            "bins": 5,
+            "coveredSeconds": 18.58,
+            "coverageFraction": 1,
+            "maximum": 1225,
+            "mean": 705.477933,
+            "maxRelativeToVideoMax": 0.568445,
+            "meanRelativeToVideoMax": 0.327368,
+            "maxVideoPercentile": 0.95,
+            "meanVideoPercentile": 0.91
+          },
+          "endWindow": {
+            "start": 146,
+            "end": 166,
+            "bins": 6,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 2155,
+            "mean": 1357.9,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.630116,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.96
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV14ipFeZEub",
+      "cid": 25733891016,
+      "duration": 998,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 10,
+        "coveredUntil": 998,
+        "video": {
+          "bins": 100,
+          "minimum": 0,
+          "maximum": 109595,
+          "mean": 2626.265,
+          "median": 666.5,
+          "p25": 574.875,
+          "p75": 1024.125,
+          "p90": 1816.85
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV14ipFeZEub:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 596.4,
+          "end": 631,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 34.60000000000002,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 596.4,
+            "end": 631,
+            "bins": 5,
+            "coveredSeconds": 34.6,
+            "coverageFraction": 1,
+            "maximum": 474,
+            "mean": 447.5,
+            "maxRelativeToVideoMax": 0.004325,
+            "meanRelativeToVideoMax": 0.004083,
+            "maxVideoPercentile": 0.1,
+            "meanVideoPercentile": 0.07
+          },
+          "endWindow": {
+            "start": 621,
+            "end": 641,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 546.5,
+            "mean": 453.3,
+            "maxRelativeToVideoMax": 0.004987,
+            "meanRelativeToVideoMax": 0.004136,
+            "maxVideoPercentile": 0.18,
+            "meanVideoPercentile": 0.07
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": true,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Sw411C7Kj",
+      "cid": 1303489691,
+      "duration": 1194,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "unavailable",
+        "reason": "not enough seek info:37"
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1Sw411C7Kj:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 103.753,
+          "end": 146.316,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 39.236000000000004,
+          "status": "wrong-keep",
+          "interval": null,
+          "endWindow": null,
+          "decisionAvailable": false,
+          "abstentionReason": "unavailable",
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV16y411v7qU",
+      "cid": 25641093605,
+      "duration": 648,
+      "selectedReason": "wrong-keep",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 7,
+        "coveredUntil": 648,
+        "video": {
+          "bins": 93,
+          "minimum": 0,
+          "maximum": 2076,
+          "mean": 538.247312,
+          "median": 511.5,
+          "p25": 358,
+          "p75": 738.5,
+          "p90": 922.5
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV16y411v7qU:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 418.76,
+          "end": 446,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 27.24000000000001,
+          "status": "wrong-keep",
+          "interval": {
+            "start": 418.76,
+            "end": 446,
+            "bins": 5,
+            "coveredSeconds": 27.24,
+            "coverageFraction": 1,
+            "maximum": 1051.5,
+            "mean": 962.309838,
+            "maxRelativeToVideoMax": 0.506503,
+            "meanRelativeToVideoMax": 0.46354,
+            "maxVideoPercentile": 0.989247,
+            "meanVideoPercentile": 0.946237
+          },
+          "endWindow": {
+            "start": 436,
+            "end": 456,
+            "bins": 4,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 1051.5,
+            "mean": 988.35,
+            "maxRelativeToVideoMax": 0.506503,
+            "meanRelativeToVideoMax": 0.476084,
+            "maxVideoPercentile": 0.989247,
+            "meanVideoPercentile": 0.967742
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Yz5k62E3y",
+      "cid": 38301469922,
+      "duration": 946,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 10,
+        "coveredUntil": 946,
+        "video": {
+          "bins": 95,
+          "minimum": 0,
+          "maximum": 186342,
+          "mean": 33745.573684,
+          "median": 18198,
+          "p25": 13849.25,
+          "p75": 34368.25,
+          "p90": 85957.2
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1Yz5k62E3y:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 63.62,
+          "end": 151,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 63.62,
+            "end": 151,
+            "bins": 10,
+            "coveredSeconds": 87.38,
+            "coverageFraction": 1,
+            "maximum": 186342,
+            "mean": 108685.777867,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.58326,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.926316
+          },
+          "endWindow": {
+            "start": 141,
+            "end": 161,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 186342,
+            "mean": 162226.15,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.870583,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.989474
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1xgtNeSEPK",
+      "cid": 25653026304,
+      "duration": 509,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 6,
+        "coveredUntil": 509,
+        "video": {
+          "bins": 85,
+          "minimum": 0,
+          "maximum": 2356,
+          "mean": 634.294118,
+          "median": 420.5,
+          "p25": 343,
+          "p75": 601.5,
+          "p90": 1379.8
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1xgtNeSEPK:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 254.299,
+          "end": 304,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 254.299,
+            "end": 304,
+            "bins": 9,
+            "coveredSeconds": 49.701,
+            "coverageFraction": 1,
+            "maximum": 2356,
+            "mean": 2027.737872,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.86067,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.905882
+          },
+          "endWindow": {
+            "start": 294,
+            "end": 314,
+            "bins": 4,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 2356,
+            "mean": 2159.05,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.916405,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.929412
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Q6YqzxEWD",
+      "cid": 31740461497,
+      "duration": 301,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "unavailable",
+        "reason": "not enough seek info:0"
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1Q6YqzxEWD:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 72.24,
+          "end": 124,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": null,
+          "endWindow": null,
+          "decisionAvailable": false,
+          "abstentionReason": "unavailable",
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1sFg3zEEbU",
+      "cid": 31123245187,
+      "duration": 366,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 4,
+        "coveredUntil": 366,
+        "video": {
+          "bins": 92,
+          "minimum": 0,
+          "maximum": 1884,
+          "mean": 287.108696,
+          "median": 106.5,
+          "p25": 86,
+          "p75": 244.25,
+          "p90": 880.3
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1sFg3zEEbU:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 142.13,
+          "end": 202,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 142.13,
+            "end": 202,
+            "bins": 16,
+            "coveredSeconds": 59.87,
+            "coverageFraction": 1,
+            "maximum": 1696,
+            "mean": 764.436112,
+            "maxRelativeToVideoMax": 0.900212,
+            "meanRelativeToVideoMax": 0.405752,
+            "maxVideoPercentile": 0.98913,
+            "meanVideoPercentile": 0.869565
+          },
+          "endWindow": {
+            "start": 192,
+            "end": 212,
+            "bins": 5,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 1884,
+            "mean": 1444.4,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.766667,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.978261
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1seFHeFE8L",
+      "cid": 28125168470,
+      "duration": 533,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 13,
+        "coveredUntil": 533,
+        "video": {
+          "bins": 41,
+          "minimum": 0,
+          "maximum": 56089.5,
+          "mean": 11902.5,
+          "median": 7294,
+          "p25": 6168,
+          "p75": 12793,
+          "p90": 28438.5
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1seFHeFE8L:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 206.96,
+          "end": 257,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 206.96,
+            "end": 257,
+            "bins": 5,
+            "coveredSeconds": 50.04,
+            "coverageFraction": 1,
+            "maximum": 40197,
+            "mean": 31278.028377,
+            "maxRelativeToVideoMax": 0.716658,
+            "meanRelativeToVideoMax": 0.557645,
+            "maxVideoPercentile": 0.97561,
+            "meanVideoPercentile": 0.95122
+          },
+          "endWindow": {
+            "start": 247,
+            "end": 267,
+            "bins": 2,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 56089.5,
+            "mean": 45759.375,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.815828,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.97561
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1CnH5zDEMu",
+      "cid": 32821544196,
+      "duration": 847,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "unavailable",
+        "reason": "not enough dm:7"
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1CnH5zDEMu:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 62.94,
+          "end": 131.16,
+          "source": "segment-detector",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": null,
+          "endWindow": null,
+          "decisionAvailable": false,
+          "abstentionReason": "unavailable",
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "cid": 32939511456,
+      "duration": 874,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "unavailable",
+        "reason": "not enough dm:10"
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1vpxkzZEeQ:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 536.81,
+          "end": 601,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": null,
+          "endWindow": null,
+          "decisionAvailable": false,
+          "abstentionReason": "unavailable",
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1kYVg6qEDx",
+      "cid": 38713232483,
+      "duration": 1033,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 11,
+        "coveredUntil": 1033,
+        "video": {
+          "bins": 94,
+          "minimum": 0,
+          "maximum": 2390256,
+          "mean": 116582.81383,
+          "median": 26037.5,
+          "p25": 13060.25,
+          "p75": 95775.5,
+          "p90": 263746.35
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1kYVg6qEDx:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 291.73,
+          "end": 410,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 291.73,
+            "end": 410,
+            "bins": 12,
+            "coveredSeconds": 118.27,
+            "coverageFraction": 1,
+            "maximum": 315703.5,
+            "mean": 204783.691849,
+            "maxRelativeToVideoMax": 0.132079,
+            "meanRelativeToVideoMax": 0.085674,
+            "maxVideoPercentile": 0.93617,
+            "meanVideoPercentile": 0.829787
+          },
+          "endWindow": {
+            "start": 400,
+            "end": 420,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 603575,
+            "mean": 320915.7,
+            "maxRelativeToVideoMax": 0.252515,
+            "meanRelativeToVideoMax": 0.13426,
+            "maxVideoPercentile": 0.968085,
+            "meanVideoPercentile": 0.93617
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": true,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1B37E6bE7x",
+      "cid": 39441468483,
+      "duration": 705,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 8,
+        "coveredUntil": 705,
+        "video": {
+          "bins": 89,
+          "minimum": 0,
+          "maximum": 241690,
+          "mean": 23558.505618,
+          "median": 8769,
+          "p25": 6730,
+          "p75": 19322,
+          "p90": 72336.6
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1B37E6bE7x:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 318.38,
+          "end": 392,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 318.38,
+            "end": 392,
+            "bins": 10,
+            "coveredSeconds": 73.62,
+            "coverageFraction": 1,
+            "maximum": 105363,
+            "mean": 73427.870687,
+            "maxRelativeToVideoMax": 0.435943,
+            "meanRelativeToVideoMax": 0.30381,
+            "maxVideoPercentile": 0.966292,
+            "meanVideoPercentile": 0.910112
+          },
+          "endWindow": {
+            "start": 382,
+            "end": 402,
+            "bins": 4,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 126600,
+            "mean": 109299.8,
+            "maxRelativeToVideoMax": 0.523811,
+            "meanRelativeToVideoMax": 0.452231,
+            "maxVideoPercentile": 0.977528,
+            "meanVideoPercentile": 0.966292
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1gGJw6rEYa",
+      "cid": 39112803888,
+      "duration": 691,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 7,
+        "coveredUntil": 691,
+        "video": {
+          "bins": 99,
+          "minimum": 0,
+          "maximum": 403299,
+          "mean": 45604.79798,
+          "median": 26366,
+          "p25": 21267.25,
+          "p75": 39525.75,
+          "p90": 71240.3
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1gGJw6rEYa:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 159,
+          "end": 192,
+          "source": "segment-detector",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 159,
+            "end": 192,
+            "bins": 6,
+            "coveredSeconds": 33,
+            "coverageFraction": 1,
+            "maximum": 393986,
+            "mean": 167502.818182,
+            "maxRelativeToVideoMax": 0.976908,
+            "meanRelativeToVideoMax": 0.415332,
+            "maxVideoPercentile": 0.989899,
+            "meanVideoPercentile": 0.949495
+          },
+          "endWindow": {
+            "start": 182,
+            "end": 202,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 393986,
+            "mean": 308112.85,
+            "maxRelativeToVideoMax": 0.976908,
+            "meanRelativeToVideoMax": 0.763981,
+            "maxVideoPercentile": 0.989899,
+            "meanVideoPercentile": 0.969697
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV1aJ4m1H7r9",
+      "cid": 1511183670,
+      "duration": 643,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 7,
+        "coveredUntil": 643,
+        "video": {
+          "bins": 92,
+          "minimum": 0,
+          "maximum": 2247,
+          "mean": 484.673913,
+          "median": 291.5,
+          "p25": 254.375,
+          "p75": 446.5,
+          "p90": 1244.4
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1aJ4m1H7r9:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 416.8,
+          "end": 475,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 416.8,
+            "end": 475,
+            "bins": 9,
+            "coveredSeconds": 58.2,
+            "coverageFraction": 1,
+            "maximum": 1989,
+            "mean": 1414.195876,
+            "maxRelativeToVideoMax": 0.88518,
+            "meanRelativeToVideoMax": 0.629371,
+            "maxVideoPercentile": 0.978261,
+            "meanVideoPercentile": 0.923913
+          },
+          "endWindow": {
+            "start": 465,
+            "end": 485,
+            "bins": 4,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 2135,
+            "mean": 1930.8,
+            "maxRelativeToVideoMax": 0.950156,
+            "meanRelativeToVideoMax": 0.859279,
+            "maxVideoPercentile": 0.98913,
+            "meanVideoPercentile": 0.967391
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    },
+    {
+      "bvid": "BV13ptjzSETZ",
+      "cid": 31493721117,
+      "duration": 909,
+      "selectedReason": "correct",
+      "auxiliary": false,
+      "curve": {
+        "status": "available",
+        "step": 10,
+        "coveredUntil": 909,
+        "video": {
+          "bins": 91,
+          "minimum": 0,
+          "maximum": 1140864,
+          "mean": 22399.950549,
+          "median": 3777.5,
+          "p25": 2466.25,
+          "p75": 7008.5,
+          "p90": 28217
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV13ptjzSETZ:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 162.46,
+          "end": 205,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct",
+          "interval": {
+            "start": 162.46,
+            "end": 205,
+            "bins": 5,
+            "coveredSeconds": 42.54,
+            "coverageFraction": 1,
+            "maximum": 63512,
+            "mean": 26129.945463,
+            "maxRelativeToVideoMax": 0.05567,
+            "meanRelativeToVideoMax": 0.022904,
+            "maxVideoPercentile": 0.978022,
+            "meanVideoPercentile": 0.89011
+          },
+          "endWindow": {
+            "start": 195,
+            "end": 215,
+            "bins": 3,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 54649,
+            "mean": 32009.125,
+            "maxRelativeToVideoMax": 0.047901,
+            "meanRelativeToVideoMax": 0.028057,
+            "maxVideoPercentile": 0.945055,
+            "meanVideoPercentile": 0.912088
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": true,
+            "0.5": true,
+            "0.75": true
+          }
+        }
+      ]
+    }
+  ],
+  "auxiliaryCases": [
+    {
+      "bvid": "BV1r1421r7am",
+      "cid": 1583131909,
+      "duration": 407,
+      "selectedReason": "User-reported earlier false prompt; separate from the fixed 438 benchmark.",
+      "auxiliary": true,
+      "curve": {
+        "status": "available",
+        "step": 5,
+        "coveredUntil": 407,
+        "video": {
+          "bins": 82,
+          "minimum": 0,
+          "maximum": 2299,
+          "mean": 664.603659,
+          "median": 520,
+          "p25": 439.125,
+          "p75": 709.875,
+          "p90": 1245
+        }
+      },
+      "predictions": [
+        {
+          "predictionId": "BV1r1421r7am:historical-fp",
+          "start": 294.089,
+          "end": 326,
+          "status": "historical-user-fp",
+          "selectedForComparison": false,
+          "interval": {
+            "start": 294.089,
+            "end": 326,
+            "bins": 8,
+            "coveredSeconds": 31.911,
+            "coverageFraction": 1,
+            "maximum": 674.5,
+            "mean": 459.374307,
+            "maxRelativeToVideoMax": 0.293388,
+            "meanRelativeToVideoMax": 0.199815,
+            "maxVideoPercentile": 0.719512,
+            "meanVideoPercentile": 0.304878
+          },
+          "endWindow": {
+            "start": 316,
+            "end": 336,
+            "bins": 5,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 586.5,
+            "mean": 419.45,
+            "maxRelativeToVideoMax": 0.255111,
+            "meanRelativeToVideoMax": 0.182449,
+            "maxVideoPercentile": 0.621951,
+            "meanVideoPercentile": 0.219512
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": true,
+            "0.75": true
+          }
+        },
+        {
+          "predictionId": "BV1r1421r7am:current-anonymous-replay",
+          "start": 349.262,
+          "end": 370,
+          "status": "current-anonymous-replay",
+          "selectedForComparison": false,
+          "interval": {
+            "start": 349.262,
+            "end": 370,
+            "bins": 5,
+            "coveredSeconds": 20.738,
+            "coverageFraction": 1,
+            "maximum": 2006.5,
+            "mean": 1430.498553,
+            "maxRelativeToVideoMax": 0.872771,
+            "meanRelativeToVideoMax": 0.622226,
+            "maxVideoPercentile": 0.987805,
+            "meanVideoPercentile": 0.939024
+          },
+          "endWindow": {
+            "start": 360,
+            "end": 380,
+            "bins": 4,
+            "coveredSeconds": 20,
+            "coverageFraction": 1,
+            "maximum": 2299,
+            "mean": 1859,
+            "maxRelativeToVideoMax": 1,
+            "meanRelativeToVideoMax": 0.808612,
+            "maxVideoPercentile": 1,
+            "meanVideoPercentile": 0.97561
+          },
+          "decisionAvailable": true,
+          "abstentionReason": null,
+          "rejectAtThreshold": {
+            "0.25": false,
+            "0.5": false,
+            "0.75": false
+          }
+        }
+      ]
+    }
+  ]
+}

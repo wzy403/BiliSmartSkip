@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "kind": "development-only-stratified-heatmap-diagnostic",
+  "selection": {
+    "reportPath": "eval/experiments/content-438-optimization-20261004/all-markings.json",
+    "reportSha256": "b2d38f36df5086af169bb25a5209f5ebaa5555f83927a2607f64beb99308a0f0",
+    "manifestPath": "eval/benchmarks/content-438-v1/manifest.json",
+    "manifestSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+    "version": "current",
+    "developmentVideos": 413,
+    "perStratum": 12,
+    "order": "Ascending sha256(bvid); wrong-keep first, then correct excluding selected videos; first matching prediction in existing order.",
+    "groups": {
+      "wrong-keep": {
+        "eligibleVideos": 23,
+        "selectedVideos": 12
+      },
+      "correct": {
+        "eligibleVideos": 112,
+        "selectedVideos": 12
+      }
+    },
+    "thresholdsFrozenBeforeHeatmapFetch": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "validationPredictionsInspected": false,
+    "labelFilesOpened": false,
+    "caveat": "Outcome-stratified diagnostic sample; not a population estimate or a new benchmark. Existing labels only select/evaluate the sample and never enter a detector."
+  },
+  "videos": [
+    {
+      "bvid": "BV1BVyBY9EEw",
+      "cid": 26392005924,
+      "duration": 1030,
+      "split": "development",
+      "title": "胎生的起源：神圣的脐带如何连接我们的命运",
+      "sampleOrderSha256": "0f64f28d80c31a5fcc652210c83439e8813b05aec4ff86c6aacd1ac62d820881",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1BVyBY9EEw:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1BVyBY9EEw:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 710.721,
+          "end": 747.09,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 36.36900000000003,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1fmn5zuEcT",
+      "cid": 32657772521,
+      "duration": 983,
+      "split": "development",
+      "title": "能点火？扛子弹？30年前的手机能干嘛？",
+      "sampleOrderSha256": "16b15d87df2d53886549bdcef32477be2271f5b6eb6b59bb32c4d99eb4a85ab1",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1fmn5zuEcT:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1fmn5zuEcT:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 65.099,
+          "end": 153.266,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 66.82699999999997,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV19swqzmE8o",
+      "cid": 25982474868,
+      "duration": 667,
+      "split": "development",
+      "title": "《蜘蛛侠4》预告逐帧解析！不靠爹！真蛛丝！漫威又行了？",
+      "sampleOrderSha256": "23b0f38f3bd7a678fc878b68c661ccb9e8dc639ccd11688c92e899aee7a482e5",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV19swqzmE8o:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV19swqzmE8o:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 106.651,
+          "end": 209.983,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 11.649000000000001,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV167imYYEiP",
+      "cid": 27173913360,
+      "duration": 955,
+      "split": "development",
+      "title": "便宜到按斤称“网红美食”吃一口扔一桶？？",
+      "sampleOrderSha256": "28e1506e6cae2b8539dbbe7ef407f5e78ec1f682d3850ccb4a70c817a8114d7b",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV167imYYEiP:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV167imYYEiP:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 178.66,
+          "end": 332,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 152.51999999999998,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1oewVzWEia",
+      "cid": 36731291895,
+      "duration": 1252,
+      "split": "development",
+      "title": "伊朗真支棱起来了",
+      "sampleOrderSha256": "3b75ff228c08551dd460bba8adc2e6568491bde966b5b82db9fe1f646a50f73d",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1oewVzWEia:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1oewVzWEia:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 156.36,
+          "end": 245,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 88.63999999999999,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1WJ4m1E718",
+      "cid": 1525504087,
+      "duration": 909,
+      "split": "development",
+      "title": "西帅：乌军“战术性撤退”！俄军再次攻克3个据点！【俄乌沙盘4月30日】",
+      "sampleOrderSha256": "3cb8f81a999bd330919d94183b03ee3176dda074f03b6be22f165178ecb9a54b",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1WJ4m1E718:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1WJ4m1E718:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 68.32,
+          "end": 165,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0.539999999999992,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1bY4y1v7Mb",
+      "cid": 564881041,
+      "duration": 679,
+      "split": "development",
+      "title": "【官方双语】评  测  视  频（基本不含赞助内容）#linus谈科技",
+      "sampleOrderSha256": "75209703847eaf2efc03024a7a7397e9a6f071b334a95b12f70910203184a9a9",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1bY4y1v7Mb:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1bY4y1v7Mb:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 61.89,
+          "end": 75,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 13.11,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1rNV56VERu",
+      "cid": 38724570727,
+      "duration": 1052,
+      "split": "development",
+      "title": "印度选举魔幻现实大战！",
+      "sampleOrderSha256": "78f3f2943ca761428212a4f6162ad755324c1038282fc897857281525066511d",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1rNV56VERu:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1rNV56VERu:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 452.031,
+          "end": 535.29,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 62.20100000000025,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1yMQrBSE5H",
+      "cid": 36947034543,
+      "duration": 404,
+      "split": "development",
+      "title": "【Virre出品】被CS2职业哥干拉是什么体验",
+      "sampleOrderSha256": "85ef1b3e1215fb611eae481b1ef695cc999d57a6b045039f587a6dc1a14a2d5c",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1yMQrBSE5H:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1yMQrBSE5H:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 137.42,
+          "end": 156,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 7.320000000000022,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV14ipFeZEub",
+      "cid": 25733891016,
+      "duration": 998,
+      "split": "development",
+      "title": "假如没有那颗陨石，恐龙会演化成什么样",
+      "sampleOrderSha256": "8aa492cc39404ae55e206fde2560fb17e469f13a2839e4f4d6dcd73ded026a90",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV14ipFeZEub:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV14ipFeZEub:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 596.4,
+          "end": 631,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 34.60000000000002,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Sw411C7Kj",
+      "cid": 1303489691,
+      "duration": 1194,
+      "split": "development",
+      "title": "自驾山东沿海，登顶全国最小的山，仅0.6米还没玉米高！",
+      "sampleOrderSha256": "957611413d6f96a6857b8e43bfdef3a7fab438b43aaeff02aed4e5ea0bf9a21d",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV1Sw411C7Kj:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1Sw411C7Kj:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 103.753,
+          "end": 146.316,
+          "source": "danmaku-keywords",
+          "extraKeepSeconds": 39.236000000000004,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV16y411v7qU",
+      "cid": 25641093605,
+      "duration": 648,
+      "split": "development",
+      "title": "探秘鸡的神秘部位，解锁鸡都哪里不能吃",
+      "sampleOrderSha256": "9dad85f64ef0fcfec1a1003d6c68fc0ae2a34425947dad70638f23edb897b1e5",
+      "selectedReason": "wrong-keep",
+      "selectedPredictionId": "BV16y411v7qU:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV16y411v7qU:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 418.76,
+          "end": 446,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 27.24000000000001,
+          "status": "wrong-keep"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Yz5k62E3y",
+      "cid": 38301469922,
+      "duration": 946,
+      "split": "development",
+      "title": "退伍军人带北方工业步枪+2千发弹药+燃烧弹血洗大教堂，警民联手惊天大营救！",
+      "sampleOrderSha256": "035ede5a2347809bbbbe7c0ec732bd8c4641812743d576142ab7b206dd590bf9",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1Yz5k62E3y:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1Yz5k62E3y:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 63.62,
+          "end": 151,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1xgtNeSEPK",
+      "cid": 25653026304,
+      "duration": 509,
+      "split": "development",
+      "title": "【西部疯味】尝尝咱们在地里埋了一年的硬饼干-永远不过期的饼干？！",
+      "sampleOrderSha256": "03b60300a8785201037e826e7403f48cdd3b544fc262028db0ae0c5721d21174",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1xgtNeSEPK:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1xgtNeSEPK:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 254.299,
+          "end": 304,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1Q6YqzxEWD",
+      "cid": 31740461497,
+      "duration": 301,
+      "split": "development",
+      "title": "小狗尿急站车尾，顶着狂风撒尿竟能向前飘？到底是啥原理？",
+      "sampleOrderSha256": "0539a740ce8111a45e868ee99d787e67e0230be4b714aafeb6a90c3ae764d558",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1Q6YqzxEWD:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1Q6YqzxEWD:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 72.24,
+          "end": 124,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1sFg3zEEbU",
+      "cid": 31123245187,
+      "duration": 366,
+      "split": "development",
+      "title": "进攻型驾驶，老司机被迫pit！",
+      "sampleOrderSha256": "098bb8b5e39de84866c0ddcc642ef211cefb975258b8d384417561751c4df7f2",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1sFg3zEEbU:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1sFg3zEEbU:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 142.13,
+          "end": 202,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1seFHeFE8L",
+      "cid": 28125168470,
+      "duration": 533,
+      "split": "development",
+      "title": "隐藏在沙漠中的神秘洞穴，四人洞内潜水接连失踪，美国魔鬼洞事件",
+      "sampleOrderSha256": "0b3623581efb1ecb8051ff1c2bae93cbb3f5f6423b7bab2f3c61978777ce87fa",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1seFHeFE8L:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1seFHeFE8L:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 206.96,
+          "end": 257,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1CnH5zDEMu",
+      "cid": 32821544196,
+      "duration": 847,
+      "split": "development",
+      "title": "我又去淘宝挖“隐藏宝贝”了！",
+      "sampleOrderSha256": "0bae30fa574754b7e1366fa2b23b1625a33e20be06b6607740de52b6aee2e670",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1CnH5zDEMu:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1CnH5zDEMu:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 62.94,
+          "end": 131.16,
+          "source": "segment-detector",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "cid": 32939511456,
+      "duration": 874,
+      "split": "development",
+      "title": "奇异消亡的用户界面",
+      "sampleOrderSha256": "10d23401ab73f4645777b18d80138cc9c833197e7d5e54ee65b370c116026de4",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1vpxkzZEeQ:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1vpxkzZEeQ:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 536.81,
+          "end": 601,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1kYVg6qEDx",
+      "cid": 38713232483,
+      "duration": 1033,
+      "split": "development",
+      "title": "美国人等了250年，终于等来了万税爷80大寿",
+      "sampleOrderSha256": "120bbfb2e482d0261e52e51b276f504e8a5ca3a7a3c8faba6243c423d02399fc",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1kYVg6qEDx:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1kYVg6qEDx:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 291.73,
+          "end": 410,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1B37E6bE7x",
+      "cid": 39441468483,
+      "duration": 705,
+      "split": "development",
+      "title": "山东的沙雕新闻竞争的真激烈啊！",
+      "sampleOrderSha256": "14fc89d0cab7a97c469a280e27f509ce6ebca005d9d06de6b5c99f0e8515a97a",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1B37E6bE7x:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1B37E6bE7x:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 318.38,
+          "end": 392,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1gGJw6rEYa",
+      "cid": 39112803888,
+      "duration": 691,
+      "split": "development",
+      "title": "男子孤身驾车进入罗布泊无人区，失踪两年后被人意外找到",
+      "sampleOrderSha256": "18d7c0435388169b73b5574778a33a638d93872ecff20c5fa96cec9d36f645e2",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1gGJw6rEYa:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1gGJw6rEYa:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 159,
+          "end": 192,
+          "source": "segment-detector",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV1aJ4m1H7r9",
+      "cid": 1511183670,
+      "duration": 643,
+      "split": "development",
+      "title": "口含大蒜 向法餐宣战——墨索里尼的餐桌",
+      "sampleOrderSha256": "1a95a0e1d5c8110e378042b03f7ff213a82f72f2100eb6bcdec881a58f81e373",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV1aJ4m1H7r9:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV1aJ4m1H7r9:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 416.8,
+          "end": 475,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    },
+    {
+      "bvid": "BV13ptjzSETZ",
+      "cid": 31493721117,
+      "duration": 909,
+      "split": "development",
+      "title": "《锻刀大赛》惊现中国神器 子午鸳鸯钺！狗哥爱不释手 刀刀暴击",
+      "sampleOrderSha256": "20cdbd8751f4f84bb5f61722bc9422f982cc6aeebb26c496ec038403540d53b9",
+      "selectedReason": "correct",
+      "selectedPredictionId": "BV13ptjzSETZ:current:0",
+      "predictions": [
+        {
+          "predictionId": "BV13ptjzSETZ:current:0",
+          "predictionIndex": 0,
+          "selectedForComparison": true,
+          "start": 162.46,
+          "end": 205,
+          "source": "danmaku-time",
+          "extraKeepSeconds": 0,
+          "status": "correct"
+        }
+      ]
+    }
+  ],
+  "auxiliaryCases": [
+    {
+      "bvid": "BV1r1421r7am",
+      "cid": 1583131909,
+      "duration": 407,
+      "selectedReason": "User-reported earlier false prompt; separate from the fixed 438 benchmark.",
+      "predictions": [
+        {
+          "predictionId": "BV1r1421r7am:historical-fp",
+          "start": 294.089,
+          "end": 326,
+          "status": "historical-user-fp",
+          "selectedForComparison": false
+        },
+        {
+          "predictionId": "BV1r1421r7am:current-anonymous-replay",
+          "start": 349.262,
+          "end": 370,
+          "status": "current-anonymous-replay",
+          "selectedForComparison": false
+        }
+      ],
+      "caveat": "The user previously corrected the real ad to about 351–372 seconds. Current logged-in input and the latest earlier prompt are not reproduced by this anonymous snapshot."
+    }
+  ]
+}

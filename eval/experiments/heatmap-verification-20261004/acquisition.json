@@ -1,0 +1,258 @@
+{
+  "capturedAt": "2026-10-05T02:21:14.290Z",
+  "sampleSha256": "a662ef83e0c4ca0fa992dedad06d98205ff4f3c2f15ec58338774c890455c17e",
+  "schema": "modules[name=pbp].params.data",
+  "credentials": "none",
+  "records": [
+    {
+      "bvid": "BV1BVyBY9EEw",
+      "cid": 26392005924,
+      "capturedAt": "2026-10-05T02:21:14.294Z",
+      "metadataStatus": 200,
+      "aid": 113344019242945,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=113344019242945&cid=26392005924&bvid=BV1BVyBY9EEw&r=loader",
+      "heatStatus": 200,
+      "sha256": "97c2d7e013fd926078e2ff3bddc287d9a0fdd760b68eeb8c4dc4bcd3d0c24cb9"
+    },
+    {
+      "bvid": "BV1fmn5zuEcT",
+      "cid": 32657772521,
+      "capturedAt": "2026-10-05T02:21:15.446Z",
+      "metadataStatus": 200,
+      "aid": 115271687803542,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=115271687803542&cid=32657772521&bvid=BV1fmn5zuEcT&r=loader",
+      "heatStatus": 200,
+      "sha256": "55fdf456ece12055e795a5a2853c298532cf16bf33aa05a52bdeab52a4e99486"
+    },
+    {
+      "bvid": "BV19swqzmE8o",
+      "cid": 25982474868,
+      "capturedAt": "2026-10-05T02:21:16.362Z",
+      "metadataStatus": 200,
+      "aid": 116251695258130,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116251695258130&cid=25982474868&bvid=BV19swqzmE8o&r=loader",
+      "heatStatus": 200,
+      "sha256": "cbfdccab879132304c9fe234e7dd5ea3c6c05df569d3c1d53141d942c7c19b6c"
+    },
+    {
+      "bvid": "BV167imYYEiP",
+      "cid": 27173913360,
+      "capturedAt": "2026-10-05T02:21:17.340Z",
+      "metadataStatus": 200,
+      "aid": 113593429263909,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=113593429263909&cid=27173913360&bvid=BV167imYYEiP&r=loader",
+      "heatStatus": 200,
+      "sha256": "ecae3d9c61cc7d3f597ebebefdf4c4ae3b3b133cea99ca56eb0eb7f1f20a9fb8"
+    },
+    {
+      "bvid": "BV1oewVzWEia",
+      "cid": 36731291895,
+      "capturedAt": "2026-10-05T02:21:18.193Z",
+      "metadataStatus": 200,
+      "aid": 116236696422090,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116236696422090&cid=36731291895&bvid=BV1oewVzWEia&r=loader",
+      "heatStatus": 200,
+      "sha256": "23f6c584baca0207b7f0cbdd591ffd298c72db206b9811d7d3bfef2a5ecf39d1"
+    },
+    {
+      "bvid": "BV1WJ4m1E718",
+      "cid": 1525504087,
+      "capturedAt": "2026-10-05T02:21:19.095Z",
+      "metadataStatus": 200,
+      "aid": 1253926730,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=1253926730&cid=1525504087&bvid=BV1WJ4m1E718&r=loader",
+      "heatStatus": 200,
+      "sha256": "3f5722e6de3eb6c5f1a0a7e15408c1782fb1cf2fad74413d91979ad4306968de"
+    },
+    {
+      "bvid": "BV1bY4y1v7Mb",
+      "cid": 564881041,
+      "capturedAt": "2026-10-05T02:21:20.277Z",
+      "metadataStatus": 200,
+      "aid": 637828183,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=637828183&cid=564881041&bvid=BV1bY4y1v7Mb&r=loader",
+      "heatStatus": 200,
+      "sha256": "619448a9927a3f6e2be9bf5073f96a2ebb989da5ebd763f03d01fcce149f0514"
+    },
+    {
+      "bvid": "BV1rNV56VERu",
+      "cid": 38724570727,
+      "capturedAt": "2026-10-05T02:21:21.125Z",
+      "metadataStatus": 200,
+      "aid": 116663542486616,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116663542486616&cid=38724570727&bvid=BV1rNV56VERu&r=loader",
+      "heatStatus": 200,
+      "sha256": "992bb637628486d9c2d2cccc464a0eb1d5e25aaf9f3539d7edee37643380a938"
+    },
+    {
+      "bvid": "BV1yMQrBSE5H",
+      "cid": 36947034543,
+      "capturedAt": "2026-10-05T02:21:22.755Z",
+      "metadataStatus": 200,
+      "aid": 116284528399510,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116284528399510&cid=36947034543&bvid=BV1yMQrBSE5H&r=loader",
+      "heatStatus": 200,
+      "sha256": "0008225ac86fb05a728b0f66ebd67bbb57978ab0a5a1598c707f848902e0a37c"
+    },
+    {
+      "bvid": "BV14ipFeZEub",
+      "cid": 25733891016,
+      "capturedAt": "2026-10-05T02:21:24.159Z",
+      "metadataStatus": 200,
+      "aid": 113078620390245,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=113078620390245&cid=25733891016&bvid=BV14ipFeZEub&r=loader",
+      "heatStatus": 200,
+      "sha256": "c590fea9e6bf66990fc18a111b0e80784e745635ef621858c0fefda6cfeb1f4e"
+    },
+    {
+      "bvid": "BV1Sw411C7Kj",
+      "cid": 1303489691,
+      "capturedAt": "2026-10-05T02:21:25.625Z",
+      "metadataStatus": 200,
+      "aid": 319797511,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=319797511&cid=1303489691&bvid=BV1Sw411C7Kj&r=loader",
+      "heatStatus": 200,
+      "sha256": "8a82998d57aaa1a20b86d252aea697dd8762855ddd91f050c984c5c4e31bf79c"
+    },
+    {
+      "bvid": "BV16y411v7qU",
+      "cid": 25641093605,
+      "capturedAt": "2026-10-05T02:21:26.529Z",
+      "metadataStatus": 200,
+      "aid": 1956585480,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=1956585480&cid=25641093605&bvid=BV16y411v7qU&r=loader",
+      "heatStatus": 200,
+      "sha256": "ab5ba4bc30fcd83de673225a78b8886e1122c58b3a4698e0655a52149974c4a2"
+    },
+    {
+      "bvid": "BV1Yz5k62E3y",
+      "cid": 38301469922,
+      "capturedAt": "2026-10-05T02:21:27.378Z",
+      "metadataStatus": 200,
+      "aid": 116566301607658,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116566301607658&cid=38301469922&bvid=BV1Yz5k62E3y&r=loader",
+      "heatStatus": 200,
+      "sha256": "a195675a1ce66b89d8233c343e08a0ea7cd9ce933cea4c781aa92d61785d5fbc"
+    },
+    {
+      "bvid": "BV1xgtNeSEPK",
+      "cid": 25653026304,
+      "capturedAt": "2026-10-05T02:21:28.597Z",
+      "metadataStatus": 200,
+      "aid": 113134119557161,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=113134119557161&cid=25653026304&bvid=BV1xgtNeSEPK&r=loader",
+      "heatStatus": 200,
+      "sha256": "6fefde639592d78c9aaf6235c3bb46d3e1cb20e60342e33f2c78ea0dd85aa6a6"
+    },
+    {
+      "bvid": "BV1Q6YqzxEWD",
+      "cid": 31740461497,
+      "capturedAt": "2026-10-05T02:21:29.498Z",
+      "metadataStatus": 200,
+      "aid": 115038668986780,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=115038668986780&cid=31740461497&bvid=BV1Q6YqzxEWD&r=loader",
+      "heatStatus": 200,
+      "sha256": "67a57506ce7eedda43cde28c75f3a40b898a8310490eca5da1afccffd809ee34"
+    },
+    {
+      "bvid": "BV1sFg3zEEbU",
+      "cid": 31123245187,
+      "capturedAt": "2026-10-05T02:21:30.354Z",
+      "metadataStatus": 200,
+      "aid": 114872977197772,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=114872977197772&cid=31123245187&bvid=BV1sFg3zEEbU&r=loader",
+      "heatStatus": 200,
+      "sha256": "8fd21cca529f638576fbb322d3c810f740b6f5ac1056f091a0706c9f5216b11b"
+    },
+    {
+      "bvid": "BV1seFHeFE8L",
+      "cid": 28125168470,
+      "capturedAt": "2026-10-05T02:21:32.266Z",
+      "metadataStatus": 200,
+      "aid": 113904260747114,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=113904260747114&cid=28125168470&bvid=BV1seFHeFE8L&r=loader",
+      "heatStatus": 200,
+      "sha256": "5499f49ce95c8677cf45f19dbafe63b3b4a85cb8b129d2688d6c1e486a2e224b"
+    },
+    {
+      "bvid": "BV1CnH5zDEMu",
+      "cid": 32821544196,
+      "capturedAt": "2026-10-05T02:21:33.337Z",
+      "metadataStatus": 200,
+      "aid": 115311214858098,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=115311214858098&cid=32821544196&bvid=BV1CnH5zDEMu&r=loader",
+      "heatStatus": 200,
+      "sha256": "41cbfb4f2d70a236c587a9b645b5c2468cf3f8a5acea54b246b0d568928e9ec0"
+    },
+    {
+      "bvid": "BV1vpxkzZEeQ",
+      "cid": 32939511456,
+      "capturedAt": "2026-10-05T02:21:34.188Z",
+      "metadataStatus": 200,
+      "aid": 115343125192367,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=115343125192367&cid=32939511456&bvid=BV1vpxkzZEeQ&r=loader",
+      "heatStatus": 200,
+      "sha256": "03cd8ad42bc85ccf0b595af4e5cce0b47c7d6f6a599863b7d72084f8a76c2187"
+    },
+    {
+      "bvid": "BV1kYVg6qEDx",
+      "cid": 38713232483,
+      "capturedAt": "2026-10-05T02:21:35.077Z",
+      "metadataStatus": 200,
+      "aid": 116661361313356,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116661361313356&cid=38713232483&bvid=BV1kYVg6qEDx&r=loader",
+      "heatStatus": 200,
+      "sha256": "242168f9deea1639c1fd9dca7c8a91ff3e3c905e8340b7a0e9c8669db66232d4"
+    },
+    {
+      "bvid": "BV1B37E6bE7x",
+      "cid": 39441468483,
+      "capturedAt": "2026-10-05T02:21:36.151Z",
+      "metadataStatus": 200,
+      "aid": 116819687906796,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116819687906796&cid=39441468483&bvid=BV1B37E6bE7x&r=loader",
+      "heatStatus": 200,
+      "sha256": "53de95e5333dc93253cdea01091391030e2c58b48b789478be0ecfc7028e7dff"
+    },
+    {
+      "bvid": "BV1gGJw6rEYa",
+      "cid": 39112803888,
+      "capturedAt": "2026-10-05T02:21:37.091Z",
+      "metadataStatus": 200,
+      "aid": 116747931748252,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=116747931748252&cid=39112803888&bvid=BV1gGJw6rEYa&r=loader",
+      "heatStatus": 200,
+      "sha256": "e1c52699588f41879fec89a1ecfb48abc1c19486942efe446b85ed56d192ac5c"
+    },
+    {
+      "bvid": "BV1aJ4m1H7r9",
+      "cid": 1511183670,
+      "capturedAt": "2026-10-05T02:21:38.814Z",
+      "metadataStatus": 200,
+      "aid": 1253494403,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=1253494403&cid=1511183670&bvid=BV1aJ4m1H7r9&r=loader",
+      "heatStatus": 200,
+      "sha256": "8d03d6db3b828e9d2772b38dcdab02abed3da63131f2a6903f85ea47c41b4e90"
+    },
+    {
+      "bvid": "BV13ptjzSETZ",
+      "cid": 31493721117,
+      "capturedAt": "2026-10-05T02:21:40.787Z",
+      "metadataStatus": 200,
+      "aid": 114973892153377,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=114973892153377&cid=31493721117&bvid=BV13ptjzSETZ&r=loader",
+      "heatStatus": 200,
+      "sha256": "f3446b12f1372540f0fbc74c75e67420f218b7e8576f83c36784084285c471bb"
+    },
+    {
+      "bvid": "BV1r1421r7am",
+      "cid": 1583131909,
+      "capturedAt": "2026-10-05T02:21:42.001Z",
+      "metadataStatus": 200,
+      "aid": 1555920047,
+      "url": "https://bvc.bilivideo.com/pbp/data?aid=1555920047&cid=1583131909&bvid=BV1r1421r7am&r=loader",
+      "heatStatus": 200,
+      "sha256": "4d7c3f3b99434de840bffa066e0ae048b4dd558048f13381786ba66d08ef744c"
+    }
+  ]
+}
