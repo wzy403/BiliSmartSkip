@@ -15,7 +15,8 @@
   const overlap = (a, b) => Math.max(0, Math.min(a.end, b.end) - Math.max(a.start, b.start));
   const compact = value => String(value || '').toLowerCase().replace(/\s+/g, '');
   const patterns = {
-    sponsor: /(?:本期(?:视频|节目)?|本视频|本节目|这个视频|这期视频).{0,12}(?:赞助商|由.{1,28}(?:赞助|冠名))|感谢.{0,8}(?:甲方|金主)|感谢.{1,24}(?:赞助|冠名)|(?:本期|这次|今天|我们).{0,8}(?:与|和).{1,24}(?:合作|联合推出)|(?:接下来|现在|稍后).{0,8}(?:通过|是|进入).{0,28}(?:广告|赞助环节)|sponsoredby/,
+    sponsor: /(?:本期(?:视频|节目)?|本视频|本节目|这个视频|这期视频).{0,12}(?:赞助商|由.{1,28}(?:赞助|冠名))|感谢.{0,8}(?:甲方|金主)|感谢.{1,24}(?:赞助|冠名)|(?:本期|这次|今天|我们).{0,8}(?:与|和).{1,24}(?:合作|联合推出)|(?:接下来|现在|稍后).{0,8}(?:通过|是|进入).{0,28}(?:广告|赞助环节)|(?:今天|本期|这期|本次|我们的).{0,8}赞助商|(?:我们|本期|本视频|本节目).{0,30}(?:被|受到).{1,24}赞助|sponsoredby/,
+    supportCredit: /(?:感谢|感恩).{1,35}(?:对|对于).{0,12}(?:本期|本视频|本节目|频道|视频|节目).{0,10}(?:支持|帮助)/,
     sponsorIntro: /感谢.{1,24}(?:赞助|冠名)|感谢.{1,20}(?:的)?催更|(?:广告|恰饭)(?:时间|环节|开始)/,
     cta: /(?:评论区|蓝链|链接|二维码|官网).{0,18}(?:领|优惠|购买|下单|试用)|(?:点击|扫描|前往|访问|使用).{0,18}(?:评论区|蓝链|链接|二维码|官网)|(?:立即|现在|赶紧|快来).{0,6}(?:下单|抢购|领券)/,
     offer: /优惠券|优惠码|折扣码|领券|新客|新用户|补贴|(?:免费|限时).{0,8}(?:试用|体验)|首年.{0,8}(?:折|优惠)/,
@@ -26,6 +27,8 @@
     return: /(?:现在|那么|好了|接下来)?(?:回到|回归)(?:视频|正片|正文|正题|主题|主线|故事)|言归正传|(?:广告|恰饭)(?:结束|完了)|继续(?:刚才的话题|刚才的故事|正片)/,
     softReturn: /^(?:好了?[,，]?|那么|接下来)?让我们从.{1,20}开始|^说回(?:刚才|前面)/
   };
+  const supportFeature = /销量|创新设计|原创设计|智能化|搭载|升级|配色|体积|功率|很好用|非常好用|课程|产品|配置|定制选项|提供.{0,8}选择/;
+  const signoff = /(?:感谢|谢谢).{0,8}(?:观看|收看|收听|看到这里)|(?:今天|本期|这期|以上|这就是).{0,15}(?:视频|节目).{0,10}(?:结束|全部内容)|^(?:那|那么|所以)?如果.{0,12}喜欢.{0,12}(?:视频|节目)/;
   const negative = /(?:无|没有|不含|不是|并非|拒绝).{0,8}(?:广告|赞助|冠名|推广|商单)|(?:不要|别|切勿|请勿|禁止|无需|不必|不能|不建议).{0,16}(?:点击|下载|购买|下单|领取|领券|赞助|回到|回归)/;
   const reported = /(?:他说|她说|有人说|所谓|举个例子|这句话|那句|广告词|广告里|假设).{0,24}(?:赞助|广告|冠名)|[“「『"].{0,30}(?:本视频|本期|赞助)/;
   function classify(text, helpers) {
@@ -61,13 +64,13 @@
         && /(?:不要|别|切勿|请勿|禁止|无需|不必|不能|不建议|没有|不是)$/.test(previous.content.trim());
       let text = negatedWrap ? previous.content + line.content : line.content;
       let evidence = classify(text, helpers), anchorEnd = line.to;
-      const sponsor = result => result.roles.some(role => role === 'sponsor' || role === 'sponsorIntro');
+      const sponsor = result => result.roles.some(role => role === 'sponsor' || role === 'sponsorIntro' || role === 'supportCredit');
       if (!negatedWrap && next && next.from >= line.to && next.from - line.to <= LIMITS.wrapSeconds
         && !sponsor(evidence) && !sponsor(classify(next.content, helpers))) {
         const joined = classify(line.content + next.content, helpers);
         if (sponsor(joined)) { evidence = joined; anchorEnd = next.to; }
       }
-      if (quotedContext) evidence.roles = evidence.roles.filter(role => !['sponsor', 'sponsorIntro', 'relationship'].includes(role));
+      if (quotedContext) evidence.roles = evidence.roles.filter(role => !['sponsor', 'sponsorIntro', 'supportCredit', 'relationship'].includes(role));
       return { ...line, ...evidence, anchorEnd, index };
     });
   }
@@ -133,12 +136,12 @@
     const skipDecision = options.keep ? 'keep' : 'skip';
     const autoEligible = !options.keep && Boolean(options.auto);
     return { start, end, source: 'segment-detector', sources: ['subtitles', ...new Set(boundary.sources || [])],
-      contentType: autoEligible || seed && has(seed, 'sponsor', 'sponsorIntro') ? 'ad' : 'uncertain',
+      contentType: autoEligible || seed && has(seed, 'sponsor', 'sponsorIntro', 'supportCredit') ? 'ad' : 'uncertain',
       skipDecision, requiresConfirmation: !autoEligible, autoEligible,
       confidence: autoEligible ? 'high' : 'low', boundaryConfidence: autoEligible ? 'high' : 'uncertain',
       reason: options.keep ? 'standalone-or-content-theme-kept' : 'complete-sponsor-break',
       matchedKeywords: [...new Set(body.flatMap(line => line.matched))].slice(0, 24),
-      boundaryEvidence: boundary, observedEvidence: body.filter(line => commercial(line) || has(line, 'sponsor', 'sponsorIntro'))
+      boundaryEvidence: boundary, observedEvidence: body.filter(line => commercial(line) || has(line, 'sponsor', 'sponsorIntro', 'supportCredit'))
         .slice(0, 8).map(statement), observedLineCount: body.length,
       reviewReasons: options.reasons || [], earlyAdEvidence: autoEligible && start < 60 };
   }
@@ -168,7 +171,7 @@
       if (!output.some(other => overlap(other, segment))) output.push(segment);
     }
     const seeds = [];
-    for (const line of lines.filter(line => has(line, 'sponsor', 'sponsorIntro'))) {
+    for (const line of lines.filter(line => has(line, 'sponsor', 'sponsorIntro', 'supportCredit'))) {
       const previous = seeds.at(-1);
       // Adjacent sponsor wording can be one wrapped declaration. A separate
       // later declaration is always a search barrier, never evidence for this one.
@@ -188,10 +191,31 @@
       const returned = after.find(line => line.index > seed.index && has(line, 'return'));
       const softReturn = after.find(line => line.index > seed.index && has(line, 'softReturn')
         && after.some(before => before.to <= line.from && has(before, 'cta', 'offer')));
-      const stop = !returned ? softReturn : !softReturn ? returned : returned.from <= softReturn.from ? returned : softReturn;
+      // A support credit needs an immediate product pitch before a closing transition.
+      const supportOnly = has(seed, 'supportCredit') && !has(seed, 'sponsor', 'sponsorIntro');
+      const promotionLines = after.filter(line => line.index > seed.lastIndex && supportFeature.test(compact(line.content)));
+      const immediatePromotion = promotionLines.length >= 2 && promotionLines[0].from <= seed.anchorEnd + 3;
+      const linkedPromotion = after.some(line => line.index > seed.lastIndex && line.from < seed.anchorEnd + 12
+        && /(?:描述|简介).{0,10}(?:附有|有|找到)链接/.test(compact(line.content)))
+        && after.some(line => line.index > seed.lastIndex && line.from < seed.anchorEnd + 15
+          && /亲自查看|试试|下载|领取|购买|体验/.test(compact(line.content)));
+      const signedOff = after.find(line => {
+        if (line.index <= seed.lastIndex) return false;
+        const productSignoff = ((supportOnly && immediatePromotion) || has(seed, 'sponsor'))
+          && promotionLines.filter(before => before.to <= line.from).length >= 2
+          && signoff.test(compact(line.content));
+        const linkedSignoff = linkedPromotion
+          && /^(?:希望.{0,8}玩得开心|(?:我们|咱们)?下次再见)/.test(compact(line.content));
+        return productSignoff || linkedSignoff;
+      });
+      const resumed = after.find(line => line.index > seed.lastIndex
+        && /^(?:那么|现在|好了)?让我们(?:来)?看看/.test(compact(line.content))
+        && !/(?:这款|产品|它的|效果)/.test(compact(line.content))
+        && after.some(before => before.to <= line.from && line.from - before.to <= 5 && has(before, 'cta', 'offer', 'pitch')));
+      const stop = [returned, softReturn, signedOff, resumed].filter(Boolean).sort((a, b) => a.from - b.from)[0];
       const explicitStop = stop && has(stop, 'return');
       let end = stop ? lines[stop.index - 1].to : chapter?.end;
-      let endKind = stop ? explicitStop ? 'explicit-return' : 'post-offer-transition' : chapter ? 'chapter-end' : null;
+      let endKind = stop ? explicitStop ? 'explicit-return' : stop === signedOff ? 'outro-transition' : 'post-offer-transition' : chapter ? 'chapter-end' : null;
       let scope = after.filter(line => !end || line.to <= end);
       // A lone opening credit does not open a sponsor state over the main video.
       const earlyFollow = scope.filter(line => line.from <= seed.anchorEnd + 25 && line.index > seed.index);
@@ -242,7 +266,9 @@
         && new Set(scope.filter(commercial).map(line => compact(line.content))).size >= 3;
       const subtitleGap = scope.some((line, index) => index && line.from - scope[index - 1].to > LIMITS.gapSeconds);
       const auto = (strongStart || corroboratedIntro) && sustained && hardEnd && !conflict && !themeRisk && (!subtitleGap || chapter);
-      const keep = themeRisk && !stop && !chapter;
+      // A credit alone is not a complete ad, even away from the video opening.
+      const keep = (themeRisk && !stop && !chapter) || (supportOnly && !explicitStop && !signedOff)
+        || (!chapter && end <= seed.anchorEnd && !linkedPromotion);
       output.push(result(start, end, seed, scope, { sources: [chapter ? 'chapters' : null, selected ? 'danmaku-time' : null].filter(Boolean),
         start: { kind: chapter ? 'chapter-start' : 'sponsor-statement', time: start },
         end: { kind: endKind, time: end, ...(stop ? { returnLine: statement(stop) } : {}) },

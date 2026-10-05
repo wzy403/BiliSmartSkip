@@ -242,11 +242,12 @@ async function getSkipSegment(inputs = null) {
 
   // 4. Subtitle keywords locate candidates, but cannot establish safe seek boundaries.
   let subtitleCandidate = null;
+  let subtitleLines = [];
   if (subtitles.length > 0) {
     const zhSub = subtitles.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh');
     const chosenSub = zhSub || subtitles[0];
     log('fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
-    const subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
+    subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
     if (inputs) inputs.subtitles = subtitleLines;
     log('subtitle lines:', subtitleLines.length);
     adTimes = detectFromSubtitles(subtitleLines, danmaku);
@@ -272,7 +273,7 @@ async function getSkipSegment(inputs = null) {
 
   // 5. Danmaku keyword matching (low confidence)
   isSuspiciousAd = true;
-  adTimes = getAdTimeByKeywords(danmaku);
+  adTimes = getAdTimeByKeywords(danmaku, subtitleLines);
   log('5.danmaku-keywords result:', adTimes);
   if (adTimes && checkAdSegVaild(adTimes, duration)) {
     return selectSegment(adTimes, 'danmaku-keywords', true);
@@ -287,7 +288,7 @@ async function getSkipSegment(inputs = null) {
 // mix evidence from different videos.
 async function getSkipSegments() {
   const inputs = {};
-  const primary = await getSkipSegment(inputs);
+  let primary = await getSkipSegment(inputs);
   const fallback = primary ? [primary] : [];
   if (!inputs.cid || typeof BiliSegmentDetector === 'undefined') return fallback;
   try {
@@ -296,6 +297,7 @@ async function getSkipSegments() {
       const chosen = tracks.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh') || tracks[0];
       inputs.subtitles = chosen ? await fetchSubtitleBody(chosen.subtitle_url) : [];
     }
+    primary = refineTimestampBounds(primary, inputs.subtitles, inputs.danmaku);
     const proposals = BiliSegmentDetector.detectSegments(inputs, {
       getSubtitleEvidence, extractTimeFromText, getTimestampSkipCues, getAdLabelEvidence
     });
@@ -305,7 +307,7 @@ async function getSkipSegments() {
     return segments;
   } catch (error) {
     console.warn('[BiliSmartSkip] complete-segment detection failed; primary fallback:', String(error));
-    return fallback;
+    return primary ? [primary] : [];
   }
 }
 

@@ -165,7 +165,7 @@ function findAdTimestamps(danmaku, duration = 0) {
     const endInfo = extractTimeFromText(text);
 
     if (!endInfo || !Number.isFinite(start) || start < 0) return;
-    const candidate = { start: start + 5, end: endInfo.time };
+    const candidate = { start, end: endInfo.time };
 
     // A time reference alone can be a discussion of the video, not a skip instruction.
     const cues = getTimestampSkipCues(text, endInfo.reference);
@@ -188,18 +188,35 @@ function findAdTimestamps(danmaku, duration = 0) {
     const explicitPairs = pairs.filter(p => p.explicit);
     // Do not extend a reliable interval using earlier, unrelated time mentions.
     const supportingPairs = explicitPairs.length ? explicitPairs : pairs;
+    const ordered = supportingPairs.slice().sort((a, b) => a.start - b.start);
+    // An isolated early prediction must not pull a later, locally repeated
+    // instruction backwards across the story. Retain the earliest cluster.
+    let first = ordered[0];
+    if (explicitPairs.length > 2 && ordered[1].start - first.start > 15) {
+      const cluster = ordered.find((pair, index) => ordered[index + 1]
+        && ordered[index + 1].start - pair.start <= 15);
+      if (cluster) first = cluster;
+    }
+    // Corroborate the proposed start locally. A comment near a much later ad
+    // cannot turn an earlier, unrelated jump request into an ad interval.
+    const adReactions = new Set(danmaku.filter(d => d.time >= first.start - 5
+      && d.time <= first.start + 15 && d.time < pairs[0].end
+      && isAdReaction(d.textContent)).map(d => d.textContent.trim())).size;
     return {
-      start: Math.min(...supportingPairs.map(p => p.start)), end: pairs[0].end,
+      start: first.start, end: pairs[0].end,
       requiresConfirmation: explicitPairs.length === 0,
       matchedKeywords: [...new Set(supportingPairs.flatMap(p => [...p.cues, ...p.adKeywords]))],
       reason: explicitPairs.length ? 'explicit-danmaku-skip' : 'unconfirmed-time-reference',
       earlyAdEvidence: supportingPairs.some(p => p.start < 60 && p.earlyAdEvidence),
       referenceCount: pairs.length,
+      adReactionCount: adReactions,
       explicitCount: explicitPairs.length
     };
   });
   // Repeated bare timestamps are not independent votes and cannot authorize auto-skip.
-  candidates.sort((a, b) => b.explicitCount - a.explicitCount || b.referenceCount - a.referenceCount || a.start - b.start);
+  candidates.sort((a, b) => Number(b.explicitCount > 0) - Number(a.explicitCount > 0)
+    || Number(b.adReactionCount > 0) - Number(a.adReactionCount > 0)
+    || b.explicitCount - a.explicitCount || b.referenceCount - a.referenceCount || a.start - b.start);
   const best = candidates[0];
   if (!best) return null;
   // Expose conflicting destinations instead of hiding why this timestamp won.
@@ -221,10 +238,17 @@ function getTimestampSkipCues(text, reference) {
   const match = before.match(new RegExp(cue + '(?:到|至|在)?' + separators + '$'))
     || after.match(new RegExp('^' + separators + cue + '(?:了)?(?:$|[\\s,.，。!！~～])'));
   if (match) return [match[1]];
-  return /^\s*\d{3,4}工程\s*[!！。]?\s*$/.test(text) ? ['工程'] : [];
+  return /^\s*(?:\d{3,4}|\d{1,2}[.．]\d{2})(?:工程|认证成功)\s*[!！。]?\s*$/.test(text) ? ['工程'] : [];
 }
 
 function extractTimeFromText(text) {
+  // Dotted clocks need an explicit engineering/certification suffix: ordinary
+  // decimal numbers and product model numbers are not playback destinations.
+  const engineering = text.match(/^\s*(?:(\d{1,2})[.．](\d{2})|(\d{1,2})(\d{2}))(?:工程|认证成功)\s*[!！。]?\s*$/);
+  if (engineering) {
+    const minutes = Number(engineering[1] ?? engineering[3]), seconds = Number(engineering[2] ?? engineering[4]);
+    return seconds < 60 ? { time: minutes * 60 + seconds, confidence: 1, reference: engineering[0].trim() } : null;
+  }
   const match1 = text.match(/(?:^|\D)((\d{1,2})[:;：；](\d{2}))(?!\d)/);
   if (match1) return parseInt(match1[3]) < 60
     ? { time: parseInt(match1[2]) * 60 + parseInt(match1[3]), confidence: 1, reference: match1[1] } : null;
@@ -243,21 +267,61 @@ function extractTimeFromText(text) {
   return null;
 }
 
+function isAdReaction(text) {
+  return /广告|恰饭|商单|接广|广子|甲方|金主|谢甲催|开始推广/.test(String(text || ''))
+    && !/(?:不是|没有|没接|无广|不算|是不是|以为|可能)|(?:无|不含|非|拒绝)\s*(?:任何)?(?:广告|赞助|推广|商单)/.test(text);
+}
+
+function refineTimestampBounds(segment, subtitleLines, danmaku) {
+  if (!segment || segment.source !== 'danmaku-time') return segment;
+  const lines = (subtitleLines || []).filter(line => Number.isFinite(line.from) && Number.isFinite(line.to)
+    && line.to > line.from && line.from >= 0);
+  // Start at the next subtitle phrase, not the beginning of a sentence that a
+  // viewer's anticipatory comment may have interrupted.
+  const nearest = lines.filter(line => line.from >= segment.start && line.from - segment.start <= 5
+    && segment.end - line.from >= 10).sort((a, b) => a.from - b.from)[0];
+  const start = nearest && nearest.from < segment.end ? nearest.from : segment.start;
+  const body = lines.filter(line => line.from < segment.end && line.to > start);
+  const evidence = body.map(line => getSubtitleEvidence(line.content).categories);
+  const commercial = evidence.some(roles => roles.some(role => ['sponsor', 'cta', 'offer', 'pitch'].includes(role)))
+    || (body.some(line => /大促|秒杀|促销/.test(line.content)) && evidence.some(roles => roles.includes('route')));
+  const adContext = (segment.matchedKeywords || []).some(word => /广告|恰饭|商单|接广|赞助/.test(word))
+    || (danmaku || []).some(d => d.time >= start - 5 && d.time < segment.end && isAdReaction(d.textContent));
+  // A generic request to jump can skip gameplay or a product demonstration.
+  // When subtitles are available, require some independent advertising evidence
+  // before authorizing a seek; leave the destination visible for confirmation.
+  const needsReview = lines.length > 0 && !commercial && !adContext;
+  return { ...segment, start, ...(needsReview ? { requiresConfirmation: true, confidence: 'low',
+    reason: 'time-instruction-without-ad-context' } : {}),
+    boundaryEvidence: { start: { kind: nearest ? 'subtitle-near-time-instruction' : 'time-instruction', time: start },
+      end: { kind: 'danmaku-destination', time: segment.end } } };
+}
+
 // === Detection: Danmaku keyword matching (directional) ===
-function getAdTimeByKeywords(danmaku) {
+function getAdTimeByKeywords(danmaku, subtitleLines = []) {
   const CLUSTER_WINDOW = 15;
   const MIN_CLUSTER_SIZE = 2;
 
   const startSignals = [];
   const endSignals = [];
   const generalSignals = [];
-  const withKeywords = segment => segment && ({
+  const withKeywords = segment => {
+    if (!segment) return null;
+    // Purchases and payments also occur in reviews and ordinary stories. They
+    // may locate an already supported promotion, but cannot establish one.
+    const attribution = danmaku.some(d => d.time >= segment.start && d.time <= segment.end
+      && isAdReaction(d.textContent));
+    const promotion = subtitleLines.some(line => line.from < segment.end && line.to > segment.start
+      && getSubtitleEvidence(line.content).categories.some(role => ['cta', 'offer', 'sponsor'].includes(role)));
+    if (!attribution && !promotion) return null;
+    return ({
     ...segment,
     matchedKeywords: [...new Set(danmaku
       .filter(d => d.time >= segment.start && d.time <= segment.end)
       .flatMap(d => [...AD_START_KEYWORDS, ...AD_END_KEYWORDS, ...AD_GENERAL_KEYWORDS]
         .filter(kw => d.textContent.includes(kw))))]
-  });
+    });
+  };
 
   danmaku.forEach(d => {
     const text = d.textContent.trim();
