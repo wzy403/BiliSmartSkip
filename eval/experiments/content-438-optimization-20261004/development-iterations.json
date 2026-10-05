@@ -1,0 +1,115 @@
+{
+  "benchmarkSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+  "evaluatorSha256": "7612153f4bd21f32c9e8b31c2d8832d33f15c0117aa15b17e553558f2ebceb7d",
+  "validationUsedForDevelopment": false,
+  "iterations": [
+    {
+      "experiment": "initial",
+      "scope": "development",
+      "source": "872615e3d08f4c81645488e525a0b55607fd3caa7d118dac27fbe002c1c9bb1f",
+      "metrics": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 277,
+        "correctMarkings": 45,
+        "correctPercent": 16.24548736462094,
+        "wrongKeepMarkings": 41,
+        "wrongKeepPercent": 14.8014440433213,
+        "partialOrBoundary": 187,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 42,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    {
+      "experiment": "keyword-guard",
+      "scope": "development",
+      "source": "f2cb50db82d739387bae4b3305239569d6ba128d2145076506e7945fd5635558",
+      "metrics": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 263,
+        "correctMarkings": 45,
+        "correctPercent": 17.11026615969582,
+        "wrongKeepMarkings": 31,
+        "wrongKeepPercent": 11.787072243346008,
+        "partialOrBoundary": 183,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 42,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    {
+      "experiment": "timestamp-keyword",
+      "scope": "development",
+      "source": "e385ef5e424e7f02dac68988bceb8ba9ec2eac6779112225c176e90ce9234ff6",
+      "metrics": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 263,
+        "correctMarkings": 120,
+        "correctPercent": 45.627376425855516,
+        "wrongKeepMarkings": 33,
+        "wrongKeepPercent": 12.547528517110266,
+        "partialOrBoundary": 106,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 108,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    {
+      "experiment": "forward-keyword",
+      "scope": "development",
+      "source": "8e37f5809249eb9c1652f27049ab1e09cc21e4be0eb4d565312100dd7542ea75",
+      "metrics": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 263,
+        "correctMarkings": 107,
+        "correctPercent": 40.68441064638783,
+        "wrongKeepMarkings": 32,
+        "wrongKeepPercent": 12.167300380228136,
+        "partialOrBoundary": 120,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 96,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    {
+      "experiment": "combined",
+      "scope": "development",
+      "source": "20dc4fd7ea33de1d1da736a78f4ef86322ea19704e4467feb0610d47083b0110",
+      "metrics": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 256,
+        "correctMarkings": 113,
+        "correctPercent": 44.140625,
+        "wrongKeepMarkings": 24,
+        "wrongKeepPercent": 9.375,
+        "partialOrBoundary": 116,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 98,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    {
+      "experiment": "final-local-reaction-and-negative-guard",
+      "scope": "development",
+      "source": "5ede6804aaf8ac3eabd25300b1e72af07eda150180554ae7cc787d309d0d7190",
+      "metrics": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 256,
+        "correctMarkings": 112,
+        "correctPercent": 43.75,
+        "wrongKeepMarkings": 23,
+        "wrongKeepPercent": 8.984375,
+        "partialOrBoundary": 118,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 97,
+        "videosWithUnresolvedAds": 13
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
 
-const source = readFileSync(path.join(__dirname, '../scr/page-data.js'), 'utf8');
+const source = readFileSync(path.join(require('./source-directory.cjs'), 'page-data.js'), 'utf8');
 const bvid = 'BV1iQeM6uEEH';
 
 function readBridge(state, requestedBvid = bvid) {

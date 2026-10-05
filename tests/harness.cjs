@@ -2,6 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const sourceDirectory = require('./source-directory.cjs');
 
 class Element {
   constructor() {
@@ -85,9 +86,9 @@ function createHarness(fixture = {}, { debug } = {}) {
     __video: video
   });
   const scripts = ['constants', 'utils', 'detectors', 'skipper', 'content'];
-  if (fs.existsSync(path.join(__dirname, '..', 'scr', 'segment-detector.js'))) scripts.splice(3, 0, 'segment-detector');
+  if (fs.existsSync(path.join(sourceDirectory, 'segment-detector.js'))) scripts.splice(3, 0, 'segment-detector');
   for (const file of scripts) {
-    const filename = path.join(__dirname, '..', 'scr', `${file}.js`);
+    const filename = path.join(sourceDirectory, `${file}.js`);
     let source = fs.readFileSync(filename, 'utf8');
     // Inherit the branch default unless a test explicitly selects a logging mode.
     if (file === 'constants' && typeof debug === 'boolean') {

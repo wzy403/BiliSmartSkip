@@ -8,7 +8,16 @@
 node --test tests/*.test.cjs
 ```
 
-测试只需要同一版本的 `scr/`、本目录的测试文件、`harness.cjs` 和 `fixtures.cjs`；不依赖 `eval/`、采集工具、语料下载或生成产物。
+基础生产测试使用同一版本的 `scr/`、本目录的测试文件、`harness.cjs` 和 `fixtures.cjs`。新增优化回归还使用 `eval/runner.cjs`；均不依赖采集工具、语料下载或生成产物。
+
+算法与回归分支分开时，设置 `BILISMARTSKIP_SOURCE_DIR` 指向待测算法的 `scr`，所有生产脚本测试都使用该目录；发布版回放仍固定读取 Git 提交，不受此环境变量影响。本轮优化保留在 `fix/improve-detction-rate`，测试分支的 `scr` 没有复制新算法。验收命令：
+
+```sh
+BILISMARTSKIP_SOURCE_DIR=/Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr \
+node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
+```
+
+在其他机器上将路径替换为该算法分支的工作树。`optimization-regression.test.cjs` 使用 `eval/runner.cjs` 加载指定生产源码，并回归两个原用户案例；其中自然植入案例只有完整保存的字幕和三条弹幕子集，不代表完整登录数据。测试覆盖实际 `timeupdate`、手动按钮和 seek，失败不能以检测到关键词代替。
 
 Node 内置 `node:test` / `node:vm` 加载真实的 `constants.js`、`utils.js`、`detectors.js`、`segment-detector.js`、`skipper.js` 和 `content.js`。DOM、视频元素、Chrome storage、时钟和网络响应由最小夹具替代；真实检测、模式切换、`timeupdate`、按钮点击和 seek 代码都会执行。
 

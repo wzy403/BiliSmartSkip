@@ -33,17 +33,19 @@ test('explicit ad chapter labels still permit automatic skips', async () => {
 });
 
 test('uncertain chapter does not mask a later explicit chapter or danmaku destination', async () => {
-  for (const extra of [
-    { chapters: [{ from: 70, to: 130, content: '广告历史' }, { from: 200, to: 250, content: '恰饭' }] },
-    { chapters: [{ from: 70, to: 130, content: '广告历史' }], danmaku: [timestamp('跳过广告 4:10', 195)] }
+  for (const [extra, start] of [
+    [{ chapters: [{ from: 70, to: 130, content: '广告历史' }, { from: 200, to: 250, content: '恰饭' }] }, 200],
+    [{ chapters: [{ from: 70, to: 130, content: '广告历史' }], danmaku: [timestamp('跳过广告 4:10', 195)] }, 195]
   ]) {
     const h = createHarness(extra);
     const segment = await h.detectAndAttach();
-    assert.equal(segment.start, 200);
+    assert.equal(segment.start, start);
     assert.equal(segment.end, 250);
     h.tick(80);
     assert.deepEqual(h.video.seeks, []);
-    h.tick(205);
+    h.tick(start - 0.001);
+    assert.deepEqual(h.video.seeks, []);
+    h.tick(start);
     assert.deepEqual(h.video.seeks, [250.05]);
   }
 });

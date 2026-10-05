@@ -1,0 +1,3245 @@
+{
+  "createdAt": "2026-10-05T00:31:31.164Z",
+  "scope": "frozen 438; development-only tuning; validation first evaluated after algorithm lock",
+  "benchmarkSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+  "evaluatorSha256": "7612153f4bd21f32c9e8b31c2d8832d33f15c0117aa15b17e553558f2ebceb7d",
+  "sourceSha256": "5ede6804aaf8ac3eabd25300b1e72af07eda150180554ae7cc787d309d0d7190",
+  "markings": {
+    "all": {
+      "2.0.1": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 274,
+        "correctMarkings": 32,
+        "correctPercent": 11.678832116788321,
+        "wrongKeepMarkings": 107,
+        "wrongKeepPercent": 39.051094890510946,
+        "partialOrBoundary": 132,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 29,
+        "videosWithUnresolvedAds": 13
+      },
+      "2.1.0": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 292,
+        "correctMarkings": 46,
+        "correctPercent": 15.753424657534246,
+        "wrongKeepMarkings": 42,
+        "wrongKeepPercent": 14.383561643835616,
+        "partialOrBoundary": 199,
+        "unknown": 5,
+        "videosWithAllAdsCorrect": 42,
+        "videosWithUnresolvedAds": 13
+      },
+      "current": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 269,
+        "correctMarkings": 113,
+        "correctPercent": 42.00743494423792,
+        "wrongKeepMarkings": 24,
+        "wrongKeepPercent": 8.921933085501859,
+        "partialOrBoundary": 128,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 97,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    "development": {
+      "2.0.1": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 260,
+        "correctMarkings": 32,
+        "correctPercent": 12.307692307692308,
+        "wrongKeepMarkings": 101,
+        "wrongKeepPercent": 38.84615384615385,
+        "partialOrBoundary": 124,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 29,
+        "videosWithUnresolvedAds": 13
+      },
+      "2.1.0": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 277,
+        "correctMarkings": 45,
+        "correctPercent": 16.24548736462094,
+        "wrongKeepMarkings": 41,
+        "wrongKeepPercent": 14.8014440433213,
+        "partialOrBoundary": 187,
+        "unknown": 4,
+        "videosWithAllAdsCorrect": 42,
+        "videosWithUnresolvedAds": 13
+      },
+      "current": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 256,
+        "correctMarkings": 112,
+        "correctPercent": 43.75,
+        "wrongKeepMarkings": 23,
+        "wrongKeepPercent": 8.984375,
+        "partialOrBoundary": 118,
+        "unknown": 3,
+        "videosWithAllAdsCorrect": 97,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    "validation": {
+      "2.0.1": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 14,
+        "correctMarkings": 0,
+        "correctPercent": 0,
+        "wrongKeepMarkings": 6,
+        "wrongKeepPercent": 42.857142857142854,
+        "partialOrBoundary": 8,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      },
+      "2.1.0": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 15,
+        "correctMarkings": 1,
+        "correctPercent": 6.666666666666667,
+        "wrongKeepMarkings": 1,
+        "wrongKeepPercent": 6.666666666666667,
+        "partialOrBoundary": 12,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      },
+      "current": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 13,
+        "correctMarkings": 1,
+        "correctPercent": 7.6923076923076925,
+        "wrongKeepMarkings": 1,
+        "wrongKeepPercent": 7.6923076923076925,
+        "partialOrBoundary": 10,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      }
+    }
+  },
+  "automatic": {
+    "all": {
+      "2.0.1": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 231,
+        "correctMarkings": 27,
+        "correctPercent": 11.688311688311689,
+        "wrongKeepMarkings": 83,
+        "wrongKeepPercent": 35.93073593073593,
+        "partialOrBoundary": 120,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 24,
+        "videosWithUnresolvedAds": 13
+      },
+      "2.1.0": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 111,
+        "correctMarkings": 24,
+        "correctPercent": 21.62162162162162,
+        "wrongKeepMarkings": 6,
+        "wrongKeepPercent": 5.405405405405405,
+        "partialOrBoundary": 80,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 23,
+        "videosWithUnresolvedAds": 13
+      },
+      "current": {
+        "reviewedVideos": 438,
+        "videosWithSkipAds": 368,
+        "totalMarkings": 97,
+        "correctMarkings": 58,
+        "correctPercent": 59.79381443298969,
+        "wrongKeepMarkings": 4,
+        "wrongKeepPercent": 4.123711340206185,
+        "partialOrBoundary": 35,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 50,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    "development": {
+      "2.0.1": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 220,
+        "correctMarkings": 27,
+        "correctPercent": 12.272727272727273,
+        "wrongKeepMarkings": 78,
+        "wrongKeepPercent": 35.45454545454545,
+        "partialOrBoundary": 114,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 24,
+        "videosWithUnresolvedAds": 13
+      },
+      "2.1.0": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 107,
+        "correctMarkings": 24,
+        "correctPercent": 22.429906542056074,
+        "wrongKeepMarkings": 6,
+        "wrongKeepPercent": 5.607476635514018,
+        "partialOrBoundary": 77,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 23,
+        "videosWithUnresolvedAds": 13
+      },
+      "current": {
+        "reviewedVideos": 413,
+        "videosWithSkipAds": 347,
+        "totalMarkings": 95,
+        "correctMarkings": 57,
+        "correctPercent": 60,
+        "wrongKeepMarkings": 4,
+        "wrongKeepPercent": 4.2105263157894735,
+        "partialOrBoundary": 34,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 50,
+        "videosWithUnresolvedAds": 13
+      }
+    },
+    "validation": {
+      "2.0.1": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 11,
+        "correctMarkings": 0,
+        "correctPercent": 0,
+        "wrongKeepMarkings": 5,
+        "wrongKeepPercent": 45.45454545454545,
+        "partialOrBoundary": 6,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      },
+      "2.1.0": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 4,
+        "correctMarkings": 0,
+        "correctPercent": 0,
+        "wrongKeepMarkings": 0,
+        "wrongKeepPercent": 0,
+        "partialOrBoundary": 3,
+        "unknown": 1,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      },
+      "current": {
+        "reviewedVideos": 25,
+        "videosWithSkipAds": 21,
+        "totalMarkings": 2,
+        "correctMarkings": 1,
+        "correctPercent": 50,
+        "wrongKeepMarkings": 0,
+        "wrongKeepPercent": 0,
+        "partialOrBoundary": 1,
+        "unknown": 0,
+        "videosWithAllAdsCorrect": 0,
+        "videosWithUnresolvedAds": 0
+      }
+    }
+  },
+  "actualSeeksVerified": true,
+  "changes": {
+    "gainedCount": 71,
+    "regressedCount": 4,
+    "gained": [
+      {
+        "bvid": "BV12d79zxEQn",
+        "title": "一个算法统治所有解释器？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 431.36,
+          "end": 490.04,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 431.36,
+          "end": 490.04,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 0,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 431.36,
+            "end": 490.04,
+            "source": "segment-detector",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV13KT96sEfH",
+        "title": "如果被原子弹炸死，死亡的过程是否会有痛苦？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 114.98,
+          "end": 178.12,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.836999999999989,
+          "endErrorSeconds": -0.12000000000000455,
+          "missingStartSeconds": 6.836999999999989,
+          "missingEndSeconds": 0.12000000000000455
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 114.98,
+          "end": 178.12,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.839999999999989,
+          "endErrorSeconds": -0.12000000000000455,
+          "missingStartSeconds": 2.839999999999989,
+          "missingEndSeconds": 0.12000000000000455
+        },
+        "markings": [
+          {
+            "start": 117.82,
+            "end": 178,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV13o3T6qEx1",
+        "title": "新品游戏本涨价太疯狂？! 二手游戏本选购指南",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 67.42,
+          "end": 127.12,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.709999999999994,
+          "endErrorSeconds": 2.8799999999999955,
+          "missingStartSeconds": 8.709999999999994,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 67.42,
+          "end": 127.12,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.679999999999993,
+          "endErrorSeconds": 2.8799999999999955,
+          "missingStartSeconds": 4.679999999999993,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 72.1,
+            "end": 130,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV14x3CzyEzz",
+        "title": "归义军最大谜案是什么？【小约翰】",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 935.56,
+          "end": 1018.27,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.796000000000049,
+          "endErrorSeconds": 1.7300000000000182,
+          "missingStartSeconds": 5.796000000000049,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 935.56,
+          "end": 1018.27,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.9400000000000546,
+          "endErrorSeconds": 1.7300000000000182,
+          "missingStartSeconds": 2.9400000000000546,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 938.5,
+            "end": 1020,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV14zhuziEUW",
+        "title": "你小子挺难杀啊！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 163.34,
+          "end": 215.39,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.429000000000002,
+          "endErrorSeconds": 0.6100000000000136,
+          "missingStartSeconds": 6.429000000000002,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 163.34,
+          "end": 215.39,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.6999999999999886,
+          "endErrorSeconds": 0.6100000000000136,
+          "missingStartSeconds": 1.6999999999999886,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 165.04,
+            "end": 216,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV15U411m7rA",
+        "title": "什么护卫舰美国造了4年，连个影儿都没有？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 377.8,
+          "end": 436.06,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.940999999999974,
+          "endErrorSeconds": -1.0600000000000023,
+          "missingStartSeconds": 8.940999999999974,
+          "missingEndSeconds": 1.0600000000000023
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 377.8,
+          "end": 436.06,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.899999999999977,
+          "endErrorSeconds": -1.0600000000000023,
+          "missingStartSeconds": 4.899999999999977,
+          "missingEndSeconds": 1.0600000000000023
+        },
+        "markings": [
+          {
+            "start": 382.7,
+            "end": 435,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV161421x7qn",
+        "title": "【HP】盘点《哈利波特与混血王子》原著中没有被电影还原的剧情细节！（完结篇上）",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 267.419,
+          "end": 351.44,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.108000000000004,
+          "endErrorSeconds": -0.4399999999999977,
+          "missingStartSeconds": 6.108000000000004,
+          "missingEndSeconds": 0.4399999999999977
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 267.419,
+          "end": 351.44,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.040999999999997,
+          "endErrorSeconds": -0.4399999999999977,
+          "missingStartSeconds": 3.040999999999997,
+          "missingEndSeconds": 0.4399999999999977
+        },
+        "markings": [
+          {
+            "start": 270.46,
+            "end": 351,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV17ipve1E93",
+        "title": "烟囱倒下时为啥会凌空折断？从有趣现象揭秘拖车的死亡摇摆",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 86.18,
+          "end": 137.14,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.518999999999991,
+          "endErrorSeconds": 1.8600000000000136,
+          "missingStartSeconds": 6.518999999999991,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 86.18,
+          "end": 137.14,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.5,
+          "endErrorSeconds": 1.8600000000000136,
+          "missingStartSeconds": 3.5,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 89.68,
+            "end": 139,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1a5N4zxEQe",
+        "title": "阁下对肉的爱 比自由还真——美国人的疯狂餐桌",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 179.829,
+          "end": 249.24,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.982,
+          "endErrorSeconds": 2.759999999999991,
+          "missingStartSeconds": 8.982,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 179.829,
+          "end": 249.24,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.4199999999999875,
+          "endErrorSeconds": 2.759999999999991,
+          "missingStartSeconds": 4.4199999999999875,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 184.249,
+            "end": 252,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1aJ4m1H7r9",
+        "title": "口含大蒜 向法餐宣战——墨索里尼的餐桌",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 415.2,
+          "end": 473.68,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.050000000000011,
+          "endErrorSeconds": 1.3199999999999932,
+          "missingStartSeconds": 6.050000000000011,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 415.2,
+          "end": 473.68,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.6000000000000227,
+          "endErrorSeconds": 1.3199999999999932,
+          "missingStartSeconds": 1.6000000000000227,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 416.8,
+            "end": 475,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1aQ7Y6tEaF",
+        "title": "为什么咱们中国人不用钢制的筷子，这样不就可以节省大量的树木了吗？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 114.32,
+          "end": 177.9,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.794000000000011,
+          "endErrorSeconds": 1.0999999999999943,
+          "missingStartSeconds": 7.794000000000011,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 114.32,
+          "end": 177.9,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.900000000000006,
+          "endErrorSeconds": 1.0999999999999943,
+          "missingStartSeconds": 4.900000000000006,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 119.22,
+            "end": 179,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1b1421t7pt",
+        "title": "速度快又省油，桨扇发动机为啥一直在PPT阶段",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 289.61,
+          "end": 388.58,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.649999999999977,
+          "endErrorSeconds": 1.420000000000016,
+          "missingStartSeconds": 5.649999999999977,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 289.61,
+          "end": 388.58,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0.8000000000000114,
+          "endErrorSeconds": 1.420000000000016,
+          "missingStartSeconds": 0.8000000000000114,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 290.41,
+            "end": 390,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1B37E6bE7x",
+        "title": "山东的沙雕新闻竞争的真激烈啊！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 313.9,
+          "end": 390.81,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.064999999999998,
+          "endErrorSeconds": 1.1899999999999977,
+          "missingStartSeconds": 8.064999999999998,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 313.9,
+          "end": 390.81,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.480000000000018,
+          "endErrorSeconds": 1.1899999999999977,
+          "missingStartSeconds": 4.480000000000018,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 318.38,
+            "end": 392,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1Cqb36mE2s",
+        "title": "【达尔文奖】男子过生日玩俄罗斯轮盘，结果第一枪就被打死！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 147.8,
+          "end": 208.13,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.923999999999978,
+          "endErrorSeconds": 2.8700000000000045,
+          "missingStartSeconds": 8.923999999999978,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 147.8,
+          "end": 208.13,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5,
+          "endErrorSeconds": 2.8700000000000045,
+          "missingStartSeconds": 5,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 152.8,
+            "end": 211,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1cs596oESZ",
+        "title": "食在大萧条——“长萧条”下的英国餐桌",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 255.76,
+          "end": 305.74,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.085000000000036,
+          "endErrorSeconds": 2.259999999999991,
+          "missingStartSeconds": 5.085000000000036,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 255.76,
+          "end": 305.74,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.2800000000000296,
+          "endErrorSeconds": 2.259999999999991,
+          "missingStartSeconds": 2.2800000000000296,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 258.04,
+            "end": 308,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1DnpEeDE6T",
+        "title": "【俄乌沙盘9月9日】乌军夺回纽约？呵呵",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 176.22,
+          "end": 256.52,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.532000000000011,
+          "endErrorSeconds": 1.4800000000000182,
+          "missingStartSeconds": 5.532000000000011,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 176.22,
+          "end": 256.52,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.5200000000000102,
+          "endErrorSeconds": 1.4800000000000182,
+          "missingStartSeconds": 1.5200000000000102,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 177.74,
+            "end": 258,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1dw4m1i7kD",
+        "title": "俄军攻占旧马约尔斯克、卡利尼娜、帕拉斯科维夫卡！【俄乌沙盘6/6】",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 249.76,
+          "end": 348.22,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.078000000000003,
+          "endErrorSeconds": 0.7799999999999727,
+          "missingStartSeconds": 6.078000000000003,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 249.76,
+          "end": 348.22,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.5,
+          "endErrorSeconds": 0.7799999999999727,
+          "missingStartSeconds": 2.5,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 252.26,
+            "end": 349,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1E2DzYkEwL",
+        "title": "【真·永不过期！】品鉴1962年产 辐射避难所永久生存饼干",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 65.099,
+          "end": 112.42,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 9.241,
+          "endErrorSeconds": 1.5799999999999983,
+          "missingStartSeconds": 9.241,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 65.099,
+          "end": 112.42,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.400999999999996,
+          "endErrorSeconds": 1.5799999999999983,
+          "missingStartSeconds": 4.400999999999996,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 69.5,
+            "end": 114,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1ea4y1X7D1",
+        "title": "失败军改 贻害十载，新世纪的美军发展大坑是谁挖的？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 874.93,
+          "end": 931.04,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.715000000000032,
+          "endErrorSeconds": 0.9600000000000364,
+          "missingStartSeconds": 5.715000000000032,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 874.93,
+          "end": 931.04,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.1400000000001,
+          "endErrorSeconds": 0.9600000000000364,
+          "missingStartSeconds": 1.1400000000001,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 876.07,
+            "end": 932,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1EE4m1R7TZ",
+        "title": "英军罐头简史——战争饮食漫谈",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 183.04,
+          "end": 231.76,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.14700000000002,
+          "endErrorSeconds": 1.240000000000009,
+          "missingStartSeconds": 5.14700000000002,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 183.04,
+          "end": 231.76,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0.6200000000000045,
+          "endErrorSeconds": 1.240000000000009,
+          "missingStartSeconds": 0.6200000000000045,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 183.66,
+            "end": 233,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1eHZ3Y6EWd",
+        "title": "带假货被封，东北雨姐为何成为全网第一女神？【网络狠人46】",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 121,
+          "end": 159.79,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.021999999999991,
+          "endErrorSeconds": 1.210000000000008,
+          "missingStartSeconds": 7.021999999999991,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 121,
+          "end": 159.79,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.5999999999999943,
+          "endErrorSeconds": 1.210000000000008,
+          "missingStartSeconds": 3.5999999999999943,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 124.6,
+            "end": 161,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1eTmNY8Eb7",
+        "title": "【杜比视界】1年只有10天！金秋的大兴安岭有多出片？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 2,
+          "start": 864.68,
+          "end": 878.63,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "after": {
+          "referenceIndex": 2,
+          "start": 864.68,
+          "end": 878.63,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 0,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 864.68,
+            "end": 878.63,
+            "source": "segment-detector",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1fQevzPEzp",
+        "title": "美国人的舰载机为啥是最好的同时也是最差的？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 603.69,
+          "end": 680.03,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.027999999999906,
+          "endErrorSeconds": -0.029999999999972715,
+          "missingStartSeconds": 7.027999999999906,
+          "missingEndSeconds": 0.029999999999972715
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 603.69,
+          "end": 680.03,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.7889999999999873,
+          "endErrorSeconds": -0.029999999999972715,
+          "missingStartSeconds": 3.7889999999999873,
+          "missingEndSeconds": 0.029999999999972715
+        },
+        "markings": [
+          {
+            "start": 607.479,
+            "end": 680,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1GhPKzcEcX",
+        "title": "猪一生都被关在猪圈里，为什么不会抑郁？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 138.64,
+          "end": 207.3,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.069000000000017,
+          "endErrorSeconds": 0.6999999999999886,
+          "missingStartSeconds": 7.069000000000017,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 138.64,
+          "end": 207.3,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.220000000000027,
+          "endErrorSeconds": 0.6999999999999886,
+          "missingStartSeconds": 4.220000000000027,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 142.86,
+            "end": 208,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1GJBTBTEyA",
+        "title": "恶心所有人的视频，为什么期期爆款？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 1,
+          "start": 797.13,
+          "end": 827.9,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "after": {
+          "referenceIndex": 1,
+          "start": 797.13,
+          "end": 827.9,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 0,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 797.13,
+            "end": 827.9,
+            "source": "segment-detector",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1GN4y1p7Qj",
+        "title": "【AC-130】美国大兵的最爱 论火力空中炮艇说第二 谁敢说第一",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 966.12,
+          "end": 1029.05,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.961000000000013,
+          "endErrorSeconds": 0.9500000000000455,
+          "missingStartSeconds": 6.961000000000013,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 966.12,
+          "end": 1029.05,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.519999999999982,
+          "endErrorSeconds": 0.9500000000000455,
+          "missingStartSeconds": 2.519999999999982,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 968.64,
+            "end": 1030,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1gUQtYvEFC",
+        "title": "成都牛排挑战，20分钟吃完329元美式牛排即可免单，慢慢悠悠还破了纪录？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 80.34,
+          "end": 150.21,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.747,
+          "endErrorSeconds": 0.789999999999992,
+          "missingStartSeconds": 8.747,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 80.34,
+          "end": 150.21,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.489999999999995,
+          "endErrorSeconds": 0.789999999999992,
+          "missingStartSeconds": 4.489999999999995,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 84.83,
+            "end": 151,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1gw4m1i7HA",
+        "title": "【太君の噩梦】嗑完这粒，就去送死！日本嗑药史，比你想象中更夸张！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 130.699,
+          "end": 189.7,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.607999999999976,
+          "endErrorSeconds": 0.30000000000001137,
+          "missingStartSeconds": 6.607999999999976,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 130.699,
+          "end": 189.7,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.9799999999999898,
+          "endErrorSeconds": 0.30000000000001137,
+          "missingStartSeconds": 2.9799999999999898,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 133.679,
+            "end": 190,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1gy411i7Yx",
+        "title": "碰炸引信、时间引信、近炸引信、可编程引信都是怎么工作的？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 110.38,
+          "end": 229.34,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.341999999999999,
+          "endErrorSeconds": 0.6599999999999966,
+          "missingStartSeconds": 6.341999999999999,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 110.38,
+          "end": 229.34,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.460000000000008,
+          "endErrorSeconds": 0.6599999999999966,
+          "missingStartSeconds": 3.460000000000008,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 113.84,
+            "end": 230,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1GyVS6YEQ8",
+        "title": "80岁微胖老翁如何担任美国总统两晚发280条推",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 282.26,
+          "end": 387.94,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.081999999999994,
+          "endErrorSeconds": 2.0600000000000023,
+          "missingStartSeconds": 5.081999999999994,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 282.26,
+          "end": 387.94,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.579999999999984,
+          "endErrorSeconds": 2.0600000000000023,
+          "missingStartSeconds": 1.579999999999984,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 283.84,
+            "end": 390,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1iH4y1w7i2",
+        "title": "雨天的湖面上为啥会出现模糊区块？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 34.569,
+          "end": 91.1,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.181999999999995,
+          "endErrorSeconds": 0.9000000000000057,
+          "missingStartSeconds": 5.181999999999995,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 34.569,
+          "end": 91.1,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.8999999999999986,
+          "endErrorSeconds": 0.9000000000000057,
+          "missingStartSeconds": 1.8999999999999986,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 36.469,
+            "end": 92,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1iQpEe8EA7",
+        "title": "【火兰短报21】火麒麟爆冷输越南，沙特杯成绩汇总",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 406.07,
+          "end": 464.78,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.557999999999993,
+          "endErrorSeconds": 0.22000000000002728,
+          "missingStartSeconds": 6.557999999999993,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 406.07,
+          "end": 464.78,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.5400000000000205,
+          "endErrorSeconds": 0.22000000000002728,
+          "missingStartSeconds": 2.5400000000000205,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 408.61,
+            "end": 465,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1iW42197E6",
+        "title": "【俄乌沙盘8月15日】乌军梭哈库尔斯克！俄军攻占奥利夫卡、阿尔乔莫沃、斯维里多尼夫卡！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 251.76,
+          "end": 331.34,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 9.058999999999969,
+          "endErrorSeconds": 0.660000000000025,
+          "missingStartSeconds": 9.058999999999969,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 251.76,
+          "end": 331.34,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.800000000000011,
+          "endErrorSeconds": 0.660000000000025,
+          "missingStartSeconds": 4.800000000000011,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 256.56,
+            "end": 332,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1JJUsB4E21",
+        "title": "2025.11.22 【The Linux Experiment】英伟达终于专注于Linux ，欧盟洞穴大科技- Linux每周新闻",
+        "split": "development",
+        "before": {
+          "referenceIndex": 1,
+          "start": 1438.35,
+          "end": 1486.1,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "after": {
+          "referenceIndex": 1,
+          "start": 1438.35,
+          "end": 1486.1,
+          "matched": true,
+          "predictionIndex": 1,
+          "startErrorSeconds": 3.6800000000000637,
+          "endErrorSeconds": 0.40000000000009095,
+          "missingStartSeconds": 3.6800000000000637,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 109.1,
+            "end": 125.639,
+            "source": "subtitles",
+            "extraKeepSeconds": 0,
+            "status": "partial-or-boundary"
+          },
+          {
+            "start": 1442.03,
+            "end": 1486.5,
+            "source": "segment-detector",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1jz421i7Bc",
+        "title": "牛奶可乐 大蒜可乐 培根可乐 谁更可乐——可乐奇葩说",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 274.68,
+          "end": 320.8,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.177000000000021,
+          "endErrorSeconds": 2.1999999999999886,
+          "missingStartSeconds": 6.177000000000021,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 274.68,
+          "end": 320.8,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.240000000000009,
+          "endErrorSeconds": 2.1999999999999886,
+          "missingStartSeconds": 2.240000000000009,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 276.92,
+            "end": 323,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1KoWBzwE7T",
+        "title": "最薄的iPhone...代价呢？国行iPhone Air上手体验",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 607.86,
+          "end": 618.08,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 607.86,
+          "end": 618.08,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 0,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 607.86,
+            "end": 618.08,
+            "source": "segment-detector",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1KV1MB1E9p",
+        "title": "局部大暴雪来了：双台风酝酿吹不走大雾，下一波寒潮什么时候来",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 56.5,
+          "end": 113.58,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.625999999999998,
+          "endErrorSeconds": 0.4200000000000017,
+          "missingStartSeconds": 5.625999999999998,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 56.5,
+          "end": 113.58,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.719999999999999,
+          "endErrorSeconds": 0.4200000000000017,
+          "missingStartSeconds": 3.719999999999999,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 60.22,
+            "end": 114,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1kYVg6qEDx",
+        "title": "美国人等了250年，终于等来了万税爷80大寿",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 290.6,
+          "end": 413.21,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.621999999999957,
+          "endErrorSeconds": -3.2099999999999795,
+          "missingStartSeconds": 5.621999999999957,
+          "missingEndSeconds": 3.2099999999999795
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 290.6,
+          "end": 413.21,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.1299999999999955,
+          "endErrorSeconds": -3.2099999999999795,
+          "missingStartSeconds": 1.1299999999999955,
+          "missingEndSeconds": 3.2099999999999795
+        },
+        "markings": [
+          {
+            "start": 291.73,
+            "end": 410,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1LH4y1F7Tx",
+        "title": "用沙子熟成牛肉一个月，不牙碜吗？哦，沙茶...",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 196.06,
+          "end": 255.1,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.6910000000000025,
+          "endErrorSeconds": 0.9000000000000057,
+          "missingStartSeconds": 5.6910000000000025,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 196.06,
+          "end": 255.1,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.5,
+          "endErrorSeconds": 0.9000000000000057,
+          "missingStartSeconds": 1.5,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 197.56,
+            "end": 256,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1Lm421L7W7",
+        "title": "1美元的航母值多少钱？维克拉玛蒂亚号改装史",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 568.92,
+          "end": 678.5,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.7140000000000555,
+          "endErrorSeconds": 0.5,
+          "missingStartSeconds": 6.7140000000000555,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 568.92,
+          "end": 678.5,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.900000000000091,
+          "endErrorSeconds": 0.5,
+          "missingStartSeconds": 1.900000000000091,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 570.82,
+            "end": 679,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1MfAczrE83",
+        "title": "这是人话吗？揭秘计算机术语里那些反人类的逆天翻译！【TOM杂谈03】",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 169.96,
+          "end": 201.78,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.787000000000006,
+          "endErrorSeconds": 0.21999999999999886,
+          "missingStartSeconds": 8.787000000000006,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 169.96,
+          "end": 201.78,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.4599999999999795,
+          "endErrorSeconds": 0.21999999999999886,
+          "missingStartSeconds": 4.4599999999999795,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 174.42,
+            "end": 202,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1mfLu6mErm",
+        "title": "水下洞穴绝望被困，几米外的同伴一无所知，克拉克斯维尔洞事件",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 147.23,
+          "end": 189.16,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.7760000000000105,
+          "endErrorSeconds": -1.1599999999999966,
+          "missingStartSeconds": 5.7760000000000105,
+          "missingEndSeconds": 1.1599999999999966
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 147.23,
+          "end": 189.16,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.200000000000017,
+          "endErrorSeconds": -1.1599999999999966,
+          "missingStartSeconds": 1.200000000000017,
+          "missingEndSeconds": 1.1599999999999966
+        },
+        "markings": [
+          {
+            "start": 148.43,
+            "end": 188,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1nmeH6JEDq",
+        "title": "《锻刀大赛》锻造中国菜刀🔪！怎么锻着锻着变异了？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 166.4,
+          "end": 207.62,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.3489999999999895,
+          "endErrorSeconds": -3.6200000000000045,
+          "missingStartSeconds": 6.3489999999999895,
+          "missingEndSeconds": 3.6200000000000045
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 166.4,
+          "end": 207.62,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.3799999999999955,
+          "endErrorSeconds": -3.6200000000000045,
+          "missingStartSeconds": 1.3799999999999955,
+          "missingEndSeconds": 3.6200000000000045
+        },
+        "markings": [
+          {
+            "start": 167.78,
+            "end": 204,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1NYwpeqEmA",
+        "title": "2077的大灾难：赛博朋克2077的陨落与重生",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 369.46,
+          "end": 482.16,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.67900000000003,
+          "endErrorSeconds": 2.839999999999975,
+          "missingStartSeconds": 8.67900000000003,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 369.46,
+          "end": 482.16,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.080000000000041,
+          "endErrorSeconds": 2.839999999999975,
+          "missingStartSeconds": 4.080000000000041,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 373.54,
+            "end": 485,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1oK8BzoE7g",
+        "title": "自费叛国的润人是个什么物种？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 118.42,
+          "end": 237.09,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": -12.424000000000007,
+          "endErrorSeconds": 0.9099999999999966,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 118.42,
+          "end": 237.09,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": -0.09000000000000341,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0.09000000000000341
+        },
+        "markings": [
+          {
+            "start": 118.42,
+            "end": 237,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1oQEe6gEFg",
+        "title": "如何骗走CIA三百根金条",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 382.38,
+          "end": 471.64,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.59699999999998,
+          "endErrorSeconds": -0.6399999999999864,
+          "missingStartSeconds": 5.59699999999998,
+          "missingEndSeconds": 0.6399999999999864
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 382.38,
+          "end": 471.64,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.3600000000000136,
+          "endErrorSeconds": -0.6399999999999864,
+          "missingStartSeconds": 1.3600000000000136,
+          "missingEndSeconds": 0.6399999999999864
+        },
+        "markings": [
+          {
+            "start": 383.74,
+            "end": 471,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1p9K1zvE69",
+        "title": "六骑士荒漠探险结果被困无人区，青海火星一号公路迷路之谜",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 155.81,
+          "end": 195.68,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.800999999999988,
+          "endErrorSeconds": -0.6800000000000068,
+          "missingStartSeconds": 7.800999999999988,
+          "missingEndSeconds": 0.6800000000000068
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 155.81,
+          "end": 195.68,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.340000000000003,
+          "endErrorSeconds": -0.6800000000000068,
+          "missingStartSeconds": 4.340000000000003,
+          "missingEndSeconds": 0.6800000000000068
+        },
+        "markings": [
+          {
+            "start": 160.15,
+            "end": 195,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1pAec6fEnZ",
+        "title": "脏到演员崩溃的逆天布景！别的剧组都用道具，你咋真整一堆屎啊？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 105.5,
+          "end": 166.66,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.677999999999997,
+          "endErrorSeconds": 0.3400000000000034,
+          "missingStartSeconds": 6.677999999999997,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 105.5,
+          "end": 166.66,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.3799999999999955,
+          "endErrorSeconds": 0.3400000000000034,
+          "missingStartSeconds": 4.3799999999999955,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 109.88,
+            "end": 167,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1PfRFBLESa",
+        "title": "红警海啸！一万艘航母围困对手，这种大场面你见过吗！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 165.38,
+          "end": 190,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.509999999999991,
+          "endErrorSeconds": 1,
+          "missingStartSeconds": 5.509999999999991,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 165.38,
+          "end": 190,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.0800000000000125,
+          "endErrorSeconds": 1,
+          "missingStartSeconds": 3.0800000000000125,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 168.46,
+            "end": 191,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1Pj411Z74n",
+        "title": "【航母机动舰队·上】战舰派与航空派，你站哪边？山本的推断是什么？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 382.98,
+          "end": 429.56,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.447999999999979,
+          "endErrorSeconds": -0.5600000000000023,
+          "missingStartSeconds": 5.447999999999979,
+          "missingEndSeconds": 0.5600000000000023
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 382.98,
+          "end": 429.56,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.759999999999991,
+          "endErrorSeconds": -0.5600000000000023,
+          "missingStartSeconds": 2.759999999999991,
+          "missingEndSeconds": 0.5600000000000023
+        },
+        "markings": [
+          {
+            "start": 385.74,
+            "end": 429,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1QKymBfEFK",
+        "title": "【战地6】新人入坑指南-支援兵的基础知识",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 257.54,
+          "end": 411.5,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.746999999999957,
+          "endErrorSeconds": 1.5,
+          "missingStartSeconds": 7.746999999999957,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 257.54,
+          "end": 411.5,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.2399999999999523,
+          "endErrorSeconds": 1.5,
+          "missingStartSeconds": 3.2399999999999523,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 260.78,
+            "end": 413,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1qQoWYyEJo",
+        "title": "【毕导】往开水里尿尿，开水会瞬间逆流而上烫伤你？请看VCR！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 152.71,
+          "end": 205.67,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.608000000000004,
+          "endErrorSeconds": 1.3300000000000125,
+          "missingStartSeconds": 6.608000000000004,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 152.71,
+          "end": 205.67,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.6399999999999864,
+          "endErrorSeconds": 1.3300000000000125,
+          "missingStartSeconds": 1.6399999999999864,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 154.35,
+            "end": 207,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1QUdaYREe9",
+        "title": "短视频里那些名媛贵族是什么身份？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 108.2,
+          "end": 166.04,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 9.670000000000002,
+          "endErrorSeconds": 0.960000000000008,
+          "missingStartSeconds": 9.670000000000002,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 108.2,
+          "end": 166.04,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.920000000000002,
+          "endErrorSeconds": 0.960000000000008,
+          "missingStartSeconds": 4.920000000000002,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 113.12,
+            "end": 167,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1RnVU6FE4q",
+        "title": "《锻刀大赛》穷疯了？钢丝球锻刀 批量生产善良之刃！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 158.2,
+          "end": 198.68,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.806000000000012,
+          "endErrorSeconds": 0.3199999999999932,
+          "missingStartSeconds": 5.806000000000012,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 158.2,
+          "end": 198.68,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.280000000000001,
+          "endErrorSeconds": 0.3199999999999932,
+          "missingStartSeconds": 2.280000000000001,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 160.48,
+            "end": 199,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1SA66YeEN5",
+        "title": "[内嵌双语] 维基百科是不是私底下特别有钱 [fern]",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 214.6,
+          "end": 269.71,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 214.6,
+          "end": 269.71,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 0,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 214.6,
+            "end": 269.71,
+            "source": "segment-detector",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1SgTWzEEmF",
+        "title": "给你100万随便花？第一站我们去了这里！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 821.28,
+          "end": 848.96,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.216000000000008,
+          "endErrorSeconds": 0.03999999999996362,
+          "missingStartSeconds": 7.216000000000008,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 821.28,
+          "end": 848.96,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.300000000000068,
+          "endErrorSeconds": 0.03999999999996362,
+          "missingStartSeconds": 4.300000000000068,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 825.58,
+            "end": 849,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1sM4m1S7P9",
+        "title": "南北朝时代（1）西凉灭亡，刘裕下线（420-422年）",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 526.519,
+          "end": 600.74,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 9.184999999999945,
+          "endErrorSeconds": 0.2599999999999909,
+          "missingStartSeconds": 9.184999999999945,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 526.519,
+          "end": 600.74,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.941000000000031,
+          "endErrorSeconds": 0.2599999999999909,
+          "missingStartSeconds": 4.941000000000031,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 531.46,
+            "end": 601,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1SudJBVEjL",
+        "title": "它是小马的巅峰，也是崩盘的开始|全网最细《小马宝莉大电影》万字解析（上）",
+        "split": "validation",
+        "before": {
+          "referenceIndex": 1,
+          "start": 145.03,
+          "end": 177.2,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.024000000000001,
+          "endErrorSeconds": 0.8000000000000114,
+          "missingStartSeconds": 8.024000000000001,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 1,
+          "start": 145.03,
+          "end": 177.2,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 4.52000000000001,
+          "endErrorSeconds": 0.8000000000000114,
+          "missingStartSeconds": 4.52000000000001,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 149.55,
+            "end": 178,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1sUjEznENn",
+        "title": "【毕导】你试过...用肛门呼吸吗？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 357.04,
+          "end": 394.94,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.206999999999994,
+          "endErrorSeconds": 1.0600000000000023,
+          "missingStartSeconds": 6.206999999999994,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 357.04,
+          "end": 394.94,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.519999999999982,
+          "endErrorSeconds": 1.0600000000000023,
+          "missingStartSeconds": 2.519999999999982,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 359.56,
+            "end": 396,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1T997YuE1K",
+        "title": "反击远光狗，真理在大灯的射程之内！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 112.78,
+          "end": 168.26,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.968999999999994,
+          "endErrorSeconds": 0.7400000000000091,
+          "missingStartSeconds": 8.968999999999994,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 112.78,
+          "end": 168.26,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.980000000000004,
+          "endErrorSeconds": 0.7400000000000091,
+          "missingStartSeconds": 3.980000000000004,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 116.76,
+            "end": 169,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1Ut8MzcEk7",
+        "title": "古人是怎么搞清楚哪天是哪天的？【差评君】",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 147.27,
+          "end": 205.2,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 8.770999999999987,
+          "endErrorSeconds": 1.8000000000000114,
+          "missingStartSeconds": 8.770999999999987,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 147.27,
+          "end": 205.2,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.8499999999999943,
+          "endErrorSeconds": 1.8000000000000114,
+          "missingStartSeconds": 3.8499999999999943,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 151.12,
+            "end": 207,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1UtkdYnEjg",
+        "title": "洞穴潜水碰见猪队友，美国佛罗里达鹰巢天坑洞穴潜水事故",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 181.17,
+          "end": 243.63,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.00800000000001,
+          "endErrorSeconds": -0.6299999999999955,
+          "missingStartSeconds": 5.00800000000001,
+          "missingEndSeconds": 0.6299999999999955
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 181.17,
+          "end": 243.63,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.6200000000000045,
+          "endErrorSeconds": -0.6299999999999955,
+          "missingStartSeconds": 2.6200000000000045,
+          "missingEndSeconds": 0.6299999999999955
+        },
+        "markings": [
+          {
+            "start": 183.79,
+            "end": 243,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1vLAkeCE4i",
+        "title": "“网红边角料零食”来袭！这也太权威了！！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 176.64,
+          "end": 242.06,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 6.0660000000000025,
+          "endErrorSeconds": 0.9399999999999977,
+          "missingStartSeconds": 6.0660000000000025,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 176.64,
+          "end": 242.06,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.240000000000009,
+          "endErrorSeconds": 0.9399999999999977,
+          "missingStartSeconds": 2.240000000000009,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 178.88,
+            "end": 243,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1W5QFBvEe7",
+        "title": "【日本人体献祭】为了抬10吨巨木被碾死也值得？人死继续办传承1200年。。。",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 66.66,
+          "end": 125.58,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.201000000000008,
+          "endErrorSeconds": -0.5799999999999983,
+          "missingStartSeconds": 5.201000000000008,
+          "missingEndSeconds": 0.5799999999999983
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 66.66,
+          "end": 125.58,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.6400000000000006,
+          "endErrorSeconds": -0.5799999999999983,
+          "missingStartSeconds": 1.6400000000000006,
+          "missingEndSeconds": 0.5799999999999983
+        },
+        "markings": [
+          {
+            "start": 68.3,
+            "end": 125,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1WA1eBEEV3",
+        "title": "印度这次危险了",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 358.08,
+          "end": 440.379,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.535000000000025,
+          "endErrorSeconds": -1.379000000000019,
+          "missingStartSeconds": 7.535000000000025,
+          "missingEndSeconds": 1.379000000000019
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 358.08,
+          "end": 440.379,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.7800000000000296,
+          "endErrorSeconds": -1.379000000000019,
+          "missingStartSeconds": 3.7800000000000296,
+          "missingEndSeconds": 1.379000000000019
+        },
+        "markings": [
+          {
+            "start": 361.86,
+            "end": 439,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1XfjH6FEyD",
+        "title": "为什么说千早爱音是最普通的人，却成了最不能被替代的那个？【桂冠之下】",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 156.38,
+          "end": 181.93,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.354000000000013,
+          "endErrorSeconds": 1.0699999999999932,
+          "missingStartSeconds": 5.354000000000013,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 156.38,
+          "end": 181.93,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.6599999999999966,
+          "endErrorSeconds": 1.0699999999999932,
+          "missingStartSeconds": 1.6599999999999966,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 158.04,
+            "end": 183,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1xgtNeSEPK",
+        "title": "【西部疯味】尝尝咱们在地里埋了一年的硬饼干-永远不过期的饼干？！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 252.579,
+          "end": 303.58,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.156000000000006,
+          "endErrorSeconds": 0.4200000000000159,
+          "missingStartSeconds": 5.156000000000006,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 252.579,
+          "end": 303.58,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 1.7199999999999989,
+          "endErrorSeconds": 0.4200000000000159,
+          "missingStartSeconds": 1.7199999999999989,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 254.299,
+            "end": 304,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1xmCxBbEQH",
+        "title": "北京巨型汉堡挑战，1小时吃完十斤汉堡，奖金5000元！能成功吗？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 58.34,
+          "end": 146.33,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 7.397999999999996,
+          "endErrorSeconds": 0.6699999999999875,
+          "missingStartSeconds": 7.397999999999996,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 58.34,
+          "end": 146.33,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.1399999999999935,
+          "endErrorSeconds": 0.6699999999999875,
+          "missingStartSeconds": 3.1399999999999935,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 61.48,
+            "end": 147,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1ya84z3EaS",
+        "title": "电动车乱象为什么总是不治本？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 106.74,
+          "end": 141.329,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.951999999999998,
+          "endErrorSeconds": 0.6709999999999923,
+          "missingStartSeconds": 5.951999999999998,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 106.74,
+          "end": 141.329,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.200000000000003,
+          "endErrorSeconds": 0.6709999999999923,
+          "missingStartSeconds": 2.200000000000003,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 108.94,
+            "end": 142,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1zdE76YEW3",
+        "title": "摔麦喷媒体，空降看球赛，特朗普还有多少活要整？",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 359.19,
+          "end": 439.73,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": -36.47399999999999,
+          "endErrorSeconds": 0.2699999999999818,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 359.19,
+          "end": 439.73,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 0.2699999999999818,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 359.19,
+            "end": 440,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1Zw4m1k7mZ",
+        "title": "在现实中！消音器真的可以消音吗？多款不同口径测试！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 454.2,
+          "end": 510.18,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 5.383000000000038,
+          "endErrorSeconds": 1.8199999999999932,
+          "missingStartSeconds": 5.383000000000038,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 454.2,
+          "end": 510.18,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 2.2800000000000296,
+          "endErrorSeconds": 1.8199999999999932,
+          "missingStartSeconds": 2.2800000000000296,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 456.48,
+            "end": 512,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "correct"
+          }
+        ]
+      }
+    ],
+    "regressed": [
+      {
+        "bvid": "BV122YAzWE2E",
+        "title": "日本是真废了",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 357.96,
+          "end": 428.65,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 3.5360000000000014,
+          "endErrorSeconds": 0.35000000000002274,
+          "missingStartSeconds": 3.5360000000000014,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 357.96,
+          "end": 428.65,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": 15.960000000000036,
+          "endErrorSeconds": -0.6499999999999773,
+          "missingStartSeconds": 15.960000000000036,
+          "missingEndSeconds": 0.6499999999999773
+        },
+        "markings": [
+          {
+            "start": 373.92,
+            "end": 428,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0,
+            "status": "partial-or-boundary"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1byMc66Eyk",
+        "title": "《宝冠军》那些事儿｜大师球级对战【TerminalMontage搞笑动画】",
+        "split": "validation",
+        "before": {
+          "referenceIndex": 0,
+          "start": 0,
+          "end": 35,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": 0,
+          "endErrorSeconds": 1,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 0,
+          "end": 35,
+          "matched": false,
+          "predictionIndex": null,
+          "startErrorSeconds": null,
+          "endErrorSeconds": null,
+          "missingStartSeconds": null,
+          "missingEndSeconds": null
+        },
+        "markings": []
+      },
+      {
+        "bvid": "BV1KLtMzpErv",
+        "title": "理想i8撞烂乘龙卡车:这个宣发把我逗笑了！",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 269.16,
+          "end": 404.58,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": -2.2870000000000346,
+          "endErrorSeconds": 0.4200000000000159,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 269.16,
+          "end": 404.58,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": -5.689999999999998,
+          "endErrorSeconds": 0.4200000000000159,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 263.47,
+            "end": 405,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 0.6899999999999977,
+            "status": "wrong-keep"
+          }
+        ]
+      },
+      {
+        "bvid": "BV1qiEtzTE4b",
+        "title": "小明剑魔离家独自去武汉直播：未能被满足的压抑和诉求。",
+        "split": "development",
+        "before": {
+          "referenceIndex": 0,
+          "start": 377.22,
+          "end": 495.87,
+          "matched": true,
+          "predictionIndex": 0,
+          "startErrorSeconds": -3.076000000000022,
+          "endErrorSeconds": 1.1299999999999955,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "after": {
+          "referenceIndex": 0,
+          "start": 377.22,
+          "end": 495.87,
+          "matched": false,
+          "predictionIndex": 0,
+          "startErrorSeconds": -7.2000000000000455,
+          "endErrorSeconds": 1.1299999999999955,
+          "missingStartSeconds": 0,
+          "missingEndSeconds": 0
+        },
+        "markings": [
+          {
+            "start": 370.02,
+            "end": 497,
+            "source": "danmaku-time",
+            "extraKeepSeconds": 2.2000000000000455,
+            "status": "wrong-keep"
+          }
+        ]
+      }
+    ]
+  },
+  "resources": {
+    "scope": "413 development videos, one local Node replay per video; timing is not a browser guarantee",
+    "codeSize": {
+      "files": [
+        {
+          "filename": "constants.js",
+          "bytes": 1252
+        },
+        {
+          "filename": "utils.js",
+          "bytes": 699
+        },
+        {
+          "filename": "detectors.js",
+          "bytes": 21265
+        },
+        {
+          "filename": "segment-detector.js",
+          "bytes": 23782
+        },
+        {
+          "filename": "skipper.js",
+          "bytes": 7214
+        },
+        {
+          "filename": "content.js",
+          "bytes": 13002
+        }
+      ],
+      "totalBytes": 67214,
+      "gzipBytes": 20333
+    },
+    "medianMs": 5.775959000000057,
+    "p95Ms": 11.682250000000067,
+    "maxMs": 16.651832999999897
+  },
+  "userCases": [
+    {
+      "fixture": "danmaku-false-positive-BV1r1421r7am",
+      "scope": "separate user case, not a member of 438 benchmark; natural-promotion contains only 3 saved logged-in comments",
+      "candidate": {
+        "start": 349.262,
+        "end": 370,
+        "requiresConfirmation": false,
+        "matchedKeywords": [
+          "跳伞"
+        ],
+        "reason": "explicit-danmaku-skip",
+        "earlyAdEvidence": false,
+        "referenceCount": 1,
+        "adReactionCount": 3,
+        "explicitCount": 1,
+        "alternativeDestinations": [],
+        "source": "danmaku-time",
+        "confidence": "high",
+        "boundaryEvidence": {
+          "start": {
+            "kind": "time-instruction",
+            "time": 349.262
+          },
+          "end": {
+            "kind": "danmaku-destination",
+            "time": 370
+          }
+        }
+      },
+      "auto": {
+        "start": 349.262,
+        "end": 370,
+        "requiresConfirmation": false,
+        "matchedKeywords": [
+          "跳伞"
+        ],
+        "reason": "explicit-danmaku-skip",
+        "earlyAdEvidence": false,
+        "referenceCount": 1,
+        "adReactionCount": 3,
+        "explicitCount": 1,
+        "alternativeDestinations": [],
+        "source": "danmaku-time",
+        "confidence": "high",
+        "boundaryEvidence": {
+          "start": {
+            "kind": "time-instruction",
+            "time": 349.262
+          },
+          "end": {
+            "kind": "danmaku-destination",
+            "time": 370
+          }
+        }
+      },
+      "candidates": [
+        {
+          "start": 349.262,
+          "end": 370,
+          "requiresConfirmation": false,
+          "matchedKeywords": [
+            "跳伞"
+          ],
+          "reason": "explicit-danmaku-skip",
+          "earlyAdEvidence": false,
+          "referenceCount": 1,
+          "adReactionCount": 3,
+          "explicitCount": 1,
+          "alternativeDestinations": [],
+          "source": "danmaku-time",
+          "confidence": "high",
+          "boundaryEvidence": {
+            "start": {
+              "kind": "time-instruction",
+              "time": 349.262
+            },
+            "end": {
+              "kind": "danmaku-destination",
+              "time": 370
+            }
+          }
+        }
+      ],
+      "automaticSegments": [
+        {
+          "start": 349.262,
+          "end": 370,
+          "requiresConfirmation": false,
+          "matchedKeywords": [
+            "跳伞"
+          ],
+          "reason": "explicit-danmaku-skip",
+          "earlyAdEvidence": false,
+          "referenceCount": 1,
+          "adReactionCount": 3,
+          "explicitCount": 1,
+          "alternativeDestinations": [],
+          "source": "danmaku-time",
+          "confidence": "high",
+          "boundaryEvidence": {
+            "start": {
+              "kind": "time-instruction",
+              "time": 349.262
+            },
+            "end": {
+              "kind": "danmaku-destination",
+              "time": 370
+            }
+          }
+        }
+      ],
+      "detectionMs": 0.9164999999998145,
+      "seekDestinations": [
+        370.05
+      ],
+      "diagnostics": []
+    },
+    {
+      "fixture": "natural-promotion",
+      "scope": "separate user case, not a member of 438 benchmark; natural-promotion contains only 3 saved logged-in comments",
+      "candidate": {
+        "start": 145.5,
+        "end": 190,
+        "requiresConfirmation": false,
+        "matchedKeywords": [
+          "工程"
+        ],
+        "reason": "explicit-danmaku-skip",
+        "earlyAdEvidence": false,
+        "referenceCount": 2,
+        "adReactionCount": 0,
+        "explicitCount": 2,
+        "alternativeDestinations": [],
+        "source": "danmaku-time",
+        "confidence": "high",
+        "boundaryEvidence": {
+          "start": {
+            "kind": "subtitle-near-time-instruction",
+            "time": 145.5
+          },
+          "end": {
+            "kind": "danmaku-destination",
+            "time": 190
+          }
+        }
+      },
+      "auto": {
+        "start": 145.5,
+        "end": 190,
+        "requiresConfirmation": false,
+        "matchedKeywords": [
+          "工程"
+        ],
+        "reason": "explicit-danmaku-skip",
+        "earlyAdEvidence": false,
+        "referenceCount": 2,
+        "adReactionCount": 0,
+        "explicitCount": 2,
+        "alternativeDestinations": [],
+        "source": "danmaku-time",
+        "confidence": "high",
+        "boundaryEvidence": {
+          "start": {
+            "kind": "subtitle-near-time-instruction",
+            "time": 145.5
+          },
+          "end": {
+            "kind": "danmaku-destination",
+            "time": 190
+          }
+        }
+      },
+      "candidates": [
+        {
+          "start": 145.5,
+          "end": 190,
+          "requiresConfirmation": false,
+          "matchedKeywords": [
+            "工程"
+          ],
+          "reason": "explicit-danmaku-skip",
+          "earlyAdEvidence": false,
+          "referenceCount": 2,
+          "adReactionCount": 0,
+          "explicitCount": 2,
+          "alternativeDestinations": [],
+          "source": "danmaku-time",
+          "confidence": "high",
+          "boundaryEvidence": {
+            "start": {
+              "kind": "subtitle-near-time-instruction",
+              "time": 145.5
+            },
+            "end": {
+              "kind": "danmaku-destination",
+              "time": 190
+            }
+          }
+        }
+      ],
+      "automaticSegments": [
+        {
+          "start": 145.5,
+          "end": 190,
+          "requiresConfirmation": false,
+          "matchedKeywords": [
+            "工程"
+          ],
+          "reason": "explicit-danmaku-skip",
+          "earlyAdEvidence": false,
+          "referenceCount": 2,
+          "adReactionCount": 0,
+          "explicitCount": 2,
+          "alternativeDestinations": [],
+          "source": "danmaku-time",
+          "confidence": "high",
+          "boundaryEvidence": {
+            "start": {
+              "kind": "subtitle-near-time-instruction",
+              "time": 145.5
+            },
+            "end": {
+              "kind": "danmaku-destination",
+              "time": 190
+            }
+          }
+        }
+      ],
+      "detectionMs": 3.585541999999805,
+      "seekDestinations": [
+        190.05
+      ],
+      "diagnostics": []
+    }
+  ],
+  "algorithmCommit": "0d1883723ff7f43bc29fe3b3ec52f81f00ca131e",
+  "validationUsedForDevelopment": false,
+  "tests": {
+    "passed": 265,
+    "failed": 0,
+    "source": "production worktree",
+    "command": "BILISMARTSKIP_SOURCE_DIR=<algorithm>/scr node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs"
+  }
+}

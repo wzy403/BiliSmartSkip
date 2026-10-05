@@ -32,7 +32,7 @@ function loadProduction(ref, { sourceDir } = {}) {
   const harnessPath = path.join(repoRoot, 'tests', 'harness.cjs');
   vm.runInNewContext(fs.readFileSync(harnessPath, 'utf8'), {
     module: harnessModule, __dirname: path.dirname(harnessPath),
-    require: name => name === 'node:fs' ? {
+    require: name => name === './source-directory.cjs' ? path.join(repoRoot, 'scr') : name === 'node:fs' ? {
       existsSync: filename => sources.has(filename),
       readFileSync: (filename, encoding) => sources.has(filename)
         ? sources.get(filename) : fs.readFileSync(filename, encoding)

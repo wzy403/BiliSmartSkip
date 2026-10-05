@@ -1,5 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const { createHarness } = require('./harness.cjs');
 const { transcript, weakSubtitles, strongSubtitles, timestamp } = require('./fixtures.cjs');
 
@@ -48,14 +50,17 @@ test('真实弹幕回归：短广告的明确跳伞指令不被 30 秒前置门�
     const h = createHarness({ danmaku: [timestamp(text, time)] });
     const segment = await h.detectAndAttach();
     assert.ok(segment, bvid);
+    assert.equal(segment.start, time, bvid);
     assert.equal(segment.requiresConfirmation, false, bvid);
-    h.tick(time + 5);
+    h.tick(time - 0.001);
+    assert.deepEqual(h.video.seeks, [], bvid);
+    h.tick(time);
     assert.deepEqual(h.video.seeks, [end + 0.05], bvid);
   }
 });
 
 test('短时轴放宽仅适用于明确指令，仍遵守 10 秒区间下限', async () => {
-  for (const [time, text] of [[137.001, '看看02：36'], [142, '跳伞02：36']]) {
+  for (const [time, text] of [[137.001, '看看02：36'], [147, '跳伞02：36']]) {
     const h = createHarness({ danmaku: [timestamp(text, time)] });
     assert.equal(await h.detectAndAttach(), null);
     h.tick(time + 5);
@@ -144,11 +149,11 @@ test('普通孤立时间引用只能手动确认', async () => {
 test('弱时轴与字幕冲突时记录差异且不合并成更大区间', async () => {
   const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 5:00', 235)] }, { debug: true });
   const segment = await h.detectAndAttach();
-  assert.equal(segment.start, 240);
+  assert.equal(segment.start, 235);
   assert.equal(segment.end, 300);
   assert.equal(segment.requiresConfirmation, true);
   h.tick(79);
-  h.tick(240);
+  h.tick(235);
   assert.equal(h.video.seeks.length, 0);
   const crossCheck = diagnostic(h, 'cross-check:');
   assert.ok(crossCheck);
@@ -193,10 +198,10 @@ for (const text of ['03:10展示传送功能', '03:10的空降兵很厉害', '�
     const segment = await h.detectAndAttach();
     assert.ok(segment);
     assert.equal(segment.source, 'danmaku-time');
-    assert.equal(segment.start, 79);
+    assert.equal(segment.start, 74);
     assert.equal(segment.end, 190);
     assert.equal(segment.requiresConfirmation, true);
-    h.tick(79);
+    h.tick(74);
     assert.equal(h.video.seeks.length, 0);
     assert.match(h.button.textContent, /疑似广告/);
   });
@@ -208,12 +213,12 @@ for (const text of ['空降03:10', '跳过广告到03:10', '3:10广告结束']) 
     const segment = await h.detectAndAttach();
     assert.ok(segment);
     assert.equal(segment.source, 'danmaku-time');
-    assert.equal(segment.start, 79);
+    assert.equal(segment.start, 74);
     assert.equal(segment.end, 190);
     assert.equal(segment.requiresConfirmation, false);
-    h.tick(74);
+    h.tick(73.999);
     assert.equal(h.video.seeks.length, 0);
-    h.tick(79);
+    h.tick(74);
     assert.deepEqual(h.video.seeks, [190.05]);
   });
 }
@@ -230,10 +235,10 @@ test('普通时间引用不能把可靠时轴的起点向前扩展', async () =>
   const h = createHarness({ danmaku: [timestamp('看看 2:30', 60), timestamp('跳过广告 2:30', 95)] });
   const segment = await h.detectAndAttach();
   assert.ok(segment);
-  assert.equal(segment.start, 100);
-  h.tick(79);
+  assert.equal(segment.start, 95);
+  h.tick(94.999);
   assert.equal(h.video.seeks.length, 0);
-  h.tick(100);
+  h.tick(95);
   assert.deepEqual(h.video.seeks, [150.05]);
 });
 
@@ -392,8 +397,9 @@ test('DEBUG 显式关闭时检测与跳过不输出诊断日志', async () => {
   assert.deepEqual(h.logs.slice(startupLogCount), []);
 });
 
-test('test-branch 默认开启 DEBUG，检测日志包含来源、置信度和命中关键词', async () => {
-  const h = createHarness({ subtitles: strongSubtitles });
+test('DEBUG 显式开启时检测日志包含来源、置信度和命中关键词，test-branch 保留调试默认值', async () => {
+  assert.match(fs.readFileSync(path.join(__dirname, '..', 'scr', 'constants.js'), 'utf8'), /^const DEBUG = true;$/m);
+  const h = createHarness({ subtitles: strongSubtitles }, { debug: true });
   assert.equal(h.evaluate('DEBUG'), true);
   await h.detectAndAttach();
   const detail = diagnostic(h, 'detection:');

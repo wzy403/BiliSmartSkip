@@ -4,7 +4,7 @@ const path = require('node:path');
 const test = require('node:test');
 const vm = require('node:vm');
 
-const source = name => readFileSync(path.join(__dirname, '../scr', name), 'utf8');
+const source = name => readFileSync(path.join(require('./source-directory.cjs'), name), 'utf8');
 const apiSource = source('api.js');
 const bridgeSource = source('page-data.js');
 const bvid = 'BV1iQeM6uEEH';

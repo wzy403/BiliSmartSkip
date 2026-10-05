@@ -3,7 +3,8 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const path = require('node:path');
-const { detectSegments } = require('../scr/segment-detector.js');
+const segmentSource = path.join(require('./source-directory.cjs'), 'segment-detector.js');
+const { detectSegments } = require(segmentSource);
 const { createHarness } = require('./harness.cjs');
 const helpers = createHarness().context;
 const line = (from, to, content) => ({ from, to, content });
@@ -149,7 +150,7 @@ test('invalid input, overlapping chapter envelopes and duplicate rows do not pro
 });
 
 test('browser script exposes the same synchronous dependency-free API', () => {
-  const browser = {}; vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../scr/segment-detector.js'), 'utf8'), browser);
+  const browser = {}; vm.runInNewContext(fs.readFileSync(segmentSource, 'utf8'), browser);
   const result = browser.BiliSegmentDetector.detectSegments(input(ad()));
   assert.deepEqual(JSON.parse(JSON.stringify(result)), detectSegments(input(ad())));
 });
