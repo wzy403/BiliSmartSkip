@@ -61,11 +61,11 @@ function registerShortcutListener() {
     if (e.shiftKey !== !!SKIP_SHORTCUT.shiftKey) return;
     if (e.metaKey !== !!SKIP_SHORTCUT.metaKey) return;
 
-    if (!isBtnAdd || !currentAdSegment || skipped) return;
+    if (!isBtnAdd || !btn.parentElement || !skipButtonSegment || skipped) return;
 
     e.preventDefault();
     e.stopPropagation();
-    skipToEnd(currentAdSegment.end);
+    skipToEnd(skipButtonSegment.end, 'manual', skipButtonSegment);
   };
 
   document.addEventListener('keydown', keydownHandler);
@@ -94,15 +94,10 @@ function cleanUp() {
   isBtnAdd = false;
   currentAdSegment = null;
 
-  if (btn.parentElement) btn.remove();
+  btnCleanUp();
 
   if (currentVideo && currentAdSkipHandler) {
     currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
-  }
-
-  if (countdownTimer) {
-    clearInterval(countdownTimer);
-    countdownTimer = null;
   }
 
   if (videoHealthTimer) {

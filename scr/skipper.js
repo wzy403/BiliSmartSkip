@@ -7,6 +7,7 @@ let buttonEventHandlers = {
   play: null,
   pause: null
 };
+let skipButtonSegment = null;
 
 // === Style the skip button ===
 const btn = document.createElement('button');
@@ -35,57 +36,84 @@ btn.addEventListener('mouseleave', () => {
 });
 
 // === Skip logic ===
+function groupSkipPrompts(segments) {
+  const prompts = [];
+  for (let i = 0; i < segments.length; i++) {
+    const first = segments[i], next = segments[i + 1];
+    // A short uncertain introduction and the nearby trusted break share one
+    // interaction window. This only groups UI; automatic seeks use raw intervals.
+    const related = first.requiresConfirmation !== false
+      && first.end - first.start <= COUNTDOWN
+      && next?.requiresConfirmation === false
+      && next.start >= first.end && next.start - first.end <= COUNTDOWN;
+    const members = related ? [first, next] : [first];
+    if (related) i++;
+    prompts.push({ ...first, end: members[members.length - 1].end, members });
+  }
+  return prompts;
+}
+
 function attachSkipper(segment) {
   const segments = (Array.isArray(segment) ? segment : [segment]).slice().sort((a, b) => a.start - b.start);
+  const prompts = groupSkipPrompts(segments);
+  let currentPrompt = null;
   if (currentAdSkipHandler) currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
+  btnCleanUp();
+  isBtnAdd = false;
   log('attachSkipper:', { segmentCount: segments.length });
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
     const active = segments.find(item => t >= item.start && t < item.end);
-    if (active !== currentAdSegment) {
+    const prompt = prompts.find(item => t >= item.start && t < item.end) || null;
+    if (prompt !== currentPrompt) {
       btnCleanUp();
       isBtnAdd = false;
-      currentAdSegment = active || null;
+      currentPrompt = prompt;
     }
-    if (!active) return;
-    const { start, end } = active;
+    currentAdSegment = active || null;
+    if (!prompt) return;
     // Trust and repeat prevention belong to each interval, not to the video.
-    const requiresConfirmation = active.requiresConfirmation !== false;
-    skipped = skippedSegments.has(`${start}:${end}`);
+    const requiresConfirmation = active?.requiresConfirmation !== false;
+    skipped = !!active && skippedSegments.has(`${active.start}:${active.end}`);
     isSuspiciousAd = requiresConfirmation;
-    if (SKIP_MODE === 'auto' && !skipped && !requiresConfirmation) {
-      if (t >= start && t < end) {
-        skipToEnd(end, 'auto');
-      }
-    } else {
-      if (!isBtnAdd && t >= start && t < end) {
-        addSkipBtn(end, requiresConfirmation);
-      } else if (t < start - 0.2 || t > end + 0.2) {
-        btnCleanUp();
-        isBtnAdd = false;
-      }
+    if (active && SKIP_MODE === 'auto' && !skipped && !requiresConfirmation) {
+      skipToEnd(active.end, 'auto');
+    } else if (btn.parentElement && !requiresConfirmation && buttonEventHandlers.play) {
+      // Confirmation can upgrade the visible prompt without removing/readding it.
+      cleanUpCountdown();
+      btn.textContent = '跳过广告';
+    } else if (!isBtnAdd && !prompt.members.some(item => skippedSegments.has(`${item.start}:${item.end}`))) {
+      addSkipBtn(prompt.end, requiresConfirmation, prompt);
     }
   };
 
   currentVideo.addEventListener('timeupdate', currentAdSkipHandler);
 }
 
-function skipToEnd(end, trigger = 'manual') {
+function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
   // Guard: if video ref is stale, bail out without setting skipped
   if (!currentVideo || !currentVideo.isConnected) {
     log('skipToEnd: video element not connected, aborting');
     return;
   }
+  // A user seek may update the media clock before timeupdate removes the old
+  // button. Never let that stale button or shortcut jump backwards.
+  const position = currentVideo.currentTime;
+  if (!target || position < target.start || position >= target.end
+    || !Number.isFinite(end) || end <= position || end !== target.end) {
+    btnCleanUp();
+    return;
+  }
 
   // 立即设置 skipped，防止 timeupdate 在 seeked 回调前重复触发 skipToEnd
   skipped = true;
-  if (currentAdSegment) skippedSegments.add(`${currentAdSegment.start}:${currentAdSegment.end}`);
+  for (const member of target.members || [target]) skippedSegments.add(`${member.start}:${member.end}`);
 
   const wasPlaying = !currentVideo.paused;
   log('skip:', {
-    trigger, source: currentAdSegment?.source,
+    trigger, source: target.source,
     from: currentVideo.currentTime, to: end,
-    confidence: currentAdSegment?.confidence, wasPlaying
+    confidence: target.confidence, wasPlaying
   });
 
   // Clean up UI immediately
@@ -139,10 +167,7 @@ function ensurePlaying(wasPlaying) {
 
 function btnCleanUp() {
   btn.remove();
-  if (countdownTimer) {
-    clearInterval(countdownTimer);
-    countdownTimer = null;
-  }
+  skipButtonSegment = null;
   cleanUpBtnEvents();
 }
 
@@ -150,6 +175,14 @@ function cleanUpBtnEvents() {
   if (buttonEventHandlers.click) {
     btn.removeEventListener('click', buttonEventHandlers.click);
     buttonEventHandlers.click = null;
+  }
+  cleanUpCountdown();
+}
+
+function cleanUpCountdown() {
+  if (countdownTimer !== null) {
+    clearTimeout(countdownTimer);
+    countdownTimer = null;
   }
   if (buttonEventHandlers.mouseenter) {
     btn.removeEventListener('mouseenter', buttonEventHandlers.mouseenter);
@@ -170,53 +203,46 @@ function cleanUpBtnEvents() {
 }
 
 function possibleAdCountdown(counter) {
-  let countdown = counter;
-  btn.textContent = `跳过疑似广告 (${countdown})`;
-
+  let remainingMs = counter * 1000, startedAt = null, hovered = false;
+  const render = () => { btn.textContent = `跳过疑似广告 (${Math.ceil(remainingMs / 1000)})`; };
+  const consumeElapsed = () => {
+    if (startedAt !== null) remainingMs = Math.max(0, remainingMs - (performance.now() - startedAt));
+    startedAt = null;
+  };
+  const countdownPause = () => {
+    consumeElapsed();
+    if (countdownTimer !== null) clearTimeout(countdownTimer);
+    countdownTimer = null;
+    if (remainingMs <= 0) btnCleanUp();
+  };
   const countdownStart = () => {
-    countdownTimer = setInterval(() => {
-      countdown--;
-      if (countdown == -1) {
-        btnCleanUp();
-        return;
-      } else if (countdown > 0) {
-        btn.textContent = `跳过疑似广告 (${countdown})`;
-      }
-    }, 1000);
+    if (countdownTimer !== null || hovered || currentVideo.paused || remainingMs <= 0) return;
+    startedAt = performance.now();
+    countdownTimer = setTimeout(() => {
+      countdownTimer = null;
+      consumeElapsed();
+      if (remainingMs <= 0) { btnCleanUp(); return; }
+      render();
+      countdownStart();
+    }, Math.min(1000, remainingMs));
   };
 
-  buttonEventHandlers.mouseenter = () => {
-    if (countdownTimer) {
-      clearInterval(countdownTimer);
-      countdownTimer = null;
-    }
-  };
+  buttonEventHandlers.mouseenter = () => { hovered = true; countdownPause(); };
   btn.addEventListener('mouseenter', buttonEventHandlers.mouseenter);
-  buttonEventHandlers.mouseleave = () => {
-    if (!countdownTimer && countdown > 0) {
-      countdownStart();
-    }
-  };
+  buttonEventHandlers.mouseleave = () => { hovered = false; countdownStart(); };
   btn.addEventListener('mouseleave', buttonEventHandlers.mouseleave);
-  buttonEventHandlers.play = () => {
-    if (!countdownTimer && countdown > 0) {
-      countdownStart();
-    }
-  };
+  buttonEventHandlers.play = countdownStart;
   currentVideo.addEventListener('play', buttonEventHandlers.play);
-  buttonEventHandlers.pause = () => {
-    if (countdownTimer) {
-      clearInterval(countdownTimer);
-      countdownTimer = null;
-    }
-  };
+  buttonEventHandlers.pause = countdownPause;
   currentVideo.addEventListener('pause', buttonEventHandlers.pause);
+  render();
   countdownStart();
 }
 
-function addSkipBtn(end, requiresConfirmation = isSuspiciousAd) {
+function addSkipBtn(end, requiresConfirmation = isSuspiciousAd, target = currentAdSegment) {
   log('addSkipBtn called, end=', formatTime(end));
   cleanUpBtnEvents();
+  skipButtonSegment = target;
   if (!requiresConfirmation) {
     btn.textContent = '跳过广告';
   } else {
@@ -227,7 +253,7 @@ function addSkipBtn(end, requiresConfirmation = isSuspiciousAd) {
   if (getComputedStyle(container).position === 'static') {
     container.style.position = 'relative';
   }
-  buttonEventHandlers.click = () => skipToEnd(end);
+  buttonEventHandlers.click = () => skipToEnd(end, 'manual', target);
   btn.addEventListener('click', buttonEventHandlers.click);
   container.appendChild(btn);
   isBtnAdd = true;
