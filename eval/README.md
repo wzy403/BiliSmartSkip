@@ -1,6 +1,8 @@
 # 独立测试分支：回放、采集与人工审核
 
-`tests/` 和 `eval/` 的独立提交只保存在 `test-branch` 及其工作树中，不随生产分支或插件包发布。生产优化分支为 `fix/improve-detction-rate`，已撤销上一轮优化并恢复到 2.1.0。后续生产代码更新应单向合入 `test-branch` 后回归，**不要把 `test-branch` 整支合并回 master**。
+`tests/` 和 `eval/` 保存在 `test-branch`，不随生产扩展发布。生产算法位于 `fix/improve-detction-rate`；测试时可临时导出该分支的源码，无需合并分支或挂载工作树。**不要把 `test-branch` 整支合并回 master**。
+
+2026-10-06 已清理回测不使用的原视频、字幕采集中间副本和旧临时报告，保留全部审核记录、最终字幕和证据截图。必留目录、空间说明、当前离线测试/回测命令及原片恢复方法见 [CLEANUP-NOTES.txt](CLEANUP-NOTES.txt)。下面保留历史工具说明；历史 `.codex` 工作树路径已经停用。
 
 ## 从 2.1.0 重新优化
 

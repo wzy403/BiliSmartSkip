@@ -51,6 +51,12 @@ node_modules/
 !/eval/fixtures/content-audit-351-20261004.jsonl.gz
 !/eval/fixtures/content-audit-extra300-20261004.jsonl.gz
 
+# Optional historical acquisition files restored for manual re-review only.
+# Frozen labels, final transcripts and evidence frames remain tracked.
+/eval/labels/assistant-content-extra300/acquisition/media/*.mp4
+/eval/labels/assistant-content-extra300/acquisition/subtitles-*.jsonl
+/eval/labels/assistant-content-extra300/acquisition/subtitles-*.jsonl.checkpoints/
+
 # Python #
 __pycache__/
 *.py[cod]

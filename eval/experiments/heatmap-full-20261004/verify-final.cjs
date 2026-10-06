@@ -11,8 +11,9 @@ const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const withoutHeatEvidence = segments => segments.map(({ heatmapEvidence, ...segment }) => segment);
 const key = segment => JSON.stringify([segment.start, segment.end, segment.source]);
 
-async function main(sourceDir) {
-  const report = read('all-comparison.json'), selection = read('selection.json');
+async function main(sourceDir, reportFile = path.join(__dirname, 'all-comparison.json'),
+  outputFile = path.join(__dirname, 'acceptance.json')) {
+  const report = JSON.parse(fs.readFileSync(reportFile)), selection = read('selection.json');
   const release = read('../../benchmarks/content-438-v1/release-baselines.json');
   const dev = read('development-comparison.json');
   const benchmark = loadBenchmark();
@@ -72,13 +73,14 @@ async function main(sourceDir) {
     assert.equal(report.grouped.development.current[field], dev.grouped[selection.policy][field], `final replay matches selected development ${field}`);
   }
   const result = { checkedAt: new Date().toISOString(), sourceSha256: production.sourceSha256,
-    reportSha256: hash(fs.readFileSync(path.join(__dirname, 'all-comparison.json'))),
+    reportSha256: hash(fs.readFileSync(reportFile)),
     benchmarkSha256: benchmark.manifestSha256, scorerUnchanged: true,
     releaseRowsReproduced: 438, correctRetained, automaticUnchanged, validationUnchanged,
     missingHeatmapFallbackUnchanged: fallbackUnchanged, removed,
     extraKnownKeepSecondsRemoved: removed.reduce((n, mark) => n + mark.extraKeepSeconds, 0),
     note: 'Removed manual prompts only; known-keep seconds are potential marked overlap, not automatically saved viewing time.' };
-  fs.writeFileSync(path.join(__dirname, 'acceptance.json'), JSON.stringify(result, null, 2) + '\n');
+  fs.mkdirSync(path.dirname(path.resolve(outputFile)), { recursive: true });
+  fs.writeFileSync(outputFile, JSON.stringify(result, null, 2) + '\n');
   console.log(JSON.stringify(result, null, 2));
 }
-main(process.argv[2]).catch(error => { console.error(error); process.exitCode = 1; });
+main(process.argv[2], process.argv[3], process.argv[4]).catch(error => { console.error(error); process.exitCode = 1; });

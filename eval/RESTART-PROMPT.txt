@@ -1,3 +1,5 @@
+测试分支空间清理（2026-10-06）：用户当前主动切到test-branch并要求整理，因此保持原目录在test-branch，不自动切回算法分支。日常运行方法及必留目录见eval/CLEANUP-NOTES.txt。27个原视频、4份字幕采集大JSONL和493检查点已归档到Git历史，可按eval/archives/extra300-acquisition-20261006.json与restore-archived-evidence.cjs离线恢复；最终字幕、帧证据、审核记录、冻结基准未改。不要重新finalize/refreeze。git prune-packed只清除打包冗余，未删历史。算法分支最近三条commit已改英文，当前052d385；旧c5f1aac/0d18837由refs/benchmarks/content-438-before-english-messages保护以便历史回放。后续commit用英文，PR用中文。
+
 完整热度验证已落地（2026-10-04）：按用户“尽量不损失正确广告”选择 keyword-context-25，生产提交 d212a8434d189afab496bb4d60a86887b3433ab6。438同一基准：正确113/265（42.6%），正文误报20/265（7.5%），97个视频广告完整；相比c5f1aac仅删4个手动FP，113个正确全部保留，自动97段/58正确/4正文误报及seek完全不变。320项测试通过；438强制缺热度回放与旧算法完全相同。291份曲线可用，147份保持原判。25份validation结果不变，未据此调参。详情 eval/experiments/heatmap-full-20261004/NOTES.txt；不要把下方“未接入热度”的历史记录当当前状态。测试/采集/报告仍只在test-branch，原目录保持算法分支，测试临时工作树提交后移除；不重建.codex挂载，不推送发布。
 
 热度辅助验证补充（2026-10-04）：用户提出用高能进度条核验FP，已查B站一手资料并补采固定24个development样本及BV1r1421r7am的公开PBP曲线。低热度硬过滤会误删正确广告：50%片内峰值门槛去掉6个误报同时删3个正确广告；24份中18份可用，6份拖动信息不足保持原判。只保存实验，生产仍c5f1aac，不可说已接入热度或提升438成绩。见 eval/experiments/heatmap-verification-20261004/NOTES.txt。没有重新审核或更改冻结评分/标签，validation未用于实验。

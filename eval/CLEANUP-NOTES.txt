@@ -1,0 +1,74 @@
+测试分支空间整理（2026-10-06）
+
+现在保留什么
+- tests/：全部生产功能回归、播放器夹具和真实问题小样本。
+- eval/benchmarks/content-438-v1/：固定438视频清单、原评分、人工修正、发布基线。
+- eval/labels/：审核结论、原始来源、最终字幕、人工反馈、未完项及证据截图。
+  未完成视频的记录也被冻结清单校验，不能只按“是否reviewed”随意删除。
+- eval/fixtures/ 两份 content-audit-*.jsonl.gz：离线恢复438回测输入必需。
+- eval/experiments/：已完成实验的结论、结果与438热度响应；原始接口元数据已压缩。
+- eval/*.cjs、*.mjs、review/：评分、回放、来源校验与小型采集/复审工具。
+- eval/data/：约90MiB本地输入缓存。两份当前基准输入可恢复；旧combined-351.jsonl
+  仍供旧审核工具默认使用，此次保留，不拿刷新后的输入冒充旧输入。
+
+移除了什么
+- 27个已下载原视频/片段（1,212,493,384字节），来自
+  eval/labels/assistant-content-extra300/acquisition/media/。
+  原视频不参与测试/评分；1955份帧文件全部保留，其中含标签引用的截图。
+- 4份字幕采集过程大JSONL及493份恢复检查点（104,765,003字节）。
+  每视频最终字幕已经在sources/保存，回测直接读它们。
+- 约31.4MiB旧临时分析报告、日志、操作系统杂项。完整热度报告保留了小副本，
+  以便旧对话链接可打开；受版本控制的正式实验记录全部保留。
+- git prune-packed 清理约1.33GiB已存在有效pack副本的松散对象。
+  两个pack都先通过完整校验，没有清空reflog、删历史或重写任何分支。
+
+为什么.git仍然较大
+这些MP4曾经被提交，Git保留旧提交就会保留当时的文件。因此清理当前分支后，
+.git仍约1.26GiB，主要是历史视频对象。这不是回测现在必须加载的空间。
+本轮保留Git历史，原视频和采集中间文件可离线恢复；未来若要让新克隆也更小，
+需要单独安排迁移历史大文件/重写历史，这会影响提交哈希和协作，未在本轮执行。
+新的ignore规则会避免把临时恢复的原片与检查点再次提交。
+
+不要为这次存储清理重建标签freeze。旧freeze记录当时证据的路径和哈希，保留不改；
+归档清单明确哪些大文件已从当前工作目录移到Git历史，不能把本地缺少原片误说成
+从未采集过证据。已审核记录、最终来源、帧证据、冻结基准共2915个文件逐字节相同。
+旧extra300/validate.cjs/finalize.cjs是当时审核阶段的工具，含当时的保护分支固定值，
+不是当前438回测入口；日常完整性检查使用下面的content-benchmark.cjs check。
+
+如何运行测试和438回测
+留在test-branch，从算法分支导出一个很小的临时源码目录即可，不需要再挂载工作树，
+也不会占用VS Code分支。以下命令在仓库根目录运行，全程离线：
+
+BSS_CHECK_SOURCE=$(mktemp -d /private/tmp/bss-source.XXXXXX)
+git archive fix/improve-detction-rate scr manifest.json | tar -x -C "$BSS_CHECK_SOURCE"
+node eval/restore-content-inputs.cjs
+node eval/content-benchmark.cjs check
+BILISMARTSKIP_SOURCE_DIR="$BSS_CHECK_SOURCE/scr" node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
+node eval/experiments/heatmap-full-20261004/verify-collection.cjs
+node eval/experiments/heatmap-full-20261004/evaluate-final.cjs "$BSS_CHECK_SOURCE/scr" eval/output/heatmap-replay/all-comparison.json
+node eval/experiments/heatmap-full-20261004/verify-final.cjs "$BSS_CHECK_SOURCE/scr" eval/output/heatmap-replay/all-comparison.json eval/output/heatmap-replay/acceptance.json
+rm -rf "$BSS_CHECK_SOURCE"
+
+输出路径可显式指定，避免重新回测覆盖受版本控制的历史实验报告。
+不带新输出参数时，两个热度脚本仍兼容原来的默认文件路径。
+本轮清理不修改广告算法或评分函数。
+
+如何恢复原视频或采集过程文件
+归档清单：eval/archives/extra300-acquisition-20261006.json
+清单保存原路径、大小、SHA-256、Git blob、来源提交2149828。
+默认查看清单，不会恢复1.23GiB文件：
+node eval/restore-archived-evidence.cjs
+
+验证历史中的524个归档对象仍完整，不写文件：
+node eval/restore-archived-evidence.cjs --verify
+
+仅确实要重新观看原片或检查某次采集时，再恢复具体一份，例如：
+node eval/restore-archived-evidence.cjs --restore eval/labels/assistant-content-extra300/acquisition/media/BV1EZiRYJEFy.mp4
+
+完整恢复所有归档副本（会重新占用约1.23GiB）：
+node eval/restore-archived-evidence.cjs --restore all
+
+恢复工具从本地Git读取，校验大小与SHA-256，不联网、不覆盖不同内容、不自动stage。
+截图和最终字幕无需恢复；正常测试及回测也不需要运行恢复归档命令。
+
+详细清理验收：eval/archives/cleanup-verification-20261006.json。

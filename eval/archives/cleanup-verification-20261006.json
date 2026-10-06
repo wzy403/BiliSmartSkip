@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-06",
+  "branch": "test-branch",
+  "sourceCommitBeforeCleanup": "2149828ac18547cef309b4a44423af79a9d9438e",
+  "algorithmCommit": "052d3850035e667a65b0bfe1c1d6a09a96532b68",
+  "algorithmUnchanged": true,
+  "masterUnchanged": true,
+  "spaceKiB": {
+    "before": {
+      "repository": 4318180,
+      "git": 2732016,
+      "workingFiles": 1586164
+    },
+    "after": {
+      "repository": 1596764,
+      "git": 1330556,
+      "workingFiles": 266208
+    },
+    "reclaimed": 2721416
+  },
+  "archive": {
+    "archivedFiles": 524,
+    "bytes": 1317258387,
+    "categories": {
+      "raw-media": {
+        "files": 27,
+        "bytes": 1212493384
+      },
+      "subtitle-acquisition": {
+        "files": 497,
+        "bytes": 104765003
+      }
+    },
+    "retainedHashedFiles": 2915,
+    "manifest": "eval/archives/extra300-acquisition-20261006.json",
+    "manifestSha256": "203390d4b836de9c8e27a94b8b627616a3a43849337cdc1702953ab1ef303183",
+    "all524GitObjectsVerified": true,
+    "restorableFromExistingHistory": true
+  },
+  "generatedRemoved": {
+    "files": 40,
+    "bytes": 32956443,
+    "retainedLatestReportCopies": true
+  },
+  "gitCleanup": {
+    "operation": "git prune-packed",
+    "packVerification": "Both existing packs verified successfully before pruning",
+    "historyRewritten": false,
+    "reflogsExpired": false,
+    "duplicateLooseObjectsRemoved": 5218,
+    "uniqueLooseObjectsRetained": 4
+  },
+  "verification": {
+    "testsPassed": 328,
+    "testsFailed": 0,
+    "testsSkipped": 0,
+    "retainedFrozenEvidenceFilesByteIdentical": 2915,
+    "reviewedVideos": 438,
+    "scoringLabelsAndBenchmarkUnchanged": true,
+    "allFourVersionReplayRowsIdenticalIgnoringTiming": true,
+    "automaticIntervalsAndSeeksUnchanged": true,
+    "missingHeatmapFallbackVideosVerified": 438,
+    "benchmarkSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+    "evaluatorSha256": "7612153f4bd21f32c9e8b31c2d8832d33f15c0117aa15b17e553558f2ebceb7d",
+    "algorithmSourceSha256": "12efd047d065d54ad0dd6c11083969ac73a0573108f5add7752c9d273f31e18a",
+    "expectedReportSha256": "38a8d4d19ee95a10be712d6add0b28d95a893823de61d8698f62ed77872c24ec",
+    "currentResults": {
+      "reviewedVideos": 438,
+      "videosWithSkipAds": 368,
+      "totalMarkings": 265,
+      "correctMarkings": 113,
+      "correctPercent": 42.64150943396226,
+      "wrongKeepMarkings": 20,
+      "wrongKeepPercent": 7.547169811320755,
+      "partialOrBoundary": 128,
+      "unknown": 4,
+      "videosWithAllAdsCorrect": 97,
+      "videosWithUnresolvedAds": 13,
+      "extraKeepSeconds": 685.5000000000003,
+      "automatic": {
+        "total": 97,
+        "correct": 58,
+        "wrongKeep": 4
+      }
+    }
+  },
+  "note": "Disk usage measured before committing this small cleanup record; archived originals remain in Git history, so this cleanup does not reduce the historical pack footprint."
+}

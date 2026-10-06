@@ -10,7 +10,7 @@ const { detectorInput, normalizeReplay } = require('../../evaluate-segments.cjs'
 const directory = __dirname;
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 
-async function main(sourceDir) {
+async function main(sourceDir, outputFile = path.join(directory, 'all-comparison.json')) {
   const selection = JSON.parse(fs.readFileSync(path.join(directory, 'selection.json')));
   const verifierFile = path.resolve(sourceDir, 'heatmap-verifier.js');
   assert.equal(hash(fs.readFileSync(verifierFile)), selection.verifierSha256, 'Selected policy implementation changed');
@@ -67,7 +67,8 @@ async function main(sourceDir) {
     versions: Object.fromEntries(Object.entries(versions).map(([name, production]) => [name,
       { commit: production.commit, sourceSha256: production.sourceSha256, codeSize: production.codeSize }])),
     coverage, grouped, rows };
-  fs.writeFileSync(path.join(directory, 'all-comparison.json'), JSON.stringify(result, null, 2) + '\n');
+  fs.mkdirSync(path.dirname(path.resolve(outputFile)), { recursive: true });
+  fs.writeFileSync(outputFile, JSON.stringify(result, null, 2) + '\n');
   console.log(JSON.stringify({ coverage, grouped }, null, 2));
 }
-main(process.argv[2]).catch(error => { console.error(error); process.exitCode = 1; });
+main(process.argv[2], process.argv[3]).catch(error => { console.error(error); process.exitCode = 1; });
