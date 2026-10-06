@@ -1,5 +1,11 @@
 测试分支空间整理（2026-10-06）
 
+当前状态：27个已下载原视频/片段已从test-branch尚未推送成功的提交历史永久移除，
+不能再从Git恢复。497份字幕采集中间文件仍保留在历史中，可以按需离线恢复。
+全部测试、采集脚本、最终字幕、帧证据、审核记录及438冻结基准继续保留。
+本轮回收后.git约150MiB，整个原项目目录约410MiB；普通新克隆的Git包约137MiB。
+远端test-branch仍为本地历史的祖先，可直接git push origin test-branch，无需强推。
+
 现在保留什么
 - tests/：全部生产功能回归、播放器夹具和真实问题小样本。
 - eval/benchmarks/content-438-v1/：固定438视频清单、原评分、人工修正、发布基线。
@@ -14,30 +20,32 @@
 移除了什么
 - 27个已下载原视频/片段（1,212,493,384字节），来自
   eval/labels/assistant-content-extra300/acquisition/media/。
-  原视频不参与测试/评分；1955份帧文件全部保留，其中含标签引用的截图。
+  最初只移出工作目录，现已进一步移出未推送历史。原视频不参与测试/评分；
+  1955份帧文件全部保留，其中含标签引用的截图。
 - 4份字幕采集过程大JSONL及493份恢复检查点（104,765,003字节）。
   每视频最终字幕已经在sources/保存，回测直接读它们。
 - 约31.4MiB旧临时分析报告、日志、操作系统杂项。完整热度报告保留了小副本，
   以便旧对话链接可打开；受版本控制的正式实验记录全部保留。
-- git prune-packed 清理约1.33GiB已存在有效pack副本的松散对象。
-  两个pack都先通过完整校验，没有清空reflog、删历史或重写任何分支。
+- 首轮git prune-packed 清理约1.33GiB已存在有效pack副本的松散对象。
+  该首轮清理未重写历史；随后因GitHub拒绝历史大文件，单独清除了27份MP4历史。
 
-为什么.git仍然较大
-这些MP4曾经被提交，Git保留旧提交就会保留当时的文件。因此清理当前分支后，
-.git仍约1.26GiB，主要是历史视频对象。这不是回测现在必须加载的空间。
-本轮保留Git历史，原视频和采集中间文件可离线恢复；未来若要让新克隆也更小，
-需要单独安排迁移历史大文件/重写历史，这会影响提交哈希和协作，未在本轮执行。
-新的ignore规则会避免把临时恢复的原片与检查点再次提交。
+为什么之前push仍上传了1.24GiB
+只删除当前工作目录的文件，不会删除旧提交中的副本；push仍会上传这些历史对象。
+其中BV1EZiRYJEFy.mp4为109,079,091字节，超过GitHub的100MiB限制，导致整次push
+被拒绝。现在仅在test-branch尚未推送的历史中清除这27份MP4，提交哈希因此改变。
+字幕中间文件仍在历史中，最终字幕和截图继续受版本控制；不需要引入Git LFS。
+ignore规则会避免把以后重新下载的原片与恢复的检查点再次提交。
 
 不要为这次存储清理重建标签freeze。旧freeze记录当时证据的路径和哈希，保留不改；
-归档清单明确哪些大文件已从当前工作目录移到Git历史，不能把本地缺少原片误说成
-从未采集过证据。已审核记录、最终来源、帧证据、冻结基准共2915个文件逐字节相同。
+v2归档清单明确区分永久移除的原片和仍可恢复的采集中间文件，不能把本地缺少原片
+误说成从未采集过证据。审核记录、最终来源、帧证据和冻结基准保持原字节。
 旧extra300/validate.cjs/finalize.cjs是当时审核阶段的工具，含当时的保护分支固定值，
 不是当前438回测入口；日常完整性检查使用下面的content-benchmark.cjs check。
 
 如何运行测试和438回测
 留在test-branch，从算法分支导出一个很小的临时源码目录即可，不需要再挂载工作树，
-也不会占用VS Code分支。以下命令在仓库根目录运行，全程离线：
+也不会占用VS Code分支。新克隆若还没有本地fix/improve-detction-rate分支，将下面
+git archive中的分支名改为origin/fix/improve-detction-rate。以下在仓库根目录运行，全程离线：
 
 BSS_CHECK_SOURCE=$(mktemp -d /private/tmp/bss-source.XXXXXX)
 git archive fix/improve-detction-rate scr manifest.json | tar -x -C "$BSS_CHECK_SOURCE"
@@ -53,22 +61,29 @@ rm -rf "$BSS_CHECK_SOURCE"
 不带新输出参数时，两个热度脚本仍兼容原来的默认文件路径。
 本轮清理不修改广告算法或评分函数。
 
-如何恢复原视频或采集过程文件
-归档清单：eval/archives/extra300-acquisition-20261006.json
-清单保存原路径、大小、SHA-256、Git blob、来源提交2149828。
-默认查看清单，不会恢复1.23GiB文件：
+如何查看归档状态或恢复字幕采集过程文件
+当前清单：eval/archives/extra300-acquisition-20261006-v2.json
+清单保存原路径、大小、SHA-256、Git blob及storage状态：purged为27个已永久移除的
+原视频，git为497个仍可恢复的字幕中间文件。sourceCommit仅记录改写前的来源提交，
+不要求该旧提交仍存在，恢复工具直接读取未改变的字幕blob。
+旧v1清单保持原字节，仅代表首轮清理时的历史状态，不能用它推断视频现在仍可恢复。
+默认查看带storage状态的清单，不恢复任何文件：
 node eval/restore-archived-evidence.cjs
 
-验证历史中的524个归档对象仍完整，不写文件：
+验证497个保留的字幕对象，不写文件；27个原视频分别输出skipped-purged：
 node eval/restore-archived-evidence.cjs --verify
 
-仅确实要重新观看原片或检查某次采集时，再恢复具体一份，例如：
-node eval/restore-archived-evidence.cjs --restore eval/labels/assistant-content-extra300/acquisition/media/BV1EZiRYJEFy.mp4
+仅确实要检查某次字幕采集时，再恢复具体一份，例如：
+node eval/restore-archived-evidence.cjs --restore eval/labels/assistant-content-extra300/acquisition/subtitles-anonymous.jsonl
 
-完整恢复所有归档副本（会重新占用约1.23GiB）：
+恢复全部497个字幕中间文件（约100MiB），明确跳过27个已永久移除的原视频：
 node eval/restore-archived-evidence.cjs --restore all
 
 恢复工具从本地Git读取，校验大小与SHA-256，不联网、不覆盖不同内容、不自动stage。
-截图和最终字幕无需恢复；正常测试及回测也不需要运行恢复归档命令。
+指定恢复一个purged原片会直接报“已永久移除”，不创建文件。如果日后要重新观看
+原片，需要另行从其原始来源获取；测试、回测、截图和最终字幕均不需要恢复原片。
 
-详细清理验收：eval/archives/cleanup-verification-20261006.json。
+首轮清理历史验收：eval/archives/cleanup-verification-20261006.json（保留原字节，
+其中“全部524项可恢复”和当时磁盘大小仅代表永久移除视频之前的状态）。
+
+本轮永久移除验收与7条提交的旧新哈希映射：eval/archives/video-history-removal-20261006.json。

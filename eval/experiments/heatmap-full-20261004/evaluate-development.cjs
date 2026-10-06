@@ -17,7 +17,7 @@ if (saved.benchmarkSha256 !== benchmark.manifestSha256) throw Error('Frozen benc
 const acquisition = JSON.parse(fs.readFileSync(path.join(dir, 'acquisition.json')));
 const records = new Map(acquisition.records.map(row => [row.bvid, row]));
 const hash = value => createHash('sha256').update(value).digest('hex');
-const h = loadProduction('c5f1aac').createHarness();
+const h = loadProduction('b25cfdfdaa6dd18b8683c5aaf8cacacdc7c84963').createHarness();
 const helpers = { getSubtitleEvidence: h.context.getSubtitleEvidence };
 const policyNames = Object.keys(verifier.POLICIES);
 const rows = [], decisions = [];

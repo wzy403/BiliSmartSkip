@@ -6,7 +6,7 @@ const os = require('node:os');
 const path = require('node:path');
 const { createHash } = require('node:crypto');
 const { execFileSync } = require('node:child_process');
-const { ARCHIVE_ROOT, run } = require('./restore-archived-evidence.cjs');
+const { ARCHIVE_ROOT, DEFAULT_MANIFEST, validateManifest, run } = require('./restore-archived-evidence.cjs');
 
 function fixture(t) {
   const repoRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'bss-archive-test-'));
@@ -117,4 +117,62 @@ test('CLI options and unknown requested files fail without restoring anything', 
   await assert.rejects(run(['--restore', ARCHIVE_ROOT + 'media/missing.mp4'], f.options), /not in the archive/);
   await assert.rejects(run(['--verify', '--restore', 'all'], f.options), /Usage:/);
   assert.equal(fs.existsSync(path.join(f.repoRoot, ARCHIVE_ROOT)), false);
+});
+
+test('v2 listing distinguishes purged provenance; verify and restore all skip unavailable media', async t => {
+  const f = fixture(t), media = f.manifest.files[0];
+  f.manifest.version = 2;
+  f.manifest.files.forEach(entry => { entry.storage = entry.category === 'raw-media' ? 'purged' : 'git'; });
+  fs.rmSync(path.join(f.repoRoot, '.git/objects', media.gitBlob.slice(0, 2), media.gitBlob.slice(2)));
+  const listed = await run(['--list'], f.options);
+  assert.deepEqual(listed.map(row => row.storage), ['purged', 'git']);
+  assert.match(f.output[0], /\traw-media\tpurged\t/);
+  assert.equal(fs.existsSync(path.join(f.repoRoot, ARCHIVE_ROOT)), false);
+  const verified = await run(['--verify'], f.options);
+  assert.deepEqual(verified.map(row => row.status), ['skipped-purged', 'verified']);
+  assert.equal(fs.existsSync(path.join(f.repoRoot, ARCHIVE_ROOT)), false);
+  const restored = await run(['--restore', 'all'], f.options);
+  assert.deepEqual(restored.map(row => row.status), ['skipped-purged', 'restored']);
+  assert.equal(fs.existsSync(path.join(f.repoRoot, ARCHIVE_ROOT, 'media')), false);
+  assert.deepEqual(fs.readFileSync(path.join(f.repoRoot, f.manifest.files[1].path)), f.contents[1]);
+  assert.ok(f.output.some(line => line === `skipped-purged\t${media.path}`));
+});
+
+test('explicit restoration of purged media fails before accessing destinations even if its blob still exists', async t => {
+  const f = fixture(t), media = f.manifest.files[0];
+  f.manifest.version = 2;
+  f.manifest.files.forEach(entry => { entry.storage = entry.category === 'raw-media' ? 'purged' : 'git'; });
+  await assert.rejects(run(['--restore', media.path], f.options), /Permanently removed from Git history; cannot restore/);
+  assert.equal(fs.existsSync(path.join(f.repoRoot, ARCHIVE_ROOT)), false);
+  assert.deepEqual(f.output, []);
+});
+
+test('v2 requires an explicit valid storage state for every entry before any write', async t => {
+  for (const storage of [undefined, null, '', 'remote', false]) {
+    const f = fixture(t);
+    f.manifest.version = 2;
+    f.manifest.files.forEach(entry => { entry.storage = 'git'; });
+    f.manifest.files[1].storage = storage;
+    await assert.rejects(run(['--restore', 'all'], f.options), /Invalid archive metadata/);
+    assert.equal(fs.existsSync(path.join(f.repoRoot, ARCHIVE_ROOT)), false);
+  }
+});
+
+test('default v2 manifest preserves all original provenance while marking only 27 media files purged', () => {
+  const repoRoot = path.resolve(__dirname, '..');
+  const manifest = validateManifest(JSON.parse(fs.readFileSync(path.join(repoRoot, DEFAULT_MANIFEST))));
+  assert.equal(manifest.version, 2);
+  const originalBytes = fs.readFileSync(path.join(repoRoot, manifest.supersedes.path));
+  assert.equal(createHash('sha256').update(originalBytes).digest('hex'), manifest.supersedes.sha256);
+  const original = JSON.parse(originalBytes);
+  assert.equal(manifest.sourceCommit, original.sourceCommit);
+  assert.deepEqual(manifest.files.map(({ storage, ...entry }) => entry), original.files);
+  const purged = manifest.files.filter(entry => entry.storage === 'purged');
+  const retained = manifest.files.filter(entry => entry.storage === 'git');
+  assert.equal(purged.length, 27);
+  assert.equal(retained.length, 497);
+  assert.ok(purged.every(entry => entry.category === 'raw-media' && entry.path.endsWith('.mp4')));
+  assert.ok(retained.every(entry => entry.category === 'subtitle-acquisition'));
+  assert.equal(purged.reduce((sum, entry) => sum + entry.bytes, 0), 1212493384);
+  assert.equal(retained.reduce((sum, entry) => sum + entry.bytes, 0), 104765003);
 });

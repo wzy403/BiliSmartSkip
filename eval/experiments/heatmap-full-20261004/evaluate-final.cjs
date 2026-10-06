@@ -22,7 +22,7 @@ async function main(sourceDir, outputFile = path.join(directory, 'all-comparison
   const versions = {
     '2.0.1': loadProduction('88652cdd6152f7652a7b21731d53c0942264ca86'),
     '2.1.0': loadProduction('3ce86faffab16a881640fc27dea5f53bf7b219ee'),
-    before: loadProduction('c5f1aac'), current: loadProduction(null, { sourceDir })
+    before: loadProduction('b25cfdfdaa6dd18b8683c5aaf8cacacdc7c84963'), current: loadProduction(null, { sourceDir })
   };
   const rows = [], coverage = { usable: 0, unavailable: 0, durationChanged: 0 };
   for (const row of benchmark.rows) {

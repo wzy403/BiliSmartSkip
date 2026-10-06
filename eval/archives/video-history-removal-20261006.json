@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-06",
+  "reason": "User requested removal of unused downloaded videos from Git history after GitHub rejected test-branch for a 104.03 MiB MP4.",
+  "scope": {
+    "branch": "test-branch",
+    "rewrittenUnpublishedCommits": 7,
+    "remoteBranchObserved": "24d28a80cece5ec111d99694ab5fd3ba7553d6bf",
+    "remoteRemainsAncestor": true,
+    "pushPerformed": false,
+    "forcePushRequired": false,
+    "productionBranchUnchanged": true,
+    "masterUnchanged": true
+  },
+  "removal": {
+    "paths": 27,
+    "bytes": 1212493384,
+    "manifest": "eval/archives/extra300-acquisition-20261006-v2.json",
+    "manifestSha256": "e9505d6f83c951e48e4bf4886499e8165b7385d43c16b3eb414d5b7590ad39ac",
+    "archivedSubtitleFilesStillRestorable": 497,
+    "all27VideoBlobsPhysicallyMissing": true,
+    "outgoingBlobCount": 4259,
+    "largestOutgoingBlob": {
+      "oid": "99ef5a46a2deb14cc51d45d610d6c718547a6e1d",
+      "bytes": 28213152,
+      "path": "eval/labels/assistant-content-extra300/acquisition/subtitles-retry.jsonl"
+    },
+    "outgoingBlobsOver50MiB": 0,
+    "outgoingMp4Paths": 0
+  },
+  "commits": [
+    {
+      "before": "98c57a6d101396527c2184473103538cb7f1117c",
+      "after": "ec01eb9f579ef4a7e0e4769903f7f3f5258454bd",
+      "beforeTree": "0f1290ef6a7e60c0596663cb66992c49b4fcdd43",
+      "afterTree": "430c093d027bf10c055064082482fa618306a283",
+      "message": "Save extra300 assistant content review and pending evidence snapshot"
+    },
+    {
+      "before": "21afddf393dadb17df6ef6cc5c19f977e1689c9e",
+      "after": "ee84b3439237926c810d64f236a7cacb9f17fda2",
+      "beforeTree": "ffe5800545d67fa0556b8485fd54e1de696feb57",
+      "afterTree": "192682fd06ef3e9e3c18903ef7bef6bdf36707c7",
+      "message": "prepare reviewed content benchmark for fresh optimization"
+    },
+    {
+      "before": "178bf6e06abaa290b0fb661e0e5f3b5af2c94be6",
+      "after": "b63c46693d2b16fa68e2fe2fdb4b9122ebe692c6",
+      "beforeTree": "1bfd3757bb248515a6ca18089414958d99c83336",
+      "afterTree": "d12682b7677b9805bbe855d08951cafdec77d445",
+      "message": "Save content benchmark optimization regressions and evidence"
+    },
+    {
+      "before": "7645224f3bffc3384a7cd345a5c31957f1dad551",
+      "after": "22df98f4c16ca4759628bb5faa97a31506ca4472",
+      "beforeTree": "495a65cf876fb9d5fa6cbb7ef5d2e5a41636d8e6",
+      "afterTree": "5707f277729531b05530cf612d95046c1a8c78f9",
+      "message": "Save skip button continuity and countdown regressions"
+    },
+    {
+      "before": "3d2ac835c041bdc25b5b6e7a6cb40b0e11b99092",
+      "after": "d2a79e7c906c0adb492c5d03f75e88848d949b82",
+      "beforeTree": "7c9830c7e9cdbf80d76d1eb9852f96dd23931faf",
+      "afterTree": "cc8fa9a0e27ba2c682296266c03d65c431acacea",
+      "message": "Evaluate high-energy timeline as an ad verification signal"
+    },
+    {
+      "before": "2149828ac18547cef309b4a44423af79a9d9438e",
+      "after": "89eeaf1b78aadb363733b2fad5a47e08b91faa73",
+      "beforeTree": "f797d65e4aeeaa139e0fe5566f0f2d0fd42c812a",
+      "afterTree": "4d8d8d39017fcba05a7d7fe5144a523115dbf4e8",
+      "message": "Save full heatmap verification benchmark and regressions"
+    },
+    {
+      "before": "45ae08530002b7befe31a07e12370e0643122d85",
+      "after": "9d2ad54fdeb0315717d291c6b57718112dd3aae0",
+      "beforeTree": "ab7d7020db3da477802a16b6667562e0fe52f0be",
+      "afterTree": "ab7d7020db3da477802a16b6667562e0fe52f0be",
+      "message": "Archive unused review media and trim test workspace"
+    }
+  ],
+  "snapshot": {
+    "ref": "refs/codex/turn-diffs/checkpoints/53e5001eb1aa80b846a9e8ff795f578a/f09f0fd4f3cb4a09edeb851acf6554ee/1791158639862/dd0a3441-7747-47b5-8887-c17cf73c5ee9",
+    "before": "0f1290ef6a7e60c0596663cb66992c49b4fcdd43",
+    "after": "430c093d027bf10c055064082482fa618306a283",
+    "allNonVideoEntriesUnchanged": true
+  },
+  "recovery": {
+    "unrelatedRecoveryObjectsPreserved": 542,
+    "recoveryRefsCreated": 26,
+    "expiredUnreachableReflogs": [
+      "HEAD",
+      "refs/heads/test-branch"
+    ],
+    "garbageCollection": "git -c gc.auto=0 gc --prune=now after protecting non-media recovery objects and verifying no references/reflogs retain target MP4s"
+  },
+  "sizeKiB": {
+    "repository": 420224,
+    "git": 153812,
+    "freshCloneGit": 140492
+  },
+  "verification": {
+    "testsRoot": 332,
+    "testsFreshClone": 332,
+    "testsFailed": 0,
+    "normalCloneWithoutCustomRefs": true,
+    "oldC5CommitAbsentFromFreshClone": true,
+    "publishedEquivalentCommit": "b25cfdfdaa6dd18b8683c5aaf8cacacdc7c84963",
+    "equivalentSourceSha256": "e807e8dec8a1d56b0d1849c24e428b87215b6680c23749d46ba9eceadc923c1b",
+    "reviewedVideos": 438,
+    "allFourVersionsReplayRowsIdenticalIgnoringTiming": true,
+    "benchmarkSha256": "9293860c178d883a8a809e21829a24c366b013cd89a4a88b01ca1dd1a27b074a",
+    "evaluatorSha256": "7612153f4bd21f32c9e8b31c2d8832d33f15c0117aa15b17e553558f2ebceb7d",
+    "correctMarkings": 113,
+    "totalMarkings": 265,
+    "wrongKeepMarkings": 20,
+    "automaticIntervalsAndSeeksUnchanged": 97,
+    "missingHeatmapFallbackUnchanged": 438,
+    "freshCloneGitIntegrityPassed": true
+  },
+  "notes": [
+    "Frozen labels, sources, image evidence, manifests, scorer and historical reports are unchanged.",
+    "Original MP4 bytes are no longer recoverable from this Git repository; historical file hashes remain provenance only.",
+    "The old v1 archive manifest and first cleanup report retain their original bytes as historical records.",
+    "Size measured before this small audit record and accompanying documentation commit."
+  ]
+}

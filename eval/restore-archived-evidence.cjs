@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
-// Optional review media and acquisition intermediates. Never required by replay.
+// Optional acquisition intermediates and provenance for purged review media.
+// Never required by replay. Version 1 manifests describe the historical archive.
 const fs = require('node:fs');
 const path = require('node:path');
 const { createHash, randomUUID } = require('node:crypto');
@@ -9,10 +10,10 @@ const { Transform, Writable } = require('node:stream');
 const { pipeline } = require('node:stream/promises');
 
 const ARCHIVE_ROOT = 'eval/labels/assistant-content-extra300/acquisition/';
-const DEFAULT_MANIFEST = 'eval/archives/extra300-acquisition-20261006.json';
+const DEFAULT_MANIFEST = 'eval/archives/extra300-acquisition-20261006-v2.json';
 
 function validateManifest(manifest) {
-  if (!manifest || manifest.version !== 1 || !/^[a-f0-9]{40}$/.test(manifest.sourceCommit || '')
+  if (!manifest || ![1, 2].includes(manifest.version) || !/^[a-f0-9]{40}$/.test(manifest.sourceCommit || '')
     || !Array.isArray(manifest.files) || !manifest.files.length) throw Error('Invalid or empty archive manifest');
   const seen = new Set();
   for (const entry of manifest.files) {
@@ -26,7 +27,8 @@ function validateManifest(manifest) {
       ? /^media\/[A-Za-z0-9._-]+\.(?:mp4|m4a|webm|mkv|mov|avi|mp3|aac|wav|flac|ogg|opus)$/i.test(relative)
       : entry.category === 'subtitle-acquisition'
         && /^subtitles-[A-Za-z0-9-]+\.jsonl(?:\.checkpoints\/[A-Za-z0-9._-]+\.json)?$/.test(relative);
-    if (!allowed || !Number.isSafeInteger(entry.bytes) || entry.bytes <= 0
+    if (!allowed || (manifest.version === 2 && !['git', 'purged'].includes(entry.storage))
+      || !Number.isSafeInteger(entry.bytes) || entry.bytes <= 0
       || !/^[a-f0-9]{64}$/.test(entry.sha256 || '') || !/^[a-f0-9]{40}$/.test(entry.gitBlob || '')) {
       throw Error(`Invalid archive metadata: ${name}`);
     }
@@ -131,16 +133,21 @@ async function run(args = [], { repoRoot = path.resolve(__dirname, '..'), manife
   const archive = validateManifest(manifest ?? JSON.parse(fs.readFileSync(path.resolve(repoRoot, manifestFile), 'utf8')));
   const entries = command === 'restore' && args[1] !== 'all' ? archive.files.filter(entry => entry.path === args[1]) : archive.files;
   if (!entries.length) throw Error(`Path is not in the archive manifest: ${args[1]}`);
+  if (command === 'restore' && args[1] !== 'all' && archive.version === 2 && entries[0].storage === 'purged') {
+    throw Error(`Permanently removed from Git history; cannot restore: ${entries[0].path}. The archive retains provenance only.`);
+  }
   const results = [];
   for (const entry of entries) {
+    const storage = archive.version === 1 ? 'git' : entry.storage;
     let result;
-    if (command === 'list') result = { path: entry.path, bytes: entry.bytes, category: entry.category };
+    if (command === 'list') result = { path: entry.path, bytes: entry.bytes, category: entry.category, storage };
+    else if (storage === 'purged') result = { path: entry.path, status: 'skipped-purged' };
     else if (command === 'verify') {
       await readBlob(repoRoot, entry);
       result = { path: entry.path, status: 'verified' };
     } else result = await restoreEntry(repoRoot, entry);
     results.push(result);
-    write(command === 'list' ? `${entry.bytes}\t${entry.category}\t${entry.path}` : `${result.status}\t${entry.path}`);
+    write(command === 'list' ? `${entry.bytes}\t${entry.category}\t${storage}\t${entry.path}` : `${result.status}\t${entry.path}`);
   }
   return results;
 }
