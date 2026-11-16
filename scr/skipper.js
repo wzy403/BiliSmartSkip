@@ -120,8 +120,11 @@ function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
   btnCleanUp();
   isBtnAdd = false;
 
-  // Perform the seek
-  currentVideo.currentTime = end + 0.05;
+  // Perform the seek. An ad that runs to the end of the video stops just short
+  // of it: the player then finishes on its own, instead of being asked to
+  // resume an ended video (which would restart it from the beginning).
+  const lastPlayable = Number.isFinite(currentVideo.duration) ? currentVideo.duration - 0.3 : Infinity;
+  currentVideo.currentTime = Math.max(position, Math.min(end + 0.05, lastPlayable));
 
   // Use seeked event to confirm seek, with a timeout fallback
   let settled = false;
@@ -147,7 +150,7 @@ function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
 }
 
 function ensurePlaying(wasPlaying) {
-  if (!currentVideo || !currentVideo.paused) return;
+  if (!currentVideo || !currentVideo.paused || currentVideo.ended) return;
   if (!wasPlaying) return;
 
   log('ensurePlaying: video paused after seek, attempting resume');
