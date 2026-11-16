@@ -12,6 +12,7 @@ const { loadProduction, runVideo } = require('./runner.cjs');
 const { detectorInput, normalizeReplay } = require('./evaluate-segments.cjs');
 const { assess, summarize } = require('./compare-release-markings.cjs');
 const { loadFeatures, examples, train, serialize } = require('./train-pitch-model.cjs');
+const { resolveSource } = require('../tests/export-source.cjs');
 
 const FOLDS = 5;
 const foldOf = author => parseInt(createHash('sha256').update(`pitch-cv-v1:${author}`).digest('hex').slice(0, 8), 16) % FOLDS;
@@ -94,12 +95,18 @@ function format(report) {
     row('validation · 未参与训练', report.validationShippedTable)].join('\n');
 }
 
-if (require.main === module) {
-  const [sourceDir, output, mode] = process.argv.slice(2);
-  if (!sourceDir) { console.error('Usage: node eval/cross-validate-pitch-model.cjs <algorithm scr directory> [report.json] [no-subtitles]'); process.exit(1); }
-  // Anonymous viewers often receive no subtitle track at all; replay that case too.
-  const options = mode === 'no-subtitles' ? { label: 'subtitles withheld from the detector', transform: input => ({ ...input, subtitles: [] }) } : {};
-  run(sourceDir, output, options).then(report => console.log(format(report)))
-    .catch(error => { console.error(error.stack); process.exitCode = 1; });
-}
+// node eval/cross-validate-pitch-model.cjs <branch | directory> [report.json] [no-subtitles]
+if (require.main === module) (async () => {
+  const [spec, output, mode] = process.argv.slice(2);
+  const source = resolveSource(spec);
+  try {
+    // Anonymous viewers often receive no subtitle track at all; replay that case too.
+    const options = mode === 'no-subtitles'
+      ? { label: 'subtitles withheld from the detector', transform: input => ({ ...input, subtitles: [] }) } : {};
+    const report = await run(source.directory, output, options);
+    console.log(`评测对象：${source.label}\n${format(report)}`);
+  } finally {
+    source.cleanup();
+  }
+})().catch(error => { console.error(error.message); process.exitCode = 1; });
 module.exports = { FOLDS, foldOf, run, format, automatic };

@@ -10,6 +10,8 @@ const repoRoot = path.resolve(__dirname, '..');
 
 function loadProduction(ref, { sourceDir } = {}) {
   if (ref && sourceDir) throw new Error('Choose a Git ref or source directory, not both');
+  // test-branch carries no extension code, so there is no implicit default.
+  if (!ref && !sourceDir) throw new Error('Name a Git ref or a source directory to load the extension from');
   const directory = sourceDir ? path.resolve(sourceDir) : null;
   const commit = ref ? execFileSync('git', ['rev-parse', '--verify', '--end-of-options', `${ref}^{commit}`],
     { cwd: repoRoot, encoding: 'utf8' }).trim() : null;
@@ -18,7 +20,7 @@ function loadProduction(ref, { sourceDir } = {}) {
     { cwd: repoRoot, encoding: 'utf8' })) : null;
   const hasModule = name => manifest
     ? manifest.content_scripts.some(script => script.js?.some(filename => filename.endsWith(`/${name}.js`)))
-    : fs.existsSync(path.join(directory || path.join(repoRoot, 'scr'), `${name}.js`));
+    : fs.existsSync(path.join(directory, `${name}.js`));
   for (const name of ['pitch-model', 'ad-signals', 'segment-detector']) {
     if (hasModule(name)) scripts.splice(scripts.indexOf('skipper'), 0, name);
   }
@@ -27,7 +29,7 @@ function loadProduction(ref, { sourceDir } = {}) {
     const filename = path.join(repoRoot, 'scr', `${name}.js`);
     const source = commit
       ? execFileSync('git', ['show', `${commit}:scr/${name}.js`], { cwd: repoRoot, encoding: 'utf8' })
-      : fs.readFileSync(directory ? path.join(directory, `${name}.js`) : filename, 'utf8');
+      : fs.readFileSync(path.join(directory, `${name}.js`), 'utf8');
     return [filename, source];
   }));
   // Reuse the deterministic browser fixture without changing it or any production source.

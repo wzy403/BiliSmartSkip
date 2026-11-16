@@ -4,6 +4,10 @@
 只适用于旧提交 052d385 的源码；对当前算法请改用 eval/README.md 顶部的命令（compare-release-markings 与
 cross-validate-pitch-model）。热度实验的数据和记录原样保留。
 
+2026-11-16 补充：test-branch 不再携带 scr/、manifest.json 和扩展的 README，也不需要再合并 master。
+跑测试用 node run-tests.cjs <分支> [--all]，评测脚本的源码参数直接写分支名；下文用 BILISMARTSKIP_SOURCE_DIR
+指向导出目录的写法仍然可用。
+
 当前状态：27个已下载原视频/片段已从test-branch尚未推送成功的提交历史永久移除，
 不能再从Git恢复。497份字幕采集中间文件仍保留在历史中，可以按需离线恢复。
 全部测试、采集脚本、最终字幕、帧证据、审核记录及438冻结基准继续保留。

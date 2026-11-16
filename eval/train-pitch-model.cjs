@@ -7,6 +7,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { createHash } = require('node:crypto');
 const { loadBenchmark } = require('./content-benchmark.cjs');
+const { resolveSource } = require('../tests/export-source.cjs');
 
 const DEFAULTS = Object.freeze({ minAuthors: 4, keep: 4000, epochs: 6, l2: 2e-5, rate: 0.15, adWeight: 4, unit: 0.1 });
 
@@ -95,15 +96,31 @@ function trainingRows(state, split = 'development') {
   return state.rows.filter(row => row.item.split === split);
 }
 
+// node eval/train-pitch-model.cjs <branch | directory> [output file]
 if (require.main === module) {
-  const [sourceDir, output = path.join(sourceDir || '', 'pitch-model.js')] = process.argv.slice(2);
-  if (!sourceDir) { console.error('Usage: node eval/train-pitch-model.cjs <algorithm scr directory> [output file]'); process.exit(1); }
-  const state = loadBenchmark(), rows = trainingRows(state);
-  const model = train(examples(rows, loadFeatures(sourceDir)));
-  const text = serialize(model, { benchmark: state.manifestSha256.slice(0, 16), split: 'development',
-    videos: model.videos, lines: model.lines, options: model.options });
-  fs.writeFileSync(output, text);
-  console.log(JSON.stringify({ output, bytes: Buffer.byteLength(text), videos: model.videos, lines: model.lines,
-    sha256: createHash('sha256').update(text).digest('hex') }, null, 2));
+  try {
+    const [spec, requested] = process.argv.slice(2);
+    const source = resolveSource(spec);
+    try {
+      // A directory is a working copy to update in place. A branch is exported
+      // and discarded, so its table is written to eval/output to be copied to
+      // scr/pitch-model.js on that branch.
+      const output = requested || (source.commit ? path.join(__dirname, 'output', 'pitch-model.js')
+        : path.join(source.directory, 'pitch-model.js'));
+      const state = loadBenchmark(), rows = trainingRows(state);
+      const model = train(examples(rows, loadFeatures(source.directory)));
+      const text = serialize(model, { benchmark: state.manifestSha256.slice(0, 16), split: 'development',
+        videos: model.videos, lines: model.lines, options: model.options });
+      fs.mkdirSync(path.dirname(output), { recursive: true });
+      fs.writeFileSync(output, text);
+      console.log(JSON.stringify({ source: source.label, output, bytes: Buffer.byteLength(text), videos: model.videos,
+        lines: model.lines, sha256: createHash('sha256').update(text).digest('hex') }, null, 2));
+    } finally {
+      source.cleanup();
+    }
+  } catch (error) {
+    console.error(error.message);
+    process.exitCode = 1;
+  }
 }
 module.exports = { DEFAULTS, loadFeatures, examples, fit, train, serialize, trainingRows };

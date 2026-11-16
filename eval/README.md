@@ -15,19 +15,20 @@
 
 词表是用 development 的标签拟合的，直接在 development 上回放会偏乐观（222/309，完整 438 为 231/324）。**对外只引用交叉验证和 validation 两行。** validation 只有 21 个带广告的视频，只能说明方向。完整说明、不给字幕时的对照、试过未采用的方案和已知局限见 [experiments/evidence-fusion-20261112/NOTES.txt](experiments/evidence-fusion-20261112/NOTES.txt)。
 
+本分支不含扩展代码（2026-11-16 起）。需要源码的命令，第一个参数写要评测的分支名，脚本会把它已提交的代码导出到临时目录；也可以写一个包含 `scr/` 的目录。
+
 ```sh
-SRC=$(mktemp -d) && git archive fix/improve-detction-rate scr manifest.json | tar -x -C "$SRC"   # 或直接指向算法工作树的上级目录
+node run-tests.cjs fix/improve-detction-rate --all        # 全部测试；不加 --all 只跑 tests/
 node eval/restore-content-inputs.cjs && node eval/content-benchmark.cjs check
-node eval/compare-release-markings.cjs "$SRC/scr" eval/output/all.json all            # 与 2.0.1 / 2.1.0 对照（本轮为训练集内）
-node eval/cross-validate-pitch-model.cjs "$SRC/scr" eval/output/cv.json                # 无偏估计 + validation + 自动跳转统计
-node eval/cross-validate-pitch-model.cjs "$SRC/scr" eval/output/cv-nosub.json no-subtitles   # 模拟拿不到字幕
-BILISMARTSKIP_SOURCE_DIR="$SRC/scr" node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
+node eval/compare-release-markings.cjs fix/improve-detction-rate eval/output/all.json all            # 与 2.0.1 / 2.1.0 对照（本轮为训练集内）
+node eval/cross-validate-pitch-model.cjs fix/improve-detction-rate eval/output/cv.json                # 无偏估计 + validation + 自动跳转统计
+node eval/cross-validate-pitch-model.cjs fix/improve-detction-rate eval/output/cv-nosub.json no-subtitles   # 模拟拿不到字幕
 ```
 
 改了 `ad-signals.js` 里的 `lineFeatures`，或者基准标签有了新版本，需要重新生成词表（确定性输出，测试会核对它与基准一致）：
 
 ```sh
-node eval/train-pitch-model.cjs <算法工作树>/scr      # 写入 <算法工作树>/scr/pitch-model.js
+node eval/train-pitch-model.cjs fix/improve-detction-rate   # 写到 eval/output/pitch-model.js，再复制到该分支的 scr/pitch-model.js
 ```
 
 调参只看 development 的交叉验证；一个改动的收益在 ±3 个标记以内按噪声处理。不要据 validation 调参，也不要把训练集内的数字当成绩。
@@ -54,7 +55,7 @@ node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danm
 
 下方是原有工具的说明；其中按秒计分、内部边界收缩和原始快照对比是不同用途，不能拿来替代上面的标记正确率。当前原有生产回归仍对应 2.1.0；上一轮依赖撤销补丁的专用断言没有恢复。
 
-下列命令均在**测试工作树的仓库根目录**运行；当前算法来自该工作树的 `scr/`。生产发布从运行时分支或主分支打包，`.gitattributes` 的 `export-ignore` 提供额外的归档排除保护，不能替代分支隔离。
+下列命令均在 test-branch 的仓库根目录运行；要评测的算法用分支名指定（`--source` 或第一个参数）。生产发布从运行时分支或主分支打包，`.gitattributes` 的 `export-ignore` 提供额外的归档排除保护，不能替代分支隔离。
 
 离线回放和回归测试只需 Node.js 20+，无 npm 依赖、无网络请求。登录字幕采集另需 Python 3 的 `qrcode`、`Pillow`，仅用于生成本地二维码图片。
 
@@ -80,22 +81,23 @@ node eval/compare-release-markings.cjs /Users/woshiyingyan/.codex/worktrees/danm
 ## 回归与离线回放
 
 ```sh
-node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
+node run-tests.cjs master --all
 
 # 开发阶段：排除整个 holdout 作者组，默认预热 5 个视频
-node eval/evaluate-segments.cjs --scope development --out eval/output/development
+node eval/evaluate-segments.cjs --source master --scope development --out eval/output/development
 
 # 只回放人工反馈中的视频
-node eval/evaluate-segments.cjs --scope human --out eval/output/human
+node eval/evaluate-segments.cjs --source master --scope human --out eval/output/human
 
 # 算法冻结后，回放全部可用记录；保留集结果单列，不再据此调参
-node eval/evaluate-segments.cjs --scope all --out eval/output/current
+node eval/evaluate-segments.cjs --source master --scope all --out eval/output/current
 ```
 
-默认使用 `data/combined-351.jsonl`、`labels/human/review-2026-09-30-v2.json`、`labels/assistant-challenge-v1.json` 和 `snapshots/pre-segment-v1/`。其他输入可显式指定：
+`--source` 写要评测的分支（或包含 `scr/` 的目录）。其余默认使用 `data/combined-351.jsonl`、`labels/human/review-2026-09-30-v2.json`、`labels/assistant-challenge-v1.json` 和 `snapshots/pre-segment-v1/`，可显式指定：
 
 ```sh
 node eval/evaluate-segments.cjs \
+  --source master \
   --input eval/data/combined-351.jsonl \
   --feedback eval/labels/human/review-2026-09-30-v2.json \
   --challenge eval/labels/assistant-challenge-v1.json \

@@ -8,6 +8,7 @@ const { createHash } = require('node:crypto');
 const { performance } = require('node:perf_hooks');
 const { readDataset, validateRecord, sourceAvailability } = require('./dataset.cjs');
 const { loadProduction, runVideo } = require('./runner.cjs');
+const { resolveSource } = require('../tests/export-source.cjs');
 const { creatorKey } = require('./metrics.cjs');
 const { stats } = require('./stats.cjs');
 const { validateLabels, splitOf } = require('./labels/validate.cjs');
@@ -237,8 +238,15 @@ function renderHtml(report, rows, challengeRows) {
 async function run(options) {
   const records = readDataset(options.input), feedback = JSON.parse(fs.readFileSync(options.feedback, 'utf8'));
   const challenge = options.challenge && fs.existsSync(options.challenge) ? JSON.parse(fs.readFileSync(options.challenge, 'utf8')) : null;
-  const productions = { before: loadProduction(null, { sourceDir: options.snapshot }), current: loadProduction() };
-  const evaluated = await evaluateRecords(records, feedback, productions, { scope: options.scope, warmup: options.warmup, challenge });
+  // --source names the code to evaluate: a branch, tag or commit, or a directory.
+  const source = resolveSource(options.source);
+  let productions, evaluated;
+  try {
+    productions = { before: loadProduction(null, { sourceDir: options.snapshot }), current: { ...loadProduction(null, { sourceDir: source.directory }), sourceDir: source.label } };
+    evaluated = await evaluateRecords(records, feedback, productions, { scope: options.scope, warmup: options.warmup, challenge });
+  } finally {
+    source.cleanup();
+  }
   const codeFiles = ['evaluate-segments.cjs', 'coverage.cjs', './dataset.cjs', './stats.cjs',
     './labels/validate.cjs', './labels/semantics.js', './runner.cjs', './metrics.cjs', '../tests/harness.cjs'];
   const report = { schemaVersion: 1, kind: 'production-multi-segment-replay', generatedAt: new Date().toISOString(), target: 'skipDecision',
@@ -273,7 +281,7 @@ async function run(options) {
 function parse(args) {
   const options = { input: 'eval/data/combined-351.jsonl', feedback: 'eval/labels/human/review-2026-09-30-v2.json',
     snapshot: 'eval/snapshots/pre-segment-v1', challenge: 'eval/labels/assistant-challenge-v1.json',
-    out: 'eval/output/segment-v1', scope: 'development', warmup: 5 };
+    out: 'eval/output/segment-v1', scope: 'development', warmup: 5, source: null };
   for (let i = 0; i < args.length; i++) {
     const field = args[i].replace(/^--/, '');
     if (!args[i].startsWith('--') || !Object.hasOwn(options, field) || !args[i + 1]) throw new Error(`Unknown/missing option ${args[i]}`);

@@ -6,6 +6,7 @@ const path = require('node:path');
 const { createHash } = require('node:crypto');
 const { reference, score, actualSeeks, aggregate } = require('./audit-content-review.cjs');
 const { loadProduction, runVideo } = require('./runner.cjs');
+const { resolveSource } = require('../tests/export-source.cjs');
 const { detectorInput, normalizeReplay } = require('./evaluate-segments.cjs');
 const hash = file => createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -62,7 +63,7 @@ async function evaluate(directory, split, output, sourceDir, baseline = RELEASE_
   if (!['development', 'validation', 'all'].includes(split)) throw new Error('Choose development, validation or all');
   // The frozen manifest records historical provenance, not the baseline for a new run.
   const state = loadReferences(directory), before = loadProduction(baseline);
-  const current = loadProduction(null, sourceDir ? { sourceDir } : {});
+  const current = loadProduction(null, { sourceDir });
   const rows = [], selected = state.rows.filter(r => split === 'all' || r.item.split === split);
   for (const { item, source, review, ref } of selected) {
     const row = { bvid: item.bvid, cid: item.cid, split: item.split, title: source.title,
@@ -86,10 +87,13 @@ async function evaluate(directory, split, output, sourceDir, baseline = RELEASE_
 }
 
 if (require.main === module) {
-  const [action, split = 'development', output = 'eval/output/content-audit-351-20261004/development.json', sourceDir, baseline] = process.argv.slice(2);
+  const [action, split = 'development', output = 'eval/output/content-audit-351-20261004/development.json', spec, baseline] = process.argv.slice(2);
+  let source;
   Promise.resolve().then(() => action === 'freeze' ? freezeReferences(defaultDir)
     : action === 'check' ? (() => { const x = loadReferences(defaultDir); return { reviewed: x.rows.length, missing: x.missing.length }; })()
-    : action === 'evaluate' ? evaluate(defaultDir, split, output, sourceDir, baseline) : Promise.reject(new Error('Use check, freeze or evaluate [split] [output] [source-dir] [baseline-ref]')))
-    .then(result => console.log(JSON.stringify(result, null, 2))).catch(error => { console.error(error.message); process.exitCode = 1; });
+    : action === 'evaluate' ? evaluate(defaultDir, split, output, (source = resolveSource(spec)).directory, baseline)
+      : Promise.reject(new Error('Use check, freeze or evaluate <split> <output> <branch | directory> [baseline-ref]')))
+    .then(result => console.log(JSON.stringify(result, null, 2))).catch(error => { console.error(error.message); process.exitCode = 1; })
+    .finally(() => source?.cleanup());
 }
 module.exports = { loadReferences, freezeReferences, evaluate, RELEASE_BASELINE };

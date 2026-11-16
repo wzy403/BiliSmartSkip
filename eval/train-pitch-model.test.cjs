@@ -9,8 +9,8 @@ const { loadBenchmark } = require('./content-benchmark.cjs');
 const { DEFAULTS, loadFeatures, examples, train, serialize, trainingRows } = require('./train-pitch-model.cjs');
 const { FOLDS, foldOf, automatic } = require('./cross-validate-pitch-model.cjs');
 
-// The table belongs to the algorithm branch; the old copy of scr/ kept on
-// test-branch predates it. Point BILISMARTSKIP_SOURCE_DIR at the algorithm.
+// The table belongs to the branch under test; sources that predate it skip
+// the checks that need it.
 const hasTable = fs.existsSync(path.join(sourceDir, 'ad-signals.js')) && fs.existsSync(path.join(sourceDir, 'pitch-model.js'));
 const skip = hasTable ? false : 'source directory has no pitch table';
 const parse = text => vm.runInNewContext(`${text}; BILI_PITCH_MODEL`);
@@ -77,7 +77,7 @@ test('the shipped table is exactly what the frozen development split produces', 
   const text = serialize(model, { benchmark: state.manifestSha256.slice(0, 16), split: 'development',
     videos: model.videos, lines: model.lines, options: model.options });
   assert.equal(fs.readFileSync(path.join(sourceDir, 'pitch-model.js'), 'utf8'), text,
-    'regenerate with: node eval/train-pitch-model.cjs <algorithm scr directory>');
+    'regenerate with: node eval/train-pitch-model.cjs <branch>');
 });
 
 test('cross-validation keeps every creator on one side of each fold', () => {

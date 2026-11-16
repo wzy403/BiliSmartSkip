@@ -8,6 +8,7 @@ const { RELEASE_BASELINE } = require('./audit-full-content.cjs');
 const { loadBenchmark } = require('./content-benchmark.cjs');
 const { intersections } = require('./audit-content-review.cjs');
 const { loadProduction, runVideo } = require('./runner.cjs');
+const { resolveSource } = require('../tests/export-source.cjs');
 const { detectorInput, normalizeReplay } = require('./evaluate-segments.cjs');
 const EPSILON = 1e-9;
 const RELEASE_201 = '88652cdd6152f7652a7b21731d53c0942264ca86';
@@ -87,7 +88,7 @@ async function run(sourceDir, output = 'eval/output/release-markings.json', scop
   if (!['development', 'validation', 'all'].includes(scope)) throw Error('Choose development, validation or all');
   const state = loadBenchmark();
   const versions = { '2.0.1': loadProduction(RELEASE_201), '2.1.0': loadProduction(RELEASE_BASELINE),
-    current: loadProduction(null, sourceDir ? { sourceDir } : {}) };
+    current: loadProduction(null, { sourceDir }) };
   const rows = [];
   for (const { item, source, ref, quality, cohort } of state.rows.filter(r => scope === 'all' || r.item.split === scope)) {
     const row = { bvid: item.bvid, cid: item.cid, title: source.title, cohort, split: item.split, versions: {} };
@@ -128,7 +129,14 @@ function formatSummary(result) {
       `${version} | ${s.correctMarkings}/${s.totalMarkings} | ${percent(s.correctPercent)} | ${percent(s.wrongKeepPercent)} | ${s.videosWithAllAdsCorrect}`)].join('\n');
 }
 
-if (require.main === module) run(process.argv[2], process.argv[3], process.argv[4])
-  .then(result => console.log(formatSummary(result)))
-  .catch(error => { console.error(error.message); process.exitCode = 1; });
+// node eval/compare-release-markings.cjs <branch | directory> [output] [development | validation | all]
+if (require.main === module) (async () => {
+  const source = resolveSource(process.argv[2]);
+  try {
+    const result = await run(source.directory, process.argv[3], process.argv[4]);
+    console.log(`评测对象（current）：${source.label}\n${formatSummary(result)}`);
+  } finally {
+    source.cleanup();
+  }
+})().catch(error => { console.error(error.message); process.exitCode = 1; });
 module.exports = { matches, assess, summarize, run, formatSummary };

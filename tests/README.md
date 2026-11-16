@@ -11,30 +11,20 @@
 
 两个原用户案例（`BV1r1421r7am`、自然植入的拼多多促销）仍然通过，未改断言。
 
-运行时必须把 `BILISMARTSKIP_SOURCE_DIR` 指向算法分支的 `scr`；本分支自带的 `scr/` 是旧版本，只用于 DEBUG 默认值检查。
+## 怎么跑
 
-以下为此前的说明。
-
-当前完整回归包含算法优化和热度辅助验证，请使用 [空间整理与当前运行命令](../eval/CLEANUP-NOTES.txt) 导出 `fix/improve-detction-rate` 的源码后执行。原片、字幕采集中间检查点不参与这些测试。下文旧 `.codex` 路径已停用。
-
-`test-branch` 长期保持 `scr/constants.js` 中的 `DEBUG = true`，合并 `master` 更新时保留此分支设置。测试默认使用该设置，并单独验证显式关闭 DEBUG 时不输出检测与跳过日志。
-
-在 `test-branch` 的仓库根目录运行全套生产回归，不需要 npm install 或 package.json：
+本分支不含扩展代码（2026-11-16 起）。在仓库根目录指定要测的分支：
 
 ```sh
-node --test tests/*.test.cjs
+node run-tests.cjs fix/improve-detction-rate   # 不写分支名时，测切换过来之前所在的分支
+node run-tests.cjs master --all                # --all 连同 eval/ 的测试一起跑
 ```
 
-基础生产测试使用同一版本的 `scr/`、本目录的测试文件、`harness.cjs` 和 `fixtures.cjs`。新增优化回归还使用 `eval/runner.cjs`；均不依赖采集工具、语料下载或生成产物。
+脚本把该分支**已提交**的 `scr/` 和 `manifest.json` 导出到临时目录，测完删除；不需要 npm install。要测未提交的改动，把参数换成一个包含 `scr/` 的目录，或自己设置 `BILISMARTSKIP_SOURCE_DIR` 后直接用 `node --test`。测试对生产默认的 `DEBUG = false` 运行，需要日志的用例自己打开 DEBUG，并单独验证关闭时不输出检测与跳过日志。发布版回放固定读取 Git 提交，不受这里指定的分支影响。
 
-算法与回归分支分开时，设置 `BILISMARTSKIP_SOURCE_DIR` 指向待测算法的 `scr`，所有生产脚本测试都使用该目录；发布版回放仍固定读取 Git 提交，不受此环境变量影响。本轮优化保留在 `fix/improve-detction-rate`，测试分支的 `scr` 没有复制新算法。验收命令：
+以下为此前的说明，其中的 `.codex` 路径已停用。
 
-```sh
-BILISMARTSKIP_SOURCE_DIR=/Users/woshiyingyan/.codex/worktrees/danmaku-optimization/BiliSmartSkip/scr \
-node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
-```
-
-在其他机器上将路径替换为该算法分支的工作树。`optimization-regression.test.cjs` 使用 `eval/runner.cjs` 加载指定生产源码，并回归两个原用户案例；其中自然植入案例只有完整保存的字幕和三条弹幕子集，不代表完整登录数据。测试覆盖实际 `timeupdate`、手动按钮和 seek，失败不能以检测到关键词代替。
+`optimization-regression.test.cjs` 使用 `eval/runner.cjs` 加载指定生产源码，并回归两个原用户案例；其中自然植入案例只有完整保存的字幕和三条弹幕子集，不代表完整登录数据。测试覆盖实际 `timeupdate`、手动按钮和 seek，失败不能以检测到关键词代替。
 
 Node 内置 `node:test` / `node:vm` 加载真实的 `constants.js`、`utils.js`、`detectors.js`、`segment-detector.js`、`skipper.js` 和 `content.js`。DOM、视频元素、Chrome storage、时钟和网络响应由最小夹具替代；真实检测、模式切换、`timeupdate`、按钮点击和 seek 代码都会执行。
 

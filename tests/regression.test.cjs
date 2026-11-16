@@ -1,7 +1,5 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const fs = require('node:fs');
-const path = require('node:path');
 const { createHarness } = require('./harness.cjs');
 const { transcript, weakSubtitles, strongSubtitles, timestamp } = require('./fixtures.cjs');
 
@@ -438,8 +436,7 @@ test('DEBUG 显式关闭时检测与跳过不输出诊断日志', async () => {
   assert.deepEqual(h.logs.slice(startupLogCount), []);
 });
 
-test('DEBUG 显式开启时检测日志包含来源、置信度、依据和命中关键词，test-branch 保留调试默认值', async () => {
-  assert.match(fs.readFileSync(path.join(__dirname, '..', 'scr', 'constants.js'), 'utf8'), /^const DEBUG = true;$/m);
+test('DEBUG 显式开启时检测日志包含来源、置信度、依据和命中关键词', async () => {
   const h = createHarness({ subtitles: strongSubtitles }, { debug: true });
   assert.equal(h.evaluate('DEBUG'), true);
   await h.detectAndAttach();
