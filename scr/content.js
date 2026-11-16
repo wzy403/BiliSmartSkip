@@ -1,5 +1,6 @@
 // == BiliSmartSkip: Main Entry Point ==
-// Other modules loaded via manifest.json: constants.js, utils.js, api.js, detectors.js, skipper.js
+// Other modules loaded via manifest.json: constants, utils, api, detectors, pitch-model,
+// ad-signals, segment-detector and skipper.
 
 // === Global State ===
 let SKIP_MODE = 'manual';
@@ -177,7 +178,9 @@ function monitorVideoHealth(seg) {
 }
 
 // === Multi-signal detection pipeline ===
-async function getSkipSegment(inputs = null) {
+// Gather every public input once, let each evidence family propose intervals,
+// then keep the best-supported proposal wherever proposals overlap.
+async function loadDetectionInputs() {
   const bvid = getBvidFromPage();
   log('bvid:', bvid);
   if (!bvid) return null;
@@ -186,178 +189,102 @@ async function getSkipSegment(inputs = null) {
   log('videoInfo:', videoInfo);
   if (!videoInfo || !videoInfo.cid) return null;
 
-  const { aid, cid, desc, duration } = videoInfo;
-  const selectSegment = (segment, source, requiresConfirmation = segment.requiresConfirmation !== false) => {
-    const result = {
-      ...segment, source, requiresConfirmation,
-      confidence: requiresConfirmation ? 'low' : 'high'
-    };
-    isSuspiciousAd = requiresConfirmation;
-    log('detection:', { bvid, cid, ...result });
-    return result;
-  };
-
+  const { cid, desc, duration } = videoInfo;
   const [playerInfo, danmaku] = await Promise.all([
     fetchPlayerInfo(bvid, cid),
     fetchDanmakuWithTime(cid, duration)
   ]);
-
-  const { viewPoints, subtitles } = playerInfo;
-  if (inputs) Object.assign(inputs, { bvid, aid, cid, duration, title: videoInfo.title || '',
-    chapters: viewPoints, danmaku, subtitleTracks: subtitles });
-  log('viewPoints:', viewPoints);
-  log('subtitles available:', subtitles.length);
-  log('danmaku count:', danmaku.length);
-  let adTimes = null;
-  let labelCandidate = null;
-
-  // 1. Chapter markers (highest confidence)
-  adTimes = detectFromChapters(viewPoints);
-  log('1.chapters result:', adTimes);
-  if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    if (!adTimes.requiresConfirmation) return selectSegment(adTimes, 'chapters');
-    labelCandidate = { segment: adTimes, source: 'chapters' };
-  }
-
-  // 2. Description timestamps (high confidence)
-  adTimes = detectFromDescription(desc, duration);
-  log('2.description result:', adTimes);
-  if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    if (!adTimes.requiresConfirmation) return selectSegment(adTimes, 'description');
-    labelCandidate ||= { segment: adTimes, source: 'description' };
-  }
-
-  // 3. User-provided skip destinations take priority over inferred subtitle bounds.
-  const timestamp = findAdTimestamps(danmaku, duration);
-  log('3.danmaku-time result:', timestamp);
-  if (timestamp && !timestamp.requiresConfirmation) {
-    return selectSegment(timestamp, 'danmaku-time');
-  }
-  if (labelCandidate) return selectSegment(labelCandidate.segment, labelCandidate.source);
-
-  // 4. Subtitle keywords locate candidates, but cannot establish safe seek boundaries.
-  let subtitleCandidate = null;
-  let subtitleLines = [];
-  if (subtitles.length > 0) {
-    const zhSub = subtitles.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh');
-    const chosenSub = zhSub || subtitles[0];
-    log('fetching subtitle:', chosenSub.lan, chosenSub.subtitle_url);
-    subtitleLines = await fetchSubtitleBody(chosenSub.subtitle_url);
-    if (inputs) inputs.subtitles = subtitleLines;
-    log('subtitle lines:', subtitleLines.length);
-    adTimes = detectFromSubtitles(subtitleLines, danmaku);
-    log('4.subtitles result:', adTimes);
-    if (adTimes && checkAdSegVaild(adTimes, duration)) {
-      subtitleCandidate = adTimes;
-    }
-  } else {
-    log('4.subtitles: none available');
-  }
-
-  if (timestamp && subtitleCandidate) {
-    // Agreement is useful for diagnostics, but two weak signals must not authorize a seek.
-    log('cross-check:', {
-      bvid, cid, timestamp, subtitles: subtitleCandidate,
-      overlap: Math.max(timestamp.start, subtitleCandidate.start) < Math.min(timestamp.end, subtitleCandidate.end),
-      endDelta: Math.abs(timestamp.end - subtitleCandidate.end),
-      requiresConfirmation: true
-    });
-  }
-  if (timestamp) return selectSegment(timestamp, 'danmaku-time', true);
-  if (subtitleCandidate) return selectSegment(subtitleCandidate, 'subtitles', true);
-
-  // 5. Danmaku keyword matching (low confidence)
-  isSuspiciousAd = true;
-  adTimes = getAdTimeByKeywords(danmaku, subtitleLines);
-  log('5.danmaku-keywords result:', adTimes);
-  if (adTimes && checkAdSegVaild(adTimes, duration)) {
-    return selectSegment(adTimes, 'danmaku-keywords', true);
-  }
-
-  log('No ad detected.');
-  return null;
+  const tracks = playerInfo.subtitles;
+  const track = tracks.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh') || tracks[0];
+  const subtitles = track ? await fetchSubtitleBody(track.subtitle_url) : [];
+  log('inputs:', { chapters: playerInfo.viewPoints.length, subtitles: subtitles.length, danmaku: danmaku.length });
+  return { bvid, cid, duration, title: videoInfo.title || '', desc: desc || '',
+    chapters: playerInfo.viewPoints, danmaku, subtitles };
 }
 
-// Preserve the primary-source fallback while adding complete, independent breaks.
-// The callback-free input object is local to this request, so navigation cannot
-// mix evidence from different videos.
-async function getSkipSegments() {
-  const inputs = {};
-  let primary = await getSkipSegment(inputs);
-  const fallback = primary ? [primary] : [];
-  if (!inputs.cid || typeof BiliSegmentDetector === 'undefined') return fallback;
-  let segments;
-  try {
-    if (!inputs.subtitles) {
-      const tracks = inputs.subtitleTracks || [];
-      const chosen = tracks.find(s => s.lan === 'zh-CN' || s.lan === 'ai-zh') || tracks[0];
-      inputs.subtitles = chosen ? await fetchSubtitleBody(chosen.subtitle_url) : [];
-    }
-    primary = refineTimestampBounds(primary, inputs.subtitles, inputs.danmaku);
-    const proposals = BiliSegmentDetector.detectSegments(inputs, {
-      getSubtitleEvidence, extractTimeFromText, getTimestampSkipCues, getAdLabelEvidence
-    });
-    segments = combineSkipSegments(primary, proposals);
-    log('segments:', { bvid: inputs.bvid, cid: inputs.cid,
-      segments, retainedContent: proposals.filter(segment => segment.skipDecision === 'keep') });
-  } catch (error) {
-    console.warn('[BiliSmartSkip] complete-segment detection failed; primary fallback:', String(error));
-    return primary ? [primary] : [];
-  }
-  if (typeof BiliHeatmapVerifier !== 'undefined' && typeof fetchVideoHeatmap === 'function') {
-    try {
-      if (!BiliHeatmapVerifier.needsHeatmap(segments, inputs, { getSubtitleEvidence })) return segments;
-      const heatmap = await fetchVideoHeatmap(inputs.bvid, inputs.aid, inputs.cid);
-      const verified = BiliHeatmapVerifier.verify(segments, inputs, heatmap, undefined, { getSubtitleEvidence });
-      log('heatmap verification:', { bvid: inputs.bvid, cid: inputs.cid,
-        available: verified.available, decisions: verified.decisions });
-      return verified.segments;
-    } catch (error) {
-      log('heatmap verification unavailable:', String(error));
-    }
-  }
-  return segments;
+// Lower rank wins an overlap. An author's own label outranks inference; a
+// complete sponsor break and a corroborated community destination outrank
+// anything that still needs confirmation; among those, intervals with an
+// observed start and end outrank transcript wording alone.
+function proposalRank(segment) {
+  const trusted = segment.requiresConfirmation === false;
+  if (segment.source === 'chapters' || segment.source === 'description') return trusted ? 0 : 6;
+  if (segment.source === 'segment-detector') return trusted ? 1 : 4;
+  if (segment.source === 'danmaku-time') return trusted ? 2 : 3;
+  return 5;
 }
 
-function combineSkipSegments(primary, proposals) {
-  const valid = proposals.filter(segment => segment.skipDecision !== 'keep'
+function reconcileSegments(proposals) {
+  const usable = proposals.filter(segment => segment && segment.skipDecision !== 'keep'
     && Number.isFinite(segment.start) && Number.isFinite(segment.end)
     && segment.start >= 0 && segment.end > segment.start);
   const overlap = (a, b) => Math.max(a.start, b.start) < Math.min(a.end, b.end);
-  let retained = primary;
-  let conflict = null;
-  if (retained?.source === 'danmaku-time' && retained.requiresConfirmation === false) {
-    const contradiction = valid.find(segment => overlap(segment, retained)
-      && (segment.reviewReasons?.includes('conflicting-time-destinations')
-        || segment.boundaryEvidence?.end?.kind === 'commercial-continuation-after-timestamp'
-        || (Math.abs(segment.end - retained.end) > 3
-          && (segment.boundaryEvidence?.end?.kind === 'explicit-return'
-            || (segment.requiresConfirmation === false && segment.boundaryEvidence?.end?.kind === 'chapter-end')))));
-    if (contradiction) {
-      conflict = { ...contradiction, requiresConfirmation: true, autoEligible: false,
-        confidence: 'low', boundaryConfidence: 'uncertain', reason: 'cross-source-boundary-conflict',
-        conflictingTimestamp: { start: retained.start, end: retained.end, matchedKeywords: retained.matchedKeywords },
-        reviewReasons: [...(contradiction.reviewReasons || []), 'trusted-destination-conflicts-with-observed-boundary'] };
-      retained = null;
+  const conflict = (kept, other) => ({ requiresConfirmation: true, autoEligible: false, confidence: 'low',
+    reason: 'cross-source-boundary-conflict',
+    conflictingSegment: { start: other.start, end: other.end, source: other.source } });
+  const selected = [];
+  for (const proposal of usable.slice().sort((a, b) => proposalRank(a) - proposalRank(b)
+    || (b.support || 0) - (a.support || 0) || a.start - b.start)) {
+    const rivals = selected.filter(segment => overlap(segment, proposal));
+    if (!rivals.length) { selected.push({ ...proposal }); continue; }
+    for (const rival of rivals) {
+      // An author's own label stands regardless of what anyone else observed.
+      if (proposalRank(rival) === 0 || rival.source === proposal.source) continue;
+      if (proposal.boundaryEvidence?.end?.kind === 'explicit-return' && rival.end - proposal.end > 5) {
+        // The speaker said the video resumes here. A destination typed by
+        // viewers that lands beyond it is not followed, trusted or not: show
+        // the interval the transcript bounds (when it fits between the others).
+        if (rivals.length === 1) selected[selected.indexOf(rival)] = { ...proposal, ...conflict(proposal, rival) };
+        else Object.assign(rival, conflict(rival, proposal));
+      } else if (rival.requiresConfirmation === false && proposal.requiresConfirmation === false
+        && Math.abs(rival.end - proposal.end) > 5) {
+        // Two trusted inferences cannot both be right about where the ad ends:
+        // keep the better-ranked interval visible, but do not seek on it.
+        Object.assign(rival, conflict(rival, proposal));
+      }
     }
   }
-  if (retained) {
-    // A source with explicit boundaries remains authoritative. A structural
-    // candidate can refine a community start only when its end agrees closely.
-    const replacement = valid.find(segment => overlap(segment, retained)
-      && (retained.requiresConfirmation !== false
-        ? (segment.requiresConfirmation === false || (segment.start <= retained.start + (retained.boundaryPaddingSeconds || 0)
-          && segment.end >= retained.end - (retained.boundaryPaddingSeconds || 0)))
-        : retained.source === 'danmaku-time' && segment.requiresConfirmation === false
-          && Math.abs(segment.end - retained.end) <= 3 && segment.start <= retained.start));
-    if (replacement) retained = null;
-  }
-  const selected = conflict ? [conflict] : retained ? [retained] : [];
-  for (const proposal of valid.slice().sort((a, b) => Number(a.requiresConfirmation !== false) - Number(b.requiresConfirmation !== false)
-    || a.start - b.start)) {
-    if (!selected.some(segment => overlap(segment, proposal))) selected.push(proposal);
-  }
   return selected.sort((a, b) => a.start - b.start);
+}
+
+// One evidence family failing must not silence the others.
+function proposalsFrom(name, detect) {
+  try {
+    return detect();
+  } catch (error) {
+    console.warn(`[BiliSmartSkip] ${name} detection failed; continuing without it:`, String(error));
+    return [];
+  }
+}
+
+function detectSkipSegments(inputs) {
+  // Without a duration only the author's own chapter times can be used; the
+  // other families decline by themselves.
+  const duration = Number.isFinite(inputs.duration) && inputs.duration > 0 ? inputs.duration : Infinity;
+  const proposals = [
+    ...proposalsFrom('label', () => detectLabelledSegments(inputs.chapters, inputs.desc, duration)),
+    // Chapter labels are handled above, with description timestamps.
+    ...proposalsFrom('sponsor-break', () => BiliSegmentDetector.detectSegments(inputs, {
+      getSubtitleEvidence, extractTimeFromText, getTimestampSkipCues, getAdLabelEvidence
+    }).filter(segment => segment.reason !== 'explicit-ad-chapter')),
+    ...proposalsFrom('community', () => BiliAdSignals.detect(inputs, {
+      model: typeof BILI_PITCH_MODEL === 'undefined' ? null : BILI_PITCH_MODEL
+    }))
+  ];
+  return reconcileSegments(proposals).map(segment => ({
+    ...segment,
+    requiresConfirmation: segment.requiresConfirmation !== false,
+    confidence: segment.requiresConfirmation === false ? 'high' : 'low'
+  }));
+}
+
+async function getSkipSegments() {
+  const inputs = await loadDetectionInputs();
+  if (!inputs) return [];
+  const segments = detectSkipSegments(inputs);
+  for (const segment of segments) log('detection:', { bvid: inputs.bvid, cid: inputs.cid, ...segment });
+  if (!segments.length) log('No ad detected.');
+  return segments;
 }
 
 init();

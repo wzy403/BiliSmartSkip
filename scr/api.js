@@ -48,10 +48,8 @@ function normalizeVideoInfo(data, bvid, pageNumber) {
   const cid = Number(page ? page.cid : data.cid);
   if (!Number.isSafeInteger(cid) || cid <= 0) return null;
   const duration = Number(page ? page.duration : data.duration);
-  const aid = Number(data.aid);
   return {
     cid,
-    ...(Number.isSafeInteger(aid) && aid > 0 ? { aid } : {}),
     title: typeof data.title === 'string' ? data.title : '',
     desc: typeof data.desc === 'string' ? data.desc : '',
     duration: Number.isFinite(duration) && duration > 0 ? duration : 0
@@ -60,9 +58,9 @@ function normalizeVideoInfo(data, bvid, pageNumber) {
 
 // Time out both the request and its body. Report HTTP errors before trying to
 // parse a risk-control HTML response as JSON/protobuf/XML; do not retry 412s.
-async function fetchBiliData(url, bodyType = 'json', credentials = 'include', timeoutMs = 10000) {
+async function fetchBiliData(url, bodyType = 'json', credentials = 'include') {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  const timer = setTimeout(() => controller.abort(), 10000);
   try {
     const res = await fetch(url, { credentials, signal: controller.signal });
     if (!res.ok) {
@@ -116,20 +114,6 @@ async function fetchSubtitleBody(subtitleUrl) {
   } catch (e) {
     console.warn('fetchSubtitleBody failed:', e);
     return [];
-  }
-}
-
-async function fetchVideoHeatmap(bvid, aid, cid) {
-  if (!/^BV[\da-zA-Z]+$/.test(bvid) || !Number.isSafeInteger(aid) || aid <= 0
-    || !Number.isSafeInteger(cid) || cid <= 0) return null;
-  try {
-    // Optional public corroboration. Keep its latency bounded and omit cookies;
-    // an unavailable curve must not remove an otherwise detected ad.
-    return await fetchBiliData(`https://bvc.bilivideo.com/pbp/data?aid=${aid}&cid=${cid}&bvid=${encodeURIComponent(bvid)}&r=loader`,
-      'json', 'omit', 1500);
-  } catch (error) {
-    log('heatmap unavailable:', String(error));
-    return null;
   }
 }
 
