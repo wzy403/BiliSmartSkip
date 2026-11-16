@@ -97,12 +97,11 @@ BiliSmartSkip/
 
 ## 开发验证
 
-测试、离线评测和词表训练脚本保存在 `test-branch` 分支，不随扩展发布。测试时把待测分支的源码导出到临时目录（以 `master` 为例），需要 Node.js 20+，无其他依赖：
+测试、离线评测和词表训练脚本保存在 `test-branch` 分支，不随扩展发布。切到该分支后指定要测的分支即可（以 `master` 为例），需要 Node.js 20+，无其他依赖：
 
 ```sh
 git checkout test-branch
-SRC=$(mktemp -d) && git archive master scr manifest.json | tar -x -C "$SRC"
-BILISMARTSKIP_SOURCE_DIR="$SRC/scr" node --test tests/*.test.cjs
+node run-tests.cjs master
 ```
 
 `scr/pitch-model.js` 由 `test-branch` 上的 `eval/train-pitch-model.cjs` 根据已审核视频的字幕生成；修改 `ad-signals.js` 的特征提取后需要重新生成。评测方法和当前成绩见该分支的 `eval/README.md`。
