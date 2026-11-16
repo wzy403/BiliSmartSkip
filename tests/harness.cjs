@@ -93,7 +93,10 @@ function createHarness(fixture = {}, { debug } = {}) {
     __video: video
   });
   const scripts = ['constants', 'utils', 'detectors', 'skipper', 'content'];
-  if (fs.existsSync(path.join(sourceDirectory, 'segment-detector.js'))) scripts.splice(3, 0, 'segment-detector');
+  // Optional modules: older snapshots replayed through this harness lack them.
+  for (const name of ['pitch-model', 'ad-signals', 'segment-detector']) {
+    if (fs.existsSync(path.join(sourceDirectory, `${name}.js`))) scripts.splice(scripts.indexOf('skipper'), 0, name);
+  }
   if (fs.existsSync(path.join(sourceDirectory, 'heatmap-verifier.js'))) scripts.splice(scripts.indexOf('content'), 0, 'heatmap-verifier');
   for (const file of scripts) {
     const filename = path.join(sourceDirectory, `${file}.js`);
@@ -113,7 +116,10 @@ function createHarness(fixture = {}, { debug } = {}) {
     setMode(mode) {
       storageListeners.forEach(listener => listener({ skipMode: { newValue: mode } }, 'local'));
     },
+    // First detected interval (or null). Every interval is attached, as in the
+    // extension; snapshots that predate getSkipSegments return their single one.
     async detectAndAttach(mode = 'auto') {
+      if (typeof context.getSkipSegment !== 'function') return (await this.detectAllAndAttach(mode))[0] || null;
       this.setMode(mode);
       const segment = await context.getSkipSegment();
       context.__segment = segment;

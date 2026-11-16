@@ -303,3 +303,35 @@ test('seeking directly into a trusted part retains its ordinary manual and autom
   assert.equal(automatic.button.parentElement, null);
   assert.equal(automatic.uiChanges.appends, 0);
 });
+
+test('an ad that runs to the end of the video stops just short of it and never restarts playback', () => {
+  // Resuming an ended <video> restarts it from 0:00; reaching the end by
+  // itself lets the player finish normally (next video, replay panel).
+  for (const mode of ['auto', 'manual']) {
+    const h = createHarness();
+    h.video.duration = 600;
+    h.setMode(mode);
+    h.context.__segments = [{ start: 560, end: 600, source: 'fixture', requiresConfirmation: false }];
+    h.evaluate('currentVideo = __video; attachSkipper(__segments)');
+    h.tick(565);
+    if (mode === 'manual') h.button.click();
+    assert.equal(h.video.seeks.length, 1, mode);
+    assert.ok(Math.abs(h.video.seeks[0] - 599.7) < 1e-9, mode);
+    let resumed = 0;
+    h.video.play = async () => { resumed++; };
+    h.video.paused = true; h.video.ended = true;
+    h.video.dispatch('seeked');
+    h.advanceTimers(2000);
+    assert.equal(resumed, 0, mode);
+    h.tick(599.8);
+    assert.equal(h.video.seeks.length, 1, `${mode}: no second seek while finishing`);
+  }
+  // Ordinary mid-video ads are unaffected.
+  const h = createHarness();
+  h.video.duration = 600;
+  h.setMode('auto');
+  h.context.__segments = [{ start: 100, end: 160, source: 'fixture', requiresConfirmation: false }];
+  h.evaluate('currentVideo = __video; attachSkipper(__segments)');
+  h.tick(100);
+  assert.deepEqual(h.video.seeks, [160.05]);
+});

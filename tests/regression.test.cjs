@@ -47,15 +47,28 @@ test('真实弹幕回归：短广告的明确跳伞指令不被 30 秒前置门�
     ['BV1yMQrBSE5H', 137.001, '跳伞02：36', 156],
     ['BV1H8iCBEEGG', 128.111, '跳伞2:28', 148]
   ]) {
-    const h = createHarness({ danmaku: [timestamp(text, time)] });
-    const segment = await h.detectAndAttach();
-    assert.ok(segment, bvid);
+    // One comment with nothing to back it up is offered, never taken unprompted:
+    // on the 438 reviewed videos such lone instructions were ads about 58% of the time.
+    const alone = createHarness({ danmaku: [timestamp(text, time)] });
+    const candidate = await alone.detectAndAttach();
+    assert.ok(candidate, bvid);
+    assert.equal(candidate.start, time, bvid);
+    assert.equal(candidate.end, end, bvid);
+    assert.equal(candidate.requiresConfirmation, true, bvid);
+    alone.tick(time);
+    assert.deepEqual(alone.video.seeks, [], bvid);
+    alone.button.click();
+    assert.deepEqual(alone.video.seeks, [end + 0.05], bvid);
+
+    // A viewer thanking the guide on arrival is independent corroboration.
+    const thanked = createHarness({ danmaku: [timestamp(text, time), timestamp('感谢跳伞指路', end + 1)] });
+    const segment = await thanked.detectAndAttach();
     assert.equal(segment.start, time, bvid);
     assert.equal(segment.requiresConfirmation, false, bvid);
-    h.tick(time - 0.001);
-    assert.deepEqual(h.video.seeks, [], bvid);
-    h.tick(time);
-    assert.deepEqual(h.video.seeks, [end + 0.05], bvid);
+    thanked.tick(time - 0.001);
+    assert.deepEqual(thanked.video.seeks, [], bvid);
+    thanked.tick(time);
+    assert.deepEqual(thanked.video.seeks, [end + 0.05], bvid);
   }
 });
 
@@ -136,29 +149,26 @@ test('明确弹幕时轴优先于宽泛字幕并使用用户填写的终点', as
   assert.equal(skip.source, 'danmaku-time');
 });
 
-test('普通孤立时间引用只能手动确认', async () => {
+test('普通孤立时间引用不构成跳过提示', async () => {
+  // A remark about a moment in the video is not an instruction; it used to
+  // raise a "疑似广告" prompt over ordinary content.
   const h = createHarness({ danmaku: [timestamp('看看 2:00 的细节')] });
-  const segment = await h.detectAndAttach();
-  assert.ok(segment);
-  assert.equal(segment.source, 'danmaku-time');
-  assert.equal(segment.requiresConfirmation, true);
+  assert.equal(await h.detectAndAttach(), null);
   h.tick(79);
   assert.equal(h.video.seeks.length, 0);
+  assert.equal(h.button.parentElement, null);
 });
 
-test('弱时轴与字幕冲突时记录差异且不合并成更大区间', async () => {
-  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 5:00', 235)] }, { debug: true });
-  const segment = await h.detectAndAttach();
-  assert.equal(segment.start, 235);
-  assert.equal(segment.end, 300);
-  assert.equal(segment.requiresConfirmation, true);
+test('无关的时间引用不与字幕广告合并成更大区间', async () => {
+  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 5:00', 235)] });
+  const segments = await h.detectAllAndAttach();
+  assert.equal(segments.length, 1);
+  assert.equal(segments[0].source, 'subtitles');
+  assert.ok(segments[0].end <= 110, 'the transcript block stays local');
+  assert.equal(segments[0].requiresConfirmation, true);
   h.tick(79);
   h.tick(235);
   assert.equal(h.video.seeks.length, 0);
-  const crossCheck = diagnostic(h, 'cross-check:');
-  assert.ok(crossCheck);
-  assert.equal(crossCheck.overlap, false);
-  assert.ok(crossCheck.endDelta > 150);
 });
 
 test('重复裸时间引用不能冒充独立投票升级 auto', async () => {
@@ -171,44 +181,42 @@ test('重复裸时间引用不能冒充独立投票升级 auto', async () => {
 });
 
 test('商业字幕和普通时间引用重合也不能升级 auto', async () => {
-  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] }, { debug: true });
+  const h = createHarness({ subtitles: strongSubtitles, danmaku: [timestamp('看看 1:43', 70)] });
   const segment = await h.detectAndAttach();
   assert.ok(segment);
-  assert.equal(segment.requiresConfirmation, true);
-  h.tick(79);
-  assert.equal(h.video.seeks.length, 0);
-  const crossCheck = diagnostic(h, 'cross-check:');
-  assert.ok(crossCheck);
-  assert.equal(crossCheck.overlap, true);
-  assert.equal(crossCheck.requiresConfirmation, true);
-});
-
-test('否定跳过指令不允许自动跳过', async () => {
-  const h = createHarness({ danmaku: [timestamp('不要跳过 2:00')] });
-  const segment = await h.detectAndAttach();
-  assert.ok(segment);
+  assert.equal(segment.end, 103, 'the transcript gives the bare timestamp its meaning');
   assert.equal(segment.requiresConfirmation, true);
   h.tick(79);
   assert.equal(h.video.seeks.length, 0);
 });
 
-for (const text of ['03:10展示传送功能', '03:10的空降兵很厉害', '不要直接空降03:10', '03:10不是广告结束']) {
-  test(`普通描述或否定指令只保留手动候选：${text}`, async () => {
+for (const text of ['不要跳过 2:00', '不要直接空降03:10', '03:10不是广告结束', '别跳03:10']) {
+  test(`否定的跳过指令既不自动跳过也不独自成为提示：${text}`, async () => {
     const h = createHarness({ danmaku: [timestamp(text)] });
-    const segment = await h.detectAndAttach();
-    assert.ok(segment);
-    assert.equal(segment.source, 'danmaku-time');
-    assert.equal(segment.start, 74);
-    assert.equal(segment.end, 190);
-    assert.equal(segment.requiresConfirmation, true);
-    h.tick(74);
+    assert.equal(await h.detectAndAttach(), null);
+    h.tick(79);
     assert.equal(h.video.seeks.length, 0);
-    assert.match(h.button.textContent, /疑似广告/);
+    // Even next to a real instruction a denial adds no trust.
+    const mixed = createHarness({ danmaku: [timestamp(text), timestamp('空降03:10', 76)] });
+    const segment = await mixed.detectAndAttach();
+    assert.equal(segment.requiresConfirmation, true);
+    mixed.tick(79);
+    assert.equal(mixed.video.seeks.length, 0);
   });
 }
 
-for (const text of ['空降03:10', '跳过广告到03:10', '3:10广告结束']) {
-  test(`紧邻时刻的明确指令仍可自动跳过：${text}`, async () => {
+for (const text of ['03:10展示传送功能', '03:10的空降兵很厉害']) {
+  test(`提到跳转词的普通描述最多只是手动候选：${text}`, async () => {
+    const h = createHarness({ danmaku: [timestamp(text)] });
+    const segment = await h.detectAndAttach();
+    if (segment) assert.equal(segment.requiresConfirmation, true);
+    h.tick(74);
+    assert.equal(h.video.seeks.length, 0);
+  });
+}
+
+for (const text of ['跳过广告到03:10', '3:10广告结束', '恭喜接广，空降03:10']) {
+  test(`点明是广告的明确指令可自动跳过：${text}`, async () => {
     const h = createHarness({ danmaku: [timestamp(text)] });
     const segment = await h.detectAndAttach();
     assert.ok(segment);
@@ -222,6 +230,29 @@ for (const text of ['空降03:10', '跳过广告到03:10', '3:10广告结束']) 
     assert.deepEqual(h.video.seeks, [190.05]);
   });
 }
+
+test('只说“空降”的单条指令需要佐证才自动跳过', async () => {
+  const alone = createHarness({ danmaku: [timestamp('空降03:10')] });
+  const candidate = await alone.detectAndAttach();
+  assert.deepEqual([candidate.start, candidate.end, candidate.requiresConfirmation], [74, 190, true]);
+  alone.tick(74);
+  assert.equal(alone.video.seeks.length, 0);
+  assert.match(alone.button.textContent, /疑似广告/);
+
+  for (const [name, extra] of [
+    ['second viewer', timestamp('3:10', 77)],
+    ['thanks on arrival', timestamp('感谢3分10秒侠', 191)],
+    ['arrow-key count', timestamp('向右23下', 75)],
+    ['ad reaction', timestamp('恭喜接广', 80)]
+  ]) {
+    const h = createHarness({ danmaku: [timestamp('空降03:10'), extra] });
+    const segment = await h.detectAndAttach();
+    assert.equal(segment.requiresConfirmation, false, name);
+    assert.equal(segment.end, 190, name);
+    h.tick(78);
+    assert.deepEqual(h.video.seeks, [190.05], name);
+  }
+});
 
 test('时刻解析支持两位分钟且不从超长工程数字截取后缀', () => {
   const h = createHarness();
@@ -254,34 +285,44 @@ test('大量普通时间引用不会压过另一目标的明确指令', async ()
   assert.deepEqual(h.video.seeks, [180.05]);
 });
 
-test('无效时刻和无效区间不产生自动 seek', async () => {
+test('无效时刻和无效区间不产生候选', async () => {
   for (const danmaku of [
     [timestamp('跳过广告 2:99')],
     [timestamp('跳过广告 2:00', NaN)],
     [timestamp('跳过广告 2:00', Infinity)],
-    [timestamp('空降 2:00', 20)],
-    [timestamp('跳过广告 10:00', 500)],
-    [timestamp('跳过广告 9:50', 500)]
+    [timestamp('跳过广告 2:00', -5)],
+    [timestamp('空降 2:00', 20)],          // opening jump without any sign of an ad
+    [timestamp('跳过广告 1:19', 70)],      // nine seconds: shorter than any sponsor read
+    [timestamp('跳过广告 6:15', 74)],      // longer than five minutes
+    [timestamp('跳过广告 11:00', 500)],    // beyond the end of a 600-second video
+    [timestamp('跳过广告 1:00', 74)]       // backwards
   ]) {
     const h = createHarness({ danmaku });
-    assert.equal(await h.detectAndAttach(), null);
+    assert.equal(await h.detectAndAttach(), null, danmaku[0].textContent);
     h.tick(79);
     h.tick(505);
     assert.equal(h.video.seeks.length, 0);
   }
 });
 
-test('区间验证：有限数值、10/180 秒以及片尾 20 秒边界', () => {
-  const h = createHarness();
-  for (const [start, end, expected] of [
-    [60, 70, true], [60, 69.99, false], [59.99, 80, false],
-    [60, 239.99, true], [60, 240, false],
-    [450, 579.99, true], [450, 580, false],
-    [NaN, 120, false], [79, NaN, false],
-    [Infinity, 120, false], [79, Infinity, false]
+test('区间长度边界：10 秒到 300 秒', async () => {
+  for (const [text, time, expected] of [
+    ['跳过广告 1:24', 74, 84], ['跳过广告 1:23', 74, null],
+    ['跳过广告 6:14', 74, 374], ['跳过广告 6:15', 74, null]
   ]) {
-    assert.equal(h.context.checkAdSegVaild({ start, end }, 600), expected, `${start}~${end}`);
+    const segment = await createHarness({ danmaku: [timestamp(text, time)] }).detectAndAttach();
+    assert.equal(segment?.end ?? null, expected, text);
   }
+});
+
+test('片尾广告：指向视频结尾的指令不再被丢弃', async () => {
+  // Sixty-five reviewed ads sit in the last seconds of their video; the old
+  // "not within 20 s of the end" rule discarded every one of them.
+  const h = createHarness({ danmaku: [timestamp('跳过广告 10:00', 500)] });
+  const segment = await h.detectAndAttach();
+  assert.deepEqual([segment.start, segment.end], [500, 600]);
+  const beyond = await createHarness({ danmaku: [timestamp('跳过广告 9:50', 500)] }).detectAndAttach();
+  assert.equal(beyond.end, 590);
 });
 
 test('没有显式可信标记的区间默认禁止自动跳过', () => {
@@ -397,7 +438,7 @@ test('DEBUG 显式关闭时检测与跳过不输出诊断日志', async () => {
   assert.deepEqual(h.logs.slice(startupLogCount), []);
 });
 
-test('DEBUG 显式开启时检测日志包含来源、置信度和命中关键词，test-branch 保留调试默认值', async () => {
+test('DEBUG 显式开启时检测日志包含来源、置信度、依据和命中关键词，test-branch 保留调试默认值', async () => {
   assert.match(fs.readFileSync(path.join(__dirname, '..', 'scr', 'constants.js'), 'utf8'), /^const DEBUG = true;$/m);
   const h = createHarness({ subtitles: strongSubtitles }, { debug: true });
   assert.equal(h.evaluate('DEBUG'), true);
@@ -409,8 +450,9 @@ test('DEBUG 显式开启时检测日志包含来源、置信度和命中关键�
   assert.equal(detail.source, 'subtitles');
   assert.equal(detail.confidence, 'low');
   assert.equal(detail.requiresConfirmation, true);
+  assert.equal(detail.reason, 'commercial-subtitle-block');
   assert.ok(detail.matchedKeywords.some(phrase => phrase.includes('优惠券')));
-  assert.ok(detail.evidenceCategories.includes('offer'));
+  assert.equal(detail.boundaryEvidence.start.kind, 'first-pitch-line');
 });
 
 test('合成矩阵：宽泛字幕的词对/位置/间隔均不能 auto', async t => {
@@ -432,22 +474,34 @@ test('合成矩阵：宽泛字幕的词对/位置/间隔均不能 auto', async t
 
 test('合成矩阵：明确跳过意图保留常见时间格式召回', async t => {
   let scenarios = 0;
-  for (const intent of ['跳过广告', '空降', '跳伞', '指路', '传送', '正片开始']) {
-    for (const [time, end] of [['2:00', 120], ['2：00', 120], ['2;00', 120], ['2；00', 120], ['二分十秒', 130], ['2分0秒', 120]]) {
-      const h = createHarness({ danmaku: [timestamp(`${intent} ${time}`)] });
+  const formats = [['2:00', 120], ['2：00', 120], ['2;00', 120], ['2；00', 120], ['2∶00', 120],
+    ['二分十秒', 130], ['2分0秒', 120], ['两分零五', 125], ['2分05', 125]];
+  for (const intent of ['跳过广告', '空降', '跳伞', '指路', '传送', '正片开始', '跳转', '我是']) {
+    for (const [time, end] of formats) {
+      const text = intent === '我是' ? `我是${time}君` : `${intent} ${time}`;
+      // Alone: always found with the viewer's destination; taken unprompted only
+      // when the comment itself says it is an ad.
+      const alone = createHarness({ danmaku: [timestamp(text)] });
+      const candidate = await alone.detectAndAttach();
+      assert.ok(candidate, text);
+      assert.equal(candidate.end, end, text);
+      assert.equal(candidate.requiresConfirmation, intent !== '跳过广告', text);
+      // With a second viewer naming the same second: taken in auto mode.
+      const h = createHarness({ danmaku: [timestamp(text), timestamp(`${Math.floor(end / 60)}:${String(end % 60).padStart(2, '0')}`, 76)] });
       const segment = await h.detectAndAttach();
-      assert.ok(segment, `${intent} ${time}`);
-      assert.equal(segment.requiresConfirmation, false, `${intent} ${time}`);
+      assert.equal(segment.requiresConfirmation, false, text);
       h.tick(79);
-      assert.deepEqual(h.video.seeks, [end + 0.05], `${intent} ${time}`);
+      assert.deepEqual(h.video.seeks, [end + 0.05], text);
       scenarios++;
     }
   }
-  for (const time of ['200工程', '0200工程']) {
-    const h = createHarness({ danmaku: [timestamp(time)] });
-    assert.ok(await h.detectAndAttach());
+  for (const text of ['200工程', '0200工程', '2.00工程', '░░200工程░░', '200认证成功', '跳伞200', '空降0200']) {
+    const candidate = await createHarness({ danmaku: [timestamp(text)] }).detectAndAttach();
+    assert.equal(candidate?.end, 120, text);
+    const h = createHarness({ danmaku: [timestamp(text), timestamp('感谢200工程', 121)] });
+    assert.ok(await h.detectAndAttach(), text);
     h.tick(79);
-    assert.deepEqual(h.video.seeks, [120.05], time);
+    assert.deepEqual(h.video.seeks, [120.05], text);
     scenarios++;
   }
   t.diagnostic(`${scenarios} synthetic explicit-timestamp scenarios; not real-video recall`);

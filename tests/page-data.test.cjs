@@ -28,8 +28,9 @@ test('exports only public metadata and per-part identifiers for the matching BV'
       ]
     }
   });
+  // The video's AID was only read for the removed heatmap request.
   assert.deepEqual(result, {
-    bvid, aid: 12345, cid: 101, title: 'Video', desc: '00:10 advertisement', duration: 500,
+    bvid, cid: 101, title: 'Video', desc: '00:10 advertisement', duration: 500,
     pages: [{ page: 1, cid: 101, duration: 200 }, { page: 2, cid: 102, duration: 300 }]
   });
 });
@@ -54,7 +55,7 @@ test('does not serialize unexpected nested objects in metadata fields', () => {
     bvid, aid: nested, cid: nested, title: nested, desc: nested, duration: Infinity,
     pages: [null, { page: '2', cid: '102', duration: '300', extra: nested }]
   } }), {
-    bvid, aid: null, cid: null, title: '', desc: '', duration: null,
+    bvid, cid: null, title: '', desc: '', duration: null,
     pages: [{ page: '2', cid: '102', duration: '300' }]
   });
 });

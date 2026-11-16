@@ -52,14 +52,19 @@ test('saved natural promotion recovers the complete break and performs the actua
   assert.equal(h.video.seeks.length, 1, 'post-ad thanks cannot cause another jump');
 });
 
-test('saved compact and dotted engineering timestamps parse without reinterpreting a thank-you as a command', () => {
+test('saved compact and dotted engineering timestamps parse without reinterpreting a thank-you as a command', async () => {
   const h = harness();
+  const read = textContent => h.context.BiliAdSignals.readComment({ time: 150, textContent });
   for (const text of ['310认证成功', '3.10工程']) {
     assert.equal(h.context.extractTimeFromText(text)?.time, 190, text);
+    assert.equal(read(text).pointer.destination, 190, text);
   }
-  assert.equal(h.context.findAdTimestamps([
-    { time: 193.538, textContent: '感谢310工程' }
-  ], 633), null);
+  // Posted after the ad: confirms that 3:10 was a destination, never a jump from here.
+  const thanks = h.context.BiliAdSignals.readComment({ time: 193.538, textContent: '感谢310工程' });
+  assert.equal(thanks.pointer, undefined);
+  assert.equal(thanks.arrival.destination, 190);
+  const alone = harness({ videoInfo: { duration: 633 }, danmaku: [{ time: 193.538, textContent: '感谢310工程' }] });
+  assert.equal((await alone.detectAllAndAttach('auto')).length, 0);
 });
 
 test('ordinary buying reactions do not create an advertising interval on their own', async () => {
@@ -126,35 +131,42 @@ test('sponsor credit followed by a full promotion remains a complete skip interv
   assert.deepEqual(Array.from(h.video.seeks), [100.05]);
 });
 
-test('a timestamp aligns to the next nearby subtitle phrase without skipping the preceding sentence', async () => {
-  const h = harness({
-    subtitles: [
-      { from: 75, to: 82, content: '我们先把刚才的故事完整讲完' },
-      { from: 83.2, to: 88, content: '新用户可以领取优惠券' },
-      { from: 88, to: 94, content: '这款产品可以完成多种功能' },
-      { from: 94, to: 100, content: '点击评论区链接领取优惠' },
-      { from: 100, to: 120, content: '接着介绍本次活动的细节' },
-      { from: 120, to: 126, content: '我们继续讲故事' }
-    ],
-    danmaku: [{ time: 80.4, textContent: '跳过广告2:00' }]
-  });
+test('a single comment starts the skip at the subtitle line being spoken, never mid-sentence', async () => {
+  // Reviewed ad starts sit on subtitle line starts, and a lone comment usually
+  // lands a few seconds into the ad's first sentence (development data: backing
+  // up to that line start recovers 15 more ads than jumping to the next line).
+  const subtitles = [
+    { from: 60, to: 78, content: '我们先把刚才的故事完整讲完' },
+    { from: 78.4, to: 83.2, content: '说到这里不得不提一下今天的合作伙伴' },
+    { from: 83.2, to: 88, content: '新用户可以领取优惠券' },
+    { from: 88, to: 94, content: '这款产品可以完成多种功能' },
+    { from: 94, to: 100, content: '点击评论区链接领取优惠' },
+    { from: 100, to: 120, content: '接着介绍本次活动的细节' },
+    { from: 120, to: 126, content: '我们继续讲故事' }
+  ];
+  const h = harness({ subtitles, danmaku: [{ time: 80.4, textContent: '跳过广告2:00' }] });
   const segments = await h.detectAllAndAttach('auto');
   assert.equal(segments.length, 1);
-  assert.equal(segments[0].start, 83.2);
+  assert.equal(segments[0].start, 78.4);
   assert.equal(segments[0].end, 120);
-  h.tick(80.4);
-  h.tick(83.199);
+  h.tick(78.399);
   assert.deepEqual(Array.from(h.video.seeks), []);
-  h.tick(83.2);
+  h.tick(78.4);
   assert.deepEqual(Array.from(h.video.seeks), [120.05]);
+
+  // A comment posted during silence keeps its own time: the previous sentence had finished.
+  const silent = harness({ subtitles: subtitles.filter(line => line.from !== 78.4),
+    danmaku: [{ time: 80.4, textContent: '跳过广告2:00' }] });
+  assert.equal((await silent.detectAllAndAttach('auto'))[0].start, 80.4);
 });
 
-test('a lone anticipatory jump cannot pull a repeated local timestamp cluster into the story', async () => {
+test('a lone anticipatory jump cannot pull a later burst of comments into the story', async () => {
   const h = harness({ danmaku: [
-    { time: 105, textContent: '跳伞2:40' },
     { time: 65, textContent: '空降2:40' },
-    { time: 60, textContent: '看看2:40的画面' },
-    { time: 100, textContent: '空降2:40' }
+    { time: 100, textContent: '空降2:40' },
+    { time: 101.5, textContent: '2:40' },
+    { time: 103, textContent: '跳伞2:40' },
+    { time: 131, textContent: '空降2:40' }
   ] });
   const segments = await h.detectAllAndAttach('auto');
   assert.equal(segments.length, 1);
@@ -167,110 +179,108 @@ test('a lone anticipatory jump cannot pull a repeated local timestamp cluster in
   assert.deepEqual(Array.from(h.video.seeks), [160.05]);
 });
 
-test('a generic jump across ordinary subtitles remains manual and still accepts a user click', async () => {
-  const h = harness({
-    subtitles: [
-      { from: 70, to: 80, content: '这一关需要等待角色走完楼梯' },
-      { from: 80, to: 90, content: '现在检查房间的左侧' },
-      { from: 90, to: 100, content: '然后从另一扇门出去' },
-      { from: 100, to: 120, content: '最后沿着原来的路线返回' },
-      { from: 120, to: 130, content: '下一关马上开始' }
-    ],
-    danmaku: [{ time: 80, textContent: '空降2:00' }]
-  });
-  const segments = await h.detectAllAndAttach('auto');
-  assert.equal(segments.length, 1);
-  assert.equal(segments[0].start, 80);
-  assert.equal(segments[0].end, 120);
-  assert.equal(segments[0].requiresConfirmation, true);
+test('two lone comments far apart begin at the later one; close together at the first', async () => {
+  for (const [first, second, start] of [[65, 100, 100], [96, 100, 96]]) {
+    const h = harness({ danmaku: [{ time: first, textContent: '空降2:40' }, { time: second, textContent: '跳伞2:40' }] });
+    const segments = await h.detectAllAndAttach('auto');
+    assert.deepEqual([segments[0].start, segments[0].end], [start, 160]);
+  }
+});
+
+const ordinarySubtitles = [
+  { from: 70, to: 80, content: '这一关需要等待角色走完楼梯' },
+  { from: 80, to: 90, content: '现在检查房间的左侧' },
+  { from: 90, to: 100, content: '然后从另一扇门出去' },
+  { from: 100, to: 120, content: '最后沿着原来的路线返回' },
+  { from: 120, to: 130, content: '下一关马上开始' }
+];
+
+test('a generic jump across ordinary subtitles is not offered as an ad', async () => {
+  // The transcript covers the whole jump and says nothing commercial, nobody
+  // reacted to an ad and nobody thanked the guide: on the reviewed videos such
+  // jumps were not ads about two times in three.
+  const h = harness({ subtitles: ordinarySubtitles, danmaku: [{ time: 80, textContent: '空降2:00' }] });
+  assert.equal((await h.detectAllAndAttach('auto')).length, 0);
   h.tick(80);
   h.tick(90);
   assert.deepEqual(Array.from(h.video.seeks), []);
-  h.button.click();
-  assert.deepEqual(Array.from(h.video.seeks), [120.05]);
+
+  // The same jump without any transcript cannot be checked: offer it, do not take it.
+  const blind = harness({ danmaku: [{ time: 80, textContent: '空降2:00' }] });
+  const [candidate] = await blind.detectAllAndAttach('auto');
+  assert.deepEqual([candidate.start, candidate.end, candidate.requiresConfirmation], [80, 120, true]);
+  blind.tick(80);
+  assert.deepEqual(Array.from(blind.video.seeks), []);
+  blind.button.click();
+  assert.deepEqual(Array.from(blind.video.seeks), [120.05]);
 });
 
-test('a local promotion plus its route corroborates a generic jump; either signal alone does not', async () => {
-  for (const [promotion, route, automatic] of [[true, false, false], [false, true, false], [true, true, true]]) {
+test('transcript evidence inside the jump decides whether a generic jump is offered or taken', async () => {
+  for (const [name, lines, expected] of [
+    ['one strong phrase', { 100: '点击视频下方的链接' }, null],
+    ['two strong phrases', { 80: '平台正在周年大促', 100: '点击视频下方的链接' }, 'manual'],
+    ['a decisive phrase', { 100: '点击评论区链接领取优惠券' }, 'auto']
+  ]) {
     const h = harness({
       subtitles: [
         // An unrelated earlier promotion must not corroborate this interval.
-        { from: 10, to: 14, content: '平台正在周年大促' },
-        { from: 70, to: 80, content: '这一段即将开始' },
-        { from: 80, to: 90, content: promotion ? '平台正在周年大促' : '现在检查房间的左侧' },
-        { from: 90, to: 100, content: '下面展示具体的内容' },
-        { from: 100, to: 110, content: route ? '点击视频下方的链接' : '然后从另一扇门出去' },
-        { from: 110, to: 120, content: '这一部分就介绍到这里' },
-        { from: 120, to: 130, content: '下一段马上开始' }
+        { from: 10, to: 14, content: '点击评论区链接领取优惠券' },
+        ...ordinarySubtitles.map(line => ({ ...line, content: lines[line.from] || line.content }))
       ],
       danmaku: [{ time: 80, textContent: '空降2:00' }]
     });
-    const segments = await h.detectAllAndAttach('auto');
-    assert.equal(segments.length, 1, `promotion=${promotion}, route=${route}`);
-    assert.equal(segments[0].requiresConfirmation, !automatic);
-    assert.equal(segments[0].start, 80);
-    assert.equal(segments[0].end, 120);
+    const jump = (await h.detectAllAndAttach('auto')).find(segment => segment.source === 'danmaku-time');
+    assert.equal(jump ? (jump.requiresConfirmation ? 'manual' : 'auto') : null, expected, name);
+    if (jump) assert.deepEqual([jump.start, jump.end], [80, 120], name);
     h.tick(80);
-    assert.deepEqual(Array.from(h.video.seeks), automatic ? [120.05] : []);
+    assert.deepEqual(Array.from(h.video.seeks), expected === 'auto' ? [120.05] : [], name);
   }
 });
 
-const ordinaryJumpInput = (reactions = []) => ({
-  subtitles: [
-    { from: 70, to: 80, content: '这一关需要等待角色走完楼梯' },
-    { from: 80, to: 90, content: '现在检查房间的左侧' },
-    { from: 90, to: 100, content: '然后从另一扇门出去' },
-    { from: 100, to: 120, content: '最后沿着原来的路线返回' },
-    { from: 120, to: 130, content: '下一关马上开始' }
-  ],
-  danmaku: [{ time: 80, textContent: '空降2:00' }, ...reactions]
+test('one evidence family failing leaves the others working and is reported', async () => {
+  for (const module of ['BiliSegmentDetector', 'BiliAdSignals']) {
+    const h = harness({
+      chapters: [{ from: 200, to: 250, content: '广告' }],
+      danmaku: [{ time: 80, textContent: '跳过广告2:00' }]
+    });
+    h.context[module] = new Proxy({}, { get: () => () => { throw new Error('regression: detector failure'); } });
+    const segments = await h.detectAllAndAttach('auto');
+    assert.ok(segments.some(segment => segment.source === 'chapters'), module);
+    assert.equal(segments.some(segment => segment.source === 'danmaku-time'), module !== 'BiliAdSignals', module);
+    assert.ok(h.logs.some(log => log.level === 'warn' && String(log.args[0]).includes('detection failed')), module);
+    h.tick(200);
+    assert.deepEqual(Array.from(h.video.seeks), [250.05], module);
+  }
 });
 
-test('complete-detector failure retains the refined manual fallback for a generic jump', async () => {
-  const h = harness(ordinaryJumpInput());
-  h.context.BiliSegmentDetector = { detectSegments() { throw new Error('regression: detector failure'); } };
-  const segments = await h.detectAllAndAttach('auto');
-  assert.equal(segments.length, 1);
-  assert.equal(segments[0].start, 80);
-  assert.equal(segments[0].end, 120);
-  assert.equal(segments[0].requiresConfirmation, true);
-  assert.ok(h.logs.some(log => log.level === 'warn' && String(log.args[0]).includes('complete-segment detection failed')));
-  h.tick(80);
-  h.tick(90);
-  assert.deepEqual(Array.from(h.video.seeks), []);
-  h.button.click();
-  assert.deepEqual(Array.from(h.video.seeks), [120.05]);
-});
-
-test('negative advertisement reactions cannot authorize an otherwise unsupported automatic jump', async () => {
-  for (const textContent of ['不含广告', '非广告', '拒绝商单']) {
-    const h = harness(ordinaryJumpInput([{ time: 90, textContent }]));
+test('reactions that deny an ad cannot corroborate a jump', async () => {
+  for (const [textContent, corroborates] of [['不含广告', false], ['非广告', false], ['拒绝商单', false],
+    ['这是不是广告', false], ['居然没广告', false], ['恭喜接广', true], ['感谢金主', true]]) {
+    const h = harness({ danmaku: [{ time: 80, textContent: '空降2:00' }, { time: 90, textContent }] });
     const segments = await h.detectAllAndAttach('auto');
     assert.equal(segments.length, 1, textContent);
-    assert.equal(segments[0].requiresConfirmation, true, textContent);
+    assert.equal(segments[0].requiresConfirmation, !corroborates, textContent);
     h.tick(80);
     h.tick(90);
     h.advanceTimers(10000);
-    assert.deepEqual(Array.from(h.video.seeks), [], textContent);
+    assert.deepEqual(Array.from(h.video.seeks), corroborates ? [120.05] : [], textContent);
   }
 });
 
-test('explicit promotion-start and return clusters retain their complete manual interval', async () => {
+test('comments without any destination do not mark an interval', async () => {
+  // "开始推广 … 回归正片" pairs and purchase chatter used to be turned into guessed
+  // intervals; on the reviewed videos 12 of those 24 guesses covered ordinary content.
   const h = harness({ danmaku: [
     { time: 100, textContent: '开始推广' },
     { time: 102, textContent: '开始推广啦' },
+    { time: 110, textContent: '已买' },
     { time: 150, textContent: '回归正片' },
     { time: 152, textContent: '回归正片了' }
   ] });
-  const segments = await h.detectAllAndAttach('auto');
-  assert.equal(segments.length, 1);
-  assert.equal(segments[0].start, 100);
-  assert.equal(segments[0].end, 152);
-  assert.equal(segments[0].requiresConfirmation, true);
+  assert.equal((await h.detectAllAndAttach('auto')).length, 0);
   h.tick(100);
   assert.deepEqual(Array.from(h.video.seeks), []);
-  h.button.click();
-  assert.deepEqual(Array.from(h.video.seeks), [152.05]);
+  assert.equal(h.button.parentElement, null);
 });
 
 test('a distant advertisement reaction cannot outweigh a locally repeated earlier destination', async () => {

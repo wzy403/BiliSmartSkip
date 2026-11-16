@@ -19,7 +19,9 @@ function loadProduction(ref, { sourceDir } = {}) {
   const hasModule = name => manifest
     ? manifest.content_scripts.some(script => script.js?.some(filename => filename.endsWith(`/${name}.js`)))
     : fs.existsSync(path.join(directory || path.join(repoRoot, 'scr'), `${name}.js`));
-  if (hasModule('segment-detector')) scripts.splice(3, 0, 'segment-detector');
+  for (const name of ['pitch-model', 'ad-signals', 'segment-detector']) {
+    if (hasModule(name)) scripts.splice(scripts.indexOf('skipper'), 0, name);
+  }
   if (hasModule('heatmap-verifier')) scripts.splice(scripts.indexOf('content'), 0, 'heatmap-verifier');
   const sources = new Map(scripts.map(name => {
     const filename = path.join(repoRoot, 'scr', `${name}.js`);

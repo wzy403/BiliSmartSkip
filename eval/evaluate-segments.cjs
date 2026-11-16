@@ -25,8 +25,10 @@ function detectorInput(record) {
     desc: record.desc || '', chapters: record.chapters || [], subtitles: record.subtitles || [], danmaku: record.danmaku || [] });
 }
 function normalizeReplay(record, result) {
-  const failed = (result.diagnostics || []).find(diagnostic => /complete[- ]segment detection failed/i.test(JSON.stringify(diagnostic)));
-  if (failed) throw new Error(`Complete-segment detector fell back after failure: ${JSON.stringify(failed).slice(0, 1500)}`);
+  // Any evidence family that threw is an evaluation error, even though the
+  // extension keeps the other families' candidates at run time.
+  const failed = (result.diagnostics || []).find(diagnostic => /detection failed/i.test(JSON.stringify(diagnostic)));
+  if (failed) throw new Error(`A detector fell back after failure: ${JSON.stringify(failed).slice(0, 1500)}`);
   const candidates = result.candidates ?? (result.candidate ? [result.candidate] : []);
   const automaticSegments = result.automaticSegments ?? (result.auto ? [result.auto] : []);
   const seekDestinations = result.seekDestinations;

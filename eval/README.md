@@ -1,5 +1,39 @@
 # 独立测试分支：回放、采集与人工审核
 
+## 当前算法与成绩（2026-11-12）
+
+算法分支现在把四类证据融合成一条管线：作者标注、弹幕指路（含到达确认与广告反应）、字幕口播、赞助声明段。实现在算法分支的 `scr/ad-signals.js` 与 `scr/content.js`；`scr/pitch-model.js` 是由本分支脚本生成的口播词表，只用于给已确认的广告定首尾。热度过滤及其权限已删除，`experiments/heatmap-*` 下的脚本只适用于旧提交 `052d385`。
+
+同一冻结基准、同一评分（两端各 ±5 秒）：
+
+| 范围 | 正确标记数/总标记数 | 标记正确率 | 误标正文 | 广告基本跳完整的视频 | 自动跳转 段/正确/落在广告内/误跳正文 |
+| --- | --- | --- | --- | --- | --- |
+| development · 上一轮 `052d385` | 112/256 | 43.8% | 23 (9.0%) | 97/347 | 95 / 57 / 34 / 4 |
+| development · 本轮，5 折交叉验证 | 205/309 | 66.3% | 29 (9.4%) | 181/347 | 171 / 135 / 32 / 4 |
+| validation · 上一轮 | 1/13 | 7.7% | 1 | 0/21 | 2 / 1 / 1 / 0 |
+| validation · 本轮（词表从未见过） | 9/15 | 60.0% | 1 | 7/21 | 7 / 3 / 3 / 0 |
+
+词表是用 development 的标签拟合的，直接在 development 上回放会偏乐观（222/309，完整 438 为 231/324）。**对外只引用交叉验证和 validation 两行。** validation 只有 21 个带广告的视频，只能说明方向。完整说明、不给字幕时的对照、试过未采用的方案和已知局限见 [experiments/evidence-fusion-20261112/NOTES.txt](experiments/evidence-fusion-20261112/NOTES.txt)。
+
+```sh
+SRC=$(mktemp -d) && git archive fix/improve-detction-rate scr manifest.json | tar -x -C "$SRC"   # 或直接指向算法工作树的上级目录
+node eval/restore-content-inputs.cjs && node eval/content-benchmark.cjs check
+node eval/compare-release-markings.cjs "$SRC/scr" eval/output/all.json all            # 与 2.0.1 / 2.1.0 对照（本轮为训练集内）
+node eval/cross-validate-pitch-model.cjs "$SRC/scr" eval/output/cv.json                # 无偏估计 + validation + 自动跳转统计
+node eval/cross-validate-pitch-model.cjs "$SRC/scr" eval/output/cv-nosub.json no-subtitles   # 模拟拿不到字幕
+BILISMARTSKIP_SOURCE_DIR="$SRC/scr" node --test tests/*.test.cjs eval/*.test.cjs eval/*.test.mjs eval/labels/*.test.cjs eval/review/*.test.cjs
+```
+
+改了 `ad-signals.js` 里的 `lineFeatures`，或者基准标签有了新版本，需要重新生成词表（确定性输出，测试会核对它与基准一致）：
+
+```sh
+node eval/train-pitch-model.cjs <算法工作树>/scr      # 写入 <算法工作树>/scr/pitch-model.js
+```
+
+调参只看 development 的交叉验证；一个改动的收益在 ±3 个标记以内按噪声处理。不要据 validation 调参，也不要把训练集内的数字当成绩。
+
+下面是此前各轮的历史说明。
+
 `tests/` 和 `eval/` 保存在 `test-branch`，不随生产扩展发布。生产算法位于 `fix/improve-detction-rate`；测试时可临时导出该分支的源码，无需合并分支或挂载工作树。**不要把 `test-branch` 整支合并回 master**。
 
 2026-10-06 已将回测不使用的 27 个下载原视频从尚未推送成功的测试分支历史中永久移除，解决 GitHub 大文件拒绝问题；这些原片不再支持 Git 恢复。全部采集脚本、审核记录、最终字幕和证据截图仍保留，497 份字幕采集中间文件仍可离线恢复。[v2 归档清单](archives/extra300-acquisition-20261006-v2.json) 区分 `purged` 和 `git` 状态。必留目录、空间说明、当前离线测试/回测命令及字幕归档恢复方法见 [CLEANUP-NOTES.txt](CLEANUP-NOTES.txt)。旧归档与验收保留原字节，仅代表当时状态。下面保留历史工具说明；历史 `.codex` 工作树路径已经停用。

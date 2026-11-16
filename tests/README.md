@@ -1,5 +1,20 @@
 # 数据获取、Issue #14 与多段跳过回归
 
+**2026-11-12 更新**：检测管线已改为多证据融合（见 [评测说明](../eval/README.md)）。下列测试随之调整，旧行为的断言凡是有意改变的都在测试里写明了原因：
+
+- `ad-signals.test.cjs`（新）：弹幕写法解析、到达确认、广告反应、目的地聚类、起点取法、自动/手动条件、词表打分。
+- `subtitle-blocks.test.cjs`（原 `subtitle-local.test.cjs`）：字幕口播段——普通词不成段、链接话术要挨着可买可领的东西、单句鸣谢不算、片尾短回扣、换行拼接。
+- `regression.test.cjs`、`optimization-regression.test.cjs`、`early-timestamp.test.cjs`、`label-confidence.test.cjs`、`multiple-segments.test.cjs`：按新策略更新。主要变化：没有任何佐证的单条“空降 X:XX”改为手动提示；字幕覆盖且毫无商业内容的单条指路不再提示；普通时间引用和否定指令不再生成提示；片尾广告与多段标注全部保留；跨来源取舍函数改名为 `reconcileSegments`。
+- `skipper-ui.test.cjs`：新增“广告直到片尾时不重播”。
+- 已删除 `heatmap-pipeline.test.cjs`、`heatmap-verifier.test.cjs`（对应的生产模块已移除）。
+- `../eval/train-pitch-model.test.cjs`（新）：词表训练的确定性、序列化、与基准的一致性、validation 不进训练。
+
+两个原用户案例（`BV1r1421r7am`、自然植入的拼多多促销）仍然通过，未改断言。
+
+运行时必须把 `BILISMARTSKIP_SOURCE_DIR` 指向算法分支的 `scr`；本分支自带的 `scr/` 是旧版本，只用于 DEBUG 默认值检查。
+
+以下为此前的说明。
+
 当前完整回归包含算法优化和热度辅助验证，请使用 [空间整理与当前运行命令](../eval/CLEANUP-NOTES.txt) 导出 `fix/improve-detction-rate` 的源码后执行。原片、字幕采集中间检查点不参与这些测试。下文旧 `.codex` 路径已停用。
 
 `test-branch` 长期保持 `scr/constants.js` 中的 `DEBUG = true`，合并 `master` 更新时保留此分支设置。测试默认使用该设置，并单独验证显式关闭 DEBUG 时不输出检测与跳过日志。

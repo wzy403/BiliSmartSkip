@@ -68,11 +68,13 @@ test('conflicting timestamp destinations are exposed and cannot authorize automa
 });
 
 test('decorated isolated instructions are supported without stripping narrative or negation', () => {
-  for (const textContent of ['░░120工程░░', '120工程']) {
+  // "120工程是辆好车" is the same instruction in its meme form: viewers post it
+  // as the ad starts (e.g. "753工程是辆好车" in BV1oQEe6gEFg).
+  for (const textContent of ['░░120工程░░', '120工程', '░120工程是辆好车░', '1.20工程', '空降120']) {
     const record = input(ad().slice(0, -1)); record.danmaku = [{ time: 42, textContent }];
-    assert.equal(detectSegments(record, helpers)[0].autoEligible, true);
+    assert.equal(detectSegments(record, helpers)[0].autoEligible, true, textContent);
   }
-  for (const textContent of ['░120工程是辆好车░', '不要空降1:20', '他说1:20是开始', '1:20']) {
+  for (const textContent of ['不要空降1:20', '别跳1:20', '他说1:20是开始', '1:20']) {
     const record = input(ad().slice(0, -1)); record.danmaku = [{ time: 42, textContent }];
     assert.equal(detectSegments(record, helpers)[0].autoEligible, false, textContent);
   }
