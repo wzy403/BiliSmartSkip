@@ -5,7 +5,6 @@
 // === Global State ===
 let SKIP_MODE = 'manual';
 let SKIP_SHORTCUT = null;
-let skipped = false;
 const skippedSegments = new Set();
 let isBtnAdd = false;
 let currentVideo = null;
@@ -62,7 +61,8 @@ function registerShortcutListener() {
     if (e.shiftKey !== !!SKIP_SHORTCUT.shiftKey) return;
     if (e.metaKey !== !!SKIP_SHORTCUT.metaKey) return;
 
-    if (!isBtnAdd || !btn.parentElement || !skipButtonSegment || skipped) return;
+    // The shortcut does what the visible button does, nothing more.
+    if (!isBtnAdd || !btn.parentElement || !skipButtonSegment) return;
 
     e.preventDefault();
     e.stopPropagation();
@@ -90,7 +90,6 @@ function mainLogic() {
 // === Lifecycle ===
 function cleanUp() {
   detectionGeneration++;
-  skipped = false;
   skippedSegments.clear();
   isBtnAdd = false;
   currentAdSegment = null;

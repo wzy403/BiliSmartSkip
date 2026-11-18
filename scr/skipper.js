@@ -8,6 +8,9 @@ let buttonEventHandlers = {
   pause: null
 };
 let skipButtonSegment = null;
+// The most recent skip: where it sent the player and whether that seek has
+// finished. Cleared as soon as the viewer is seen outside the ad.
+let lastSkip = null;
 
 // === Style the skip button ===
 const btn = document.createElement('button');
@@ -60,29 +63,40 @@ function attachSkipper(segment) {
   if (currentAdSkipHandler) currentVideo.removeEventListener('timeupdate', currentAdSkipHandler);
   btnCleanUp();
   isBtnAdd = false;
+  lastSkip = null;
   log('attachSkipper:', { segmentCount: segments.length });
   currentAdSkipHandler = () => {
     const t = currentVideo.currentTime;
     const active = segments.find(item => t >= item.start && t < item.end);
     const prompt = prompts.find(item => t >= item.start && t < item.end) || null;
-    if (prompt !== currentPrompt) {
+    // A visit is one stay inside an ad, and each visit offers its button once
+    // (isBtnAdd stays set after that button expires or is used). A new visit
+    // starts when the viewer enters or leaves an ad, or is still inside it
+    // after a skip has finished: they came back, or the seek did not happen.
+    // The second of slack is for an ad that runs to the end of the video,
+    // where the skip itself lands just inside the ad.
+    const cameBack = !!prompt && !!lastSkip?.settled && t < lastSkip.destination - 1;
+    if (prompt !== currentPrompt || cameBack) {
       btnCleanUp();
       isBtnAdd = false;
       currentPrompt = prompt;
+      lastSkip = null;
     }
     currentAdSegment = active || null;
     if (!prompt) return;
     // Trust and repeat prevention belong to each interval, not to the video.
     const requiresConfirmation = active?.requiresConfirmation !== false;
-    skipped = !!active && skippedSegments.has(`${active.start}:${active.end}`);
+    const alreadySkipped = !!active && skippedSegments.has(`${active.start}:${active.end}`);
     isSuspiciousAd = requiresConfirmation;
-    if (active && SKIP_MODE === 'auto' && !skipped && !requiresConfirmation) {
+    if (active && SKIP_MODE === 'auto' && !alreadySkipped && !requiresConfirmation) {
+      // Unprompted only the first time. A viewer who comes back gets the
+      // button instead, so a wrong detection can always be watched.
       skipToEnd(active.end, 'auto');
     } else if (btn.parentElement && !requiresConfirmation && buttonEventHandlers.play) {
       // Confirmation can upgrade the visible prompt without removing/readding it.
       cleanUpCountdown();
       btn.textContent = '跳过广告';
-    } else if (!isBtnAdd && !prompt.members.some(item => skippedSegments.has(`${item.start}:${item.end}`))) {
+    } else if (!isBtnAdd) {
       addSkipBtn(prompt.end, requiresConfirmation, prompt);
     }
   };
@@ -91,7 +105,7 @@ function attachSkipper(segment) {
 }
 
 function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
-  // Guard: if video ref is stale, bail out without setting skipped
+  // Guard: if video ref is stale, bail out without recording a skip
   if (!currentVideo || !currentVideo.isConnected) {
     log('skipToEnd: video element not connected, aborting');
     return;
@@ -105,8 +119,7 @@ function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
     return;
   }
 
-  // 立即设置 skipped，防止 timeupdate 在 seeked 回调前重复触发 skipToEnd
-  skipped = true;
+  // 先记下已跳过，防止 timeupdate 在 seeked 回调前重复触发 skipToEnd
   for (const member of target.members || [target]) skippedSegments.add(`${member.start}:${member.end}`);
 
   const wasPlaying = !currentVideo.paused;
@@ -116,22 +129,22 @@ function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
     confidence: target.confidence, wasPlaying
   });
 
-  // Clean up UI immediately
+  // Clean up UI immediately. This visit has had its turn: no second button
+  // while the seek is in flight or once it has landed.
   btnCleanUp();
-  isBtnAdd = false;
+  isBtnAdd = true;
 
   // Perform the seek. An ad that runs to the end of the video stops just short
   // of it: the player then finishes on its own, instead of being asked to
   // resume an ended video (which would restart it from the beginning).
   const lastPlayable = Number.isFinite(currentVideo.duration) ? currentVideo.duration - 0.3 : Infinity;
-  currentVideo.currentTime = Math.max(position, Math.min(end + 0.05, lastPlayable));
+  const skip = lastSkip = { destination: Math.max(position, Math.min(end + 0.05, lastPlayable)), settled: false };
+  currentVideo.currentTime = skip.destination;
 
   // Use seeked event to confirm seek, with a timeout fallback
-  let settled = false;
-
   function onSeeked() {
-    if (settled) return;
-    settled = true;
+    if (skip.settled) return;
+    skip.settled = true;
     currentVideo.removeEventListener('seeked', onSeeked);
     clearTimeout(fallbackTimer);
     ensurePlaying(wasPlaying);
@@ -141,8 +154,8 @@ function skipToEnd(end, trigger = 'manual', target = currentAdSegment) {
 
   // Fallback: if seeked never fires within 1 second, proceed anyway
   const fallbackTimer = setTimeout(() => {
-    if (settled) return;
-    settled = true;
+    if (skip.settled) return;
+    skip.settled = true;
     currentVideo.removeEventListener('seeked', onSeeked);
     log('skipToEnd: seeked event timed out, using fallback');
     ensurePlaying(wasPlaying);
