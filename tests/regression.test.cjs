@@ -404,15 +404,21 @@ test('manual 切到 auto 不会把字幕升级成可靠时轴', async () => {
   assert.equal(h.video.seeks.length, 0);
 });
 
-test('timeupdate 重入和回看均只自动跳过一次', async () => {
+test('timeupdate 重入和回看均只自动跳过一次，回看时改为显示按钮', async () => {
   const h = createHarness({ danmaku: [timestamp()] });
   await h.detectAndAttach();
   h.tick(79);
   h.tick(80); // Seek completion is deliberately delayed.
+  assert.equal(h.button.parentElement, null, 'no button while the seek is still in flight');
   h.video.dispatch('seeked');
   h.advanceTimers(2_000);
   h.tick(79); // User seeks backwards into the segment.
   assert.deepEqual(h.video.seeks, [120.05]);
+  // A wrong detection must stay watchable, and skippable again on request.
+  assert.ok(h.button.parentElement);
+  assert.equal(h.button.textContent, '跳过广告');
+  h.button.click();
+  assert.deepEqual(h.video.seeks, [120.05, 120.05]);
 });
 
 test('疑似广告倒计时结束不会触发 seek', async () => {
